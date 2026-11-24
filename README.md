@@ -1,5 +1,0 @@
-# AI Creator Academy 6.4.1 — Beta
-
-Due percorsi: AI Creator & Developer (120 sessioni) e AI Business & Management (144 sessioni). Tutti i file sono nella radice, incluse le tre icone PNG. Pubblicare solo nel repository AI-Creator-Academy. Non caricare il file ZIP.
-
-264 sessioni, due percorsi, ID conservati. Due domande per sessione: autoverifica precedente e domanda ricavata dalla masterclass settimanale (ripetuta nella settimana). Risposte e punteggio corrente nel profilo cifrato; riepilogo per corso. Non è un esame indipendente. Rivisitazione CSS e cache. PL-900 collegato al percorso italiano verificato tramite catalogo Microsoft; riscontri Make Foundation e Advanced nel catalogo, non verifica HTTP integrale. Gli altri link restano da verificare. Sintassi JS, ID, struttura delle risposte e integrità archivio controllati. Test browser bloccato da ERR_BLOCKED_BY_ADMINISTRATOR; persistenza reale, backup, offline e sicurezza non collaudati. Nessuna pubblicazione effettuata. Pubblicare esclusivamente in repository indipendente.
