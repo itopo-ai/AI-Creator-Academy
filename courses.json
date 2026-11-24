@@ -1,0 +1,18 @@
+{
+  "courses": [
+    {
+      "id": "ai-creator",
+      "title": "AI Creator & Developer",
+      "subtitle": "24 settimane · 120 sessioni · crea app, automazioni e prodotti digitali",
+      "file": "curriculum-creator.json",
+      "color": "#8255D9"
+    },
+    {
+      "id": "ai-business",
+      "title": "AI Business & Management",
+      "subtitle": "48 settimane · strategia, controllo di gestione, dati e processi aziendali",
+      "file": "curriculum-business.json",
+      "color": "#1D9A68"
+    }
+  ]
+}
