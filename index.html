@@ -554,7 +554,7 @@ function validProgress(v){
   if(!obj(v) || (!obj(v.courses)&&!obj(v.sessions))) return false;
   if(v.days!==undefined && (!Array.isArray(v.days)||!v.days.every(x=>typeof x==='string'))) return false;
   const courses=v.courses||{};
-  for(const c of Object.values(courses)) { if(!obj(c)||!obj(c.sessions)) return false; for(const s of Object.values(c.sessions)) { if(!obj(s)||!obj(s.steps)||!obj(s.quiz)||!obj(s.criteria)||typeof s.notes!=='string') return false; } }
+  for(const c of Object.values(courses)) { if(!obj(c)||!obj(c.sessions)) return false; for(const s of Object.values(c.sessions)) { if(!obj(s)||!obj(s.steps)||!obj(s.quiz)||!obj(s.criteria)||typeof s.notes!=='string') return false; if(s.assessment!==undefined && (!obj(s.assessment)||!Object.values(s.assessment).every(x=>Number.isInteger(x)&&x>=0&&x<=2))) return false; } }
   if(v.studio!==undefined && (!Array.isArray(v.studio)||!v.studio.every(x=>obj(x)&&typeof x.title==='string'&&typeof x.body==='string'))) return false;
   return true;
 }
