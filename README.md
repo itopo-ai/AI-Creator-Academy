@@ -1,6 +1,6 @@
 # AI Creator Academy 6.6.0 — Excellence Learning (sviluppo)
 
-Dizionario IT e AI: 114 termini, ricerca, categorie e accesso da scelta corsi, dashboard e lezioni. Revisione didattica e collaudo ancora da completare.
+Dizionario IT e AI: 114 termini, ricerca, categorie e accesso da scelta corsi, dashboard e lezioni. Quiz avanzati: 264 domande contestualizzate con alternative tematiche e feedback; indici delle risposte corrette invariati. Controllo strutturale eseguito. Quiz base, verifica online delle risorse e collaudo browser/iPhone ancora da completare.
 
 # AI Creator Academy 6.5.1 — Learning Introduction
 
