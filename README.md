@@ -14,3 +14,11 @@ Due percorsi: AI Creator & Developer (120 sessioni) e AI Business & Management (
 
 ## 6.5.0 — Professional Design
 Revisione di dashboard, selettore corsi, navigazione, lezioni, quiz e menu Pro. Percentuale lezione = attività spuntate / attività previste, arrotondata; distinta dal punteggio quiz e dalla conferma di fine sessione. Usa i progressi già salvati, senza migrazione. Curriculum invariati. Test statici e formula verificati; nuovo collaudo Safari necessario. Backup e installazione ancora da verificare.
+
+
+### QA 6.6.1 — controlli eseguiti
+- Sintassi JavaScript index.html e sw.js: superata.
+- 114 termini univoci, ricerca simulata su cinque input.
+- Validazione backup: quattro casi superati, inclusa compatibilità con dati precedenti senza assessment.
+- Avanzamento lezione: sei stati da 0 a 100% verificati su dati simulati.
+- Restano test browser/Safari, installazione PWA, offline, backup cifrato end-to-end, aggiornamento e verifica completa dei link.
