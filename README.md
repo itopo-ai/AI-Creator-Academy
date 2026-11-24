@@ -1,3 +1,7 @@
+# Release candidate 6.6 RC1 (build 6.6.1)
+
+Non pubblicare su main prima del collaudo. Per una preview usare un'origine HTTPS separata dalla produzione, con profilo fittizio; non usare credenziali reali. Testare login, dizionario, sei tappe, quiz, progressi, riapertura, offline, backup cifrato e ripristino, aggiornamento da 6.5.1 in ambiente isolato. Verificare anche tutti i link esterni. Nessun test iPhone end-to-end ancora certificato.
+
 # AI Creator Academy 6.6.0 — Excellence Learning (sviluppo)
 
 Dizionario IT e AI: 114 termini, ricerca, categorie e accesso da scelta corsi, dashboard e lezioni. Quiz avanzati: 264 domande contestualizzate con alternative tematiche e feedback; indici delle risposte corrette invariati. Controllo strutturale eseguito. Quiz base, verifica online delle risorse e collaudo browser/iPhone ancora da completare.
