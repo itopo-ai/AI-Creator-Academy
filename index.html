@@ -182,7 +182,7 @@ nav.tabs button.on{color:var(--primary)}
 <script>
 (function(){
 "use strict";
-const APP_VERSION = "6.6.0";
+const APP_VERSION = "6.6.1";
 const I = {
   check:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>',
   back:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>',
@@ -320,7 +320,7 @@ function renderLogin(){
   $("#tabs").classList.add("hidden");
   const list = students(), legacy = !!lsGet(LEGACY_KEY, null);
   if (loginFor === "new" || !list.length){
-    $("#app").innerHTML = `<header class="academy-brand"><img src="apple-touch-icon.png" alt=""><div>AI Creator Academy<small>PROFESSIONAL EDITION · 6.6.0</small></div></header><section class="hero" style="margin-top:8px"><div class="kicker">AI Creator Academy</div><h1>${list.length ? "Nuovo studente" : "Benvenuto"}</h1>
+    $("#app").innerHTML = `<header class="academy-brand"><img src="apple-touch-icon.png" alt=""><div>AI Creator Academy<small>PROFESSIONAL EDITION · 6.6.1</small></div></header><section class="hero" style="margin-top:8px"><div class="kicker">AI Creator Academy</div><h1>${list.length ? "Nuovo studente" : "Benvenuto"}</h1>
       <div class="small" style="opacity:.9">Ogni studente ha il suo percorso, protetto da una password.</div></section>
       <form class="card" id="newform" autocomplete="off">
         <label class="muted small" for="nname" style="font-weight:600">Nome dello studente</label>
@@ -352,7 +352,7 @@ function renderLogin(){
 }
 function renderChooser(){
   $("#tabs").classList.add("hidden");
-  $("#app").innerHTML = `<header class="academy-brand"><img src="apple-touch-icon.png" alt=""><div>AI Creator Academy<small>PROFESSIONAL EDITION · 6.6.0</small></div></header><section class="hero" style="margin-top:8px"><div class="kicker">Ciao ${esc(ME.name)}</div><h1>Quale corso segui oggi?</h1><div class="small" style="opacity:.9">Ogni corso ha i suoi progressi.</div></section>
+  $("#app").innerHTML = `<header class="academy-brand"><img src="apple-touch-icon.png" alt=""><div>AI Creator Academy<small>PROFESSIONAL EDITION · 6.6.1</small></div></header><section class="hero" style="margin-top:8px"><div class="kicker">Ciao ${esc(ME.name)}</div><h1>Quale corso segui oggi?</h1><div class="small" style="opacity:.9">Ogni corso ha i suoi progressi.</div></section>
     ${beginnerButton()}<div class="academy-label">I tuoi percorsi formativi</div><div class="course-grid">${COURSES.map(c => {
       const ss = (P.courses[c.id] || {}).sessions || {}, n = Object.values(ss).filter(x => x.completedAt).length; const total=c.id==="ai-creator"?120:144, q=Math.min(100,Math.round(n*100/total));
       return `<button class="sitem" ${c.coming ? "disabled" : `data-course="${esc(c.id)}"`} style="${c.coming ? "opacity:.6" : ""}"><span class="dot" style="border-color:${esc(c.color)};color:${esc(c.color)}">${c.id === "ai-creator" ? `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="m8 6-6 6 6 6m8-12 6 6-6 6m-2-16-4 20"/></svg>` : `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V4h8v3M3 12h18m-11 0v2h4v-2"/></svg>`}</span>
@@ -397,7 +397,7 @@ function renderToday(){
   const curWeek = n ? n.week : C.weeks.length, ph = C.phases.find(p => curWeek >= p.weeks[0] && curWeek <= p.weeks[1]);
   const week = C.weeks.find(w => w.n === curWeek);
   $("#app").innerHTML = `
-  <header class="academy-brand"><img src="apple-touch-icon.png" alt=""><div>AI Creator Academy<small>PROFESSIONAL EDITION · 6.6.0</small></div></header><section class="hero"><div class="kicker">${esc(C.title || "Corso")} · Fase ${ph.n} · ${esc(ph.title)}</div>
+  <header class="academy-brand"><img src="apple-touch-icon.png" alt=""><div>AI Creator Academy<small>PROFESSIONAL EDITION · 6.6.1</small></div></header><section class="hero"><div class="kicker">${esc(C.title || "Corso")} · Fase ${ph.n} · ${esc(ph.title)}</div>
     <h1>Settimana ${curWeek} di ${C.weeks.length}</h1><div class="small" style="opacity:.9">${esc(week.title)}</div>
     <div class="hstats"><div class="hstat"><b>${pct}%</b><span>percorso</span></div>
       <div class="hstat"><b>${done}/${ALL.length}</b><span>sessioni</span></div>
@@ -463,7 +463,7 @@ function renderSession(s){
     ${isDone(s) ? `<span class="pill" style="color:var(--good)">${I.check.replace('<svg','<svg width="14" height="14"')} Completata</span>` : ""}</div>
   <h1 class="stitle">${esc(s.title)}</h1>
   <div class="chips"><span class="pill">${s.minutes} min</span><span class="pill">Fase ${s.phase}</span><span class="pill">${s.steps.length} passi</span></div>
-  <div class="card"><h2>Il tuo percorso di apprendimento</h2><p class="muted small">Segui le sei tappe in ordine, oppure torna a quella che vuoi ripassare. Non sono nuovi requisiti di completamento.</p><nav aria-label="Tappe della lezione" style="display:flex;flex-wrap:wrap;gap:8px">${["Comprendi","Impara","Osserva","Applica","Verifica","Consolida"].map((x,i)=>`<a class="pill" href="#learn-${i+1}">${i+1}. ${x}</a>`).join("")}</nav></div>
+  <div class="card"><h2>Il tuo percorso di apprendimento</h2><p class="muted small">Segui le sei tappe in ordine, oppure torna a quella che vuoi ripassare. Non sono nuovi requisiti di completamento.</p><nav aria-label="Tappe della lezione" style="display:flex;flex-wrap:wrap;gap:8px">${["Comprendi","Impara","Osserva","Applica","Verifica","Consolida"].map((x,i)=>`<button type="button" class="pill" data-learn="${i+1}">${i+1}. ${x}</button>`).join("")}</nav></div>
   <h2 class="sec" id="learn-1">1 · Comprendi</h2>
   ${s.introduction ? `<section class="card lesson-intro"><div class="kicker">PRIMA DI INIZIARE</div><h2>Di cosa parleremo?</h2><p>${esc(s.introduction)}</p></section>` : ""}
   ${lessonTerms(s)}
@@ -472,7 +472,7 @@ function renderSession(s){
   <a class="platform" href="${esc(s.url || plat.url)}" target="_blank" rel="noopener"><div><span class="muted">Dove studi</span>${esc(plat.name)}</div>${I.ext}</a>
   <section class="lesson-meter" aria-label="Avanzamento lezione"><div class="row"><div class="grow">Avanzamento lezione</div><strong>${pct}%</strong></div><div class="progress" role="progressbar" aria-label="Attività completate" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div><div class="muted small">${done} di ${s.steps.length} attività completate · ${isDone(s)?"Sessione conclusa":"Completamento attività, non punteggio quiz"}</div></section>
   <h2 class="sec" id="learn-2">2 · Impara</h2>
-  ${s.theory ? `<div class="card"><h2>Concetti fondamentali</h2><p>${esc(s.theory)}</p></div>` : ""}
+  ${s.theory ? `<div class="card"><h2>Concetti fondamentali</h2>${s.theory.split(/\n\s*\n/).map(t=>`<p>${esc(t)}</p>`).join("")}</div>` : ""}
   <h2 class="sec" id="learn-3">3 · Osserva</h2>
   ${s.example ? `<div class="card lesson-theory"><h3>Esempio operativo</h3><p>${esc(s.example)}</p><details><summary>Verifica la comprensione</summary><p>${esc(s.review)}</p><details><summary>Soluzione ragionata</summary><p>${esc(s.solution)}</p></details></details></div>` : ""}
   ${s.masterclass ? `<div class="card"><h2>Masterclass · ${esc(s.masterclass.term)}</h2><p>${esc(s.masterclass.definition)}</p><h3>Caso ragionato</h3><p>${esc(s.masterclass.example)}</p><p>${esc(s.masterclass.question)}</p><details><summary>Soluzione e ragionamento</summary><p>${esc(s.masterclass.answer)}</p></details></div>` : ""}
@@ -510,7 +510,7 @@ function renderSettings(){
     <p class="muted small">I progressi sono salvati solo su questo iPhone, cifrati con la tua password. Fai un backup ogni settimana e salvalo in File o iCloud Drive.</p>
     <div class="actions"><button class="btn primary" id="backup">Salva backup</button><button class="btn" id="restore">Ripristina</button></div></div>
   <div class="card"><h2 style="font-size:18px">Aggiornamenti</h2>
-    <p class="muted small">Quando Claude aggiorna il percorso, le nuove lezioni arrivano da sole all'apertura con connessione. I tuoi progressi restano.</p>
+    <p class="muted small">Quando viene aggiornato il percorso, le nuove lezioni arrivano da sole all'apertura con connessione. I tuoi progressi restano.</p>
     <button class="btn" id="checkupd">Cerca aggiornamenti</button>
     <p class="muted small" style="margin-top:10px">App ${APP_VERSION} · Contenuti ${esc(C.version)} del ${esc(C.updated)}</p></div>
   <div class="card"><h2 style="font-size:18px">Ricomincia</h2>
@@ -581,6 +581,7 @@ async function registerSW(){
 /* ---------- events ---------- */
 document.addEventListener("click", async e => {
   const b = e.target.closest("button"); if (!b) return;
+ if(b.dataset.learn){document.getElementById("learn-"+b.dataset.learn)?.scrollIntoView({block:"start"});return;}
  if(b.dataset.beginner==="open"){beginnerScroll=window.scrollY;beginnerOpen=true;renderBeginner();window.scrollTo(0,0);return;}
  if(b.dataset.beginner==="close"){beginnerOpen=false;render();window.scrollTo(0,beginnerScroll);return;}
   if (b.dataset.login){ loginFor = b.dataset.login; renderLogin(); return; }
@@ -707,7 +708,7 @@ if(proView==='navigator') html=toolGuide.map(([a,b,c,u])=>`<div class="card"><sp
 if(proView==='skills') html=`<div class="card"><h2>Competenze del corso attivo</h2><p>Autovalutazione separata dal completamento delle lezioni. 0 = da iniziare; 3 = autonomo con evidenze.</p>${C.phases.map((x,i)=>{const key=CUR+':'+i;const a=ALL.filter(y=>y.phase===x.n);return `<div class="card"><h3>${esc(x.title)}</h3><p>${a.filter(isDone).length}/${a.length} sessioni completate</p><select class="field" data-proskill="${esc(key)}">${['Da iniziare','Con guida','Con poca assistenza','Autonomo'].map((v,j)=>`<option value="${j}" ${Number(d.skills[key]||0)===j?'selected':''}>${v}</option>`).join('')}</select></div>`}).join('')}</div>`;
 if(proView==='glossary') html=`<div class="card"><h2>Glossario del corso</h2>${(C.glossary||[]).map(g=>`<details><summary>${esc(g.term)} · settimana ${g.week}</summary><p>${esc(g.definition)}</p></details>`).join('')}</div>`;
 if(proView==='quality') html=`<div class="card"><h2>Checklist di rilascio</h2><p>Controlli manuali del progetto corrente, non una certificazione automatica.</p>${checks.map((x,i)=>`<p><label><input type="checkbox" data-procheck="${i}" ${d.checks[i]?'checked':''}> ${x}</label></p>`).join('')}<button class="btn" data-proact="checkreset">Azzera checklist</button></div><div class="card"><h2>Risorse del corso attivo</h2><p>Apri ogni risorsa e controlla accessibilità, pertinenza e costi. Lo stato HTTP non viene verificato automaticamente.</p>${Object.values(C.platforms).filter(x=>/^https?:\/\//i.test(x.url)).map(x=>`<a class="platform" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.name)}</a>`).join('')}</div>`;
-$('#app').innerHTML=`<div class="hero"><div class="kicker">Release Candidate 6.6.0</div><h1>Creator Pro</h1><p>Studia, progetta, verifica.</p></div><div class="pro-menu">${Object.entries(proNames).map(([k,v])=>`<button class="btn" aria-pressed="${proView===k}" data-proview="${k}"><span class="grow">${v}<small>${({tutor:"Supporto allo studio",builder:"Dall’idea al prodotto",navigator:"Scegli gli strumenti",skills:"Misura le competenze",glossary:"Consulta i concetti",quality:"Verifica i progetti"})[k]||""}</small></span>${I.arrow}</button>`).join('')}</div>${html}`;if(proView==='tutor') updateTutor();}
+$('#app').innerHTML=`<div class="hero"><div class="kicker">Release Candidate 6.6.1</div><h1>Creator Pro</h1><p>Studia, progetta, verifica.</p></div><div class="pro-menu">${Object.entries(proNames).map(([k,v])=>`<button class="btn" aria-pressed="${proView===k}" data-proview="${k}"><span class="grow">${v}<small>${({tutor:"Supporto allo studio",builder:"Dall’idea al prodotto",navigator:"Scegli gli strumenti",skills:"Misura le competenze",glossary:"Consulta i concetti",quality:"Verifica i progetti"})[k]||""}</small></span>${I.arrow}</button>`).join('')}</div>${html}`;if(proView==='tutor') updateTutor();}
 function updateTutor(){const x=byId($('#prolesson')?.value);if(!x)return;tutorId=x.id;$('#tutorcontent').innerHTML=`<h3>${esc(x.title)}</h3><p>${esc(x.theory||x.goal)}</p><p><b>Verifica:</b> spiega il concetto con parole tue, applicalo a un caso nuovo e documenta un errore corretto.</p>`;}
 async function proCopy(t){try{await navigator.clipboard.writeText(t);toast('Copiato')}catch(e){window.prompt('Copia il testo:',t)}}
 function briefText(){return Object.entries(proData().brief).map(([k,v])=>k+': '+v).join('\n')}
