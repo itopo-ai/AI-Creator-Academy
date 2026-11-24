@@ -1,3 +1,11 @@
+# Release candidate 6.6 RC1 (build 6.6.1)
+
+Non pubblicare su main prima del collaudo. Per una preview usare un'origine HTTPS separata dalla produzione, con profilo fittizio; non usare credenziali reali. Testare login, dizionario, sei tappe, quiz, progressi, riapertura, offline, backup cifrato e ripristino, aggiornamento da 6.5.1 in ambiente isolato. Verificare anche tutti i link esterni. Nessun test iPhone end-to-end ancora certificato.
+
+# AI Creator Academy 6.6.0 — Excellence Learning (sviluppo)
+
+Dizionario IT e AI: 114 termini, ricerca, categorie e accesso da scelta corsi, dashboard e lezioni. Quiz avanzati: 264 domande contestualizzate con alternative tematiche e feedback; indici delle risposte corrette invariati. Controllo strutturale eseguito. Quiz base, verifica online delle risorse e collaudo browser/iPhone ancora da completare.
+
 # AI Creator Academy 6.5.1 — Learning Introduction
 
 Aggiunta la sezione Prima di iniziare in tutte le 264 sessioni. Creator: 120 introduzioni specifiche; Business: 48 spiegazioni settimanali con orientamento per studio, approfondimento e pratica. ID e attività invariati. Collaudo Safari da effettuare.
@@ -10,3 +18,11 @@ Due percorsi: AI Creator & Developer (120 sessioni) e AI Business & Management (
 
 ## 6.5.0 — Professional Design
 Revisione di dashboard, selettore corsi, navigazione, lezioni, quiz e menu Pro. Percentuale lezione = attività spuntate / attività previste, arrotondata; distinta dal punteggio quiz e dalla conferma di fine sessione. Usa i progressi già salvati, senza migrazione. Curriculum invariati. Test statici e formula verificati; nuovo collaudo Safari necessario. Backup e installazione ancora da verificare.
+
+
+### QA 6.6.1 — controlli eseguiti
+- Sintassi JavaScript index.html e sw.js: superata.
+- 114 termini univoci, ricerca simulata su cinque input.
+- Validazione backup: quattro casi superati, inclusa compatibilità con dati precedenti senza assessment.
+- Avanzamento lezione: sei stati da 0 a 100% verificati su dati simulati.
+- Restano test browser/Safari, installazione PWA, offline, backup cifrato end-to-end, aggiornamento e verifica completa dei link.

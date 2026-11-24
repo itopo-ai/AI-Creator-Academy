@@ -1,5 +1,5 @@
 // AI Creator Academy – service worker. Network first: online loads the latest lessons; offline uses the saved copy.
-const VERSION = "6.5.1";
+const VERSION = "6.6.1";
 const CACHE = "ai-creator-academy-" + VERSION;
 const SHELL = ["./", "./index.html", "./courses.json", "./curriculum-business.json", "./curriculum-creator.json", "./manifest.webmanifest", "./icon-192.png", "./icon-512.png", "./apple-touch-icon.png"];
 self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting())); });
