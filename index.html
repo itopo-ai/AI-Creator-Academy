@@ -463,22 +463,32 @@ function renderSession(s){
     ${isDone(s) ? `<span class="pill" style="color:var(--good)">${I.check.replace('<svg','<svg width="14" height="14"')} Completata</span>` : ""}</div>
   <h1 class="stitle">${esc(s.title)}</h1>
   <div class="chips"><span class="pill">${s.minutes} min</span><span class="pill">Fase ${s.phase}</span><span class="pill">${s.steps.length} passi</span></div>
+  <div class="card"><h2>Il tuo percorso di apprendimento</h2><p class="muted small">Segui le sei tappe in ordine, oppure torna a quella che vuoi ripassare. Non sono nuovi requisiti di completamento.</p><nav aria-label="Tappe della lezione" style="display:flex;flex-wrap:wrap;gap:8px">${["Comprendi","Impara","Osserva","Applica","Verifica","Consolida"].map((x,i)=>`<a class="pill" href="#learn-${i+1}">${i+1}. ${x}</a>`).join("")}</nav></div>
+  <h2 class="sec" id="learn-1">1 · Comprendi</h2>
   ${s.introduction ? `<section class="card lesson-intro"><div class="kicker">PRIMA DI INIZIARE</div><h2>Di cosa parleremo?</h2><p>${esc(s.introduction)}</p></section>` : ""}
   ${lessonTerms(s)}
   ${beginnerButton()}
   <div class="goal"><b>Obiettivo</b>${esc(s.goal)}</div>
   <a class="platform" href="${esc(s.url || plat.url)}" target="_blank" rel="noopener"><div><span class="muted">Dove studi</span>${esc(plat.name)}</div>${I.ext}</a>
   <section class="lesson-meter" aria-label="Avanzamento lezione"><div class="row"><div class="grow">Avanzamento lezione</div><strong>${pct}%</strong></div><div class="progress" role="progressbar" aria-label="Attività completate" aria-valuemin="0" aria-valuemax="100" aria-valuenow="${pct}"><i style="width:${pct}%"></i></div><div class="muted small">${done} di ${s.steps.length} attività completate · ${isDone(s)?"Sessione conclusa":"Completamento attività, non punteggio quiz"}</div></section>
-  ${s.theory ? `<div class="card"><h2>Concetti fondamentali</h2><p>${esc(s.theory)}</p>${s.example ? `<div class="lesson-theory"><h3>Esempio operativo</h3><p>${esc(s.example)}</p><details><summary>Verifica la comprensione</summary><p>${esc(s.review)}</p><details><summary>Soluzione ragionata</summary><p>${esc(s.solution)}</p></details></details></div>` : ""}<h3>Consegna</h3><p>${esc(s.deliverable)}</p></div>` : ""}
+  <h2 class="sec" id="learn-2">2 · Impara</h2>
+  ${s.theory ? `<div class="card"><h2>Concetti fondamentali</h2><p>${esc(s.theory)}</p></div>` : ""}
+  <h2 class="sec" id="learn-3">3 · Osserva</h2>
+  ${s.example ? `<div class="card lesson-theory"><h3>Esempio operativo</h3><p>${esc(s.example)}</p><details><summary>Verifica la comprensione</summary><p>${esc(s.review)}</p><details><summary>Soluzione ragionata</summary><p>${esc(s.solution)}</p></details></details></div>` : ""}
   ${s.masterclass ? `<div class="card"><h2>Masterclass · ${esc(s.masterclass.term)}</h2><p>${esc(s.masterclass.definition)}</p><h3>Caso ragionato</h3><p>${esc(s.masterclass.example)}</p><p>${esc(s.masterclass.question)}</p><details><summary>Soluzione e ragionamento</summary><p>${esc(s.masterclass.answer)}</p></details></div>` : ""}
   ${s.caseStudy ? `<div class="card"><h2>Caso applicativo della settimana</h2><p>${esc(s.caseStudy)}</p><p class="muted small">Esempio didattico; dati eventualmente simulati.</p></div>` : ""}
-  ${s.knowledgeCheck ? assessmentHtml(s,p) : ""}
   <button class="btn" id="tutorlesson">Apri AI Tutor per questa lezione</button>
-  <h2 class="sec">Passo per passo</h2>
+  <h2 class="sec" id="learn-4">4 · Applica</h2>
+  ${s.deliverable ? `<div class="card"><h3>Risultato da consegnare</h3><p>${esc(s.deliverable)}</p></div>` : ""}
+  <h3>Passo per passo</h3>
   ${s.steps.map((st, i) => stepHtml(s, st, i)).join("")}
   <h2 class="sec">Esercizio di fine sessione</h2>
   ${exerciseHtml(s)}
-  <h2 class="sec">Le tue note</h2>
+  <h2 class="sec" id="learn-5">5 · Verifica</h2>
+  ${s.knowledgeCheck ? assessmentHtml(s,p) : ""}
+  <h2 class="sec" id="learn-6">6 · Consolida</h2>
+  <div class="card"><h3>Ripasso attivo</h3><p>Prima di rileggere, prova a rispondere con parole tue.</p><ol><li>Qual è il concetto principale di questa lezione?</li><li>Come applicheresti questo esempio: ${esc(s.example || s.title)}</li><li>Quale prova dimostra che hai raggiunto il risultato?</li></ol><details><summary>Controlla il principio da ricordare</summary><p>${esc(s.knowledgeCheck?.why || s.goal)}</p></details><p class="muted small">Se un punto non è chiaro, annotalo qui sotto e riprova domani.</p></div>
+  <h3>Le tue note</h3>
   <textarea class="field" id="notes" placeholder="Cosa hai imparato? Cosa non ti è chiaro?">${esc(p.notes)}</textarea>
   <button class="btn" id="extra">Copia esercizio per ChatGPT</button>
   ${isDone(s) ? `<button class="btn" id="reopen">Segna come non completata</button>`
