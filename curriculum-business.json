@@ -147,7 +147,7 @@
             ]
           },
           "caseStudy": "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-          "theory": "AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
+          "theory": "L'AI generativa produce contenuti probabilistici; la produttività va misurata sul lavoro finito, non sulla velocità di generazione.\n\nAI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
           "example": "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -241,7 +241,7 @@
             ]
           },
           "caseStudy": "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-          "theory": "AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
+          "theory": "Confronta 120 minuti iniziali con 80 minuti finali: il risparmio è 40 minuti, prima dei costi di adozione.\n\nAI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
           "example": "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -322,7 +322,7 @@
             ]
           },
           "caseStudy": "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-          "theory": "AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
+          "theory": "Registra tempo iniziale, tempo con AI, revisione e qualità su un campione di richieste fittizie.\n\nAI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
           "example": "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
           "deliverable": "Inventario attività ripetitive e baseline dei tempi",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -421,7 +421,7 @@
             ]
           },
           "caseStudy": "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-          "theory": "Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
+          "theory": "Un prompt aziendale è un brief con destinatario, scopo, fonti e formato.\n\nIniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
           "example": "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -515,7 +515,7 @@
             ]
           },
           "caseStudy": "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-          "theory": "Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
+          "theory": "Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti.\n\nIniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
           "example": "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -596,7 +596,7 @@
             ]
           },
           "caseStudy": "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-          "theory": "Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
+          "theory": "Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale.\n\nIniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
           "example": "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
           "deliverable": "Standard per richieste AI e controllo umano",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -695,7 +695,7 @@
             ]
           },
           "caseStudy": "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-          "theory": "ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
+          "theory": "Una procedura standard descrive attività, responsabilità e controlli.\n\nChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
           "example": "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -789,7 +789,7 @@
             ]
           },
           "caseStudy": "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-          "theory": "ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
+          "theory": "Una soglia di approvazione limita decisioni automatiche ad alto impatto.\n\nChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
           "example": "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -870,7 +870,7 @@
             ]
           },
           "caseStudy": "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-          "theory": "ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
+          "theory": "Disegna una procedura con richiedente, approvatore, esito e registro.\n\nChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
           "example": "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
           "deliverable": "Report operativo settimanale per la direzione",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -969,7 +969,7 @@
             ]
           },
           "caseStudy": "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-          "theory": "Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
+          "theory": "Un workflow collega eventi, attività, decisioni e risultati.\n\nAgenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
           "example": "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1063,7 +1063,7 @@
             ]
           },
           "caseStudy": "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-          "theory": "Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
+          "theory": "Le eccezioni richiedono un percorso diverso da quello ordinario.\n\nAgenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
           "example": "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1144,7 +1144,7 @@
             ]
           },
           "caseStudy": "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-          "theory": "Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
+          "theory": "Simula ordini sotto e sopra soglia e un ordine incompleto.\n\nAgenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
           "example": "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
           "deliverable": "Flusso approvazione ordini con escalation",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1243,7 +1243,7 @@
             ]
           },
           "caseStudy": "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-          "theory": "GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
+          "theory": "La strategia AI parte da un problema aziendale misurabile.\n\nGenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
           "example": "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1337,7 +1337,7 @@
             ]
           },
           "caseStudy": "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-          "theory": "GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
+          "theory": "Un indicatore deve misurare valore e qualità, non soltanto utilizzo.\n\nGenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
           "example": "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1418,7 +1418,7 @@
             ]
           },
           "caseStudy": "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-          "theory": "GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
+          "theory": "Scegli un processo, identifica responsabile e definisci una misura iniziale.\n\nGenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
           "example": "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
           "deliverable": "Mappa funzioni e opportunità AI",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1517,7 +1517,7 @@
             ]
           },
           "caseStudy": "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-          "theory": "Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
+          "theory": "La fattibilità comprende dati, competenze, integrazioni e rischio.\n\nCasi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
           "example": "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1611,7 +1611,7 @@
             ]
           },
           "caseStudy": "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-          "theory": "Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
+          "theory": "Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni.\n\nCasi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
           "example": "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1692,7 +1692,7 @@
             ]
           },
           "caseStudy": "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-          "theory": "Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
+          "theory": "Assegna punteggi motivati a tre casi e indica le ipotesi da verificare.\n\nCasi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
           "example": "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
           "deliverable": "Priorità per impatto e fattibilità",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1791,7 +1791,7 @@
             ]
           },
           "caseStudy": "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-          "theory": "Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
+          "theory": "Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo.\n\nFattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
           "example": "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1885,7 +1885,7 @@
             ]
           },
           "caseStudy": "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-          "theory": "Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
+          "theory": "Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione.\n\nFattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
           "example": "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -1966,7 +1966,7 @@
             ]
           },
           "caseStudy": "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-          "theory": "Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
+          "theory": "Costruisci tre scenari di benefici e costi e confronta il ROI.\n\nFattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
           "example": "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
           "deliverable": "ROI: benefici netti rispetto a costi totali",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2065,7 +2065,7 @@
             ]
           },
           "caseStudy": "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-          "theory": "Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
+          "theory": "Il rischio combina probabilità e conseguenze; un errore raro può essere grave.\n\nRischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
           "example": "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2159,7 +2159,7 @@
             ]
           },
           "caseStudy": "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-          "theory": "Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
+          "theory": "Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale.\n\nRischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
           "example": "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2240,7 +2240,7 @@
             ]
           },
           "caseStudy": "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-          "theory": "Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
+          "theory": "Definisci soglia, controllo umano e procedura di arresto per un caso simulato.\n\nRischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
           "example": "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
           "deliverable": "Registro rischi e test di accuratezza",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2339,7 +2339,7 @@
             ]
           },
           "caseStudy": "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-          "theory": "Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
+          "theory": "La governance assegna regole, ruoli e responsabilità per l'uso dell'AI.\n\nFiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
           "example": "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2433,7 +2433,7 @@
             ]
           },
           "caseStudy": "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-          "theory": "Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
+          "theory": "Classifica le informazioni e limita gli accessi alle necessità del ruolo.\n\nFiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
           "example": "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2514,7 +2514,7 @@
             ]
           },
           "caseStudy": "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-          "theory": "Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
+          "theory": "Crea un registro di strumenti con proprietario, dati consentiti e approvazione.\n\nFiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
           "example": "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
           "deliverable": "Policy dati, accessi e responsabilità",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2613,7 +2613,7 @@
             ]
           },
           "caseStudy": "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-          "theory": "Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
+          "theory": "Il cambiamento richiede competenze, comunicazione e sostegno operativo.\n\nGestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
           "example": "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2707,7 +2707,7 @@
             ]
           },
           "caseStudy": "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-          "theory": "Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
+          "theory": "L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni.\n\nGestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
           "example": "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2788,7 +2788,7 @@
             ]
           },
           "caseStudy": "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-          "theory": "Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
+          "theory": "Definisci un piano formativo e raccogli feedback su un compito concreto.\n\nGestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
           "example": "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
           "deliverable": "Piano adozione e formazione del personale",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2887,7 +2887,7 @@
             ]
           },
           "caseStudy": "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-          "theory": "Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
+          "theory": "Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse.\n\nCompletamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
           "example": "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -2981,7 +2981,7 @@
             ]
           },
           "caseStudy": "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-          "theory": "Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
+          "theory": "Il costo totale include licenze, integrazione, formazione e uscita dal servizio.\n\nCompletamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
           "example": "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3062,7 +3062,7 @@
             ]
           },
           "caseStudy": "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-          "theory": "Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
+          "theory": "Confronta tre alternative con criteri e pesi dichiarati.\n\nCompletamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
           "example": "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
           "deliverable": "Confronto fornitori e criteri di acquisto",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3161,7 +3161,7 @@
             ]
           },
           "caseStudy": "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-          "theory": "Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
+          "theory": "Un business case giustifica una decisione di investimento con evidenze.\n\nProgetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
           "example": "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3255,7 +3255,7 @@
             ]
           },
           "caseStudy": "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-          "theory": "Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
+          "theory": "La baseline e gli scenari rendono verificabili le ipotesi di beneficio.\n\nProgetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
           "example": "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3336,7 +3336,7 @@
             ]
           },
           "caseStudy": "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-          "theory": "Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
+          "theory": "Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go.\n\nProgetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
           "example": "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
           "deliverable": "Business case con decisione go/no-go",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3435,7 +3435,7 @@
             ]
           },
           "caseStudy": "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-          "theory": "No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
+          "theory": "No-code permette di configurare flussi senza scrivere gran parte del codice.\n\nNo-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
           "example": "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3529,7 +3529,7 @@
             ]
           },
           "caseStudy": "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-          "theory": "No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
+          "theory": "Un flusso visuale richiede comunque input validi e gestione delle eccezioni.\n\nNo-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
           "example": "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3610,7 +3610,7 @@
             ]
           },
           "caseStudy": "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-          "theory": "No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
+          "theory": "Disegna un processo acquisti con attese, duplicati e approvazioni.\n\nNo-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
           "example": "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
           "deliverable": "Mappa processo acquisti",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3709,7 +3709,7 @@
             ]
           },
           "caseStudy": "Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
-          "theory": "No-Code AI Foundations (2): collega lo strumento a una decisione aziendale misurabile. Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
+          "theory": "La qualità dei dati comprende completezza, coerenza e unicità.\n\nNo-Code AI Foundations (2): collega lo strumento a una decisione aziendale misurabile. Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
           "example": "Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3803,7 +3803,7 @@
             ]
           },
           "caseStudy": "Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
-          "theory": "No-Code AI Foundations (2): collega lo strumento a una decisione aziendale misurabile. Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
+          "theory": "Confronta tempi mediani e tassi di errore su campioni comparabili.\n\nNo-Code AI Foundations (2): collega lo strumento a una decisione aziendale misurabile. Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
           "example": "Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3884,7 +3884,7 @@
             ]
           },
           "caseStudy": "Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
-          "theory": "No-Code AI Foundations (2): collega lo strumento a una decisione aziendale misurabile. Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
+          "theory": "Crea una tabella di pratiche simulate con dati mancanti e duplicati da identificare.\n\nNo-Code AI Foundations (2): collega lo strumento a una decisione aziendale misurabile. Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
           "example": "Misura 30 pratiche prima e dopo il cambiamento; confronta mediana ed errori.",
           "deliverable": "Misurazione tempi ed errori",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -3983,7 +3983,7 @@
             ]
           },
           "caseStudy": "Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
-          "theory": "Applied No-Code AI (1): collega lo strumento a una decisione aziendale misurabile. Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
+          "theory": "Un prototipo no-code verifica un processo prima di estenderlo.\n\nApplied No-Code AI (1): collega lo strumento a una decisione aziendale misurabile. Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
           "example": "Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4077,7 +4077,7 @@
             ]
           },
           "caseStudy": "Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
-          "theory": "Applied No-Code AI (1): collega lo strumento a una decisione aziendale misurabile. Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
+          "theory": "La classificazione richiede categorie definite e un campione di riferimento.\n\nApplied No-Code AI (1): collega lo strumento a una decisione aziendale misurabile. Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
           "example": "Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4158,7 +4158,7 @@
             ]
           },
           "caseStudy": "Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
-          "theory": "Applied No-Code AI (1): collega lo strumento a una decisione aziendale misurabile. Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
+          "theory": "Classifica richieste fittizie e confronta risultati con etichette attese.\n\nApplied No-Code AI (1): collega lo strumento a una decisione aziendale misurabile. Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
           "example": "Prototipa la classificazione delle richieste clienti con dati fittizi e categorie definite.",
           "deliverable": "Prototipo gestione richieste clienti",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4257,7 +4257,7 @@
             ]
           },
           "caseStudy": "Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
-          "theory": "Applied No-Code AI (2): collega lo strumento a una decisione aziendale misurabile. Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
+          "theory": "Un'eccezione è un caso che non può seguire il flusso ordinario.\n\nApplied No-Code AI (2): collega lo strumento a una decisione aziendale misurabile. Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
           "example": "Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4351,7 +4351,7 @@
             ]
           },
           "caseStudy": "Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
-          "theory": "Applied No-Code AI (2): collega lo strumento a una decisione aziendale misurabile. Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
+          "theory": "La revisione umana evita decisioni automatiche quando mancano dati essenziali.\n\nApplied No-Code AI (2): collega lo strumento a una decisione aziendale misurabile. Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
           "example": "Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4432,7 +4432,7 @@
             ]
           },
           "caseStudy": "Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
-          "theory": "Applied No-Code AI (2): collega lo strumento a una decisione aziendale misurabile. Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
+          "theory": "Prova richieste normali, ambigue e incomplete e registra gli esiti.\n\nApplied No-Code AI (2): collega lo strumento a una decisione aziendale misurabile. Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
           "example": "Testa 20 richieste incluse eccezioni; misura precisione e casi da inoltrare a un umano.",
           "deliverable": "Test del prototipo su dati sintetici",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4531,7 +4531,7 @@
             ]
           },
           "caseStudy": "Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
-          "theory": "Guidare la trasformazione (1): collega lo strumento a una decisione aziendale misurabile. Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
+          "theory": "Il proprietario del processo risponde di risultati e controlli.\n\nGuidare la trasformazione (1): collega lo strumento a una decisione aziendale misurabile. Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
           "example": "Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4625,7 +4625,7 @@
             ]
           },
           "caseStudy": "Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
-          "theory": "Guidare la trasformazione (1): collega lo strumento a una decisione aziendale misurabile. Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
+          "theory": "Le integrazioni richiedono responsabilità sui dati e un percorso di emergenza.\n\nGuidare la trasformazione (1): collega lo strumento a una decisione aziendale misurabile. Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
           "example": "Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4706,7 +4706,7 @@
             ]
           },
           "caseStudy": "Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
-          "theory": "Guidare la trasformazione (1): collega lo strumento a una decisione aziendale misurabile. Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
+          "theory": "Disegna ruoli, passaggi tra sistemi e procedura manuale alternativa.\n\nGuidare la trasformazione (1): collega lo strumento a una decisione aziendale misurabile. Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
           "example": "Definisci integrazioni, proprietari dei dati e procedura manuale di emergenza.",
           "deliverable": "Piano integrazione con processi esistenti",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4805,7 +4805,7 @@
             ]
           },
           "caseStudy": "Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
-          "theory": "Guidare la trasformazione (2): collega lo strumento a una decisione aziendale misurabile. Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
+          "theory": "La formazione efficace si collega a compiti reali osservabili.\n\nGuidare la trasformazione (2): collega lo strumento a una decisione aziendale misurabile. Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
           "example": "Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4899,7 +4899,7 @@
             ]
           },
           "caseStudy": "Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
-          "theory": "Guidare la trasformazione (2): collega lo strumento a una decisione aziendale misurabile. Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
+          "theory": "Il feedback permette di individuare ostacoli prima dell'estensione.\n\nGuidare la trasformazione (2): collega lo strumento a una decisione aziendale misurabile. Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
           "example": "Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -4980,7 +4980,7 @@
             ]
           },
           "caseStudy": "Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
-          "theory": "Guidare la trasformazione (2): collega lo strumento a una decisione aziendale misurabile. Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
+          "theory": "Progetta una prova pratica e una misura di prestazione successiva.\n\nGuidare la trasformazione (2): collega lo strumento a una decisione aziendale misurabile. Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
           "example": "Assegna responsabilità e pianifica formazione; raccogli feedback prima dell’estensione.",
           "deliverable": "Responsabili e formazione per il cambiamento",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5079,7 +5079,7 @@
             ]
           },
           "caseStudy": "Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
-          "theory": "Pilota no-code (costruzione): collega lo strumento a una decisione aziendale misurabile. Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
+          "theory": "Un pilota limita utenti, durata e impatto per raccogliere evidenze.\n\nPilota no-code (costruzione): collega lo strumento a una decisione aziendale misurabile. Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
           "example": "Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5173,7 +5173,7 @@
             ]
           },
           "caseStudy": "Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
-          "theory": "Pilota no-code (costruzione): collega lo strumento a una decisione aziendale misurabile. Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
+          "theory": "Fissa criteri di successo e una baseline prima di avviare la prova.\n\nPilota no-code (costruzione): collega lo strumento a una decisione aziendale misurabile. Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
           "example": "Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5254,7 +5254,7 @@
             ]
           },
           "caseStudy": "Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
-          "theory": "Pilota no-code (costruzione): collega lo strumento a una decisione aziendale misurabile. Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
+          "theory": "Prepara un piano pilota con campione, costi, incidenti e soglie.\n\nPilota no-code (costruzione): collega lo strumento a una decisione aziendale misurabile. Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
           "example": "Esegui un pilota con gruppo limitato e baseline comparabile; registra costi e incidenti.",
           "deliverable": "Pilota con campione e baseline",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5353,7 +5353,7 @@
             ]
           },
           "caseStudy": "Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
-          "theory": "Progetto di fase: risultati del pilota: collega lo strumento a una decisione aziendale misurabile. Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
+          "theory": "La valutazione del pilota confronta risultati e obiettivi iniziali.\n\nProgetto di fase: risultati del pilota: collega lo strumento a una decisione aziendale misurabile. Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
           "example": "Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5447,7 +5447,7 @@
             ]
           },
           "caseStudy": "Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
-          "theory": "Progetto di fase: risultati del pilota: collega lo strumento a una decisione aziendale misurabile. Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
+          "theory": "Un calo del numero di errori non implica un miglioramento se cala il volume.\n\nProgetto di fase: risultati del pilota: collega lo strumento a una decisione aziendale misurabile. Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
           "example": "Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5528,7 +5528,7 @@
             ]
           },
           "caseStudy": "Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
-          "theory": "Progetto di fase: risultati del pilota: collega lo strumento a una decisione aziendale misurabile. Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
+          "theory": "Calcola tassi per ordine e motiva la decisione di estendere o correggere.\n\nProgetto di fase: risultati del pilota: collega lo strumento a una decisione aziendale misurabile. Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
           "example": "Confronta risultati e obiettivi; estendi solo se qualità e benefici rispettano le soglie.",
           "deliverable": "Report risultati e decisione di estensione",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5627,7 +5627,7 @@
             ]
           },
           "caseStudy": "Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
-          "theory": "GA4: le basi: collega lo strumento a una decisione aziendale misurabile. Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
+          "theory": "GA4 misura interazioni tramite eventi; utenti e sessioni non sono sinonimi.\n\nGA4: le basi: collega lo strumento a una decisione aziendale misurabile. Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
           "example": "Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5721,7 +5721,7 @@
             ]
           },
           "caseStudy": "Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
-          "theory": "GA4: le basi: collega lo strumento a una decisione aziendale misurabile. Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
+          "theory": "Quaranta acquisti su mille visite danno un rapporto del 4%, con denominatore dichiarato.\n\nGA4: le basi: collega lo strumento a una decisione aziendale misurabile. Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
           "example": "Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5802,7 +5802,7 @@
             ]
           },
           "caseStudy": "Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
-          "theory": "GA4: le basi: collega lo strumento a una decisione aziendale misurabile. Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
+          "theory": "Definisci tre eventi e calcola un rapporto di conversione su dati simulati.\n\nGA4: le basi: collega lo strumento a una decisione aziendale misurabile. Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
           "example": "Su 1000 visite e 40 acquisti, conversione 4%; distingue sessioni e utenti.",
           "deliverable": "Funnel commerciale e KPI",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5901,7 +5901,7 @@
             ]
           },
           "caseStudy": "Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
-          "theory": "GA4: raccolta e configurazione dei dati: collega lo strumento a una decisione aziendale misurabile. Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
+          "theory": "Un evento descrive un'interazione e i parametri ne precisano il contesto.\n\nGA4: raccolta e configurazione dei dati: collega lo strumento a una decisione aziendale misurabile. Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
           "example": "Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -5995,7 +5995,7 @@
             ]
           },
           "caseStudy": "Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
-          "theory": "GA4: raccolta e configurazione dei dati: collega lo strumento a una decisione aziendale misurabile. Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
+          "theory": "Evita dati personali non necessari e verifica le condizioni applicabili alla raccolta.\n\nGA4: raccolta e configurazione dei dati: collega lo strumento a una decisione aziendale misurabile. Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
           "example": "Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6076,7 +6076,7 @@
             ]
           },
           "caseStudy": "Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
-          "theory": "GA4: raccolta e configurazione dei dati: collega lo strumento a una decisione aziendale misurabile. Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
+          "theory": "Prepara un piano eventi con nomi, finalità, parametri e test.\n\nGA4: raccolta e configurazione dei dati: collega lo strumento a una decisione aziendale misurabile. Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
           "example": "Definisci eventi e finalità; evita identificatori personali non necessari e verifica il consenso applicabile.",
           "deliverable": "Piano eventi e consenso",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6175,7 +6175,7 @@
             ]
           },
           "caseStudy": "Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
-          "theory": "GA4: report e analisi: collega lo strumento a una decisione aziendale misurabile. Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
+          "theory": "I report confrontano metriche per periodo e canale.\n\nGA4: report e analisi: collega lo strumento a una decisione aziendale misurabile. Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
           "example": "Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6269,7 +6269,7 @@
             ]
           },
           "caseStudy": "Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
-          "theory": "GA4: report e analisi: collega lo strumento a una decisione aziendale misurabile. Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
+          "theory": "Il CAC divide i costi di acquisizione per i nuovi clienti attribuiti, con perimetro esplicito.\n\nGA4: report e analisi: collega lo strumento a una decisione aziendale misurabile. Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
           "example": "Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6350,7 +6350,7 @@
             ]
           },
           "caseStudy": "Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
-          "theory": "GA4: report e analisi: collega lo strumento a una decisione aziendale misurabile. Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
+          "theory": "Confronta due canali con costi, clienti e margine usando dati fittizi.\n\nGA4: report e analisi: collega lo strumento a una decisione aziendale misurabile. Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
           "example": "Confronta canali con conversioni e costi: 500 euro per 25 clienti = CAC 20 euro.",
           "deliverable": "Analisi conversioni per canale",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6449,7 +6449,7 @@
             ]
           },
           "caseStudy": "Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
-          "theory": "GA4: certificazione: collega lo strumento a una decisione aziendale misurabile. Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
+          "theory": "L'attribuzione assegna credito a interazioni, non prova da sola causalità.\n\nGA4: certificazione: collega lo strumento a una decisione aziendale misurabile. Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
           "example": "Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6543,7 +6543,7 @@
             ]
           },
           "caseStudy": "Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
-          "theory": "GA4: certificazione: collega lo strumento a una decisione aziendale misurabile. Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
+          "theory": "Un esperimento controllato aiuta a isolare l'effetto di una campagna.\n\nGA4: certificazione: collega lo strumento a una decisione aziendale misurabile. Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
           "example": "Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6624,7 +6624,7 @@
             ]
           },
           "caseStudy": "Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
-          "theory": "GA4: certificazione: collega lo strumento a una decisione aziendale misurabile. Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
+          "theory": "Proponi un confronto tra gruppi e indica fattori confondenti.\n\nGA4: certificazione: collega lo strumento a una decisione aziendale misurabile. Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
           "example": "Confronta CAC e margine per cliente prima di riallocare il budget; considera attribuzione incerta.",
           "deliverable": "Report marketing con decisione di budget",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6723,7 +6723,7 @@
             ]
           },
           "caseStudy": "Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
-          "theory": "Preparare i dati con Excel (1): collega lo strumento a una decisione aziendale misurabile. Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
+          "theory": "Una tabella Excel usa righe per record e colonne per attributi.\n\nPreparare i dati con Excel (1): collega lo strumento a una decisione aziendale misurabile. Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
           "example": "Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6817,7 +6817,7 @@
             ]
           },
           "caseStudy": "Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
-          "theory": "Preparare i dati con Excel (1): collega lo strumento a una decisione aziendale misurabile. Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
+          "theory": "Tipi coerenti e unità esplicite evitano calcoli errati.\n\nPreparare i dati con Excel (1): collega lo strumento a una decisione aziendale misurabile. Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
           "example": "Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6898,7 +6898,7 @@
             ]
           },
           "caseStudy": "Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
-          "theory": "Preparare i dati con Excel (1): collega lo strumento a una decisione aziendale misurabile. Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
+          "theory": "Pulisci date e importi in un foglio simulato e segnala valori non validi.\n\nPreparare i dati con Excel (1): collega lo strumento a una decisione aziendale misurabile. Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
           "example": "Normalizza date e importi; separa IVA e ricavi netti secondo le regole contabili applicabili.",
           "deliverable": "Tabella ricavi e costi pulita",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -6997,7 +6997,7 @@
             ]
           },
           "caseStudy": "Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
-          "theory": "Preparare i dati con Excel (2): collega lo strumento a una decisione aziendale misurabile. Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
+          "theory": "La riconciliazione confronta dati con una fonte indipendente.\n\nPreparare i dati con Excel (2): collega lo strumento a una decisione aziendale misurabile. Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
           "example": "Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7091,7 +7091,7 @@
             ]
           },
           "caseStudy": "Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
-          "theory": "Preparare i dati con Excel (2): collega lo strumento a una decisione aziendale misurabile. Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
+          "theory": "Differenze possono derivare da duplicati, omissioni o periodi diversi.\n\nPreparare i dati con Excel (2): collega lo strumento a una decisione aziendale misurabile. Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
           "example": "Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7172,7 +7172,7 @@
             ]
           },
           "caseStudy": "Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
-          "theory": "Preparare i dati con Excel (2): collega lo strumento a una decisione aziendale misurabile. Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
+          "theory": "Confronta un registro fatture con un report e documenta ogni scostamento.\n\nPreparare i dati con Excel (2): collega lo strumento a una decisione aziendale misurabile. Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
           "example": "Riconcilia totali con il registro fatture; identifica duplicati e documenti mancanti.",
           "deliverable": "Riconciliazione fatture e anagrafiche",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7271,7 +7271,7 @@
             ]
           },
           "caseStudy": "Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
-          "theory": "Il potere dei dati con Power BI: collega lo strumento a una decisione aziendale misurabile. Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
+          "theory": "Una dashboard collega indicatori a decisioni operative.\n\nIl potere dei dati con Power BI: collega lo strumento a una decisione aziendale misurabile. Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
           "example": "Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7365,7 +7365,7 @@
             ]
           },
           "caseStudy": "Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
-          "theory": "Il potere dei dati con Power BI: collega lo strumento a una decisione aziendale misurabile. Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
+          "theory": "Ogni KPI richiede definizione, fonte, periodo e responsabile.\n\nIl potere dei dati con Power BI: collega lo strumento a una decisione aziendale misurabile. Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
           "example": "Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7446,7 +7446,7 @@
             ]
           },
           "caseStudy": "Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
-          "theory": "Il potere dei dati con Power BI: collega lo strumento a una decisione aziendale misurabile. Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
+          "theory": "Disegna un cruscotto con quattro indicatori e una decisione per ciascuno.\n\nIl potere dei dati con Power BI: collega lo strumento a una decisione aziendale misurabile. Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
           "example": "Definisci dashboard con ricavi, margine, liquidità e scostamenti; assegna fonte a ogni KPI.",
           "deliverable": "Dashboard direzionale: requisiti",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7545,7 +7545,7 @@
             ]
           },
           "caseStudy": "Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
-          "theory": "Estrarre, trasformare e caricare (1): collega lo strumento a una decisione aziendale misurabile. Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
+          "theory": "ETL significa estrazione, trasformazione e caricamento dei dati.\n\nEstrarre, trasformare e caricare (1): collega lo strumento a una decisione aziendale misurabile. Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
           "example": "Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7639,7 +7639,7 @@
             ]
           },
           "caseStudy": "Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
-          "theory": "Estrarre, trasformare e caricare (1): collega lo strumento a una decisione aziendale misurabile. Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
+          "theory": "Conservare i dati grezzi permette di ripetere e verificare le trasformazioni.\n\nEstrarre, trasformare e caricare (1): collega lo strumento a una decisione aziendale misurabile. Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
           "example": "Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7720,7 +7720,7 @@
             ]
           },
           "caseStudy": "Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
-          "theory": "Estrarre, trasformare e caricare (1): collega lo strumento a una decisione aziendale misurabile. Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
+          "theory": "Importa due tabelle fittizie e registra i passaggi di pulizia.\n\nEstrarre, trasformare e caricare (1): collega lo strumento a una decisione aziendale misurabile. Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
           "example": "Importa vendite e acquisti; conserva dati grezzi e registra trasformazioni.",
           "deliverable": "Importazione vendite e acquisti",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7819,7 +7819,7 @@
             ]
           },
           "caseStudy": "Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
-          "theory": "Estrarre, trasformare e caricare (2): collega lo strumento a una decisione aziendale misurabile. Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
+          "theory": "La qualità ETL si controlla prima e dopo ogni trasformazione.\n\nEstrarre, trasformare e caricare (2): collega lo strumento a una decisione aziendale misurabile. Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
           "example": "Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7913,7 +7913,7 @@
             ]
           },
           "caseStudy": "Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
-          "theory": "Estrarre, trasformare e caricare (2): collega lo strumento a una decisione aziendale misurabile. Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
+          "theory": "Le righe escluse devono avere una motivazione e un impatto misurabile.\n\nEstrarre, trasformare e caricare (2): collega lo strumento a una decisione aziendale misurabile. Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
           "example": "Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -7994,7 +7994,7 @@
             ]
           },
           "caseStudy": "Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
-          "theory": "Estrarre, trasformare e caricare (2): collega lo strumento a una decisione aziendale misurabile. Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
+          "theory": "Confronta conteggi, nulli, duplicati e totali prima e dopo la pulizia.\n\nEstrarre, trasformare e caricare (2): collega lo strumento a una decisione aziendale misurabile. Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
           "example": "Controlla chiavi duplicate, valori nulli e totali prima e dopo la pulizia.",
           "deliverable": "Controlli di qualità e duplicati",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8093,7 +8093,7 @@
             ]
           },
           "caseStudy": "Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
-          "theory": "Modellare i dati (1): collega lo strumento a una decisione aziendale misurabile. Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
+          "theory": "Un modello dati distingue fatti misurabili e dimensioni descrittive.\n\nModellare i dati (1): collega lo strumento a una decisione aziendale misurabile. Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
           "example": "Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8187,7 +8187,7 @@
             ]
           },
           "caseStudy": "Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
-          "theory": "Modellare i dati (1): collega lo strumento a una decisione aziendale misurabile. Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
+          "theory": "La granularità indica cosa rappresenta una riga; relazioni errate duplicano importi.\n\nModellare i dati (1): collega lo strumento a una decisione aziendale misurabile. Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
           "example": "Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8268,7 +8268,7 @@
             ]
           },
           "caseStudy": "Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
-          "theory": "Modellare i dati (1): collega lo strumento a una decisione aziendale misurabile. Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
+          "theory": "Disegna vendite, clienti e prodotti con chiavi e cardinalità.\n\nModellare i dati (1): collega lo strumento a una decisione aziendale misurabile. Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
           "example": "Crea dimensioni clienti, prodotti e calendario; verifica relazioni uno-a-molti.",
           "deliverable": "Modello clienti prodotti e calendario",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8367,7 +8367,7 @@
             ]
           },
           "caseStudy": "Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
-          "theory": "Modellare i dati (2): DAX: collega lo strumento a una decisione aziendale misurabile. Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
+          "theory": "DAX esprime misure che dipendono dal contesto di filtro.\n\nModellare i dati (2): DAX: collega lo strumento a una decisione aziendale misurabile. Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
           "example": "Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8461,7 +8461,7 @@
             ]
           },
           "caseStudy": "Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
-          "theory": "Modellare i dati (2): DAX: collega lo strumento a una decisione aziendale misurabile. Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
+          "theory": "Il margine percentuale divide il margine per i ricavi, se non nulli.\n\nModellare i dati (2): DAX: collega lo strumento a una decisione aziendale misurabile. Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
           "example": "Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8542,7 +8542,7 @@
             ]
           },
           "caseStudy": "Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
-          "theory": "Modellare i dati (2): DAX: collega lo strumento a una decisione aziendale misurabile. Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
+          "theory": "Calcola ricavi, costi e margine per due periodi e riconcilia i totali.\n\nModellare i dati (2): DAX: collega lo strumento a una decisione aziendale misurabile. Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
           "example": "Ricavi 100000, costi 70000: margine 30000 e margine percentuale 30%; confronta budget.",
           "deliverable": "Misure margine e scostamento budget",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8641,7 +8641,7 @@
             ]
           },
           "caseStudy": "Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
-          "theory": "Analizzare e visualizzare (1): collega lo strumento a una decisione aziendale misurabile. Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
+          "theory": "La segmentazione permette di analizzare risultati per cliente o prodotto.\n\nAnalizzare e visualizzare (1): collega lo strumento a una decisione aziendale misurabile. Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
           "example": "Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8735,7 +8735,7 @@
             ]
           },
           "caseStudy": "Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
-          "theory": "Analizzare e visualizzare (1): collega lo strumento a una decisione aziendale misurabile. Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
+          "theory": "Il margine dipende dai costi inclusi; specifica sempre la definizione.\n\nAnalizzare e visualizzare (1): collega lo strumento a una decisione aziendale misurabile. Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
           "example": "Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8816,7 +8816,7 @@
             ]
           },
           "caseStudy": "Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
-          "theory": "Analizzare e visualizzare (1): collega lo strumento a una decisione aziendale misurabile. Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
+          "theory": "Confronta segmenti e verifica che i totali coincidano con il generale.\n\nAnalizzare e visualizzare (1): collega lo strumento a una decisione aziendale misurabile. Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
           "example": "Segmenta vendite per cliente e prodotto; verifica che i totali coincidano con il generale.",
           "deliverable": "Analisi vendite per segmento",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -8921,7 +8921,7 @@
             ]
           },
           "caseStudy": "Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
-          "theory": "Analizzare e visualizzare (2): collega lo strumento a una decisione aziendale misurabile. Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
+          "theory": "Lo scostamento confronta valore effettivo e budget.\n\nAnalizzare e visualizzare (2): collega lo strumento a una decisione aziendale misurabile. Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
           "example": "Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9015,7 +9015,7 @@
             ]
           },
           "caseStudy": "Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
-          "theory": "Analizzare e visualizzare (2): collega lo strumento a una decisione aziendale misurabile. Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
+          "theory": "Un aumento di costo è normalmente sfavorevole a parità di perimetro.\n\nAnalizzare e visualizzare (2): collega lo strumento a una decisione aziendale misurabile. Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
           "example": "Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9096,7 +9096,7 @@
             ]
           },
           "caseStudy": "Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
-          "theory": "Analizzare e visualizzare (2): collega lo strumento a una decisione aziendale misurabile. Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
+          "theory": "Calcola scostamenti di ricavi e costi e spiega il significato dei segni.\n\nAnalizzare e visualizzare (2): collega lo strumento a una decisione aziendale misurabile. Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
           "example": "Attribuisci costi diretti e indiretti con criteri documentati; non confondere costo e uscita di cassa.",
           "deliverable": "Analisi costi per centro",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9195,7 +9195,7 @@
             ]
           },
           "caseStudy": "Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
-          "theory": "Design dei report: collega lo strumento a una decisione aziendale misurabile. Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
+          "theory": "Un report efficace rende visibili periodo, unità e fonte.\n\nDesign dei report: collega lo strumento a una decisione aziendale misurabile. Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
           "example": "Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9289,7 +9289,7 @@
             ]
           },
           "caseStudy": "Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
-          "theory": "Design dei report: collega lo strumento a una decisione aziendale misurabile. Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
+          "theory": "Utile e liquidità sono concetti distinti; incassi e pagamenti determinano il saldo di cassa.\n\nDesign dei report: collega lo strumento a una decisione aziendale misurabile. Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
           "example": "Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9370,7 +9370,7 @@
             ]
           },
           "caseStudy": "Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
-          "theory": "Design dei report: collega lo strumento a una decisione aziendale misurabile. Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
+          "theory": "Disegna un grafico con saldo iniziale, movimenti e saldo finale.\n\nDesign dei report: collega lo strumento a una decisione aziendale misurabile. Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
           "example": "Saldo iniziale 10000, incassi 6000, pagamenti 9000: saldo finale 7000; separa utile e liquidità.",
           "deliverable": "Dashboard liquidità e marginalità",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9469,7 +9469,7 @@
             ]
           },
           "caseStudy": "Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
-          "theory": "Pubblicare e mantenere: collega lo strumento a una decisione aziendale misurabile. Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
+          "theory": "La pubblicazione di report richiede permessi e aggiornamenti controllati.\n\nPubblicare e mantenere: collega lo strumento a una decisione aziendale misurabile. Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
           "example": "Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9563,7 +9563,7 @@
             ]
           },
           "caseStudy": "Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
-          "theory": "Pubblicare e mantenere: collega lo strumento a una decisione aziendale misurabile. Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
+          "theory": "Un ruolo limitato deve vedere solo i dati necessari al compito.\n\nPubblicare e mantenere: collega lo strumento a una decisione aziendale misurabile. Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
           "example": "Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9644,7 +9644,7 @@
             ]
           },
           "caseStudy": "Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
-          "theory": "Pubblicare e mantenere: collega lo strumento a una decisione aziendale misurabile. Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
+          "theory": "Definisci una matrice di accesso e un piano di test per ruoli distinti.\n\nPubblicare e mantenere: collega lo strumento a una decisione aziendale misurabile. Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
           "example": "Definisci ruoli di accesso e frequenza aggiornamento; prova il report con un utente limitato.",
           "deliverable": "Permessi report e aggiornamento",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9743,7 +9743,7 @@
             ]
           },
           "caseStudy": "Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
-          "theory": "Preparazione PL-300 e progetto finale: collega lo strumento a una decisione aziendale misurabile. Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
+          "theory": "Un progetto BI integra misure, fonti e decisioni.\n\nPreparazione PL-300 e progetto finale: collega lo strumento a una decisione aziendale misurabile. Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
           "example": "Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9837,7 +9837,7 @@
             ]
           },
           "caseStudy": "Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
-          "theory": "Preparazione PL-300 e progetto finale: collega lo strumento a una decisione aziendale misurabile. Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
+          "theory": "Una raccomandazione deve indicare evidenza, incertezza e responsabilità.\n\nPreparazione PL-300 e progetto finale: collega lo strumento a una decisione aziendale misurabile. Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
           "example": "Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -9918,7 +9918,7 @@
             ]
           },
           "caseStudy": "Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
-          "theory": "Preparazione PL-300 e progetto finale: collega lo strumento a una decisione aziendale misurabile. Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
+          "theory": "Prepara tre raccomandazioni basate su un dataset fittizio e verificabile.\n\nPreparazione PL-300 e progetto finale: collega lo strumento a una decisione aziendale misurabile. Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
           "example": "Presenta tre raccomandazioni con dati, incertezza, responsabile e scadenza.",
           "deliverable": "Report direzionale con raccomandazioni",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10017,7 +10017,7 @@
             ]
           },
           "caseStudy": "Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
-          "theory": "Make Foundation (1): collega lo strumento a una decisione aziendale misurabile. Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
+          "theory": "Un trigger avvia un processo in risposta a un evento o orario.\n\nMake Foundation (1): collega lo strumento a una decisione aziendale misurabile. Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
           "example": "Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10111,7 +10111,7 @@
             ]
           },
           "caseStudy": "Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
-          "theory": "Make Foundation (1): collega lo strumento a una decisione aziendale misurabile. Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
+          "theory": "Identificativo e timestamp aiutano a tracciare ogni esecuzione.\n\nMake Foundation (1): collega lo strumento a una decisione aziendale misurabile. Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
           "example": "Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10192,7 +10192,7 @@
             ]
           },
           "caseStudy": "Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
-          "theory": "Make Foundation (1): collega lo strumento a una decisione aziendale misurabile. Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
+          "theory": "Disegna un flusso ordine con trigger, verifica e conferma.\n\nMake Foundation (1): collega lo strumento a una decisione aziendale misurabile. Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
           "example": "Mappa ordine, verifica disponibilità e conferma; identifica trigger e punto di approvazione.",
           "deliverable": "Mappa automazione gestione ordini",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10291,7 +10291,7 @@
             ]
           },
           "caseStudy": "Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
-          "theory": "Make Foundation (2): collega lo strumento a una decisione aziendale misurabile. Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
+          "theory": "La mappatura collega campi tra sistemi e converte unità.\n\nMake Foundation (2): collega lo strumento a una decisione aziendale misurabile. Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
           "example": "Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10385,7 +10385,7 @@
             ]
           },
           "caseStudy": "Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
-          "theory": "Make Foundation (2): collega lo strumento a una decisione aziendale misurabile. Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
+          "theory": "Un importo in centesimi deve essere convertito prima di usarlo in euro.\n\nMake Foundation (2): collega lo strumento a una decisione aziendale misurabile. Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
           "example": "Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10466,7 +10466,7 @@
             ]
           },
           "caseStudy": "Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
-          "theory": "Make Foundation (2): collega lo strumento a una decisione aziendale misurabile. Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
+          "theory": "Prova una trasformazione con valori noti e ripeti lo stesso ID ordine.\n\nMake Foundation (2): collega lo strumento a una decisione aziendale misurabile. Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
           "example": "Ripeti lo stesso ID ordine: il sistema deve creare una sola registrazione.",
           "deliverable": "Scenario con controllo duplicati",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10565,7 +10565,7 @@
             ]
           },
           "caseStudy": "Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
-          "theory": "Make Basics: collega lo strumento a una decisione aziendale misurabile. Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
+          "theory": "Un filtro decide se un record può proseguire nel flusso.\n\nMake Basics: collega lo strumento a una decisione aziendale misurabile. Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
           "example": "Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10659,7 +10659,7 @@
             ]
           },
           "caseStudy": "Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
-          "theory": "Make Basics: collega lo strumento a una decisione aziendale misurabile. Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
+          "theory": "Le soglie richiedono test sotto, sopra e sul valore esatto.\n\nMake Basics: collega lo strumento a una decisione aziendale misurabile. Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
           "example": "Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10740,7 +10740,7 @@
             ]
           },
           "caseStudy": "Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
-          "theory": "Make Basics: collega lo strumento a una decisione aziendale misurabile. Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
+          "theory": "Simula solleciti con fatture pagate, non pagate e dati mancanti.\n\nMake Basics: collega lo strumento a una decisione aziendale misurabile. Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
           "example": "Simula solleciti fatture con controllo dello stato pagato e approvazione prima dell’invio.",
           "deliverable": "Automazione reminder fatture",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10839,7 +10839,7 @@
             ]
           },
           "caseStudy": "Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
-          "theory": "Make Intermediate (1): collega lo strumento a una decisione aziendale misurabile. Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
+          "theory": "Un retry ripete una richiesta fallita per cause temporanee.\n\nMake Intermediate (1): collega lo strumento a una decisione aziendale misurabile. Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
           "example": "Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -10933,7 +10933,7 @@
             ]
           },
           "caseStudy": "Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
-          "theory": "Make Intermediate (1): collega lo strumento a una decisione aziendale misurabile. Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
+          "theory": "Attesa crescente e limite di tentativi evitano sovraccarico e cicli infiniti.\n\nMake Intermediate (1): collega lo strumento a una decisione aziendale misurabile. Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
           "example": "Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11014,7 +11014,7 @@
             ]
           },
           "caseStudy": "Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
-          "theory": "Make Intermediate (1): collega lo strumento a una decisione aziendale misurabile. Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
+          "theory": "Simula un timeout e registra tentativi, esito e percorso di eccezione.\n\nMake Intermediate (1): collega lo strumento a una decisione aziendale misurabile. Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
           "example": "Gestisci timeout con retry limitato e coda eccezioni; evita duplicati.",
           "deliverable": "Gestione eccezioni e retry",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11113,7 +11113,7 @@
             ]
           },
           "caseStudy": "Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
-          "theory": "Make Intermediate (2): collega lo strumento a una decisione aziendale misurabile. Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
+          "theory": "L'idempotenza evita effetti duplicati quando un evento viene ripetuto.\n\nMake Intermediate (2): collega lo strumento a una decisione aziendale misurabile. Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
           "example": "Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11207,7 +11207,7 @@
             ]
           },
           "caseStudy": "Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
-          "theory": "Make Intermediate (2): collega lo strumento a una decisione aziendale misurabile. Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
+          "theory": "Un identificativo stabile permette di riconoscere operazioni già elaborate.\n\nMake Intermediate (2): collega lo strumento a una decisione aziendale misurabile. Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
           "example": "Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11288,7 +11288,7 @@
             ]
           },
           "caseStudy": "Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
-          "theory": "Make Intermediate (2): collega lo strumento a una decisione aziendale misurabile. Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
+          "theory": "Ripeti una fattura simulata e verifica che venga registrata una sola volta.\n\nMake Intermediate (2): collega lo strumento a una decisione aziendale misurabile. Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
           "example": "Registra ID, esito, durata e costo per esecuzione senza dati sensibili nei log.",
           "deliverable": "Audit log e stima costi",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11387,7 +11387,7 @@
             ]
           },
           "caseStudy": "Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
-          "theory": "Automation to AI Agents: Foundation (1): collega lo strumento a una decisione aziendale misurabile. Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
+          "theory": "Un agente aziendale usa strumenti per compiti definiti.\n\nAutomation to AI Agents: Foundation (1): collega lo strumento a una decisione aziendale misurabile. Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
           "example": "Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11481,7 +11481,7 @@
             ]
           },
           "caseStudy": "Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
-          "theory": "Automation to AI Agents: Foundation (1): collega lo strumento a una decisione aziendale misurabile. Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
+          "theory": "Limita strumenti, dati e azioni; verifica qualità su esempi etichettati.\n\nAutomation to AI Agents: Foundation (1): collega lo strumento a una decisione aziendale misurabile. Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
           "example": "Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11562,7 +11562,7 @@
             ]
           },
           "caseStudy": "Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
-          "theory": "Automation to AI Agents: Foundation (1): collega lo strumento a una decisione aziendale misurabile. Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
+          "theory": "Classifica richieste fittizie e confronta esiti con categorie attese.\n\nAutomation to AI Agents: Foundation (1): collega lo strumento a una decisione aziendale misurabile. Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
           "example": "Classifica richieste per urgenza; confronta le categorie con un campione etichettato.",
           "deliverable": "Agente classificazione richieste",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11661,7 +11661,7 @@
             ]
           },
           "caseStudy": "Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
-          "theory": "Automation to AI Agents: Foundation (2): collega lo strumento a una decisione aziendale misurabile. Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
+          "theory": "La supervisione consente intervento umano quando l'agente è incerto.\n\nAutomation to AI Agents: Foundation (2): collega lo strumento a una decisione aziendale misurabile. Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
           "example": "Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11755,7 +11755,7 @@
             ]
           },
           "caseStudy": "Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
-          "theory": "Automation to AI Agents: Foundation (2): collega lo strumento a una decisione aziendale misurabile. Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
+          "theory": "Un dato mancante deve generare una richiesta di chiarimento o escalation.\n\nAutomation to AI Agents: Foundation (2): collega lo strumento a una decisione aziendale misurabile. Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
           "example": "Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11836,7 +11836,7 @@
             ]
           },
           "caseStudy": "Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
-          "theory": "Automation to AI Agents: Foundation (2): collega lo strumento a una decisione aziendale misurabile. Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
+          "theory": "Simula casi ambigui e verifica che tutti arrivino a un responsabile.\n\nAutomation to AI Agents: Foundation (2): collega lo strumento a una decisione aziendale misurabile. Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
           "example": "Inoltra casi ambigui a un responsabile; verifica che nessuna richiesta vada persa.",
           "deliverable": "Escalation umana per casi incerti",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -11935,7 +11935,7 @@
             ]
           },
           "caseStudy": "Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
-          "theory": "Automation to AI Agents: Advanced: collega lo strumento a una decisione aziendale misurabile. Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
+          "theory": "Il monitoraggio misura errori, tempi e costi per esecuzione.\n\nAutomation to AI Agents: Advanced: collega lo strumento a una decisione aziendale misurabile. Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
           "example": "Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12029,7 +12029,7 @@
             ]
           },
           "caseStudy": "Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
-          "theory": "Automation to AI Agents: Advanced: collega lo strumento a una decisione aziendale misurabile. Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
+          "theory": "Un limite di iterazioni e un arresto controllato evitano cicli incontrollati.\n\nAutomation to AI Agents: Advanced: collega lo strumento a una decisione aziendale misurabile. Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
           "example": "Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12110,7 +12110,7 @@
             ]
           },
           "caseStudy": "Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
-          "theory": "Automation to AI Agents: Advanced: collega lo strumento a una decisione aziendale misurabile. Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
+          "theory": "Definisci soglie e un percorso manuale alternativo per un workflow.\n\nAutomation to AI Agents: Advanced: collega lo strumento a una decisione aziendale misurabile. Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
           "example": "Misura errori e costo per richiesta; definisci arresto e ritorno al processo manuale.",
           "deliverable": "Monitoraggio e rollback agente",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12209,7 +12209,7 @@
             ]
           },
           "caseStudy": "Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
-          "theory": "Power Platform: valore e componenti: collega lo strumento a una decisione aziendale misurabile. Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
+          "theory": "Power Platform comprende strumenti per app, flussi e analisi; la scelta dipende dal processo.\n\nPower Platform: valore e componenti: collega lo strumento a una decisione aziendale misurabile. Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
           "example": "Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12303,7 +12303,7 @@
             ]
           },
           "caseStudy": "Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
-          "theory": "Power Platform: valore e componenti: collega lo strumento a una decisione aziendale misurabile. Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
+          "theory": "Valuta integrazioni, licenze, competenze e manutenzione prima di scegliere.\n\nPower Platform: valore e componenti: collega lo strumento a una decisione aziendale misurabile. Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
           "example": "Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12384,7 +12384,7 @@
             ]
           },
           "caseStudy": "Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
-          "theory": "Power Platform: valore e componenti: collega lo strumento a una decisione aziendale misurabile. Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
+          "theory": "Confronta alternative per un modulo interno con approvazione.\n\nPower Platform: valore e componenti: collega lo strumento a una decisione aziendale misurabile. Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
           "example": "Confronta strumenti per integrazione, licenze, competenze e manutenzione.",
           "deliverable": "Scelta strumenti per processo aziendale",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12483,7 +12483,7 @@
             ]
           },
           "caseStudy": "Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
-          "theory": "Power Apps e Power Automate: collega lo strumento a una decisione aziendale misurabile. Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
+          "theory": "Una app interna raccoglie dati e un flusso gestisce attività successive.\n\nPower Apps e Power Automate: collega lo strumento a una decisione aziendale misurabile. Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
           "example": "Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12577,7 +12577,7 @@
             ]
           },
           "caseStudy": "Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
-          "theory": "Power Apps e Power Automate: collega lo strumento a una decisione aziendale misurabile. Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
+          "theory": "Separare richiedente e approvatore riduce conflitti e accessi impropri.\n\nPower Apps e Power Automate: collega lo strumento a una decisione aziendale misurabile. Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
           "example": "Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12658,7 +12658,7 @@
             ]
           },
           "caseStudy": "Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
-          "theory": "Power Apps e Power Automate: collega lo strumento a una decisione aziendale misurabile. Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
+          "theory": "Progetta un'approvazione spese con ruoli distinti e casi di rifiuto.\n\nPower Apps e Power Automate: collega lo strumento a una decisione aziendale misurabile. Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
           "example": "Prototipa approvazione spese con ruoli richiedente e approvatore separati.",
           "deliverable": "App interna approvazione spese",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12757,7 +12757,7 @@
             ]
           },
           "caseStudy": "Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
-          "theory": "Copilot Studio e amministrazione: collega lo strumento a una decisione aziendale misurabile. Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
+          "theory": "Un assistente aziendale deve accedere soltanto a fonti autorizzate.\n\nCopilot Studio e amministrazione: collega lo strumento a una decisione aziendale misurabile. Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
           "example": "Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12851,7 +12851,7 @@
             ]
           },
           "caseStudy": "Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
-          "theory": "Copilot Studio e amministrazione: collega lo strumento a una decisione aziendale misurabile. Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
+          "theory": "La governance richiede test fuori ruolo e controllo delle informazioni esposte.\n\nCopilot Studio e amministrazione: collega lo strumento a una decisione aziendale misurabile. Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
           "example": "Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -12932,7 +12932,7 @@
             ]
           },
           "caseStudy": "Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
-          "theory": "Copilot Studio e amministrazione: collega lo strumento a una decisione aziendale misurabile. Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
+          "theory": "Simula richieste di documenti riservati con profili autorizzati e non.\n\nCopilot Studio e amministrazione: collega lo strumento a una decisione aziendale misurabile. Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
           "example": "Limita l’assistente ai documenti autorizzati; prova richieste fuori ruolo.",
           "deliverable": "Assistente interno con autorizzazioni",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -13031,7 +13031,7 @@
             ]
           },
           "caseStudy": "Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
-          "theory": "Ripasso ed esame PL-900: collega lo strumento a una decisione aziendale misurabile. Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
+          "theory": "Un piano di 90 giorni traduce obiettivi in iniziative, risorse e scadenze.\n\nRipasso ed esame PL-900: collega lo strumento a una decisione aziendale misurabile. Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
           "example": "Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -13125,7 +13125,7 @@
             ]
           },
           "caseStudy": "Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
-          "theory": "Ripasso ed esame PL-900: collega lo strumento a una decisione aziendale misurabile. Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
+          "theory": "Priorità e milestone dipendono da valore, fattibilità e rischio.\n\nRipasso ed esame PL-900: collega lo strumento a una decisione aziendale misurabile. Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
           "example": "Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
           "deliverable": "Una nota direzionale con fonte, calcolo, decisione e responsabile.",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
@@ -13206,7 +13206,7 @@
             ]
           },
           "caseStudy": "Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
-          "theory": "Ripasso ed esame PL-900: collega lo strumento a una decisione aziendale misurabile. Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
+          "theory": "Prepara un piano trimestrale con responsabili, KPI e revisioni mensili.\n\nRipasso ed esame PL-900: collega lo strumento a una decisione aziendale misurabile. Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
           "example": "Definisci piano a 90 giorni con budget, responsabili, KPI e revisioni mensili.",
           "deliverable": "Piano AI aziendale a 90 giorni con KPI e budget",
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
