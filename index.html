@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="it" data-theme="dark">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Creator Academy</title>
+<meta name="theme-color" content="#22306B">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="AI Academy">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="icon" href="icon-192.png">
+
+
+
+<style>
+/* Layout: one-column study companion; today card, phase bars, session runner with steps + exercise, bottom tabs */
+:root{
+  --bg:#F3F4FA; --surface:#FFFFFF; --surface-2:#F4F6FC; --ink:#161D38; --muted:#5D6685; --line:#DDE1EE;
+  --primary:#3149C9; --primary-soft:#E3E8FB; --mark:#F6C33B; --mark-soft:#FFF3CF; --good:#1D9A68; --good-soft:#DDF3EA; --bad:#C8453B; --bad-soft:#FBE4E1;
+  --display:"Bricolage Grotesque", system-ui, sans-serif; --body:"Figtree", -apple-system, system-ui, sans-serif;
+  --radius:18px; --shadow:0 6px 20px rgba(22,29,56,.07); color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#0E1222; --surface:#171D33; --surface-2:#1D2440; --ink:#E9ECF8; --muted:#9AA3C4; --line:#2A3354;
+  --primary:#7E93F2; --primary-soft:#232D58; --mark:#F6C33B; --mark-soft:#3A3115; --good:#4CC995; --good-soft:#173A2D; --bad:#F07A70; --bad-soft:#3E1E1C;
+  --shadow:0 6px 20px rgba(0,0,0,.35); color-scheme:dark; } }
+:root[data-theme="dark"]{
+  --bg:#0E1222; --surface:#171D33; --surface-2:#1D2440; --ink:#E9ECF8; --muted:#9AA3C4; --line:#2A3354;
+  --primary:#7E93F2; --primary-soft:#232D58; --mark:#F6C33B; --mark-soft:#3A3115; --good:#4CC995; --good-soft:#173A2D; --bad:#F07A70; --bad-soft:#3E1E1C;
+  --shadow:0 6px 20px rgba(0,0,0,.35); color-scheme:dark; }
+*{box-sizing:border-box}
+html,body{margin:0;height:100%}
+body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.45;-webkit-font-smoothing:antialiased;
+  padding:env(safe-area-inset-top) env(safe-area-inset-right) 0 env(safe-area-inset-left)}
+button,input,textarea{font:inherit;color:inherit}
+button{cursor:pointer}
+:focus-visible{outline:3px solid var(--primary);outline-offset:2px;border-radius:8px}
+a{color:var(--primary)}
+.wrap{max-width:560px;margin:0 auto;padding:16px 16px calc(96px + env(safe-area-inset-bottom))}
+h1,h2,h3{font-family:var(--display);margin:0;text-wrap:balance;letter-spacing:-.01em}
+.muted{color:var(--muted)}
+.row{display:flex;align-items:center;gap:10px}
+.grow{flex:1;min-width:0}
+.hidden{display:none!important}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow);margin-top:14px}
+.small{font-size:13px}
+
+/* Hero */
+.hero{border-radius:24px;padding:20px;color:#fff;background:linear-gradient(150deg,#1C2760 0%,#3149C9 70%,#5A6FE0 100%);box-shadow:var(--shadow);position:relative;overflow:hidden}
+.hero::after{content:"";position:absolute;right:-30px;bottom:-50px;width:170px;height:170px;border-radius:50%;background:var(--mark);opacity:.22}
+.hero .kicker{font-size:13px;font-weight:600;opacity:.85}
+.hero h1{font-size:28px;font-weight:800;margin:4px 0 2px}
+.hstats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:14px;position:relative;z-index:1}
+.hstat{background:rgba(255,255,255,.14);border-radius:14px;padding:8px;text-align:center}
+.hstat b{display:block;font-family:var(--display);font-size:22px;font-variant-numeric:tabular-nums}
+.hstat span{font-size:11px;opacity:.9}
+
+/* Today */
+.today{display:block;width:100%;text-align:left;margin-top:16px;border:0;border-radius:22px;padding:18px;background:var(--mark);color:#2A2000;box-shadow:0 10px 22px rgba(246,195,59,.35)}
+.today .lbl{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;opacity:.8}
+.today h2{font-size:22px;margin:4px 0 6px}
+.today .meta{font-size:14px;font-weight:600;opacity:.85}
+.today .go{margin-top:12px;display:inline-flex;align-items:center;gap:6px;background:#2A2000;color:var(--mark);border-radius:999px;padding:8px 14px;font-weight:700;font-size:14px}
+
+/* Phase bars */
+.phase{display:grid;grid-template-columns:28px 1fr auto;gap:10px;align-items:center;margin:12px 0}
+.phase .num{width:28px;height:28px;border-radius:9px;background:var(--primary-soft);color:var(--primary);display:grid;place-items:center;font-weight:800;font-family:var(--display)}
+.phase .num.done{background:var(--good);color:#fff}
+.track{height:10px;background:var(--surface-2);border-radius:99px;overflow:hidden;margin-top:4px}
+.track i{display:block;height:100%;background:var(--primary);border-radius:99px;transition:width .4s}
+.phase b{font-variant-numeric:tabular-nums;font-size:14px}
+
+/* Session list */
+.sitem{display:flex;align-items:center;gap:12px;width:100%;text-align:left;background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px;margin-top:8px}
+.dot{flex:none;width:30px;height:30px;border-radius:50%;border:2px solid var(--line);display:grid;place-items:center;font-size:12px;font-weight:800;color:var(--muted)}
+.dot.done{background:var(--good);border-color:var(--good);color:#fff}
+.dot.prog{border-color:var(--mark);background:var(--mark-soft);color:#7A5B00}
+.dot.next{border-color:var(--primary);color:var(--primary)}
+.dot svg{width:15px;height:15px}
+.sitem h3{font-size:15px;font-weight:600;font-family:var(--body)}
+.weekhead{margin:22px 0 4px;font-size:13px;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.phasehead{margin:26px 0 0;font-size:22px}
+
+/* Session view */
+.topbar{position:sticky;top:0;z-index:5;background:var(--bg);display:flex;align-items:center;gap:8px;padding:10px 0}
+.iconbtn{width:40px;height:40px;border-radius:12px;border:1px solid var(--line);background:var(--surface);display:grid;place-items:center;flex:none}
+.iconbtn svg{width:20px;height:20px}
+.stitle{font-size:26px;font-weight:800;margin-top:4px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.pill{display:inline-flex;align-items:center;gap:6px;border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600;background:var(--surface);border:1px solid var(--line)}
+.goal{background:var(--primary-soft);border-radius:14px;padding:12px 14px;margin-top:14px;font-weight:500}
+.goal b{display:block;font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--primary);margin-bottom:2px}
+.platform{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-top:10px;padding:12px 14px;border-radius:14px;background:var(--surface);border:1px solid var(--line);text-decoration:none;color:var(--ink);font-weight:600}
+.platform span.muted{font-weight:500;font-size:13px;display:block}
+.platform svg{width:18px;height:18px;flex:none;color:var(--primary)}
+.progress{height:8px;background:var(--line);border-radius:99px;overflow:hidden;margin:14px 0 4px}
+.progress i{display:block;height:100%;background:linear-gradient(90deg,var(--primary),var(--good));transition:width .4s}
+.sec{font-size:18px;margin:22px 0 4px}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:14px;margin-top:10px;box-shadow:var(--shadow)}
+.step.isdone{border-color:var(--good)}
+.stepmain{display:flex;gap:12px;align-items:flex-start}
+.check{flex:none;width:30px;height:30px;border-radius:9px;border:2px solid var(--line);background:var(--surface-2);display:grid;place-items:center;padding:0}
+.check.on{background:var(--good);border-color:var(--good);color:#fff}
+.check svg{width:16px;height:16px}
+.stepnum{font-size:12px;font-weight:700;color:var(--muted)}
+.steptext{font-size:15px}
+.steptext .min{display:inline-block;margin-left:4px;font-size:12px;font-weight:700;color:var(--primary);background:var(--primary-soft);border-radius:6px;padding:1px 6px}
+.startbtn{display:inline-flex;align-items:center;gap:8px;margin-top:10px;padding:10px 16px;border-radius:999px;background:var(--primary);color:#fff;font-weight:700;font-size:15px;text-decoration:none;min-height:44px}
+.startbtn svg{width:16px;height:16px}
+.levels{display:flex;gap:6px;margin-top:10px;flex-wrap:wrap;padding-left:42px}
+.levels span{font-size:12px;color:var(--muted);width:100%}
+.lvl{border:1px solid var(--line);background:var(--surface-2);border-radius:999px;padding:6px 12px;font-size:13px;font-weight:600;min-height:34px}
+.lvl.on.l1{background:var(--bad-soft);border-color:var(--bad);color:var(--bad)}
+.lvl.on.l2{background:var(--mark-soft);border-color:var(--mark);color:#7A5B00}
+.lvl.on.l3{background:var(--good-soft);border-color:var(--good);color:var(--good)}
+.exercise{border:2px solid var(--primary);border-radius:18px;padding:16px;margin-top:10px;background:var(--surface)}
+.exercise .tag{display:inline-block;font-size:12px;font-weight:700;color:var(--primary);background:var(--primary-soft);border-radius:999px;padding:3px 10px;margin-bottom:8px}
+.q{margin-top:14px}
+.q p{font-weight:600;margin:0 0 8px}
+.opt{display:block;width:100%;text-align:left;margin-top:6px;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--surface-2);font-size:15px}
+.opt.right{background:var(--good-soft);border-color:var(--good)}
+.opt.wrong{background:var(--bad-soft);border-color:var(--bad)}
+.why{margin-top:8px;font-size:14px;padding:10px 12px;border-radius:12px;background:var(--surface-2)}
+.crit{display:flex;gap:10px;align-items:flex-start;width:100%;text-align:left;border:0;background:none;padding:8px 0;font-size:15px}
+.result{margin-top:14px;padding:12px;border-radius:12px;font-weight:700;text-align:center}
+.result.ok{background:var(--good-soft);color:var(--good)}
+.result.ko{background:var(--mark-soft);color:#7A5B00}
+.field{width:100%;border:1px solid var(--line);background:var(--surface-2);border-radius:12px;padding:10px 12px;min-height:80px;resize:vertical}
+.btn{display:block;width:100%;padding:15px;border-radius:14px;border:1px solid var(--line);background:var(--surface);font-weight:700;margin-top:10px}
+.btn.primary{background:var(--primary);border-color:var(--primary);color:#fff}
+.btn.good{background:var(--good);border-color:var(--good);color:#fff}
+.btn:disabled{opacity:.5}
+
+nav.tabs{position:fixed;left:0;right:0;bottom:0;z-index:10;background:var(--surface);border-top:1px solid var(--line);display:flex;justify-content:center;padding:6px 8px calc(6px + env(safe-area-inset-bottom))}
+nav.tabs button{flex:1;max-width:160px;border:0;background:none;display:flex;flex-direction:column;align-items:center;gap:2px;font-size:12px;font-weight:600;color:var(--muted);padding:6px}
+nav.tabs button svg{width:24px;height:24px}
+nav.tabs button.on{color:var(--primary)}
+.overlay{position:fixed;inset:0;z-index:30;background:rgba(8,10,20,.55);display:flex;align-items:flex-end;justify-content:center}
+.sheet{background:var(--surface);width:100%;max-width:560px;border-radius:24px 24px 0 0;padding:20px 16px calc(20px + env(safe-area-inset-bottom))}
+.actions{display:flex;gap:8px;margin-top:14px}
+.actions .btn{margin-top:0}
+.toast{position:fixed;left:50%;bottom:calc(90px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:50;background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:999px;font-weight:600;font-size:14px;max-width:90%;text-align:center}
+.celebrate{text-align:center;padding:8px 0}
+.celebrate .big{font-family:var(--display);font-size:56px;line-height:1}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+
+/* Academy visual refresh */
+:root{--primary:#6545c8;--primary-soft:#ede8ff;--bg:#f4f3fa;--radius:22px;--mark:#c4b5fd;--mark-soft:#eee8ff}
+:root[data-theme="dark"]{--primary:#b6a5ff;--primary-soft:#30254f;--bg:#0b1020;--surface:#151c30;--surface-2:#20283e;--line:#303a53;--mark:#c4b5fd;--mark-soft:#30254f}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]){--primary:#b6a5ff;--primary-soft:#30254f;--bg:#0b1020;--surface:#151c30;--surface-2:#20283e;--line:#303a53;--mark:#c4b5fd;--mark-soft:#30254f}}
+.wrap{max-width:760px;padding-top:24px}.hero{background:linear-gradient(125deg,#252050,#6545c8 70%,#397eaa);padding:26px;border-radius:28px}.hero::after{background:#b8e6ff;pointer-events:none}.hero h1{font-size:clamp(28px,5vw,40px);letter-spacing:-.035em}.hero .kicker{text-transform:uppercase;letter-spacing:.12em}.card{padding:20px}.today{background:linear-gradient(120deg,#ddd6fe,#bae6fd);color:#201a40;box-shadow:0 8px 24px #6551a326}.today .go{background:#30245b;color:#fff}.sitem{transition:transform .15s,border-color .15s}.sitem:hover{border-color:var(--primary);transform:translateY(-1px)}nav.tabs{backdrop-filter:blur(18px)}nav.tabs button.on{background:var(--primary-soft);border-radius:14px}.platform{overflow-wrap:anywhere}.course-grid{display:grid;gap:12px;margin-top:18px}.course-grid .sitem{margin:0;padding:20px;min-height:100px;box-shadow:var(--shadow)}.course-grid .dot{width:46px;height:46px;font-size:20px;flex-shrink:0}.course-grid h3{font-size:19px}.academy-label{font-size:12px;text-transform:uppercase;letter-spacing:.12em;color:var(--muted);margin:24px 0 0;font-weight:700}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+
+:root{--body:system-ui,-apple-system,sans-serif;--display:system-ui,-apple-system,sans-serif}
+.card{border-radius:20px;overflow-wrap:anywhere}.btn,.opt,.iconbtn{min-height:44px}button:focus-visible,a:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #8b5cf6;outline-offset:3px}.lesson-theory{line-height:1.7}.lesson-theory summary{cursor:pointer;padding:12px 0;font-weight:700}.lesson-theory p{margin:8px 0 16px}.field{font-size:16px}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+.assessment-question{border-top:1px solid var(--line);padding:16px 0}.assessment-question h3{font-size:16px;margin-bottom:8px}.assessment .opt[aria-pressed="true"]{border:2px solid var(--primary);font-weight:650}.assessment .opt.correct{background:var(--good-soft);color:var(--ink)}.assessment .opt.wrong{background:var(--bad-soft);color:var(--ink)}
+.hero{background:linear-gradient(145deg,#171d42,#3e367d 65%,#6453b0)}.card{padding:20px;border-radius:22px}.stitle{font-size:clamp(24px,5vw,34px);line-height:1.18}.card p{line-height:1.65}.opt{min-height:44px}.wrap{max-width:640px} @media(max-width:380px){.card{padding:14px}.wrap{padding-left:12px;padding-right:12px}}
+
+:root[data-theme="dark"]{--bg:#0e1120;--surface:#181c2e;--surface-2:#22213a;--ink:#f5f4fb;--muted:#b5b6c8;--line:#30334a;--primary:#b6a5ff;--primary-soft:#30264e;color-scheme:dark}
+.academy-brand{display:flex;align-items:center;gap:12px;font-size:21px;font-weight:800;padding:12px 2px 18px}.academy-brand>span{color:#b6a5ff;font-size:32px}.academy-brand small{display:block;color:var(--muted);font-size:13px;font-weight:500}.hero{background:linear-gradient(135deg,#25213f,#35275c);border:1px solid #42365e;box-shadow:none}.course-grid .sitem{background:var(--surface);border:1px solid var(--line);padding:22px 16px;min-height:112px;border-radius:20px}.course-grid .dot{background:var(--surface-2);font-size:25px}.course-grid .sitem h3{font-size:19px}.tabs{background:var(--surface)}
+</style>
+</head>
+<body>
+<div class="wrap" id="app"><p class="muted">Caricamento del percorso…</p></div>
+<nav class="tabs" id="tabs">
+  <button data-tab="oggi" class="on"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>Oggi</button>
+  <button data-tab="percorso"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/></svg>Percorso</button>
+  <button data-tab="progetto"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Progetto</button>
+  <button data-tab="impostazioni"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M19.4 15a1.7 1.7 0 0 0 .3 1.8l.1.1a2 2 0 1 1-2.8 2.8l-.1-.1a1.7 1.7 0 0 0-1.8-.3 1.7 1.7 0 0 0-1 1.5V21a2 2 0 1 1-4 0v-.1a1.7 1.7 0 0 0-1.1-1.5 1.7 1.7 0 0 0-1.8.3l-.1.1a2 2 0 1 1-2.8-2.8l.1-.1a1.7 1.7 0 0 0 .3-1.8 1.7 1.7 0 0 0-1.5-1H3a2 2 0 1 1 0-4h.1a1.7 1.7 0 0 0 1.5-1.1 1.7 1.7 0 0 0-.3-1.8l-.1-.1a2 2 0 1 1 2.8-2.8l.1.1a1.7 1.7 0 0 0 1.8.3H9a1.7 1.7 0 0 0 1-1.5V3a2 2 0 1 1 4 0v.1a1.7 1.7 0 0 0 1 1.5 1.7 1.7 0 0 0 1.8-.3l.1-.1a2 2 0 1 1 2.8 2.8l-.1.1a1.7 1.7 0 0 0-.3 1.8V9a1.7 1.7 0 0 0 1.5 1H21a2 2 0 1 1 0 4h-.1a1.7 1.7 0 0 0-1.5 1z"/></svg>Impostazioni</button>
+<button data-tab="studio">✦<br>Studio</button><button data-tab="protools">◆<br>Pro</button></nav>
+<input type="file" id="restorepick" accept="application/json,.json" class="hidden">
+<script>
+(function(){
+"use strict";
+const APP_VERSION = "6.4.2";
+const I = {
+  check:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-10"/></svg>',
+  back:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>',
+  ext:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>',
+  arrow:'<svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>'
+};
+const LEVELS = [[1,"Non ancora"],[2,"In parte"],[3,"Raggiunto"]];
+const $ = (s, r=document) => r.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function toast(m){ document.querySelectorAll(".toast").forEach(x => x.remove()); const t = document.createElement("div"); t.className="toast"; t.textContent=m; document.body.appendChild(t); setTimeout(()=>t.remove(), 2400); }
+const today = () => { const d = new Date(); return d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); };
+
+/* ---------- students: each profile is encrypted with its own password (AES-GCM, key from PBKDF2) ---------- */
+const LEGACY_KEY = "aca:progress", LIST_KEY = "aca:students";
+let P = { courses:{}, days:[] }, ME = null, KEYC = null, CUR = null;
+const enc = new TextEncoder(), dec = new TextDecoder();
+const b64 = buf => { const a = new Uint8Array(buf); let s = ""; for(let i=0;i<a.length;i+=8192) s+=String.fromCharCode(...a.subarray(i,i+8192)); return btoa(s); };
+const unb64 = s => Uint8Array.from(atob(s), c => c.charCodeAt(0));
+function lsGet(k, d){ try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch(e){ return d; } }
+function lsSet(k, v){ try { localStorage.setItem(k, JSON.stringify(v)); return true; } catch(e){ toast("Non riesco a salvare: spazio pieno o modalità privata"); return false; } }
+function students(){ return lsGet(LIST_KEY, []); }
+async function deriveKey(pw, salt){
+  const base = await crypto.subtle.importKey("raw", enc.encode(pw), "PBKDF2", false, ["deriveKey"]);
+  return crypto.subtle.deriveKey({name:"PBKDF2", salt, iterations:150000, hash:"SHA-256"}, base, {name:"AES-GCM", length:256}, false, ["encrypt","decrypt"]);
+}
+async function sealFor(id, key, salt, data){
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const ct = await crypto.subtle.encrypt({name:"AES-GCM", iv}, key, enc.encode(JSON.stringify(data)));
+  return lsSet("aca:s:" + id, {salt:b64(salt), iv:b64(iv), data:b64(ct)});
+}
+async function createStudent(name, pw, initial){
+  const id = "u" + Date.now().toString(36) + Math.random().toString(36).slice(2, 6);
+  const salt = crypto.getRandomValues(new Uint8Array(16)), key = await deriveKey(pw, salt);
+  const data = normP(initial && initial.sessions ? initial : {});
+  if (!(await sealFor(id, key, salt, data))) throw new Error("save");
+  const list = students(); list.push({id, name, created:new Date().toISOString()}); if (!lsSet(LIST_KEY, list)) { localStorage.removeItem("aca:s:"+id); throw new Error("save"); }
+  return id;
+}
+async function unlock(id, pw){
+  const rec = lsGet("aca:s:" + id, null); if (!rec) throw new Error("missing");
+  const salt = unb64(rec.salt), key = await deriveKey(pw, salt);
+  const plain = await crypto.subtle.decrypt({name:"AES-GCM", iv:unb64(rec.iv)}, key, unb64(rec.data)); // throws if the password is wrong
+  P = normP(JSON.parse(dec.decode(plain)));
+  KEYC = {key, salt}; ME = students().find(s => s.id === id);
+}
+async function lockApp(){ if (!(await flushP())) return; P = normP({}); CUR = null; S.chosen = false; ME = null; KEYC = null; S.open = null; S.tab = "oggi"; render(); }
+let saveTimer = null, saveChain = Promise.resolve();
+function saveP(){ if (!ME) return; clearTimeout(saveTimer); saveTimer = setTimeout(flushP, 300); }
+function flushP(){
+  clearTimeout(saveTimer); if (!ME || !KEYC) return saveChain;
+  const id = ME.id, k = KEYC, snap = JSON.parse(JSON.stringify(P));
+  saveChain = saveChain.then(() => sealFor(id, k.key, k.salt, snap)).catch(() => { toast("Salvataggio non riuscito"); return false; });
+  return saveChain;
+}
+function normP(v){
+  v = v || {}; v.days = v.days || []; v.courses = v.courses || {};
+  if (v.sessions){ v.courses["operatore-ai"] = {sessions: v.sessions}; delete v.sessions; } // progress saved before courses existed
+  return v;
+}
+function SS(){ const c = P.courses[CUR] || (P.courses[CUR] = {sessions:{}}); return c.sessions; }
+function sp(id){ const ss = SS(); return ss[id] || (ss[id] = {steps:{}, quiz:{}, criteria:{}, notes:""}); }
+function markActive(){ const t = today(); if (!P.days.includes(t)) { P.days.push(t); if (P.days.length > 400) P.days = P.days.slice(-400); } }
+
+/* ---------- curriculum ---------- */
+let C = null, ALL = [];
+let COURSES = [];
+async function loadCourses(){ const r = await fetch("courses.json", {cache:"no-cache"}); COURSES = (await r.json()).courses; }
+async function loadC(){
+  const c = COURSES.find(x => x.id === CUR && !x.coming) || COURSES.find(x => !x.coming);
+  CUR = c.id;
+  const r = await fetch(c.file, {cache:"no-cache"});
+  C = await r.json();
+  ALL = C.weeks.flatMap(w => w.sessions.map((s, i) => ({...s, week:w.n, idx:i+1, phase:w.phase, weekTitle:w.title})));
+}
+const byId = id => ALL.find(s => s.id === id);
+function stepsDone(s){ const p = SS()[s.id]; return p ? s.steps.filter(st => p.steps[st.id] && p.steps[st.id].done).length : 0; }
+function isDone(s){ const p = SS()[s.id]; return !!(p && p.completedAt); }
+function status(s){ if (isDone(s)) return "done"; return stepsDone(s) > 0 ? "prog" : "todo"; }
+function nextSession(){ return ALL.find(s => !isDone(s)) || null; }
+function exercisePassed(s){
+  const p = SS()[s.id] || {}, ex = s.exercise;
+  if (ex.type === "quiz") return ex.questions.every((q, i) => p.quiz && p.quiz[i] === q.answer);
+  return ex.criteria.every((c, i) => p.criteria && p.criteria[i]);
+}
+function streak(){
+  const set = new Set(P.days); let n = 0; const d = new Date();
+  if (!set.has(today())) d.setDate(d.getDate()-1);
+  for (;;) { const k = d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0"); if (set.has(k)) { n++; d.setDate(d.getDate()-1); } else break; }
+  return n;
+}
+
+/* ---------- final project feed (read-only, from the Diario di Viaggio repository) ---------- */
+const PROJECT_URL = "https://itopo-ai.github.io/diario-di-viaggio/progress.json";
+let PRJ = null, PRJ_FRESH = false;
+try { PRJ = JSON.parse(localStorage.getItem("aca:project") || "null"); } catch(e){}
+async function loadProject(){
+  try {
+    const r = await fetch(PROJECT_URL, {cache:"no-cache"}); if (!r.ok) throw 0;
+    PRJ = await r.json(); PRJ_FRESH = true;
+    try { localStorage.setItem("aca:project", JSON.stringify(PRJ)); } catch(e){}
+  } catch(e){ PRJ_FRESH = false; }
+}
+function prjStats(){
+  const ms = (PRJ && PRJ.milestones) || [], done = ms.filter(m => m.status === "fatto").length;
+  return {ms, done, pct: ms.length ? Math.round(100*done/ms.length) : 0, next: ms.find(m => m.status === "in corso") || ms.find(m => m.status !== "fatto")};
+}
+function projectCard(){
+  if (!PRJ) return "";
+  const st = prjStats();
+  return `<button class="sitem" data-tab="progetto" style="margin-top:14px;padding:16px;display:block"><div class="muted small" style="font-weight:700;text-transform:uppercase;letter-spacing:.05em">Progetto finale</div>
+    <h3 style="font-size:18px;font-family:var(--display);margin-top:2px">${esc(PRJ.app)} · v${esc(PRJ.version)}</h3>
+    <div class="track"><i style="width:${st.pct}%;background:var(--good)"></i></div>
+    <div class="muted small" style="margin-top:6px">${st.done} di ${st.ms.length} traguardi verso la pubblicazione${st.next ? " · ora: " + esc(st.next.title) : ""}</div></button>`;
+}
+function renderProject(){
+  if (!PRJ){ $("#app").innerHTML = `<h1 style="font-size:28px;margin:8px 0 0">Progetto finale</h1><div class="card">Non riesco a leggere l'avanzamento del Diario di Viaggio. Controlla la connessione e riprova.</div>`; return; }
+  const st = prjStats(), lab = {"fatto":"done", "in corso":"prog", "da fare":""};
+  $("#app").innerHTML = `<h1 style="font-size:28px;margin:8px 0 0">Progetto finale</h1>
+  <p class="muted" style="margin:4px 0 0">${esc(PRJ.goal)}</p>
+  <div class="card"><div class="row"><div class="grow"><div class="muted small">${esc(PRJ.stage)} · aggiornato il ${esc(PRJ.updated)}${PRJ_FRESH ? "" : " (copia salvata)"}</div><h2 style="font-size:22px">${esc(PRJ.app)} v${esc(PRJ.version)}</h2></div><b style="font-family:var(--display);font-size:28px">${st.pct}%</b></div>
+    <div class="track" style="height:12px"><i style="width:${st.pct}%;background:var(--good)"></i></div>
+    ${PRJ.url ? `<a class="platform" href="${esc(PRJ.url)}" target="_blank" rel="noopener"><div><span class="muted">Apri l'app</span>${esc(PRJ.app)}</div>${I.ext}</a>` : ""}</div>
+  <div class="card"><h2 style="font-size:18px">Traguardi verso la pubblicazione</h2>
+    ${st.ms.map((m, i) => `<div class="row" style="padding:8px 0;border-top:${i ? "1px solid var(--line)" : "0"}"><span class="dot ${lab[m.status] || ""}">${m.status === "fatto" ? I.check : i+1}</span><div class="grow"><div style="font-weight:600;font-size:15px">${esc(m.title)}</div><div class="muted small">${esc(m.status)}${m.version ? " · v" + esc(m.version) : ""}</div></div></div>`).join("")}</div>
+  <div class="card"><h2 style="font-size:18px">Ultime modifiche</h2>
+    ${(PRJ.changelog || []).slice(0, 8).map(c => `<div style="padding:8px 0;border-top:1px solid var(--line)"><b>v${esc(c.version)}</b> <span class="muted small">${esc(c.date)}</span><div style="font-size:15px">${esc(c.text)}</div></div>`).join("")}</div>
+  <p class="muted small">Questi dati arrivano dal progetto Diario di Viaggio e si aggiornano a ogni rilascio. Qui puoi solo leggerli.</p>`;
+}
+
+/* ---------- state & render ---------- */
+const S = { tab:"oggi", open:null };
+let loginFor = null, fails = 0, waitUntil = 0;
+function renderLogin(){
+  $("#tabs").classList.add("hidden");
+  const list = students(), legacy = !!lsGet(LEGACY_KEY, null);
+  if (loginFor === "new" || !list.length){
+    $("#app").innerHTML = `<header class="academy-brand"><span>◈</span><div>AI Creator Academy<small>Professional Edition · 6.4.2</small></div></header><section class="hero" style="margin-top:8px"><div class="kicker">AI Creator Academy</div><h1>${list.length ? "Nuovo studente" : "Benvenuto"}</h1>
+      <div class="small" style="opacity:.9">Ogni studente ha il suo percorso, protetto da una password.</div></section>
+      <form class="card" id="newform" autocomplete="off">
+        <label class="muted small" for="nname" style="font-weight:600">Nome dello studente</label>
+        <input class="field" style="min-height:46px;margin:6px 0 12px" id="nname" maxlength="40" required>
+        <label class="muted small" for="npw" style="font-weight:600">Password (almeno 12 caratteri)</label>
+        <input class="field" style="min-height:46px;margin:6px 0 12px" id="npw" type="password" autocomplete="new-password" minlength="12" required>
+        <label class="muted small" for="npw2" style="font-weight:600">Ripeti la password</label>
+        <input class="field" style="min-height:46px;margin:6px 0 4px" id="npw2" type="password" autocomplete="new-password" minlength="12" required>
+        ${legacy && !list.length ? `<p class="small" style="margin:10px 0 0">I progressi già fatti su questo telefono verranno assegnati a questo studente.</p>` : ""}
+        <p class="muted small" style="margin:10px 0 0">Se dimentichi la password i progressi non si possono recuperare: tienila al sicuro e fai backup regolari.</p>
+        <button class="btn primary" type="submit">Crea il profilo</button>
+        ${list.length ? `<button class="btn" type="button" id="cancelnew">Annulla</button>` : ""}</form>`;
+    setTimeout(() => { const n = $("#nname"); if (n) n.focus(); }, 50);
+    return;
+  }
+  if (loginFor){
+    const st = list.find(x => x.id === loginFor);
+    $("#app").innerHTML = `<div class="topbar"><button class="iconbtn" id="tologin" aria-label="Indietro">${I.back}</button></div>
+      <section class="hero"><div class="kicker">Accesso</div><h1>${esc(st ? st.name : "")}</h1></section>
+      <form class="card" id="loginform" autocomplete="off"><label class="muted small" for="pw" style="font-weight:600">Password</label>
+        <input class="field" style="min-height:46px;margin:6px 0 4px" id="pw" type="password" autocomplete="current-password" required>
+        <button class="btn primary" type="submit">Entra</button></form>`;
+    setTimeout(() => { const n = $("#pw"); if (n) n.focus(); }, 50);
+    return;
+  }
+  $("#app").innerHTML = `<section class="hero" style="margin-top:8px"><div class="kicker">AI Creator Academy</div><h1>Chi studia oggi?</h1><div class="small" style="opacity:.9">Scegli il tuo profilo.</div></section>
+    <div class="card">${list.map(st => `<button class="sitem" data-login="${esc(st.id)}"><span class="dot next" style="font-size:14px">${esc((st.name||"?").trim().charAt(0).toUpperCase())}</span><div class="grow"><h3>${esc(st.name)}</h3><div class="muted small">Profilo protetto da password</div></div></button>`).join("")}
+    <button class="btn" id="newstudent">+ Nuovo studente</button></div>`;
+}
+function renderChooser(){
+  $("#tabs").classList.add("hidden");
+  $("#app").innerHTML = `<section class="hero" style="margin-top:8px"><div class="kicker">Ciao ${esc(ME.name)}</div><h1>Quale corso segui oggi?</h1><div class="small" style="opacity:.9">Ogni corso ha i suoi progressi.</div></section>
+    <div class="academy-label">I tuoi percorsi formativi</div><div class="course-grid">${COURSES.map(c => {
+      const ss = (P.courses[c.id] || {}).sessions || {}, n = Object.values(ss).filter(x => x.completedAt).length;
+      return `<button class="sitem" ${c.coming ? "disabled" : `data-course="${esc(c.id)}"`} style="${c.coming ? "opacity:.6" : ""}"><span class="dot" style="border-color:${esc(c.color)};color:${esc(c.color)}">${c.id === "ai-creator" ? "⌘" : "▥"}</span>
+        <div class="grow"><h3>${esc(c.title)}</h3><div class="muted small">${esc(c.subtitle)}${!c.coming && n ? " · " + n + (n === 1 ? " sessione completata" : " sessioni completate") : ""}</div></div></button>`; }).join("")}</div>`;
+}
+function render(){
+  if (!ME) return renderLogin();
+  if (!S.chosen) return renderChooser();
+  document.querySelectorAll("nav.tabs button").forEach(b => b.classList.toggle("on", b.dataset.tab === S.tab));
+  $("#tabs").classList.toggle("hidden", !!S.open);
+  if (S.open) return renderSession(byId(S.open));
+  if (S.tab === "percorso") return renderPath();
+  if (S.tab === "impostazioni") return renderSettings();
+  if (S.tab === "studio") return renderStudio();
+  if (S.tab === "protools") return renderPro();
+  if (S.tab === "progetto") return renderProject();
+  renderToday();
+}
+function dotHtml(s, n){
+  const st = status(s);
+  return `<span class="dot ${st === "done" ? "done" : st === "prog" ? "prog" : (n && n.id === s.id ? "next" : "")}">${st === "done" ? I.check : s.idx}</span>`;
+}
+function assessmentSummary(){let total=0,answered=0,correct=0;for(const s of ALL){if(!s.knowledgeCheck)continue;const qs=[s.knowledgeCheck,...(s.advancedCheck||[])],a=SS()[s.id]?.assessment||{};total+=qs.length;qs.forEach((q,i)=>{if(Number.isInteger(a[i]))answered++;if(a[i]===q.answer)correct++;});}return `<div class="card"><h2>Risultati delle verifiche</h2><p>${answered}/${total} risposte registrate · ${correct} corrette</p><div class="track"><i style="width:${total?100*answered/total:0}%"></i></div></div>`;}
+function renderToday(){
+  const done = ALL.filter(isDone).length, pct = Math.round(100*done/ALL.length), n = nextSession();
+  const curWeek = n ? n.week : C.weeks.length, ph = C.phases.find(p => curWeek >= p.weeks[0] && curWeek <= p.weeks[1]);
+  const week = C.weeks.find(w => w.n === curWeek);
+  $("#app").innerHTML = `
+  <section class="hero"><div class="kicker">${esc(C.title || "Corso")} · Fase ${ph.n} · ${esc(ph.title)}</div>
+    <h1>Settimana ${curWeek} di ${C.weeks.length}</h1><div class="small" style="opacity:.9">${esc(week.title)}</div>
+    <div class="hstats"><div class="hstat"><b>${pct}%</b><span>percorso</span></div>
+      <div class="hstat"><b>${done}/${ALL.length}</b><span>sessioni</span></div>
+      <div class="hstat"><b>${streak()}</b><span>giorni di fila</span></div></div></section>
+  ${n ? `<button class="today" data-open="${n.id}"><div class="lbl">Sessione di oggi · ${n.minutes} min</div><h2>${esc(n.title)}</h2>
+      <div class="meta">${esc(C.platforms[n.platform].name)} · ${n.steps.length} passi · ${stepsDone(n) ? stepsDone(n)+" già fatti" : "da iniziare"}</div>
+      <span class="go">${stepsDone(n) ? "Continua" : "Inizia"} ${I.arrow}</span></button>`
+     : `<div class="card celebrate"><div class="big">🎓</div><h2>Percorso completato</h2><p class="muted">Hai concluso tutte le ${ALL.length} sessioni.</p></div>`}
+  ${assessmentSummary()}
+  ${projectCard()}
+  <div class="card"><h2 style="font-size:18px">Questa settimana</h2>
+    ${week.sessions.map(s0 => { const s = byId(s0.id); return `<button class="sitem" data-open="${s.id}">${dotHtml(s, n)}<div class="grow"><h3>${esc(s.title)}</h3><div class="muted small">${esc(C.platforms[s.platform].name)}</div></div></button>`; }).join("")}</div>
+  <div class="card"><h2 style="font-size:18px">Le ${C.phases.length} fasi</h2>
+    ${C.phases.map(p => { const ss = ALL.filter(s => s.phase === p.n), d = ss.filter(isDone).length, q = Math.round(100*d/ss.length);
+      return `<div class="phase"><span class="num ${q===100?"done":""}">${p.n}</span><div><div style="font-weight:600;font-size:15px">${esc(p.title)}</div><div class="track"><i style="width:${q}%"></i></div></div><b>${q}%</b></div>`; }).join("")}</div>`;
+}
+function renderPath(){
+  const n = nextSession();
+  $("#app").innerHTML = `<h1 style="font-size:28px;margin:8px 0 0">Il percorso</h1><p class="muted" style="margin:4px 0 0">${C.weeks.length} settimane, ${ALL.length} sessioni da circa un'ora. Puoi aprire qualsiasi sessione.</p>
+  ${C.phases.map(p => `<h2 class="phasehead">Fase ${p.n} · ${esc(p.title)}</h2><p class="muted small" style="margin:4px 0 0">${esc(p.goal)}</p>
+    ${C.weeks.filter(w => w.phase === p.n).map(w => `<div class="weekhead">Settimana ${w.n} · ${esc(w.title)}</div>
+      ${w.sessions.map(s0 => { const s = byId(s0.id); return `<button class="sitem" data-open="${s.id}">${dotHtml(s, n)}<div class="grow"><h3>${esc(s.title)}</h3><div class="muted small">${esc(C.platforms[s.platform].name)} · ${stepsDone(s)}/${s.steps.length} passi</div></div></button>`; }).join("")}`).join("")}`).join("")}`;
+  if (n) { const el = document.querySelector(`[data-open="${n.id}"]`); if (el) el.scrollIntoView({block:"center"}); }
+}
+function stepHtml(s, st, i){
+  const p = sp(s.id).steps[st.id] || {};
+  const m = st.text.match(/^(.*?)(?:\s(\d+)\s?min)?$/);
+  const text = m ? m[1] : st.text, min = m && m[2] && m[2] !== "0" ? m[2] : "";
+  return `<div class="step ${p.done?"isdone":""}"><div class="stepmain">
+      <button class="check ${p.done?"on":""}" data-step="${st.id}" aria-label="Segna come fatto">${p.done?I.check:""}</button>
+      <div class="grow"><div class="stepnum">Passo ${i+1}</div><div class="steptext">${esc(text)}${min?`<span class="min">${min} min</span>`:""}</div>
+        ${st.link ? `<a class="startbtn" href="${esc(st.link)}" target="_blank" rel="noopener">${esc(st.label || "Inizia il corso")} ${I.ext}</a>` : ""}</div></div>
+    <div class="levels"><span>Livello di apprendimento</span>${LEVELS.map(([v,l]) => `<button class="lvl l${v} ${p.level===v?"on":""}" data-level="${st.id}" data-v="${v}">${l}</button>`).join("")}</div></div>`;
+}
+function exerciseHtml(s){
+  const ex = s.exercise, p = sp(s.id);
+  let body = "";
+  if (ex.type === "quiz"){
+    body = ex.questions.map((q, qi) => {
+      const chosen = p.quiz[qi];
+      return `<div class="q"><p>${qi+1}. ${esc(q.q)}</p>${q.options.map((o, oi) => {
+        let cls = ""; if (chosen !== undefined){ if (oi === q.answer && chosen === q.answer) cls = "right"; else if (oi === chosen) cls = "wrong"; }
+        return `<button class="opt ${cls}" data-quiz="${qi}" data-v="${oi}">${esc(o)}</button>`; }).join("")}
+        ${chosen !== undefined ? `<div class="why"><b>${chosen === q.answer ? "Giusto." : "Non ancora: riprova."}</b> ${chosen === q.answer ? esc(q.why) : ""}</div>` : ""}</div>`;
+    }).join("");
+  } else {
+    body = `<p style="font-weight:600;margin:6px 0 10px">${esc(ex.task)}</p><div class="muted small">Ce l'hai fatta se:</div>
+      ${ex.criteria.map((c, ci) => `<button class="crit" data-crit="${ci}"><span class="check ${p.criteria[ci]?"on":""}">${p.criteria[ci]?I.check:""}</span><span>${esc(c)}</span></button>`).join("")}`;
+  }
+  const passed = exercisePassed(s), tried = ex.type === "quiz" ? Object.keys(p.quiz).length > 0 : Object.values(p.criteria).some(Boolean);
+  return `<div class="exercise"><span class="tag">${ex.type === "quiz" ? "Quiz di verifica" : "Prova pratica"}</span>
+    ${body}${tried ? `<div class="result ${passed?"ok":"ko"}">${passed ? "Obiettivo raggiunto" : ex.type === "quiz" ? "Rivedi le risposte sbagliate" : "Completa tutti i criteri"}</div>` : ""}</div>`;
+}
+function renderSession(s){
+  if (!s){ S.open = null; return render(); }
+  const p = sp(s.id), done = stepsDone(s), pct = Math.round(100*done/s.steps.length), plat = C.platforms[s.platform];
+  const all = done === s.steps.length, passed = exercisePassed(s);
+  const sy = window.scrollY;
+  $("#app").innerHTML = `
+  <div class="topbar"><button class="iconbtn" id="back" aria-label="Indietro">${I.back}</button>
+    <div class="grow muted small" style="font-weight:600">Settimana ${s.week} · Sessione ${s.idx} di ${(C.weeks.find(w => w.n === s.week) || {sessions:[]}).sessions.length}</div>
+    ${isDone(s) ? `<span class="pill" style="color:var(--good)">${I.check.replace('<svg','<svg width="14" height="14"')} Completata</span>` : ""}</div>
+  <h1 class="stitle">${esc(s.title)}</h1>
+  <div class="chips"><span class="pill">${s.minutes} min</span><span class="pill">Fase ${s.phase}</span><span class="pill">${s.steps.length} passi</span></div>
+  <div class="goal"><b>Obiettivo</b>${esc(s.goal)}</div>
+  <a class="platform" href="${esc(s.url || plat.url)}" target="_blank" rel="noopener"><div><span class="muted">Dove studi</span>${esc(plat.name)}</div>${I.ext}</a>
+  <div class="progress"><i style="width:${pct}%"></i></div><div class="muted small">${done} di ${s.steps.length} passi fatti</div>
+  ${s.theory ? `<div class="card"><h2>Concetti fondamentali</h2><p>${esc(s.theory)}</p>${s.example ? `<div class="lesson-theory"><h3>Esempio operativo</h3><p>${esc(s.example)}</p><details><summary>Verifica la comprensione</summary><p>${esc(s.review)}</p><details><summary>Soluzione ragionata</summary><p>${esc(s.solution)}</p></details></details></div>` : ""}<h3>Consegna</h3><p>${esc(s.deliverable)}</p></div>` : ""}
+  ${s.masterclass ? `<div class="card"><h2>Masterclass · ${esc(s.masterclass.term)}</h2><p>${esc(s.masterclass.definition)}</p><h3>Caso ragionato</h3><p>${esc(s.masterclass.example)}</p><p>${esc(s.masterclass.question)}</p><details><summary>Soluzione e ragionamento</summary><p>${esc(s.masterclass.answer)}</p></details></div>` : ""}
+  ${s.caseStudy ? `<div class="card"><h2>Caso applicativo della settimana</h2><p>${esc(s.caseStudy)}</p><p class="muted small">Esempio didattico; dati eventualmente simulati.</p></div>` : ""}
+  ${s.knowledgeCheck ? assessmentHtml(s,p) : ""}
+  <button class="btn" id="tutorlesson">Apri AI Tutor per questa lezione</button>
+  <h2 class="sec">Passo per passo</h2>
+  ${s.steps.map((st, i) => stepHtml(s, st, i)).join("")}
+  <h2 class="sec">Esercizio di fine sessione</h2>
+  ${exerciseHtml(s)}
+  <h2 class="sec">Le tue note</h2>
+  <textarea class="field" id="notes" placeholder="Cosa hai imparato? Cosa non ti è chiaro?">${esc(p.notes)}</textarea>
+  <button class="btn" id="extra">Copia esercizio per ChatGPT</button>
+  ${isDone(s) ? `<button class="btn" id="reopen">Segna come non completata</button>`
+    : `<button class="btn good" id="complete" ${all ? "" : "disabled"}>${all ? (passed ? "Completa la sessione" : "Completa comunque la sessione") : "Segna tutti i passi per completare"}</button>`}`;
+  window.scrollTo(0, sy);
+}
+function renderStudio(){
+ studioEdit=null;
+ const items = P.studio || (P.studio = []);
+ $("#app").innerHTML = `<div class="hero"><div class="kicker">Creator workspace</div><h1>Studio creativo</h1><p>Dal brief al portfolio.</p></div><div class="card"><h2>Nuovo elemento</h2><form id="studioform"><label>Tipo<select class="field" id="stype"><option>Progetto</option><option>Prompt</option><option>Portfolio</option></select></label><label>Titolo<input class="field" id="stitle" required maxlength="120"></label><label>Brief, prompt o descrizione<textarea class="field" id="sbody" required></textarea></label><label>Link al risultato (facoltativo)<input class="field" id="surl" type="url"></label><button class="btn good" type="submit">Salva</button></form></div><h2 class="sec">Archivio personale</h2>${items.map((x,i)=>`<div class="card"><span class="pill">${esc(x.type)}</span><h3>${esc(x.title)}</h3><p style="white-space:pre-wrap;overflow-wrap:anywhere">${esc(x.body)}</p>${/^https?:\/\//i.test(x.url||'')?`<a href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">Apri risultato</a>`:''}<p><button class="btn" data-stcopy="${i}">Copia testo</button><button class="btn" data-stedit="${i}">Modifica</button><button class="btn" data-stdel="${i}">Elimina</button></p></div>`).join('')}<h2 class="sec">Risorse del corso</h2>${Object.values(C.platforms).map(x=>`<a class="platform" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.name)} ${I.ext}</a>`).join('')}`;
+}
+let studioEdit = null;
+function renderSettings(){
+  $("#app").innerHTML = `<h1 style="font-size:28px;margin:8px 0 0">Impostazioni</h1>
+  <div class="card"><div class="muted small">Studente</div><h2 style="font-size:22px">${esc(ME.name)}</h2>
+    <div class="actions"><button class="btn primary" id="logout">Esci</button><button class="btn" id="chpw">Cambia password</button></div>
+    ${COURSES.length > 1 ? `<button class="btn" id="switchcourse">Cambia corso (ora: ${esc(C.title)})</button>` : ""}</div>
+  <div class="card"><h2 style="font-size:18px">Backup dei progressi</h2>
+    <p class="muted small">I progressi sono salvati solo su questo iPhone, cifrati con la tua password. Fai un backup ogni settimana e salvalo in File o iCloud Drive.</p>
+    <div class="actions"><button class="btn primary" id="backup">Salva backup</button><button class="btn" id="restore">Ripristina</button></div></div>
+  <div class="card"><h2 style="font-size:18px">Aggiornamenti</h2>
+    <p class="muted small">Quando Claude aggiorna il percorso, le nuove lezioni arrivano da sole all'apertura con connessione. I tuoi progressi restano.</p>
+    <button class="btn" id="checkupd">Cerca aggiornamenti</button>
+    <p class="muted small" style="margin-top:10px">App ${APP_VERSION} · Contenuti ${esc(C.version)} del ${esc(C.updated)}</p></div>
+  <div class="card"><h2 style="font-size:18px">Ricomincia</h2>
+    <p class="muted small">Azzera i progressi di ${esc(ME.name)} oppure elimina del tutto il profilo da questo telefono.</p><button class="btn" id="reset" style="color:var(--bad)">Azzera i progressi di questo corso</button><button class="btn" id="delprofile" style="color:var(--bad)">Elimina il mio profilo</button></div>`;
+}
+
+/* ---------- dialogs ---------- */
+function confirmSheet(title, text, ok){
+  return new Promise(res => {
+    const o = document.createElement("div"); o.className = "overlay";
+    o.innerHTML = `<div class="sheet"><h2 style="font-size:22px">${esc(title)}</h2><p class="muted">${esc(text)}</p><div class="actions"><button class="btn" data-no>Annulla</button><button class="btn primary" data-ok>${esc(ok)}</button></div></div>`;
+    o.querySelector("[data-no]").onclick = () => { o.remove(); res(false); };
+    o.querySelector("[data-ok]").onclick = () => { o.remove(); res(true); };
+    document.body.appendChild(o);
+  });
+}
+function celebrate(s, next){
+  const o = document.createElement("div"); o.className = "overlay";
+  const doneCount = ALL.filter(isDone).length;
+  o.innerHTML = `<div class="sheet celebrate"><div class="big">${exercisePassed(s) ? "★" : "✓"}</div><h2 style="font-size:24px;margin-top:8px">Sessione completata</h2>
+    <p class="muted">${doneCount} di ${ALL.length} sessioni · ${streak()} ${streak() === 1 ? "giorno" : "giorni"} di fila</p>
+    ${next ? `<p style="font-weight:600">Prossima: ${esc(next.title)}</p>` : ""}
+    <div class="actions"><button class="btn" data-home>Torna a Oggi</button>${next ? `<button class="btn primary" data-next>Vai alla prossima</button>` : ""}</div></div>`;
+  o.querySelector("[data-home]").onclick = () => { o.remove(); S.open = null; S.tab = "oggi"; render(); window.scrollTo(0,0); };
+  const nb = o.querySelector("[data-next]"); if (nb) nb.onclick = () => { o.remove(); S.open = next.id; render(); window.scrollTo(0,0); };
+  document.body.appendChild(o);
+}
+
+/* ---------- backup & updates ---------- */
+async function exportBackup(){
+  if (!(await flushP())) return;
+  const rec = lsGet("aca:s:"+ME.id,null); if(!rec) throw new Error("backup");
+  const json = JSON.stringify({app:"ai-creator-academy", format:2, encrypted:rec, exportedAt:new Date().toISOString()});
+  const name = "academy-" + ME.name.toLowerCase().replace(/[^a-z0-9]+/g,"-") + "-" + today() + ".json", file = new File([json], name, {type:"application/json"});
+  try { if (navigator.canShare && navigator.canShare({files:[file]})) { await navigator.share({files:[file], title:"Backup AI Creator Academy"}); return; } }
+  catch(e){ if (e && e.name === "AbortError") return; }
+  const a = document.createElement("a"); a.href = URL.createObjectURL(file); a.download = name; document.body.appendChild(a); a.click(); a.remove();
+}
+function validProgress(v){
+  const obj=x=>x!==null && typeof x==='object' && !Array.isArray(x);
+  if(!obj(v) || (!obj(v.courses)&&!obj(v.sessions))) return false;
+  if(v.days!==undefined && (!Array.isArray(v.days)||!v.days.every(x=>typeof x==='string'))) return false;
+  const courses=v.courses||{};
+  for(const c of Object.values(courses)) { if(!obj(c)||!obj(c.sessions)) return false; for(const s of Object.values(c.sessions)) { if(!obj(s)||!obj(s.steps)||!obj(s.quiz)||!obj(s.criteria)||typeof s.notes!=='string') return false; } }
+  if(v.studio!==undefined && (!Array.isArray(v.studio)||!v.studio.every(x=>obj(x)&&typeof x.title==='string'&&typeof x.body==='string'))) return false;
+  return true;
+}
+async function importBackup(f){
+  try {
+    if(f.size>12*1024*1024) throw Error('size');
+    const d=JSON.parse(await f.text(),(k,v)=>{if(['__proto__','constructor','prototype'].includes(k)) throw Error('key');return v;});
+    if(!['ai-creator-academy','percorso-ai'].includes(d.app)) throw Error('app');
+    let data=d.progress;
+    if(d.format===2){const r=d.encrypted; const pw=prompt('Password del profilo al momento del backup'); if(pw===null)return; const key=await deriveKey(pw,unb64(r.salt)); data=JSON.parse(dec.decode(await crypto.subtle.decrypt({name:'AES-GCM',iv:unb64(r.iv)},key,unb64(r.data))),(k,v)=>{if(['__proto__','constructor','prototype'].includes(k))throw Error('key');return v;});}
+    if(!validProgress(data)) throw Error('structure');
+    if(!(await confirmSheet('Ripristinare il backup?', 'I progressi attuali saranno sostituiti. Conserva prima una copia.', 'Ripristina')))return;
+    const old=P; P=normP(data); if(!(await flushP())){P=old;return;} render();toast('Backup ripristinato');
+  }catch(e){toast('Backup non valido o password errata');}
+}
+let swReg = null;
+async function registerSW(){
+  if (!("serviceWorker" in navigator)) return;
+  try { swReg = await navigator.serviceWorker.register("sw.js");
+    let reloaded = false; navigator.serviceWorker.addEventListener("controllerchange", () => { if (!reloaded) { reloaded = true; location.reload(); } });
+  } catch(e){}
+}
+
+/* ---------- events ---------- */
+document.addEventListener("click", async e => {
+  const b = e.target.closest("button"); if (!b) return;
+  if (b.dataset.login){ loginFor = b.dataset.login; renderLogin(); return; }
+  if (b.id === "newstudent"){ loginFor = "new"; renderLogin(); return; }
+  if (b.id === "cancelnew" || b.id === "tologin"){ loginFor = null; renderLogin(); return; }
+  if (b.id === "logout"){ await lockApp(); return; }
+  if (b.id === "chpw"){ return changePassword(); }
+  if (b.id === "delprofile"){
+    if (!(await confirmSheet("Eliminare il profilo?", "Il profilo di " + ME.name + " e tutti i suoi progressi verranno cancellati da questo telefono. Consiglio: salva prima un backup.", "Elimina"))) return;
+    try { localStorage.removeItem("aca:s:" + ME.id); } catch(err){}
+    lsSet(LIST_KEY, students().filter(x => x.id !== ME.id)); ME = null; KEYC = null; loginFor = null; render(); toast("Profilo eliminato"); return; }
+  if (!ME) return;
+  if (b.dataset.stcopy !== undefined){ try{await navigator.clipboard.writeText(P.studio[+b.dataset.stcopy].body);toast("Copiato");}catch(e){toast("Copia non riuscita");} return; }
+  if (b.dataset.stedit !== undefined){studioEdit=+b.dataset.stedit;const x=P.studio[studioEdit];$("#stype").value=x.type;$("#stitle").value=x.title;$("#sbody").value=x.body;$("#surl").value=x.url||"";window.scrollTo(0,0);return;}
+  if (b.dataset.stdel !== undefined){if(await confirmSheet("Eliminare?","L’elemento verrà rimosso.","Elimina")){P.studio.splice(+b.dataset.stdel,1);studioEdit=null;await flushP();renderStudio();}return;}
+  if (b.dataset.course){ return chooseCourse(b.dataset.course); }
+  if (b.id === "switchcourse"){ flushP(); S.chosen = false; render(); window.scrollTo(0,0); return; }
+  if (b.dataset.tab){ S.tab = b.dataset.tab; S.open = null; render(); window.scrollTo(0,0); return; }
+  if (b.dataset.open){ S.open = b.dataset.open; try { render(); window.scrollTo(0,0); } catch(err){ console.error(err); S.open=null; render(); toast("Impossibile aprire la lezione. Riprova."); } return; }
+  if (b.id === "back"){ S.open = null; render(); return; }
+  if (b.id === "backup") return exportBackup().catch(() => toast("Backup non riuscito"));
+  if (b.id === "restore"){ const r = $("#restorepick"); r.value = ""; r.click(); return; }
+  if (b.id === "checkupd"){
+    try { if (swReg) await swReg.update(); await loadC(); await loadProject(); render(); toast("Contenuti aggiornati alla versione " + C.version); }
+    catch(err){ toast("Serve la connessione per controllare"); } return; }
+  if (b.id === "reset"){ if (await confirmSheet("Azzerare i progressi?", "Tutte le sessioni del corso " + C.title + " di " + ME.name + " torneranno da fare. Consiglio: salva prima un backup.", "Azzera")){ P.courses[CUR] = {sessions:{}}; await flushP(); render(); toast("Progressi del corso azzerati"); } return; }
+  const s = S.open && byId(S.open); if (!s) return;
+  const p = sp(s.id);
+  if (b.dataset.step){ const st = p.steps[b.dataset.step] || (p.steps[b.dataset.step] = {}); st.done = !st.done; if (st.done){ markActive(); if (!st.level) st.level = 0; } saveP(); renderSession(s); return; }
+  if (b.dataset.level){ const st = p.steps[b.dataset.level] || (p.steps[b.dataset.level] = {}); const v = +b.dataset.v; st.level = st.level === v ? 0 : v; markActive(); saveP(); renderSession(s); return; }
+  if (b.dataset.quiz !== undefined){ p.quiz[b.dataset.quiz] = +b.dataset.v; markActive(); saveP(); renderSession(s); return; }
+  if (b.dataset.crit !== undefined){ p.criteria[b.dataset.crit] = !p.criteria[b.dataset.crit]; markActive(); saveP(); renderSession(s); return; }
+  if (b.id === "complete"){ p.completedAt = new Date().toISOString(); markActive(); saveP(); renderSession(s); celebrate(s, nextSession()); return; }
+  if (b.id === "reopen"){ delete p.completedAt; saveP(); renderSession(s); return; }
+  if (b.id === "extra"){
+    const weak = s.steps.filter(st => (p.steps[st.id]||{}).level && (p.steps[st.id]||{}).level < 3).map(st => "- " + st.text.replace(/\s\d+\s?min$/, ""));
+    const txt = `Sto seguendo il percorso ${C.title}. Ho appena fatto la sessione «${s.title}» (settimana ${s.week}). Obiettivo: ${s.goal}
+${weak.length ? "I passi su cui non mi sento ancora sicuro:\n" + weak.join("\n") + "\n" : ""}${p.notes ? "Le mie note: " + p.notes + "\n" : ""}
+Preparami un esercizio pratico nuovo, diverso da quelli del corso, per verificare se ho capito. Dammi il compito, aspetta la mia risposta e poi correggila con un voto da 1 a 10 e un consiglio.`;
+    try { await navigator.clipboard.writeText(txt); toast("Copiato: incollalo in una chat con ChatGPT"); } catch(err){ toast("Copia non riuscita"); }
+    return;
+  }
+});
+let noteTimer = null;
+document.addEventListener("input", e => { if (e.target.id === "notes" && S.open && ME){ sp(S.open).notes = e.target.value; clearTimeout(noteTimer); noteTimer = setTimeout(saveP, 500); } });
+document.addEventListener("submit", async e => {
+  e.preventDefault();
+  if (e.target.id === "studioform" && ME){const x={type:$("#stype").value,title:$("#stitle").value.trim(),body:$("#sbody").value,url:$("#surl").value};if(!x.title)return; if(x.url&&!/^https?:\/\//i.test(x.url))return toast("Usa un link HTTP o HTTPS");P.studio=P.studio||[];if(studioEdit===null)P.studio.push(x);else P.studio[studioEdit]=x;studioEdit=null;await flushP();renderStudio();return;}
+  if (e.target.id === "newform"){
+    const name = $("#nname").value.trim(), pw = $("#npw").value, pw2 = $("#npw2").value;
+    if (!name) return toast("Scrivi il nome dello studente");
+    if (students().some(x => x.name.toLowerCase() === name.toLowerCase())) return toast("Esiste già uno studente con questo nome");
+    if (pw.length < 12) return toast("La password deve avere almeno 12 caratteri");
+    if (pw !== pw2) return toast("Le due password non coincidono");
+    try {
+      const legacy = !students().length ? lsGet(LEGACY_KEY, null) : null;
+      const id = await createStudent(name, pw, legacy);
+      if (legacy) { try { localStorage.removeItem(LEGACY_KEY); } catch(err){} }
+      await unlock(id, pw); loginFor = null; fails = 0; await afterLogin(); toast("Benvenuto, " + name);
+    } catch(err){ toast("Non riesco a creare il profilo su questo browser"); }
+  }
+  if (e.target.id === "loginform"){
+    if (Date.now() < waitUntil) return toast("Troppi tentativi: riprova tra " + Math.ceil((waitUntil - Date.now())/1000) + " secondi");
+    try { await unlock(loginFor, $("#pw").value); loginFor = null; fails = 0; await afterLogin(); window.scrollTo(0,0); }
+    catch(err){ fails++; if (fails >= 5){ waitUntil = Date.now() + 30000; fails = 0; } $("#pw").value = ""; toast("Password errata"); }
+  }
+});
+async function afterLogin(){
+  S.chosen = COURSES.length < 2; CUR = P.lastCourse || "ai-creator";
+  if (S.chosen){ await loadC(); }
+  render();
+}
+async function chooseCourse(id){
+  CUR = id; P.lastCourse = id; saveP();
+  try { await loadC(); } catch(e){ toast("Non riesco a caricare il corso: controlla la connessione"); return; }
+  S.chosen = true; S.tab = "oggi"; S.open = null; render(); window.scrollTo(0,0);
+}
+function changePassword(){
+  const o = document.createElement("div"); o.className = "overlay";
+  o.innerHTML = `<form class="sheet" id="pwform" autocomplete="off"><h2 style="font-size:22px">Cambia password</h2>
+    <label class="muted small" for="oldpw">Password attuale</label><input class="field" style="min-height:46px;margin:6px 0 10px" id="oldpw" type="password" required>
+    <label class="muted small" for="newpw">Nuova password</label><input class="field" style="min-height:46px;margin:6px 0 10px" id="newpw" type="password" minlength="12" required>
+    <div class="actions"><button class="btn" type="button" data-no>Annulla</button><button class="btn primary" type="submit">Salva</button></div></form>`;
+  o.querySelector("[data-no]").onclick = () => o.remove();
+  o.querySelector("form").onsubmit = async ev => {
+    ev.preventDefault();
+    const oldpw = $("#oldpw").value, newpw = $("#newpw").value;
+    if (newpw.length < 12) return toast("La nuova password deve avere almeno 12 caratteri");
+    try {
+      const rec = lsGet("aca:s:" + ME.id, null), k = await deriveKey(oldpw, unb64(rec.salt));
+      await crypto.subtle.decrypt({name:"AES-GCM", iv:unb64(rec.iv)}, k, unb64(rec.data));
+    } catch(err){ return toast("La password attuale non è corretta"); }
+    if (!(await flushP())) return;
+    const salt = crypto.getRandomValues(new Uint8Array(16)), key = await deriveKey(newpw, salt);
+    const previous = KEYC; KEYC = {key, salt}; if (!(await flushP())) { KEYC = previous; return; } o.remove(); toast("Password cambiata");
+  };
+  document.body.appendChild(o);
+}
+let hiddenAt = 0;
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden"){ hiddenAt = Date.now(); flushP(); }
+  else if (ME && hiddenAt && Date.now() - hiddenAt > 10*60*1000){ lockApp(); }
+});
+$("#restorepick").addEventListener("change", e => { const f = e.target.files[0]; if (f) importBackup(f); });
+
+/* ---------- boot ---------- */
+(async function boot(){
+  registerSW();
+  if (!(window.crypto && crypto.subtle)){ $("#app").innerHTML = `<div class="card">Apri l'app dal suo indirizzo https in Safari: serve una connessione sicura per proteggere i profili.</div>`; return; }
+  loadProject().then(() => { if (C && ME && S.chosen && !S.open) render(); });
+  try { await loadCourses(); } catch(e){ $("#app").innerHTML = `<div class="card">Non riesco a caricare il percorso. Controlla la connessione e riapri l'app.</div>`; return; }
+  render();
+})();
+
+let proView='tutor', tutorId='';
+const proNames={tutor:'AI Tutor',builder:'Project Builder',navigator:'AI Tool Navigator',skills:'Skill Map',quality:'Quality Center',glossary:'Glossario'};
+const checks=['Requisiti e criteri di accettazione documentati','Test dei flussi principali e degli errori','Nessuna chiave API o password nel codice pubblico','Privacy, autorizzazioni e dati di prova controllati','Accessibilità, mobile e navigazione da tastiera','Backup, ripristino e pubblicazione verificati'];
+const toolGuide=[['Scrittura e analisi','ChatGPT / Claude','Confronta accuratezza e fonti su un campione reale.','https://academy.openai.com/'],['Design e prototipi','Figma','Verifica contrasto, componenti e flussi prima di sviluppare.','https://help.figma.com/'],['Sviluppo','GitHub / MDN','Usa versionamento, test e revisione delle modifiche AI.','https://skills.github.com/'],['Automazioni','n8n','Prova con dati fittizi, errori e retry prima di attivare.','https://docs.n8n.io/'],['Database','Supabase','Controlla permessi e policy di accesso lato server.','https://supabase.com/docs'],['AI nelle app','OpenAI API','Misura costi, latenza e qualità; proteggi le chiavi.','https://platform.openai.com/docs/overview']];
+function proData(){return P.pro5||(P.pro5={brief:{},skills:{},checks:{}})}
+function renderPro(){const d=proData(), lesson=byId(tutorId)||ALL[0];let html='';
+if(proView==='tutor') html=`<div class="card"><h2>Studia con un tutor</h2><p>Seleziona una sessione del corso attivo. Il tutor prepara una richiesta da usare in ChatGPT; non invia dati automaticamente.</p><select class="field" id="prolesson">${ALL.map(x=>`<option value="${esc(x.id)}" ${x.id===lesson?.id?'selected':''}>${esc(x.title)}</option>`).join('')}</select><div id="tutorcontent"></div><button class="btn primary" data-proact="tutorcopy">Copia richiesta al tutor</button><a class="platform" href="https://chatgpt.com/" target="_blank" rel="noopener noreferrer">Apri ChatGPT</a></div>`;
+if(proView==='builder') html=`<div class="card"><h2>Dal problema al prodotto</h2>${[['title','Nome del progetto'],['problem','Problema e utenti'],['features','Funzioni essenziali'],['stack','Tecnologie e vincoli'],['tests','Criteri di accettazione'],['release','Piano di rilascio']].map(([k,l])=>`<label>${l}<textarea class="field" data-probrief="${k}">${esc(d.brief[k]||'')}</textarea></label>`).join('')}<button class="btn primary" data-proact="briefsave">Salva nello Studio</button><button class="btn" data-proact="briefcopy">Copia brief per AI</button></div>`;
+if(proView==='navigator') html=toolGuide.map(([a,b,c,u])=>`<div class="card"><span class="pill">${a}</span><h2>${b}</h2><p>${c}</p><a class="platform" href="${u}" target="_blank" rel="noopener noreferrer">Risorsa ufficiale</a></div>`).join('');
+if(proView==='skills') html=`<div class="card"><h2>Competenze del corso attivo</h2><p>Autovalutazione separata dal completamento delle lezioni. 0 = da iniziare; 3 = autonomo con evidenze.</p>${C.phases.map((x,i)=>{const key=CUR+':'+i;const a=ALL.filter(y=>y.phase===x.n);return `<div class="card"><h3>${esc(x.title)}</h3><p>${a.filter(isDone).length}/${a.length} sessioni completate</p><select class="field" data-proskill="${esc(key)}">${['Da iniziare','Con guida','Con poca assistenza','Autonomo'].map((v,j)=>`<option value="${j}" ${Number(d.skills[key]||0)===j?'selected':''}>${v}</option>`).join('')}</select></div>`}).join('')}</div>`;
+if(proView==='glossary') html=`<div class="card"><h2>Glossario del corso</h2>${(C.glossary||[]).map(g=>`<details><summary>${esc(g.term)} · settimana ${g.week}</summary><p>${esc(g.definition)}</p></details>`).join('')}</div>`;
+if(proView==='quality') html=`<div class="card"><h2>Checklist di rilascio</h2><p>Controlli manuali del progetto corrente, non una certificazione automatica.</p>${checks.map((x,i)=>`<p><label><input type="checkbox" data-procheck="${i}" ${d.checks[i]?'checked':''}> ${x}</label></p>`).join('')}<button class="btn" data-proact="checkreset">Azzera checklist</button></div><div class="card"><h2>Risorse del corso attivo</h2><p>Apri ogni risorsa e controlla accessibilità, pertinenza e costi. Lo stato HTTP non viene verificato automaticamente.</p>${Object.values(C.platforms).filter(x=>/^https?:\/\//i.test(x.url)).map(x=>`<a class="platform" href="${esc(x.url)}" target="_blank" rel="noopener noreferrer">${esc(x.name)}</a>`).join('')}</div>`;
+$('#app').innerHTML=`<div class="hero"><div class="kicker">Release Candidate 6.4.2</div><h1>Creator Pro</h1><p>Studia, progetta, verifica.</p></div><div class="card" style="display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px">${Object.entries(proNames).map(([k,v])=>`<button class="btn ${proView===k?'primary':''}" data-proview="${k}">${v}</button>`).join('')}</div>${html}`;if(proView==='tutor') updateTutor();}
+function updateTutor(){const x=byId($('#prolesson')?.value);if(!x)return;tutorId=x.id;$('#tutorcontent').innerHTML=`<h3>${esc(x.title)}</h3><p>${esc(x.theory||x.goal)}</p><p><b>Verifica:</b> spiega il concetto con parole tue, applicalo a un caso nuovo e documenta un errore corretto.</p>`;}
+async function proCopy(t){try{await navigator.clipboard.writeText(t);toast('Copiato')}catch(e){window.prompt('Copia il testo:',t)}}
+function briefText(){return Object.entries(proData().brief).map(([k,v])=>k+': '+v).join('\n')}
+document.addEventListener('input',e=>{if(!ME)return;const k=e.target.dataset.probrief;if(k){proData().brief[k]=e.target.value;saveP()}});
+document.addEventListener('change',e=>{if(!ME)return;const t=e.target;if(t.id==='prolesson')updateTutor();if(t.dataset.proskill!==undefined){proData().skills[t.dataset.proskill]=Number(t.value);saveP()}if(t.dataset.procheck!==undefined){proData().checks[t.dataset.procheck]=t.checked;saveP()}});
+document.addEventListener('click',async e=>{if(!ME)return;const b=e.target.closest('button');if(!b)return;if(b.id==='tutorlesson'){tutorId=S.open;S.open=null;S.tab='protools';proView='tutor';render();return}if(b.dataset.proview){proView=b.dataset.proview;renderPro();return}switch(b.dataset.proact){case 'tutorcopy':{const x=byId(tutorId);if(x)await proCopy('Agisci come tutor. Lezione: '+x.title+'\nObiettivo: '+x.goal+'\nSpiega con un esempio concreto, proponi un esercizio diverso, poi 3 domande una alla volta. Attendi le mie risposte prima di correggere. Distingui fatti e ipotesi.');break}case 'briefcopy':await proCopy('Agisci come revisore tecnico. Analizza questo brief, proponi MVP, architettura, rischi, test e piano di rilascio. Non inventare requisiti.\n'+briefText());break;case 'briefsave':{const d=proData();if(!d.brief.title?.trim())return toast('Inserisci un nome');P.studio=P.studio||[];P.studio.push({type:'Progetto',title:d.brief.title,body:briefText(),url:''});await flushP();toast('Progetto salvato nello Studio');break}case 'checkreset':if(await confirmSheet('Azzera checklist?','I controlli selezionati verranno cancellati.','Azzera')){proData().checks={};await flushP();renderPro()}break}});
+
+
+function assessmentHtml(s,p){
+ const qs=[s.knowledgeCheck,...(s.advancedCheck||[])], a=p.assessment||{};
+ const n=qs.filter((q,i)=>Number.isInteger(a[i])).length, score=qs.filter((q,i)=>a[i]===q.answer).length;
+ return `<div class="card assessment"><h2>Verifica delle competenze</h2><p role="status">Risposte ${n}/${qs.length} · Punteggio ${score}/${qs.length}</p>${qs.map((q,j)=>`<div class="assessment-question"><h3>${j+1}. ${esc(q.q)}</h3>${q.options.map((o,i)=>`<button class="opt ${a[j]===i?(i===q.answer?'correct':'wrong'):''}" aria-pressed="${a[j]===i}" data-aq="${j}" data-av="${i}">${esc(o)}</button>`).join('')}${Number.isInteger(a[j])?`<p>${a[j]===q.answer?'Corretta. '+esc(q.why):'Non corretta. Rileggi e riprova.'}</p>`:''}</div>`).join('')}<p class="muted small">Punteggio delle ultime risposte, non una certificazione.</p></div>`;
+}
+document.addEventListener('click',async e=>{const b=e.target.closest('[data-aq]');if(!b||!ME||!S.open)return;const s=byId(S.open);if(!s?.knowledgeCheck)return;const j=Number(b.dataset.aq),i=Number(b.dataset.av),qs=[s.knowledgeCheck,...(s.advancedCheck||[])];if(!qs[j]||!Number.isInteger(i)||i<0||i>=qs[j].options.length)return;const p=sp(s.id);p.assessment=p.assessment||{};p.assessment[j]=i;markActive();await flushP();renderSession(s);});
+})();
+</script>
+</body>
+</html>
