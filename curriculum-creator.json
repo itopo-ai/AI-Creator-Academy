@@ -184,14 +184,19 @@
           "solution": "Un esempio di applicazione è: Confronta un riassunto, una funzione JS e un brief con punteggi 0–3. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Usa input identici e una rubrica prima di confrontare i modelli»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Matrice di confronto su tre compiti»?",
+            "q": "Nel laboratorio «Matrice di confronto su tre compiti», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
+              "Scegli in base al punteggio medio senza controllare i casi critici.",
               "Confronta un riassunto, una funzione JS e un brief con punteggi 0–3."
             ],
             "answer": 2,
-            "why": "Usa input identici e una rubrica prima di confrontare i modelli."
+            "why": "Usa input identici e una rubrica prima di confrontare i modelli.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Usa input identici e una rubrica prima di confrontare i modelli.",
+              "Non è l'approccio previsto per questo laboratorio. Usa input identici e una rubrica prima di confrontare i modelli.",
+              "Corretto. Usa input identici e una rubrica prima di confrontare i modelli."
+            ]
           },
           "masterclass": {
             "term": "Benchmark",
@@ -266,14 +271,19 @@
           "solution": "Un esempio di applicazione è: Registra una citazione inventata e un limite di contesto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Distingui capacità osservate da promesse commerciali»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Scheda dei limiti»?",
+            "q": "Nel laboratorio «Scheda dei limiti», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Scegli in base al punteggio medio senza controllare i casi critici.",
               "Registra una citazione inventata e un limite di contesto.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia."
             ],
             "answer": 1,
-            "why": "Distingui capacità osservate da promesse commerciali."
+            "why": "Distingui capacità osservate da promesse commerciali.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Distingui capacità osservate da promesse commerciali.",
+              "Corretto. Distingui capacità osservate da promesse commerciali.",
+              "Non è l'approccio previsto per questo laboratorio. Distingui capacità osservate da promesse commerciali."
+            ]
           },
           "masterclass": {
             "term": "Benchmark",
@@ -348,14 +358,19 @@
           "solution": "Un esempio di applicazione è: Controlla una data sulla documentazione ufficiale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Verifica le affermazioni contro fonti primarie indipendenti»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Protocollo di verifica»?",
+            "q": "Nel laboratorio «Protocollo di verifica», quale attività rispetta il principio studiato?",
             "options": [
               "Controlla una data sulla documentazione ufficiale.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
+              "Scegli in base al punteggio medio senza controllare i casi critici."
             ],
             "answer": 0,
-            "why": "Verifica le affermazioni contro fonti primarie indipendenti."
+            "why": "Verifica le affermazioni contro fonti primarie indipendenti.",
+            "feedback": [
+              "Corretto. Verifica le affermazioni contro fonti primarie indipendenti.",
+              "Non è l'approccio previsto per questo laboratorio. Verifica le affermazioni contro fonti primarie indipendenti.",
+              "Non è l'approccio previsto per questo laboratorio. Verifica le affermazioni contro fonti primarie indipendenti."
+            ]
           },
           "masterclass": {
             "term": "Benchmark",
@@ -430,14 +445,19 @@
           "solution": "Un esempio di applicazione è: Sostituisci nomi e indirizzi con dati fittizi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Minimizza i dati condivisi e rimuovi identificatori»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Regole di riservatezza»?",
+            "q": "Nel laboratorio «Regole di riservatezza», quale attività rispetta il principio studiato?",
             "options": [
               "Sostituisci nomi e indirizzi con dati fittizi.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
+              "Scegli in base al punteggio medio senza controllare i casi critici."
             ],
             "answer": 0,
-            "why": "Minimizza i dati condivisi e rimuovi identificatori."
+            "why": "Minimizza i dati condivisi e rimuovi identificatori.",
+            "feedback": [
+              "Corretto. Minimizza i dati condivisi e rimuovi identificatori.",
+              "Non è l'approccio previsto per questo laboratorio. Minimizza i dati condivisi e rimuovi identificatori.",
+              "Non è l'approccio previsto per questo laboratorio. Minimizza i dati condivisi e rimuovi identificatori."
+            ]
           },
           "masterclass": {
             "term": "Benchmark",
@@ -512,14 +532,19 @@
           "solution": "Un esempio di applicazione è: Un assistente editoriale chiede conferma prima di pubblicare. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Definisci ruolo, confini e condizioni di escalation»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Assistente personale»?",
+            "q": "Nel laboratorio «Assistente personale», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
+              "Scegli in base al punteggio medio senza controllare i casi critici.",
               "Un assistente editoriale chiede conferma prima di pubblicare."
             ],
             "answer": 2,
-            "why": "Definisci ruolo, confini e condizioni di escalation."
+            "why": "Definisci ruolo, confini e condizioni di escalation.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Definisci ruolo, confini e condizioni di escalation.",
+              "Non è l'approccio previsto per questo laboratorio. Definisci ruolo, confini e condizioni di escalation.",
+              "Corretto. Definisci ruolo, confini e condizioni di escalation."
+            ]
           },
           "masterclass": {
             "term": "Benchmark",
@@ -608,14 +633,19 @@
           "solution": "Un esempio di applicazione è: Richiedi una landing con pubblico e criteri di accettazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un brief separa obiettivo, vincoli, input e formato»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Brief strutturato»?",
+            "q": "Nel laboratorio «Brief strutturato», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Controlla soltanto che il JSON sia leggibile.",
+              "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
               "Richiedi una landing con pubblico e criteri di accettazione."
             ],
             "answer": 2,
-            "why": "Un brief separa obiettivo, vincoli, input e formato."
+            "why": "Un brief separa obiettivo, vincoli, input e formato.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un brief separa obiettivo, vincoli, input e formato.",
+              "Non è l'approccio previsto per questo laboratorio. Un brief separa obiettivo, vincoli, input e formato.",
+              "Corretto. Un brief separa obiettivo, vincoli, input e formato."
+            ]
           },
           "masterclass": {
             "term": "Contesto",
@@ -690,14 +720,19 @@
           "solution": "Un esempio di applicazione è: Fornisci due coppie input-output e prova una terza. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gli esempi mostrano il formato desiderato senza garantire correttezza»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Esempi few-shot»?",
+            "q": "Nel laboratorio «Esempi few-shot», quale attività rispetta il principio studiato?",
             "options": [
               "Fornisci due coppie input-output e prova una terza.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto che il JSON sia leggibile.",
+              "Controlla soltanto i nomi dei campi, senza confrontare i valori."
             ],
             "answer": 0,
-            "why": "Gli esempi mostrano il formato desiderato senza garantire correttezza."
+            "why": "Gli esempi mostrano il formato desiderato senza garantire correttezza.",
+            "feedback": [
+              "Corretto. Gli esempi mostrano il formato desiderato senza garantire correttezza.",
+              "Non è l'approccio previsto per questo laboratorio. Gli esempi mostrano il formato desiderato senza garantire correttezza.",
+              "Non è l'approccio previsto per questo laboratorio. Gli esempi mostrano il formato desiderato senza garantire correttezza."
+            ]
           },
           "masterclass": {
             "term": "Contesto",
@@ -772,14 +807,19 @@
           "solution": "Un esempio di applicazione è: Delimita un testo e chiedi di citare il paragrafo pertinente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Separa istruzioni da documenti non attendibili»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Contesto documentale»?",
+            "q": "Nel laboratorio «Contesto documentale», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
               "Delimita un testo e chiedi di citare il paragrafo pertinente.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Controlla soltanto che il JSON sia leggibile."
             ],
             "answer": 1,
-            "why": "Separa istruzioni da documenti non attendibili."
+            "why": "Separa istruzioni da documenti non attendibili.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Separa istruzioni da documenti non attendibili.",
+              "Corretto. Separa istruzioni da documenti non attendibili.",
+              "Non è l'approccio previsto per questo laboratorio. Separa istruzioni da documenti non attendibili."
+            ]
           },
           "masterclass": {
             "term": "Contesto",
@@ -854,14 +894,19 @@
           "solution": "Un esempio di applicazione è: Valida tipi e campi obbligatori di una scheda prodotto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («JSON valido non implica dati semanticamente corretti»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Output JSON»?",
+            "q": "Nel laboratorio «Output JSON», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Controlla soltanto che il JSON sia leggibile.",
+              "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
               "Valida tipi e campi obbligatori di una scheda prodotto."
             ],
             "answer": 2,
-            "why": "JSON valido non implica dati semanticamente corretti."
+            "why": "JSON valido non implica dati semanticamente corretti.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. JSON valido non implica dati semanticamente corretti.",
+              "Non è l'approccio previsto per questo laboratorio. JSON valido non implica dati semanticamente corretti.",
+              "Corretto. JSON valido non implica dati semanticamente corretti."
+            ]
           },
           "masterclass": {
             "term": "Contesto",
@@ -936,14 +981,19 @@
           "solution": "Un esempio di applicazione è: Confronta v1 e v2 su cinque richieste fisse. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Versiona i prompt e conserva casi di regressione»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Libreria prompt»?",
+            "q": "Nel laboratorio «Libreria prompt», quale attività rispetta il principio studiato?",
             "options": [
               "Confronta v1 e v2 su cinque richieste fisse.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto che il JSON sia leggibile.",
+              "Controlla soltanto i nomi dei campi, senza confrontare i valori."
             ],
             "answer": 0,
-            "why": "Versiona i prompt e conserva casi di regressione."
+            "why": "Versiona i prompt e conserva casi di regressione.",
+            "feedback": [
+              "Corretto. Versiona i prompt e conserva casi di regressione.",
+              "Non è l'approccio previsto per questo laboratorio. Versiona i prompt e conserva casi di regressione.",
+              "Non è l'approccio previsto per questo laboratorio. Versiona i prompt e conserva casi di regressione."
+            ]
           },
           "masterclass": {
             "term": "Contesto",
@@ -1032,14 +1082,19 @@
           "solution": "Un esempio di applicazione è: Affida una bozza all’AI ma approva il rilascio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Delega attività reversibili e mantieni controllo sulle decisioni»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Matrice di delega»?",
+            "q": "Nel laboratorio «Matrice di delega», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Conta solo il tempo di generazione della bozza.",
+              "Conta il tempo di revisione ma escludi le correzioni.",
               "Affida una bozza all’AI ma approva il rilascio."
             ],
             "answer": 2,
-            "why": "Delega attività reversibili e mantieni controllo sulle decisioni."
+            "why": "Delega attività reversibili e mantieni controllo sulle decisioni.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Delega attività reversibili e mantieni controllo sulle decisioni.",
+              "Non è l'approccio previsto per questo laboratorio. Delega attività reversibili e mantieni controllo sulle decisioni.",
+              "Corretto. Delega attività reversibili e mantieni controllo sulle decisioni."
+            ]
           },
           "masterclass": {
             "term": "Delega",
@@ -1114,14 +1169,19 @@
           "solution": "Un esempio di applicazione è: Prima wireframe, poi interfaccia, poi test. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Scomponi un progetto in risultati verificabili»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Piano a tappe»?",
+            "q": "Nel laboratorio «Piano a tappe», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Conta solo il tempo di generazione della bozza.",
+              "Conta il tempo di revisione ma escludi le correzioni.",
               "Prima wireframe, poi interfaccia, poi test."
             ],
             "answer": 2,
-            "why": "Scomponi un progetto in risultati verificabili."
+            "why": "Scomponi un progetto in risultati verificabili.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Scomponi un progetto in risultati verificabili.",
+              "Non è l'approccio previsto per questo laboratorio. Scomponi un progetto in risultati verificabili.",
+              "Corretto. Scomponi un progetto in risultati verificabili."
+            ]
           },
           "masterclass": {
             "term": "Delega",
@@ -1196,14 +1256,19 @@
           "solution": "Un esempio di applicazione è: Assegna 0–2 a leggibilità, accuratezza e completezza. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una rubrica usa criteri osservabili e soglie»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Rubrica di qualità»?",
+            "q": "Nel laboratorio «Rubrica di qualità», quale attività rispetta il principio studiato?",
             "options": [
               "Assegna 0–2 a leggibilità, accuratezza e completezza.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Conta solo il tempo di generazione della bozza.",
+              "Conta il tempo di revisione ma escludi le correzioni."
             ],
             "answer": 0,
-            "why": "Una rubrica usa criteri osservabili e soglie."
+            "why": "Una rubrica usa criteri osservabili e soglie.",
+            "feedback": [
+              "Corretto. Una rubrica usa criteri osservabili e soglie.",
+              "Non è l'approccio previsto per questo laboratorio. Una rubrica usa criteri osservabili e soglie.",
+              "Non è l'approccio previsto per questo laboratorio. Una rubrica usa criteri osservabili e soglie."
+            ]
           },
           "masterclass": {
             "term": "Delega",
@@ -1278,14 +1343,19 @@
           "solution": "Un esempio di applicazione è: Confronta tre tentativi includendo le correzioni. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Misura costo e tempo per risultato accettato»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Registro costi»?",
+            "q": "Nel laboratorio «Registro costi», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Conta solo il tempo di generazione della bozza.",
+              "Conta il tempo di revisione ma escludi le correzioni.",
               "Confronta tre tentativi includendo le correzioni."
             ],
             "answer": 2,
-            "why": "Misura costo e tempo per risultato accettato."
+            "why": "Misura costo e tempo per risultato accettato.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Misura costo e tempo per risultato accettato.",
+              "Non è l'approccio previsto per questo laboratorio. Misura costo e tempo per risultato accettato.",
+              "Corretto. Misura costo e tempo per risultato accettato."
+            ]
           },
           "masterclass": {
             "term": "Delega",
@@ -1360,14 +1430,19 @@
           "solution": "Un esempio di applicazione è: Brief, bozza, revisione umana, consegna. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un workflow esplicita input, output e responsabilità»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Workflow creativo»?",
+            "q": "Nel laboratorio «Workflow creativo», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Conta solo il tempo di generazione della bozza.",
+              "Conta il tempo di revisione ma escludi le correzioni.",
               "Brief, bozza, revisione umana, consegna."
             ],
             "answer": 2,
-            "why": "Un workflow esplicita input, output e responsabilità."
+            "why": "Un workflow esplicita input, output e responsabilità.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un workflow esplicita input, output e responsabilità.",
+              "Non è l'approccio previsto per questo laboratorio. Un workflow esplicita input, output e responsabilità.",
+              "Corretto. Un workflow esplicita input, output e responsabilità."
+            ]
           },
           "masterclass": {
             "term": "Delega",
@@ -1456,14 +1531,19 @@
           "solution": "Un esempio di applicazione è: Raccogli riferimenti con motivazione per ciascuno. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un moodboard comunica una direzione non un layout finale»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Moodboard»?",
+            "q": "Nel laboratorio «Moodboard», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Verifica i colori su un unico sfondo.",
               "Raccogli riferimenti con motivazione per ciascuno.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Verifica soltanto la versione a schermo intero."
             ],
             "answer": 1,
-            "why": "Un moodboard comunica una direzione non un layout finale."
+            "why": "Un moodboard comunica una direzione non un layout finale.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un moodboard comunica una direzione non un layout finale.",
+              "Corretto. Un moodboard comunica una direzione non un layout finale.",
+              "Non è l'approccio previsto per questo laboratorio. Un moodboard comunica una direzione non un layout finale."
+            ]
           },
           "masterclass": {
             "term": "Identità visiva",
@@ -1538,14 +1618,19 @@
           "solution": "Un esempio di applicazione è: Prova testo bianco su viola e misura il contrasto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il contrasto conta più della sola armonia cromatica»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Palette»?",
+            "q": "Nel laboratorio «Palette», quale attività rispetta il principio studiato?",
             "options": [
               "Prova testo bianco su viola e misura il contrasto.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Verifica soltanto la versione a schermo intero.",
+              "Verifica i colori su un unico sfondo."
             ],
             "answer": 0,
-            "why": "Il contrasto conta più della sola armonia cromatica."
+            "why": "Il contrasto conta più della sola armonia cromatica.",
+            "feedback": [
+              "Corretto. Il contrasto conta più della sola armonia cromatica.",
+              "Non è l'approccio previsto per questo laboratorio. Il contrasto conta più della sola armonia cromatica.",
+              "Non è l'approccio previsto per questo laboratorio. Il contrasto conta più della sola armonia cromatica."
+            ]
           },
           "masterclass": {
             "term": "Identità visiva",
@@ -1620,14 +1705,19 @@
           "solution": "Un esempio di applicazione è: Usa due pesi e tre dimensioni coerenti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La gerarchia tipografica distingue titoli e contenuti»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Tipografia»?",
+            "q": "Nel laboratorio «Tipografia», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Verifica i colori su un unico sfondo.",
               "Usa due pesi e tre dimensioni coerenti.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Verifica soltanto la versione a schermo intero."
             ],
             "answer": 1,
-            "why": "La gerarchia tipografica distingue titoli e contenuti."
+            "why": "La gerarchia tipografica distingue titoli e contenuti.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. La gerarchia tipografica distingue titoli e contenuti.",
+              "Corretto. La gerarchia tipografica distingue titoli e contenuti.",
+              "Non è l'approccio previsto per questo laboratorio. La gerarchia tipografica distingue titoli e contenuti."
+            ]
           },
           "masterclass": {
             "term": "Identità visiva",
@@ -1702,14 +1792,19 @@
           "solution": "Un esempio di applicazione è: Prova un simbolo a 32 pixel e in monocromia. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un logo deve restare riconoscibile in piccolo»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Logo e icone»?",
+            "q": "Nel laboratorio «Logo e icone», quale attività rispetta il principio studiato?",
             "options": [
               "Prova un simbolo a 32 pixel e in monocromia.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Verifica soltanto la versione a schermo intero.",
+              "Verifica i colori su un unico sfondo."
             ],
             "answer": 0,
-            "why": "Un logo deve restare riconoscibile in piccolo."
+            "why": "Un logo deve restare riconoscibile in piccolo.",
+            "feedback": [
+              "Corretto. Un logo deve restare riconoscibile in piccolo.",
+              "Non è l'approccio previsto per questo laboratorio. Un logo deve restare riconoscibile in piccolo.",
+              "Non è l'approccio previsto per questo laboratorio. Un logo deve restare riconoscibile in piccolo."
+            ]
           },
           "masterclass": {
             "term": "Identità visiva",
@@ -1784,14 +1879,19 @@
           "solution": "Un esempio di applicazione è: Documenta colori, font, spaziature e usi vietati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un brand kit definisce regole ripetibili»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Brand kit»?",
+            "q": "Nel laboratorio «Brand kit», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Verifica i colori su un unico sfondo.",
               "Documenta colori, font, spaziature e usi vietati.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Verifica soltanto la versione a schermo intero."
             ],
             "answer": 1,
-            "why": "Un brand kit definisce regole ripetibili."
+            "why": "Un brand kit definisce regole ripetibili.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un brand kit definisce regole ripetibili.",
+              "Corretto. Un brand kit definisce regole ripetibili.",
+              "Non è l'approccio previsto per questo laboratorio. Un brand kit definisce regole ripetibili."
+            ]
           },
           "masterclass": {
             "term": "Identità visiva",
@@ -1880,14 +1980,19 @@
           "solution": "Un esempio di applicazione è: Descrivi uno studente che usa il telefono in viaggio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una persona è un’ipotesi da validare non uno stereotipo»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Persona e scenario»?",
+            "q": "Nel laboratorio «Persona e scenario», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Misura il tempo dopo aver spiegato tutti i passaggi.",
               "Descrivi uno studente che usa il telefono in viaggio.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Raccogli soltanto il gradimento estetico."
             ],
             "answer": 1,
-            "why": "Una persona è un’ipotesi da validare non uno stereotipo."
+            "why": "Una persona è un’ipotesi da validare non uno stereotipo.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una persona è un’ipotesi da validare non uno stereotipo.",
+              "Corretto. Una persona è un’ipotesi da validare non uno stereotipo.",
+              "Non è l'approccio previsto per questo laboratorio. Una persona è un’ipotesi da validare non uno stereotipo."
+            ]
           },
           "masterclass": {
             "term": "Usabilità",
@@ -1962,14 +2067,19 @@
           "solution": "Un esempio di applicazione è: Disegna login riuscito, password errata e recupero. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un flusso mostra decisioni e percorsi di errore»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «User flow»?",
+            "q": "Nel laboratorio «User flow», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Raccogli soltanto il gradimento estetico.",
+              "Misura il tempo dopo aver spiegato tutti i passaggi.",
               "Disegna login riuscito, password errata e recupero."
             ],
             "answer": 2,
-            "why": "Un flusso mostra decisioni e percorsi di errore."
+            "why": "Un flusso mostra decisioni e percorsi di errore.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un flusso mostra decisioni e percorsi di errore.",
+              "Non è l'approccio previsto per questo laboratorio. Un flusso mostra decisioni e percorsi di errore.",
+              "Corretto. Un flusso mostra decisioni e percorsi di errore."
+            ]
           },
           "masterclass": {
             "term": "Usabilità",
@@ -2044,14 +2154,19 @@
           "solution": "Un esempio di applicazione è: Disegna una dashboard senza colori decorativi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il wireframe privilegia struttura e priorità»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Wireframe»?",
+            "q": "Nel laboratorio «Wireframe», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Raccogli soltanto il gradimento estetico.",
+              "Misura il tempo dopo aver spiegato tutti i passaggi.",
               "Disegna una dashboard senza colori decorativi."
             ],
             "answer": 2,
-            "why": "Il wireframe privilegia struttura e priorità."
+            "why": "Il wireframe privilegia struttura e priorità.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Il wireframe privilegia struttura e priorità.",
+              "Non è l'approccio previsto per questo laboratorio. Il wireframe privilegia struttura e priorità.",
+              "Corretto. Il wireframe privilegia struttura e priorità."
+            ]
           },
           "masterclass": {
             "term": "Usabilità",
@@ -2126,14 +2241,19 @@
           "solution": "Un esempio di applicazione è: Collega tre schermate con pulsanti navigabili. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un prototipo simula interazioni senza backend»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Prototipo cliccabile»?",
+            "q": "Nel laboratorio «Prototipo cliccabile», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Misura il tempo dopo aver spiegato tutti i passaggi.",
               "Collega tre schermate con pulsanti navigabili.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Raccogli soltanto il gradimento estetico."
             ],
             "answer": 1,
-            "why": "Un prototipo simula interazioni senza backend."
+            "why": "Un prototipo simula interazioni senza backend.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un prototipo simula interazioni senza backend.",
+              "Corretto. Un prototipo simula interazioni senza backend.",
+              "Non è l'approccio previsto per questo laboratorio. Un prototipo simula interazioni senza backend."
+            ]
           },
           "masterclass": {
             "term": "Usabilità",
@@ -2208,14 +2328,19 @@
           "solution": "Un esempio di applicazione è: Chiedi a una persona di trovare la prossima lezione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Osserva il comportamento senza suggerire la soluzione»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Test di usabilità»?",
+            "q": "Nel laboratorio «Test di usabilità», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Misura il tempo dopo aver spiegato tutti i passaggi.",
               "Chiedi a una persona di trovare la prossima lezione.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Raccogli soltanto il gradimento estetico."
             ],
             "answer": 1,
-            "why": "Osserva il comportamento senza suggerire la soluzione."
+            "why": "Osserva il comportamento senza suggerire la soluzione.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Osserva il comportamento senza suggerire la soluzione.",
+              "Corretto. Osserva il comportamento senza suggerire la soluzione.",
+              "Non è l'approccio previsto per questo laboratorio. Osserva il comportamento senza suggerire la soluzione."
+            ]
           },
           "masterclass": {
             "term": "Usabilità",
@@ -2304,14 +2429,19 @@
           "solution": "Un esempio di applicazione è: Disegna sei scene per un tutorial di trenta secondi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Lo storyboard pianifica sequenza e durata»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Storyboard»?",
+            "q": "Nel laboratorio «Storyboard», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Controlla la narrazione ma rimanda la verifica dei diritti.",
               "Disegna sei scene per un tutorial di trenta secondi.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto la durata del video."
             ],
             "answer": 1,
-            "why": "Lo storyboard pianifica sequenza e durata."
+            "why": "Lo storyboard pianifica sequenza e durata.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Lo storyboard pianifica sequenza e durata.",
+              "Corretto. Lo storyboard pianifica sequenza e durata.",
+              "Non è l'approccio previsto per questo laboratorio. Lo storyboard pianifica sequenza e durata."
+            ]
           },
           "masterclass": {
             "term": "Storyboard",
@@ -2386,14 +2516,19 @@
           "solution": "Un esempio di applicazione è: Genera una copertina con spazio libero per il titolo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un brief visivo specifica soggetto, composizione e vincoli»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Immagini»?",
+            "q": "Nel laboratorio «Immagini», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Controlla la narrazione ma rimanda la verifica dei diritti.",
               "Genera una copertina con spazio libero per il titolo.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto la durata del video."
             ],
             "answer": 1,
-            "why": "Un brief visivo specifica soggetto, composizione e vincoli."
+            "why": "Un brief visivo specifica soggetto, composizione e vincoli.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un brief visivo specifica soggetto, composizione e vincoli.",
+              "Corretto. Un brief visivo specifica soggetto, composizione e vincoli.",
+              "Non è l'approccio previsto per questo laboratorio. Un brief visivo specifica soggetto, composizione e vincoli."
+            ]
           },
           "masterclass": {
             "term": "Storyboard",
@@ -2468,14 +2603,19 @@
           "solution": "Un esempio di applicazione è: Crea una clip con apertura, dimostrazione e chiusura. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il montaggio usa ritmo e continuità per comunicare»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Video breve»?",
+            "q": "Nel laboratorio «Video breve», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Controlla la narrazione ma rimanda la verifica dei diritti.",
               "Crea una clip con apertura, dimostrazione e chiusura.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Controlla soltanto la durata del video."
             ],
             "answer": 1,
-            "why": "Il montaggio usa ritmo e continuità per comunicare."
+            "why": "Il montaggio usa ritmo e continuità per comunicare.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Il montaggio usa ritmo e continuità per comunicare.",
+              "Corretto. Il montaggio usa ritmo e continuità per comunicare.",
+              "Non è l'approccio previsto per questo laboratorio. Il montaggio usa ritmo e continuità per comunicare."
+            ]
           },
           "masterclass": {
             "term": "Storyboard",
@@ -2550,14 +2690,19 @@
           "solution": "Un esempio di applicazione è: Riscrivi lo stesso annuncio per sito e newsletter. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il tono deve adattarsi al pubblico e al canale»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Copy e tono»?",
+            "q": "Nel laboratorio «Copy e tono», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Controlla soltanto la durata del video.",
+              "Controlla la narrazione ma rimanda la verifica dei diritti.",
               "Riscrivi lo stesso annuncio per sito e newsletter."
             ],
             "answer": 2,
-            "why": "Il tono deve adattarsi al pubblico e al canale."
+            "why": "Il tono deve adattarsi al pubblico e al canale.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Il tono deve adattarsi al pubblico e al canale.",
+              "Non è l'approccio previsto per questo laboratorio. Il tono deve adattarsi al pubblico e al canale.",
+              "Corretto. Il tono deve adattarsi al pubblico e al canale."
+            ]
           },
           "masterclass": {
             "term": "Storyboard",
@@ -2632,14 +2777,19 @@
           "solution": "Un esempio di applicazione è: Organizza immagini, testi e video in cartelle. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Consegna asset coerenti e documenta licenze»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Pacchetto creativo»?",
+            "q": "Nel laboratorio «Pacchetto creativo», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Controlla soltanto la durata del video.",
+              "Controlla la narrazione ma rimanda la verifica dei diritti.",
               "Organizza immagini, testi e video in cartelle."
             ],
             "answer": 2,
-            "why": "Consegna asset coerenti e documenta licenze."
+            "why": "Consegna asset coerenti e documenta licenze.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Consegna asset coerenti e documenta licenze.",
+              "Non è l'approccio previsto per questo laboratorio. Consegna asset coerenti e documenta licenze.",
+              "Corretto. Consegna asset coerenti e documenta licenze."
+            ]
           },
           "masterclass": {
             "term": "Storyboard",
@@ -2728,14 +2878,19 @@
           "solution": "Un esempio di applicazione è: Usa main, nav e heading invece di soli div. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («HTML semantico descrive il significato degli elementi»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Pagina semantica»?",
+            "q": "Nel laboratorio «Pagina semantica», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Prova lo schermo stretto senza verificare zoom e tastiera.",
               "Usa main, nav e heading invece di soli div.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Prova soltanto la larghezza desktop."
             ],
             "answer": 1,
-            "why": "HTML semantico descrive il significato degli elementi."
+            "why": "HTML semantico descrive il significato degli elementi.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. HTML semantico descrive il significato degli elementi.",
+              "Corretto. HTML semantico descrive il significato degli elementi.",
+              "Non è l'approccio previsto per questo laboratorio. HTML semantico descrive il significato degli elementi."
+            ]
           },
           "masterclass": {
             "term": "HTML semantico",
@@ -2810,14 +2965,19 @@
           "solution": "Un esempio di applicazione è: Passa da due colonne a una su schermi stretti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il responsive design adatta layout allo spazio disponibile»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Layout responsive»?",
+            "q": "Nel laboratorio «Layout responsive», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Prova lo schermo stretto senza verificare zoom e tastiera.",
               "Passa da due colonne a una su schermi stretti.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Prova soltanto la larghezza desktop."
             ],
             "answer": 1,
-            "why": "Il responsive design adatta layout allo spazio disponibile."
+            "why": "Il responsive design adatta layout allo spazio disponibile.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Il responsive design adatta layout allo spazio disponibile.",
+              "Corretto. Il responsive design adatta layout allo spazio disponibile.",
+              "Non è l'approccio previsto per questo laboratorio. Il responsive design adatta layout allo spazio disponibile."
+            ]
           },
           "masterclass": {
             "term": "HTML semantico",
@@ -2892,14 +3052,19 @@
           "solution": "Un esempio di applicazione è: Crea una classe card con varianti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Le classi riutilizzabili evitano duplicazione di stili»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Componenti CSS»?",
+            "q": "Nel laboratorio «Componenti CSS», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Prova soltanto la larghezza desktop.",
+              "Prova lo schermo stretto senza verificare zoom e tastiera.",
               "Crea una classe card con varianti."
             ],
             "answer": 2,
-            "why": "Le classi riutilizzabili evitano duplicazione di stili."
+            "why": "Le classi riutilizzabili evitano duplicazione di stili.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Le classi riutilizzabili evitano duplicazione di stili.",
+              "Non è l'approccio previsto per questo laboratorio. Le classi riutilizzabili evitano duplicazione di stili.",
+              "Corretto. Le classi riutilizzabili evitano duplicazione di stili."
+            ]
           },
           "masterclass": {
             "term": "HTML semantico",
@@ -2974,14 +3139,19 @@
           "solution": "Un esempio di applicazione è: Prova tabulazione, focus e label dei campi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Accessibilità significa anche navigazione da tastiera»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Accessibilità»?",
+            "q": "Nel laboratorio «Accessibilità», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Prova lo schermo stretto senza verificare zoom e tastiera.",
               "Prova tabulazione, focus e label dei campi.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Prova soltanto la larghezza desktop."
             ],
             "answer": 1,
-            "why": "Accessibilità significa anche navigazione da tastiera."
+            "why": "Accessibilità significa anche navigazione da tastiera.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Accessibilità significa anche navigazione da tastiera.",
+              "Corretto. Accessibilità significa anche navigazione da tastiera.",
+              "Non è l'approccio previsto per questo laboratorio. Accessibilità significa anche navigazione da tastiera."
+            ]
           },
           "masterclass": {
             "term": "HTML semantico",
@@ -3056,14 +3226,19 @@
           "solution": "Un esempio di applicazione è: Costruisci una pagina con titolo, benefici e CTA. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una landing comunica una proposta e una azione primaria»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Landing page»?",
+            "q": "Nel laboratorio «Landing page», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Prova soltanto la larghezza desktop.",
+              "Prova lo schermo stretto senza verificare zoom e tastiera.",
               "Costruisci una pagina con titolo, benefici e CTA."
             ],
             "answer": 2,
-            "why": "Una landing comunica una proposta e una azione primaria."
+            "why": "Una landing comunica una proposta e una azione primaria.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una landing comunica una proposta e una azione primaria.",
+              "Non è l'approccio previsto per questo laboratorio. Una landing comunica una proposta e una azione primaria.",
+              "Corretto. Una landing comunica una proposta e una azione primaria."
+            ]
           },
           "masterclass": {
             "term": "HTML semantico",
@@ -3152,14 +3327,19 @@
           "solution": "Un esempio di applicazione è: Calcola il totale di un carrello senza modificare l’input. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una funzione separa input, trasformazione e risultato»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Funzioni»?",
+            "q": "Nel laboratorio «Funzioni», quale attività rispetta il principio studiato?",
             "options": [
               "Calcola il totale di un carrello senza modificare l’input.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla i dati prima di ricaricare.",
+              "Ricarica e verifica soltanto il titolo della pagina."
             ],
             "answer": 0,
-            "why": "Una funzione separa input, trasformazione e risultato."
+            "why": "Una funzione separa input, trasformazione e risultato.",
+            "feedback": [
+              "Corretto. Una funzione separa input, trasformazione e risultato.",
+              "Non è l'approccio previsto per questo laboratorio. Una funzione separa input, trasformazione e risultato.",
+              "Non è l'approccio previsto per questo laboratorio. Una funzione separa input, trasformazione e risultato."
+            ]
           },
           "masterclass": {
             "term": "Stato UI",
@@ -3234,14 +3414,19 @@
           "solution": "Un esempio di applicazione è: Aggiorna un contatore al click. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gli eventi collegano azioni dell’utente allo stato»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «DOM ed eventi»?",
+            "q": "Nel laboratorio «DOM ed eventi», quale attività rispetta il principio studiato?",
             "options": [
               "Aggiorna un contatore al click.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Controlla i dati prima di ricaricare.",
+              "Ricarica e verifica soltanto il titolo della pagina."
             ],
             "answer": 0,
-            "why": "Gli eventi collegano azioni dell’utente allo stato."
+            "why": "Gli eventi collegano azioni dell’utente allo stato.",
+            "feedback": [
+              "Corretto. Gli eventi collegano azioni dell’utente allo stato.",
+              "Non è l'approccio previsto per questo laboratorio. Gli eventi collegano azioni dell’utente allo stato.",
+              "Non è l'approccio previsto per questo laboratorio. Gli eventi collegano azioni dell’utente allo stato."
+            ]
           },
           "masterclass": {
             "term": "Stato UI",
@@ -3316,14 +3501,19 @@
           "solution": "Un esempio di applicazione è: Rifiuta una email vuota senza perdere gli altri campi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Valida input e mostra errori comprensibili»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Form»?",
+            "q": "Nel laboratorio «Form», quale attività rispetta il principio studiato?",
             "options": [
               "Rifiuta una email vuota senza perdere gli altri campi.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla i dati prima di ricaricare.",
+              "Ricarica e verifica soltanto il titolo della pagina."
             ],
             "answer": 0,
-            "why": "Valida input e mostra errori comprensibili."
+            "why": "Valida input e mostra errori comprensibili.",
+            "feedback": [
+              "Corretto. Valida input e mostra errori comprensibili.",
+              "Non è l'approccio previsto per questo laboratorio. Valida input e mostra errori comprensibili.",
+              "Non è l'approccio previsto per questo laboratorio. Valida input e mostra errori comprensibili."
+            ]
           },
           "masterclass": {
             "term": "Stato UI",
@@ -3398,14 +3588,19 @@
           "solution": "Un esempio di applicazione è: Salva preferenze non sensibili in JSON. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («LocalStorage conserva stringhe per origine ma non è un vault»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Storage locale»?",
+            "q": "Nel laboratorio «Storage locale», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Ricarica e verifica soltanto il titolo della pagina.",
               "Salva preferenze non sensibili in JSON.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla i dati prima di ricaricare."
             ],
             "answer": 1,
-            "why": "LocalStorage conserva stringhe per origine ma non è un vault."
+            "why": "LocalStorage conserva stringhe per origine ma non è un vault.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. LocalStorage conserva stringhe per origine ma non è un vault.",
+              "Corretto. LocalStorage conserva stringhe per origine ma non è un vault.",
+              "Non è l'approccio previsto per questo laboratorio. LocalStorage conserva stringhe per origine ma non è un vault."
+            ]
           },
           "masterclass": {
             "term": "Stato UI",
@@ -3480,14 +3675,19 @@
           "solution": "Un esempio di applicazione è: Crea una lista attività con aggiunta e rimozione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una mini app richiede stato e rendering coerenti»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Mini app»?",
+            "q": "Nel laboratorio «Mini app», quale attività rispetta il principio studiato?",
             "options": [
               "Crea una lista attività con aggiunta e rimozione.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla i dati prima di ricaricare.",
+              "Ricarica e verifica soltanto il titolo della pagina."
             ],
             "answer": 0,
-            "why": "Una mini app richiede stato e rendering coerenti."
+            "why": "Una mini app richiede stato e rendering coerenti.",
+            "feedback": [
+              "Corretto. Una mini app richiede stato e rendering coerenti.",
+              "Non è l'approccio previsto per questo laboratorio. Una mini app richiede stato e rendering coerenti.",
+              "Non è l'approccio previsto per questo laboratorio. Una mini app richiede stato e rendering coerenti."
+            ]
           },
           "masterclass": {
             "term": "Stato UI",
@@ -3576,14 +3776,19 @@
           "solution": "Un esempio di applicazione è: Inizializza Git con README e gitignore. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un repository conserva sorgenti e storia»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Repository»?",
+            "q": "Nel laboratorio «Repository», quale attività rispetta il principio studiato?",
             "options": [
               "Inizializza Git con README e gitignore.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Cancella la storia dei commit per tornare indietro.",
+              "Aggiungi una correzione senza verificare il risultato."
             ],
             "answer": 0,
-            "why": "Un repository conserva sorgenti e storia."
+            "why": "Un repository conserva sorgenti e storia.",
+            "feedback": [
+              "Corretto. Un repository conserva sorgenti e storia.",
+              "Non è l'approccio previsto per questo laboratorio. Un repository conserva sorgenti e storia.",
+              "Non è l'approccio previsto per questo laboratorio. Un repository conserva sorgenti e storia."
+            ]
           },
           "masterclass": {
             "term": "Git",
@@ -3658,14 +3863,19 @@
           "solution": "Un esempio di applicazione è: Separa correzione bug da cambio grafico. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un commit rappresenta una modifica coerente»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Commit»?",
+            "q": "Nel laboratorio «Commit», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Aggiungi una correzione senza verificare il risultato.",
               "Separa correzione bug da cambio grafico.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Cancella la storia dei commit per tornare indietro."
             ],
             "answer": 1,
-            "why": "Un commit rappresenta una modifica coerente."
+            "why": "Un commit rappresenta una modifica coerente.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un commit rappresenta una modifica coerente.",
+              "Corretto. Un commit rappresenta una modifica coerente.",
+              "Non è l'approccio previsto per questo laboratorio. Un commit rappresenta una modifica coerente."
+            ]
           },
           "masterclass": {
             "term": "Git",
@@ -3740,14 +3950,19 @@
           "solution": "Un esempio di applicazione è: Crea un ramo per una nuova schermata. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un branch isola il lavoro in corso»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Branch»?",
+            "q": "Nel laboratorio «Branch», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Cancella la storia dei commit per tornare indietro.",
+              "Aggiungi una correzione senza verificare il risultato.",
               "Crea un ramo per una nuova schermata."
             ],
             "answer": 2,
-            "why": "Un branch isola il lavoro in corso."
+            "why": "Un branch isola il lavoro in corso.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un branch isola il lavoro in corso.",
+              "Non è l'approccio previsto per questo laboratorio. Un branch isola il lavoro in corso.",
+              "Corretto. Un branch isola il lavoro in corso."
+            ]
           },
           "masterclass": {
             "term": "Git",
@@ -3822,14 +4037,19 @@
           "solution": "Un esempio di applicazione è: Descrivi cambiamenti, rischi e test effettuati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una pull request rende la modifica revisionabile»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Pull request»?",
+            "q": "Nel laboratorio «Pull request», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Cancella la storia dei commit per tornare indietro.",
+              "Aggiungi una correzione senza verificare il risultato.",
               "Descrivi cambiamenti, rischi e test effettuati."
             ],
             "answer": 2,
-            "why": "Una pull request rende la modifica revisionabile."
+            "why": "Una pull request rende la modifica revisionabile.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una pull request rende la modifica revisionabile.",
+              "Non è l'approccio previsto per questo laboratorio. Una pull request rende la modifica revisionabile.",
+              "Corretto. Una pull request rende la modifica revisionabile."
+            ]
           },
           "masterclass": {
             "term": "Git",
@@ -3904,14 +4124,19 @@
           "solution": "Un esempio di applicazione è: Crea un tag e note di rilascio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una release identifica una versione riproducibile»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Release»?",
+            "q": "Nel laboratorio «Release», quale attività rispetta il principio studiato?",
             "options": [
               "Crea un tag e note di rilascio.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Cancella la storia dei commit per tornare indietro.",
+              "Aggiungi una correzione senza verificare il risultato."
             ],
             "answer": 0,
-            "why": "Una release identifica una versione riproducibile."
+            "why": "Una release identifica una versione riproducibile.",
+            "feedback": [
+              "Corretto. Una release identifica una versione riproducibile.",
+              "Non è l'approccio previsto per questo laboratorio. Una release identifica una versione riproducibile.",
+              "Non è l'approccio previsto per questo laboratorio. Una release identifica una versione riproducibile."
+            ]
           },
           "masterclass": {
             "term": "Git",
@@ -4000,14 +4225,19 @@
           "solution": "Un esempio di applicazione è: Rinomina copie di file in una cartella di prova. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno script automatizza un compito ripetibile»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Script»?",
+            "q": "Nel laboratorio «Script», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Restituisci un valore arbitrario senza documentarlo.",
+              "Ignora il caso vuoto perché non è il caso tipico.",
               "Rinomina copie di file in una cartella di prova."
             ],
             "answer": 2,
-            "why": "Uno script automatizza un compito ripetibile."
+            "why": "Uno script automatizza un compito ripetibile.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Uno script automatizza un compito ripetibile.",
+              "Non è l'approccio previsto per questo laboratorio. Uno script automatizza un compito ripetibile.",
+              "Corretto. Uno script automatizza un compito ripetibile."
+            ]
           },
           "masterclass": {
             "term": "Python",
@@ -4082,14 +4312,19 @@
           "solution": "Un esempio di applicazione è: Leggi un CSV e raggruppa righe per categoria. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Distingui liste, dizionari e tipi scalari»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Dati»?",
+            "q": "Nel laboratorio «Dati», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Restituisci un valore arbitrario senza documentarlo.",
+              "Ignora il caso vuoto perché non è il caso tipico.",
               "Leggi un CSV e raggruppa righe per categoria."
             ],
             "answer": 2,
-            "why": "Distingui liste, dizionari e tipi scalari."
+            "why": "Distingui liste, dizionari e tipi scalari.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Distingui liste, dizionari e tipi scalari.",
+              "Non è l'approccio previsto per questo laboratorio. Distingui liste, dizionari e tipi scalari.",
+              "Corretto. Distingui liste, dizionari e tipi scalari."
+            ]
           },
           "masterclass": {
             "term": "Python",
@@ -4164,14 +4399,19 @@
           "solution": "Un esempio di applicazione è: Verifica una funzione con lista vuota e valori duplicati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Testa funzioni con casi normali e limite»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Funzioni e test»?",
+            "q": "Nel laboratorio «Funzioni e test», quale attività rispetta il principio studiato?",
             "options": [
               "Verifica una funzione con lista vuota e valori duplicati.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Restituisci un valore arbitrario senza documentarlo.",
+              "Ignora il caso vuoto perché non è il caso tipico."
             ],
             "answer": 0,
-            "why": "Testa funzioni con casi normali e limite."
+            "why": "Testa funzioni con casi normali e limite.",
+            "feedback": [
+              "Corretto. Testa funzioni con casi normali e limite.",
+              "Non è l'approccio previsto per questo laboratorio. Testa funzioni con casi normali e limite.",
+              "Non è l'approccio previsto per questo laboratorio. Testa funzioni con casi normali e limite."
+            ]
           },
           "masterclass": {
             "term": "Python",
@@ -4246,14 +4486,19 @@
           "solution": "Un esempio di applicazione è: Intercetta FileNotFoundError e mostra il percorso. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gestisci eccezioni specifiche senza nascondere errori»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Errori»?",
+            "q": "Nel laboratorio «Errori», quale attività rispetta il principio studiato?",
             "options": [
               "Intercetta FileNotFoundError e mostra il percorso.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Restituisci un valore arbitrario senza documentarlo.",
+              "Ignora il caso vuoto perché non è il caso tipico."
             ],
             "answer": 0,
-            "why": "Gestisci eccezioni specifiche senza nascondere errori."
+            "why": "Gestisci eccezioni specifiche senza nascondere errori.",
+            "feedback": [
+              "Corretto. Gestisci eccezioni specifiche senza nascondere errori.",
+              "Non è l'approccio previsto per questo laboratorio. Gestisci eccezioni specifiche senza nascondere errori.",
+              "Non è l'approccio previsto per questo laboratorio. Gestisci eccezioni specifiche senza nascondere errori."
+            ]
           },
           "masterclass": {
             "term": "Python",
@@ -4328,14 +4573,19 @@
           "solution": "Un esempio di applicazione è: Crea un comando che produce un report CSV. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una utility ha input documentati e output prevedibile»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Utility»?",
+            "q": "Nel laboratorio «Utility», quale attività rispetta il principio studiato?",
             "options": [
               "Crea un comando che produce un report CSV.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Restituisci un valore arbitrario senza documentarlo.",
+              "Ignora il caso vuoto perché non è il caso tipico."
             ],
             "answer": 0,
-            "why": "Una utility ha input documentati e output prevedibile."
+            "why": "Una utility ha input documentati e output prevedibile.",
+            "feedback": [
+              "Corretto. Una utility ha input documentati e output prevedibile.",
+              "Non è l'approccio previsto per questo laboratorio. Una utility ha input documentati e output prevedibile.",
+              "Non è l'approccio previsto per questo laboratorio. Una utility ha input documentati e output prevedibile."
+            ]
           },
           "masterclass": {
             "term": "Python",
@@ -4424,14 +4674,19 @@
           "solution": "Un esempio di applicazione è: Collega utenti e progetti con chiavi esterne. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno schema definisce entità, relazioni e vincoli»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Schema dati»?",
+            "q": "Nel laboratorio «Schema dati», quale attività rispetta il principio studiato?",
             "options": [
               "Collega utenti e progetti con chiavi esterne.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Verifica soltanto che ogni utente veda le proprie note.",
+              "Prova con un solo account amministratore."
             ],
             "answer": 0,
-            "why": "Uno schema definisce entità, relazioni e vincoli."
+            "why": "Uno schema definisce entità, relazioni e vincoli.",
+            "feedback": [
+              "Corretto. Uno schema definisce entità, relazioni e vincoli.",
+              "Non è l'approccio previsto per questo laboratorio. Uno schema definisce entità, relazioni e vincoli.",
+              "Non è l'approccio previsto per questo laboratorio. Uno schema definisce entità, relazioni e vincoli."
+            ]
           },
           "masterclass": {
             "term": "RLS",
@@ -4506,14 +4761,19 @@
           "solution": "Un esempio di applicazione è: Filtra progetti per stato e ordina per data. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una query seleziona solo i dati necessari»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Query»?",
+            "q": "Nel laboratorio «Query», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Prova con un solo account amministratore.",
               "Filtra progetti per stato e ordina per data.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Verifica soltanto che ogni utente veda le proprie note."
             ],
             "answer": 1,
-            "why": "Una query seleziona solo i dati necessari."
+            "why": "Una query seleziona solo i dati necessari.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una query seleziona solo i dati necessari.",
+              "Corretto. Una query seleziona solo i dati necessari.",
+              "Non è l'approccio previsto per questo laboratorio. Una query seleziona solo i dati necessari."
+            ]
           },
           "masterclass": {
             "term": "RLS",
@@ -4588,14 +4848,19 @@
           "solution": "Un esempio di applicazione è: Distingui sessione utente e permesso di modifica. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Autenticazione identifica, autorizzazione concede accesso»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Login»?",
+            "q": "Nel laboratorio «Login», quale attività rispetta il principio studiato?",
             "options": [
               "Distingui sessione utente e permesso di modifica.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Verifica soltanto che ogni utente veda le proprie note.",
+              "Prova con un solo account amministratore."
             ],
             "answer": 0,
-            "why": "Autenticazione identifica, autorizzazione concede accesso."
+            "why": "Autenticazione identifica, autorizzazione concede accesso.",
+            "feedback": [
+              "Corretto. Autenticazione identifica, autorizzazione concede accesso.",
+              "Non è l'approccio previsto per questo laboratorio. Autenticazione identifica, autorizzazione concede accesso.",
+              "Non è l'approccio previsto per questo laboratorio. Autenticazione identifica, autorizzazione concede accesso."
+            ]
           },
           "masterclass": {
             "term": "RLS",
@@ -4670,14 +4935,19 @@
           "solution": "Un esempio di applicazione è: Verifica che A non legga i progetti di B. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («RLS applica regole di accesso alle righe sul database»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Permessi RLS»?",
+            "q": "Nel laboratorio «Permessi RLS», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Prova con un solo account amministratore.",
               "Verifica che A non legga i progetti di B.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Verifica soltanto che ogni utente veda le proprie note."
             ],
             "answer": 1,
-            "why": "RLS applica regole di accesso alle righe sul database."
+            "why": "RLS applica regole di accesso alle righe sul database.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. RLS applica regole di accesso alle righe sul database.",
+              "Corretto. RLS applica regole di accesso alle righe sul database.",
+              "Non è l'approccio previsto per questo laboratorio. RLS applica regole di accesso alle righe sul database."
+            ]
           },
           "masterclass": {
             "term": "RLS",
@@ -4752,14 +5022,19 @@
           "solution": "Un esempio di applicazione è: Crea e modifica un progetto con validazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un’app dati deve gestire errori e consistenza»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «App dati»?",
+            "q": "Nel laboratorio «App dati», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Prova con un solo account amministratore.",
               "Crea e modifica un progetto con validazione.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Verifica soltanto che ogni utente veda le proprie note."
             ],
             "answer": 1,
-            "why": "Un’app dati deve gestire errori e consistenza."
+            "why": "Un’app dati deve gestire errori e consistenza.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un’app dati deve gestire errori e consistenza.",
+              "Corretto. Un’app dati deve gestire errori e consistenza.",
+              "Non è l'approccio previsto per questo laboratorio. Un’app dati deve gestire errori e consistenza."
+            ]
           },
           "masterclass": {
             "term": "RLS",
@@ -4848,14 +5123,19 @@
           "solution": "Un esempio di applicazione è: Distingui GET 200 da POST 201 e 401. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («HTTP usa metodi, status e intestazioni»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «HTTP»?",
+            "q": "Nel laboratorio «HTTP», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Interpreta 429 come successo e continua.",
               "Distingui GET 200 da POST 201 e 401.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Ripeti subito la richiesta senza limite."
             ],
             "answer": 1,
-            "why": "HTTP usa metodi, status e intestazioni."
+            "why": "HTTP usa metodi, status e intestazioni.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. HTTP usa metodi, status e intestazioni.",
+              "Corretto. HTTP usa metodi, status e intestazioni.",
+              "Non è l'approccio previsto per questo laboratorio. HTTP usa metodi, status e intestazioni."
+            ]
           },
           "masterclass": {
             "term": "HTTP",
@@ -4930,14 +5210,19 @@
           "solution": "Un esempio di applicazione è: Controlla response.ok prima di leggere JSON. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Fetch non rifiuta automaticamente ogni errore HTTP»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Fetch»?",
+            "q": "Nel laboratorio «Fetch», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Interpreta 429 come successo e continua.",
               "Controlla response.ok prima di leggere JSON.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Ripeti subito la richiesta senza limite."
             ],
             "answer": 1,
-            "why": "Fetch non rifiuta automaticamente ogni errore HTTP."
+            "why": "Fetch non rifiuta automaticamente ogni errore HTTP.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Fetch non rifiuta automaticamente ogni errore HTTP.",
+              "Corretto. Fetch non rifiuta automaticamente ogni errore HTTP.",
+              "Non è l'approccio previsto per questo laboratorio. Fetch non rifiuta automaticamente ogni errore HTTP."
+            ]
           },
           "masterclass": {
             "term": "HTTP",
@@ -5012,14 +5297,19 @@
           "solution": "Un esempio di applicazione è: Mostra un messaggio quando la lista è vuota. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gli stati UI includono caricamento, vuoto, errore e successo»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Stati UI»?",
+            "q": "Nel laboratorio «Stati UI», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Ripeti subito la richiesta senza limite.",
+              "Interpreta 429 come successo e continua.",
               "Mostra un messaggio quando la lista è vuota."
             ],
             "answer": 2,
-            "why": "Gli stati UI includono caricamento, vuoto, errore e successo."
+            "why": "Gli stati UI includono caricamento, vuoto, errore e successo.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Gli stati UI includono caricamento, vuoto, errore e successo.",
+              "Non è l'approccio previsto per questo laboratorio. Gli stati UI includono caricamento, vuoto, errore e successo.",
+              "Corretto. Gli stati UI includono caricamento, vuoto, errore e successo."
+            ]
           },
           "masterclass": {
             "term": "HTTP",
@@ -5094,14 +5384,19 @@
           "solution": "Un esempio di applicazione è: Isola il client API dalla funzione di rendering. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Separa presentazione, logica e accesso ai dati»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Architettura»?",
+            "q": "Nel laboratorio «Architettura», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Ripeti subito la richiesta senza limite.",
+              "Interpreta 429 come successo e continua.",
               "Isola il client API dalla funzione di rendering."
             ],
             "answer": 2,
-            "why": "Separa presentazione, logica e accesso ai dati."
+            "why": "Separa presentazione, logica e accesso ai dati.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Separa presentazione, logica e accesso ai dati.",
+              "Non è l'approccio previsto per questo laboratorio. Separa presentazione, logica e accesso ai dati.",
+              "Corretto. Separa presentazione, logica e accesso ai dati."
+            ]
           },
           "masterclass": {
             "term": "HTTP",
@@ -5176,14 +5471,19 @@
           "solution": "Un esempio di applicazione è: Prova creazione, modifica e rete assente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un’app completa integra flussi e gestione degli errori»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «App completa»?",
+            "q": "Nel laboratorio «App completa», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Ripeti subito la richiesta senza limite.",
+              "Interpreta 429 come successo e continua.",
               "Prova creazione, modifica e rete assente."
             ],
             "answer": 2,
-            "why": "Un’app completa integra flussi e gestione degli errori."
+            "why": "Un’app completa integra flussi e gestione degli errori.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un’app completa integra flussi e gestione degli errori.",
+              "Non è l'approccio previsto per questo laboratorio. Un’app completa integra flussi e gestione degli errori.",
+              "Corretto. Un’app completa integra flussi e gestione degli errori."
+            ]
           },
           "masterclass": {
             "term": "HTTP",
@@ -5272,14 +5572,19 @@
           "solution": "Un esempio di applicazione è: Avvia un flusso con un webhook di prova. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un trigger avvia un workflow su evento o pianificazione»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Trigger»?",
+            "q": "Nel laboratorio «Trigger», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
               "Avvia un flusso con un webhook di prova.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Genera un nuovo ID a ogni consegna dello stesso evento."
             ],
             "answer": 1,
-            "why": "Un trigger avvia un workflow su evento o pianificazione."
+            "why": "Un trigger avvia un workflow su evento o pianificazione.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un trigger avvia un workflow su evento o pianificazione.",
+              "Corretto. Un trigger avvia un workflow su evento o pianificazione.",
+              "Non è l'approccio previsto per questo laboratorio. Un trigger avvia un workflow su evento o pianificazione."
+            ]
           },
           "masterclass": {
             "term": "Idempotenza",
@@ -5354,14 +5659,19 @@
           "solution": "Un esempio di applicazione è: Converti una data e rinomina un campo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La trasformazione normalizza dati tra sistemi»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Trasformazioni»?",
+            "q": "Nel laboratorio «Trasformazioni», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
               "Converti una data e rinomina un campo.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Genera un nuovo ID a ogni consegna dello stesso evento."
             ],
             "answer": 1,
-            "why": "La trasformazione normalizza dati tra sistemi."
+            "why": "La trasformazione normalizza dati tra sistemi.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. La trasformazione normalizza dati tra sistemi.",
+              "Corretto. La trasformazione normalizza dati tra sistemi.",
+              "Non è l'approccio previsto per questo laboratorio. La trasformazione normalizza dati tra sistemi."
+            ]
           },
           "masterclass": {
             "term": "Idempotenza",
@@ -5436,14 +5746,19 @@
           "solution": "Un esempio di applicazione è: Invia richieste incomplete a revisione manuale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Le condizioni instradano casi diversi»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Condizioni»?",
+            "q": "Nel laboratorio «Condizioni», quale attività rispetta il principio studiato?",
             "options": [
               "Invia richieste incomplete a revisione manuale.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Genera un nuovo ID a ogni consegna dello stesso evento.",
+              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini."
             ],
             "answer": 0,
-            "why": "Le condizioni instradano casi diversi."
+            "why": "Le condizioni instradano casi diversi.",
+            "feedback": [
+              "Corretto. Le condizioni instradano casi diversi.",
+              "Non è l'approccio previsto per questo laboratorio. Le condizioni instradano casi diversi.",
+              "Non è l'approccio previsto per questo laboratorio. Le condizioni instradano casi diversi."
+            ]
           },
           "masterclass": {
             "term": "Idempotenza",
@@ -5518,14 +5833,19 @@
           "solution": "Un esempio di applicazione è: Simula un timeout senza creare due ordini. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Retry limitati e idempotenza evitano duplicati»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Retry»?",
+            "q": "Nel laboratorio «Retry», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Genera un nuovo ID a ogni consegna dello stesso evento.",
+              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
               "Simula un timeout senza creare due ordini."
             ],
             "answer": 2,
-            "why": "Retry limitati e idempotenza evitano duplicati."
+            "why": "Retry limitati e idempotenza evitano duplicati.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Retry limitati e idempotenza evitano duplicati.",
+              "Non è l'approccio previsto per questo laboratorio. Retry limitati e idempotenza evitano duplicati.",
+              "Corretto. Retry limitati e idempotenza evitano duplicati."
+            ]
           },
           "masterclass": {
             "term": "Idempotenza",
@@ -5600,14 +5920,19 @@
           "solution": "Un esempio di applicazione è: Registra esecuzioni riuscite e fallite. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un workflow va osservato e documentato»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Workflow»?",
+            "q": "Nel laboratorio «Workflow», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
               "Registra esecuzioni riuscite e fallite.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Genera un nuovo ID a ogni consegna dello stesso evento."
             ],
             "answer": 1,
-            "why": "Un workflow va osservato e documentato."
+            "why": "Un workflow va osservato e documentato.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un workflow va osservato e documentato.",
+              "Corretto. Un workflow va osservato e documentato.",
+              "Non è l'approccio previsto per questo laboratorio. Un workflow va osservato e documentato."
+            ]
           },
           "masterclass": {
             "term": "Idempotenza",
@@ -5696,14 +6021,19 @@
           "solution": "Un esempio di applicazione è: Definisci una ricerca con parametro query. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un tool espone una funzione con schema di input»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Tool»?",
+            "q": "Nel laboratorio «Tool», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Invia automaticamente se il testo sembra corretto.",
+              "Registra l'azione soltanto dopo un reclamo.",
               "Definisci una ricerca con parametro query."
             ],
             "answer": 2,
-            "why": "Un tool espone una funzione con schema di input."
+            "why": "Un tool espone una funzione con schema di input.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un tool espone una funzione con schema di input.",
+              "Non è l'approccio previsto per questo laboratorio. Un tool espone una funzione con schema di input.",
+              "Corretto. Un tool espone una funzione con schema di input."
+            ]
           },
           "masterclass": {
             "term": "Agente",
@@ -5778,14 +6108,19 @@
           "solution": "Un esempio di applicazione è: Imposta massimo tre chiamate e una condizione di stop. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un agente pianifica azioni ma deve avere limiti»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Pianificazione»?",
+            "q": "Nel laboratorio «Pianificazione», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Registra l'azione soltanto dopo un reclamo.",
               "Imposta massimo tre chiamate e una condizione di stop.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Invia automaticamente se il testo sembra corretto."
             ],
             "answer": 1,
-            "why": "Un agente pianifica azioni ma deve avere limiti."
+            "why": "Un agente pianifica azioni ma deve avere limiti.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un agente pianifica azioni ma deve avere limiti.",
+              "Corretto. Un agente pianifica azioni ma deve avere limiti.",
+              "Non è l'approccio previsto per questo laboratorio. Un agente pianifica azioni ma deve avere limiti."
+            ]
           },
           "masterclass": {
             "term": "Agente",
@@ -5860,14 +6195,19 @@
           "solution": "Un esempio di applicazione è: Mostra una email in bozza prima dell’invio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («L’approvazione umana precede azioni irreversibili»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Approvazione»?",
+            "q": "Nel laboratorio «Approvazione», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Registra l'azione soltanto dopo un reclamo.",
               "Mostra una email in bozza prima dell’invio.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Invia automaticamente se il testo sembra corretto."
             ],
             "answer": 1,
-            "why": "L’approvazione umana precede azioni irreversibili."
+            "why": "L’approvazione umana precede azioni irreversibili.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. L’approvazione umana precede azioni irreversibili.",
+              "Corretto. L’approvazione umana precede azioni irreversibili.",
+              "Non è l'approccio previsto per questo laboratorio. L’approvazione umana precede azioni irreversibili."
+            ]
           },
           "masterclass": {
             "term": "Agente",
@@ -5942,14 +6282,19 @@
           "solution": "Un esempio di applicazione è: Controlla se ha chiamato il tool corretto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Valuta agenti su risultati e uso degli strumenti»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Valutazione»?",
+            "q": "Nel laboratorio «Valutazione», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Registra l'azione soltanto dopo un reclamo.",
               "Controlla se ha chiamato il tool corretto.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Invia automaticamente se il testo sembra corretto."
             ],
             "answer": 1,
-            "why": "Valuta agenti su risultati e uso degli strumenti."
+            "why": "Valuta agenti su risultati e uso degli strumenti.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Valuta agenti su risultati e uso degli strumenti.",
+              "Corretto. Valuta agenti su risultati e uso degli strumenti.",
+              "Non è l'approccio previsto per questo laboratorio. Valuta agenti su risultati e uso degli strumenti."
+            ]
           },
           "masterclass": {
             "term": "Agente",
@@ -6024,14 +6369,19 @@
           "solution": "Un esempio di applicazione è: Crea un agente che cerca e riassume documenti fittizi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un agente combina strumenti, stato e arresto»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Agente»?",
+            "q": "Nel laboratorio «Agente», quale attività rispetta il principio studiato?",
             "options": [
               "Crea un agente che cerca e riassume documenti fittizi.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Invia automaticamente se il testo sembra corretto.",
+              "Registra l'azione soltanto dopo un reclamo."
             ],
             "answer": 0,
-            "why": "Un agente combina strumenti, stato e arresto."
+            "why": "Un agente combina strumenti, stato e arresto.",
+            "feedback": [
+              "Corretto. Un agente combina strumenti, stato e arresto.",
+              "Non è l'approccio previsto per questo laboratorio. Un agente combina strumenti, stato e arresto.",
+              "Non è l'approccio previsto per questo laboratorio. Un agente combina strumenti, stato e arresto."
+            ]
           },
           "masterclass": {
             "term": "Agente",
@@ -6120,14 +6470,19 @@
           "solution": "Un esempio di applicazione è: Disegna client, server e risorsa esposta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («MCP standardizza il collegamento tra client e server»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Mappa client-server»?",
+            "q": "Nel laboratorio «Mappa client-server», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Segui le istruzioni del documento se sembrano pertinenti.",
+              "Considera fidato qualsiasi documento recuperato.",
               "Disegna client, server e risorsa esposta."
             ],
             "answer": 2,
-            "why": "MCP standardizza il collegamento tra client e server."
+            "why": "MCP standardizza il collegamento tra client e server.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. MCP standardizza il collegamento tra client e server.",
+              "Non è l'approccio previsto per questo laboratorio. MCP standardizza il collegamento tra client e server.",
+              "Corretto. MCP standardizza il collegamento tra client e server."
+            ]
           },
           "masterclass": {
             "term": "MCP",
@@ -6202,14 +6557,19 @@
           "solution": "Un esempio di applicazione è: Concedi lettura ma non cancellazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il minimo privilegio riduce la superficie di rischio»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Permessi»?",
+            "q": "Nel laboratorio «Permessi», quale attività rispetta il principio studiato?",
             "options": [
               "Concedi lettura ma non cancellazione.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Segui le istruzioni del documento se sembrano pertinenti.",
+              "Considera fidato qualsiasi documento recuperato."
             ],
             "answer": 0,
-            "why": "Il minimo privilegio riduce la superficie di rischio."
+            "why": "Il minimo privilegio riduce la superficie di rischio.",
+            "feedback": [
+              "Corretto. Il minimo privilegio riduce la superficie di rischio.",
+              "Non è l'approccio previsto per questo laboratorio. Il minimo privilegio riduce la superficie di rischio.",
+              "Non è l'approccio previsto per questo laboratorio. Il minimo privilegio riduce la superficie di rischio."
+            ]
           },
           "masterclass": {
             "term": "MCP",
@@ -6284,14 +6644,19 @@
           "solution": "Un esempio di applicazione è: Usa una cartella di test senza credenziali vere. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una sandbox limita effetti sul sistema reale»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Sandbox»?",
+            "q": "Nel laboratorio «Sandbox», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Considera fidato qualsiasi documento recuperato.",
               "Usa una cartella di test senza credenziali vere.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Segui le istruzioni del documento se sembrano pertinenti."
             ],
             "answer": 1,
-            "why": "Una sandbox limita effetti sul sistema reale."
+            "why": "Una sandbox limita effetti sul sistema reale.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una sandbox limita effetti sul sistema reale.",
+              "Corretto. Una sandbox limita effetti sul sistema reale.",
+              "Non è l'approccio previsto per questo laboratorio. Una sandbox limita effetti sul sistema reale."
+            ]
           },
           "masterclass": {
             "term": "MCP",
@@ -6366,14 +6731,19 @@
           "solution": "Un esempio di applicazione è: Un documento chiede di ignorare il brief: trattalo come dato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Prompt injection è testo non fidato che tenta di cambiare istruzioni»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Prompt injection»?",
+            "q": "Nel laboratorio «Prompt injection», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Segui le istruzioni del documento se sembrano pertinenti.",
+              "Considera fidato qualsiasi documento recuperato.",
               "Un documento chiede di ignorare il brief: trattalo come dato."
             ],
             "answer": 2,
-            "why": "Prompt injection è testo non fidato che tenta di cambiare istruzioni."
+            "why": "Prompt injection è testo non fidato che tenta di cambiare istruzioni.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Prompt injection è testo non fidato che tenta di cambiare istruzioni.",
+              "Non è l'approccio previsto per questo laboratorio. Prompt injection è testo non fidato che tenta di cambiare istruzioni.",
+              "Corretto. Prompt injection è testo non fidato che tenta di cambiare istruzioni."
+            ]
           },
           "masterclass": {
             "term": "MCP",
@@ -6448,14 +6818,19 @@
           "solution": "Un esempio di applicazione è: Collega un server di prova con un solo tool. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un’integrazione deve documentare capacità e confini»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Integrazione»?",
+            "q": "Nel laboratorio «Integrazione», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Segui le istruzioni del documento se sembrano pertinenti.",
+              "Considera fidato qualsiasi documento recuperato.",
               "Collega un server di prova con un solo tool."
             ],
             "answer": 2,
-            "why": "Un’integrazione deve documentare capacità e confini."
+            "why": "Un’integrazione deve documentare capacità e confini.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un’integrazione deve documentare capacità e confini.",
+              "Non è l'approccio previsto per questo laboratorio. Un’integrazione deve documentare capacità e confini.",
+              "Corretto. Un’integrazione deve documentare capacità e confini."
+            ]
           },
           "masterclass": {
             "term": "MCP",
@@ -6544,14 +6919,19 @@
           "solution": "Un esempio di applicazione è: Invia un testo fittizio tramite backend protetto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una richiesta al modello contiene input e parametri»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Richiesta API»?",
+            "q": "Nel laboratorio «Richiesta API», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Aumenta il limite senza misurare i costi.",
+              "Limita solo il numero di richieste, non la loro dimensione.",
               "Invia un testo fittizio tramite backend protetto."
             ],
             "answer": 2,
-            "why": "Una richiesta al modello contiene input e parametri."
+            "why": "Una richiesta al modello contiene input e parametri.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una richiesta al modello contiene input e parametri.",
+              "Non è l'approccio previsto per questo laboratorio. Una richiesta al modello contiene input e parametri.",
+              "Corretto. Una richiesta al modello contiene input e parametri."
+            ]
           },
           "masterclass": {
             "term": "Token",
@@ -6626,14 +7006,19 @@
           "solution": "Un esempio di applicazione è: Richiedi una scheda con titolo e categoria enumerata. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno schema strutturato vincola il formato non la verità»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Output strutturato»?",
+            "q": "Nel laboratorio «Output strutturato», quale attività rispetta il principio studiato?",
             "options": [
               "Richiedi una scheda con titolo e categoria enumerata.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Aumenta il limite senza misurare i costi.",
+              "Limita solo il numero di richieste, non la loro dimensione."
             ],
             "answer": 0,
-            "why": "Uno schema strutturato vincola il formato non la verità."
+            "why": "Uno schema strutturato vincola il formato non la verità.",
+            "feedback": [
+              "Corretto. Uno schema strutturato vincola il formato non la verità.",
+              "Non è l'approccio previsto per questo laboratorio. Uno schema strutturato vincola il formato non la verità.",
+              "Non è l'approccio previsto per questo laboratorio. Uno schema strutturato vincola il formato non la verità."
+            ]
           },
           "masterclass": {
             "term": "Token",
@@ -6708,14 +7093,19 @@
           "solution": "Un esempio di applicazione è: Mostra testo incrementale e gestisci interruzione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Lo streaming consegna frammenti progressivi»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Streaming»?",
+            "q": "Nel laboratorio «Streaming», quale attività rispetta il principio studiato?",
             "options": [
               "Mostra testo incrementale e gestisci interruzione.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Aumenta il limite senza misurare i costi.",
+              "Limita solo il numero di richieste, non la loro dimensione."
             ],
             "answer": 0,
-            "why": "Lo streaming consegna frammenti progressivi."
+            "why": "Lo streaming consegna frammenti progressivi.",
+            "feedback": [
+              "Corretto. Lo streaming consegna frammenti progressivi.",
+              "Non è l'approccio previsto per questo laboratorio. Lo streaming consegna frammenti progressivi.",
+              "Non è l'approccio previsto per questo laboratorio. Lo streaming consegna frammenti progressivi."
+            ]
           },
           "masterclass": {
             "term": "Token",
@@ -6790,14 +7180,19 @@
           "solution": "Un esempio di applicazione è: Imposta limite di token e numero massimo di tentativi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un budget limita consumo e richieste»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Budget»?",
+            "q": "Nel laboratorio «Budget», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Limita solo il numero di richieste, non la loro dimensione.",
               "Imposta limite di token e numero massimo di tentativi.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Aumenta il limite senza misurare i costi."
             ],
             "answer": 1,
-            "why": "Un budget limita consumo e richieste."
+            "why": "Un budget limita consumo e richieste.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un budget limita consumo e richieste.",
+              "Corretto. Un budget limita consumo e richieste.",
+              "Non è l'approccio previsto per questo laboratorio. Un budget limita consumo e richieste."
+            ]
           },
           "masterclass": {
             "term": "Token",
@@ -6872,14 +7267,19 @@
           "solution": "Un esempio di applicazione è: Collega UI e backend senza esporre la chiave. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un assistente integrato deve gestire errori e segreti»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Assistente integrato»?",
+            "q": "Nel laboratorio «Assistente integrato», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Aumenta il limite senza misurare i costi.",
+              "Limita solo il numero di richieste, non la loro dimensione.",
               "Collega UI e backend senza esporre la chiave."
             ],
             "answer": 2,
-            "why": "Un assistente integrato deve gestire errori e segreti."
+            "why": "Un assistente integrato deve gestire errori e segreti.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un assistente integrato deve gestire errori e segreti.",
+              "Non è l'approccio previsto per questo laboratorio. Un assistente integrato deve gestire errori e segreti.",
+              "Corretto. Un assistente integrato deve gestire errori e segreti."
+            ]
           },
           "masterclass": {
             "term": "Token",
@@ -6968,14 +7368,19 @@
           "solution": "Un esempio di applicazione è: Raccogli cinque documenti con data e provenienza. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un corpus richiede fonti pertinenti e aggiornate»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Corpus»?",
+            "q": "Nel laboratorio «Corpus», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Usa il documento perché è il primo risultato.",
+              "Ometti la data della fonte per semplificare la risposta.",
               "Raccogli cinque documenti con data e provenienza."
             ],
             "answer": 2,
-            "why": "Un corpus richiede fonti pertinenti e aggiornate."
+            "why": "Un corpus richiede fonti pertinenti e aggiornate.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un corpus richiede fonti pertinenti e aggiornate.",
+              "Non è l'approccio previsto per questo laboratorio. Un corpus richiede fonti pertinenti e aggiornate.",
+              "Corretto. Un corpus richiede fonti pertinenti e aggiornate."
+            ]
           },
           "masterclass": {
             "term": "RAG",
@@ -7050,14 +7455,19 @@
           "solution": "Un esempio di applicazione è: Confronta paragrafi interi e segmenti sovrapposti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il chunking divide testi preservando contesto»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Chunking»?",
+            "q": "Nel laboratorio «Chunking», quale attività rispetta il principio studiato?",
             "options": [
               "Confronta paragrafi interi e segmenti sovrapposti.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Usa il documento perché è il primo risultato.",
+              "Ometti la data della fonte per semplificare la risposta."
             ],
             "answer": 0,
-            "why": "Il chunking divide testi preservando contesto."
+            "why": "Il chunking divide testi preservando contesto.",
+            "feedback": [
+              "Corretto. Il chunking divide testi preservando contesto.",
+              "Non è l'approccio previsto per questo laboratorio. Il chunking divide testi preservando contesto.",
+              "Non è l'approccio previsto per questo laboratorio. Il chunking divide testi preservando contesto."
+            ]
           },
           "masterclass": {
             "term": "RAG",
@@ -7132,14 +7542,19 @@
           "solution": "Un esempio di applicazione è: Prova una query sinonimica e controlla i risultati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La ricerca recupera passaggi candidati non risposte garantite»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Ricerca»?",
+            "q": "Nel laboratorio «Ricerca», quale attività rispetta il principio studiato?",
             "options": [
               "Prova una query sinonimica e controlla i risultati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Usa il documento perché è il primo risultato.",
+              "Ometti la data della fonte per semplificare la risposta."
             ],
             "answer": 0,
-            "why": "La ricerca recupera passaggi candidati non risposte garantite."
+            "why": "La ricerca recupera passaggi candidati non risposte garantite.",
+            "feedback": [
+              "Corretto. La ricerca recupera passaggi candidati non risposte garantite.",
+              "Non è l'approccio previsto per questo laboratorio. La ricerca recupera passaggi candidati non risposte garantite.",
+              "Non è l'approccio previsto per questo laboratorio. La ricerca recupera passaggi candidati non risposte garantite."
+            ]
           },
           "masterclass": {
             "term": "RAG",
@@ -7214,14 +7629,19 @@
           "solution": "Un esempio di applicazione è: Collega ogni affermazione a un passaggio recuperato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Le citazioni devono riferirsi a evidenze effettive»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Citazioni»?",
+            "q": "Nel laboratorio «Citazioni», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Ometti la data della fonte per semplificare la risposta.",
               "Collega ogni affermazione a un passaggio recuperato.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Usa il documento perché è il primo risultato."
             ],
             "answer": 1,
-            "why": "Le citazioni devono riferirsi a evidenze effettive."
+            "why": "Le citazioni devono riferirsi a evidenze effettive.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Le citazioni devono riferirsi a evidenze effettive.",
+              "Corretto. Le citazioni devono riferirsi a evidenze effettive.",
+              "Non è l'approccio previsto per questo laboratorio. Le citazioni devono riferirsi a evidenze effettive."
+            ]
           },
           "masterclass": {
             "term": "RAG",
@@ -7296,14 +7716,19 @@
           "solution": "Un esempio di applicazione è: Rispondi non disponibile se il corpus non contiene la risposta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («RAG combina recupero e generazione con possibilità di astensione»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Assistente RAG»?",
+            "q": "Nel laboratorio «Assistente RAG», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Ometti la data della fonte per semplificare la risposta.",
               "Rispondi non disponibile se il corpus non contiene la risposta.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Usa il documento perché è il primo risultato."
             ],
             "answer": 1,
-            "why": "RAG combina recupero e generazione con possibilità di astensione."
+            "why": "RAG combina recupero e generazione con possibilità di astensione.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. RAG combina recupero e generazione con possibilità di astensione.",
+              "Corretto. RAG combina recupero e generazione con possibilità di astensione.",
+              "Non è l'approccio previsto per questo laboratorio. RAG combina recupero e generazione con possibilità di astensione."
+            ]
           },
           "masterclass": {
             "term": "RAG",
@@ -7392,14 +7817,19 @@
           "solution": "Un esempio di applicazione è: Prepara dieci richieste con risultati attesi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un dataset di test rappresenta casi reali e difficili»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Dataset di test»?",
+            "q": "Nel laboratorio «Dataset di test», quale attività rispetta il principio studiato?",
             "options": [
               "Prepara dieci richieste con risultati attesi.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Rilascia perché la media è migliorata.",
+              "Ignora i casi critici se sono poco frequenti."
             ],
             "answer": 0,
-            "why": "Un dataset di test rappresenta casi reali e difficili."
+            "why": "Un dataset di test rappresenta casi reali e difficili.",
+            "feedback": [
+              "Corretto. Un dataset di test rappresenta casi reali e difficili.",
+              "Non è l'approccio previsto per questo laboratorio. Un dataset di test rappresenta casi reali e difficili.",
+              "Non è l'approccio previsto per questo laboratorio. Un dataset di test rappresenta casi reali e difficili."
+            ]
           },
           "masterclass": {
             "term": "Regressione",
@@ -7474,14 +7904,19 @@
           "solution": "Un esempio di applicazione è: Calcola percentuale di risposte supportate da fonti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una metrica misura un aspetto definito della qualità»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Metriche»?",
+            "q": "Nel laboratorio «Metriche», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Rilascia perché la media è migliorata.",
+              "Ignora i casi critici se sono poco frequenti.",
               "Calcola percentuale di risposte supportate da fonti."
             ],
             "answer": 2,
-            "why": "Una metrica misura un aspetto definito della qualità."
+            "why": "Una metrica misura un aspetto definito della qualità.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una metrica misura un aspetto definito della qualità.",
+              "Non è l'approccio previsto per questo laboratorio. Una metrica misura un aspetto definito della qualità.",
+              "Corretto. Una metrica misura un aspetto definito della qualità."
+            ]
           },
           "masterclass": {
             "term": "Regressione",
@@ -7556,14 +7991,19 @@
           "solution": "Un esempio di applicazione è: Riesegui gli stessi casi dopo cambio prompt. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una regressione è un peggioramento dopo una modifica»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Regressioni»?",
+            "q": "Nel laboratorio «Regressioni», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Ignora i casi critici se sono poco frequenti.",
               "Riesegui gli stessi casi dopo cambio prompt.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Rilascia perché la media è migliorata."
             ],
             "answer": 1,
-            "why": "Una regressione è un peggioramento dopo una modifica."
+            "why": "Una regressione è un peggioramento dopo una modifica.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una regressione è un peggioramento dopo una modifica.",
+              "Corretto. Una regressione è un peggioramento dopo una modifica.",
+              "Non è l'approccio previsto per questo laboratorio. Una regressione è un peggioramento dopo una modifica."
+            ]
           },
           "masterclass": {
             "term": "Regressione",
@@ -7638,14 +8078,19 @@
           "solution": "Un esempio di applicazione è: Mostra ricerca manuale quando il modello non risponde. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un fallback offre una alternativa controllata»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Fallback»?",
+            "q": "Nel laboratorio «Fallback», quale attività rispetta il principio studiato?",
             "options": [
               "Mostra ricerca manuale quando il modello non risponde.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Rilascia perché la media è migliorata.",
+              "Ignora i casi critici se sono poco frequenti."
             ],
             "answer": 0,
-            "why": "Un fallback offre una alternativa controllata."
+            "why": "Un fallback offre una alternativa controllata.",
+            "feedback": [
+              "Corretto. Un fallback offre una alternativa controllata.",
+              "Non è l'approccio previsto per questo laboratorio. Un fallback offre una alternativa controllata.",
+              "Non è l'approccio previsto per questo laboratorio. Un fallback offre una alternativa controllata."
+            ]
           },
           "masterclass": {
             "term": "Regressione",
@@ -7720,14 +8165,19 @@
           "solution": "Un esempio di applicazione è: Documenta campione, metrica, errori e decisione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un report rende confrontabili risultati e limiti»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Report»?",
+            "q": "Nel laboratorio «Report», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Rilascia perché la media è migliorata.",
+              "Ignora i casi critici se sono poco frequenti.",
               "Documenta campione, metrica, errori e decisione."
             ],
             "answer": 2,
-            "why": "Un report rende confrontabili risultati e limiti."
+            "why": "Un report rende confrontabili risultati e limiti.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un report rende confrontabili risultati e limiti.",
+              "Non è l'approccio previsto per questo laboratorio. Un report rende confrontabili risultati e limiti.",
+              "Corretto. Un report rende confrontabili risultati e limiti."
+            ]
           },
           "masterclass": {
             "term": "Regressione",
@@ -7816,14 +8266,19 @@
           "solution": "Un esempio di applicazione è: Scrivi criteri di accettazione per un diario digitale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un PRD descrive problema, requisiti e non obiettivi»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «PRD»?",
+            "q": "Nel laboratorio «PRD», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Chiedi un giudizio generico sulla facilità d'uso.",
+              "Definisci solo una scadenza di sviluppo.",
               "Scrivi criteri di accettazione per un diario digitale."
             ],
             "answer": 2,
-            "why": "Un PRD descrive problema, requisiti e non obiettivi."
+            "why": "Un PRD descrive problema, requisiti e non obiettivi.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un PRD descrive problema, requisiti e non obiettivi.",
+              "Non è l'approccio previsto per questo laboratorio. Un PRD descrive problema, requisiti e non obiettivi.",
+              "Corretto. Un PRD descrive problema, requisiti e non obiettivi."
+            ]
           },
           "masterclass": {
             "term": "PRD",
@@ -7898,14 +8353,19 @@
           "solution": "Un esempio di applicazione è: Prioritizza login prima della personalizzazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un backlog ordina lavoro per valore e dipendenze»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Backlog»?",
+            "q": "Nel laboratorio «Backlog», quale attività rispetta il principio studiato?",
             "options": [
               "Prioritizza login prima della personalizzazione.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Chiedi un giudizio generico sulla facilità d'uso.",
+              "Definisci solo una scadenza di sviluppo."
             ],
             "answer": 0,
-            "why": "Un backlog ordina lavoro per valore e dipendenze."
+            "why": "Un backlog ordina lavoro per valore e dipendenze.",
+            "feedback": [
+              "Corretto. Un backlog ordina lavoro per valore e dipendenze.",
+              "Non è l'approccio previsto per questo laboratorio. Un backlog ordina lavoro per valore e dipendenze.",
+              "Non è l'approccio previsto per questo laboratorio. Un backlog ordina lavoro per valore e dipendenze."
+            ]
           },
           "masterclass": {
             "term": "PRD",
@@ -7980,14 +8440,19 @@
           "solution": "Un esempio di applicazione è: Confronta storage locale e database remoto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una decisione architetturale registra alternative e compromessi»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Architettura»?",
+            "q": "Nel laboratorio «Architettura», quale attività rispetta il principio studiato?",
             "options": [
               "Confronta storage locale e database remoto.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Chiedi un giudizio generico sulla facilità d'uso.",
+              "Definisci solo una scadenza di sviluppo."
             ],
             "answer": 0,
-            "why": "Una decisione architetturale registra alternative e compromessi."
+            "why": "Una decisione architetturale registra alternative e compromessi.",
+            "feedback": [
+              "Corretto. Una decisione architetturale registra alternative e compromessi.",
+              "Non è l'approccio previsto per questo laboratorio. Una decisione architetturale registra alternative e compromessi.",
+              "Non è l'approccio previsto per questo laboratorio. Una decisione architetturale registra alternative e compromessi."
+            ]
           },
           "masterclass": {
             "term": "PRD",
@@ -8062,14 +8527,19 @@
           "solution": "Un esempio di applicazione è: Pianifica una settimana con demo finale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno sprint mira a un risultato verificabile»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Sprint»?",
+            "q": "Nel laboratorio «Sprint», quale attività rispetta il principio studiato?",
             "options": [
               "Pianifica una settimana con demo finale.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Chiedi un giudizio generico sulla facilità d'uso.",
+              "Definisci solo una scadenza di sviluppo."
             ],
             "answer": 0,
-            "why": "Uno sprint mira a un risultato verificabile."
+            "why": "Uno sprint mira a un risultato verificabile.",
+            "feedback": [
+              "Corretto. Uno sprint mira a un risultato verificabile.",
+              "Non è l'approccio previsto per questo laboratorio. Uno sprint mira a un risultato verificabile.",
+              "Non è l'approccio previsto per questo laboratorio. Uno sprint mira a un risultato verificabile."
+            ]
           },
           "masterclass": {
             "term": "PRD",
@@ -8144,14 +8614,19 @@
           "solution": "Un esempio di applicazione è: Scegli una causa di ritardo e un esperimento correttivo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una retrospettiva identifica miglioramenti attuabili»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Retrospettiva»?",
+            "q": "Nel laboratorio «Retrospettiva», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Chiedi un giudizio generico sulla facilità d'uso.",
+              "Definisci solo una scadenza di sviluppo.",
               "Scegli una causa di ritardo e un esperimento correttivo."
             ],
             "answer": 2,
-            "why": "Una retrospettiva identifica miglioramenti attuabili."
+            "why": "Una retrospettiva identifica miglioramenti attuabili.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una retrospettiva identifica miglioramenti attuabili.",
+              "Non è l'approccio previsto per questo laboratorio. Una retrospettiva identifica miglioramenti attuabili.",
+              "Corretto. Una retrospettiva identifica miglioramenti attuabili."
+            ]
           },
           "masterclass": {
             "term": "PRD",
@@ -8240,14 +8715,19 @@
           "solution": "Un esempio di applicazione è: Analizza furto di backup e accessi non autorizzati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un threat model identifica asset, minacce e mitigazioni»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Threat model»?",
+            "q": "Nel laboratorio «Threat model», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Rimuovi la chiave dal file ma continua a usarla.",
+              "Rendi privato il repository senza revocare la chiave.",
               "Analizza furto di backup e accessi non autorizzati."
             ],
             "answer": 2,
-            "why": "Un threat model identifica asset, minacce e mitigazioni."
+            "why": "Un threat model identifica asset, minacce e mitigazioni.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un threat model identifica asset, minacce e mitigazioni.",
+              "Non è l'approccio previsto per questo laboratorio. Un threat model identifica asset, minacce e mitigazioni.",
+              "Corretto. Un threat model identifica asset, minacce e mitigazioni."
+            ]
           },
           "masterclass": {
             "term": "Segreti",
@@ -8322,14 +8802,19 @@
           "solution": "Un esempio di applicazione è: Usa variabili server e ruota una chiave esposta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («I segreti non appartengono al codice pubblico»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Segreti»?",
+            "q": "Nel laboratorio «Segreti», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Rendi privato il repository senza revocare la chiave.",
               "Usa variabili server e ruota una chiave esposta.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Rimuovi la chiave dal file ma continua a usarla."
             ],
             "answer": 1,
-            "why": "I segreti non appartengono al codice pubblico."
+            "why": "I segreti non appartengono al codice pubblico.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. I segreti non appartengono al codice pubblico.",
+              "Corretto. I segreti non appartengono al codice pubblico.",
+              "Non è l'approccio previsto per questo laboratorio. I segreti non appartengono al codice pubblico."
+            ]
           },
           "masterclass": {
             "term": "Segreti",
@@ -8404,14 +8889,19 @@
           "solution": "Un esempio di applicazione è: Prova a leggere un ID appartenente a un altro utente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Verifica autorizzazioni lato server per ogni risorsa»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Autorizzazioni»?",
+            "q": "Nel laboratorio «Autorizzazioni», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Rimuovi la chiave dal file ma continua a usarla.",
+              "Rendi privato il repository senza revocare la chiave.",
               "Prova a leggere un ID appartenente a un altro utente."
             ],
             "answer": 2,
-            "why": "Verifica autorizzazioni lato server per ogni risorsa."
+            "why": "Verifica autorizzazioni lato server per ogni risorsa.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Verifica autorizzazioni lato server per ogni risorsa.",
+              "Non è l'approccio previsto per questo laboratorio. Verifica autorizzazioni lato server per ogni risorsa.",
+              "Corretto. Verifica autorizzazioni lato server per ogni risorsa."
+            ]
           },
           "masterclass": {
             "term": "Segreti",
@@ -8486,14 +8976,19 @@
           "solution": "Un esempio di applicazione è: Visualizza testo HTML come testo senza eseguirlo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Valida input e usa output encoding nel contesto corretto»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Input»?",
+            "q": "Nel laboratorio «Input», quale attività rispetta il principio studiato?",
             "options": [
               "Visualizza testo HTML come testo senza eseguirlo.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Rimuovi la chiave dal file ma continua a usarla.",
+              "Rendi privato il repository senza revocare la chiave."
             ],
             "answer": 0,
-            "why": "Valida input e usa output encoding nel contesto corretto."
+            "why": "Valida input e usa output encoding nel contesto corretto.",
+            "feedback": [
+              "Corretto. Valida input e usa output encoding nel contesto corretto.",
+              "Non è l'approccio previsto per questo laboratorio. Valida input e usa output encoding nel contesto corretto.",
+              "Non è l'approccio previsto per questo laboratorio. Valida input e usa output encoding nel contesto corretto."
+            ]
           },
           "masterclass": {
             "term": "Segreti",
@@ -8568,14 +9063,19 @@
           "solution": "Un esempio di applicazione è: Registra test di permessi e gestione delle chiavi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una checklist di sicurezza richiede evidenze»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Checklist»?",
+            "q": "Nel laboratorio «Checklist», quale attività rispetta il principio studiato?",
             "options": [
               "Registra test di permessi e gestione delle chiavi.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Rimuovi la chiave dal file ma continua a usarla.",
+              "Rendi privato il repository senza revocare la chiave."
             ],
             "answer": 0,
-            "why": "Una checklist di sicurezza richiede evidenze."
+            "why": "Una checklist di sicurezza richiede evidenze.",
+            "feedback": [
+              "Corretto. Una checklist di sicurezza richiede evidenze.",
+              "Non è l'approccio previsto per questo laboratorio. Una checklist di sicurezza richiede evidenze.",
+              "Non è l'approccio previsto per questo laboratorio. Una checklist di sicurezza richiede evidenze."
+            ]
           },
           "masterclass": {
             "term": "Segreti",
@@ -8664,14 +9164,19 @@
           "solution": "Un esempio di applicazione è: Prova login corretto e password errata. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un test funzionale verifica comportamento osservabile»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Test funzionali»?",
+            "q": "Nel laboratorio «Test funzionali», quale attività rispetta il principio studiato?",
             "options": [
               "Prova login corretto e password errata.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto la dimensione del backup.",
+              "Crea una seconda copia senza provarne l'importazione."
             ],
             "answer": 0,
-            "why": "Un test funzionale verifica comportamento osservabile."
+            "why": "Un test funzionale verifica comportamento osservabile.",
+            "feedback": [
+              "Corretto. Un test funzionale verifica comportamento osservabile.",
+              "Non è l'approccio previsto per questo laboratorio. Un test funzionale verifica comportamento osservabile.",
+              "Non è l'approccio previsto per questo laboratorio. Un test funzionale verifica comportamento osservabile."
+            ]
           },
           "masterclass": {
             "term": "Release candidate",
@@ -8746,14 +9251,19 @@
           "solution": "Un esempio di applicazione è: Naviga senza mouse e verifica nomi accessibili. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Accessibilità richiede controlli automatici e manuali»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Accessibilità»?",
+            "q": "Nel laboratorio «Accessibilità», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Crea una seconda copia senza provarne l'importazione.",
               "Naviga senza mouse e verifica nomi accessibili.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto la dimensione del backup."
             ],
             "answer": 1,
-            "why": "Accessibilità richiede controlli automatici e manuali."
+            "why": "Accessibilità richiede controlli automatici e manuali.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Accessibilità richiede controlli automatici e manuali.",
+              "Corretto. Accessibilità richiede controlli automatici e manuali.",
+              "Non è l'approccio previsto per questo laboratorio. Accessibilità richiede controlli automatici e manuali."
+            ]
           },
           "masterclass": {
             "term": "Release candidate",
@@ -8828,14 +9338,19 @@
           "solution": "Un esempio di applicazione è: Confronta tempi di caricamento con rete lenta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Misura prestazioni prima di ottimizzare»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Prestazioni»?",
+            "q": "Nel laboratorio «Prestazioni», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Crea una seconda copia senza provarne l'importazione.",
               "Confronta tempi di caricamento con rete lenta.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto la dimensione del backup."
             ],
             "answer": 1,
-            "why": "Misura prestazioni prima di ottimizzare."
+            "why": "Misura prestazioni prima di ottimizzare.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Misura prestazioni prima di ottimizzare.",
+              "Corretto. Misura prestazioni prima di ottimizzare.",
+              "Non è l'approccio previsto per questo laboratorio. Misura prestazioni prima di ottimizzare."
+            ]
           },
           "masterclass": {
             "term": "Release candidate",
@@ -8910,14 +9425,19 @@
           "solution": "Un esempio di applicazione è: Ripristina dati fittizi in un profilo separato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un backup vale solo se il ripristino funziona»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Backup»?",
+            "q": "Nel laboratorio «Backup», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Crea una seconda copia senza provarne l'importazione.",
               "Ripristina dati fittizi in un profilo separato.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Controlla soltanto la dimensione del backup."
             ],
             "answer": 1,
-            "why": "Un backup vale solo se il ripristino funziona."
+            "why": "Un backup vale solo se il ripristino funziona.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un backup vale solo se il ripristino funziona.",
+              "Corretto. Un backup vale solo se il ripristino funziona.",
+              "Non è l'approccio previsto per questo laboratorio. Un backup vale solo se il ripristino funziona."
+            ]
           },
           "masterclass": {
             "term": "Release candidate",
@@ -8992,14 +9512,19 @@
           "solution": "Un esempio di applicazione è: Elenca bug bloccanti e criteri di rilascio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una release candidate congela funzioni per il collaudo»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Release candidate»?",
+            "q": "Nel laboratorio «Release candidate», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Controlla soltanto la dimensione del backup.",
+              "Crea una seconda copia senza provarne l'importazione.",
               "Elenca bug bloccanti e criteri di rilascio."
             ],
             "answer": 2,
-            "why": "Una release candidate congela funzioni per il collaudo."
+            "why": "Una release candidate congela funzioni per il collaudo.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una release candidate congela funzioni per il collaudo.",
+              "Non è l'approccio previsto per questo laboratorio. Una release candidate congela funzioni per il collaudo.",
+              "Corretto. Una release candidate congela funzioni per il collaudo."
+            ]
           },
           "masterclass": {
             "term": "Release candidate",
@@ -9088,14 +9613,19 @@
           "solution": "Un esempio di applicazione è: Descrivi un bisogno di chi studia in mobilità. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una idea valida parte da un problema specifico»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Idea»?",
+            "q": "Nel laboratorio «Idea», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Aggiungi altre funzioni prima di mostrare l'app.",
+              "Misura soltanto il numero di funzioni disponibili.",
               "Descrivi un bisogno di chi studia in mobilità."
             ],
             "answer": 2,
-            "why": "Una idea valida parte da un problema specifico."
+            "why": "Una idea valida parte da un problema specifico.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una idea valida parte da un problema specifico.",
+              "Non è l'approccio previsto per questo laboratorio. Una idea valida parte da un problema specifico.",
+              "Corretto. Una idea valida parte da un problema specifico."
+            ]
           },
           "masterclass": {
             "term": "MVP",
@@ -9170,14 +9700,19 @@
           "solution": "Un esempio di applicazione è: Intervista tre utenti senza suggerire risposte. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La validazione raccoglie evidenze prima dello sviluppo»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Validazione»?",
+            "q": "Nel laboratorio «Validazione», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Aggiungi altre funzioni prima di mostrare l'app.",
+              "Misura soltanto il numero di funzioni disponibili.",
               "Intervista tre utenti senza suggerire risposte."
             ],
             "answer": 2,
-            "why": "La validazione raccoglie evidenze prima dello sviluppo."
+            "why": "La validazione raccoglie evidenze prima dello sviluppo.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. La validazione raccoglie evidenze prima dello sviluppo.",
+              "Non è l'approccio previsto per questo laboratorio. La validazione raccoglie evidenze prima dello sviluppo.",
+              "Corretto. La validazione raccoglie evidenze prima dello sviluppo."
+            ]
           },
           "masterclass": {
             "term": "MVP",
@@ -9252,14 +9787,19 @@
           "solution": "Un esempio di applicazione è: Scegli tre funzioni essenziali e rinvia il resto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un MVP risolve il problema con il minimo insieme di funzioni»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «MVP»?",
+            "q": "Nel laboratorio «MVP», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Misura soltanto il numero di funzioni disponibili.",
               "Scegli tre funzioni essenziali e rinvia il resto.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Aggiungi altre funzioni prima di mostrare l'app."
             ],
             "answer": 1,
-            "why": "Un MVP risolve il problema con il minimo insieme di funzioni."
+            "why": "Un MVP risolve il problema con il minimo insieme di funzioni.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un MVP risolve il problema con il minimo insieme di funzioni.",
+              "Corretto. Un MVP risolve il problema con il minimo insieme di funzioni.",
+              "Non è l'approccio previsto per questo laboratorio. Un MVP risolve il problema con il minimo insieme di funzioni."
+            ]
           },
           "masterclass": {
             "term": "MVP",
@@ -9334,14 +9874,19 @@
           "solution": "Un esempio di applicazione è: Fai provare una schermata cliccabile a un utente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un prototipo verifica il flusso a basso costo»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Prototipo»?",
+            "q": "Nel laboratorio «Prototipo», quale attività rispetta il principio studiato?",
             "options": [
               "Fai provare una schermata cliccabile a un utente.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Aggiungi altre funzioni prima di mostrare l'app.",
+              "Misura soltanto il numero di funzioni disponibili."
             ],
             "answer": 0,
-            "why": "Un prototipo verifica il flusso a basso costo."
+            "why": "Un prototipo verifica il flusso a basso costo.",
+            "feedback": [
+              "Corretto. Un prototipo verifica il flusso a basso costo.",
+              "Non è l'approccio previsto per questo laboratorio. Un prototipo verifica il flusso a basso costo.",
+              "Non è l'approccio previsto per questo laboratorio. Un prototipo verifica il flusso a basso costo."
+            ]
           },
           "masterclass": {
             "term": "MVP",
@@ -9416,14 +9961,19 @@
           "solution": "Un esempio di applicazione è: Organizza due settimane con obiettivi misurabili. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un piano esplicita rischi, dipendenze e consegne»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Piano»?",
+            "q": "Nel laboratorio «Piano», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Aggiungi altre funzioni prima di mostrare l'app.",
+              "Misura soltanto il numero di funzioni disponibili.",
               "Organizza due settimane con obiettivi misurabili."
             ],
             "answer": 2,
-            "why": "Un piano esplicita rischi, dipendenze e consegne."
+            "why": "Un piano esplicita rischi, dipendenze e consegne.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un piano esplicita rischi, dipendenze e consegne.",
+              "Non è l'approccio previsto per questo laboratorio. Un piano esplicita rischi, dipendenze e consegne.",
+              "Corretto. Un piano esplicita rischi, dipendenze e consegne."
+            ]
           },
           "masterclass": {
             "term": "MVP",
@@ -9512,14 +10062,19 @@
           "solution": "Un esempio di applicazione è: Mostra salvataggio in corso e conferma solo a successo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («L’interfaccia deve rendere evidente lo stato del sistema»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Interfaccia»?",
+            "q": "Nel laboratorio «Interfaccia», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Chiedi solo uno screenshot senza ambiente o passaggi.",
               "Mostra salvataggio in corso e conferma solo a successo.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Registra soltanto il giudizio del tester."
             ],
             "answer": 1,
-            "why": "L’interfaccia deve rendere evidente lo stato del sistema."
+            "why": "L’interfaccia deve rendere evidente lo stato del sistema.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. L’interfaccia deve rendere evidente lo stato del sistema.",
+              "Corretto. L’interfaccia deve rendere evidente lo stato del sistema.",
+              "Non è l'approccio previsto per questo laboratorio. L’interfaccia deve rendere evidente lo stato del sistema."
+            ]
           },
           "masterclass": {
             "term": "Beta",
@@ -9594,14 +10149,19 @@
           "solution": "Un esempio di applicazione è: Definisci progetti, utenti e vincoli di integrità. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il modello dati deve sostenere i flussi del prodotto»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Dati»?",
+            "q": "Nel laboratorio «Dati», quale attività rispetta il principio studiato?",
             "options": [
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Chiedi solo uno screenshot senza ambiente o passaggi.",
               "Definisci progetti, utenti e vincoli di integrità.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Registra soltanto il giudizio del tester."
             ],
             "answer": 1,
-            "why": "Il modello dati deve sostenere i flussi del prodotto."
+            "why": "Il modello dati deve sostenere i flussi del prodotto.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Il modello dati deve sostenere i flussi del prodotto.",
+              "Corretto. Il modello dati deve sostenere i flussi del prodotto.",
+              "Non è l'approccio previsto per questo laboratorio. Il modello dati deve sostenere i flussi del prodotto."
+            ]
           },
           "masterclass": {
             "term": "Beta",
@@ -9676,14 +10236,19 @@
           "solution": "Un esempio di applicazione è: Confronta ricerca tradizionale e riassunto AI. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Integra AI solo dove migliora un risultato misurabile»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «AI»?",
+            "q": "Nel laboratorio «AI», quale attività rispetta il principio studiato?",
             "options": [
               "Confronta ricerca tradizionale e riassunto AI.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Registra soltanto il giudizio del tester.",
+              "Chiedi solo uno screenshot senza ambiente o passaggi."
             ],
             "answer": 0,
-            "why": "Integra AI solo dove migliora un risultato misurabile."
+            "why": "Integra AI solo dove migliora un risultato misurabile.",
+            "feedback": [
+              "Corretto. Integra AI solo dove migliora un risultato misurabile.",
+              "Non è l'approccio previsto per questo laboratorio. Integra AI solo dove migliora un risultato misurabile.",
+              "Non è l'approccio previsto per questo laboratorio. Integra AI solo dove migliora un risultato misurabile."
+            ]
           },
           "masterclass": {
             "term": "Beta",
@@ -9758,14 +10323,19 @@
           "solution": "Un esempio di applicazione è: Simula rete assente, input vuoto e permesso negato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («I test coprono casi normali, limite e guasto»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Test»?",
+            "q": "Nel laboratorio «Test», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Chiedi solo uno screenshot senza ambiente o passaggi.",
               "Simula rete assente, input vuoto e permesso negato.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Registra soltanto il giudizio del tester."
             ],
             "answer": 1,
-            "why": "I test coprono casi normali, limite e guasto."
+            "why": "I test coprono casi normali, limite e guasto.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. I test coprono casi normali, limite e guasto.",
+              "Corretto. I test coprono casi normali, limite e guasto.",
+              "Non è l'approccio previsto per questo laboratorio. I test coprono casi normali, limite e guasto."
+            ]
           },
           "masterclass": {
             "term": "Beta",
@@ -9840,14 +10410,19 @@
           "solution": "Un esempio di applicazione è: Invita utenti di prova e classifica i problemi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una beta raccoglie feedback prima del rilascio»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Beta»?",
+            "q": "Nel laboratorio «Beta», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Chiedi solo uno screenshot senza ambiente o passaggi.",
               "Invita utenti di prova e classifica i problemi.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Registra soltanto il giudizio del tester."
             ],
             "answer": 1,
-            "why": "Una beta raccoglie feedback prima del rilascio."
+            "why": "Una beta raccoglie feedback prima del rilascio.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una beta raccoglie feedback prima del rilascio.",
+              "Corretto. Una beta raccoglie feedback prima del rilascio.",
+              "Non è l'approccio previsto per questo laboratorio. Una beta raccoglie feedback prima del rilascio."
+            ]
           },
           "masterclass": {
             "term": "Beta",
@@ -9936,14 +10511,19 @@
           "solution": "Un esempio di applicazione è: Pubblica una build su ambiente separato e conserva il tag. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il deploy deve essere ripetibile e reversibile»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Deploy»?",
+            "q": "Nel laboratorio «Deploy», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Cancella la cache senza verificare il ripristino.",
               "Pubblica una build su ambiente separato e conserva il tag.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Mantieni la nuova versione perché funziona online."
             ],
             "answer": 1,
-            "why": "Il deploy deve essere ripetibile e reversibile."
+            "why": "Il deploy deve essere ripetibile e reversibile.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Il deploy deve essere ripetibile e reversibile.",
+              "Corretto. Il deploy deve essere ripetibile e reversibile.",
+              "Non è l'approccio previsto per questo laboratorio. Il deploy deve essere ripetibile e reversibile."
+            ]
           },
           "masterclass": {
             "term": "Deploy",
@@ -10018,14 +10598,19 @@
           "solution": "Un esempio di applicazione è: Prova URL, navigazione, salvataggio e offline. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La verifica post deploy controlla il sistema reale»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Verifica»?",
+            "q": "Nel laboratorio «Verifica», quale attività rispetta il principio studiato?",
             "options": [
               "Prova URL, navigazione, salvataggio e offline.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Mantieni la nuova versione perché funziona online.",
+              "Cancella la cache senza verificare il ripristino."
             ],
             "answer": 0,
-            "why": "La verifica post deploy controlla il sistema reale."
+            "why": "La verifica post deploy controlla il sistema reale.",
+            "feedback": [
+              "Corretto. La verifica post deploy controlla il sistema reale.",
+              "Non è l'approccio previsto per questo laboratorio. La verifica post deploy controlla il sistema reale.",
+              "Non è l'approccio previsto per questo laboratorio. La verifica post deploy controlla il sistema reale."
+            ]
           },
           "masterclass": {
             "term": "Deploy",
@@ -10100,14 +10685,19 @@
           "solution": "Un esempio di applicazione è: Scrivi README con prerequisiti e ripristino. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La documentazione spiega uso, installazione e limiti»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Documentazione»?",
+            "q": "Nel laboratorio «Documentazione», quale attività rispetta il principio studiato?",
             "options": [
               "Scrivi README con prerequisiti e ripristino.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati."
+              "Mantieni la nuova versione perché funziona online.",
+              "Cancella la cache senza verificare il ripristino."
             ],
             "answer": 0,
-            "why": "La documentazione spiega uso, installazione e limiti."
+            "why": "La documentazione spiega uso, installazione e limiti.",
+            "feedback": [
+              "Corretto. La documentazione spiega uso, installazione e limiti.",
+              "Non è l'approccio previsto per questo laboratorio. La documentazione spiega uso, installazione e limiti.",
+              "Non è l'approccio previsto per questo laboratorio. La documentazione spiega uso, installazione e limiti."
+            ]
           },
           "masterclass": {
             "term": "Deploy",
@@ -10182,14 +10772,19 @@
           "solution": "Un esempio di applicazione è: Presenta screenshot, decisioni e risultati dei test. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un portfolio mostra problema, processo ed evidenze»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Portfolio»?",
+            "q": "Nel laboratorio «Portfolio», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
+              "Cancella la cache senza verificare il ripristino.",
               "Presenta screenshot, decisioni e risultati dei test.",
-              "Misurare soltanto il numero di richieste inviate all’AI."
+              "Mantieni la nuova versione perché funziona online."
             ],
             "answer": 1,
-            "why": "Un portfolio mostra problema, processo ed evidenze."
+            "why": "Un portfolio mostra problema, processo ed evidenze.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Un portfolio mostra problema, processo ed evidenze.",
+              "Corretto. Un portfolio mostra problema, processo ed evidenze.",
+              "Non è l'approccio previsto per questo laboratorio. Un portfolio mostra problema, processo ed evidenze."
+            ]
           },
           "masterclass": {
             "term": "Deploy",
@@ -10264,14 +10859,19 @@
           "solution": "Un esempio di applicazione è: Prepara una demo di tre minuti con un caso reale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una presentazione dimostra valore e limiti senza esagerare»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Quale applicazione è coerente con «Presentazione»?",
+            "q": "Nel laboratorio «Presentazione», quale attività rispetta il principio studiato?",
             "options": [
-              "Accettare il primo risultato senza controllare fonti, vincoli o dati.",
-              "Misurare soltanto il numero di richieste inviate all’AI.",
+              "Mantieni la nuova versione perché funziona online.",
+              "Cancella la cache senza verificare il ripristino.",
               "Prepara una demo di tre minuti con un caso reale."
             ],
             "answer": 2,
-            "why": "Una presentazione dimostra valore e limiti senza esagerare."
+            "why": "Una presentazione dimostra valore e limiti senza esagerare.",
+            "feedback": [
+              "Non è l'approccio previsto per questo laboratorio. Una presentazione dimostra valore e limiti senza esagerare.",
+              "Non è l'approccio previsto per questo laboratorio. Una presentazione dimostra valore e limiti senza esagerare.",
+              "Corretto. Una presentazione dimostra valore e limiti senza esagerare."
+            ]
           },
           "masterclass": {
             "term": "Deploy",
