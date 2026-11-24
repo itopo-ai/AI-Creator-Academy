@@ -1,3 +1,7 @@
+# AI Creator Academy 6.6.0 — Excellence Learning (sviluppo)
+
+Dizionario IT e AI: 114 termini, ricerca, categorie e accesso da scelta corsi, dashboard e lezioni. Revisione didattica e collaudo ancora da completare.
+
 # AI Creator Academy 6.5.1 — Learning Introduction
 
 Aggiunta la sezione Prima di iniziare in tutte le 264 sessioni. Creator: 120 introduzioni specifiche; Business: 48 spiegazioni settimanali con orientamento per studio, approfondimento e pratica. ID e attività invariati. Collaudo Safari da effettuare.
