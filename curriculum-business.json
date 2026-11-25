@@ -8490,18 +8490,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Margine totale = ricavi meno costi. Come verificare?",
+              "q": "Ricavi 240000 e costi 180000: quale margine percentuale?",
               "options": [
-                "Controlla soltanto la sintassi DAX.",
-                "Confronta due visualizzazioni dello stesso modello.",
-                "Confronta totale e filtri per periodo con fonte indipendente."
+                "33,3%.",
+                "75%.",
+                "25%."
               ],
               "answer": 2,
-              "why": "Le misure dipendono dal contesto di filtro.",
+              "why": "Il margine è 60000, diviso per 240000.",
               "feedback": [
-                "Rivedi il caso: Le misure dipendono dal contesto di filtro. La soluzione attesa è: Confronta totale e filtri per periodo con fonte indipendente.",
-                "Rivedi il caso: Le misure dipendono dal contesto di filtro. La soluzione attesa è: Confronta totale e filtri per periodo con fonte indipendente.",
-                "Corretto. Le misure dipendono dal contesto di filtro."
+                "Non corretto. Il margine è 60000, diviso per 240000.",
+                "Non corretto. Il margine è 60000, diviso per 240000.",
+                "Corretto. Il margine è 60000, diviso per 240000."
               ]
             }
           ],
@@ -8571,18 +8571,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Margine totale = ricavi meno costi. Come verificare?",
+              "q": "Due periodi hanno ricavi 100 e 300 e margini 20 e 90. Quale margine percentuale complessivo?",
               "options": [
-                "Confronta totale e filtri per periodo con fonte indipendente.",
-                "Controlla soltanto la sintassi DAX.",
-                "Confronta due visualizzazioni dello stesso modello."
+                "27,5%.",
+                "25%.",
+                "50%."
               ],
               "answer": 0,
-              "why": "Le misure dipendono dal contesto di filtro.",
+              "why": "Il rapporto corretto è 110/400, non la media semplice delle percentuali.",
               "feedback": [
-                "Corretto. Le misure dipendono dal contesto di filtro.",
-                "Rivedi il caso: Le misure dipendono dal contesto di filtro. La soluzione attesa è: Confronta totale e filtri per periodo con fonte indipendente.",
-                "Rivedi il caso: Le misure dipendono dal contesto di filtro. La soluzione attesa è: Confronta totale e filtri per periodo con fonte indipendente."
+                "Corretto. Il rapporto corretto è 110/400, non la media semplice delle percentuali.",
+                "Non corretto. Il rapporto corretto è 110/400, non la media semplice delle percentuali.",
+                "Non corretto. Il rapporto corretto è 110/400, non la media semplice delle percentuali."
               ]
             }
           ],
@@ -8764,18 +8764,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ricavi 100000, costi 70000. Qual è la marginalità?",
+              "q": "Un segmento genera ricavi 80000 e costi 60000. Quale margine assoluto?",
               "options": [
-                "30%, secondo la definizione di costo adottata.",
-                "70%.",
-                "42,9%."
+                "20000 euro.",
+                "140000 euro.",
+                "60000 euro."
               ],
               "answer": 0,
-              "why": "Margine = ricavi − costi considerati; specifica quali costi.",
+              "why": "Ricavi meno costi.",
               "feedback": [
-                "Corretto. Margine = ricavi − costi considerati; specifica quali costi.",
-                "Rivedi il caso: Margine = ricavi − costi considerati; specifica quali costi. La soluzione attesa è: 30%, secondo la definizione di costo adottata.",
-                "Rivedi il caso: Margine = ricavi − costi considerati; specifica quali costi. La soluzione attesa è: 30%, secondo la definizione di costo adottata."
+                "Corretto. Ricavi meno costi.",
+                "Non corretto. Ricavi meno costi.",
+                "Non corretto. Ricavi meno costi."
               ]
             }
           ],
@@ -8845,18 +8845,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ricavi 100000, costi 70000. Qual è la marginalità?",
+              "q": "Due segmenti esclusivi totalizzano 95000 euro, il generale 100000. Cosa fai?",
               "options": [
-                "30%, secondo la definizione di costo adottata.",
-                "70%.",
-                "42,9%."
+                "Cerchi record non classificati o differenze di filtro.",
+                "Aumenti entrambi i segmenti del 5%.",
+                "Ignori la differenza."
               ],
               "answer": 0,
-              "why": "Margine = ricavi − costi considerati; specifica quali costi.",
+              "why": "La riconciliazione richiede una spiegazione dei 5000 euro.",
               "feedback": [
-                "Corretto. Margine = ricavi − costi considerati; specifica quali costi.",
-                "Rivedi il caso: Margine = ricavi − costi considerati; specifica quali costi. La soluzione attesa è: 30%, secondo la definizione di costo adottata.",
-                "Rivedi il caso: Margine = ricavi − costi considerati; specifica quali costi. La soluzione attesa è: 30%, secondo la definizione di costo adottata."
+                "Corretto. La riconciliazione richiede una spiegazione dei 5000 euro.",
+                "Non corretto. La riconciliazione richiede una spiegazione dei 5000 euro.",
+                "Non corretto. La riconciliazione richiede una spiegazione dei 5000 euro."
               ]
             }
           ],
@@ -9044,18 +9044,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Costi effettivi 12000, budget 10000. Quale scostamento?",
+              "q": "Ricavi effettivi 90000, budget 100000. Quale scostamento?",
               "options": [
-                "2000 euro sfavorevoli, a parità di perimetro.",
-                "2000 euro favorevoli.",
-                "20 euro sfavorevoli."
+                "10000 euro sfavorevoli.",
+                "10000 euro favorevoli.",
+                "90000 euro sfavorevoli."
               ],
               "answer": 0,
-              "why": "Scostamento = effettivo − budget; interpreta il segno secondo la voce.",
+              "why": "Effettivo meno budget = −10000.",
               "feedback": [
-                "Corretto. Scostamento = effettivo − budget; interpreta il segno secondo la voce.",
-                "Rivedi il caso: Scostamento = effettivo − budget; interpreta il segno secondo la voce. La soluzione attesa è: 2000 euro sfavorevoli, a parità di perimetro.",
-                "Rivedi il caso: Scostamento = effettivo − budget; interpreta il segno secondo la voce. La soluzione attesa è: 2000 euro sfavorevoli, a parità di perimetro."
+                "Corretto. Effettivo meno budget = −10000.",
+                "Non corretto. Effettivo meno budget = −10000.",
+                "Non corretto. Effettivo meno budget = −10000."
               ]
             }
           ],
@@ -9125,18 +9125,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Costi effettivi 12000, budget 10000. Quale scostamento?",
+              "q": "Ricavi sopra budget di 8000 e costi sopra budget di 3000. Quale variazione del margine?",
               "options": [
-                "2000 euro favorevoli.",
-                "2000 euro sfavorevoli, a parità di perimetro.",
-                "20 euro sfavorevoli."
+                "5000 euro sfavorevoli.",
+                "5000 euro favorevoli.",
+                "11000 euro favorevoli."
               ],
               "answer": 1,
-              "why": "Scostamento = effettivo − budget; interpreta il segno secondo la voce.",
+              "why": "8000 − 3000 = 5000, a parità di perimetro.",
               "feedback": [
-                "Rivedi il caso: Scostamento = effettivo − budget; interpreta il segno secondo la voce. La soluzione attesa è: 2000 euro sfavorevoli, a parità di perimetro.",
-                "Corretto. Scostamento = effettivo − budget; interpreta il segno secondo la voce.",
-                "Rivedi il caso: Scostamento = effettivo − budget; interpreta il segno secondo la voce. La soluzione attesa è: 2000 euro sfavorevoli, a parità di perimetro."
+                "Non corretto. 8000 − 3000 = 5000, a parità di perimetro.",
+                "Corretto. 8000 − 3000 = 5000, a parità di perimetro.",
+                "Non corretto. 8000 − 3000 = 5000, a parità di perimetro."
               ]
             }
           ],
@@ -9318,18 +9318,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un grafico mostra ricavi senza periodo. Cosa aggiungere?",
+              "q": "Saldo iniziale 10000, incassi 4000, pagamenti 7000. Quale saldo finale?",
               "options": [
-                "Aggiungi soltanto un colore diverso.",
-                "Periodo, unità, confronto e fonte.",
-                "Aggiungi il titolo senza fonte o periodo."
+                "3000 euro.",
+                "7000 euro.",
+                "17000 euro."
               ],
               "answer": 1,
-              "why": "Una visualizzazione deve facilitare una decisione.",
+              "why": "10000 + 4000 − 7000 = 7000.",
               "feedback": [
-                "Rivedi il caso: Una visualizzazione deve facilitare una decisione. La soluzione attesa è: Periodo, unità, confronto e fonte.",
-                "Corretto. Una visualizzazione deve facilitare una decisione.",
-                "Rivedi il caso: Una visualizzazione deve facilitare una decisione. La soluzione attesa è: Periodo, unità, confronto e fonte."
+                "Non corretto. 10000 + 4000 − 7000 = 7000.",
+                "Corretto. 10000 + 4000 − 7000 = 7000.",
+                "Non corretto. 10000 + 4000 − 7000 = 7000."
               ]
             }
           ],
@@ -9399,18 +9399,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un grafico mostra ricavi senza periodo. Cosa aggiungere?",
+              "q": "Un report mostra utile positivo e saldo di cassa negativo. Quale visualizzazione aiuta a spiegare il fenomeno?",
               "options": [
-                "Aggiungi soltanto un colore diverso.",
-                "Periodo, unità, confronto e fonte.",
-                "Aggiungi il titolo senza fonte o periodo."
+                "Solo percentuale di utile.",
+                "Movimenti di cassa e scadenze di incasso e pagamento.",
+                "Solo grafico dei ricavi."
               ],
               "answer": 1,
-              "why": "Una visualizzazione deve facilitare una decisione.",
+              "why": "Utile e liquidità misurano fenomeni differenti.",
               "feedback": [
-                "Rivedi il caso: Una visualizzazione deve facilitare una decisione. La soluzione attesa è: Periodo, unità, confronto e fonte.",
-                "Corretto. Una visualizzazione deve facilitare una decisione.",
-                "Rivedi il caso: Una visualizzazione deve facilitare una decisione. La soluzione attesa è: Periodo, unità, confronto e fonte."
+                "Non corretto. Utile e liquidità misurano fenomeni differenti.",
+                "Corretto. Utile e liquidità misurano fenomeni differenti.",
+                "Non corretto. Utile e liquidità misurano fenomeni differenti."
               ]
             }
           ],
@@ -9592,18 +9592,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un venditore vede dati salariali. Quale correzione?",
+              "q": "Un responsabile regionale deve vedere solo la propria regione. Quale controllo?",
               "options": [
-                "Nascondi il grafico senza modificare i permessi.",
-                "Mantieni accesso completo per comodità.",
-                "Rimuovi accessi non necessari e verifica ruoli."
+                "Filtro grafico modificabile dall'utente.",
+                "Nascondere il nome delle altre regioni.",
+                "Permessi a livello di dati e verifica con il ruolo effettivo."
               ],
               "answer": 2,
-              "why": "Condividi report secondo ruoli e necessità.",
+              "why": "Un filtro visivo non sostituisce l'autorizzazione.",
               "feedback": [
-                "Rivedi il caso: Condividi report secondo ruoli e necessità. La soluzione attesa è: Rimuovi accessi non necessari e verifica ruoli.",
-                "Rivedi il caso: Condividi report secondo ruoli e necessità. La soluzione attesa è: Rimuovi accessi non necessari e verifica ruoli.",
-                "Corretto. Condividi report secondo ruoli e necessità."
+                "Non corretto. Un filtro visivo non sostituisce l'autorizzazione.",
+                "Non corretto. Un filtro visivo non sostituisce l'autorizzazione.",
+                "Corretto. Un filtro visivo non sostituisce l'autorizzazione."
               ]
             }
           ],
@@ -9673,18 +9673,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un venditore vede dati salariali. Quale correzione?",
+              "q": "L'aggiornamento dati fallisce prima della riunione. Come gestisci il report?",
               "options": [
-                "Rimuovi accessi non necessari e verifica ruoli.",
-                "Nascondi il grafico senza modificare i permessi.",
-                "Mantieni accesso completo per comodità."
+                "Segnali la data dell'ultimo aggiornamento e verifichi la causa.",
+                "Presenti i dati come aggiornati.",
+                "Modifichi la data manualmente."
               ],
               "answer": 0,
-              "why": "Condividi report secondo ruoli e necessità.",
+              "why": "La freschezza dei dati deve essere trasparente.",
               "feedback": [
-                "Corretto. Condividi report secondo ruoli e necessità.",
-                "Rivedi il caso: Condividi report secondo ruoli e necessità. La soluzione attesa è: Rimuovi accessi non necessari e verifica ruoli.",
-                "Rivedi il caso: Condividi report secondo ruoli e necessità. La soluzione attesa è: Rimuovi accessi non necessari e verifica ruoli."
+                "Corretto. La freschezza dei dati deve essere trasparente.",
+                "Non corretto. La freschezza dei dati deve essere trasparente.",
+                "Non corretto. La freschezza dei dati deve essere trasparente."
               ]
             }
           ],
@@ -9866,18 +9866,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Utile positivo ma incassi ritardati. Quale rischio?",
+              "q": "Un report suggerisce una riduzione dei costi ma il campione è piccolo. Come presenti la conclusione?",
               "options": [
-                "Tensione di cassa; analizza scadenze e flussi.",
-                "Nessun rischio perché l'utile è positivo.",
-                "Aumenta le vendite senza analizzare gli incassi."
+                "Dichiari evidenza e incertezza e proponi una verifica.",
+                "Garantisci il risparmio futuro.",
+                "Elimini ogni riferimento al campione."
               ],
               "answer": 0,
-              "why": "Integra ricavi, costi, budget e liquidità.",
+              "why": "La raccomandazione deve rispettare i limiti dell'evidenza.",
               "feedback": [
-                "Corretto. Integra ricavi, costi, budget e liquidità.",
-                "Rivedi il caso: Integra ricavi, costi, budget e liquidità. La soluzione attesa è: Tensione di cassa; analizza scadenze e flussi.",
-                "Rivedi il caso: Integra ricavi, costi, budget e liquidità. La soluzione attesa è: Tensione di cassa; analizza scadenze e flussi."
+                "Corretto. La raccomandazione deve rispettare i limiti dell'evidenza.",
+                "Non corretto. La raccomandazione deve rispettare i limiti dell'evidenza.",
+                "Non corretto. La raccomandazione deve rispettare i limiti dell'evidenza."
               ]
             }
           ],
@@ -9947,18 +9947,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Utile positivo ma incassi ritardati. Quale rischio?",
+              "q": "Un KPI è sotto soglia per tre mesi. Quale raccomandazione è operativa?",
               "options": [
-                "Nessun rischio perché l'utile è positivo.",
-                "Tensione di cassa; analizza scadenze e flussi.",
-                "Aumenta le vendite senza analizzare gli incassi."
+                "Cambi il colore del grafico.",
+                "Indichi causa da verificare, responsabile, azione e data di controllo.",
+                "Scrivi soltanto migliorare il KPI."
               ],
               "answer": 1,
-              "why": "Integra ricavi, costi, budget e liquidità.",
+              "why": "Una raccomandazione deve essere verificabile e assegnata.",
               "feedback": [
-                "Rivedi il caso: Integra ricavi, costi, budget e liquidità. La soluzione attesa è: Tensione di cassa; analizza scadenze e flussi.",
-                "Corretto. Integra ricavi, costi, budget e liquidità.",
-                "Rivedi il caso: Integra ricavi, costi, budget e liquidità. La soluzione attesa è: Tensione di cassa; analizza scadenze e flussi."
+                "Non corretto. Una raccomandazione deve essere verificabile e assegnata.",
+                "Corretto. Una raccomandazione deve essere verificabile e assegnata.",
+                "Non corretto. Una raccomandazione deve essere verificabile e assegnata."
               ]
             }
           ],
@@ -10140,18 +10140,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Arriva una richiesta cliente. Quale dato serve?",
+              "q": "Un flusso parte ogni giorno alle 8 anche senza nuovi ordini. Che tipo di trigger è?",
               "options": [
-                "Solo il nome del cliente.",
-                "Solo l'ora di arrivo.",
-                "Identificativo, timestamp e contenuto validato."
+                "Attivato da ogni ordine.",
+                "Manuale obbligatorio.",
+                "Temporale, pianificato."
               ],
               "answer": 2,
-              "why": "Un trigger avvia un processo per evento o calendario.",
+              "why": "L'avvio dipende dall'orario.",
               "feedback": [
-                "Rivedi il caso: Un trigger avvia un processo per evento o calendario. La soluzione attesa è: Identificativo, timestamp e contenuto validato.",
-                "Rivedi il caso: Un trigger avvia un processo per evento o calendario. La soluzione attesa è: Identificativo, timestamp e contenuto validato.",
-                "Corretto. Un trigger avvia un processo per evento o calendario."
+                "Non corretto. L'avvio dipende dall'orario.",
+                "Non corretto. L'avvio dipende dall'orario.",
+                "Corretto. L'avvio dipende dall'orario."
               ]
             }
           ],
@@ -10221,18 +10221,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Arriva una richiesta cliente. Quale dato serve?",
+              "q": "Un ordine arriva con ID ma senza indirizzo obbligatorio. Quale sequenza testi?",
               "options": [
-                "Solo il nome del cliente.",
-                "Solo l'ora di arrivo.",
-                "Identificativo, timestamp e contenuto validato."
+                "Ricezione, conferma, validazione.",
+                "Conferma senza registrazione.",
+                "Ricezione, validazione, eccezione senza conferma."
               ],
               "answer": 2,
-              "why": "Un trigger avvia un processo per evento o calendario.",
+              "why": "La validazione precede le azioni che richiedono dati completi.",
               "feedback": [
-                "Rivedi il caso: Un trigger avvia un processo per evento o calendario. La soluzione attesa è: Identificativo, timestamp e contenuto validato.",
-                "Rivedi il caso: Un trigger avvia un processo per evento o calendario. La soluzione attesa è: Identificativo, timestamp e contenuto validato.",
-                "Corretto. Un trigger avvia un processo per evento o calendario."
+                "Non corretto. La validazione precede le azioni che richiedono dati completi.",
+                "Non corretto. La validazione precede le azioni che richiedono dati completi.",
+                "Corretto. La validazione precede le azioni che richiedono dati completi."
               ]
             }
           ],
@@ -10414,18 +10414,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un importo è in centesimi nel sistema A. Come evitare errore?",
+              "q": "Il sistema A invia 1299 centesimi. Quale valore in euro deve ricevere B?",
               "options": [
-                "Copia il valore numerico senza conversione.",
-                "Converti unità e testa valori noti.",
-                "Arrotonda senza verificare l'unità."
+                "1299 euro.",
+                "12,99 euro.",
+                "129,90 euro."
               ],
               "answer": 1,
-              "why": "Trasforma campi tra sistemi con regole esplicite.",
+              "why": "Dividi per 100.",
               "feedback": [
-                "Rivedi il caso: Trasforma campi tra sistemi con regole esplicite. La soluzione attesa è: Converti unità e testa valori noti.",
-                "Corretto. Trasforma campi tra sistemi con regole esplicite.",
-                "Rivedi il caso: Trasforma campi tra sistemi con regole esplicite. La soluzione attesa è: Converti unità e testa valori noti."
+                "Non corretto. Dividi per 100.",
+                "Corretto. Dividi per 100.",
+                "Non corretto. Dividi per 100."
               ]
             }
           ],
@@ -10495,18 +10495,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un importo è in centesimi nel sistema A. Come evitare errore?",
+              "q": "Una mappatura scambia codice cliente e codice ordine. Come la individui?",
               "options": [
-                "Copia il valore numerico senza conversione.",
-                "Arrotonda senza verificare l'unità.",
-                "Converti unità e testa valori noti."
+                "Usi lo stesso valore per entrambi i campi.",
+                "Controlli solo il numero di record.",
+                "Testi un record con valori distinti e controlli i campi di destinazione."
               ],
               "answer": 2,
-              "why": "Trasforma campi tra sistemi con regole esplicite.",
+              "why": "Valori distinti rendono osservabile lo scambio.",
               "feedback": [
-                "Rivedi il caso: Trasforma campi tra sistemi con regole esplicite. La soluzione attesa è: Converti unità e testa valori noti.",
-                "Rivedi il caso: Trasforma campi tra sistemi con regole esplicite. La soluzione attesa è: Converti unità e testa valori noti.",
-                "Corretto. Trasforma campi tra sistemi con regole esplicite."
+                "Non corretto. Valori distinti rendono osservabile lo scambio.",
+                "Non corretto. Valori distinti rendono osservabile lo scambio.",
+                "Corretto. Valori distinti rendono osservabile lo scambio."
               ]
             }
           ],
@@ -10688,18 +10688,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ordini sopra soglia richiedono approvazione. Come testare?",
+              "q": "La regola è approvazione per importi maggiori o uguali a 1000. Quale esito per 1000?",
               "options": [
-                "Valori sotto, sopra e uguali alla soglia.",
-                "Prova soltanto valori sopra soglia.",
-                "Prova due valori lontani dalla soglia."
+                "Richiede approvazione.",
+                "Non richiede approvazione.",
+                "Dipende dal colore dello stato."
               ],
               "answer": 0,
-              "why": "Un filtro decide quali record proseguono.",
+              "why": "La condizione include l'uguaglianza.",
               "feedback": [
-                "Corretto. Un filtro decide quali record proseguono.",
-                "Rivedi il caso: Un filtro decide quali record proseguono. La soluzione attesa è: Valori sotto, sopra e uguali alla soglia.",
-                "Rivedi il caso: Un filtro decide quali record proseguono. La soluzione attesa è: Valori sotto, sopra e uguali alla soglia."
+                "Corretto. La condizione include l'uguaglianza.",
+                "Non corretto. La condizione include l'uguaglianza.",
+                "Non corretto. La condizione include l'uguaglianza."
               ]
             }
           ],
@@ -10769,18 +10769,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ordini sopra soglia richiedono approvazione. Come testare?",
+              "q": "Una fattura ha stato pagamento mancante. Quale esito prudente?",
               "options": [
-                "Prova soltanto valori sopra soglia.",
-                "Prova due valori lontani dalla soglia.",
-                "Valori sotto, sopra e uguali alla soglia."
+                "Sollecito automatico.",
+                "Registrazione come pagata.",
+                "Revisione prima di inviare un sollecito."
               ],
               "answer": 2,
-              "why": "Un filtro decide quali record proseguono.",
+              "why": "L'assenza del dato non dimostra che la fattura sia insoluta.",
               "feedback": [
-                "Rivedi il caso: Un filtro decide quali record proseguono. La soluzione attesa è: Valori sotto, sopra e uguali alla soglia.",
-                "Rivedi il caso: Un filtro decide quali record proseguono. La soluzione attesa è: Valori sotto, sopra e uguali alla soglia.",
-                "Corretto. Un filtro decide quali record proseguono."
+                "Non corretto. L'assenza del dato non dimostra che la fattura sia insoluta.",
+                "Non corretto. L'assenza del dato non dimostra che la fattura sia insoluta.",
+                "Corretto. L'assenza del dato non dimostra che la fattura sia insoluta."
               ]
             }
           ],
@@ -10962,18 +10962,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un servizio risponde 503. Quale strategia?",
+              "q": "Un servizio restituisce 503 e poi risponde correttamente. Quale gestione è appropriata?",
               "options": [
-                "Attesa crescente e numero massimo di tentativi.",
-                "Ripeti immediatamente senza limite.",
-                "Non riprovare mai, anche se l'errore è temporaneo."
+                "Retry limitato con attesa crescente.",
+                "Retry infinito senza attesa.",
+                "Cancellazione immediata di ogni richiesta."
               ],
               "answer": 0,
-              "why": "Ripeti solo errori transitori con limiti.",
+              "why": "Il 503 può essere temporaneo; limita i tentativi.",
               "feedback": [
-                "Corretto. Ripeti solo errori transitori con limiti.",
-                "Rivedi il caso: Ripeti solo errori transitori con limiti. La soluzione attesa è: Attesa crescente e numero massimo di tentativi.",
-                "Rivedi il caso: Ripeti solo errori transitori con limiti. La soluzione attesa è: Attesa crescente e numero massimo di tentativi."
+                "Corretto. Il 503 può essere temporaneo; limita i tentativi.",
+                "Non corretto. Il 503 può essere temporaneo; limita i tentativi.",
+                "Non corretto. Il 503 può essere temporaneo; limita i tentativi."
               ]
             }
           ],
@@ -11043,18 +11043,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un servizio risponde 503. Quale strategia?",
+              "q": "Dopo il massimo numero di tentativi il servizio non risponde. Cosa fai?",
               "options": [
-                "Ripeti immediatamente senza limite.",
-                "Non riprovare mai, anche se l'errore è temporaneo.",
-                "Attesa crescente e numero massimo di tentativi."
+                "Riparti da zero all'infinito.",
+                "Registri successo.",
+                "Registri l'errore e attivi il percorso di eccezione."
               ],
               "answer": 2,
-              "why": "Ripeti solo errori transitori con limiti.",
+              "why": "Il limite deve condurre a un esito controllato.",
               "feedback": [
-                "Rivedi il caso: Ripeti solo errori transitori con limiti. La soluzione attesa è: Attesa crescente e numero massimo di tentativi.",
-                "Rivedi il caso: Ripeti solo errori transitori con limiti. La soluzione attesa è: Attesa crescente e numero massimo di tentativi.",
-                "Corretto. Ripeti solo errori transitori con limiti."
+                "Non corretto. Il limite deve condurre a un esito controllato.",
+                "Non corretto. Il limite deve condurre a un esito controllato.",
+                "Corretto. Il limite deve condurre a un esito controllato."
               ]
             }
           ],
@@ -11236,18 +11236,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una fattura viene elaborata due volte. Quale controllo?",
+              "q": "Un pagamento va a buon fine ma la risposta si perde. Quale rischio nel retry?",
               "options": [
-                "Genera un nuovo ID per ogni elaborazione.",
-                "Registro ID e verifica prima di registrare.",
-                "Controlla i duplicati solo dopo il pagamento."
+                "Nessun rischio.",
+                "Duplicare il pagamento se manca idempotenza.",
+                "Annullare certamente il primo pagamento."
               ],
               "answer": 1,
-              "why": "Usa chiavi univoche per evitare effetti ripetuti.",
+              "why": "Un timeout non prova che l'operazione sia fallita.",
               "feedback": [
-                "Rivedi il caso: Usa chiavi univoche per evitare effetti ripetuti. La soluzione attesa è: Registro ID e verifica prima di registrare.",
-                "Corretto. Usa chiavi univoche per evitare effetti ripetuti.",
-                "Rivedi il caso: Usa chiavi univoche per evitare effetti ripetuti. La soluzione attesa è: Registro ID e verifica prima di registrare."
+                "Non corretto. Un timeout non prova che l'operazione sia fallita.",
+                "Corretto. Un timeout non prova che l'operazione sia fallita.",
+                "Non corretto. Un timeout non prova che l'operazione sia fallita."
               ]
             }
           ],
@@ -11317,18 +11317,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una fattura viene elaborata due volte. Quale controllo?",
+              "q": "Due eventi con lo stesso ID arrivano contemporaneamente. Quale protezione è più robusta?",
               "options": [
-                "Genera un nuovo ID per ogni elaborazione.",
-                "Registro ID e verifica prima di registrare.",
-                "Controlla i duplicati solo dopo il pagamento."
+                "Nuovo ID per ogni evento.",
+                "Vincolo univoco o registrazione atomica dell'ID.",
+                "Controllo manuale a fine mese."
               ],
               "answer": 1,
-              "why": "Usa chiavi univoche per evitare effetti ripetuti.",
+              "why": "Il controllo atomico riduce il rischio di elaborazioni concorrenti duplicate.",
               "feedback": [
-                "Rivedi il caso: Usa chiavi univoche per evitare effetti ripetuti. La soluzione attesa è: Registro ID e verifica prima di registrare.",
-                "Corretto. Usa chiavi univoche per evitare effetti ripetuti.",
-                "Rivedi il caso: Usa chiavi univoche per evitare effetti ripetuti. La soluzione attesa è: Registro ID e verifica prima di registrare."
+                "Non corretto. Il controllo atomico riduce il rischio di elaborazioni concorrenti duplicate.",
+                "Corretto. Il controllo atomico riduce il rischio di elaborazioni concorrenti duplicate.",
+                "Non corretto. Il controllo atomico riduce il rischio di elaborazioni concorrenti duplicate."
               ]
             }
           ],
@@ -11510,18 +11510,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un agente legge ordini e propone risposte. Quale limite?",
+              "q": "Un agente deve leggere ordini ma non modificarli. Quale accesso assegni?",
               "options": [
-                "Invia automaticamente ogni proposta.",
-                "Consenti modifiche se il modello è sicuro della risposta.",
-                "Nessun invio o modifica senza autorizzazione prevista."
+                "Accesso amministratore.",
+                "Permessi di modifica su tutti gli ordini.",
+                "Permessi di sola lettura sulle fonti necessarie."
               ],
               "answer": 2,
-              "why": "Limita strumenti e dati disponibili all’agente.",
+              "why": "Il minimo privilegio limita le azioni non richieste.",
               "feedback": [
-                "Rivedi il caso: Limita strumenti e dati disponibili all’agente. La soluzione attesa è: Nessun invio o modifica senza autorizzazione prevista.",
-                "Rivedi il caso: Limita strumenti e dati disponibili all’agente. La soluzione attesa è: Nessun invio o modifica senza autorizzazione prevista.",
-                "Corretto. Limita strumenti e dati disponibili all’agente."
+                "Non corretto. Il minimo privilegio limita le azioni non richieste.",
+                "Non corretto. Il minimo privilegio limita le azioni non richieste.",
+                "Corretto. Il minimo privilegio limita le azioni non richieste."
               ]
             }
           ],
@@ -11591,18 +11591,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un agente legge ordini e propone risposte. Quale limite?",
+              "q": "Su 50 richieste etichettate, 42 sono classificate correttamente. Quale accuratezza?",
               "options": [
-                "Nessun invio o modifica senza autorizzazione prevista.",
-                "Invia automaticamente ogni proposta.",
-                "Consenti modifiche se il modello è sicuro della risposta."
+                "84%.",
+                "42%.",
+                "16%."
               ],
               "answer": 0,
-              "why": "Limita strumenti e dati disponibili all’agente.",
+              "why": "42/50 = 84%.",
               "feedback": [
-                "Corretto. Limita strumenti e dati disponibili all’agente.",
-                "Rivedi il caso: Limita strumenti e dati disponibili all’agente. La soluzione attesa è: Nessun invio o modifica senza autorizzazione prevista.",
-                "Rivedi il caso: Limita strumenti e dati disponibili all’agente. La soluzione attesa è: Nessun invio o modifica senza autorizzazione prevista."
+                "Corretto. 42/50 = 84%.",
+                "Non corretto. 42/50 = 84%.",
+                "Non corretto. 42/50 = 84%."
               ]
             }
           ],
@@ -11784,18 +11784,18 @@
           },
           "advancedCheck": [
             {
-              "q": "L’agente non trova un dato. Cosa fare?",
+              "q": "Una richiesta è ambigua e l'agente non può verificarla. Quale risposta?",
               "options": [
-                "Escalation a un operatore, non inventare il dato.",
-                "Stima il dato mancante senza segnalarlo.",
-                "Interrompi senza informare nessuno."
+                "Chiede chiarimento o inoltra a un operatore.",
+                "Inventa una risposta plausibile.",
+                "Chiude la richiesta come risolta."
               ],
               "answer": 0,
-              "why": "Registra decisioni e mantieni possibilità di intervento.",
+              "why": "L'incertezza deve essere gestita esplicitamente.",
               "feedback": [
-                "Corretto. Registra decisioni e mantieni possibilità di intervento.",
-                "Rivedi il caso: Registra decisioni e mantieni possibilità di intervento. La soluzione attesa è: Escalation a un operatore, non inventare il dato.",
-                "Rivedi il caso: Registra decisioni e mantieni possibilità di intervento. La soluzione attesa è: Escalation a un operatore, non inventare il dato."
+                "Corretto. L'incertezza deve essere gestita esplicitamente.",
+                "Non corretto. L'incertezza deve essere gestita esplicitamente.",
+                "Non corretto. L'incertezza deve essere gestita esplicitamente."
               ]
             }
           ],
@@ -11865,18 +11865,18 @@
           },
           "advancedCheck": [
             {
-              "q": "L’agente non trova un dato. Cosa fare?",
+              "q": "Su 12 casi che richiedono escalation, 9 raggiungono il responsabile. Quale copertura?",
               "options": [
-                "Stima il dato mancante senza segnalarlo.",
-                "Interrompi senza informare nessuno.",
-                "Escalation a un operatore, non inventare il dato."
+                "90%.",
+                "25%.",
+                "75%."
               ],
               "answer": 2,
-              "why": "Registra decisioni e mantieni possibilità di intervento.",
+              "why": "9/12 = 75%; tre casi non sono stati inoltrati.",
               "feedback": [
-                "Rivedi il caso: Registra decisioni e mantieni possibilità di intervento. La soluzione attesa è: Escalation a un operatore, non inventare il dato.",
-                "Rivedi il caso: Registra decisioni e mantieni possibilità di intervento. La soluzione attesa è: Escalation a un operatore, non inventare il dato.",
-                "Corretto. Registra decisioni e mantieni possibilità di intervento."
+                "Non corretto. 9/12 = 75%; tre casi non sono stati inoltrati.",
+                "Non corretto. 9/12 = 75%; tre casi non sono stati inoltrati.",
+                "Corretto. 9/12 = 75%; tre casi non sono stati inoltrati."
               ]
             }
           ],
@@ -12058,18 +12058,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un workflow entra in ciclo. Quale barriera?",
+              "q": "Un agente esegue 100 richieste a 0,04 euro ciascuna. Quale costo diretto?",
               "options": [
-                "Aumenta il numero di iterazioni senza limite.",
-                "Controlla il ciclo solo a fine giornata.",
-                "Limite iterazioni, allarme e arresto."
+                "40 euro.",
+                "0,4 euro.",
+                "4 euro."
               ],
               "answer": 2,
-              "why": "Monitora costi, errori e tempi di esecuzione.",
+              "why": "100 × 0,04 = 4.",
               "feedback": [
-                "Rivedi il caso: Monitora costi, errori e tempi di esecuzione. La soluzione attesa è: Limite iterazioni, allarme e arresto.",
-                "Rivedi il caso: Monitora costi, errori e tempi di esecuzione. La soluzione attesa è: Limite iterazioni, allarme e arresto.",
-                "Corretto. Monitora costi, errori e tempi di esecuzione."
+                "Non corretto. 100 × 0,04 = 4.",
+                "Non corretto. 100 × 0,04 = 4.",
+                "Corretto. 100 × 0,04 = 4."
               ]
             }
           ],
@@ -12139,18 +12139,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un workflow entra in ciclo. Quale barriera?",
+              "q": "Un workflow supera il limite di iterazioni senza risultato. Quale esito?",
               "options": [
-                "Aumenta il numero di iterazioni senza limite.",
-                "Limite iterazioni, allarme e arresto.",
-                "Controlla il ciclo solo a fine giornata."
+                "Successo automatico.",
+                "Arresto controllato, log e intervento umano.",
+                "Aumento illimitato delle iterazioni."
               ],
               "answer": 1,
-              "why": "Monitora costi, errori e tempi di esecuzione.",
+              "why": "Il limite protegge risorse e continuità operativa.",
               "feedback": [
-                "Rivedi il caso: Monitora costi, errori e tempi di esecuzione. La soluzione attesa è: Limite iterazioni, allarme e arresto.",
-                "Corretto. Monitora costi, errori e tempi di esecuzione.",
-                "Rivedi il caso: Monitora costi, errori e tempi di esecuzione. La soluzione attesa è: Limite iterazioni, allarme e arresto."
+                "Non corretto. Il limite protegge risorse e continuità operativa.",
+                "Corretto. Il limite protegge risorse e continuità operativa.",
+                "Non corretto. Il limite protegge risorse e continuità operativa."
               ]
             }
           ],
@@ -12332,18 +12332,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Serve un modulo interno con approvazione. Quale valutazione?",
+              "q": "Soluzione A costa 1000 iniziali e 200 al mese; B costa 2000 iniziali e 50 al mese. Quale costa meno in 12 mesi?",
               "options": [
-                "Dati, utenti, permessi, costi e manutenzione.",
-                "Scegli soltanto in base all'aspetto del modulo.",
-                "Scegli in base al prezzo iniziale senza manutenzione."
+                "B, 2600 euro.",
+                "A, 3400 euro.",
+                "A, 1200 euro."
               ],
               "answer": 0,
-              "why": "Scegli componenti in funzione del processo e delle licenze.",
+              "why": "A costa 3400, B 2600, considerando solo i costi indicati.",
               "feedback": [
-                "Corretto. Scegli componenti in funzione del processo e delle licenze.",
-                "Rivedi il caso: Scegli componenti in funzione del processo e delle licenze. La soluzione attesa è: Dati, utenti, permessi, costi e manutenzione.",
-                "Rivedi il caso: Scegli componenti in funzione del processo e delle licenze. La soluzione attesa è: Dati, utenti, permessi, costi e manutenzione."
+                "Corretto. A costa 3400, B 2600, considerando solo i costi indicati.",
+                "Non corretto. A costa 3400, B 2600, considerando solo i costi indicati.",
+                "Non corretto. A costa 3400, B 2600, considerando solo i costi indicati."
               ]
             }
           ],
@@ -12413,18 +12413,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Serve un modulo interno con approvazione. Quale valutazione?",
+              "q": "Un modulo richiede raccolta dati e approvazione. Quale architettura valuti?",
               "options": [
-                "Scegli soltanto in base all'aspetto del modulo.",
-                "Scegli in base al prezzo iniziale senza manutenzione.",
-                "Dati, utenti, permessi, costi e manutenzione."
+                "Solo dashboard di analisi.",
+                "Solo foglio pubblico senza controlli.",
+                "App per raccolta e flusso per approvazione, con permessi definiti."
               ],
               "answer": 2,
-              "why": "Scegli componenti in funzione del processo e delle licenze.",
+              "why": "I componenti devono rispondere alle attività del processo.",
               "feedback": [
-                "Rivedi il caso: Scegli componenti in funzione del processo e delle licenze. La soluzione attesa è: Dati, utenti, permessi, costi e manutenzione.",
-                "Rivedi il caso: Scegli componenti in funzione del processo e delle licenze. La soluzione attesa è: Dati, utenti, permessi, costi e manutenzione.",
-                "Corretto. Scegli componenti in funzione del processo e delle licenze."
+                "Non corretto. I componenti devono rispondere alle attività del processo.",
+                "Non corretto. I componenti devono rispondere alle attività del processo.",
+                "Corretto. I componenti devono rispondere alle attività del processo."
               ]
             }
           ],
@@ -12606,18 +12606,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un dipendente invia una richiesta ferie. Quale controllo?",
+              "q": "Il richiedente tenta di approvare la propria spesa. Quale controllo?",
               "options": [
-                "Ogni dipendente può approvare la propria richiesta.",
-                "Chiunque abbia il link può approvare.",
-                "Solo il responsabile autorizzato può approvare."
+                "Consentire se conosce il link.",
+                "Consentire se l'importo è alto.",
+                "Bloccare l'autoapprovazione secondo la separazione dei ruoli."
               ],
               "answer": 2,
-              "why": "Progetta ruoli e flussi prima della schermata.",
+              "why": "La separazione dei ruoli riduce conflitti.",
               "feedback": [
-                "Rivedi il caso: Progetta ruoli e flussi prima della schermata. La soluzione attesa è: Solo il responsabile autorizzato può approvare.",
-                "Rivedi il caso: Progetta ruoli e flussi prima della schermata. La soluzione attesa è: Solo il responsabile autorizzato può approvare.",
-                "Corretto. Progetta ruoli e flussi prima della schermata."
+                "Non corretto. La separazione dei ruoli riduce conflitti.",
+                "Non corretto. La separazione dei ruoli riduce conflitti.",
+                "Corretto. La separazione dei ruoli riduce conflitti."
               ]
             }
           ],
@@ -12687,18 +12687,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un dipendente invia una richiesta ferie. Quale controllo?",
+              "q": "Una spesa viene rifiutata. Quale esito deve registrare il flusso?",
               "options": [
-                "Ogni dipendente può approvare la propria richiesta.",
-                "Solo il responsabile autorizzato può approvare.",
-                "Chiunque abbia il link può approvare."
+                "Cancellazione della richiesta senza traccia.",
+                "Stato rifiutato, motivazione e notifica al richiedente.",
+                "Stato approvato per chiudere il flusso."
               ],
               "answer": 1,
-              "why": "Progetta ruoli e flussi prima della schermata.",
+              "why": "Anche il rifiuto richiede tracciabilità.",
               "feedback": [
-                "Rivedi il caso: Progetta ruoli e flussi prima della schermata. La soluzione attesa è: Solo il responsabile autorizzato può approvare.",
-                "Corretto. Progetta ruoli e flussi prima della schermata.",
-                "Rivedi il caso: Progetta ruoli e flussi prima della schermata. La soluzione attesa è: Solo il responsabile autorizzato può approvare."
+                "Non corretto. Anche il rifiuto richiede tracciabilità.",
+                "Corretto. Anche il rifiuto richiede tracciabilità.",
+                "Non corretto. Anche il rifiuto richiede tracciabilità."
               ]
             }
           ],
@@ -12880,18 +12880,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un assistente consulta documenti HR. Quale rischio?",
+              "q": "Un assistente recupera un documento HR per un utente non autorizzato. Quale azione?",
               "options": [
-                "Esposizione dati personali; limita fonti e ruoli.",
-                "Nessun rischio se i documenti sono interni.",
-                "Limita solo la lunghezza delle risposte."
+                "Blocchi l'esposizione e verifichi i permessi della fonte.",
+                "Nascondi solo il titolo.",
+                "Mantieni l'accesso perché il documento è interno."
               ],
               "answer": 0,
-              "why": "Definisci fonti consentite, accessi e supervisione.",
+              "why": "L'autorizzazione deve proteggere il contenuto.",
               "feedback": [
-                "Corretto. Definisci fonti consentite, accessi e supervisione.",
-                "Rivedi il caso: Definisci fonti consentite, accessi e supervisione. La soluzione attesa è: Esposizione dati personali; limita fonti e ruoli.",
-                "Rivedi il caso: Definisci fonti consentite, accessi e supervisione. La soluzione attesa è: Esposizione dati personali; limita fonti e ruoli."
+                "Corretto. L'autorizzazione deve proteggere il contenuto.",
+                "Non corretto. L'autorizzazione deve proteggere il contenuto.",
+                "Non corretto. L'autorizzazione deve proteggere il contenuto."
               ]
             }
           ],
@@ -12961,18 +12961,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un assistente consulta documenti HR. Quale rischio?",
+              "q": "Come verifichi che un assistente rispetti i ruoli?",
               "options": [
-                "Nessun rischio se i documenti sono interni.",
-                "Limita solo la lunghezza delle risposte.",
-                "Esposizione dati personali; limita fonti e ruoli."
+                "Provi soltanto con l'amministratore.",
+                "Verifichi solo la velocità di risposta.",
+                "Provi la stessa richiesta con utenti autorizzati e non autorizzati."
               ],
               "answer": 2,
-              "why": "Definisci fonti consentite, accessi e supervisione.",
+              "why": "Il test deve includere sia accessi consentiti sia negati.",
               "feedback": [
-                "Rivedi il caso: Definisci fonti consentite, accessi e supervisione. La soluzione attesa è: Esposizione dati personali; limita fonti e ruoli.",
-                "Rivedi il caso: Definisci fonti consentite, accessi e supervisione. La soluzione attesa è: Esposizione dati personali; limita fonti e ruoli.",
-                "Corretto. Definisci fonti consentite, accessi e supervisione."
+                "Non corretto. Il test deve includere sia accessi consentiti sia negati.",
+                "Non corretto. Il test deve includere sia accessi consentiti sia negati.",
+                "Corretto. Il test deve includere sia accessi consentiti sia negati."
               ]
             }
           ],
@@ -13154,18 +13154,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Tre progetti devono partire nel trimestre. Come pianificare?",
+              "q": "Un progetto ha valore elevato ma manca un requisito essenziale. Quale scelta?",
               "options": [
-                "Avvia tutti i progetti insieme senza priorità.",
-                "Ordina solo per costo iniziale.",
-                "Ordina per valore e fattibilità, fissa milestone e revisione."
+                "Avvii subito ignorando la dipendenza.",
+                "Elimini ogni milestone.",
+                "Pianifichi la risoluzione del requisito prima dell'avvio operativo."
               ],
               "answer": 2,
-              "why": "Definisci iniziative, responsabili, risorse e metriche.",
+              "why": "La fattibilità condiziona la priorità.",
               "feedback": [
-                "Rivedi il caso: Definisci iniziative, responsabili, risorse e metriche. La soluzione attesa è: Ordina per valore e fattibilità, fissa milestone e revisione.",
-                "Rivedi il caso: Definisci iniziative, responsabili, risorse e metriche. La soluzione attesa è: Ordina per valore e fattibilità, fissa milestone e revisione.",
-                "Corretto. Definisci iniziative, responsabili, risorse e metriche."
+                "Non corretto. La fattibilità condiziona la priorità.",
+                "Non corretto. La fattibilità condiziona la priorità.",
+                "Corretto. La fattibilità condiziona la priorità."
               ]
             }
           ],
@@ -13235,18 +13235,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Tre progetti devono partire nel trimestre. Come pianificare?",
+              "q": "Al primo mese il KPI è sotto target. Come aggiorni il piano trimestrale?",
               "options": [
-                "Avvia tutti i progetti insieme senza priorità.",
-                "Ordina per valore e fattibilità, fissa milestone e revisione.",
-                "Ordina solo per costo iniziale."
+                "Aspetti la fine del trimestre senza interventi.",
+                "Analizzi lo scostamento, assegni correzioni e fissi una nuova verifica.",
+                "Modifichi il target senza motivazione."
               ],
               "answer": 1,
-              "why": "Definisci iniziative, responsabili, risorse e metriche.",
+              "why": "La revisione periodica consente correzioni documentate.",
               "feedback": [
-                "Rivedi il caso: Definisci iniziative, responsabili, risorse e metriche. La soluzione attesa è: Ordina per valore e fattibilità, fissa milestone e revisione.",
-                "Corretto. Definisci iniziative, responsabili, risorse e metriche.",
-                "Rivedi il caso: Definisci iniziative, responsabili, risorse e metriche. La soluzione attesa è: Ordina per valore e fattibilità, fissa milestone e revisione."
+                "Non corretto. La revisione periodica consente correzioni documentate.",
+                "Corretto. La revisione periodica consente correzioni documentate.",
+                "Non corretto. La revisione periodica consente correzioni documentate."
               ]
             }
           ],
