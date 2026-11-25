@@ -33,13 +33,13 @@ Linguaggio accessibile da zero, progressione graduale, domande concrete e contes
 | Quiz base Creator settimane 1–6 | 30 modificati | Confronto JSON sviluppo/RC1 |
 | Quiz base Creator settimane 7–12 | 30 modificati | Confronto JSON sviluppo/RC1 |
 | Quiz base Creator settimane 13–18 | 30/30 revisionati e riletti | Commit e69116fd4dbccad12928c6f05ad5253d6121e0fb |
-| Quiz base Creator settimane 19–24 | 0/30 modificati rispetto a RC1 | Successivo |
+| Quiz base Creator settimane 19–24 | 30/30 revisionati e riletti | Commit a84938c6230543edf7002b170c1ebe5bb8406a56 |
 | Quiz base Business | Avanzamento non verificato | Audit necessario |
 | Revisione qualitativa delle lezioni | Da completare | Screenshot |
 | Feedback individuali per risposte errate | Da completare | Screenshot; non assumere completati |
 | Risorse esterne | Incompleta | Ultimo dato storico 6/30 indirizzi, da riconfermare |
 
-Avanzamento quiz Creator base verificato: 90/120 (75%). Stima complessiva della revisione: 354/528 (67,0%), sommando 264 avanzati documentati e 90 base verificati; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
+Avanzamento quiz Creator base verificato: 120/120 (100%). Stima complessiva della revisione: 384/528 (72,7%), sommando 264 avanzati documentati e 120 base verificati; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
 
 ## Collaudo e criteri di rilascio
 Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS, dizionario e ricerca, calcolo avanzamento, validazione strutturale backup, compatibilità strutturale 6.5.1, allineamento versione/cache, correzioni preventive UI. Non equivalgono a test end-to-end.
@@ -54,7 +54,7 @@ Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS
 - [ ] Approvazione utente prima del rilascio.
 
 ## Prossimo intervento
-Creator settimane 19–24: revisionare i restanti 30 quiz base, preservando indici e altri campi. Obiettivo 120/120 base Creator. Poi audit e revisione Business, feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
+Audit dei quiz base Business (144 sessioni) rispetto a RC1, determinare punto di partenza e revisionare il primo blocco da completare. Poi feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
 
 ## Registro cronologico
 - 25/11/2026: recuperata continuità della chat precedente tramite screenshot e confronto GitHub. Branch sviluppo risultava 27 commit avanti a main e divergente da RC1 (10 avanti, 1 indietro). Main osservato: cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 osservata: e4ee85918cadccd38499772827e663fef0c34fd5. Verificate modifiche knowledgeCheck per tutte le 60 sessioni Creator settimane 1–12, nessuna per 13–24 rispetto a RC1. Nessuna modifica applicativa in questa fase.
@@ -70,3 +70,6 @@ L'utente richiede un avviso con tre messaggi di anticipo rispetto al limite dell
 
 ### Aggiornamento 25/11/2026 — Creator settimane 13–18
 Commit applicativo: e69116fd4dbccad12928c6f05ad5253d6121e0fb. Revisionati 30 knowledgeCheck (5 per settimana): Automazioni, Agenti AI, Integrazioni MCP, API dei modelli, RAG e documenti, Valutazione e affidabilità. Feedback distinti per ogni alternativa nel nuovo blocco. Controlli eseguiti: 30 sessioni modificate, ID e indici corretti invariati per tutte le 120 sessioni, altri campi delle sessioni invariati, 90 testi di domanda distinti nelle prime 90, tre opzioni e tre feedback distinti per ciascuna delle 30 nuove domande. JSON riletto da GitHub e confrontato integralmente con il risultato atteso. Non eseguiti test browser, regressione funzionale o audit didattico indipendente. Nessun intervento su main, RC1, migrazione o pubblicazione. Prossimo blocco: settimane 19–24.
+
+### Aggiornamento 25/11/2026 — Creator settimane 19–24
+Commit curriculum: a84938c6230543edf7002b170c1ebe5bb8406a56. Revisionati 30 knowledgeCheck: Gestione professionale, Sicurezza e privacy, Qualità e rilascio, Progetto finale (definizione, sviluppo, pubblicazione). Verificati 120 testi di domanda base distinti, 30 sole sessioni modificate, indici delle risposte e altri campi delle 120 sessioni invariati, tre opzioni e tre feedback distinti per ogni nuovo quiz. JSON riletto e confrontato integralmente. Revisione base Creator 120/120; audit qualitativo indipendente, feedback precedenti e regressione funzionale ancora da completare. Nessuna modifica a main, RC1 o migrazione; nessuna pubblicazione. Prossimo passo: audit Business base.
