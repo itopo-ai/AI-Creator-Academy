@@ -7,10 +7,10 @@ Produzione: main 6.5.1; RC1: release-candidate-6.6-rc1, da preservare; sviluppo:
 | Percorso | Sessioni | Quiz base revisionati | Quiz avanzati revisionati |
 |---|---:|---:|---:|
 | Creator & Developer | 120 | 120/120 | 120/120 |
-| Business & Management | 144 | 144/144 | 18/144 |
-| Totale | 264 | 264/264 | 138/264 |
+| Business & Management | 144 | 144/144 | 36/144 |
+| Totale | 264 | 264/264 | 156/264 |
 
-Ultimo commit applicativo: `05bde071eec47effa5c41df286314593d8b94bbf`. Verifica statica: 72 settimane, 264 ID univoci, 528 testi di domanda distinti, 1584 feedback presenti; 402/528 quiz con tre feedback distinti (76,14%). Restano 126 quiz avanzati Business e 378 feedback da revisionare. Il prossimo blocco è Business avanzato settimane 7–12 (18 quiz, 54 feedback). L'indicatore non certifica la qualità pedagogica indipendente né il completamento dell'intero progetto.
+Ultimo commit applicativo: `68e427bc3b1dda934749418304928fb4a25e191f`. Verifica statica: 72 settimane, 264 ID univoci, 528 testi di domanda distinti, 1584 feedback presenti; 420/528 quiz con tre feedback distinti (79,55%). Restano 108 quiz avanzati Business e 324 feedback da revisionare. Il prossimo blocco è Business avanzato settimane 13–18 (18 quiz, 54 feedback). L'indicatore non certifica la qualità pedagogica indipendente né il completamento dell'intero progetto.
 
 Introduzioni delle 264 sessioni e dizionario di 114 termini risultano implementati secondo la documentazione storica. Restano audit qualitativo delle lezioni, verifica integrale delle risorse e accessibilità dei corsi, collaudi browser/Safari/iPhone, PWA, offline/cache, backup cifrato e ripristino, migrazione e aggiornamento effettivi, sicurezza e approvazione utente. I controlli statici e simulati storici non equivalgono a collaudi end-to-end. Nessun merge, ZIP o pubblicazione senza approvazione; preservare main, RC1, ID, attività, indici, progressi e migrazione.
 
