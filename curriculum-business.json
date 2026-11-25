@@ -153,18 +153,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quale misura rappresenta la produttività effettiva?",
+            "q": "Un ufficio usa l’AI per preparare risposte ai clienti. Quale misura permette di confrontare la produttività prima e dopo?",
             "options": [
-              "Solo tempo di generazione.",
-              "Numero di risposte generate.",
-              "Tempo totale per ottenere un risultato verificato."
+              "Tempo impiegato dal modello per generare una bozza.",
+              "Numero di bozze generate durante la giornata.",
+              "Tempo totale per ottenere risposte verificate di qualità comparabile."
             ],
             "answer": 2,
-            "why": "La revisione fa parte del lavoro.",
+            "why": "La produttività va misurata sul lavoro finito, inclusa la revisione.",
             "feedback": [
-              "La generazione non include la revisione.",
-              "Il volume non misura il tempo o la qualità.",
-              "Corretto. La revisione fa parte del lavoro."
+              "La velocità della bozza esclude il lavoro umano successivo.",
+              "Il volume delle bozze non misura il lavoro completato.",
+              "Corretto. La produttività va misurata sul lavoro finito, inclusa la revisione."
             ]
           },
           "masterclass": {
@@ -247,18 +247,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Se il lavoro passa da 120 a 80 minuti, quale risparmio percentuale ottieni?",
+            "q": "Un processo richiedeva 120 minuti; con AI e revisione ne richiede 80. Qual è la riduzione percentuale del tempo?",
             "options": [
               "50%.",
               "66,7% circa.",
               "33,3% circa."
             ],
             "answer": 2,
-            "why": "40 diviso 120 equivale a circa 33,3%.",
+            "why": "Il risparmio è 40 minuti su 120, ossia circa il 33,3%.",
             "feedback": [
-              "40 diviso 80 usa il denominatore sbagliato.",
-              "80 diviso 120 misura il tempo residuo.",
-              "Corretto. 40 diviso 120 equivale a circa 33,3%."
+              "Dividere 40 per 80 usa come base il tempo finale.",
+              "80 su 120 rappresenta la quota di tempo residua.",
+              "Corretto. Il risparmio è 40 minuti su 120, ossia circa il 33,3%."
             ]
           },
           "masterclass": {
@@ -328,18 +328,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali dati registri in un pilota di produttività?",
+            "q": "Devi valutare un pilota AI su 20 richieste simulate. Quali dati raccogli?",
             "options": [
-              "Tempo iniziale, tempo con AI, revisione e qualità.",
-              "Solo il tempo con AI.",
-              "Solo il numero di richieste completate."
+              "Tempi iniziali, tempi con AI, revisione e qualità finale.",
+              "Tempi con AI e numero di richieste, senza misure iniziali.",
+              "Tempi iniziali e numero di bozze, senza verifica finale."
             ],
             "answer": 0,
-            "why": "Servono confronto e controllo della qualità.",
+            "why": "Il confronto richiede una baseline e un controllo della qualità.",
             "feedback": [
-              "Corretto. Servono confronto e controllo della qualità.",
-              "Senza baseline manca il confronto.",
-              "Il conteggio non misura risparmio o qualità."
+              "Corretto. Il confronto richiede una baseline e un controllo della qualità.",
+              "Senza baseline non puoi misurare il miglioramento.",
+              "Le bozze non dimostrano la qualità del risultato finale."
             ]
           },
           "masterclass": {
@@ -427,18 +427,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa contiene un brief efficace per un report?",
+            "q": "Il direttore commerciale chiede un report mensile generato con ChatGPT. Quale brief è più utile?",
             "options": [
-              "Solo il titolo.",
-              "Solo la lunghezza.",
-              "Destinatario, scopo, fonti e formato."
+              "Periodo e formato, lasciando al modello la scelta delle fonti.",
+              "Destinatario e lunghezza, senza specificare lo scopo.",
+              "Destinatario, obiettivo, periodo, fonti e formato del report."
             ],
             "answer": 2,
-            "why": "Un prompt aziendale è un brief con destinatario, scopo, fonti e formato.",
+            "why": "Un brief completo orienta contenuto, evidenze e presentazione.",
             "feedback": [
-              "Rivedi il principio: Un prompt aziendale è un brief con destinatario, scopo, fonti e formato.",
-              "Rivedi il principio: Un prompt aziendale è un brief con destinatario, scopo, fonti e formato.",
-              "Corretto. Un prompt aziendale è un brief con destinatario, scopo, fonti e formato."
+              "Fonti non definite rendono difficile verificare i numeri.",
+              "Senza scopo il report può non rispondere alla decisione richiesta.",
+              "Corretto. Un brief completo orienta contenuto, evidenze e presentazione."
             ]
           },
           "masterclass": {
@@ -521,18 +521,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come gestisci un dato mancante?",
+            "q": "Nel report vendite manca il dato di una filiale. Come chiedi al modello di gestirlo?",
             "options": [
-              "Lo presenti come verificato.",
-              "Lo segnali come mancante e distingui le ipotesi.",
-              "Lo inventi per completare il report."
+              "Stimare il dato e inserirlo nel totale senza indicarlo.",
+              "Segnalare il dato mancante e separare eventuali ipotesi dai fatti.",
+              "Usare il dato del mese precedente come dato corrente."
             ],
             "answer": 1,
-            "why": "Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti.",
+            "why": "La trasparenza distingue evidenze e ipotesi.",
             "feedback": [
-              "Rivedi il principio: Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti.",
-              "Corretto. Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti.",
-              "Rivedi il principio: Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti."
+              "Una stima non dichiarata altera l’affidabilità del totale.",
+              "Corretto. La trasparenza distingue evidenze e ipotesi.",
+              "Un dato storico non equivale a una rilevazione corrente."
             ]
           },
           "masterclass": {
@@ -602,18 +602,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come controlli un report generato?",
+            "q": "ChatGPT produce un report a partire da una tabella di vendite. Come verifichi i numeri?",
             "options": [
-              "Riconcili ogni numero con la tabella originale.",
-              "Controlli solo la grafica.",
-              "Accetti i numeri se sembrano plausibili."
+              "Riconcilia ogni importo e totale con la tabella originale.",
+              "Controlla soltanto che i totali sembrino plausibili.",
+              "Confronta soltanto il formato con il report precedente."
             ],
             "answer": 0,
-            "why": "Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale.",
+            "why": "La riconciliazione collega ogni cifra alla fonte.",
             "feedback": [
-              "Corretto. Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale.",
-              "Rivedi il principio: Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale.",
-              "Rivedi il principio: Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale."
+              "Corretto. La riconciliazione collega ogni cifra alla fonte.",
+              "La plausibilità non esclude errori aritmetici o dati inventati.",
+              "Il formato non dimostra l’esattezza dei numeri."
             ]
           },
           "masterclass": {
@@ -701,18 +701,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa definisce una procedura standard?",
+            "q": "Un reparto vuole standardizzare le richieste di acquisto. Cosa deve descrivere la procedura?",
             "options": [
-              "Attività, responsabilità e controlli.",
-              "Solo il nome dello strumento.",
-              "Solo il risultato finale."
+              "Attività, responsabilità e controlli di ogni passaggio.",
+              "Soltanto i moduli e gli strumenti utilizzati.",
+              "Soltanto l’importo finale degli acquisti."
             ],
             "answer": 0,
-            "why": "Una procedura standard descrive attività, responsabilità e controlli.",
+            "why": "Una procedura chiarisce cosa fare, chi lo fa e come controllarlo.",
             "feedback": [
-              "Corretto. Una procedura standard descrive attività, responsabilità e controlli.",
-              "Rivedi il principio: Una procedura standard descrive attività, responsabilità e controlli.",
-              "Rivedi il principio: Una procedura standard descrive attività, responsabilità e controlli."
+              "Corretto. Una procedura chiarisce cosa fare, chi lo fa e come controllarlo.",
+              "Gli strumenti non definiscono responsabilità e controlli.",
+              "L’importo non descrive il processo che porta all’acquisto."
             ]
           },
           "masterclass": {
@@ -795,18 +795,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve una soglia di approvazione?",
+            "q": "Un assistente AI prepara richieste di acquisto di importo variabile. Perché definire una soglia di approvazione?",
             "options": [
-              "A eliminare ogni controllo.",
-              "A velocizzare qualsiasi acquisto senza limiti.",
-              "A richiedere controllo umano per decisioni ad alto impatto."
+              "Per assegnare automaticamente ogni richiesta allo stesso fornitore.",
+              "Per sostituire i controlli sulle richieste con un limite di spesa.",
+              "Per richiedere autorizzazione umana sulle decisioni ad alto impatto."
             ],
             "answer": 2,
-            "why": "Una soglia di approvazione limita decisioni automatiche ad alto impatto.",
+            "why": "La soglia stabilisce quando serve un controllo umano aggiuntivo.",
             "feedback": [
-              "Rivedi il principio: Una soglia di approvazione limita decisioni automatiche ad alto impatto.",
-              "Rivedi il principio: Una soglia di approvazione limita decisioni automatiche ad alto impatto.",
-              "Corretto. Una soglia di approvazione limita decisioni automatiche ad alto impatto."
+              "La scelta del fornitore è una decisione distinta.",
+              "Una soglia non sostituisce gli altri controlli del processo.",
+              "Corretto. La soglia stabilisce quando serve un controllo umano aggiuntivo."
             ]
           },
           "masterclass": {
@@ -876,18 +876,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come documenti una richiesta di acquisto?",
+            "q": "Quale registrazione permette di ricostruire una decisione su una richiesta di acquisto?",
             "options": [
-              "Elimini il registro dopo l'approvazione.",
-              "Registri richiedente, approvatore ed esito.",
-              "Registri solo il prezzo."
+              "Importo e nome del fornitore, senza approvatore.",
+              "Richiedente, approvatore ed esito della richiesta.",
+              "Data della richiesta e categoria del prodotto, senza esito."
             ],
             "answer": 1,
-            "why": "Disegna una procedura con richiedente, approvatore, esito e registro.",
+            "why": "Il registro rende tracciabili responsabilità e decisione.",
             "feedback": [
-              "Rivedi il principio: Disegna una procedura con richiedente, approvatore, esito e registro.",
-              "Corretto. Disegna una procedura con richiedente, approvatore, esito e registro.",
-              "Rivedi il principio: Disegna una procedura con richiedente, approvatore, esito e registro."
+              "Importo e fornitore non identificano chi ha autorizzato.",
+              "Corretto. Il registro rende tracciabili responsabilità e decisione.",
+              "Data e categoria non indicano se la richiesta è stata approvata."
             ]
           },
           "masterclass": {
@@ -975,18 +975,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Che cosa collega un workflow?",
+            "q": "Un ordine ricevuto deve essere controllato, eventualmente approvato e registrato. Cosa rappresenta il workflow?",
             "options": [
-              "Solo file archiviati.",
-              "Eventi, attività, decisioni e risultati.",
-              "Solo schermate grafiche."
+              "L’elenco dei documenti da conservare dopo l’ordine.",
+              "Il collegamento tra evento iniziale, attività, decisioni ed esito.",
+              "La sola schermata usata per inserire l’ordine."
             ],
             "answer": 1,
-            "why": "Un workflow collega eventi, attività, decisioni e risultati.",
+            "why": "Il workflow descrive il percorso operativo dall’evento al risultato.",
             "feedback": [
-              "Rivedi il principio: Un workflow collega eventi, attività, decisioni e risultati.",
-              "Corretto. Un workflow collega eventi, attività, decisioni e risultati.",
-              "Rivedi il principio: Un workflow collega eventi, attività, decisioni e risultati."
+              "L’archivio non descrive le decisioni del processo.",
+              "Corretto. Il workflow descrive il percorso operativo dall’evento al risultato.",
+              "La schermata rappresenta solo una parte del flusso."
             ]
           },
           "masterclass": {
@@ -1069,18 +1069,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come progetti le eccezioni?",
+            "q": "Un ordine arriva senza un campo obbligatorio. Come dovrebbe reagire il workflow?",
             "options": [
-              "Tratti ogni errore come successo.",
-              "Ignori gli input incompleti.",
-              "Prevedi un percorso separato con gestione esplicita."
+              "Applicare il percorso ordinario usando un valore predefinito non verificato.",
+              "Registrarlo come completato in attesa di una correzione.",
+              "Instradarlo verso una gestione esplicita dell’eccezione."
             ],
             "answer": 2,
-            "why": "Le eccezioni richiedono un percorso diverso da quello ordinario.",
+            "why": "Le eccezioni devono avere un percorso controllato.",
             "feedback": [
-              "Rivedi il principio: Le eccezioni richiedono un percorso diverso da quello ordinario.",
-              "Rivedi il principio: Le eccezioni richiedono un percorso diverso da quello ordinario.",
-              "Corretto. Le eccezioni richiedono un percorso diverso da quello ordinario."
+              "Un valore non verificato può produrre una decisione errata.",
+              "Completato non rappresenta lo stato reale dell’ordine.",
+              "Corretto. Le eccezioni devono avere un percorso controllato."
             ]
           },
           "masterclass": {
@@ -1150,18 +1150,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali ordini usi per testare il flusso?",
+            "q": "Un ordine sopra 5.000 euro richiede approvazione. Quale campione verifica meglio il flusso?",
             "options": [
-              "Sotto soglia, sopra soglia e incompleti.",
-              "Solo ordini validi sotto soglia.",
-              "Tre copie dello stesso ordine valido."
+              "Ordini sotto soglia, sopra soglia e con dati incompleti.",
+              "Tre ordini completi sotto soglia.",
+              "Tre ordini sopra soglia con gli stessi dati."
             ],
             "answer": 0,
-            "why": "Simula ordini sotto e sopra soglia e un ordine incompleto.",
+            "why": "Il campione esercita percorsi ordinari, approvazione ed eccezioni.",
             "feedback": [
-              "Corretto. Simula ordini sotto e sopra soglia e un ordine incompleto.",
-              "Rivedi il principio: Simula ordini sotto e sopra soglia e un ordine incompleto.",
-              "Rivedi il principio: Simula ordini sotto e sopra soglia e un ordine incompleto."
+              "Corretto. Il campione esercita percorsi ordinari, approvazione ed eccezioni.",
+              "Non verifica il percorso di approvazione o gli errori.",
+              "Non verifica il percorso sotto soglia o gli input incompleti."
             ]
           },
           "masterclass": {
@@ -1249,18 +1249,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Da dove parte una strategia AI?",
+            "q": "Un dirigente vuole introdurre GenAI in azienda. Quale scelta dovrebbe precedere l’acquisto delle licenze?",
             "options": [
-              "Da un problema aziendale misurabile.",
-              "Dalla scelta del modello più recente.",
-              "Dal numero di licenze acquistate."
+              "Identificare un problema aziendale e un risultato misurabile.",
+              "Selezionare il modello con più funzionalità disponibili.",
+              "Definire il numero di licenze in base alla dimensione dei reparti."
             ],
             "answer": 0,
-            "why": "La strategia AI parte da un problema aziendale misurabile.",
+            "why": "La strategia parte dal bisogno e dal valore atteso.",
             "feedback": [
-              "Corretto. La strategia AI parte da un problema aziendale misurabile.",
-              "Rivedi il principio: La strategia AI parte da un problema aziendale misurabile.",
-              "Rivedi il principio: La strategia AI parte da un problema aziendale misurabile."
+              "Corretto. La strategia parte dal bisogno e dal valore atteso.",
+              "Le funzionalità non dimostrano la pertinenza al problema.",
+              "Il numero di licenze non identifica il valore da ottenere."
             ]
           },
           "masterclass": {
@@ -1343,18 +1343,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quale indicatore misura valore?",
+            "q": "Quale indicatore aiuta a capire se l’AI migliora il servizio clienti?",
             "options": [
-              "Numero di prompt senza contesto.",
-              "Tempo di risposta insieme alla qualità del risultato.",
-              "Numero di accessi senza esiti."
+              "Numero di prompt inviati dagli operatori.",
+              "Tempo per risolvere una richiesta insieme alla qualità della soluzione.",
+              "Numero di accessi giornalieri alla piattaforma."
             ],
             "answer": 1,
-            "why": "Un indicatore deve misurare valore e qualità, non soltanto utilizzo.",
+            "why": "Tempo e qualità misurano il risultato del servizio.",
             "feedback": [
-              "Rivedi il principio: Un indicatore deve misurare valore e qualità, non soltanto utilizzo.",
-              "Corretto. Un indicatore deve misurare valore e qualità, non soltanto utilizzo.",
-              "Rivedi il principio: Un indicatore deve misurare valore e qualità, non soltanto utilizzo."
+              "I prompt misurano attività, non risultati.",
+              "Corretto. Tempo e qualità misurano il risultato del servizio.",
+              "Gli accessi misurano utilizzo, non efficacia."
             ]
           },
           "masterclass": {
@@ -1424,18 +1424,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come prepari un pilota?",
+            "q": "Prima di avviare un pilota AI in amministrazione, quali elementi definisci?",
             "options": [
-              "Scegli processo, responsabile e baseline.",
-              "Avvii senza misure iniziali.",
-              "Acquisti licenze prima di definire il problema."
+              "Processo, responsabile e misura iniziale delle prestazioni.",
+              "Numero di licenze e data di avvio, senza baseline.",
+              "Modello e formato del report, senza responsabile del processo."
             ],
             "answer": 0,
-            "why": "Scegli un processo, identifica responsabile e definisci una misura iniziale.",
+            "why": "Il pilota necessita di responsabilità e confronto con la situazione iniziale.",
             "feedback": [
-              "Corretto. Scegli un processo, identifica responsabile e definisci una misura iniziale.",
-              "Rivedi il principio: Scegli un processo, identifica responsabile e definisci una misura iniziale.",
-              "Rivedi il principio: Scegli un processo, identifica responsabile e definisci una misura iniziale."
+              "Corretto. Il pilota necessita di responsabilità e confronto con la situazione iniziale.",
+              "Senza baseline non puoi stimare il miglioramento.",
+              "La scelta tecnica non sostituisce la responsabilità operativa."
             ]
           },
           "masterclass": {
@@ -1523,18 +1523,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa determina la fattibilità?",
+            "q": "Due progetti AI promettono risparmi simili. Quali elementi usi per confrontarne la fattibilità?",
             "options": [
-              "Solo la popolarità dello strumento.",
-              "Dati, competenze, integrazioni e rischio.",
-              "Solo il prezzo della licenza."
+              "Prezzo delle licenze e popolarità dei modelli.",
+              "Disponibilità dei dati, competenze, integrazioni e rischi.",
+              "Numero di funzionalità e dimensione del fornitore."
             ],
             "answer": 1,
-            "why": "La fattibilità comprende dati, competenze, integrazioni e rischio.",
+            "why": "La fattibilità considera risorse, vincoli e rischi concreti.",
             "feedback": [
-              "Rivedi il principio: La fattibilità comprende dati, competenze, integrazioni e rischio.",
-              "Corretto. La fattibilità comprende dati, competenze, integrazioni e rischio.",
-              "Rivedi il principio: La fattibilità comprende dati, competenze, integrazioni e rischio."
+              "Prezzo e popolarità non bastano a stabilire la realizzabilità.",
+              "Corretto. La fattibilità considera risorse, vincoli e rischi concreti.",
+              "Funzionalità e dimensione non garantiscono dati o competenze adeguati."
             ]
           },
           "masterclass": {
@@ -1617,18 +1617,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come confronti impatto e fattibilità?",
+            "q": "Come rendi confrontabili tre proposte AI in una matrice impatto-fattibilità?",
             "options": [
-              "Valuti solo l'impatto ignorando le risorse.",
-              "Applichi criteri comuni a ogni progetto.",
-              "Cambi criteri per favorire un progetto."
+              "Usi una scala diversa per ciascun reparto senza normalizzarla.",
+              "Applichi a tutte gli stessi criteri e la stessa scala di punteggio.",
+              "Valuti l’impatto economico senza considerare la fattibilità."
             ],
             "answer": 1,
-            "why": "Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni.",
+            "why": "Criteri comuni permettono un confronto coerente.",
             "feedback": [
-              "Rivedi il principio: Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni.",
-              "Corretto. Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni.",
-              "Rivedi il principio: Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni."
+              "Scale diverse rendono i punteggi non direttamente confrontabili.",
+              "Corretto. Criteri comuni permettono un confronto coerente.",
+              "L’impatto da solo non indica la realizzabilità."
             ]
           },
           "masterclass": {
@@ -1698,18 +1698,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come motivi la scelta fra tre casi?",
+            "q": "Presenti alla direzione la scelta tra tre progetti AI. Come rendi verificabile la raccomandazione?",
             "options": [
-              "Scegli il caso più appariscente.",
-              "Assegni punteggi senza motivazione.",
-              "Documenti punteggi e ipotesi da verificare."
+              "Mostri solo il punteggio totale del progetto preferito.",
+              "Presenti i benefici stimati come risultati già ottenuti.",
+              "Documenti punteggi, motivazioni e ipotesi ancora da verificare."
             ],
             "answer": 2,
-            "why": "Assegna punteggi motivati a tre casi e indica le ipotesi da verificare.",
+            "why": "La decisione è verificabile se esplicita criteri ed evidenze.",
             "feedback": [
-              "Rivedi il principio: Assegna punteggi motivati a tre casi e indica le ipotesi da verificare.",
-              "Rivedi il principio: Assegna punteggi motivati a tre casi e indica le ipotesi da verificare.",
-              "Corretto. Assegna punteggi motivati a tre casi e indica le ipotesi da verificare."
+              "Il totale da solo nasconde il ragionamento e le alternative.",
+              "Una stima non equivale a un beneficio misurato.",
+              "Corretto. La decisione è verificabile se esplicita criteri ed evidenze."
             ]
           },
           "masterclass": {
