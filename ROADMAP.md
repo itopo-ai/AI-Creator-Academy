@@ -29,16 +29,16 @@ Linguaggio accessibile da zero, progressione graduale, domande concrete e contes
 |---|---|---|
 | Introduzioni 264 lezioni | Documentato completato | README storico 6.5.1 |
 | Dizionario IT & AI, 114 termini | Documentato implementato | README storico e QA simulata |
-| Integrità curriculum | Verificata staticamente | Fase 0 e commit 05bde071eec47effa5c41df286314593d8b94bbf |
+| Integrità curriculum | Verificata staticamente | Fase 0 e commit 68e427bc3b1dda934749418304928fb4a25e191f |
 | Quiz base Creator | 120/120 revisionati | Registro cronologico e 120/120 feedback distinti |
 | Quiz base Business | 144/144 revisionati | Registro cronologico e 144/144 feedback distinti |
 | Quiz avanzati Creator | 120/120 revisionati | Commit 14099064761ad358231de4784d7aae8d78bea08f e verifica Fase 0 |
-| Quiz avanzati Business | 18/144 revisionati | Commit 05bde071eec47effa5c41df286314593d8b94bbf |
+| Quiz avanzati Business | 36/144 revisionati | Commit 68e427bc3b1dda934749418304928fb4a25e191f |
 | Audit qualitativo delle lezioni | Da completare | Registro cronologico |
 | Risorse esterne | Da verificare integralmente | Dato storico 6/30 indirizzi, non riconfermato |
 | Collaudi runtime e rilascio | Da completare | Checklist seguente |
 
-72 settimane, 264 sessioni con ID univoci, 528 testi di domanda distinti, 1584 feedback presenti. Quiz con tre feedback distinti: 402/528 (76,14%); 126 quiz avanzati Business e 378 feedback residui. Copertura delle modifiche storiche 528/528 non equivale a completamento qualitativo; nessuna certificazione pedagogica indipendente o collaudo end-to-end. Le 96 ripetizioni eccedenti Creator avanzato risultano eliminate secondo registro e verifica di unicità. Le due registrazioni storiche Creator avanzato 19–24 non vanno sommate. Ultimo commit applicativo 05bde071eec47effa5c41df286314593d8b94bbf; ultimo riferimento Creator 14099064761ad358231de4784d7aae8d78bea08f. README allineato al commit 25c366bc9f4e7cc1654eb67f13b06c139d6a083a.
+72 settimane, 264 sessioni con ID univoci, 528 testi di domanda distinti, 1584 feedback presenti. Quiz con tre feedback distinti: 420/528 (79,55%); 108 quiz avanzati Business e 324 feedback residui. Copertura delle modifiche storiche 528/528 non equivale a completamento qualitativo; nessuna certificazione pedagogica indipendente o collaudo end-to-end. Le 96 ripetizioni eccedenti Creator avanzato risultano eliminate secondo registro e verifica di unicità. Le due registrazioni storiche Creator avanzato 19–24 non vanno sommate. Ultimo commit applicativo 68e427bc3b1dda934749418304928fb4a25e191f; ultimo riferimento Creator 14099064761ad358231de4784d7aae8d78bea08f. README allineato al commit 4d34f2c62d24cb7164f7a95b45059f682ce62293.
 
 ## Collaudo e criteri di rilascio
 Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS, dizionario e ricerca, calcolo avanzamento, validazione strutturale backup, compatibilità strutturale 6.5.1, allineamento versione/cache, correzioni preventive UI. Non equivalgono a test end-to-end.
@@ -53,7 +53,7 @@ Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS
 - [ ] Approvazione utente prima del rilascio.
 
 ## Prossimo intervento
-Business avanzato settimane 7–12: 18 quiz e 54 feedback; poi settimane 13–48 in blocchi controllati. Successivamente audit lezioni, risorse e collaudi secondo roadmap e approvazione utente. Nessun rilascio autorizzato.
+Business avanzato settimane 13–18: 18 quiz e 54 feedback; poi settimane 19–48 in blocchi controllati. Successivamente audit lezioni, risorse e collaudi secondo roadmap e approvazione utente. Nessun rilascio autorizzato.
 
 ## Registro cronologico
 - 25/11/2026: recuperata continuità della chat precedente tramite screenshot e confronto GitHub. Branch sviluppo risultava 27 commit avanti a main e divergente da RC1 (10 avanti, 1 indietro). Main osservato: cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 osservata: e4ee85918cadccd38499772827e663fef0c34fd5. Verificate modifiche knowledgeCheck per tutte le 60 sessioni Creator settimane 1–12, nessuna per 13–24 rispetto a RC1. Nessuna modifica applicativa in questa fase.
@@ -168,3 +168,7 @@ Avanzamento quiz Creator base verificato: 120/120 (100%). Copertura delle modifi
 
 ## Prossimo intervento
 Audit dei feedback base Creator, quindi audit dei 264 quiz avanzati, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
+
+
+### Aggiornamento 25/11/2026 — Business avanzato settimane 7–12
+Branch: excellence-learning-6.6. File applicativo: curriculum-business.json; commit 68e427bc3b1dda934749418304928fb4a25e191f, blob d2e646f977a47e27a8bb43e9d3931a976890801b. Teste iniziali: sviluppo 680262285f65330c212e3db8f09093da50f7ff2e, main cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0, RC1 e4ee85918cadccd38499772827e663fef0c34fd5. Confronto ultimo commit applicativo precedente: tre commit documentali, solo README e ROADMAP. Audit di 18 quiz rispetto a obiettivi, teoria e masterclass: ROI, rischio, governance, adozione, fornitori, business case. Riscritti 54 feedback (36 errati, 18 corretti), sei testi domanda, due spiegazioni e alternative di un quiz; esercizio ROI ripetitivo sostituito con pareggio e costi completi. Primo tentativo di sostituzione testuale interrotto prima della scrittura per indentazione non coincidente; ripetuto con formato corretto. Verifica statica: JSON valido, confronto integrale ripristinando i soli 18 advancedCheck identico all'originale, tutti gli indici avanzati invariati, 264 ID univoci, 528 testi distinti, tre opzioni distinte e tre feedback non vuoti per quiz, 420/528 con feedback distinti (79,55%); rilettura applicativa esatta e diff solo curriculum-business.json. Business avanzato 36/144; restano 108 quiz e 324 feedback. README aggiornato e riletto esattamente, cronologia conservata, commit 4d34f2c62d24cb7164f7a95b45059f682ce62293. ROADMAP aggiornata nel riepilogo e registro, cronologia conservata. Nessun test runtime, verifica online risorse, certificazione indipendente, merge, ZIP o rilascio. Prossimo blocco: Business avanzato settimane 13–18 (18 quiz, 54 feedback).
