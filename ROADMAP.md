@@ -1016,3 +1016,96 @@ Fonti pubbliche consultate 25/11/2026 (codici matrice): A https://academy.openai
 | BL1-P18 | C | A,L,N | difesa business case e scenario nuovo |
 
 Percorso gratuito candidato: AI chat a scelta, Calc locale, dati sintetici; n8n Community locale per prova workflow reale, senza API a pagamento (input AI manuale esplicitato, non equiparare a integrazione API automatica). Premium facoltativo: file analysis, connettori, cloud e automazioni AI; stessi criteri essenziali, non identità funzionale. Per ogni sessione prova autonoma su variante, log prompt/output/revisione, costi e tempo, verifica formule e fonti, rubriche 0–3 con minimo 2 per dimensione essenziale proposto; nessun dato personale o azione reale. Capstone candidato: pilota AI su richieste sintetiche, 20 casi baseline e confronto, qualità e tempi inclusa revisione, ROI/TCO a tre scenari, registro rischi, piano adozione, decisione go/no-go e difesa su variante. Soglie, ore, diagnostica e dataset da approvare fase 3. Nessun collaudo login/runtime, quote AI, accessibilità mobile/desktop, licenze n8n o certificati; granularità unità e alternativa reale automatizzata AI gratuita restano gate. Badge/certificati esterni non obbligatori e non equivalenti a certificazione professionale. Gate Creator invariati. Cumulativo mappatura preliminare 240/420 (57,1%), Business 54/234, Creator 186/186. Prossimo 2E Business L2 Data Analytics & Business Intelligence 83 sessioni, mantenendo lacune L1 aperte. Nessuna modifica applicativa.
+
+
+## Fase 2E — Business L2 Data Analytics & Business Intelligence (25/11/2026)
+Base f1a51a04e82403aa8778e08cd03afab9454d458f; 83/83 mappatura preliminare (48 originali settimane 21–36 +5 GA4 +30 BI, segnaposti non applicativi). Tutte le applicazioni AI/BI comuni a Professional e Complete; eventuale teoria matematica/statistica/economica preparatoria separabile solo dopo diagnostica, senza esonero dalle prove. Retroclassificazione individuale 2D resta autorevole; questa matrice non la sostituisce. AI gratuita ammessa, premium facoltativa. V=fonte pubblica consultata, P=candidato, B=gate aperto, T=test eseguito (zero; codice fonte T sotto distinto dallo stato). 
+Fonti consultate 25/11/2026: G https://support.google.com/analytics/answer/15440208 (4 corsi gratuiti e certificazione, IT), https://support.google.com/analytics/answer/6367342 (demo account Google, dati ecommerce e gioco, login necessario; demo non prova raccolta); T https://developers.google.com/analytics/devguides/collection/ga4 (setup, eventi, verifica; proprietà test e consenso); Q https://learn.microsoft.com/en-us/training/paths/prepare-data-power-bi/ (3 moduli, EN, prerequisiti nessuno; Power Query import/pulizia/modello); M https://learn.microsoft.com/it-it/training/paths/model-data-power-bi/ (6 moduli, 5h50, familiarità Desktop); D https://learn.microsoft.com/en-us/training/paths/dax-power-bi/ (4 moduli, 3h23, EN, no prerequisiti dichiarati); B https://learn.microsoft.com/en-us/power-bi/fundamentals/desktop-get-the-desktop (Desktop gratuito Windows); R https://learn.microsoft.com/en-us/power-bi/fundamentals/end-user-features (free personale, condivisione limitata), https://www.metabase.com/docs/latest/permissions/introduction (permessi, edizione e granularità da verificare); X https://learn.microsoft.com/en-us/credentials/certifications/data-analyst-associate/ (PL-300, 100 min sorvegliato, rinnovo 12 mesi, prezzo locale da verificare), https://www.coursera.org/professional-certificates/microsoft-power-bi-data-analyst (8 corsi, EN, 5 mesi a 10h/settimana dichiarati, accesso completo gratuito non dimostrato, attestato distinto dall'esame). Copilot https://learn.microsoft.com/en-us/power-bi/create-reports/copilot-power-bi-desktop richiede capacità a pagamento F2/P1 o superiore e abilitazione tenant; non obbligatorio. DuckDB https://duckdb.org/docs/stable/data/csv/overview restituisce redirect, contenuto non verificato. Calc, SQL locale (SQLite/DuckDB), Metabase locale candidati, non collaudati; fonti SQL/Calc e unità granulari da approfondire. Fonti Q/B per righe SQL/statistica sono riferimenti di contesto BI, non verifica di unità SQL/statistica specifiche.
+
+| ID | Fonte candidata | Evidenza prevista | Stato |
+|---|---|---|---|
+| b21s1 | G | eventi utenti sessioni con denominatori | P/B |
+| b21s2 | G | distinzione acquisti/sessioni vs sessioni con acquisto | P/B |
+| b21s3 | G | funnel e KPI riconciliati | P/B |
+| b22s1 | T | piano eventi e parametri | P/B |
+| b22s2 | T | deduplica transaction_id e no PII | P/B |
+| b22s3 | T | proprietà test e consenso | P/B |
+| b23s1 | G | report canali e periodo | P/B |
+| b23s2 | G | esplorazione segmenti e limiti | P/B |
+| b23s3 | G | conversioni per canale e attribuzione | P/B |
+| b24s1 | G | ripasso su caso nuovo | P/B |
+| b24s2 | G | prova interna distinta da certificazione | P/B |
+| b24s3 | G | decisione budget con incertezza | P/B |
+| b25s1 | Q | import CSV e tipi | P/B |
+| b25s2 | Q | profilazione null e formati | P/B |
+| b25s3 | Q | ricavi costi riconciliati | P/B |
+| b26s1 | Q | formule e lookup con chiavi | P/B |
+| b26s2 | Q | pivot e grafici | P/B |
+| b26s3 | Q | riconciliazione fatture e anagrafiche | P/B |
+| b27s1 | B | requisiti direzionali e metriche | P/B |
+| b27s2 | B | componenti BI e limiti licenza | P/B |
+| b27s3 | B | specifica dashboard | P/B |
+| b28s1 | Q | fonti e schema dati | P/B |
+| b28s2 | Q | trasformazioni ripetibili | P/B |
+| b28s3 | Q | import vendite acquisti | P/B |
+| b29s1 | Q | profilazione e log errori | P/B |
+| b29s2 | Q | null e duplicati con regole | P/B |
+| b29s3 | Q | report qualità prima/dopo | P/B |
+| b30s1 | M | granularità e cardinalità | P/B |
+| b30s2 | M | schema stella e chiavi | P/B |
+| b30s3 | M | modello clienti prodotti calendario | P/B |
+| b31s1 | D | misure e contesto filtro | P/B |
+| b31s2 | D | colonne vs misure e tempo | P/B |
+| b31s3 | D | margine e scostamento budget | P/B |
+| b32s1 | B | grafici e aggregazioni | P/B |
+| b32s2 | B | filtri slicer interazioni | P/B |
+| b32s3 | B | vendite per segmento | P/B |
+| b33s1 | B | analisi anomalie e validazione | P/B |
+| b33s2 | B | AI esterna vs Copilot opzionale | P/B |
+| b33s3 | B | costi per centro riconciliati | P/B |
+| b34s1 | B | gerarchia visuale e accessibilità | P/B |
+| b34s2 | B | storytelling e limiti | P/B |
+| b34s3 | B | liquidità e marginalità | P/B |
+| b35s1 | R | deploy e aggiornamento | P/B |
+| b35s2 | R | RLS con prova negativa | P/B |
+| b35s3 | R | permessi e refresh ripetibile | P/B |
+| b36s1 | X | prova interna mappata PL-300 | P/B |
+| b36s2 | X | capstone su dataset nuovo | P/B |
+| b36s3 | X | report con raccomandazioni e difesa | P/B |
+| BL2-P01 | G | piano tassonomia KPI con definizioni | P/B |
+| BL2-P02 | T | tag proprietà test e DebugView con consenso | P/B |
+| BL2-P03 | T | ecommerce transaction_id e deduplica | P/B |
+| BL2-P04 | G | funnel segmentato e limiti attribuzione | P/B |
+| BL2-P05 | G | esperimento decisione budget e confronto periodi | P/B |
+| BL2-P06 | Q | contratto dati e dizionario | P/B |
+| BL2-P07 | Q | CSV encoding locale tipi e date | P/B |
+| BL2-P08 | Q | profilazione null outlier e duplicati | P/B |
+| BL2-P09 | Q | join e cardinalità con riconciliazione | P/B |
+| BL2-P10 | Q | SQL SELECT WHERE e ordinamento | P/B |
+| BL2-P11 | Q | SQL GROUP BY e aggregazioni | P/B |
+| BL2-P12 | Q | SQL JOIN e anti-join | P/B |
+| BL2-P13 | Q | SQL CTE e query riproducibili | P/B |
+| BL2-P14 | Q | ETL pipeline parametrica | P/B |
+| BL2-P15 | Q | test qualità e log scarti | P/B |
+| BL2-P16 | M | grain e schema stella | P/B |
+| BL2-P17 | M | dimensioni calendario e gerarchie | P/B |
+| BL2-P18 | M | relazioni ambigue e many-to-many | P/B |
+| BL2-P19 | D | misure additive e non additive | P/B |
+| BL2-P20 | D | contesto filtro e confronto SQL | P/B |
+| BL2-P21 | D | time intelligence e periodi parziali | P/B |
+| BL2-P22 | D | KPI margine e budget con zero denominatore | P/B |
+| BL2-P23 | B | statistica applicata e distribuzioni | P/B |
+| BL2-P24 | B | segmentazione e bias campione | P/B |
+| BL2-P25 | B | forecast baseline e holdout | P/B |
+| BL2-P26 | B | AI assistita: SQL e verifica indipendente | P/B |
+| BL2-P27 | B | AI assistita: insight e citazioni dati | P/B |
+| BL2-P28 | B | dashboard interattiva filtri e drill | P/B |
+| BL2-P29 | B | accessibilità contrasto tastiera e mobile | P/B |
+| BL2-P30 | R | autorizzazioni e test negativo due utenti | P/B |
+| BL2-P31 | R | refresh e gestione errore | P/B |
+| BL2-P32 | R | backup e ripristino dataset e report | P/B |
+| BL2-P33 | X | capstone discovery e acceptance | P/B |
+| BL2-P34 | X | capstone build e test numerici | P/B |
+| BL2-P35 | X | capstone difesa variante e handover | P/B |
+
+Parità candidata: Power BI Desktop gratuito su Windows per DAX/Power Query reali; Mac/Linux Calc + SQL + BI locale per competenze trasferibili, non prova DAX/Power Query specifici. Cloud sharing, RLS remoto, refresh schedulato e Copilot non equivalgono a demo locale; provare due utenti con accessi distinti e test negativo su stack gratuito, senza pubblicazione dati riservati; se non fattibile, gate prima approvazione. AI chat gratuita su estratti sintetici, verifica SQL e misure con gold set; niente API o crediti obbligatori. Premium facoltativo Excel, Pro, Fabric, Copilot e certificati. GA4 proprietà test con eventi sintetici senza PII, consenso e policy da verificare, demo sola non basta. Capstone candidato dossier direzionale vendite/costi/marketing con dataset sintetico, schema stella, ETL, SQL, misure, dashboard interattiva, test numerici, permessi, refresh, backup, raccomandazioni e variante autonoma. Rubrica 0–3 minimo 2 per dimensione essenziale, zero violazioni sicurezza, log costi/tempi/AI, holdout e riproducibilità; soglie e ore da approvare. Mobile First studio iPhone, laboratori desktop dichiarati. Gate aperti: login GA4/Skillshop, unità/link e lingue, esami e prezzi, hardware Windows/Mac/Linux, alternative SQL/BI, RLS e deploy gratuito, quote AI, licenze, accessibilità e carico reale. Nessun runtime, esame, acquisto o validazione indipendente. Gate Creator e L1 preservati. Totale preliminare 323/420 (76,9%), Creator 186/186, Business 137/234. Prossimo Business L3 97 sessioni. Nessuna modifica applicativa.
