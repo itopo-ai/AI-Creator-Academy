@@ -2901,18 +2901,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un button è azionabile da tastiera senza simulare il click su un div. Come verificare un layout responsive?",
+              "q": "Una pagina contiene menu, articolo e informazioni di copyright, tutti in div. Come migliori la struttura?",
               "options": [
-                "Prova soltanto la larghezza desktop.",
-                "Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Prova lo schermo stretto senza verificare zoom e tastiera."
+                "Assegna main a tutte e tre le sezioni.",
+                "Usa nav per il menu, main per il contenuto principale e footer per il piè di pagina.",
+                "Sostituisci ogni div con nav."
               ],
               "answer": 1,
-              "why": "Usa elementi nativi per struttura e interazione, CSS per presentazione.",
+              "why": "Gli elementi semantici descrivono il ruolo delle sezioni e facilitano la navigazione assistita.",
               "feedback": [
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Corretto. Usa elementi nativi per struttura e interazione, CSS per presentazione.",
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera."
+                "Tre regioni principali rendono ambiguo il contenuto centrale.",
+                "Corretto. Gli elementi semantici descrivono il ruolo delle sezioni e facilitano la navigazione assistita.",
+                "nav identifica la navigazione, non l’articolo o il copyright."
               ]
             }
           ],
@@ -2988,18 +2988,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un button è azionabile da tastiera senza simulare il click su un div. Come verificare un layout responsive?",
+              "q": "A 320 pixel una scheda con immagine larga 600 pixel provoca scorrimento orizzontale. Come intervieni?",
               "options": [
-                "Prova soltanto la larghezza desktop.",
-                "Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Prova lo schermo stretto senza verificare zoom e tastiera."
+                "Nascondi lo scorrimento senza ridimensionare l’immagine.",
+                "Limita la larghezza dell’immagine al contenitore e verifica il layout a diverse larghezze.",
+                "Imposta la pagina a 600 pixel fissi."
               ],
               "answer": 1,
-              "why": "Usa elementi nativi per struttura e interazione, CSS per presentazione.",
+              "why": "Un’immagine flessibile evita di imporre una larghezza maggiore dello spazio disponibile.",
               "feedback": [
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Corretto. Usa elementi nativi per struttura e interazione, CSS per presentazione.",
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera."
+                "Nascondere lo scorrimento può tagliare contenuti ancora troppo larghi.",
+                "Corretto. Un’immagine flessibile evita di imporre una larghezza maggiore dello spazio disponibile.",
+                "Una larghezza fissa mantiene il problema sugli schermi più stretti."
               ]
             }
           ],
@@ -3075,18 +3075,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un button è azionabile da tastiera senza simulare il click su un div. Come verificare un layout responsive?",
+              "q": "Tre pulsanti condividono spaziatura e tipografia, ma uno è di pericolo. Come organizzi il CSS?",
               "options": [
-                "Prova soltanto la larghezza desktop.",
-                "Prova lo schermo stretto senza verificare zoom e tastiera.",
-                "Prova schermi stretti, zoom e navigazione da tastiera."
+                "Duplica tutte le regole in tre classi indipendenti.",
+                "Applica lo stile di pericolo alla classe condivisa.",
+                "Crea una classe base e una variante per il pulsante di pericolo."
               ],
               "answer": 2,
-              "why": "Usa elementi nativi per struttura e interazione, CSS per presentazione.",
+              "why": "La classe base centralizza le regole comuni e la variante esprime la differenza.",
               "feedback": [
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Corretto. Usa elementi nativi per struttura e interazione, CSS per presentazione."
+                "La duplicazione rende più onerose le modifiche comuni.",
+                "Lo stile di pericolo si propagherebbe anche ai pulsanti ordinari.",
+                "Corretto. La classe base centralizza le regole comuni e la variante esprime la differenza."
               ]
             }
           ],
@@ -3162,18 +3162,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un button è azionabile da tastiera senza simulare il click su un div. Come verificare un layout responsive?",
+              "q": "Un controllo realizzato con div reagisce al clic ma non al tasto Invio. Quale correzione preferisci?",
               "options": [
-                "Prova soltanto la larghezza desktop.",
-                "Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Prova lo schermo stretto senza verificare zoom e tastiera."
+                "Aggiungi soltanto un colore al passaggio del mouse.",
+                "Usa un button nativo e verifica focus e attivazione da tastiera.",
+                "Assegna soltanto tabindex=0 al div."
               ],
               "answer": 1,
-              "why": "Usa elementi nativi per struttura e interazione, CSS per presentazione.",
+              "why": "Il pulsante nativo offre semantica e comportamento da tastiera già previsti dal browser.",
               "feedback": [
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Corretto. Usa elementi nativi per struttura e interazione, CSS per presentazione.",
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera."
+                "Il colore al passaggio del mouse non abilita l’interazione da tastiera.",
+                "Corretto. Il pulsante nativo offre semantica e comportamento da tastiera già previsti dal browser.",
+                "tabindex rende il div raggiungibile ma non gli conferisce automaticamente l’attivazione."
               ]
             }
           ],
@@ -3249,18 +3249,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un button è azionabile da tastiera senza simulare il click su un div. Come verificare un layout responsive?",
+              "q": "Una landing page riceve visite ma pochi utenti completano il modulo. Quale esperimento isola meglio una possibile causa?",
               "options": [
-                "Prova soltanto la larghezza desktop.",
-                "Prova lo schermo stretto senza verificare zoom e tastiera.",
-                "Prova schermi stretti, zoom e navigazione da tastiera."
+                "Cambia simultaneamente pubblico, grafica e modulo.",
+                "Misura soltanto le visualizzazioni della pagina.",
+                "Confronta due versioni con una sola modifica al modulo e misura gli invii validi."
               ],
               "answer": 2,
-              "why": "Usa elementi nativi per struttura e interazione, CSS per presentazione.",
+              "why": "Una variazione controllata aiuta a collegare il risultato alla modifica testata.",
               "feedback": [
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Rivedi il caso: Usa elementi nativi per struttura e interazione, CSS per presentazione. La soluzione attesa è: Prova schermi stretti, zoom e navigazione da tastiera.",
-                "Corretto. Usa elementi nativi per struttura e interazione, CSS per presentazione."
+                "Cambiare più fattori rende difficile attribuire l’effetto.",
+                "Le visualizzazioni non misurano il completamento del modulo.",
+                "Corretto. Una variazione controllata aiuta a collegare il risultato alla modifica testata."
               ]
             }
           ],
@@ -3350,18 +3350,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un form vuoto non deve creare un record. Come verificare la persistenza?",
+              "q": "Una funzione calcola il totale di prezzi ricevuti come stringhe: 12 e 3 diventano 123. Come correggi il problema?",
               "options": [
-                "Ricarica la pagina e confronta i dati attesi.",
-                "Controlla i dati prima di ricaricare.",
-                "Ricarica e verifica soltanto il titolo della pagina."
+                "Converti e valida i valori numerici prima della somma.",
+                "Inverti l’ordine delle stringhe.",
+                "Aggiungi uno spazio tra i valori."
               ],
               "answer": 0,
-              "why": "Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
+              "why": "L’operatore + può concatenare stringhe: la conversione validata permette la somma numerica.",
               "feedback": [
-                "Corretto. Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi."
+                "Corretto. L’operatore + può concatenare stringhe: la conversione validata permette la somma numerica.",
+                "Invertire l’ordine produce un’altra concatenazione.",
+                "Uno spazio modifica il testo ma non esegue un calcolo."
               ]
             }
           ],
@@ -3437,18 +3437,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un form vuoto non deve creare un record. Come verificare la persistenza?",
+              "q": "Un pulsante aggiunto dinamicamente a una lista non reagisce perché il listener era assegnato prima della creazione. Quale soluzione è adatta?",
               "options": [
-                "Ricarica la pagina e confronta i dati attesi.",
-                "Controlla i dati prima di ricaricare.",
-                "Ricarica e verifica soltanto il titolo della pagina."
+                "Registra un listener sul contenitore e identifica il pulsante tramite l’evento propagato.",
+                "Ricarica la pagina dopo ogni nuovo pulsante.",
+                "Assegna lo stesso ID a tutti i pulsanti."
               ],
               "answer": 0,
-              "why": "Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
+              "why": "La delega degli eventi sfrutta la propagazione verso il contenitore già presente.",
               "feedback": [
-                "Corretto. Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi."
+                "Corretto. La delega degli eventi sfrutta la propagazione verso il contenitore già presente.",
+                "Ricaricare interrompe l’interazione e non risolve la causa del listener mancante.",
+                "ID duplicati rendono ambigua la selezione degli elementi."
               ]
             }
           ],
@@ -3524,18 +3524,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un form vuoto non deve creare un record. Come verificare la persistenza?",
+              "q": "Un form valida l’email nel browser, ma una richiesta diretta invia un valore non valido. Come proteggi il salvataggio?",
               "options": [
-                "Ricarica la pagina e confronta i dati attesi.",
-                "Controlla i dati prima di ricaricare.",
-                "Ricarica e verifica soltanto il titolo della pagina."
+                "Ripeti la validazione sul server prima di accettare i dati.",
+                "Disabilita il pulsante dopo il primo clic.",
+                "Rendi invisibile il messaggio di errore del browser."
               ],
               "answer": 0,
-              "why": "Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
+              "why": "La validazione client può essere aggirata; il server deve controllare i dati ricevuti.",
               "feedback": [
-                "Corretto. Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi."
+                "Corretto. La validazione client può essere aggirata; il server deve controllare i dati ricevuti.",
+                "Disabilitare il pulsante non blocca richieste dirette.",
+                "Nascondere un messaggio non impedisce l’inserimento di dati errati."
               ]
             }
           ],
@@ -3611,18 +3611,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un form vuoto non deve creare un record. Come verificare la persistenza?",
+              "q": "Una mini app legge dal localStorage un JSON danneggiato e si blocca. Come gestisci l’avvio?",
               "options": [
-                "Controlla i dati prima di ricaricare.",
-                "Ricarica la pagina e confronta i dati attesi.",
-                "Ricarica e verifica soltanto il titolo della pagina."
+                "Cancella automaticamente tutto lo storage del sito.",
+                "Intercetta l’errore di parsing, segnala il problema e offri un recupero controllato.",
+                "Continua a usare il dato come oggetto valido."
               ],
               "answer": 1,
-              "why": "Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
+              "why": "Gestire il parsing fallito evita il blocco e permette di preservare dati recuperabili.",
               "feedback": [
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi.",
-                "Corretto. Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi."
+                "Cancellare tutto può distruggere informazioni non coinvolte nel problema.",
+                "Corretto. Gestire il parsing fallito evita il blocco e permette di preservare dati recuperabili.",
+                "Un JSON non interpretabile non fornisce un oggetto affidabile."
               ]
             }
           ],
@@ -3698,18 +3698,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un form vuoto non deve creare un record. Come verificare la persistenza?",
+              "q": "Una mini app salva attività ma dopo il ricaricamento mostra un elenco vuoto. Quale test localizza meglio il difetto?",
               "options": [
-                "Ricarica la pagina e confronta i dati attesi.",
-                "Controlla i dati prima di ricaricare.",
-                "Ricarica e verifica soltanto il titolo della pagina."
+                "Controlla il dato salvato, poi la lettura e la ricostruzione dell’interfaccia.",
+                "Cambia il colore delle attività.",
+                "Verifica soltanto che il pulsante Salva sia visibile."
               ],
               "answer": 0,
-              "why": "Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
+              "why": "Separare scrittura, lettura e visualizzazione aiuta a individuare il passaggio guasto.",
               "feedback": [
-                "Corretto. Separa dati, eventi e rendering; valida input prima di aggiornare lo stato.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi.",
-                "Rivedi il caso: Separa dati, eventi e rendering; valida input prima di aggiornare lo stato. La soluzione attesa è: Ricarica la pagina e confronta i dati attesi."
+                "Corretto. Separare scrittura, lettura e visualizzazione aiuta a individuare il passaggio guasto.",
+                "Il colore non verifica la persistenza.",
+                "La presenza del pulsante non dimostra che i dati siano salvati o recuperati."
               ]
             }
           ],
@@ -3799,18 +3799,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una correzione rompe la home dopo il merge. Come ripristinare senza perdere la storia?",
+              "q": "Prima del primo push scopri un file .env con credenziali già incluso in un commit locale. Come procedi?",
               "options": [
-                "Usa revert del commit problematico e verifica i test.",
-                "Cancella la storia dei commit per tornare indietro.",
-                "Aggiungi una correzione senza verificare il risultato."
+                "Rimuovilo dalla cronologia da pubblicare, escludilo con gitignore e valuta la rotazione delle credenziali.",
+                "Aggiungi gitignore e pubblica il commit senza altre modifiche.",
+                "Rinomina il file .env in config.txt e pubblicalo."
               ],
               "answer": 0,
-              "why": "Un commit registra una modifica riproducibile; un branch isola il lavoro.",
+              "why": "gitignore non rimuove file già tracciati; occorre evitare che i segreti finiscano nella cronologia pubblicata.",
               "feedback": [
-                "Corretto. Un commit registra una modifica riproducibile; un branch isola il lavoro.",
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test.",
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test."
+                "Corretto. gitignore non rimuove file già tracciati; occorre evitare che i segreti finiscano nella cronologia pubblicata.",
+                "Il commit esistente conserva il contenuto anche dopo l’aggiunta di gitignore.",
+                "Cambiare nome non protegge le credenziali contenute nel file."
               ]
             }
           ],
@@ -3886,18 +3886,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una correzione rompe la home dopo il merge. Come ripristinare senza perdere la storia?",
+              "q": "Hai corretto un bug e modificato una grafica indipendente. Come organizzi i commit?",
               "options": [
-                "Cancella la storia dei commit per tornare indietro.",
-                "Usa revert del commit problematico e verifica i test.",
-                "Aggiungi una correzione senza verificare il risultato."
+                "Raggruppa tutto in un commit chiamato aggiornamento.",
+                "Separa le modifiche in commit coerenti con messaggi specifici.",
+                "Crea un commit vuoto per descrivere entrambe le modifiche."
               ],
               "answer": 1,
-              "why": "Un commit registra una modifica riproducibile; un branch isola il lavoro.",
+              "why": "Commit separati facilitano revisione, diagnosi e annullamento selettivo.",
               "feedback": [
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test.",
-                "Corretto. Un commit registra una modifica riproducibile; un branch isola il lavoro.",
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test."
+                "Un commit generico mescola interventi indipendenti.",
+                "Corretto. Commit separati facilitano revisione, diagnosi e annullamento selettivo.",
+                "Un commit vuoto non separa le modifiche effettive."
               ]
             }
           ],
@@ -3973,18 +3973,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una correzione rompe la home dopo il merge. Come ripristinare senza perdere la storia?",
+              "q": "Il tuo branch contiene una funzione incompleta mentre main riceve una correzione urgente. Come continui?",
               "options": [
-                "Cancella la storia dei commit per tornare indietro.",
-                "Aggiungi una correzione senza verificare il risultato.",
-                "Usa revert del commit problematico e verifica i test."
+                "Sostituisci main con il branch incompleto.",
+                "Ignora per sempre la correzione urgente.",
+                "Integra la correzione nel branch di lavoro e verifica eventuali conflitti e test."
               ],
               "answer": 2,
-              "why": "Un commit registra una modifica riproducibile; un branch isola il lavoro.",
+              "why": "Aggiornare il branch permette di lavorare sulla base corretta senza pubblicare la funzione incompleta.",
               "feedback": [
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test.",
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test.",
-                "Corretto. Un commit registra una modifica riproducibile; un branch isola il lavoro."
+                "Sostituire main può introdurre lavoro non pronto.",
+                "Ignorare la correzione può mantenere il difetto e complicare l’integrazione futura.",
+                "Corretto. Aggiornare il branch permette di lavorare sulla base corretta senza pubblicare la funzione incompleta."
               ]
             }
           ],
@@ -4060,18 +4060,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una correzione rompe la home dopo il merge. Come ripristinare senza perdere la storia?",
+              "q": "Una pull request modifica la validazione ma il test per un campo vuoto fallisce. Come gestisci la revisione?",
               "options": [
-                "Cancella la storia dei commit per tornare indietro.",
-                "Aggiungi una correzione senza verificare il risultato.",
-                "Usa revert del commit problematico e verifica i test."
+                "Unisci subito perché gli altri test passano.",
+                "Elimina il test fallito senza analizzarne il requisito.",
+                "Correggi il difetto nel branch e riesegui i test prima del merge."
               ],
               "answer": 2,
-              "why": "Un commit registra una modifica riproducibile; un branch isola il lavoro.",
+              "why": "Un test fallito va analizzato e il requisito verificato prima dell’integrazione.",
               "feedback": [
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test.",
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test.",
-                "Corretto. Un commit registra una modifica riproducibile; un branch isola il lavoro."
+                "Gli altri test non compensano un difetto noto nella validazione.",
+                "Eliminare il test può nascondere una regressione anziché risolverla.",
+                "Corretto. Un test fallito va analizzato e il requisito verificato prima dell’integrazione."
               ]
             }
           ],
@@ -4147,18 +4147,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una correzione rompe la home dopo il merge. Come ripristinare senza perdere la storia?",
+              "q": "Una release è stata distribuita ma gli utenti segnalano un errore bloccante. Quale preparazione facilita il ripristino?",
               "options": [
-                "Usa revert del commit problematico e verifica i test.",
-                "Cancella la storia dei commit per tornare indietro.",
-                "Aggiungi una correzione senza verificare il risultato."
+                "Conservare la versione precedente identificabile, una procedura di rollback e verifiche sui dati.",
+                "Conservare soltanto il nome dell’ultimo commit.",
+                "Sovrascrivere ogni artefatto precedente a ogni pubblicazione."
               ],
               "answer": 0,
-              "why": "Un commit registra una modifica riproducibile; un branch isola il lavoro.",
+              "why": "Un rollback richiede una versione recuperabile e compatibilità con lo stato dei dati.",
               "feedback": [
-                "Corretto. Un commit registra una modifica riproducibile; un branch isola il lavoro.",
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test.",
-                "Rivedi il caso: Un commit registra una modifica riproducibile; un branch isola il lavoro. La soluzione attesa è: Usa revert del commit problematico e verifica i test."
+                "Corretto. Un rollback richiede una versione recuperabile e compatibilità con lo stato dei dati.",
+                "Il nome del commit da solo non garantisce un artefatto pronto né dati compatibili.",
+                "Sovrascrivere gli artefatti elimina una possibile via di ripristino."
               ]
             }
           ],
@@ -4248,18 +4248,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione di somma riceve una lista vuota. Quale comportamento definire?",
+              "q": "Uno script deve rinominare cento immagini e due nomi di destinazione coincidono. Quale controllo fai prima di scrivere?",
               "options": [
-                "Restituisci un valore arbitrario senza documentarlo.",
-                "Ignora il caso vuoto perché non è il caso tipico.",
-                "Risultato atteso o errore esplicito, documentato e testato."
+                "Sovrascrivi automaticamente il primo file con il secondo.",
+                "Controlla soltanto il numero totale di immagini.",
+                "Simula tutte le rinomine e rileva collisioni prima di modificare i file."
               ],
               "answer": 2,
-              "why": "Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
+              "why": "Una simulazione senza scrittura individua collisioni prima che causino perdita di dati.",
               "feedback": [
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato.",
-                "Corretto. Separa funzioni pure da lettura e scrittura dei file; testa casi limite."
+                "Sovrascrivere può distruggere uno dei file originali.",
+                "Il conteggio non rivela se due destinazioni hanno lo stesso nome.",
+                "Corretto. Una simulazione senza scrittura individua collisioni prima che causino perdita di dati."
               ]
             }
           ],
@@ -4335,18 +4335,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione di somma riceve una lista vuota. Quale comportamento definire?",
+              "q": "Un CSV contiene importi 12,50 e celle vuote. Come calcoli un totale affidabile?",
               "options": [
-                "Restituisci un valore arbitrario senza documentarlo.",
-                "Ignora il caso vuoto perché non è il caso tipico.",
-                "Risultato atteso o errore esplicito, documentato e testato."
+                "Elimina tutte le virgole dagli importi.",
+                "Tratta ogni cella vuota come zero senza verificare il significato.",
+                "Definisci il formato decimale e una regola esplicita per i valori mancanti, poi valida le conversioni."
               ],
               "answer": 2,
-              "why": "Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
+              "why": "Formato e politica sui mancanti determinano come interpretare correttamente i valori.",
               "feedback": [
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato.",
-                "Corretto. Separa funzioni pure da lettura e scrittura dei file; testa casi limite."
+                "Eliminare la virgola può trasformare 12,50 in 1250.",
+                "Un valore mancante non equivale necessariamente a zero.",
+                "Corretto. Formato e politica sui mancanti determinano come interpretare correttamente i valori."
               ]
             }
           ],
@@ -4422,18 +4422,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione di somma riceve una lista vuota. Quale comportamento definire?",
+              "q": "Una funzione accetta quantità intere da 1 a 100. Quale insieme di test verifica meglio i confini?",
               "options": [
-                "Risultato atteso o errore esplicito, documentato e testato.",
-                "Restituisci un valore arbitrario senza documentarlo.",
-                "Ignora il caso vuoto perché non è il caso tipico."
+                "0, 1, 100, 101 e un valore non intero.",
+                "Soltanto 20, 40 e 60.",
+                "Soltanto 1 e 100."
               ],
               "answer": 0,
-              "why": "Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
+              "why": "I valori ai confini e appena fuori, insieme al tipo errato, verificano accettazione e rifiuto.",
               "feedback": [
-                "Corretto. Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato."
+                "Corretto. I valori ai confini e appena fuori, insieme al tipo errato, verificano accettazione e rifiuto.",
+                "I valori centrali non verificano gli estremi.",
+                "I soli estremi validi non dimostrano il rifiuto dei valori esterni."
               ]
             }
           ],
@@ -4509,18 +4509,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione di somma riceve una lista vuota. Quale comportamento definire?",
+              "q": "Uno script elabora dieci file indipendenti e il quarto è illeggibile. Come gestisci il risultato?",
               "options": [
-                "Risultato atteso o errore esplicito, documentato e testato.",
-                "Restituisci un valore arbitrario senza documentarlo.",
-                "Ignora il caso vuoto perché non è il caso tipico."
+                "Registra il file fallito, continua quelli indipendenti se previsto e riepiloga gli esiti reali.",
+                "Dichiara che tutti i file sono riusciti.",
+                "Ignora il file fallito senza registrarlo."
               ],
               "answer": 0,
-              "why": "Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
+              "why": "Un riepilogo distingue successi e fallimenti e permette un nuovo tentativo mirato.",
               "feedback": [
-                "Corretto. Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato."
+                "Corretto. Un riepilogo distingue successi e fallimenti e permette un nuovo tentativo mirato.",
+                "Dichiarare successo totale nasconde il file non elaborato.",
+                "Senza registrazione non sai quale file recuperare."
               ]
             }
           ],
@@ -4596,18 +4596,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione di somma riceve una lista vuota. Quale comportamento definire?",
+              "q": "Un collega esegue la tua utility da una cartella diversa e il file di input non viene trovato. Come la rendi riutilizzabile?",
               "options": [
-                "Risultato atteso o errore esplicito, documentato e testato.",
-                "Restituisci un valore arbitrario senza documentarlo.",
-                "Ignora il caso vuoto perché non è il caso tipico."
+                "Accetta un percorso esplicito, documenta l’uso e segnala i percorsi non validi.",
+                "Imposta il percorso assoluto del tuo computer.",
+                "Chiedi di rinominare la cartella senza spiegare la dipendenza."
               ],
               "answer": 0,
-              "why": "Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
+              "why": "Un input configurabile riduce la dipendenza dall’ambiente dell’autore.",
               "feedback": [
-                "Corretto. Separa funzioni pure da lettura e scrittura dei file; testa casi limite.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato.",
-                "Rivedi il caso: Separa funzioni pure da lettura e scrittura dei file; testa casi limite. La soluzione attesa è: Risultato atteso o errore esplicito, documentato e testato."
+                "Corretto. Un input configurabile riduce la dipendenza dall’ambiente dell’autore.",
+                "Il percorso del tuo computer potrebbe non esistere altrove.",
+                "Rinominare una cartella non documenta né elimina la dipendenza."
               ]
             }
           ],
@@ -4697,18 +4697,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due utenti possiedono note diverse. Come testare l’isolamento?",
+              "q": "Due clienti hanno lo stesso nome ma ordini diversi. Come li distingui nello schema dati?",
               "options": [
-                "Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Verifica soltanto che ogni utente veda le proprie note.",
-                "Prova con un solo account amministratore."
+                "Assegna a ogni cliente un ID univoco e collegalo agli ordini tramite chiave esterna.",
+                "Usa il nome come unica chiave del cliente.",
+                "Unisci gli ordini dei clienti omonimi."
               ],
               "answer": 0,
-              "why": "L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
+              "why": "ID stabili e chiavi esterne distinguono le persone e mantengono le relazioni.",
               "feedback": [
-                "Corretto. L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui."
+                "Corretto. ID stabili e chiavi esterne distinguono le persone e mantengono le relazioni.",
+                "Il nome può ripetersi e non identifica univocamente il cliente.",
+                "Unire gli ordini attribuisce dati a persone potenzialmente diverse."
               ]
             }
           ],
@@ -4784,18 +4784,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due utenti possiedono note diverse. Come testare l’isolamento?",
+              "q": "Devi leggere gli ordini del cliente 42 senza modificare il database. Quale query è appropriata?",
               "options": [
-                "Verifica soltanto che ogni utente veda le proprie note.",
-                "Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Prova con un solo account amministratore."
+                "SELECT * FROM ordini;",
+                "SELECT * FROM ordini WHERE cliente_id = 42;",
+                "UPDATE ordini SET cliente_id = 42;"
               ],
               "answer": 1,
-              "why": "L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
+              "why": "SELECT con WHERE limita la lettura agli ordini richiesti.",
               "feedback": [
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Corretto. L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui."
+                "Senza filtro leggi anche gli ordini degli altri clienti.",
+                "Corretto. SELECT con WHERE limita la lettura agli ordini richiesti.",
+                "UPDATE modifica i record e non è una query di sola lettura."
               ]
             }
           ],
@@ -4871,18 +4871,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due utenti possiedono note diverse. Come testare l’isolamento?",
+              "q": "Un utente autenticato cambia l’ID di un documento nella richiesta e ottiene il documento altrui. Quale controllo manca?",
               "options": [
-                "Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Verifica soltanto che ogni utente veda le proprie note.",
-                "Prova con un solo account amministratore."
+                "L’autorizzazione sul singolo documento per l’identità autenticata.",
+                "Una password più lunga per tutti gli utenti.",
+                "Un menu che nasconda gli ID dei documenti."
               ],
               "answer": 0,
-              "why": "L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
+              "why": "L’identità verificata non basta: il server deve autorizzare l’accesso alla risorsa richiesta.",
               "feedback": [
-                "Corretto. L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui."
+                "Corretto. L’identità verificata non basta: il server deve autorizzare l’accesso alla risorsa richiesta.",
+                "Una password più robusta non corregge un accesso indebito da parte di un utente già autenticato.",
+                "Nascondere gli ID non impedisce richieste dirette."
               ]
             }
           ],
@@ -4958,18 +4958,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due utenti possiedono note diverse. Come testare l’isolamento?",
+              "q": "Una policy RLS consente la lettura dei record del proprietario. Come verifichi che non esponga record altrui?",
               "options": [
-                "Verifica soltanto che ogni utente veda le proprie note.",
-                "Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Prova con un solo account amministratore."
+                "Prova soltanto con il ruolo amministrativo.",
+                "Usa due utenti ordinari con dati distinti e prova letture proprie e incrociate.",
+                "Controlla soltanto che la tabella sia visibile nell’interfaccia."
               ],
               "answer": 1,
-              "why": "L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
+              "why": "Le prove positive e negative con identità distinte verificano il confine di accesso.",
               "feedback": [
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Corretto. L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui."
+                "Un ruolo privilegiato può aggirare le restrizioni previste per gli utenti ordinari.",
+                "Corretto. Le prove positive e negative con identità distinte verificano il confine di accesso.",
+                "La visibilità della tabella non dimostra che le singole righe siano protette."
               ]
             }
           ],
@@ -5045,18 +5045,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due utenti possiedono note diverse. Come testare l’isolamento?",
+              "q": "Un inserimento fallisce per una chiave esterna inesistente, ma l’interfaccia mostra Salvato. Come correggi il flusso?",
               "options": [
-                "Verifica soltanto che ogni utente veda le proprie note.",
-                "Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Prova con un solo account amministratore."
+                "Mostra successo appena l’utente preme il pulsante.",
+                "Attendi l’esito del database e mostra successo solo dopo conferma, altrimenti un errore utile.",
+                "Rimuovi il vincolo senza verificare la relazione richiesta."
               ],
               "answer": 1,
-              "why": "L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
+              "why": "La conferma del database distingue un salvataggio reale da uno rifiutato.",
               "feedback": [
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui.",
-                "Corretto. L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere.",
-                "Rivedi il caso: L’autenticazione identifica l’utente; l’autorizzazione decide quali record può leggere. La soluzione attesa è: Accedi con entrambi e tenta lettura e modifica dei record altrui."
+                "Il clic non dimostra che l’operazione sia riuscita.",
+                "Corretto. La conferma del database distingue un salvataggio reale da uno rifiutato.",
+                "Rimuovere il vincolo può compromettere l’integrità dei dati."
               ]
             }
           ],
@@ -5146,18 +5146,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una richiesta restituisce 429. Come reagire?",
+              "q": "Un endpoint risponde 401 a una richiesta senza token. Quale azione è coerente con lo stato?",
               "options": [
-                "Ripeti subito la richiesta senza limite.",
-                "Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Interpreta 429 come successo e continua."
+                "Tratta la risposta come una risorsa inesistente.",
+                "Verifica l’autenticazione e ottieni credenziali valide prima di riprovare.",
+                "Considera il contenuto salvato con successo."
               ],
               "answer": 1,
-              "why": "Distingui successo, errore client e errore server; gestisci timeout e stati UI.",
+              "why": "401 segnala credenziali di autenticazione mancanti o non valide.",
               "feedback": [
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Corretto. Distingui successo, errore client e errore server; gestisci timeout e stati UI.",
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente."
+                "Una risorsa non trovata è normalmente indicata da 404.",
+                "Corretto. 401 segnala credenziali di autenticazione mancanti o non valide.",
+                "Una risposta 401 non conferma alcun salvataggio."
               ]
             }
           ],
@@ -5233,18 +5233,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una richiesta restituisce 429. Come reagire?",
+              "q": "Fetch riceve HTTP 503 e il codice entra nel ramo di successo. Come correggi la gestione?",
               "options": [
-                "Ripeti subito la richiesta senza limite.",
-                "Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Interpreta 429 come successo e continua."
+                "Aggiungi soltanto un catch senza controllare lo stato HTTP.",
+                "Controlla response.ok o status prima di trattare il corpo come risultato riuscito.",
+                "Riprova immediatamente senza limiti."
               ],
               "answer": 1,
-              "why": "Distingui successo, errore client e errore server; gestisci timeout e stati UI.",
+              "why": "Fetch può risolversi anche per errori HTTP; occorre controllare esplicitamente lo stato.",
               "feedback": [
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Corretto. Distingui successo, errore client e errore server; gestisci timeout e stati UI.",
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente."
+                "catch da solo non intercetta necessariamente una risposta HTTP 503.",
+                "Corretto. Fetch può risolversi anche per errori HTTP; occorre controllare esplicitamente lo stato.",
+                "Tentativi illimitati possono aggravare l’indisponibilità e non correggono il ramo di successo."
               ]
             }
           ],
@@ -5320,18 +5320,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una richiesta restituisce 429. Come reagire?",
+              "q": "Una ricerca A è lenta; una ricerca B successiva termina prima, poi A sovrascrive i risultati. Come eviti l’incoerenza?",
               "options": [
-                "Ripeti subito la richiesta senza limite.",
-                "Interpreta 429 come successo e continua.",
-                "Rispetta il limite, applica attesa controllata e informa l’utente."
+                "Mostra sempre l’ultima risposta arrivata, indipendentemente dalla richiesta.",
+                "Blocca per sempre il campo dopo la prima ricerca.",
+                "Annulla o ignora le risposte obsolete e mostra lo stato della richiesta più recente."
               ],
               "answer": 2,
-              "why": "Distingui successo, errore client e errore server; gestisci timeout e stati UI.",
+              "why": "Associare i risultati alla richiesta corrente evita di mostrare dati obsoleti.",
               "feedback": [
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Corretto. Distingui successo, errore client e errore server; gestisci timeout e stati UI."
+                "L’ordine di arrivo può differire dall’ordine delle richieste.",
+                "Bloccare definitivamente il campo impedisce nuove ricerche anziché gestire la concorrenza.",
+                "Corretto. Associare i risultati alla richiesta corrente evita di mostrare dati obsoleti."
               ]
             }
           ],
@@ -5407,18 +5407,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una richiesta restituisce 429. Come reagire?",
+              "q": "Un frontend chiama un servizio AI con una chiave privata visibile nelle richieste del browser. Come riprogetti il flusso?",
               "options": [
-                "Ripeti subito la richiesta senza limite.",
-                "Interpreta 429 come successo e continua.",
-                "Rispetta il limite, applica attesa controllata e informa l’utente."
+                "Offusca la chiave nel JavaScript pubblico.",
+                "Inserisci la chiave in un campo HTML nascosto.",
+                "Invia le richieste a un backend autorizzato che custodisce la chiave e applica limiti."
               ],
               "answer": 2,
-              "why": "Distingui successo, errore client e errore server; gestisci timeout e stati UI.",
+              "why": "Il backend mantiene il segreto fuori dal client e può controllare accesso e consumo.",
               "feedback": [
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Corretto. Distingui successo, errore client e errore server; gestisci timeout e stati UI."
+                "L’offuscamento non impedisce di recuperare una chiave utilizzata dal browser.",
+                "Un campo nascosto resta accessibile ispezionando la pagina.",
+                "Corretto. Il backend mantiene il segreto fuori dal client e può controllare accesso e consumo."
               ]
             }
           ],
@@ -5494,18 +5494,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una richiesta restituisce 429. Come reagire?",
+              "q": "Una mini app invia un testo a un’API e visualizza il risultato. Quale collaudo copre il flusso essenziale?",
               "options": [
-                "Ripeti subito la richiesta senza limite.",
-                "Interpreta 429 come successo e continua.",
-                "Rispetta il limite, applica attesa controllata e informa l’utente."
+                "Verifica soltanto una risposta riuscita.",
+                "Controlla soltanto che il server risponda alla pagina iniziale.",
+                "Prova input valido, input non valido e indisponibilità simulata, verificando risultati e stati UI."
               ],
               "answer": 2,
-              "why": "Distingui successo, errore client e errore server; gestisci timeout e stati UI.",
+              "why": "I casi normali e di errore verificano l’interazione completa e il comportamento in caso di guasto.",
               "feedback": [
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Rivedi il caso: Distingui successo, errore client e errore server; gestisci timeout e stati UI. La soluzione attesa è: Rispetta il limite, applica attesa controllata e informa l’utente.",
-                "Corretto. Distingui successo, errore client e errore server; gestisci timeout e stati UI."
+                "Un solo successo non verifica validazione e recupero dagli errori.",
+                "La pagina iniziale non dimostra che l’integrazione API funzioni.",
+                "Corretto. I casi normali e di errore verificano l’interazione completa e il comportamento in caso di guasto."
               ]
             }
           ],
