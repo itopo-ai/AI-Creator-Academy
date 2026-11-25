@@ -10023,18 +10023,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cos'è un trigger?",
+            "q": "Un flusso Make deve verificare la disponibilità quando arriva un nuovo ordine. Quale evento costituisce il trigger?",
             "options": [
-              "Evento o orario che avvia un processo.",
-              "Risultato finale del processo.",
-              "Un errore di connessione."
+              "La ricezione del nuovo ordine.",
+              "La conferma inviata al termine del flusso.",
+              "Il risultato della verifica di disponibilità."
             ],
             "answer": 0,
-            "why": "Un trigger avvia un processo in risposta a un evento o orario.",
+            "why": "Il trigger avvia il processo quando arriva l'ordine.",
             "feedback": [
-              "Corretto. Un trigger avvia un processo in risposta a un evento o orario.",
-              "Rivedi il principio: Un trigger avvia un processo in risposta a un evento o orario.",
-              "Rivedi il principio: Un trigger avvia un processo in risposta a un evento o orario."
+              "Corretto. Il trigger avvia il processo quando arriva l'ordine.",
+              "La conferma è un risultato successivo.",
+              "La verifica avviene dopo l'avvio."
             ]
           },
           "masterclass": {
@@ -10117,18 +10117,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa aiuta a tracciare un'esecuzione?",
+            "q": "Due esecuzioni dello stesso scenario falliscono in momenti diversi. Quali dati permettono di distinguerle nel registro?",
             "options": [
-              "Solo il colore dello stato.",
-              "Solo il nome del programma.",
-              "Identificativo e timestamp."
+              "Nome dello scenario e colore dello stato.",
+              "Nome del cliente e importo totale, senza riferimenti all'esecuzione.",
+              "Identificativo di esecuzione e timestamp."
             ],
             "answer": 2,
-            "why": "Identificativo e timestamp aiutano a tracciare ogni esecuzione.",
+            "why": "ID e timestamp consentono di identificare e collocare temporalmente le esecuzioni.",
             "feedback": [
-              "Rivedi il principio: Identificativo e timestamp aiutano a tracciare ogni esecuzione.",
-              "Rivedi il principio: Identificativo e timestamp aiutano a tracciare ogni esecuzione.",
-              "Corretto. Identificativo e timestamp aiutano a tracciare ogni esecuzione."
+              "Lo stesso scenario può avere molte esecuzioni con lo stesso stato.",
+              "I dati commerciali non identificano necessariamente una singola esecuzione.",
+              "Corretto. ID e timestamp consentono di identificare e collocare temporalmente le esecuzioni."
             ]
           },
           "masterclass": {
@@ -10198,18 +10198,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come disegni un flusso ordine?",
+            "q": "Un ordine richiede controllo delle scorte e approvazione prima della conferma. Quale sequenza rispetta il processo?",
             "options": [
-              "Conferma prima della verifica.",
-              "Solo la schermata di conferma.",
-              "Trigger, verifica e conferma."
+              "Ricezione ordine, conferma, verifica scorte, approvazione.",
+              "Ricezione ordine, approvazione, conferma senza verifica scorte.",
+              "Ricezione ordine, verifica scorte, approvazione, conferma."
             ],
             "answer": 2,
-            "why": "Disegna un flusso ordine con trigger, verifica e conferma.",
+            "why": "La conferma segue i controlli previsti.",
             "feedback": [
-              "Rivedi il principio: Disegna un flusso ordine con trigger, verifica e conferma.",
-              "Rivedi il principio: Disegna un flusso ordine con trigger, verifica e conferma.",
-              "Corretto. Disegna un flusso ordine con trigger, verifica e conferma."
+              "Confermare prima dei controlli può generare impegni non sostenibili.",
+              "L'approvazione non sostituisce la verifica delle scorte.",
+              "Corretto. La conferma segue i controlli previsti."
             ]
           },
           "masterclass": {
@@ -10297,18 +10297,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve la mappatura dei campi?",
+            "q": "Il gestionale riceve il campo order_id mentre il CRM usa numero_ordine. Come trasferisci il riferimento?",
             "options": [
-              "Collegare campi e convertire unità.",
-              "Duplicare ogni campo.",
-              "Eliminare gli identificativi."
+              "Mappi order_id su numero_ordine mantenendo il valore originale.",
+              "Generi un nuovo numero casuale per ogni trasferimento.",
+              "Copi il valore nel campo importo dell'ordine."
             ],
             "answer": 0,
-            "why": "La mappatura collega campi tra sistemi e converte unità.",
+            "why": "La mappatura collega campi con lo stesso significato.",
             "feedback": [
-              "Corretto. La mappatura collega campi tra sistemi e converte unità.",
-              "Rivedi il principio: La mappatura collega campi tra sistemi e converte unità.",
-              "Rivedi il principio: La mappatura collega campi tra sistemi e converte unità."
+              "Corretto. La mappatura collega campi con lo stesso significato.",
+              "Un nuovo riferimento può impedire la riconciliazione.",
+              "Il campo importo ha una funzione diversa."
             ]
           },
           "masterclass": {
@@ -10391,18 +10391,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "2500 centesimi equivalgono a quanti euro?",
+            "q": "Un servizio restituisce 18.750 centesimi e il gestionale richiede euro. Quale valore trasferisci?",
             "options": [
-              "2500 euro.",
-              "25 euro.",
-              "250 euro."
+              "1.875 euro.",
+              "187,50 euro.",
+              "18.750 euro."
             ],
             "answer": 1,
-            "why": "Un importo in centesimi deve essere convertito prima di usarlo in euro.",
+            "why": "Per convertire centesimi in euro dividi per 100.",
             "feedback": [
-              "Rivedi il principio: Un importo in centesimi deve essere convertito prima di usarlo in euro.",
-              "Corretto. Un importo in centesimi deve essere convertito prima di usarlo in euro.",
-              "Rivedi il principio: Un importo in centesimi deve essere convertito prima di usarlo in euro."
+              "Dividere per 10 non converte correttamente l'unità.",
+              "Corretto. Per convertire centesimi in euro dividi per 100.",
+              "Copiare il numero senza conversione moltiplica l'importo per 100."
             ]
           },
           "masterclass": {
@@ -10472,18 +10472,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi una trasformazione di ordini?",
+            "q": "Per verificare conversione e assenza di duplicati, invii due volte un ordine da 4.500 centesimi con lo stesso ID. Quale esito attendi?",
             "options": [
-              "Usi solo valori casuali senza attese.",
-              "Cambi ID a ogni ripetizione.",
-              "Usi valori noti e ripeti lo stesso ID."
+              "Due registrazioni da 45 euro.",
+              "Una registrazione da 4.500 euro.",
+              "Una registrazione da 45 euro."
             ],
             "answer": 2,
-            "why": "Prova una trasformazione con valori noti e ripeti lo stesso ID ordine.",
+            "why": "Il test verifica sia la conversione sia l'unicità della registrazione.",
             "feedback": [
-              "Rivedi il principio: Prova una trasformazione con valori noti e ripeti lo stesso ID ordine.",
-              "Rivedi il principio: Prova una trasformazione con valori noti e ripeti lo stesso ID ordine.",
-              "Corretto. Prova una trasformazione con valori noti e ripeti lo stesso ID ordine."
+              "Due registrazioni indicano un effetto duplicato.",
+              "L'importo non è stato convertito in euro.",
+              "Corretto. Il test verifica sia la conversione sia l'unicità della registrazione."
             ]
           },
           "masterclass": {
@@ -10571,18 +10571,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve un filtro?",
+            "q": "Un sollecito deve partire soltanto per fatture scadute e non pagate. Quale filtro imposti?",
             "options": [
-              "Modificare il colore del record.",
-              "Decidere se un record prosegue.",
-              "Far proseguire sempre ogni record."
+              "Scaduta O non pagata.",
+              "Scaduta E non pagata.",
+              "Scaduta indipendentemente dallo stato del pagamento."
             ],
             "answer": 1,
-            "why": "Un filtro decide se un record può proseguire nel flusso.",
+            "why": "Entrambe le condizioni devono essere soddisfatte.",
             "feedback": [
-              "Rivedi il principio: Un filtro decide se un record può proseguire nel flusso.",
-              "Corretto. Un filtro decide se un record può proseguire nel flusso.",
-              "Rivedi il principio: Un filtro decide se un record può proseguire nel flusso."
+              "La condizione O include fatture che soddisfano soltanto un requisito.",
+              "Corretto. Entrambe le condizioni devono essere soddisfatte.",
+              "Una fattura scaduta ma già pagata non va sollecitata."
             ]
           },
           "masterclass": {
@@ -10665,18 +10665,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali valori testi per una soglia?",
+            "q": "Un filtro ammette fatture di importo maggiore o uguale a 100 euro. Quale terna verifica il confine?",
             "options": [
-              "Sotto, sopra e sul valore esatto.",
-              "Solo molto sopra.",
-              "Solo il valore medio."
+              "99,99; 100; 100,01 euro.",
+              "150; 200; 300 euro.",
+              "50; 60; 70 euro."
             ],
             "answer": 0,
-            "why": "Le soglie richiedono test sotto, sopra e sul valore esatto.",
+            "why": "I tre valori esercitano il confine e i due lati della soglia.",
             "feedback": [
-              "Corretto. Le soglie richiedono test sotto, sopra e sul valore esatto.",
-              "Rivedi il principio: Le soglie richiedono test sotto, sopra e sul valore esatto.",
-              "Rivedi il principio: Le soglie richiedono test sotto, sopra e sul valore esatto."
+              "Corretto. I tre valori esercitano il confine e i due lati della soglia.",
+              "Tutti questi valori superano la soglia.",
+              "Tutti questi valori sono inferiori alla soglia."
             ]
           },
           "masterclass": {
@@ -10746,18 +10746,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi i solleciti?",
+            "q": "Prima di attivare i solleciti automatici, quale campione simuli?",
             "options": [
-              "Solo fatture non pagate valide.",
-              "Solo fatture già pagate.",
-              "Fatture pagate, non pagate e dati mancanti."
+              "Soltanto fatture scadute non pagate.",
+              "Soltanto fatture con stato mancante.",
+              "Fatture scadute non pagate, già pagate e con stato mancante, verificando gli esiti."
             ],
             "answer": 2,
-            "why": "Simula solleciti con fatture pagate, non pagate e dati mancanti.",
+            "why": "Il campione esercita il percorso previsto e le eccezioni.",
             "feedback": [
-              "Rivedi il principio: Simula solleciti con fatture pagate, non pagate e dati mancanti.",
-              "Rivedi il principio: Simula solleciti con fatture pagate, non pagate e dati mancanti.",
-              "Corretto. Simula solleciti con fatture pagate, non pagate e dati mancanti."
+              "Non verifichi il blocco dei solleciti impropri.",
+              "Non verifichi il comportamento ordinario.",
+              "Corretto. Il campione esercita il percorso previsto e le eccezioni."
             ]
           },
           "masterclass": {
@@ -10845,18 +10845,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cos'è un retry?",
+            "q": "Un servizio di verifica scorte è temporaneamente indisponibile. Che cosa rappresenta un retry?",
             "options": [
-              "Eliminazione definitiva della richiesta.",
-              "Conferma automatica del successo.",
-              "Ripetizione di una richiesta fallita per cause temporanee."
+              "La registrazione della richiesta come completata.",
+              "La cancellazione definitiva dell'ordine.",
+              "Un nuovo tentativo controllato della richiesta fallita."
             ],
             "answer": 2,
-            "why": "Un retry ripete una richiesta fallita per cause temporanee.",
+            "why": "Il retry ripete una richiesta dopo un errore temporaneo.",
             "feedback": [
-              "Rivedi il principio: Un retry ripete una richiesta fallita per cause temporanee.",
-              "Rivedi il principio: Un retry ripete una richiesta fallita per cause temporanee.",
-              "Corretto. Un retry ripete una richiesta fallita per cause temporanee."
+              "Un errore non dimostra il completamento.",
+              "Cancellare l'ordine non ripete la richiesta.",
+              "Corretto. Il retry ripete una richiesta dopo un errore temporaneo."
             ]
           },
           "masterclass": {
@@ -10939,18 +10939,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come limiti i retry?",
+            "q": "Un servizio risponde con errori temporanei ripetuti. Quale politica di retry limita il sovraccarico?",
             "options": [
-              "Attesa crescente e numero massimo di tentativi.",
-              "Tentativi infiniti immediati.",
-              "Nessuna attesa né limite."
+              "Attese crescenti e numero massimo di tentativi.",
+              "Tentativi immediati senza limite.",
+              "Tentativi a intervalli sempre più brevi senza limite."
             ],
             "answer": 0,
-            "why": "Attesa crescente e limite di tentativi evitano sovraccarico e cicli infiniti.",
+            "why": "Attese crescenti e un limite riducono pressione e cicli infiniti.",
             "feedback": [
-              "Corretto. Attesa crescente e limite di tentativi evitano sovraccarico e cicli infiniti.",
-              "Rivedi il principio: Attesa crescente e limite di tentativi evitano sovraccarico e cicli infiniti.",
-              "Rivedi il principio: Attesa crescente e limite di tentativi evitano sovraccarico e cicli infiniti."
+              "Corretto. Attese crescenti e un limite riducono pressione e cicli infiniti.",
+              "I tentativi immediati possono aggravare il sovraccarico.",
+              "Intervalli decrescenti aumentano la pressione sul servizio."
             ]
           },
           "masterclass": {
@@ -11020,18 +11020,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi un timeout?",
+            "q": "Simuli un timeout durante la registrazione di un ordine. Cosa controlli per valutare la gestione dell'errore?",
             "options": [
-              "Nascondi tutti gli errori.",
-              "Consideri il primo timeout un successo.",
-              "Registri tentativi, esito e percorso di eccezione."
+              "Soltanto che lo scenario abbia terminato l'esecuzione.",
+              "Soltanto che il primo tentativo sia stato registrato.",
+              "Tentativi, esito finale, assenza di duplicati e percorso di eccezione."
             ],
             "answer": 2,
-            "why": "Simula un timeout e registra tentativi, esito e percorso di eccezione.",
+            "why": "Il test verifica recupero, effetti e gestione delle eccezioni.",
             "feedback": [
-              "Rivedi il principio: Simula un timeout e registra tentativi, esito e percorso di eccezione.",
-              "Rivedi il principio: Simula un timeout e registra tentativi, esito e percorso di eccezione.",
-              "Corretto. Simula un timeout e registra tentativi, esito e percorso di eccezione."
+              "Terminare non equivale a completare correttamente l'ordine.",
+              "Il primo tentativo non documenta l'esito dei successivi.",
+              "Corretto. Il test verifica recupero, effetti e gestione delle eccezioni."
             ]
           },
           "masterclass": {
@@ -11119,18 +11119,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cos'è l'idempotenza?",
+            "q": "Una notifica di pagamento viene consegnata due volte. Quale risultato dimostra l'idempotenza della registrazione?",
             "options": [
-              "Eliminare ogni identificativo.",
-              "Evitare effetti duplicati quando si ripete un evento.",
-              "Ripetere ogni pagamento due volte."
+              "Il pagamento produce due registrazioni identiche.",
+              "Il pagamento produce una sola registrazione contabile.",
+              "La seconda notifica cancella la prima registrazione valida."
             ],
             "answer": 1,
-            "why": "L'idempotenza evita effetti duplicati quando un evento viene ripetuto.",
+            "why": "Ripetere lo stesso evento non deve produrre effetti aggiuntivi.",
             "feedback": [
-              "Rivedi il principio: L'idempotenza evita effetti duplicati quando un evento viene ripetuto.",
-              "Corretto. L'idempotenza evita effetti duplicati quando un evento viene ripetuto.",
-              "Rivedi il principio: L'idempotenza evita effetti duplicati quando un evento viene ripetuto."
+              "Due registrazioni duplicano l'effetto economico.",
+              "Corretto. Ripetere lo stesso evento non deve produrre effetti aggiuntivi.",
+              "Cancellare la registrazione altera l'effetto originario."
             ]
           },
           "masterclass": {
@@ -11213,18 +11213,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come riconosci un'operazione già elaborata?",
+            "q": "Un ordine viene ritrasmesso dopo un timeout. Quale riferimento permette di riconoscere che è già stato elaborato?",
             "options": [
-              "Solo con l'ora corrente.",
-              "Con un identificativo stabile.",
-              "Con un ID nuovo a ogni tentativo."
+              "Un identificativo casuale generato a ogni tentativo.",
+              "Lo stesso identificativo stabile dell'ordine.",
+              "Il solo importo dell'ordine."
             ],
             "answer": 1,
-            "why": "Un identificativo stabile permette di riconoscere operazioni già elaborate.",
+            "why": "Un ID stabile collega le ripetizioni alla stessa operazione.",
             "feedback": [
-              "Rivedi il principio: Un identificativo stabile permette di riconoscere operazioni già elaborate.",
-              "Corretto. Un identificativo stabile permette di riconoscere operazioni già elaborate.",
-              "Rivedi il principio: Un identificativo stabile permette di riconoscere operazioni già elaborate."
+              "Un ID nuovo impedisce il riconoscimento diretto della ripetizione.",
+              "Corretto. Un ID stabile collega le ripetizioni alla stessa operazione.",
+              "Ordini diversi possono avere lo stesso importo."
             ]
           },
           "masterclass": {
@@ -11294,18 +11294,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi l'idempotenza di una fattura?",
+            "q": "Invii tre volte la stessa fattura simulata. Quale verifica dimostra che il flusso evita duplicati?",
             "options": [
-              "Controlli soltanto che il flusso termini.",
-              "Ripeti la stessa fattura e verifichi una sola registrazione.",
-              "Invii due fatture diverse."
+              "Controlli che tutte e tre le esecuzioni siano terminate.",
+              "Controlli che esista una sola registrazione per il suo ID.",
+              "Controlli che ogni esecuzione abbia un timestamp diverso."
             ],
             "answer": 1,
-            "why": "Ripeti una fattura simulata e verifica che venga registrata una sola volta.",
+            "why": "L'unicità della registrazione verifica l'effetto del flusso.",
             "feedback": [
-              "Rivedi il principio: Ripeti una fattura simulata e verifica che venga registrata una sola volta.",
-              "Corretto. Ripeti una fattura simulata e verifica che venga registrata una sola volta.",
-              "Rivedi il principio: Ripeti una fattura simulata e verifica che venga registrata una sola volta."
+              "Tre esecuzioni concluse possono aver creato tre registrazioni.",
+              "Corretto. L'unicità della registrazione verifica l'effetto del flusso.",
+              "Timestamp diversi non dimostrano l'assenza di duplicati."
             ]
           },
           "masterclass": {
@@ -11393,18 +11393,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa caratterizza un agente aziendale?",
+            "q": "Un agente aziendale deve classificare richieste di assistenza per urgenza. Quale configurazione è coerente con il compito?",
             "options": [
-              "Assenza di obiettivi.",
-              "Uso di strumenti per compiti definiti.",
-              "Accesso illimitato a ogni sistema."
+              "Accesso a tutti i sistemi aziendali senza obiettivi specifici.",
+              "Un obiettivo definito e strumenti autorizzati per leggere e classificare le richieste.",
+              "Un obiettivo di classificazione senza alcun accesso alle richieste da classificare."
             ],
             "answer": 1,
-            "why": "Un agente aziendale usa strumenti per compiti definiti.",
+            "why": "L'agente usa strumenti pertinenti a un compito definito.",
             "feedback": [
-              "Rivedi il principio: Un agente aziendale usa strumenti per compiti definiti.",
-              "Corretto. Un agente aziendale usa strumenti per compiti definiti.",
-              "Rivedi il principio: Un agente aziendale usa strumenti per compiti definiti."
+              "Permessi indiscriminati non sono necessari al compito.",
+              "Corretto. L'agente usa strumenti pertinenti a un compito definito.",
+              "Senza i dati necessari non può classificare le richieste."
             ]
           },
           "masterclass": {
@@ -11487,18 +11487,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come valuti e limiti un agente?",
+            "q": "Prima di attivare un agente che classifica richieste, come ne controlli qualità e autorizzazioni?",
             "options": [
-              "Concedi tutti i permessi senza test.",
-              "Misuri solo il numero di azioni.",
-              "Limiti strumenti e azioni e testi esempi etichettati."
+              "Concedi accesso completo e misuri soltanto la velocità.",
+              "Limiti gli accessi ma accetti ogni classificazione senza verifica.",
+              "Limiti dati, strumenti e azioni e confronti le classificazioni con esempi etichettati."
             ],
             "answer": 2,
-            "why": "Limita strumenti, dati e azioni; verifica qualità su esempi etichettati.",
+            "why": "Servono sia limiti operativi sia una valutazione con riferimenti attesi.",
             "feedback": [
-              "Rivedi il principio: Limita strumenti, dati e azioni; verifica qualità su esempi etichettati.",
-              "Rivedi il principio: Limita strumenti, dati e azioni; verifica qualità su esempi etichettati.",
-              "Corretto. Limita strumenti, dati e azioni; verifica qualità su esempi etichettati."
+              "La velocità non misura la correttezza e i permessi sono eccessivi.",
+              "I limiti di accesso non dimostrano la qualità delle classificazioni.",
+              "Corretto. Servono sia limiti operativi sia una valutazione con riferimenti attesi."
             ]
           },
           "masterclass": {
@@ -11568,18 +11568,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come verifichi la classificazione delle richieste?",
+            "q": "Su 25 richieste fittizie con urgenza già etichettata, l'agente ne classifica correttamente 21. Qual è la quota di classificazioni corrette?",
             "options": [
-              "Confronti gli esiti con categorie attese.",
-              "Accetti ogni categoria proposta.",
-              "Controlli solo la durata."
+              "84%.",
+              "16%.",
+              "119% circa."
             ],
             "answer": 0,
-            "why": "Classifica richieste fittizie e confronta esiti con categorie attese.",
+            "why": "21 diviso 25 equivale all'84%.",
             "feedback": [
-              "Corretto. Classifica richieste fittizie e confronta esiti con categorie attese.",
-              "Rivedi il principio: Classifica richieste fittizie e confronta esiti con categorie attese.",
-              "Rivedi il principio: Classifica richieste fittizie e confronta esiti con categorie attese."
+              "Corretto. 21 diviso 25 equivale all'84%.",
+              "Il 16% è la quota di classificazioni errate.",
+              "Dividere 25 per 21 inverte il rapporto."
             ]
           },
           "masterclass": {
