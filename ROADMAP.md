@@ -34,12 +34,12 @@ Linguaggio accessibile da zero, progressione graduale, domande concrete e contes
 | Quiz base Creator settimane 7–12 | 30 modificati | Confronto JSON sviluppo/RC1 |
 | Quiz base Creator settimane 13–18 | 30/30 revisionati e riletti | Commit e69116fd4dbccad12928c6f05ad5253d6121e0fb |
 | Quiz base Creator settimane 19–24 | 30/30 revisionati e riletti | Commit a84938c6230543edf7002b170c1ebe5bb8406a56 |
-| Quiz base Business | 144/144 già modificati rispetto a RC1; 36/144 perfezionati in questa fase | Audit e commit 8d69001c19a12aa36ab7c8d2d669b02b24e96e86 |
+| Quiz base Business | 144/144 già modificati rispetto a RC1; 54/144 perfezionati in questa fase | Audit e commit 8d69001c19a12aa36ab7c8d2d669b02b24e96e86 |
 | Revisione qualitativa delle lezioni | Da completare | Screenshot |
 | Feedback individuali per risposte errate | Da completare | Screenshot; non assumere completati |
 | Risorse esterne | Incompleta | Ultimo dato storico 6/30 indirizzi, da riconfermare |
 
-Avanzamento quiz Creator base verificato: 120/120 (100%). Copertura delle modifiche/documentazione: 528/528 (264 avanzati documentati, 120 base Creator e 144 base Business modificati rispetto a RC1); perfezionamento secondo gli standard correnti: Business 36/144, 108 ancora con feedback non distinti; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
+Avanzamento quiz Creator base verificato: 120/120 (100%). Copertura delle modifiche/documentazione: 528/528 (264 avanzati documentati, 120 base Creator e 144 base Business modificati rispetto a RC1); perfezionamento secondo gli standard correnti: Business 54/144, 90 ancora con feedback non distinti; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
 
 ## Collaudo e criteri di rilascio
 Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS, dizionario e ricerca, calcolo avanzamento, validazione strutturale backup, compatibilità strutturale 6.5.1, allineamento versione/cache, correzioni preventive UI. Non equivalgono a test end-to-end.
@@ -54,7 +54,7 @@ Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS
 - [ ] Approvazione utente prima del rilascio.
 
 ## Prossimo intervento
-Business settimane 13–18: perfezionare 18 quiz base, preservando indici e altri campi; obiettivo 54/144. Poi feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
+Business settimane 19–24: perfezionare 18 quiz base, preservando indici e altri campi; obiettivo 72/144. Poi feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
 
 ## Registro cronologico
 - 25/11/2026: recuperata continuità della chat precedente tramite screenshot e confronto GitHub. Branch sviluppo risultava 27 commit avanti a main e divergente da RC1 (10 avanti, 1 indietro). Main osservato: cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 osservata: e4ee85918cadccd38499772827e663fef0c34fd5. Verificate modifiche knowledgeCheck per tutte le 60 sessioni Creator settimane 1–12, nessuna per 13–24 rispetto a RC1. Nessuna modifica applicativa in questa fase.
@@ -79,3 +79,6 @@ Audit: 144 knowledgeCheck modificati rispetto a RC1, 144 testi distinti; 141/144
 
 ### Aggiornamento 25/11/2026 — Business settimane 7–12
 Commit curriculum: 171d96ea0546cce61f7210e7b108790111a294c0. Perfezionati 18 quiz base: fattibilità e ROI, rischi, governance, cambiamento, completamento specializzazione IBM, business case AI. Verificati 144 testi distinti, 18 sole sessioni modificate, indici delle risposte e altri campi invariati, tre opzioni e tre feedback distinti per ogni nuovo quiz; rilettura integrale JSON riuscita. Business 36/144 (25%); 108 feedback ancora non distinti. Nessun test runtime o pubblicazione. Prossimo blocco settimane 13–18.
+
+### Aggiornamento 25/11/2026 — Business settimane 13–18
+Commit curriculum: a8d5d6392eb6bf3a8e707e2bd272dff44effeaf5. Perfezionati 18 quiz base su no-code foundations, applied no-code AI e guida della trasformazione. Verificati 144 testi distinti, 18 sole sessioni modificate, indici delle risposte e altri campi invariati, tre opzioni e tre feedback distinti per ogni nuovo quiz; rilettura integrale JSON riuscita. Business 54/144 (37,5%); 90 feedback ancora non distinti. Nessun test runtime o pubblicazione. Prossimo blocco settimane 19–24: pilota no-code e GA4.
