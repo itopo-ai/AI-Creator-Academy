@@ -6729,18 +6729,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa rappresenta una riga in una tabella dati?",
+            "q": "In una tabella Excel con una riga per fattura e colonne numero, data e importo, cosa rappresenta una riga?",
             "options": [
-              "Un record.",
-              "Un attributo di tutti i record.",
-              "Sempre un totale."
+              "Una singola fattura.",
+              "Tutti gli importi del periodo.",
+              "Un attributo comune a tutte le fatture."
             ],
             "answer": 0,
-            "why": "Una tabella Excel usa righe per record e colonne per attributi.",
+            "why": "La riga rappresenta un record, qui una fattura.",
             "feedback": [
-              "Corretto. Una tabella Excel usa righe per record e colonne per attributi.",
-              "Rivedi il principio: Una tabella Excel usa righe per record e colonne per attributi.",
-              "Rivedi il principio: Una tabella Excel usa righe per record e colonne per attributi."
+              "Corretto. La riga rappresenta un record, qui una fattura.",
+              "Il totale del periodo richiede un'aggregazione.",
+              "Un attributo è rappresentato da una colonna."
             ]
           },
           "masterclass": {
@@ -6823,18 +6823,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come eviti errori di calcolo nel foglio?",
+            "q": "Un foglio contiene importi in euro e centesimi. Come prepari la colonna per sommarli?",
             "options": [
-              "Memorizzi tutti gli importi come testo.",
-              "Tipi coerenti e unità esplicite.",
-              "Mescoli euro e centesimi senza conversione."
+              "Sommi i valori originali e aggiungi il simbolo euro.",
+              "Converti gli importi in una stessa unità e in un tipo numerico coerente.",
+              "Converti tutti i valori in testo con due decimali."
             ],
             "answer": 1,
-            "why": "Tipi coerenti e unità esplicite evitano calcoli errati.",
+            "why": "Unità e tipi coerenti rendono significativa la somma.",
             "feedback": [
-              "Rivedi il principio: Tipi coerenti e unità esplicite evitano calcoli errati.",
-              "Corretto. Tipi coerenti e unità esplicite evitano calcoli errati.",
-              "Rivedi il principio: Tipi coerenti e unità esplicite evitano calcoli errati."
+              "Il simbolo non converte i centesimi in euro.",
+              "Corretto. Unità e tipi coerenti rendono significativa la somma.",
+              "Il testo non garantisce operazioni numeriche corrette."
             ]
           },
           "masterclass": {
@@ -6904,18 +6904,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come pulisci un foglio con date e importi errati?",
+            "q": "Un registro contiene date in formati diversi e importi non interpretabili. Come lo pulisci?",
             "options": [
-              "Sostituisci ogni errore con zero.",
-              "Elimini le colonne problematiche senza verifica.",
-              "Normalizzi i formati e segnali valori non validi."
+              "Sostituisci gli importi non interpretabili con zero.",
+              "Elimini tutte le righe con date in formato diverso.",
+              "Normalizzi i formati e segnali i valori non validi per verifica."
             ],
             "answer": 2,
-            "why": "Pulisci date e importi in un foglio simulato e segnala valori non validi.",
+            "why": "La normalizzazione conserva i dati validi e rende visibili le anomalie.",
             "feedback": [
-              "Rivedi il principio: Pulisci date e importi in un foglio simulato e segnala valori non validi.",
-              "Rivedi il principio: Pulisci date e importi in un foglio simulato e segnala valori non validi.",
-              "Corretto. Pulisci date e importi in un foglio simulato e segnala valori non validi."
+              "Zero è un valore economico e non equivale a un dato sconosciuto.",
+              "Un formato diverso può contenere una data valida.",
+              "Corretto. La normalizzazione conserva i dati validi e rende visibili le anomalie."
             ]
           },
           "masterclass": {
@@ -7003,18 +7003,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cos'è la riconciliazione?",
+            "q": "Il report mensile indica ricavi per 25.000 euro. Quale verifica costituisce una riconciliazione?",
             "options": [
-              "Modifica grafica dei totali.",
-              "Confronto con una fonte indipendente.",
-              "Duplicazione del report."
+              "Ricalcolare il totale usando soltanto le stesse righe del report.",
+              "Confrontare il totale con il registro fatture indipendente per lo stesso periodo e perimetro.",
+              "Confrontare il totale con il budget previsto."
             ],
             "answer": 1,
-            "why": "La riconciliazione confronta dati con una fonte indipendente.",
+            "why": "La riconciliazione confronta dati con una fonte indipendente e coerente.",
             "feedback": [
-              "Rivedi il principio: La riconciliazione confronta dati con una fonte indipendente.",
-              "Corretto. La riconciliazione confronta dati con una fonte indipendente.",
-              "Rivedi il principio: La riconciliazione confronta dati con una fonte indipendente."
+              "Ricalcolare la stessa fonte non rileva tutte le omissioni.",
+              "Corretto. La riconciliazione confronta dati con una fonte indipendente e coerente.",
+              "Il budget è una previsione, non il registro delle fatture effettive."
             ]
           },
           "masterclass": {
@@ -7097,18 +7097,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali cause possono spiegare uno scostamento?",
+            "q": "Il registro fatture totalizza 12.000 euro e il report 12.500 euro. Quale ipotesi va verificata?",
             "options": [
-              "Sempre un errore del software.",
-              "Duplicati, omissioni o periodi diversi.",
-              "Solo il colore delle celle."
+              "Un aumento dei ricavi necessariamente reale.",
+              "Una fattura duplicata, un'omissione o una differenza di periodo.",
+              "Un errore necessariamente imputabile alla formula di somma."
             ],
             "answer": 1,
-            "why": "Differenze possono derivare da duplicati, omissioni o periodi diversi.",
+            "why": "Duplicati, omissioni e perimetri diversi possono spiegare lo scostamento.",
             "feedback": [
-              "Rivedi il principio: Differenze possono derivare da duplicati, omissioni o periodi diversi.",
-              "Corretto. Differenze possono derivare da duplicati, omissioni o periodi diversi.",
-              "Rivedi il principio: Differenze possono derivare da duplicati, omissioni o periodi diversi."
+              "La differenza tra fonti non dimostra crescita reale.",
+              "Corretto. Duplicati, omissioni e perimetri diversi possono spiegare lo scostamento.",
+              "Una formula errata è solo una delle possibili cause."
             ]
           },
           "masterclass": {
@@ -7178,18 +7178,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come riconcili un registro fatture?",
+            "q": "Dopo aver confrontato registro e report, individui una fattura mancante da 300 euro. Come chiudi la riconciliazione?",
             "options": [
-              "Ignori gli scostamenti piccoli.",
-              "Confronti il report e documenti ogni differenza.",
-              "Modifichi i totali per farli coincidere."
+              "Aggiungi 300 euro al totale senza registrare la causa.",
+              "Documenti la differenza, correggi la fonte appropriata e verifichi nuovamente i totali.",
+              "Elimini la fattura dal registro per ottenere totali uguali."
             ],
             "answer": 1,
-            "why": "Confronta un registro fatture con un report e documenta ogni scostamento.",
+            "why": "La riconciliazione richiede correzioni tracciabili e una verifica finale.",
             "feedback": [
-              "Rivedi il principio: Confronta un registro fatture con un report e documenta ogni scostamento.",
-              "Corretto. Confronta un registro fatture con un report e documenta ogni scostamento.",
-              "Rivedi il principio: Confronta un registro fatture con un report e documenta ogni scostamento."
+              "Una rettifica senza evidenza non è verificabile.",
+              "Corretto. La riconciliazione richiede correzioni tracciabili e una verifica finale.",
+              "Eliminare una fattura valida altera la fonte."
             ]
           },
           "masterclass": {
@@ -7277,18 +7277,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve una dashboard operativa?",
+            "q": "Un responsabile finanziario deve individuare rapidamente problemi di liquidità. Quale dashboard è più utile?",
             "options": [
-              "Mostrare il massimo numero di grafici.",
-              "Sostituire ogni analisi.",
-              "Collegare indicatori a decisioni."
+              "Una dashboard con molti grafici di vendite senza indicatori di liquidità.",
+              "Una dashboard che mostra soltanto il fatturato annuale.",
+              "Una dashboard con liquidità, scostamenti e indicatori collegati alle decisioni."
             ],
             "answer": 2,
-            "why": "Una dashboard collega indicatori a decisioni operative.",
+            "why": "Gli indicatori devono supportare la decisione operativa prevista.",
             "feedback": [
-              "Rivedi il principio: Una dashboard collega indicatori a decisioni operative.",
-              "Rivedi il principio: Una dashboard collega indicatori a decisioni operative.",
-              "Corretto. Una dashboard collega indicatori a decisioni operative."
+              "Il numero di grafici non garantisce pertinenza.",
+              "Il fatturato non misura direttamente la liquidità.",
+              "Corretto. Gli indicatori devono supportare la decisione operativa prevista."
             ]
           },
           "masterclass": {
@@ -7371,18 +7371,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa definisce un KPI?",
+            "q": "Due reparti mostrano valori diversi per il margine mensile. Cosa documenti per rendere il KPI confrontabile?",
             "options": [
-              "Solo il colore e il valore.",
-              "Definizione, fonte, periodo e responsabile.",
-              "Solo il nome."
+              "Soltanto il formato percentuale e il colore.",
+              "Definizione di margine, fonte, periodo e responsabile.",
+              "Soltanto il nome del KPI e il valore più recente."
             ],
             "answer": 1,
-            "why": "Ogni KPI richiede definizione, fonte, periodo e responsabile.",
+            "why": "Una definizione condivisa e una fonte identificata rendono il KPI verificabile.",
             "feedback": [
-              "Rivedi il principio: Ogni KPI richiede definizione, fonte, periodo e responsabile.",
-              "Corretto. Ogni KPI richiede definizione, fonte, periodo e responsabile.",
-              "Rivedi il principio: Ogni KPI richiede definizione, fonte, periodo e responsabile."
+              "Il formato non risolve differenze di calcolo.",
+              "Corretto. Una definizione condivisa e una fonte identificata rendono il KPI verificabile.",
+              "Nome e valore non chiariscono perimetro e responsabilità."
             ]
           },
           "masterclass": {
@@ -7452,18 +7452,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come progetti quattro indicatori utili?",
+            "q": "Progetti un cruscotto con ricavi, margine, liquidità e scostamenti. Come verifichi che sia utile?",
             "options": [
-              "Associ una decisione a ciascuno.",
-              "Scegli quattro grafici senza finalità.",
-              "Ripeti lo stesso indicatore quattro volte."
+              "Associ a ciascun indicatore una decisione aziendale concreta.",
+              "Scegli per ogni indicatore un grafico diverso senza definire decisioni.",
+              "Ripeti il grafico dei ricavi con quattro filtri temporali."
             ],
             "answer": 0,
-            "why": "Disegna un cruscotto con quattro indicatori e una decisione per ciascuno.",
+            "why": "Un indicatore utile informa una decisione specifica.",
             "feedback": [
-              "Corretto. Disegna un cruscotto con quattro indicatori e una decisione per ciascuno.",
-              "Rivedi il principio: Disegna un cruscotto con quattro indicatori e una decisione per ciascuno.",
-              "Rivedi il principio: Disegna un cruscotto con quattro indicatori e una decisione per ciascuno."
+              "Corretto. Un indicatore utile informa una decisione specifica.",
+              "La varietà grafica non dimostra utilità operativa.",
+              "Quattro viste dei ricavi non coprono gli altri indicatori."
             ]
           },
           "masterclass": {
@@ -7551,18 +7551,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa significa ETL?",
+            "q": "Importi vendite da un file, uniformi le date e carichi il risultato in un modello. Qual è la sequenza ETL?",
             "options": [
-              "Elaborazione, trasmissione e login.",
+              "Trasformazione, caricamento ed estrazione.",
               "Estrazione, trasformazione e caricamento.",
-              "Esportazione, test e licenza."
+              "Caricamento, estrazione e trasformazione."
             ],
             "answer": 1,
-            "why": "ETL significa estrazione, trasformazione e caricamento dei dati.",
+            "why": "ETL estrae i dati, li trasforma e poi carica il risultato.",
             "feedback": [
-              "Rivedi il principio: ETL significa estrazione, trasformazione e caricamento dei dati.",
-              "Corretto. ETL significa estrazione, trasformazione e caricamento dei dati.",
-              "Rivedi il principio: ETL significa estrazione, trasformazione e caricamento dei dati."
+              "Non puoi trasformare i dati prima di averli estratti in questo flusso.",
+              "Corretto. ETL estrae i dati, li trasforma e poi carica il risultato.",
+              "Caricare prima della trasformazione descrive una sequenza diversa da quella proposta."
             ]
           },
           "masterclass": {
@@ -7645,18 +7645,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Perché conservare i dati grezzi?",
+            "q": "Una trasformazione ETL produce totali inattesi. Perché è utile conservare i file grezzi?",
             "options": [
-              "Per evitare ogni controllo.",
-              "Per sostituire i dati puliti.",
-              "Per ripetere e verificare le trasformazioni."
+              "Per usare sempre i dati grezzi al posto di quelli verificati.",
+              "Per evitare di documentare le regole di trasformazione.",
+              "Per ripetere la trasformazione e confrontare il risultato con gli originali."
             ],
             "answer": 2,
-            "why": "Conservare i dati grezzi permette di ripetere e verificare le trasformazioni.",
+            "why": "Gli originali consentono riproducibilità e verifica.",
             "feedback": [
-              "Rivedi il principio: Conservare i dati grezzi permette di ripetere e verificare le trasformazioni.",
-              "Rivedi il principio: Conservare i dati grezzi permette di ripetere e verificare le trasformazioni.",
-              "Corretto. Conservare i dati grezzi permette di ripetere e verificare le trasformazioni."
+              "I dati grezzi possono contenere difetti non risolti.",
+              "Gli originali non sostituiscono la documentazione delle regole.",
+              "Corretto. Gli originali consentono riproducibilità e verifica."
             ]
           },
           "masterclass": {
@@ -7726,18 +7726,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come documenti una pulizia ETL?",
+            "q": "Importi tabelle di vendite e acquisti e uniformi i codici prodotto. Come rendi ripetibile la pulizia?",
             "options": [
-              "Salvi soltanto il grafico finale.",
-              "Registri i passaggi applicati alle tabelle.",
-              "Sovrascrivi gli originali senza traccia."
+              "Salvi soltanto il report finale in PDF.",
+              "Registri le trasformazioni applicate e le relative regole.",
+              "Modifichi manualmente gli originali senza annotare le operazioni."
             ],
             "answer": 1,
-            "why": "Importa due tabelle fittizie e registra i passaggi di pulizia.",
+            "why": "Le regole registrate permettono di ripetere e verificare il processo.",
             "feedback": [
-              "Rivedi il principio: Importa due tabelle fittizie e registra i passaggi di pulizia.",
-              "Corretto. Importa due tabelle fittizie e registra i passaggi di pulizia.",
-              "Rivedi il principio: Importa due tabelle fittizie e registra i passaggi di pulizia."
+              "Il PDF mostra il risultato ma non le trasformazioni.",
+              "Corretto. Le regole registrate permettono di ripetere e verificare il processo.",
+              "Modifiche non registrate impediscono di ricostruire il processo."
             ]
           },
           "masterclass": {
@@ -7825,18 +7825,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quando controlli la qualità ETL?",
+            "q": "Un passaggio ETL elimina righe duplicate. Quando misuri conteggi e totali per verificarne l'effetto?",
             "options": [
-              "Solo quando il report non si apre.",
-              "Prima e dopo ogni trasformazione.",
-              "Solo prima dell'importazione."
+              "Soltanto prima di importare i dati.",
+              "Prima e dopo il passaggio.",
+              "Soltanto dopo la pubblicazione del report."
             ],
             "answer": 1,
-            "why": "La qualità ETL si controlla prima e dopo ogni trasformazione.",
+            "why": "Il confronto prima e dopo isola l'effetto della trasformazione.",
             "feedback": [
-              "Rivedi il principio: La qualità ETL si controlla prima e dopo ogni trasformazione.",
-              "Corretto. La qualità ETL si controlla prima e dopo ogni trasformazione.",
-              "Rivedi il principio: La qualità ETL si controlla prima e dopo ogni trasformazione."
+              "La misura iniziale da sola non mostra l'effetto.",
+              "Corretto. Il confronto prima e dopo isola l'effetto della trasformazione.",
+              "Il controllo tardivo rende più difficile individuare il passaggio responsabile."
             ]
           },
           "masterclass": {
@@ -7919,18 +7919,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come gestisci le righe escluse?",
+            "q": "Durante la pulizia escludi cinque righe con chiavi mancanti. Cosa registri?",
             "options": [
-              "Le conti sempre come valide.",
-              "Documenti motivo e impatto misurabile.",
-              "Le cancelli senza registrarle."
+              "Soltanto il numero di righe rimaste.",
+              "Motivo dell'esclusione, numero di righe e impatto sui totali pertinenti.",
+              "Le righe come valide, attribuendo loro una chiave inventata."
             ],
             "answer": 1,
-            "why": "Le righe escluse devono avere una motivazione e un impatto misurabile.",
+            "why": "Le esclusioni devono essere motivate e quantificate.",
             "feedback": [
-              "Rivedi il principio: Le righe escluse devono avere una motivazione e un impatto misurabile.",
-              "Corretto. Le righe escluse devono avere una motivazione e un impatto misurabile.",
-              "Rivedi il principio: Le righe escluse devono avere una motivazione e un impatto misurabile."
+              "Il conteggio finale non spiega cosa è stato escluso.",
+              "Corretto. Le esclusioni devono essere motivate e quantificate.",
+              "Una chiave inventata può collegare record in modo errato."
             ]
           },
           "masterclass": {
@@ -8000,18 +8000,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali misure confronti prima e dopo la pulizia?",
+            "q": "Dopo una pulizia ETL il file passa da 1.000 a 980 righe. Quale controllo aiuta a capire se la modifica è corretta?",
             "options": [
-              "Conteggi, nulli, duplicati e totali.",
-              "Solo la dimensione del file.",
-              "Solo il tempo di apertura."
+              "Confrontare conteggi, nulli, duplicati e totali prima e dopo, spiegando le differenze.",
+              "Verificare soltanto che il file sia più piccolo.",
+              "Misurare soltanto il tempo di apertura del report."
             ],
             "answer": 0,
-            "why": "Confronta conteggi, nulli, duplicati e totali prima e dopo la pulizia.",
+            "why": "Le misure di qualità e i totali rendono verificabile la trasformazione.",
             "feedback": [
-              "Corretto. Confronta conteggi, nulli, duplicati e totali prima e dopo la pulizia.",
-              "Rivedi il principio: Confronta conteggi, nulli, duplicati e totali prima e dopo la pulizia.",
-              "Rivedi il principio: Confronta conteggi, nulli, duplicati e totali prima e dopo la pulizia."
+              "Corretto. Le misure di qualità e i totali rendono verificabile la trasformazione.",
+              "La dimensione del file non dimostra che siano state eliminate le righe giuste.",
+              "La velocità non verifica l'integrità dei dati."
             ]
           },
           "masterclass": {
@@ -8099,18 +8099,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa distingue un modello dati analitico?",
+            "q": "In un modello Power BI, le vendite contengono quantità e importi, mentre i prodotti contengono categorie. Come distingui le tabelle?",
             "options": [
-              "Solo file grandi e piccoli.",
-              "Solo grafici e tabelle.",
-              "Fatti misurabili e dimensioni descrittive."
+              "Prodotti come fatti misurabili e vendite come dimensione descrittiva.",
+              "Entrambe come dimensioni perché contengono codici prodotto.",
+              "Vendite come fatti misurabili e prodotti come dimensione descrittiva."
             ],
             "answer": 2,
-            "why": "Un modello dati distingue fatti misurabili e dimensioni descrittive.",
+            "why": "I fatti registrano misure e le dimensioni descrivono il contesto.",
             "feedback": [
-              "Rivedi il principio: Un modello dati distingue fatti misurabili e dimensioni descrittive.",
-              "Rivedi il principio: Un modello dati distingue fatti misurabili e dimensioni descrittive.",
-              "Corretto. Un modello dati distingue fatti misurabili e dimensioni descrittive."
+              "La categoria descrive il prodotto, mentre gli importi sono misure di vendita.",
+              "La presenza di una chiave non determina da sola il ruolo della tabella.",
+              "Corretto. I fatti registrano misure e le dimensioni descrivono il contesto."
             ]
           },
           "masterclass": {
@@ -8193,18 +8193,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa indica la granularità?",
+            "q": "Una tabella vendite contiene una riga per articolo di ogni ordine. Qual è la sua granularità?",
             "options": [
-              "Ciò che rappresenta una riga.",
-              "La dimensione del carattere.",
-              "Il numero di grafici."
+              "Una riga per articolo dell'ordine.",
+              "Una riga per cliente.",
+              "Una riga per ordine completo."
             ],
             "answer": 0,
-            "why": "La granularità indica cosa rappresenta una riga; relazioni errate duplicano importi.",
+            "why": "La granularità definisce l'unità rappresentata da ciascuna riga.",
             "feedback": [
-              "Corretto. La granularità indica cosa rappresenta una riga; relazioni errate duplicano importi.",
-              "Rivedi il principio: La granularità indica cosa rappresenta una riga; relazioni errate duplicano importi.",
-              "Rivedi il principio: La granularità indica cosa rappresenta una riga; relazioni errate duplicano importi."
+              "Corretto. La granularità definisce l'unità rappresentata da ciascuna riga.",
+              "Un cliente può effettuare più ordini con più articoli.",
+              "Un ordine può occupare più righe."
             ]
           },
           "masterclass": {
@@ -8274,18 +8274,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come colleghi vendite, clienti e prodotti?",
+            "q": "Ogni prodotto ha un codice univoco nella dimensione prodotti e può apparire in molte righe di vendita. Quale relazione imposti?",
             "options": [
-              "Colleghi ogni riga a tutte le altre.",
-              "Usi soltanto il nome visualizzato.",
-              "Definisci chiavi e cardinalità."
+              "Uno-a-uno tra prodotti e vendite tramite il codice.",
+              "Molti-a-molti usando il nome del prodotto senza verificarne l'unicità.",
+              "Uno-a-molti dalla dimensione prodotti alle vendite tramite il codice."
             ],
             "answer": 2,
-            "why": "Disegna vendite, clienti e prodotti con chiavi e cardinalità.",
+            "why": "Una chiave univoca nella dimensione può riferirsi a molte righe dei fatti.",
             "feedback": [
-              "Rivedi il principio: Disegna vendite, clienti e prodotti con chiavi e cardinalità.",
-              "Rivedi il principio: Disegna vendite, clienti e prodotti con chiavi e cardinalità.",
-              "Corretto. Disegna vendite, clienti e prodotti con chiavi e cardinalità."
+              "Uno-a-uno non rappresenta le vendite ripetute dello stesso prodotto.",
+              "Nomi non univoci possono creare corrispondenze ambigue e totali errati.",
+              "Corretto. Una chiave univoca nella dimensione può riferirsi a molte righe dei fatti."
             ]
           },
           "masterclass": {
