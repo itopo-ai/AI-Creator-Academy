@@ -23,23 +23,22 @@ Aggiornato: 25 novembre 2026. Documento di continuità del progetto; non costitu
 Creator & Developer: 24 settimane, 120 sessioni, 240 quiz. Business & Management: 48 settimane, 144 sessioni, 288 quiz. Totale 264 sessioni e 528 quiz (264 base e 264 avanzati).
 Linguaggio accessibile da zero, progressione graduale, domande concrete e contestuali, tre alternative distinte e plausibili, feedback specifico per ciascun errore, teoria collegata alla pratica, risorse autorevoli e verificate. Qualità prima della velocità.
 
-## Stato al 25 novembre 2026
+## Stato operativo corrente — 25 novembre 2026
+
 | Intervento | Stato | Evidenza |
 |---|---|---|
-| Introduzioni 264 lezioni | Documentato completato | README 6.5.1 |
-| Dizionario IT & AI, 114 termini, ricerca, filtri e parole contestuali | Documentato/riportato implementato | README sviluppo e screenshot |
-| Controllo strutturale 264 lezioni e 528 quiz | Riportato superato | README e screenshot; da riconfermare dopo modifiche |
-| Quiz avanzati Creator 120 e Business 144 | Documentati revisionati | README sviluppo; audit integrale da eseguire |
-| Quiz base Creator settimane 1–6 | 30 modificati | Confronto JSON sviluppo/RC1 |
-| Quiz base Creator settimane 7–12 | 30 modificati | Confronto JSON sviluppo/RC1 |
-| Quiz base Creator settimane 13–18 | 30/30 revisionati e riletti | Commit e69116fd4dbccad12928c6f05ad5253d6121e0fb |
-| Quiz base Creator settimane 19–24 | 30/30 revisionati e riletti | Commit a84938c6230543edf7002b170c1ebe5bb8406a56 |
-| Quiz base Business | 144/144 già modificati rispetto a RC1; 144/144 perfezionati in questa fase | Audit e commit 8d69001c19a12aa36ab7c8d2d669b02b24e96e86 |
-| Revisione qualitativa delle lezioni | Da completare | Screenshot |
-| Feedback individuali per risposte errate | Da completare | Screenshot; non assumere completati |
-| Risorse esterne | Incompleta | Ultimo dato storico 6/30 indirizzi, da riconfermare |
+| Introduzioni 264 lezioni | Documentato completato | README storico 6.5.1 |
+| Dizionario IT & AI, 114 termini | Documentato implementato | README storico e QA simulata |
+| Integrità curriculum | Verificata staticamente | Fase 0 e commit 05bde071eec47effa5c41df286314593d8b94bbf |
+| Quiz base Creator | 120/120 revisionati | Registro cronologico e 120/120 feedback distinti |
+| Quiz base Business | 144/144 revisionati | Registro cronologico e 144/144 feedback distinti |
+| Quiz avanzati Creator | 120/120 revisionati | Commit 14099064761ad358231de4784d7aae8d78bea08f e verifica Fase 0 |
+| Quiz avanzati Business | 18/144 revisionati | Commit 05bde071eec47effa5c41df286314593d8b94bbf |
+| Audit qualitativo delle lezioni | Da completare | Registro cronologico |
+| Risorse esterne | Da verificare integralmente | Dato storico 6/30 indirizzi, non riconfermato |
+| Collaudi runtime e rilascio | Da completare | Checklist seguente |
 
-Avanzamento quiz Creator base verificato: 120/120 (100%). Copertura delle modifiche/documentazione: 528/528 (264 avanzati documentati, 120 base Creator e 144 base Business modificati rispetto a RC1); perfezionamento secondo gli standard correnti: Business 144/144, nessun quiz base Business con feedback non distinti; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
+72 settimane, 264 sessioni con ID univoci, 528 testi di domanda distinti, 1584 feedback presenti. Quiz con tre feedback distinti: 402/528 (76,14%); 126 quiz avanzati Business e 378 feedback residui. Copertura delle modifiche storiche 528/528 non equivale a completamento qualitativo; nessuna certificazione pedagogica indipendente o collaudo end-to-end. Le 96 ripetizioni eccedenti Creator avanzato risultano eliminate secondo registro e verifica di unicità. Le due registrazioni storiche Creator avanzato 19–24 non vanno sommate. Ultimo commit applicativo 05bde071eec47effa5c41df286314593d8b94bbf; ultimo riferimento Creator 14099064761ad358231de4784d7aae8d78bea08f. README allineato al commit 25c366bc9f4e7cc1654eb67f13b06c139d6a083a.
 
 ## Collaudo e criteri di rilascio
 Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS, dizionario e ricerca, calcolo avanzamento, validazione strutturale backup, compatibilità strutturale 6.5.1, allineamento versione/cache, correzioni preventive UI. Non equivalgono a test end-to-end.
@@ -54,13 +53,15 @@ Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS
 - [ ] Approvazione utente prima del rilascio.
 
 ## Prossimo intervento
-Audit dei feedback base Creator, quindi audit dei 264 quiz avanzati, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
+Business avanzato settimane 7–12: 18 quiz e 54 feedback; poi settimane 13–48 in blocchi controllati. Successivamente audit lezioni, risorse e collaudi secondo roadmap e approvazione utente. Nessun rilascio autorizzato.
 
 ## Registro cronologico
 - 25/11/2026: recuperata continuità della chat precedente tramite screenshot e confronto GitHub. Branch sviluppo risultava 27 commit avanti a main e divergente da RC1 (10 avanti, 1 indietro). Main osservato: cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 osservata: e4ee85918cadccd38499772827e663fef0c34fd5. Verificate modifiche knowledgeCheck per tutte le 60 sessioni Creator settimane 1–12, nessuna per 13–24 rispetto a RC1. Nessuna modifica applicativa in questa fase.
 - 25/11/2026: istituito questo registro sul branch di sviluppo. Il commit del registro è consultabile nella cronologia del file.
 
 ## Procedura permanente
+Verificare la coerenza di README.md e ROADMAP.md prima di ogni ripresa e dopo ogni blocco significativo; aggiornare i riepiloghi correnti quando cambiano conteggi, stato, prossimo passo o vincoli. Conservare le sezioni storiche, distinguendole esplicitamente dallo stato corrente. Rileggere entrambi i documenti dopo le scritture, confrontare con sorgenti e commit, verificare che i branch protetti siano invariati e che il diff contenga solo i file autorizzati. Se un disallineamento è rilevato, risolverlo entro le autorizzazioni prima di proseguire o dichiararlo come blocco. Non equiparare controlli statici a collaudi runtime.
+
 Prima di riprendere in una nuova chat leggere questo registro, README e stato reale dei branch. Dopo ogni blocco aggiornare il registro con data, branch, file modificati, commit applicativo, conteggi verificati, test realmente eseguiti/esiti, limiti e prossimo passo. Distinguere sempre dichiarato, documentato, verificato e non verificato. Non dichiarare salvataggio senza esito GitHub e SHA; rileggere i file dopo la scrittura. Non alterare la cronologia precedente: aggiungere nuove voci e aggiornare lo stato corrente.
 
 Fonti: screenshot della conversazione precedente forniti dall'utente; README e curriculum Creator dei branch indicati; confronto https://github.com/itopo-ai/AI-Creator-Academy/compare/release-candidate-6.6-rc1...excellence-learning-6.6 .
@@ -140,3 +141,30 @@ Protocollo permanente: prima di ogni ripresa verificare repository, teste dei br
 
 ### Aggiornamento 25/11/2026 — Business avanzato settimane 1–6
 Branch: excellence-learning-6.6. File: curriculum-business.json. Commit applicativo: 05bde071eec47effa5c41df286314593d8b94bbf. Fase 0 applicata: teste main cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0, RC1 e4ee85918cadccd38499772827e663fef0c34fd5 e sviluppo precedente f649a083afac68dc784a81cb29688b51b2a53382 confermate; confronto con ultimo commit Creator 140990647: due commit avanti, zero indietro, solo ROADMAP.md. Audit di 18 quiz con teoria, obiettivi e masterclass: produttività, riconciliazione dati, procedure, workflow, KPI, valore e fattibilità. Riscritti 54 feedback (36 errati e 18 corretti), 18 spiegazioni, 7 testi domanda e alternative in 12 quiz; conservati gli altri testi e indici. Verifica statica: confronto integrale JSON ripristinando esclusivamente i 18 advancedCheck identico all'originale; tutti gli indici avanzati invariati, 288 testi Business distinti, tre alternative e feedback non vuoti per ogni quiz, tre feedback distinti nei 18 revisionati. Rilettura applicativa al commit identica al contenuto inviato, blob 5c28759634e831107744d89871c9f630c286ce59; confronto GitHub solo curriculum-business.json. Totale 264 ID univoci, 528 testi distinti, 1584 feedback, 402/528 quiz con tre feedback distinti (76,14%); Business avanzato 18/144, restano 126 quiz e 378 feedback. Nessuna modifica a quiz base, ID, attività, progressi, migrazione, main o RC1. Nessun test runtime, verifica link, merge, ZIP o rilascio. Prossimo intervento: Business avanzato settimane 7–12 (18 quiz, 54 feedback), applicando protocollo permanente.
+
+
+### Aggiornamento 25/11/2026 — Allineamento documentale README e ROADMAP
+Branch: excellence-learning-6.6. Nessuna modifica applicativa; ultimo commit applicativo 05bde071eec47effa5c41df286314593d8b94bbf. Teste iniziali confermate: sviluppo 336b9a6fa7af8a357501039ec40e9646a8f2dece, main cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0, RC1 e4ee85918cadccd38499772827e663fef0c34fd5. Riletti integralmente README e ROADMAP; ricontati feedback distinti dai due curriculum: 120 base Creator, 144 base Business, 120 avanzati Creator, 18 avanzati Business. README aggiornato con riepilogo corrente e testo storico integrale, commit 25c366bc9f4e7cc1654eb67f13b06c139d6a083a, blob e4dad856806b1acea5063e8089f1c4d75e421130; rilettura esatta. ROADMAP: aggiornati riepilogo e prossimo intervento, aggiunto obbligo permanente di coerenza dei due documenti; registro cronologico precedente preservato. I riepiloghi sostituiti sono conservati qui sotto come fotografia storica, non operativa. Nessun test runtime, verifica link, merge, ZIP o rilascio. Prossimo intervento: Business avanzato settimane 7–12 (18 quiz, 54 feedback).
+
+#### Appendice storica — riepilogo precedente all'allineamento
+
+## Stato al 25 novembre 2026
+| Intervento | Stato | Evidenza |
+|---|---|---|
+| Introduzioni 264 lezioni | Documentato completato | README 6.5.1 |
+| Dizionario IT & AI, 114 termini, ricerca, filtri e parole contestuali | Documentato/riportato implementato | README sviluppo e screenshot |
+| Controllo strutturale 264 lezioni e 528 quiz | Riportato superato | README e screenshot; da riconfermare dopo modifiche |
+| Quiz avanzati Creator 120 e Business 144 | Documentati revisionati | README sviluppo; audit integrale da eseguire |
+| Quiz base Creator settimane 1–6 | 30 modificati | Confronto JSON sviluppo/RC1 |
+| Quiz base Creator settimane 7–12 | 30 modificati | Confronto JSON sviluppo/RC1 |
+| Quiz base Creator settimane 13–18 | 30/30 revisionati e riletti | Commit e69116fd4dbccad12928c6f05ad5253d6121e0fb |
+| Quiz base Creator settimane 19–24 | 30/30 revisionati e riletti | Commit a84938c6230543edf7002b170c1ebe5bb8406a56 |
+| Quiz base Business | 144/144 già modificati rispetto a RC1; 144/144 perfezionati in questa fase | Audit e commit 8d69001c19a12aa36ab7c8d2d669b02b24e96e86 |
+| Revisione qualitativa delle lezioni | Da completare | Screenshot |
+| Feedback individuali per risposte errate | Da completare | Screenshot; non assumere completati |
+| Risorse esterne | Incompleta | Ultimo dato storico 6/30 indirizzi, da riconfermare |
+
+Avanzamento quiz Creator base verificato: 120/120 (100%). Copertura delle modifiche/documentazione: 528/528 (264 avanzati documentati, 120 base Creator e 144 base Business modificati rispetto a RC1); perfezionamento secondo gli standard correnti: Business 144/144, nessun quiz base Business con feedback non distinti; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
+
+## Prossimo intervento
+Audit dei feedback base Creator, quindi audit dei 264 quiz avanzati, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
