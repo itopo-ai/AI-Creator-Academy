@@ -8266,18 +8266,18 @@
           "solution": "Un esempio di applicazione è: Scrivi criteri di accettazione per un diario digitale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un PRD descrive problema, requisiti e non obiettivi»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «PRD», quale attività rispetta il principio studiato?",
+            "q": "Un team deve concordare cosa costruire prima di sviluppare un’app. Cosa inserisce nel PRD?",
             "options": [
-              "Chiedi un giudizio generico sulla facilità d'uso.",
-              "Definisci solo una scadenza di sviluppo.",
-              "Scrivi criteri di accettazione per un diario digitale."
+              "Solo l’elenco delle tecnologie da installare.",
+              "Solo le date previste per le consegne.",
+              "Problema, utenti, requisiti, esclusioni e criteri di accettazione."
             ],
             "answer": 2,
-            "why": "Un PRD descrive problema, requisiti e non obiettivi.",
+            "why": "Il PRD definisce il problema e i risultati attesi.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un PRD descrive problema, requisiti e non obiettivi.",
-              "Non è l'approccio previsto per questo laboratorio. Un PRD descrive problema, requisiti e non obiettivi.",
-              "Corretto. Un PRD descrive problema, requisiti e non obiettivi."
+              "Le tecnologie non chiariscono bisogni e requisiti.",
+              "Le date non definiscono cosa deve fare il prodotto.",
+              "Corretto. Il PRD definisce il problema e i risultati attesi."
             ]
           },
           "masterclass": {
@@ -8353,18 +8353,18 @@
           "solution": "Un esempio di applicazione è: Prioritizza login prima della personalizzazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un backlog ordina lavoro per valore e dipendenze»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Backlog», quale attività rispetta il principio studiato?",
+            "q": "Due attività competono per il prossimo ciclo di lavoro. Come le ordini nel backlog?",
             "options": [
-              "Prioritizza login prima della personalizzazione.",
-              "Chiedi un giudizio generico sulla facilità d'uso.",
-              "Definisci solo una scadenza di sviluppo."
+              "Valuta valore, rischio e dipendenze di ciascuna.",
+              "Segui sempre l’ordine di inserimento.",
+              "Scegli sempre quella più breve."
             ],
             "answer": 0,
-            "why": "Un backlog ordina lavoro per valore e dipendenze.",
+            "why": "Le priorità riflettono valore e vincoli del progetto.",
             "feedback": [
-              "Corretto. Un backlog ordina lavoro per valore e dipendenze.",
-              "Non è l'approccio previsto per questo laboratorio. Un backlog ordina lavoro per valore e dipendenze.",
-              "Non è l'approccio previsto per questo laboratorio. Un backlog ordina lavoro per valore e dipendenze."
+              "Corretto. Le priorità riflettono valore e vincoli del progetto.",
+              "L’ordine di arrivo non misura il valore.",
+              "La durata da sola non considera rischi e dipendenze."
             ]
           },
           "masterclass": {
@@ -8440,18 +8440,18 @@
           "solution": "Un esempio di applicazione è: Confronta storage locale e database remoto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una decisione architetturale registra alternative e compromessi»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Architettura», quale attività rispetta il principio studiato?",
+            "q": "Devi scegliere tra due architetture per un’app. Cosa documenti?",
             "options": [
-              "Confronta storage locale e database remoto.",
-              "Chiedi un giudizio generico sulla facilità d'uso.",
-              "Definisci solo una scadenza di sviluppo."
+              "Componenti, flussi di dati, alternative e compromessi della scelta.",
+              "Soltanto il nome della tecnologia scelta.",
+              "Soltanto il disegno delle schermate."
             ],
             "answer": 0,
-            "why": "Una decisione architetturale registra alternative e compromessi.",
+            "why": "Documentare alternative e compromessi rende la decisione comprensibile.",
             "feedback": [
-              "Corretto. Una decisione architetturale registra alternative e compromessi.",
-              "Non è l'approccio previsto per questo laboratorio. Una decisione architetturale registra alternative e compromessi.",
-              "Non è l'approccio previsto per questo laboratorio. Una decisione architetturale registra alternative e compromessi."
+              "Corretto. Documentare alternative e compromessi rende la decisione comprensibile.",
+              "Il nome non spiega le responsabilità dei componenti.",
+              "Le schermate non descrivono i flussi interni."
             ]
           },
           "masterclass": {
@@ -8527,18 +8527,18 @@
           "solution": "Un esempio di applicazione è: Pianifica una settimana con demo finale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno sprint mira a un risultato verificabile»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Sprint», quale attività rispetta il principio studiato?",
+            "q": "Quale obiettivo è adatto a uno sprint di sviluppo?",
             "options": [
-              "Pianifica una settimana con demo finale.",
-              "Chiedi un giudizio generico sulla facilità d'uso.",
-              "Definisci solo una scadenza di sviluppo."
+              "Consegnare un flusso di registrazione verificabile entro il ciclo.",
+              "Avviare tutte le funzionalità contemporaneamente.",
+              "Lavorare sul prodotto senza definire un risultato atteso."
             ],
             "answer": 0,
-            "why": "Uno sprint mira a un risultato verificabile.",
+            "why": "Uno sprint punta a un risultato osservabile e circoscritto.",
             "feedback": [
-              "Corretto. Uno sprint mira a un risultato verificabile.",
-              "Non è l'approccio previsto per questo laboratorio. Uno sprint mira a un risultato verificabile.",
-              "Non è l'approccio previsto per questo laboratorio. Uno sprint mira a un risultato verificabile."
+              "Corretto. Uno sprint punta a un risultato osservabile e circoscritto.",
+              "Troppo lavoro simultaneo ostacola il completamento.",
+              "Senza risultato atteso non puoi verificare il successo."
             ]
           },
           "masterclass": {
@@ -8614,18 +8614,18 @@
           "solution": "Un esempio di applicazione è: Scegli una causa di ritardo e un esperimento correttivo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una retrospettiva identifica miglioramenti attuabili»), correggilo e ripeti il test.",
           "caseStudy": "Scrivi requisiti misurabili, ordina il backlog per valore e verifica un incremento alla volta.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Retrospettiva», quale attività rispetta il principio studiato?",
+            "q": "Il team ha accumulato ritardi per requisiti poco chiari. Quale esito è utile in retrospettiva?",
             "options": [
-              "Chiedi un giudizio generico sulla facilità d'uso.",
-              "Definisci solo una scadenza di sviluppo.",
-              "Scegli una causa di ritardo e un esperimento correttivo."
+              "Registrare il ritardo senza prevedere azioni.",
+              "Aumentare le attività senza analizzare la causa.",
+              "Assegnare un responsabile alla verifica dei requisiti nel prossimo ciclo."
             ],
             "answer": 2,
-            "why": "Una retrospettiva identifica miglioramenti attuabili.",
+            "why": "Una retrospettiva trasforma le osservazioni in miglioramenti attuabili.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una retrospettiva identifica miglioramenti attuabili.",
-              "Non è l'approccio previsto per questo laboratorio. Una retrospettiva identifica miglioramenti attuabili.",
-              "Corretto. Una retrospettiva identifica miglioramenti attuabili."
+              "Registrare il problema non lo risolve.",
+              "Aumentare il lavoro non affronta la causa.",
+              "Corretto. Una retrospettiva trasforma le osservazioni in miglioramenti attuabili."
             ]
           },
           "masterclass": {
@@ -8715,18 +8715,18 @@
           "solution": "Un esempio di applicazione è: Analizza furto di backup e accessi non autorizzati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un threat model identifica asset, minacce e mitigazioni»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Threat model», quale attività rispetta il principio studiato?",
+            "q": "Prima di sviluppare un’app che conserva dati personali, cosa descrivi nel threat model?",
             "options": [
-              "Rimuovi la chiave dal file ma continua a usarla.",
-              "Rendi privato il repository senza revocare la chiave.",
-              "Analizza furto di backup e accessi non autorizzati."
+              "Solo il costo del servizio di hosting.",
+              "Solo il numero previsto di utenti.",
+              "Dati da proteggere, possibili minacce e controlli proporzionati."
             ],
             "answer": 2,
-            "why": "Un threat model identifica asset, minacce e mitigazioni.",
+            "why": "Il modello delle minacce collega risorse, rischi e mitigazioni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un threat model identifica asset, minacce e mitigazioni.",
-              "Non è l'approccio previsto per questo laboratorio. Un threat model identifica asset, minacce e mitigazioni.",
-              "Corretto. Un threat model identifica asset, minacce e mitigazioni."
+              "Il costo non identifica le minacce.",
+              "Il numero di utenti non descrive i rischi specifici.",
+              "Corretto. Il modello delle minacce collega risorse, rischi e mitigazioni."
             ]
           },
           "masterclass": {
@@ -8802,18 +8802,18 @@
           "solution": "Un esempio di applicazione è: Usa variabili server e ruota una chiave esposta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («I segreti non appartengono al codice pubblico»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Segreti», quale attività rispetta il principio studiato?",
+            "q": "Una chiave API è stata pubblicata per errore nel repository. Qual è la prima misura di contenimento?",
             "options": [
-              "Rendi privato il repository senza revocare la chiave.",
-              "Usa variabili server e ruota una chiave esposta.",
-              "Rimuovi la chiave dal file ma continua a usarla."
+              "Rimuovere soltanto la riga dal file corrente.",
+              "Revocare la chiave esposta e sostituirla con una nuova protetta.",
+              "Rinominare la variabile che contiene la chiave."
             ],
             "answer": 1,
-            "why": "I segreti non appartengono al codice pubblico.",
+            "why": "Una chiave esposta può essere già stata copiata: va revocata.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. I segreti non appartengono al codice pubblico.",
-              "Corretto. I segreti non appartengono al codice pubblico.",
-              "Non è l'approccio previsto per questo laboratorio. I segreti non appartengono al codice pubblico."
+              "La chiave potrebbe restare nella cronologia o in copie.",
+              "Corretto. Una chiave esposta può essere già stata copiata: va revocata.",
+              "Cambiare il nome non invalida la credenziale."
             ]
           },
           "masterclass": {
@@ -8889,18 +8889,18 @@
           "solution": "Un esempio di applicazione è: Prova a leggere un ID appartenente a un altro utente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Verifica autorizzazioni lato server per ogni risorsa»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Autorizzazioni», quale attività rispetta il principio studiato?",
+            "q": "Un utente prova ad aprire un documento appartenente a un altro account. Dove va verificato il permesso?",
             "options": [
-              "Rimuovi la chiave dal file ma continua a usarla.",
-              "Rendi privato il repository senza revocare la chiave.",
-              "Prova a leggere un ID appartenente a un altro utente."
+              "Soltanto nel menu che nasconde il collegamento.",
+              "Soltanto durante la registrazione dell’account.",
+              "Sul server, per ogni richiesta relativa al documento."
             ],
             "answer": 2,
-            "why": "Verifica autorizzazioni lato server per ogni risorsa.",
+            "why": "Il server deve autorizzare ogni accesso alla risorsa.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Verifica autorizzazioni lato server per ogni risorsa.",
-              "Non è l'approccio previsto per questo laboratorio. Verifica autorizzazioni lato server per ogni risorsa.",
-              "Corretto. Verifica autorizzazioni lato server per ogni risorsa."
+              "Nascondere un collegamento non impedisce richieste dirette.",
+              "La registrazione non autorizza tutti gli accessi successivi.",
+              "Corretto. Il server deve autorizzare ogni accesso alla risorsa."
             ]
           },
           "masterclass": {
@@ -8976,18 +8976,18 @@
           "solution": "Un esempio di applicazione è: Visualizza testo HTML come testo senza eseguirlo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Valida input e usa output encoding nel contesto corretto»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Input», quale attività rispetta il principio studiato?",
+            "q": "Un modulo accetta una quantità numerica. Come gestisci un valore fuori dai limiti?",
             "options": [
-              "Visualizza testo HTML come testo senza eseguirlo.",
-              "Rimuovi la chiave dal file ma continua a usarla.",
-              "Rendi privato il repository senza revocare la chiave."
+              "Verifica tipo e intervallo sul server e restituisci un errore comprensibile.",
+              "Accetta il valore perché proviene dal modulo.",
+              "Controlla soltanto che il campo non sia vuoto."
             ],
             "answer": 0,
-            "why": "Valida input e usa output encoding nel contesto corretto.",
+            "why": "La validazione verifica che i dati rispettino il contratto previsto.",
             "feedback": [
-              "Corretto. Valida input e usa output encoding nel contesto corretto.",
-              "Non è l'approccio previsto per questo laboratorio. Valida input e usa output encoding nel contesto corretto.",
-              "Non è l'approccio previsto per questo laboratorio. Valida input e usa output encoding nel contesto corretto."
+              "Corretto. La validazione verifica che i dati rispettino il contratto previsto.",
+              "I dati provenienti dal client non sono automaticamente affidabili.",
+              "Un campo compilato può comunque contenere un valore non valido."
             ]
           },
           "masterclass": {
@@ -9063,18 +9063,18 @@
           "solution": "Un esempio di applicazione è: Registra test di permessi e gestione delle chiavi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una checklist di sicurezza richiede evidenze»), correggilo e ripeti il test.",
           "caseStudy": "Elenca asset e minacce; prova accessi non autorizzati e conserva i segreti esclusivamente lato server.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Checklist», quale attività rispetta il principio studiato?",
+            "q": "Come dimostri che una voce della checklist di sicurezza è stata verificata?",
             "options": [
-              "Registra test di permessi e gestione delle chiavi.",
-              "Rimuovi la chiave dal file ma continua a usarla.",
-              "Rendi privato il repository senza revocare la chiave."
+              "Registra controllo, esito, evidenza e responsabile.",
+              "Spunta la voce quando viene pianificata.",
+              "Considera sufficiente il nome del controllo."
             ],
             "answer": 0,
-            "why": "Una checklist di sicurezza richiede evidenze.",
+            "why": "Una checklist verificabile associa ogni esito a una prova.",
             "feedback": [
-              "Corretto. Una checklist di sicurezza richiede evidenze.",
-              "Non è l'approccio previsto per questo laboratorio. Una checklist di sicurezza richiede evidenze.",
-              "Non è l'approccio previsto per questo laboratorio. Una checklist di sicurezza richiede evidenze."
+              "Corretto. Una checklist verificabile associa ogni esito a una prova.",
+              "Pianificare non equivale a eseguire il controllo.",
+              "Il nome non dimostra che il controllo sia riuscito."
             ]
           },
           "masterclass": {
@@ -9164,18 +9164,18 @@
           "solution": "Un esempio di applicazione è: Prova login corretto e password errata. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un test funzionale verifica comportamento osservabile»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Test funzionali», quale attività rispetta il principio studiato?",
+            "q": "Come costruisci un test funzionale per il pulsante Salva?",
             "options": [
-              "Prova login corretto e password errata.",
-              "Controlla soltanto la dimensione del backup.",
-              "Crea una seconda copia senza provarne l'importazione."
+              "Definisci dati di ingresso, azione e risultato osservabile atteso.",
+              "Controlla soltanto il colore del pulsante.",
+              "Verifica soltanto che il file JavaScript esista."
             ],
             "answer": 0,
-            "why": "Un test funzionale verifica comportamento osservabile.",
+            "why": "Il test funzionale verifica il comportamento effettivo.",
             "feedback": [
-              "Corretto. Un test funzionale verifica comportamento osservabile.",
-              "Non è l'approccio previsto per questo laboratorio. Un test funzionale verifica comportamento osservabile.",
-              "Non è l'approccio previsto per questo laboratorio. Un test funzionale verifica comportamento osservabile."
+              "Corretto. Il test funzionale verifica il comportamento effettivo.",
+              "Il colore non dimostra che il salvataggio funzioni.",
+              "La presenza del file non garantisce il comportamento."
             ]
           },
           "masterclass": {
@@ -9251,18 +9251,18 @@
           "solution": "Un esempio di applicazione è: Naviga senza mouse e verifica nomi accessibili. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Accessibilità richiede controlli automatici e manuali»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Accessibilità», quale attività rispetta il principio studiato?",
+            "q": "Come verifichi che un modulo sia utilizzabile anche senza mouse?",
             "options": [
-              "Crea una seconda copia senza provarne l'importazione.",
-              "Naviga senza mouse e verifica nomi accessibili.",
-              "Controlla soltanto la dimensione del backup."
+              "Controlla soltanto il contrasto dei colori.",
+              "Prova navigazione da tastiera, focus e attivazione dei controlli.",
+              "Verifica soltanto che il modulo funzioni con il mouse."
             ],
             "answer": 1,
-            "why": "Accessibilità richiede controlli automatici e manuali.",
+            "why": "La prova da tastiera verifica direttamente l’accessibilità delle interazioni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Accessibilità richiede controlli automatici e manuali.",
-              "Corretto. Accessibilità richiede controlli automatici e manuali.",
-              "Non è l'approccio previsto per questo laboratorio. Accessibilità richiede controlli automatici e manuali."
+              "Il contrasto è importante ma non verifica la navigazione.",
+              "Corretto. La prova da tastiera verifica direttamente l’accessibilità delle interazioni.",
+              "Il mouse non dimostra che i controlli siano raggiungibili da tastiera."
             ]
           },
           "masterclass": {
@@ -9338,18 +9338,18 @@
           "solution": "Un esempio di applicazione è: Confronta tempi di caricamento con rete lenta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Misura prestazioni prima di ottimizzare»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Prestazioni», quale attività rispetta il principio studiato?",
+            "q": "Una pagina sembra lenta. Come confronti due possibili ottimizzazioni?",
             "options": [
-              "Crea una seconda copia senza provarne l'importazione.",
-              "Confronta tempi di caricamento con rete lenta.",
-              "Controlla soltanto la dimensione del backup."
+              "Confronta una prova su Wi-Fi con una su rete mobile senza annotarlo.",
+              "Misura caricamento e interazione nelle stesse condizioni prima e dopo.",
+              "Scegli la versione con meno righe di codice."
             ],
             "answer": 1,
-            "why": "Misura prestazioni prima di ottimizzare.",
+            "why": "Condizioni ripetibili permettono di attribuire le differenze alle modifiche.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Misura prestazioni prima di ottimizzare.",
-              "Corretto. Misura prestazioni prima di ottimizzare.",
-              "Non è l'approccio previsto per questo laboratorio. Misura prestazioni prima di ottimizzare."
+              "Reti diverse possono alterare il confronto.",
+              "Corretto. Condizioni ripetibili permettono di attribuire le differenze alle modifiche.",
+              "La quantità di codice non misura le prestazioni effettive."
             ]
           },
           "masterclass": {
@@ -9425,18 +9425,18 @@
           "solution": "Un esempio di applicazione è: Ripristina dati fittizi in un profilo separato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un backup vale solo se il ripristino funziona»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Backup», quale attività rispetta il principio studiato?",
+            "q": "Hai esportato un backup dei progressi degli studenti. Come ne verifichi l’utilità?",
             "options": [
-              "Crea una seconda copia senza provarne l'importazione.",
-              "Ripristina dati fittizi in un profilo separato.",
-              "Controlla soltanto la dimensione del backup."
+              "Controlla soltanto che il file abbia una dimensione maggiore di zero.",
+              "Ripristinalo in un ambiente separato e confronta i dati recuperati.",
+              "Conserva il file senza provare a importarlo."
             ],
             "answer": 1,
-            "why": "Un backup vale solo se il ripristino funziona.",
+            "why": "Un backup è verificato quando il ripristino recupera i dati attesi.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un backup vale solo se il ripristino funziona.",
-              "Corretto. Un backup vale solo se il ripristino funziona.",
-              "Non è l'approccio previsto per questo laboratorio. Un backup vale solo se il ripristino funziona."
+              "Un file non vuoto può essere incompleto o illeggibile.",
+              "Corretto. Un backup è verificato quando il ripristino recupera i dati attesi.",
+              "La conservazione non dimostra che l’importazione funzioni."
             ]
           },
           "masterclass": {
@@ -9512,18 +9512,18 @@
           "solution": "Un esempio di applicazione è: Elenca bug bloccanti e criteri di rilascio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una release candidate congela funzioni per il collaudo»), correggilo e ripeti il test.",
           "caseStudy": "Testa flussi principali, tastiera, rete lenta e ripristino del backup prima di pubblicare.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Release candidate», quale attività rispetta il principio studiato?",
+            "q": "Una release candidate è pronta. Cosa deve accadere prima della pubblicazione definitiva?",
             "options": [
-              "Controlla soltanto la dimensione del backup.",
-              "Crea una seconda copia senza provarne l'importazione.",
-              "Elenca bug bloccanti e criteri di rilascio."
+              "Pubblicarla perché il nome contiene RC.",
+              "Aggiungere nuove funzionalità durante ogni prova senza rieseguire i test.",
+              "Eseguire il collaudo previsto e risolvere i problemi bloccanti."
             ],
             "answer": 2,
-            "why": "Una release candidate congela funzioni per il collaudo.",
+            "why": "La candidata al rilascio serve a verificare una versione stabile prima della pubblicazione.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una release candidate congela funzioni per il collaudo.",
-              "Non è l'approccio previsto per questo laboratorio. Una release candidate congela funzioni per il collaudo.",
-              "Corretto. Una release candidate congela funzioni per il collaudo."
+              "L’etichetta RC non certifica il superamento dei test.",
+              "Modifiche continue rendono non confrontabili gli esiti.",
+              "Corretto. La candidata al rilascio serve a verificare una versione stabile prima della pubblicazione."
             ]
           },
           "masterclass": {
@@ -9613,18 +9613,18 @@
           "solution": "Un esempio di applicazione è: Descrivi un bisogno di chi studia in mobilità. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una idea valida parte da un problema specifico»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Idea», quale attività rispetta il principio studiato?",
+            "q": "Quale punto di partenza è più utile per definire un nuovo prodotto AI?",
             "options": [
-              "Aggiungi altre funzioni prima di mostrare l'app.",
-              "Misura soltanto il numero di funzioni disponibili.",
-              "Descrivi un bisogno di chi studia in mobilità."
+              "Una tecnologia scelta senza conoscere il bisogno.",
+              "Un elenco di funzioni copiato da altri prodotti.",
+              "Un problema concreto di un pubblico identificabile."
             ],
             "answer": 2,
-            "why": "Una idea valida parte da un problema specifico.",
+            "why": "Un prodotto nasce da un bisogno specifico da verificare.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una idea valida parte da un problema specifico.",
-              "Non è l'approccio previsto per questo laboratorio. Una idea valida parte da un problema specifico.",
-              "Corretto. Una idea valida parte da un problema specifico."
+              "La tecnologia non dimostra l’esistenza del bisogno.",
+              "Copiare funzioni non chiarisce il problema degli utenti.",
+              "Corretto. Un prodotto nasce da un bisogno specifico da verificare."
             ]
           },
           "masterclass": {
@@ -9700,18 +9700,18 @@
           "solution": "Un esempio di applicazione è: Intervista tre utenti senza suggerire risposte. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La validazione raccoglie evidenze prima dello sviluppo»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Validazione», quale attività rispetta il principio studiato?",
+            "q": "Come verifichi se un pubblico ha davvero bisogno della tua soluzione prima di svilupparla?",
             "options": [
-              "Aggiungi altre funzioni prima di mostrare l'app.",
-              "Misura soltanto il numero di funzioni disponibili.",
-              "Intervista tre utenti senza suggerire risposte."
+              "Considera sufficiente il tuo interesse personale.",
+              "Misura soltanto quante funzioni potresti costruire.",
+              "Raccogli evidenze tramite interviste e osservazioni del problema."
             ],
             "answer": 2,
-            "why": "La validazione raccoglie evidenze prima dello sviluppo.",
+            "why": "La validazione raccoglie evidenze del bisogno prima dell’investimento.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. La validazione raccoglie evidenze prima dello sviluppo.",
-              "Non è l'approccio previsto per questo laboratorio. La validazione raccoglie evidenze prima dello sviluppo.",
-              "Corretto. La validazione raccoglie evidenze prima dello sviluppo."
+              "L’interesse personale non rappresenta necessariamente il pubblico.",
+              "Il numero di funzioni non misura il bisogno.",
+              "Corretto. La validazione raccoglie evidenze del bisogno prima dell’investimento."
             ]
           },
           "masterclass": {
@@ -9787,18 +9787,18 @@
           "solution": "Un esempio di applicazione è: Scegli tre funzioni essenziali e rinvia il resto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un MVP risolve il problema con il minimo insieme di funzioni»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «MVP», quale attività rispetta il principio studiato?",
+            "q": "Un’app deve verificare se gli utenti trovano utile il riepilogo automatico. Cosa include l’MVP?",
             "options": [
-              "Misura soltanto il numero di funzioni disponibili.",
-              "Scegli tre funzioni essenziali e rinvia il resto.",
-              "Aggiungi altre funzioni prima di mostrare l'app."
+              "Tutte le integrazioni previste per la versione definitiva.",
+              "Il flusso minimo per generare e valutare un riepilogo.",
+              "Solo una schermata promozionale che non permette di valutare il riepilogo."
             ],
             "answer": 1,
-            "why": "Un MVP risolve il problema con il minimo insieme di funzioni.",
+            "why": "L’MVP include quanto serve a verificare l’ipotesi di valore.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un MVP risolve il problema con il minimo insieme di funzioni.",
-              "Corretto. Un MVP risolve il problema con il minimo insieme di funzioni.",
-              "Non è l'approccio previsto per questo laboratorio. Un MVP risolve il problema con il minimo insieme di funzioni."
+              "Le integrazioni non necessarie aumentano tempi e costi.",
+              "Corretto. L’MVP include quanto serve a verificare l’ipotesi di valore.",
+              "Una schermata promozionale non verifica l’utilità del risultato."
             ]
           },
           "masterclass": {
@@ -9874,18 +9874,18 @@
           "solution": "Un esempio di applicazione è: Fai provare una schermata cliccabile a un utente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un prototipo verifica il flusso a basso costo»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Prototipo», quale attività rispetta il principio studiato?",
+            "q": "Vuoi raccogliere feedback sul percorso di prenotazione senza costruire il backend. Cosa realizzi?",
             "options": [
-              "Fai provare una schermata cliccabile a un utente.",
-              "Aggiungi altre funzioni prima di mostrare l'app.",
-              "Misura soltanto il numero di funzioni disponibili."
+              "Un prototipo navigabile delle schermate principali.",
+              "L’intera infrastruttura definitiva prima di mostrare le schermate.",
+              "Un elenco di costi senza rappresentare il flusso."
             ],
             "answer": 0,
-            "why": "Un prototipo verifica il flusso a basso costo.",
+            "why": "Il prototipo rende osservabile il percorso a basso costo.",
             "feedback": [
-              "Corretto. Un prototipo verifica il flusso a basso costo.",
-              "Non è l'approccio previsto per questo laboratorio. Un prototipo verifica il flusso a basso costo.",
-              "Non è l'approccio previsto per questo laboratorio. Un prototipo verifica il flusso a basso costo."
+              "Corretto. Il prototipo rende osservabile il percorso a basso costo.",
+              "L’infrastruttura completa non è necessaria per questa verifica.",
+              "Un elenco di costi non permette di provare l’interazione."
             ]
           },
           "masterclass": {
@@ -9961,18 +9961,18 @@
           "solution": "Un esempio di applicazione è: Organizza due settimane con obiettivi misurabili. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un piano esplicita rischi, dipendenze e consegne»), correggilo e ripeti il test.",
           "caseStudy": "Intervista tre utenti, definisci un problema osservabile e scegli una sola funzionalità essenziale.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Piano», quale attività rispetta il principio studiato?",
+            "q": "Quale piano aiuta a coordinare il progetto finale?",
             "options": [
-              "Aggiungi altre funzioni prima di mostrare l'app.",
-              "Misura soltanto il numero di funzioni disponibili.",
-              "Organizza due settimane con obiettivi misurabili."
+              "Un elenco di scadenze senza attività associate.",
+              "Un elenco di strumenti senza risultati attesi.",
+              "Obiettivi, attività, dipendenze, tempi, rischi e criteri di successo."
             ],
             "answer": 2,
-            "why": "Un piano esplicita rischi, dipendenze e consegne.",
+            "why": "Il piano collega il lavoro ai risultati e ai vincoli.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un piano esplicita rischi, dipendenze e consegne.",
-              "Non è l'approccio previsto per questo laboratorio. Un piano esplicita rischi, dipendenze e consegne.",
-              "Corretto. Un piano esplicita rischi, dipendenze e consegne."
+              "Le scadenze da sole non indicano cosa consegnare.",
+              "Gli strumenti non definiscono il successo del progetto.",
+              "Corretto. Il piano collega il lavoro ai risultati e ai vincoli."
             ]
           },
           "masterclass": {
@@ -10062,18 +10062,18 @@
           "solution": "Un esempio di applicazione è: Mostra salvataggio in corso e conferma solo a successo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («L’interfaccia deve rendere evidente lo stato del sistema»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Interfaccia», quale attività rispetta il principio studiato?",
+            "q": "L’utente invia una richiesta che richiede alcuni secondi. Come deve comportarsi l’interfaccia?",
             "options": [
-              "Chiedi solo uno screenshot senza ambiente o passaggi.",
-              "Mostra salvataggio in corso e conferma solo a successo.",
-              "Registra soltanto il giudizio del tester."
+              "Mostrare subito un successo anche prima della risposta.",
+              "Mostrare lo stato di elaborazione e poi l’esito o l’errore.",
+              "Lasciare la schermata invariata senza indicazioni."
             ],
             "answer": 1,
-            "why": "L’interfaccia deve rendere evidente lo stato del sistema.",
+            "why": "L’interfaccia deve rendere visibile lo stato reale del sistema.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. L’interfaccia deve rendere evidente lo stato del sistema.",
-              "Corretto. L’interfaccia deve rendere evidente lo stato del sistema.",
-              "Non è l'approccio previsto per questo laboratorio. L’interfaccia deve rendere evidente lo stato del sistema."
+              "Un successo anticipato può essere falso.",
+              "Corretto. L’interfaccia deve rendere visibile lo stato reale del sistema.",
+              "L’assenza di indicazioni lascia l’utente incerto."
             ]
           },
           "masterclass": {
@@ -10149,18 +10149,18 @@
           "solution": "Un esempio di applicazione è: Definisci progetti, utenti e vincoli di integrità. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il modello dati deve sostenere i flussi del prodotto»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Dati», quale attività rispetta il principio studiato?",
+            "q": "Un utente cambia il titolo di un progetto già salvato. Come mantieni il collegamento ai suoi dati?",
             "options": [
-              "Chiedi solo uno screenshot senza ambiente o passaggi.",
-              "Definisci progetti, utenti e vincoli di integrità.",
-              "Registra soltanto il giudizio del tester."
+              "Usa sempre il titolo modificabile come unico identificativo.",
+              "Conserva un identificativo stabile indipendente dal titolo.",
+              "Genera un nuovo identificativo a ogni apertura."
             ],
             "answer": 1,
-            "why": "Il modello dati deve sostenere i flussi del prodotto.",
+            "why": "Un ID stabile mantiene i riferimenti anche quando cambiano i dati descrittivi.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Il modello dati deve sostenere i flussi del prodotto.",
-              "Corretto. Il modello dati deve sostenere i flussi del prodotto.",
-              "Non è l'approccio previsto per questo laboratorio. Il modello dati deve sostenere i flussi del prodotto."
+              "Cambiare titolo può rompere i riferimenti basati sul titolo.",
+              "Corretto. Un ID stabile mantiene i riferimenti anche quando cambiano i dati descrittivi.",
+              "Un nuovo ID a ogni apertura impedisce la continuità."
             ]
           },
           "masterclass": {
@@ -10236,18 +10236,18 @@
           "solution": "Un esempio di applicazione è: Confronta ricerca tradizionale e riassunto AI. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Integra AI solo dove migliora un risultato misurabile»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «AI», quale attività rispetta il principio studiato?",
+            "q": "Come decidi se aggiungere AI a una funzione di ricerca già esistente?",
             "options": [
-              "Confronta ricerca tradizionale e riassunto AI.",
-              "Registra soltanto il giudizio del tester.",
-              "Chiedi solo uno screenshot senza ambiente o passaggi."
+              "Confronta risultati misurabili con e senza AI e prevedi un’alternativa.",
+              "Aggiungi AI perché è una tecnologia recente.",
+              "Sostituisci la ricerca senza misurare gli errori."
             ],
             "answer": 0,
-            "why": "Integra AI solo dove migliora un risultato misurabile.",
+            "why": "L’integrazione deve produrre valore verificabile e gestire i fallimenti.",
             "feedback": [
-              "Corretto. Integra AI solo dove migliora un risultato misurabile.",
-              "Non è l'approccio previsto per questo laboratorio. Integra AI solo dove migliora un risultato misurabile.",
-              "Non è l'approccio previsto per questo laboratorio. Integra AI solo dove migliora un risultato misurabile."
+              "Corretto. L’integrazione deve produrre valore verificabile e gestire i fallimenti.",
+              "La novità non dimostra un vantaggio.",
+              "Senza misure non sai se la sostituzione migliora il servizio."
             ]
           },
           "masterclass": {
@@ -10323,18 +10323,18 @@
           "solution": "Un esempio di applicazione è: Simula rete assente, input vuoto e permesso negato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («I test coprono casi normali, limite e guasto»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Test», quale attività rispetta il principio studiato?",
+            "q": "Quali casi includi nei test di un modulo che carica documenti?",
             "options": [
-              "Chiedi solo uno screenshot senza ambiente o passaggi.",
-              "Simula rete assente, input vuoto e permesso negato.",
-              "Registra soltanto il giudizio del tester."
+              "Soltanto un file valido di piccole dimensioni.",
+              "File valido, file non valido, dimensione limite ed errore di caricamento.",
+              "Soltanto il controllo visivo della schermata."
             ],
             "answer": 1,
-            "why": "I test coprono casi normali, limite e guasto.",
+            "why": "I test devono coprire percorsi normali, limiti e guasti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. I test coprono casi normali, limite e guasto.",
-              "Corretto. I test coprono casi normali, limite e guasto.",
-              "Non è l'approccio previsto per questo laboratorio. I test coprono casi normali, limite e guasto."
+              "Un solo caso positivo non verifica la gestione degli errori.",
+              "Corretto. I test devono coprire percorsi normali, limiti e guasti.",
+              "L’aspetto grafico non dimostra il funzionamento del caricamento."
             ]
           },
           "masterclass": {
@@ -10410,18 +10410,18 @@
           "solution": "Un esempio di applicazione è: Invita utenti di prova e classifica i problemi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una beta raccoglie feedback prima del rilascio»), correggilo e ripeti il test.",
           "caseStudy": "Integra interfaccia, dati e AI in un ambiente di prova; registra errori e feedback prima del rilascio.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Beta», quale attività rispetta il principio studiato?",
+            "q": "Un utente beta segnala che il salvataggio non funziona. Quale informazione chiedi?",
             "options": [
-              "Chiedi solo uno screenshot senza ambiente o passaggi.",
-              "Invita utenti di prova e classifica i problemi.",
-              "Registra soltanto il giudizio del tester."
+              "Soltanto un voto generale all’app.",
+              "Versione, condizioni, passaggi per riprodurre il problema ed esito osservato.",
+              "Soltanto il nome del dispositivo."
             ],
             "answer": 1,
-            "why": "Una beta raccoglie feedback prima del rilascio.",
+            "why": "Una segnalazione riproducibile permette di indagare il difetto.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una beta raccoglie feedback prima del rilascio.",
-              "Corretto. Una beta raccoglie feedback prima del rilascio.",
-              "Non è l'approccio previsto per questo laboratorio. Una beta raccoglie feedback prima del rilascio."
+              "Un voto non descrive come si manifesta il problema.",
+              "Corretto. Una segnalazione riproducibile permette di indagare il difetto.",
+              "Il dispositivo da solo non indica i passaggi necessari."
             ]
           },
           "masterclass": {
@@ -10511,18 +10511,18 @@
           "solution": "Un esempio di applicazione è: Pubblica una build su ambiente separato e conserva il tag. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il deploy deve essere ripetibile e reversibile»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Deploy», quale attività rispetta il principio studiato?",
+            "q": "Come prepari un deploy che possa essere annullato in caso di problemi?",
             "options": [
-              "Cancella la cache senza verificare il ripristino.",
-              "Pubblica una build su ambiente separato e conserva il tag.",
-              "Mantieni la nuova versione perché funziona online."
+              "Sovrascrivi la versione precedente senza conservarla.",
+              "Identifica la versione, conserva quella precedente e definisci il rollback.",
+              "Pubblica senza registrare quale versione è stata distribuita."
             ],
             "answer": 1,
-            "why": "Il deploy deve essere ripetibile e reversibile.",
+            "why": "Un deploy identificabile e reversibile consente di tornare a uno stato noto.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Il deploy deve essere ripetibile e reversibile.",
-              "Corretto. Il deploy deve essere ripetibile e reversibile.",
-              "Non è l'approccio previsto per questo laboratorio. Il deploy deve essere ripetibile e reversibile."
+              "Senza la versione precedente il ripristino è più difficile.",
+              "Corretto. Un deploy identificabile e reversibile consente di tornare a uno stato noto.",
+              "Senza identificazione non sai quale versione ripristinare."
             ]
           },
           "masterclass": {
@@ -10598,18 +10598,18 @@
           "solution": "Un esempio di applicazione è: Prova URL, navigazione, salvataggio e offline. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La verifica post deploy controlla il sistema reale»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Verifica», quale attività rispetta il principio studiato?",
+            "q": "Dopo il deploy, come controlli che gli utenti ricevano davvero la nuova versione?",
             "options": [
-              "Prova URL, navigazione, salvataggio e offline.",
-              "Mantieni la nuova versione perché funziona online.",
-              "Cancella la cache senza verificare il ripristino."
+              "Apri l’app distribuita e verifica versione, funzioni principali e cache.",
+              "Controlla soltanto che il commit sia presente nel repository.",
+              "Controlla soltanto che il comando di deploy sia terminato."
             ],
             "answer": 0,
-            "why": "La verifica post deploy controlla il sistema reale.",
+            "why": "La verifica post deploy riguarda il sistema effettivamente servito.",
             "feedback": [
-              "Corretto. La verifica post deploy controlla il sistema reale.",
-              "Non è l'approccio previsto per questo laboratorio. La verifica post deploy controlla il sistema reale.",
-              "Non è l'approccio previsto per questo laboratorio. La verifica post deploy controlla il sistema reale."
+              "Corretto. La verifica post deploy riguarda il sistema effettivamente servito.",
+              "Un commit non dimostra che la versione sia distribuita.",
+              "Il comando riuscito non garantisce che il client riceva i contenuti aggiornati."
             ]
           },
           "masterclass": {
@@ -10685,18 +10685,18 @@
           "solution": "Un esempio di applicazione è: Scrivi README con prerequisiti e ripristino. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La documentazione spiega uso, installazione e limiti»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Documentazione», quale attività rispetta il principio studiato?",
+            "q": "Quali informazioni rendono utile la documentazione per chi deve usare e mantenere l’app?",
             "options": [
-              "Scrivi README con prerequisiti e ripristino.",
-              "Mantieni la nuova versione perché funziona online.",
-              "Cancella la cache senza verificare il ripristino."
+              "Installazione, uso, esempi, limiti e indicazioni di manutenzione.",
+              "Soltanto il nome del progetto e il logo.",
+              "Soltanto un elenco di librerie utilizzate."
             ],
             "answer": 0,
-            "why": "La documentazione spiega uso, installazione e limiti.",
+            "why": "La documentazione deve guidare uso e manutenzione in modo concreto.",
             "feedback": [
-              "Corretto. La documentazione spiega uso, installazione e limiti.",
-              "Non è l'approccio previsto per questo laboratorio. La documentazione spiega uso, installazione e limiti.",
-              "Non è l'approccio previsto per questo laboratorio. La documentazione spiega uso, installazione e limiti."
+              "Corretto. La documentazione deve guidare uso e manutenzione in modo concreto.",
+              "Nome e logo non spiegano come usare il prodotto.",
+              "Le librerie non spiegano procedure e limiti."
             ]
           },
           "masterclass": {
@@ -10772,18 +10772,18 @@
           "solution": "Un esempio di applicazione è: Presenta screenshot, decisioni e risultati dei test. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un portfolio mostra problema, processo ed evidenze»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Portfolio», quale attività rispetta il principio studiato?",
+            "q": "Come presenti nel portfolio un progetto realizzato con dati riservati?",
             "options": [
-              "Cancella la cache senza verificare il ripristino.",
-              "Presenta screenshot, decisioni e risultati dei test.",
-              "Mantieni la nuova versione perché funziona online."
+              "Pubblica i dati originali per dimostrare il risultato.",
+              "Descrivi problema, processo e risultati con evidenze anonimizzate o fittizie.",
+              "Mostra soltanto il logo senza spiegare il lavoro."
             ],
             "answer": 1,
-            "why": "Un portfolio mostra problema, processo ed evidenze.",
+            "why": "Un portfolio dimostra competenze senza esporre informazioni riservate.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un portfolio mostra problema, processo ed evidenze.",
-              "Corretto. Un portfolio mostra problema, processo ed evidenze.",
-              "Non è l'approccio previsto per questo laboratorio. Un portfolio mostra problema, processo ed evidenze."
+              "I dati originali possono violare la riservatezza.",
+              "Corretto. Un portfolio dimostra competenze senza esporre informazioni riservate.",
+              "Il logo non documenta il processo o i risultati."
             ]
           },
           "masterclass": {
@@ -10859,18 +10859,18 @@
           "solution": "Un esempio di applicazione è: Prepara una demo di tre minuti con un caso reale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una presentazione dimostra valore e limiti senza esagerare»), correggilo e ripeti il test.",
           "caseStudy": "Pubblica una versione identificabile, verifica URL e rollback, documenta limiti e prepara una demo.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Presentazione», quale attività rispetta il principio studiato?",
+            "q": "Come concludi la presentazione del progetto finale in modo credibile?",
             "options": [
-              "Mantieni la nuova versione perché funziona online.",
-              "Cancella la cache senza verificare il ripristino.",
-              "Prepara una demo di tre minuti con un caso reale."
+              "Prometti risultati futuri come se fossero già ottenuti.",
+              "Mostra soltanto le schermate senza spiegare il problema.",
+              "Collega bisogno, soluzione, dimostrazione, risultati misurati e limiti."
             ],
             "answer": 2,
-            "why": "Una presentazione dimostra valore e limiti senza esagerare.",
+            "why": "Una presentazione credibile distingue evidenze, valore e limiti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una presentazione dimostra valore e limiti senza esagerare.",
-              "Non è l'approccio previsto per questo laboratorio. Una presentazione dimostra valore e limiti senza esagerare.",
-              "Corretto. Una presentazione dimostra valore e limiti senza esagerare."
+              "Le promesse non equivalgono a risultati verificati.",
+              "Le schermate non dimostrano quale bisogno viene soddisfatto.",
+              "Corretto. Una presentazione credibile distingue evidenze, valore e limiti."
             ]
           },
           "masterclass": {
