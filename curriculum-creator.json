@@ -8289,18 +8289,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione è descritta come “facile da usare”. Come renderla verificabile?",
+              "q": "Il PRD richiede una ricerca veloce ma non definisce quanto. Come rendi il requisito verificabile?",
               "options": [
-                "Chiedi un giudizio generico sulla facilità d'uso.",
-                "Definisci solo una scadenza di sviluppo.",
-                "Definisci un compito, una soglia di successo e condizioni di test."
+                "Indica soltanto che la ricerca deve essere moderna.",
+                "Lascia decidere la velocità al momento del rilascio.",
+                "Definisci un tempo massimo misurabile, un carico di prova e un criterio di accettazione."
               ],
               "answer": 2,
-              "why": "Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
+              "why": "Una soglia misurabile in condizioni definite permette di verificare il requisito.",
               "feedback": [
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test.",
-                "Corretto. Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione."
+                "Moderna non descrive una prestazione osservabile.",
+                "Decidere dopo impedisce di valutare il risultato rispetto a un obiettivo concordato.",
+                "Corretto. Una soglia misurabile in condizioni definite permette di verificare il requisito."
               ]
             }
           ],
@@ -8376,18 +8376,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione è descritta come “facile da usare”. Come renderla verificabile?",
+              "q": "Nel backlog convivono un errore che perde dati e una nuova animazione. Quale priorità assegni prima della beta?",
               "options": [
-                "Definisci un compito, una soglia di successo e condizioni di test.",
-                "Chiedi un giudizio generico sulla facilità d'uso.",
-                "Definisci solo una scadenza di sviluppo."
+                "Correggi la perdita di dati e verifica il recupero prima di lavorare all’animazione.",
+                "Realizza prima l’animazione perché è visibile.",
+                "Ordina le attività soltanto per durata crescente."
               ],
               "answer": 0,
-              "why": "Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
+              "why": "La gravità del rischio e il valore per l’utente guidano la priorità.",
               "feedback": [
-                "Corretto. Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test."
+                "Corretto. La gravità del rischio e il valore per l’utente guidano la priorità.",
+                "La visibilità non compensa un difetto che compromette i dati.",
+                "La durata da sola non considera impatto e dipendenze."
               ]
             }
           ],
@@ -8463,18 +8463,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione è descritta come “facile da usare”. Come renderla verificabile?",
+              "q": "Un’app deve funzionare offline e sincronizzare modifiche al ritorno della rete. Quale decisione architetturale serve?",
               "options": [
-                "Definisci un compito, una soglia di successo e condizioni di test.",
-                "Chiedi un giudizio generico sulla facilità d'uso.",
-                "Definisci solo una scadenza di sviluppo."
+                "Definisci persistenza locale, coda di sincronizzazione e gestione dei conflitti.",
+                "Salva tutto esclusivamente sul server a ogni clic.",
+                "Usa una cache grafica senza conservare le modifiche."
               ],
               "answer": 0,
-              "why": "Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
+              "why": "L’architettura deve preservare le modifiche offline e riconciliare gli stati al ritorno della rete.",
               "feedback": [
-                "Corretto. Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test."
+                "Corretto. L’architettura deve preservare le modifiche offline e riconciliare gli stati al ritorno della rete.",
+                "La scrittura esclusivamente remota non funziona senza connessione.",
+                "La cache grafica non garantisce la persistenza delle modifiche."
               ]
             }
           ],
@@ -8550,18 +8550,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione è descritta come “facile da usare”. Come renderla verificabile?",
+              "q": "A metà sprint emerge una dipendenza che blocca la funzione principale. Come aggiorni il piano?",
               "options": [
-                "Definisci un compito, una soglia di successo e condizioni di test.",
-                "Chiedi un giudizio generico sulla facilità d'uso.",
-                "Definisci solo una scadenza di sviluppo."
+                "Rendi visibile il blocco, rivaluta con il team il perimetro e proteggi l’obiettivo dello sprint.",
+                "Mantieni tutte le attività senza considerare la dipendenza.",
+                "Segna la funzione come completata per rispettare il piano."
               ],
               "answer": 0,
-              "why": "Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
+              "why": "Un piano adattato alle evidenze mantiene trasparenti obiettivi e capacità.",
               "feedback": [
-                "Corretto. Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test."
+                "Corretto. Un piano adattato alle evidenze mantiene trasparenti obiettivi e capacità.",
+                "Ignorare la dipendenza non rende realizzabile il lavoro.",
+                "Dichiarare completato un lavoro bloccato falsifica lo stato."
               ]
             }
           ],
@@ -8637,18 +8637,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione è descritta come “facile da usare”. Come renderla verificabile?",
+              "q": "In tre sprint consecutivi i test arrivano troppo tardi. Quale azione di retrospettiva è verificabile?",
               "options": [
-                "Chiedi un giudizio generico sulla facilità d'uso.",
-                "Definisci solo una scadenza di sviluppo.",
-                "Definisci un compito, una soglia di successo e condizioni di test."
+                "Chiedi genericamente al team di essere più attento.",
+                "Aumenta la durata delle riunioni senza cambiare il processo.",
+                "Integra i test nei criteri di completamento e misura quante attività li superano prima della chiusura."
               ],
               "answer": 2,
-              "why": "Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione.",
+              "why": "Un’azione concreta con una misura consente di verificare il miglioramento.",
               "feedback": [
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test.",
-                "Rivedi il caso: Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione. La soluzione attesa è: Definisci un compito, una soglia di successo e condizioni di test.",
-                "Corretto. Un documento requisiti definisce utenti, problema, vincoli e criteri di accettazione."
+                "Un invito generico non identifica un cambiamento operativo.",
+                "Più tempo in riunione non garantisce test anticipati.",
+                "Corretto. Un’azione concreta con una misura consente di verificare il miglioramento."
               ]
             }
           ],
@@ -8738,18 +8738,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una chiave finisce in un repository pubblico. Cosa fare?",
+              "q": "Un’app di note sincronizza dati personali su un server. Quale analisi iniziale individua i rischi principali?",
               "options": [
-                "Rimuovi la chiave dal file ma continua a usarla.",
-                "Rendi privato il repository senza revocare la chiave.",
-                "Revocala, ruotala e verifica accessi e costi."
+                "Controlla soltanto il colore dell’interfaccia.",
+                "Elenca solo i guasti già segnalati dagli utenti.",
+                "Mappa dati, confini di fiducia, accessi e possibili abusi, poi associa mitigazioni."
               ],
               "answer": 2,
-              "why": "Le chiavi API non devono essere incluse nel codice distribuito al browser.",
+              "why": "Un threat model considera risorse, percorsi e minacce anche prima che si verifichino incidenti.",
               "feedback": [
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi.",
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi.",
-                "Corretto. Le chiavi API non devono essere incluse nel codice distribuito al browser."
+                "Lo stile visivo non descrive i rischi per i dati.",
+                "Limitarsi ai guasti noti trascura minacce non ancora osservate.",
+                "Corretto. Un threat model considera risorse, percorsi e minacce anche prima che si verifichino incidenti."
               ]
             }
           ],
@@ -8825,18 +8825,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una chiave finisce in un repository pubblico. Cosa fare?",
+              "q": "Una chiave API è stata pubblicata per errore in un repository pubblico. Quale intervento è prioritario?",
               "options": [
-                "Rimuovi la chiave dal file ma continua a usarla.",
-                "Revocala, ruotala e verifica accessi e costi.",
-                "Rendi privato il repository senza revocare la chiave."
+                "Elimina soltanto la riga nell’ultimo commit.",
+                "Revoca o ruota la chiave, verifica gli utilizzi e rimuovi il segreto dal codice.",
+                "Rendi privata la pagina del progetto senza revocare la chiave."
               ],
               "answer": 1,
-              "why": "Le chiavi API non devono essere incluse nel codice distribuito al browser.",
+              "why": "Una chiave esposta può essere stata copiata: revoca e verifica limitano ulteriori abusi.",
               "feedback": [
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi.",
-                "Corretto. Le chiavi API non devono essere incluse nel codice distribuito al browser.",
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi."
+                "La cronologia e le copie possono conservare il segreto.",
+                "Corretto. Una chiave esposta può essere stata copiata: revoca e verifica limitano ulteriori abusi.",
+                "Cambiare visibilità non invalida una chiave già copiata."
               ]
             }
           ],
@@ -8912,18 +8912,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una chiave finisce in un repository pubblico. Cosa fare?",
+              "q": "Un utente può leggere un progetto condiviso ma non modificarlo. Dove imponi il divieto di scrittura?",
               "options": [
-                "Rimuovi la chiave dal file ma continua a usarla.",
-                "Rendi privato il repository senza revocare la chiave.",
-                "Revocala, ruotala e verifica accessi e costi."
+                "Solo nascondendo il pulsante Modifica.",
+                "Solo nel testo delle istruzioni per l’utente.",
+                "Nel backend o nelle policy dati, verificando identità, risorsa e azione."
               ],
               "answer": 2,
-              "why": "Le chiavi API non devono essere incluse nel codice distribuito al browser.",
+              "why": "L’autorizzazione deve essere applicata nel sistema che esegue la modifica.",
               "feedback": [
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi.",
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi.",
-                "Corretto. Le chiavi API non devono essere incluse nel codice distribuito al browser."
+                "Un pulsante nascosto non impedisce richieste dirette.",
+                "Le istruzioni non costituiscono un controllo tecnico degli accessi.",
+                "Corretto. L’autorizzazione deve essere applicata nel sistema che esegue la modifica."
               ]
             }
           ],
@@ -8999,18 +8999,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una chiave finisce in un repository pubblico. Cosa fare?",
+              "q": "Un commento contiene caratteri HTML e deve essere mostrato come testo. Come eviti che diventi codice eseguibile?",
               "options": [
-                "Revocala, ruotala e verifica accessi e costi.",
-                "Rimuovi la chiave dal file ma continua a usarla.",
-                "Rendi privato il repository senza revocare la chiave."
+                "Visualizzalo tramite un’API testuale sicura o applica escaping adatto al contesto.",
+                "Inseriscilo direttamente come HTML perché proviene da un form.",
+                "Rimuovi soltanto gli spazi dal commento."
               ],
               "answer": 0,
-              "why": "Le chiavi API non devono essere incluse nel codice distribuito al browser.",
+              "why": "Trattare l’input come testo impedisce al browser di interpretarlo come markup attivo.",
               "feedback": [
-                "Corretto. Le chiavi API non devono essere incluse nel codice distribuito al browser.",
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi.",
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi."
+                "Corretto. Trattare l’input come testo impedisce al browser di interpretarlo come markup attivo.",
+                "Un form non rende affidabile il contenuto inserito.",
+                "Rimuovere spazi non neutralizza il markup pericoloso."
               ]
             }
           ],
@@ -9086,18 +9086,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una chiave finisce in un repository pubblico. Cosa fare?",
+              "q": "La checklist di sicurezza è tutta spuntata ma manca una prova dei permessi tra utenti. Come chiudi il controllo?",
               "options": [
-                "Revocala, ruotala e verifica accessi e costi.",
-                "Rimuovi la chiave dal file ma continua a usarla.",
-                "Rendi privato il repository senza revocare la chiave."
+                "Esegui prove con identità distinte e registra risultati ed eventuali difetti prima del rilascio.",
+                "Considera sufficiente la spunta già presente.",
+                "Sostituisci la prova con uno screenshot della schermata di login."
               ],
               "answer": 0,
-              "why": "Le chiavi API non devono essere incluse nel codice distribuito al browser.",
+              "why": "Una checklist deve essere sostenuta da evidenze pertinenti al requisito.",
               "feedback": [
-                "Corretto. Le chiavi API non devono essere incluse nel codice distribuito al browser.",
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi.",
-                "Rivedi il caso: Le chiavi API non devono essere incluse nel codice distribuito al browser. La soluzione attesa è: Revocala, ruotala e verifica accessi e costi."
+                "Corretto. Una checklist deve essere sostenuta da evidenze pertinenti al requisito.",
+                "Una spunta senza prova non dimostra l’efficacia dei permessi.",
+                "Il login verifica l’identità, non l’isolamento delle risorse."
               ]
             }
           ],
@@ -9187,18 +9187,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il backup esiste ma non è mai stato importato. Quale test manca?",
+              "q": "Una funzione di esportazione deve includere solo attività completate. Quale test verifica il filtro?",
               "options": [
-                "Ripristino su ambiente separato con confronto dei dati.",
-                "Controlla soltanto la dimensione del backup.",
-                "Crea una seconda copia senza provarne l'importazione."
+                "Crea attività completate e incomplete, esporta e confronta il contenuto atteso.",
+                "Esporta un elenco vuoto e controlla che il file esista.",
+                "Controlla soltanto il nome del pulsante Esporta."
               ],
               "answer": 0,
-              "why": "Una candidata al rilascio deve superare test, accessibilità e ripristino.",
+              "why": "Un insieme misto verifica inclusione ed esclusione dei record.",
               "feedback": [
-                "Corretto. Una candidata al rilascio deve superare test, accessibilità e ripristino.",
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati.",
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati."
+                "Corretto. Un insieme misto verifica inclusione ed esclusione dei record.",
+                "Un elenco vuoto non esercita il filtro sui due stati.",
+                "Il nome del pulsante non dimostra la correttezza dei dati esportati."
               ]
             }
           ],
@@ -9274,18 +9274,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il backup esiste ma non è mai stato importato. Quale test manca?",
+              "q": "Un dialogo si apre da tastiera ma il focus rimane dietro la finestra. Come correggi il comportamento?",
               "options": [
-                "Controlla soltanto la dimensione del backup.",
-                "Ripristino su ambiente separato con confronto dei dati.",
-                "Crea una seconda copia senza provarne l'importazione."
+                "Rimuovi ogni indicatore di focus.",
+                "Porta il focus nel dialogo, gestisci la navigazione interna se modale e restituiscilo al controllo di apertura.",
+                "Impedisci l’uso del tasto Tab in tutta la pagina."
               ],
               "answer": 1,
-              "why": "Una candidata al rilascio deve superare test, accessibilità e ripristino.",
+              "why": "La gestione del focus rende il dialogo utilizzabile da tastiera e mantiene il contesto.",
               "feedback": [
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati.",
-                "Corretto. Una candidata al rilascio deve superare test, accessibilità e ripristino.",
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati."
+                "Nascondere il focus rende difficile sapere dove si sta interagendo.",
+                "Corretto. La gestione del focus rende il dialogo utilizzabile da tastiera e mantiene il contesto.",
+                "Bloccare Tab ovunque impedisce la navigazione accessibile."
               ]
             }
           ],
@@ -9361,18 +9361,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il backup esiste ma non è mai stato importato. Quale test manca?",
+              "q": "Una pagina carica lentamente su smartphone con rete debole. Come individui la causa prima di ottimizzare?",
               "options": [
-                "Controlla soltanto la dimensione del backup.",
-                "Ripristino su ambiente separato con confronto dei dati.",
-                "Crea una seconda copia senza provarne l'importazione."
+                "Riduci a caso il numero di colori.",
+                "Misura tempi e risorse in condizioni riproducibili, identifica il collo di bottiglia e ripeti il test dopo la modifica.",
+                "Misura soltanto su un computer con rete veloce."
               ],
               "answer": 1,
-              "why": "Una candidata al rilascio deve superare test, accessibilità e ripristino.",
+              "why": "Misure comparabili permettono di individuare e verificare il miglioramento effettivo.",
               "feedback": [
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati.",
-                "Corretto. Una candidata al rilascio deve superare test, accessibilità e ripristino.",
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati."
+                "Il numero di colori non identifica necessariamente il costo di caricamento.",
+                "Corretto. Misure comparabili permettono di individuare e verificare il miglioramento effettivo.",
+                "Un ambiente veloce può nascondere il problema osservato sullo smartphone."
               ]
             }
           ],
@@ -9448,18 +9448,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il backup esiste ma non è mai stato importato. Quale test manca?",
+              "q": "Un backup cifrato viene creato ogni giorno, ma non è mai stato ripristinato. Come ne verifichi l’utilità?",
               "options": [
-                "Controlla soltanto la dimensione del backup.",
-                "Ripristino su ambiente separato con confronto dei dati.",
-                "Crea una seconda copia senza provarne l'importazione."
+                "Controlla soltanto che il file abbia una dimensione maggiore di zero.",
+                "Ripristina una copia in ambiente isolato e confronta dati e funzionalità con lo stato atteso.",
+                "Sovrascrivi subito i dati di produzione con il backup."
               ],
               "answer": 1,
-              "why": "Una candidata al rilascio deve superare test, accessibilità e ripristino.",
+              "why": "Una prova di ripristino verifica leggibilità, chiave e recuperabilità dei dati.",
               "feedback": [
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati.",
-                "Corretto. Una candidata al rilascio deve superare test, accessibilità e ripristino.",
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati."
+                "Un file non vuoto può essere incompleto o inutilizzabile.",
+                "Corretto. Una prova di ripristino verifica leggibilità, chiave e recuperabilità dei dati.",
+                "Sovrascrivere la produzione senza prova isolata rischia di perdere dati validi."
               ]
             }
           ],
@@ -9535,18 +9535,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il backup esiste ma non è mai stato importato. Quale test manca?",
+              "q": "Una release candidate supera i test funzionali ma fallisce la migrazione dei progressi esistenti. Quale decisione prendi?",
               "options": [
-                "Controlla soltanto la dimensione del backup.",
-                "Crea una seconda copia senza provarne l'importazione.",
-                "Ripristino su ambiente separato con confronto dei dati."
+                "Pubblica perché le nuove installazioni funzionano.",
+                "Chiedi agli utenti di azzerare i progressi senza valutare alternative.",
+                "Blocca la promozione, correggi la migrazione e ripeti il collaudo su copie dei dati precedenti."
               ],
               "answer": 2,
-              "why": "Una candidata al rilascio deve superare test, accessibilità e ripristino.",
+              "why": "La conservazione dei dati esistenti è un requisito di rilascio da verificare.",
               "feedback": [
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati.",
-                "Rivedi il caso: Una candidata al rilascio deve superare test, accessibilità e ripristino. La soluzione attesa è: Ripristino su ambiente separato con confronto dei dati.",
-                "Corretto. Una candidata al rilascio deve superare test, accessibilità e ripristino."
+                "Le nuove installazioni non esercitano la migrazione.",
+                "Azzerare i progressi viola il requisito di conservazione.",
+                "Corretto. La conservazione dei dati esistenti è un requisito di rilascio da verificare."
               ]
             }
           ],
@@ -9636,18 +9636,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app ha dieci funzioni ma nessun utente ha provato il flusso principale. Quale priorità?",
+              "q": "Hai tre idee di prodotto AI ma nessuna evidenza di un bisogno reale. Come scegli quale approfondire?",
               "options": [
-                "Aggiungi altre funzioni prima di mostrare l'app.",
-                "Misura soltanto il numero di funzioni disponibili.",
-                "Validare il flusso essenziale con utenti reali."
+                "Scegli l’idea con più funzioni AI.",
+                "Scegli quella con il nome più originale.",
+                "Confronta problemi, destinatari e alternative esistenti attraverso ricerca con utenti potenziali."
               ],
               "answer": 2,
-              "why": "Riduci il prodotto alla funzione che verifica l’ipotesi di valore.",
+              "why": "L’evidenza sul problema aiuta a selezionare un’idea con valore concreto.",
               "feedback": [
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Corretto. Riduci il prodotto alla funzione che verifica l’ipotesi di valore."
+                "Il numero di funzioni non dimostra che risolvano un bisogno.",
+                "Un nome originale non dimostra utilità o domanda.",
+                "Corretto. L’evidenza sul problema aiuta a selezionare un’idea con valore concreto."
               ]
             }
           ],
@@ -9723,18 +9723,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app ha dieci funzioni ma nessun utente ha provato il flusso principale. Quale priorità?",
+              "q": "Cinque utenti dichiarano che userebbero un’app, ma nessuno completa una prova gratuita. Come interpreti il risultato?",
               "options": [
-                "Aggiungi altre funzioni prima di mostrare l'app.",
-                "Misura soltanto il numero di funzioni disponibili.",
-                "Validare il flusso essenziale con utenti reali."
+                "Considera la domanda validata dalle cinque dichiarazioni.",
+                "Concludi che nessun utente futuro userà l’app.",
+                "Distingui intenzioni dichiarate e comportamento osservato, indaga gli ostacoli e ripeti la prova."
               ],
               "answer": 2,
-              "why": "Riduci il prodotto alla funzione che verifica l’ipotesi di valore.",
+              "why": "Il comportamento osservato aggiunge evidenza e permette di investigare la distanza dalle intenzioni.",
               "feedback": [
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Corretto. Riduci il prodotto alla funzione che verifica l’ipotesi di valore."
+                "Le dichiarazioni non dimostrano adozione effettiva.",
+                "Un campione piccolo non giustifica una conclusione universale.",
+                "Corretto. Il comportamento osservato aggiunge evidenza e permette di investigare la distanza dalle intenzioni."
               ]
             }
           ],
@@ -9810,18 +9810,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app ha dieci funzioni ma nessun utente ha provato il flusso principale. Quale priorità?",
+              "q": "Il primo MVP deve verificare se gli utenti riescono a organizzare le proprie note. Quale perimetro scegli?",
               "options": [
-                "Aggiungi altre funzioni prima di mostrare l'app.",
-                "Validare il flusso essenziale con utenti reali.",
-                "Misura soltanto il numero di funzioni disponibili."
+                "Aggiungi subito chat, marketplace e temi personalizzati.",
+                "Creazione, organizzazione e recupero delle note con un criterio di successo osservabile.",
+                "Realizza soltanto una schermata promozionale senza prova del compito."
               ],
               "answer": 1,
-              "why": "Riduci il prodotto alla funzione che verifica l’ipotesi di valore.",
+              "why": "Un MVP concentra le risorse sul flusso minimo necessario a verificare l’ipotesi.",
               "feedback": [
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Corretto. Riduci il prodotto alla funzione che verifica l’ipotesi di valore.",
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali."
+                "Funzioni estranee aumentano il lavoro senza verificare meglio il bisogno centrale.",
+                "Corretto. Un MVP concentra le risorse sul flusso minimo necessario a verificare l’ipotesi.",
+                "Una schermata promozionale non permette di osservare l’organizzazione delle note."
               ]
             }
           ],
@@ -9897,18 +9897,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app ha dieci funzioni ma nessun utente ha provato il flusso principale. Quale priorità?",
+              "q": "Un prototipo permette di simulare la ricerca ma non usa dati reali. Come lo presenti ai tester?",
               "options": [
-                "Validare il flusso essenziale con utenti reali.",
-                "Aggiungi altre funzioni prima di mostrare l'app.",
-                "Misura soltanto il numero di funzioni disponibili."
+                "Spiega che i risultati sono simulati e osserva se comprendono il percorso di ricerca.",
+                "Dichiara che il motore di ricerca è già validato.",
+                "Misura la precisione del motore usando soltanto i risultati predefiniti."
               ],
               "answer": 0,
-              "why": "Riduci il prodotto alla funzione che verifica l’ipotesi di valore.",
+              "why": "Il prototipo può verificare il percorso, ma non la qualità di un motore non implementato.",
               "feedback": [
-                "Corretto. Riduci il prodotto alla funzione che verifica l’ipotesi di valore.",
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali."
+                "Corretto. Il prototipo può verificare il percorso, ma non la qualità di un motore non implementato.",
+                "La simulazione non dimostra il funzionamento del motore.",
+                "Risultati predefiniti non misurano il recupero effettivo."
               ]
             }
           ],
@@ -9984,18 +9984,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app ha dieci funzioni ma nessun utente ha provato il flusso principale. Quale priorità?",
+              "q": "Il piano prevede il rilascio in due settimane, ma l’accesso ai dati richiede un’autorizzazione non ottenuta. Come aggiorni il piano?",
               "options": [
-                "Aggiungi altre funzioni prima di mostrare l'app.",
-                "Misura soltanto il numero di funzioni disponibili.",
-                "Validare il flusso essenziale con utenti reali."
+                "Presumi che l’autorizzazione arriverà senza verificarla.",
+                "Usa dati reali non autorizzati per rispettare la scadenza.",
+                "Registra la dipendenza, assegna un responsabile e definisci un’alternativa con dati di prova."
               ],
               "answer": 2,
-              "why": "Riduci il prodotto alla funzione che verifica l’ipotesi di valore.",
+              "why": "Gestire la dipendenza rende il piano realistico e permette lavoro sicuro in parallelo.",
               "feedback": [
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Rivedi il caso: Riduci il prodotto alla funzione che verifica l’ipotesi di valore. La soluzione attesa è: Validare il flusso essenziale con utenti reali.",
-                "Corretto. Riduci il prodotto alla funzione che verifica l’ipotesi di valore."
+                "Una supposizione non risolve il blocco.",
+                "La scadenza non autorizza l’uso di dati riservati.",
+                "Corretto. Gestire la dipendenza rende il piano realistico e permette lavoro sicuro in parallelo."
               ]
             }
           ],
@@ -10085,18 +10085,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un tester segnala un errore intermittente. Cosa raccogliere?",
+              "q": "L’interfaccia di un’app AI mostra una risposta parziale durante la generazione. Come eviti che venga scambiata per un risultato definitivo?",
               "options": [
-                "Registra soltanto il giudizio del tester.",
-                "Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Chiedi solo uno screenshot senza ambiente o passaggi."
+                "Mostra subito l’etichetta Risposta verificata.",
+                "Mostra uno stato di generazione, consenti l’annullamento e distingui il completamento.",
+                "Nascondi ogni indicatore di stato fino alla fine."
               ],
               "answer": 1,
-              "why": "Distribuisci a un gruppo limitato e registra problemi riproducibili.",
+              "why": "Gli stati espliciti distinguono un risultato in corso da uno completato.",
               "feedback": [
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Corretto. Distribuisci a un gruppo limitato e registra problemi riproducibili.",
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo."
+                "La generazione parziale non dimostra verifica o completamento.",
+                "Corretto. Gli stati espliciti distinguono un risultato in corso da uno completato.",
+                "L’assenza di stato rende ambiguo ciò che sta accadendo."
               ]
             }
           ],
@@ -10172,18 +10172,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un tester segnala un errore intermittente. Cosa raccogliere?",
+              "q": "Un’app modifica il formato delle attività salvate aggiungendo un nuovo campo obbligatorio. Come gestisci i dati precedenti?",
               "options": [
-                "Registra soltanto il giudizio del tester.",
-                "Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Chiedi solo uno screenshot senza ambiente o passaggi."
+                "Elimina tutti i record privi del nuovo campo.",
+                "Definisci una migrazione con valore coerente, conserva una copia e prova record vecchi e nuovi.",
+                "Presumi che il campo esista anche nei record precedenti."
               ],
               "answer": 1,
-              "why": "Distribuisci a un gruppo limitato e registra problemi riproducibili.",
+              "why": "Una migrazione verificata rende compatibili i dati precedenti senza perderli.",
               "feedback": [
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Corretto. Distribuisci a un gruppo limitato e registra problemi riproducibili.",
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo."
+                "Eliminare record distrugge informazioni esistenti.",
+                "Corretto. Una migrazione verificata rende compatibili i dati precedenti senza perderli.",
+                "I record vecchi possono non soddisfare il nuovo schema."
               ]
             }
           ],
@@ -10259,18 +10259,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un tester segnala un errore intermittente. Cosa raccogliere?",
+              "q": "Un assistente AI suggerisce categorie per documenti e talvolta sbaglia. Come integri il suggerimento nel prodotto?",
               "options": [
-                "Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Registra soltanto il giudizio del tester.",
-                "Chiedi solo uno screenshot senza ambiente o passaggi."
+                "Mostra la proposta come modificabile e verifica i casi errati con una valutazione dedicata.",
+                "Rendi ogni categoria proposta definitiva senza possibilità di correzione.",
+                "Nascondi all’utente che la categoria è generata automaticamente."
               ],
               "answer": 0,
-              "why": "Distribuisci a un gruppo limitato e registra problemi riproducibili.",
+              "why": "Un suggerimento correggibile conserva il controllo umano e rende osservabili gli errori.",
               "feedback": [
-                "Corretto. Distribuisci a un gruppo limitato e registra problemi riproducibili.",
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo."
+                "Corretto. Un suggerimento correggibile conserva il controllo umano e rende osservabili gli errori.",
+                "Una classificazione sbagliata diventerebbe difficile da correggere.",
+                "Nascondere l’origine rende meno chiari i limiti del suggerimento."
               ]
             }
           ],
@@ -10346,18 +10346,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un tester segnala un errore intermittente. Cosa raccogliere?",
+              "q": "Una correzione risolve un errore di salvataggio ma potrebbe alterare l’esportazione. Quale verifica esegui?",
               "options": [
-                "Registra soltanto il giudizio del tester.",
-                "Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Chiedi solo uno screenshot senza ambiente o passaggi."
+                "Verifica soltanto la riga di codice modificata.",
+                "Ripeti il test del salvataggio e i test di regressione dell’esportazione con dati rappresentativi.",
+                "Prova soltanto l’avvio dell’app."
               ],
               "answer": 1,
-              "why": "Distribuisci a un gruppo limitato e registra problemi riproducibili.",
+              "why": "I test dei flussi collegati verificano che la correzione non introduca nuovi difetti.",
               "feedback": [
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Corretto. Distribuisci a un gruppo limitato e registra problemi riproducibili.",
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo."
+                "Una verifica isolata del codice non dimostra il comportamento dei flussi.",
+                "Corretto. I test dei flussi collegati verificano che la correzione non introduca nuovi difetti.",
+                "L’avvio non esercita salvataggio o esportazione."
               ]
             }
           ],
@@ -10433,18 +10433,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un tester segnala un errore intermittente. Cosa raccogliere?",
+              "q": "Durante la beta due utenti segnalano perdita di note e altri chiedono nuovi temi. Come gestisci il feedback?",
               "options": [
-                "Registra soltanto il giudizio del tester.",
-                "Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Chiedi solo uno screenshot senza ambiente o passaggi."
+                "Sviluppa prima i temi perché sono richiesti da più persone.",
+                "Raccogli evidenze sulla perdita, proteggi i dati e assegna priorità alla correzione.",
+                "Archivia tutte le segnalazioni fino al lancio."
               ],
               "answer": 1,
-              "why": "Distribuisci a un gruppo limitato e registra problemi riproducibili.",
+              "why": "La perdita di dati ha un impatto critico anche se segnalata da pochi utenti.",
               "feedback": [
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo.",
-                "Corretto. Distribuisci a un gruppo limitato e registra problemi riproducibili.",
-                "Rivedi il caso: Distribuisci a un gruppo limitato e registra problemi riproducibili. La soluzione attesa è: Versione, passi, ambiente e risultato atteso/effettivo."
+                "La frequenza delle richieste non sostituisce la valutazione della gravità.",
+                "Corretto. La perdita di dati ha un impatto critico anche se segnalata da pochi utenti.",
+                "Rinviare un difetto critico può esporre altri utenti alla perdita."
               ]
             }
           ],
@@ -10534,18 +10534,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione non carica offline. Come reagire?",
+              "q": "Il deploy di una nuova versione richiede una modifica al database. Quale preparazione riduce il rischio?",
               "options": [
-                "Mantieni la nuova versione perché funziona online.",
-                "Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Cancella la cache senza verificare il ripristino."
+                "Esegui direttamente la migrazione in produzione senza copie.",
+                "Prova la migrazione in staging, verifica compatibilità e predisponi backup e recupero.",
+                "Conserva soltanto uno screenshot della versione precedente."
               ],
               "answer": 1,
-              "why": "Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
+              "why": "Una prova realistica e un piano di recupero riducono il rischio di incompatibilità e perdita.",
               "feedback": [
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Corretto. Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento."
+                "Una modifica non provata può danneggiare dati reali.",
+                "Corretto. Una prova realistica e un piano di recupero riducono il rischio di incompatibilità e perdita.",
+                "Uno screenshot non permette di ripristinare codice o dati."
               ]
             }
           ],
@@ -10621,18 +10621,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione non carica offline. Come reagire?",
+              "q": "Dopo il deploy la pagina iniziale risponde ma il login fallisce. Come valuti il rilascio?",
               "options": [
-                "Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Mantieni la nuova versione perché funziona online.",
-                "Cancella la cache senza verificare il ripristino."
+                "Considera fallito il controllo del flusso essenziale e applica il piano di correzione o ripristino.",
+                "Dichiara il rilascio riuscito perché la pagina iniziale risponde.",
+                "Attendi nuove segnalazioni senza registrare il difetto."
               ],
               "answer": 0,
-              "why": "Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
+              "why": "La disponibilità della pagina iniziale non dimostra che i flussi essenziali funzionino.",
               "feedback": [
-                "Corretto. Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento."
+                "Corretto. La disponibilità della pagina iniziale non dimostra che i flussi essenziali funzionino.",
+                "Il login fallito impedisce l’uso delle funzioni protette.",
+                "Un difetto noto richiede registrazione e gestione tempestiva."
               ]
             }
           ],
@@ -10708,18 +10708,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione non carica offline. Come reagire?",
+              "q": "Un collega non riesce ad avviare il progetto seguendo il README. Come migliori la documentazione?",
               "options": [
-                "Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Mantieni la nuova versione perché funziona online.",
-                "Cancella la cache senza verificare il ripristino."
+                "Verifica le istruzioni in un ambiente pulito e documenta prerequisiti, configurazione e comandi senza segreti.",
+                "Aggiungi soltanto una descrizione più lunga del progetto.",
+                "Inserisci nel README le credenziali reali per semplificare l’avvio."
               ],
               "answer": 0,
-              "why": "Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
+              "why": "Una prova indipendente individua passaggi mancanti e rende l’avvio riproducibile.",
               "feedback": [
-                "Corretto. Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento."
+                "Corretto. Una prova indipendente individua passaggi mancanti e rende l’avvio riproducibile.",
+                "Una descrizione non sostituisce istruzioni operative.",
+                "Pubblicare credenziali espone risorse e dati."
               ]
             }
           ],
@@ -10795,18 +10795,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione non carica offline. Come reagire?",
+              "q": "Nel portfolio vuoi dimostrare che l’app AI ha migliorato un processo. Quale evidenza è più convincente?",
               "options": [
-                "Mantieni la nuova versione perché funziona online.",
-                "Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Cancella la cache senza verificare il ripristino."
+                "Mostra soltanto schermate esteticamente riuscite.",
+                "Descrivi problema, contributo personale, metodo di confronto, risultati misurati e limiti.",
+                "Dichiara un miglioramento percentuale senza misurazioni."
               ],
               "answer": 1,
-              "why": "Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
+              "why": "Evidenze e metodo rendono il contributo valutabile senza esagerare i risultati.",
               "feedback": [
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Corretto. Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento."
+                "Le schermate non dimostrano il miglioramento del processo.",
+                "Corretto. Evidenze e metodo rendono il contributo valutabile senza esagerare i risultati.",
+                "Una percentuale non misurata non è un risultato verificabile."
               ]
             }
           ],
@@ -10882,18 +10882,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione non carica offline. Come reagire?",
+              "q": "Durante la presentazione finale il servizio AI esterno non risponde. Come dimostri il progetto senza ingannare il pubblico?",
               "options": [
-                "Mantieni la nuova versione perché funziona online.",
-                "Cancella la cache senza verificare il ripristino.",
-                "Ripristina la versione stabile e verifica cache e aggiornamento."
+                "Presenta una registrazione come se fosse una risposta dal vivo.",
+                "Inventa un risultato e attribuiscilo al servizio.",
+                "Spiega il guasto, mostra il fallback e usa una registrazione dichiarata come tale per illustrare il flusso."
               ],
               "answer": 2,
-              "why": "Pubblicazione e verifica sono attività distinte; conserva un piano di rollback.",
+              "why": "Una dimostrazione trasparente distingue comportamento reale, fallback e materiale registrato.",
               "feedback": [
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Rivedi il caso: Pubblicazione e verifica sono attività distinte; conserva un piano di rollback. La soluzione attesa è: Ripristina la versione stabile e verifica cache e aggiornamento.",
-                "Corretto. Pubblicazione e verifica sono attività distinte; conserva un piano di rollback."
+                "Una registrazione non dichiarata falsifica lo stato del servizio.",
+                "Un risultato inventato non dimostra il funzionamento del progetto.",
+                "Corretto. Una dimostrazione trasparente distingue comportamento reale, fallback e materiale registrato."
               ]
             }
           ],
