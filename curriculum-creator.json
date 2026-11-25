@@ -184,18 +184,18 @@
           "solution": "Un esempio di applicazione è: Confronta un riassunto, una funzione JS e un brief con punteggi 0–3. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Usa input identici e una rubrica prima di confrontare i modelli»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Matrice di confronto su tre compiti», quale attività rispetta il principio studiato?",
+            "q": "Come confronti due modelli in modo equo?",
             "options": [
-              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-              "Scegli in base al punteggio medio senza controllare i casi critici.",
-              "Confronta un riassunto, una funzione JS e un brief con punteggi 0–3."
+              "Input diversi per ogni modello.",
+              "Solo la risposta più lunga.",
+              "Stessi input e criteri fissati prima."
             ],
             "answer": 2,
-            "why": "Usa input identici e una rubrica prima di confrontare i modelli.",
+            "why": "Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Usa input identici e una rubrica prima di confrontare i modelli.",
-              "Non è l'approccio previsto per questo laboratorio. Usa input identici e una rubrica prima di confrontare i modelli.",
-              "Corretto. Usa input identici e una rubrica prima di confrontare i modelli."
+              "Rivedi il principio. Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati.",
+              "Rivedi il principio. Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati.",
+              "Corretto. Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati."
             ]
           },
           "masterclass": {
@@ -271,18 +271,18 @@
           "solution": "Un esempio di applicazione è: Registra una citazione inventata e un limite di contesto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Distingui capacità osservate da promesse commerciali»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Scheda dei limiti», quale attività rispetta il principio studiato?",
+            "q": "Cosa contiene una scheda dei limiti?",
             "options": [
-              "Scegli in base al punteggio medio senza controllare i casi critici.",
-              "Registra una citazione inventata e un limite di contesto.",
-              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia."
+              "Una garanzia di assenza di errori.",
+              "Errori osservati e condizioni della prova.",
+              "Solo i successi."
             ],
             "answer": 1,
-            "why": "Distingui capacità osservate da promesse commerciali.",
+            "why": "Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Distingui capacità osservate da promesse commerciali.",
-              "Corretto. Distingui capacità osservate da promesse commerciali.",
-              "Non è l'approccio previsto per questo laboratorio. Distingui capacità osservate da promesse commerciali."
+              "Rivedi il principio. Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia.",
+              "Corretto. Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia.",
+              "Rivedi il principio. Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia."
             ]
           },
           "masterclass": {
@@ -358,18 +358,18 @@
           "solution": "Un esempio di applicazione è: Controlla una data sulla documentazione ufficiale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Verifica le affermazioni contro fonti primarie indipendenti»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Protocollo di verifica», quale attività rispetta il principio studiato?",
+            "q": "Come verifichi una citazione generata?",
             "options": [
-              "Controlla una data sulla documentazione ufficiale.",
-              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-              "Scegli in base al punteggio medio senza controllare i casi critici."
+              "Cerchi la fonte originale e controlli il contenuto.",
+              "Ti fidi del formato della citazione.",
+              "Chiedi allo stesso modello di confermarla."
             ],
             "answer": 0,
-            "why": "Verifica le affermazioni contro fonti primarie indipendenti.",
+            "why": "Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova.",
             "feedback": [
-              "Corretto. Verifica le affermazioni contro fonti primarie indipendenti.",
-              "Non è l'approccio previsto per questo laboratorio. Verifica le affermazioni contro fonti primarie indipendenti.",
-              "Non è l'approccio previsto per questo laboratorio. Verifica le affermazioni contro fonti primarie indipendenti."
+              "Corretto. Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova.",
+              "Rivedi il principio. Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova.",
+              "Rivedi il principio. Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova."
             ]
           },
           "masterclass": {
@@ -445,18 +445,18 @@
           "solution": "Un esempio di applicazione è: Sostituisci nomi e indirizzi con dati fittizi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Minimizza i dati condivisi e rimuovi identificatori»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Regole di riservatezza», quale attività rispetta il principio studiato?",
+            "q": "Prima di inviare un documento con dati personali cosa fai?",
             "options": [
-              "Sostituisci nomi e indirizzi con dati fittizi.",
-              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-              "Scegli in base al punteggio medio senza controllare i casi critici."
+              "Rimuovi o sostituisci i dati non necessari.",
+              "Cambi soltanto il nome del file.",
+              "Invii tutti gli allegati senza controllo."
             ],
             "answer": 0,
-            "why": "Minimizza i dati condivisi e rimuovi identificatori.",
+            "why": "Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati.",
             "feedback": [
-              "Corretto. Minimizza i dati condivisi e rimuovi identificatori.",
-              "Non è l'approccio previsto per questo laboratorio. Minimizza i dati condivisi e rimuovi identificatori.",
-              "Non è l'approccio previsto per questo laboratorio. Minimizza i dati condivisi e rimuovi identificatori."
+              "Corretto. Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati.",
+              "Rivedi il principio. Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati.",
+              "Rivedi il principio. Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati."
             ]
           },
           "masterclass": {
@@ -532,18 +532,18 @@
           "solution": "Un esempio di applicazione è: Un assistente editoriale chiede conferma prima di pubblicare. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Definisci ruolo, confini e condizioni di escalation»), correggilo e ripeti il test.",
           "caseStudy": "Tre modelli ricevono lo stesso brief: assegna 0–3 a correttezza, formato e utilità; ripeti il test e confronta il costo per risultato accettato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Assistente personale», quale attività rispetta il principio studiato?",
+            "q": "Quale regola serve a un assistente personale?",
             "options": [
-              "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-              "Scegli in base al punteggio medio senza controllare i casi critici.",
-              "Un assistente editoriale chiede conferma prima di pubblicare."
+              "Consentire ogni azione senza limiti.",
+              "Evitare qualsiasi criterio di arresto.",
+              "Definire azioni consentite e quando chiedere conferma."
             ],
             "answer": 2,
-            "why": "Definisci ruolo, confini e condizioni di escalation.",
+            "why": "Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Definisci ruolo, confini e condizioni di escalation.",
-              "Non è l'approccio previsto per questo laboratorio. Definisci ruolo, confini e condizioni di escalation.",
-              "Corretto. Definisci ruolo, confini e condizioni di escalation."
+              "Rivedi il principio. Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi.",
+              "Rivedi il principio. Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi.",
+              "Corretto. Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi."
             ]
           },
           "masterclass": {
@@ -633,18 +633,18 @@
           "solution": "Un esempio di applicazione è: Richiedi una landing con pubblico e criteri di accettazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un brief separa obiettivo, vincoli, input e formato»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Brief strutturato», quale attività rispetta il principio studiato?",
+            "q": "Quali elementi rendono utile un brief?",
             "options": [
-              "Controlla soltanto che il JSON sia leggibile.",
-              "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
-              "Richiedi una landing con pubblico e criteri di accettazione."
+              "Solo il nome del modello.",
+              "Solo una richiesta generica.",
+              "Obiettivo, destinatario, vincoli e risultato."
             ],
             "answer": 2,
-            "why": "Un brief separa obiettivo, vincoli, input e formato.",
+            "why": "Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un brief separa obiettivo, vincoli, input e formato.",
-              "Non è l'approccio previsto per questo laboratorio. Un brief separa obiettivo, vincoli, input e formato.",
-              "Corretto. Un brief separa obiettivo, vincoli, input e formato."
+              "Rivedi il principio. Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie.",
+              "Rivedi il principio. Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie.",
+              "Corretto. Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie."
             ]
           },
           "masterclass": {
@@ -720,18 +720,18 @@
           "solution": "Un esempio di applicazione è: Fornisci due coppie input-output e prova una terza. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gli esempi mostrano il formato desiderato senza garantire correttezza»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Esempi few-shot», quale attività rispetta il principio studiato?",
+            "q": "Che cosa significa few-shot?",
             "options": [
-              "Fornisci due coppie input-output e prova una terza.",
-              "Controlla soltanto che il JSON sia leggibile.",
-              "Controlla soltanto i nomi dei campi, senza confrontare i valori."
+              "Fornire alcuni esempi di input e output.",
+              "Ripetere una parola molte volte.",
+              "Addestrare da zero un modello."
             ],
             "answer": 0,
-            "why": "Gli esempi mostrano il formato desiderato senza garantire correttezza.",
+            "why": "Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi.",
             "feedback": [
-              "Corretto. Gli esempi mostrano il formato desiderato senza garantire correttezza.",
-              "Non è l'approccio previsto per questo laboratorio. Gli esempi mostrano il formato desiderato senza garantire correttezza.",
-              "Non è l'approccio previsto per questo laboratorio. Gli esempi mostrano il formato desiderato senza garantire correttezza."
+              "Corretto. Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi.",
+              "Rivedi il principio. Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi.",
+              "Rivedi il principio. Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi."
             ]
           },
           "masterclass": {
@@ -807,18 +807,18 @@
           "solution": "Un esempio di applicazione è: Delimita un testo e chiedi di citare il paragrafo pertinente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Separa istruzioni da documenti non attendibili»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Contesto documentale», quale attività rispetta il principio studiato?",
+            "q": "Come gestisci istruzioni sospette dentro un documento?",
             "options": [
-              "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
-              "Delimita un testo e chiedi di citare il paragrafo pertinente.",
-              "Controlla soltanto che il JSON sia leggibile."
+              "Le consideri sempre più importanti del brief.",
+              "Le tratti come contenuto da analizzare, non come comandi.",
+              "Le esegui automaticamente."
             ],
             "answer": 1,
-            "why": "Separa istruzioni da documenti non attendibili.",
+            "why": "Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Separa istruzioni da documenti non attendibili.",
-              "Corretto. Separa istruzioni da documenti non attendibili.",
-              "Non è l'approccio previsto per questo laboratorio. Separa istruzioni da documenti non attendibili."
+              "Rivedi il principio. Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza.",
+              "Corretto. Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza.",
+              "Rivedi il principio. Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza."
             ]
           },
           "masterclass": {
@@ -894,18 +894,18 @@
           "solution": "Un esempio di applicazione è: Valida tipi e campi obbligatori di una scheda prodotto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («JSON valido non implica dati semanticamente corretti»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Output JSON», quale attività rispetta il principio studiato?",
+            "q": "Un JSON valido contiene necessariamente dati corretti?",
             "options": [
-              "Controlla soltanto che il JSON sia leggibile.",
-              "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
-              "Valida tipi e campi obbligatori di una scheda prodotto."
+              "Sì, sempre.",
+              "Sì, se contiene un array.",
+              "No, occorre verificare anche i valori."
             ],
             "answer": 2,
-            "why": "JSON valido non implica dati semanticamente corretti.",
+            "why": "JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. JSON valido non implica dati semanticamente corretti.",
-              "Non è l'approccio previsto per questo laboratorio. JSON valido non implica dati semanticamente corretti.",
-              "Corretto. JSON valido non implica dati semanticamente corretti."
+              "Rivedi il principio. JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati.",
+              "Rivedi il principio. JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati.",
+              "Corretto. JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati."
             ]
           },
           "masterclass": {
@@ -981,18 +981,18 @@
           "solution": "Un esempio di applicazione è: Confronta v1 e v2 su cinque richieste fisse. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Versiona i prompt e conserva casi di regressione»), correggilo e ripeti il test.",
           "caseStudy": "Per una scheda prodotto definisci pubblico, vincoli e schema JSON; verifica campi mancanti e valori inventati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Libreria prompt», quale attività rispetta il principio studiato?",
+            "q": "Cosa registri in una libreria di prompt?",
             "options": [
-              "Confronta v1 e v2 su cinque richieste fisse.",
-              "Controlla soltanto che il JSON sia leggibile.",
-              "Controlla soltanto i nomi dei campi, senza confrontare i valori."
+              "Versione, variabili e risultati dei test.",
+              "Solo il colore dell'interfaccia.",
+              "Solo il nome del file."
             ],
             "answer": 0,
-            "why": "Versiona i prompt e conserva casi di regressione.",
+            "why": "Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test.",
             "feedback": [
-              "Corretto. Versiona i prompt e conserva casi di regressione.",
-              "Non è l'approccio previsto per questo laboratorio. Versiona i prompt e conserva casi di regressione.",
-              "Non è l'approccio previsto per questo laboratorio. Versiona i prompt e conserva casi di regressione."
+              "Corretto. Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test.",
+              "Rivedi il principio. Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test.",
+              "Rivedi il principio. Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test."
             ]
           },
           "masterclass": {
@@ -1082,18 +1082,18 @@
           "solution": "Un esempio di applicazione è: Affida una bozza all’AI ma approva il rilascio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Delega attività reversibili e mantieni controllo sulle decisioni»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Matrice di delega», quale attività rispetta il principio studiato?",
+            "q": "Quale compito richiede più supervisione?",
             "options": [
-              "Conta solo il tempo di generazione della bozza.",
-              "Conta il tempo di revisione ma escludi le correzioni.",
-              "Affida una bozza all’AI ma approva il rilascio."
+              "Una bozza facilmente modificabile.",
+              "La formattazione di un testo fittizio.",
+              "Una decisione irreversibile con conseguenze importanti."
             ],
             "answer": 2,
-            "why": "Delega attività reversibili e mantieni controllo sulle decisioni.",
+            "why": "Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Delega attività reversibili e mantieni controllo sulle decisioni.",
-              "Non è l'approccio previsto per questo laboratorio. Delega attività reversibili e mantieni controllo sulle decisioni.",
-              "Corretto. Delega attività reversibili e mantieni controllo sulle decisioni."
+              "Rivedi il principio. Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze.",
+              "Rivedi il principio. Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze.",
+              "Corretto. Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze."
             ]
           },
           "masterclass": {
@@ -1169,18 +1169,18 @@
           "solution": "Un esempio di applicazione è: Prima wireframe, poi interfaccia, poi test. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Scomponi un progetto in risultati verificabili»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Piano a tappe», quale attività rispetta il principio studiato?",
+            "q": "Come definisci una tappa di progetto?",
             "options": [
-              "Conta solo il tempo di generazione della bozza.",
-              "Conta il tempo di revisione ma escludi le correzioni.",
-              "Prima wireframe, poi interfaccia, poi test."
+              "Con un titolo senza risultato.",
+              "Con una durata casuale.",
+              "Con un risultato osservabile e un criterio di successo."
             ],
             "answer": 2,
-            "why": "Scomponi un progetto in risultati verificabili.",
+            "why": "Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Scomponi un progetto in risultati verificabili.",
-              "Non è l'approccio previsto per questo laboratorio. Scomponi un progetto in risultati verificabili.",
-              "Corretto. Scomponi un progetto in risultati verificabili."
+              "Rivedi il principio. Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo.",
+              "Rivedi il principio. Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo.",
+              "Corretto. Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo."
             ]
           },
           "masterclass": {
@@ -1256,18 +1256,18 @@
           "solution": "Un esempio di applicazione è: Assegna 0–2 a leggibilità, accuratezza e completezza. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una rubrica usa criteri osservabili e soglie»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Rubrica di qualità», quale attività rispetta il principio studiato?",
+            "q": "Quale criterio di qualità è osservabile?",
             "options": [
-              "Assegna 0–2 a leggibilità, accuratezza e completezza.",
-              "Conta solo il tempo di generazione della bozza.",
-              "Conta il tempo di revisione ma escludi le correzioni."
+              "Tutte le fonti citate sono verificabili.",
+              "Il risultato è bello.",
+              "Il risultato sembra intelligente."
             ],
             "answer": 0,
-            "why": "Una rubrica usa criteri osservabili e soglie.",
+            "why": "Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono.",
             "feedback": [
-              "Corretto. Una rubrica usa criteri osservabili e soglie.",
-              "Non è l'approccio previsto per questo laboratorio. Una rubrica usa criteri osservabili e soglie.",
-              "Non è l'approccio previsto per questo laboratorio. Una rubrica usa criteri osservabili e soglie."
+              "Corretto. Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono.",
+              "Rivedi il principio. Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono.",
+              "Rivedi il principio. Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono."
             ]
           },
           "masterclass": {
@@ -1343,18 +1343,18 @@
           "solution": "Un esempio di applicazione è: Confronta tre tentativi includendo le correzioni. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Misura costo e tempo per risultato accettato»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Registro costi», quale attività rispetta il principio studiato?",
+            "q": "Quale costo include la revisione umana?",
             "options": [
-              "Conta solo il tempo di generazione della bozza.",
-              "Conta il tempo di revisione ma escludi le correzioni.",
-              "Confronta tre tentativi includendo le correzioni."
+              "Solo il prezzo del modello.",
+              "Solo il numero di prompt.",
+              "Il costo totale per risultato utilizzabile."
             ],
             "answer": 2,
-            "why": "Misura costo e tempo per risultato accettato.",
+            "why": "Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Misura costo e tempo per risultato accettato.",
-              "Non è l'approccio previsto per questo laboratorio. Misura costo e tempo per risultato accettato.",
-              "Corretto. Misura costo e tempo per risultato accettato."
+              "Rivedi il principio. Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile.",
+              "Rivedi il principio. Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile.",
+              "Corretto. Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile."
             ]
           },
           "masterclass": {
@@ -1430,18 +1430,18 @@
           "solution": "Un esempio di applicazione è: Brief, bozza, revisione umana, consegna. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un workflow esplicita input, output e responsabilità»), correggilo e ripeti il test.",
           "caseStudy": "Dividi una landing in brief, bozza, revisione e rilascio; assegna un responsabile umano a ogni approvazione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Workflow creativo», quale attività rispetta il principio studiato?",
+            "q": "Perché conservare versioni di un lavoro creativo?",
             "options": [
-              "Conta solo il tempo di generazione della bozza.",
-              "Conta il tempo di revisione ma escludi le correzioni.",
-              "Brief, bozza, revisione umana, consegna."
+              "Per impedire ogni modifica.",
+              "Per eliminare il brief.",
+              "Per confrontare revisioni e recuperare decisioni."
             ],
             "answer": 2,
-            "why": "Un workflow esplicita input, output e responsabilità.",
+            "why": "Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un workflow esplicita input, output e responsabilità.",
-              "Non è l'approccio previsto per questo laboratorio. Un workflow esplicita input, output e responsabilità.",
-              "Corretto. Un workflow esplicita input, output e responsabilità."
+              "Rivedi il principio. Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni.",
+              "Rivedi il principio. Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni.",
+              "Corretto. Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni."
             ]
           },
           "masterclass": {
@@ -1531,18 +1531,18 @@
           "solution": "Un esempio di applicazione è: Raccogli riferimenti con motivazione per ciascuno. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un moodboard comunica una direzione non un layout finale»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Moodboard», quale attività rispetta il principio studiato?",
+            "q": "A cosa serve un moodboard?",
             "options": [
-              "Verifica i colori su un unico sfondo.",
-              "Raccogli riferimenti con motivazione per ciascuno.",
-              "Verifica soltanto la versione a schermo intero."
+              "A misurare i ricavi.",
+              "A comunicare una direzione visiva.",
+              "A sostituire il prodotto finale."
             ],
             "answer": 1,
-            "why": "Un moodboard comunica una direzione non un layout finale.",
+            "why": "Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un moodboard comunica una direzione non un layout finale.",
-              "Corretto. Un moodboard comunica una direzione non un layout finale.",
-              "Non è l'approccio previsto per questo laboratorio. Un moodboard comunica una direzione non un layout finale."
+              "Rivedi il principio. Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo.",
+              "Corretto. Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo.",
+              "Rivedi il principio. Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo."
             ]
           },
           "masterclass": {
@@ -1618,18 +1618,18 @@
           "solution": "Un esempio di applicazione è: Prova testo bianco su viola e misura il contrasto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il contrasto conta più della sola armonia cromatica»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Palette», quale attività rispetta il principio studiato?",
+            "q": "Quale controllo è essenziale per testo e sfondo?",
             "options": [
-              "Prova testo bianco su viola e misura il contrasto.",
-              "Verifica soltanto la versione a schermo intero.",
-              "Verifica i colori su un unico sfondo."
+              "Contrasto sufficiente per la lettura.",
+              "Stesso colore per entrambi.",
+              "Massimo numero di colori."
             ],
             "answer": 0,
-            "why": "Il contrasto conta più della sola armonia cromatica.",
+            "why": "Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto.",
             "feedback": [
-              "Corretto. Il contrasto conta più della sola armonia cromatica.",
-              "Non è l'approccio previsto per questo laboratorio. Il contrasto conta più della sola armonia cromatica.",
-              "Non è l'approccio previsto per questo laboratorio. Il contrasto conta più della sola armonia cromatica."
+              "Corretto. Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto.",
+              "Rivedi il principio. Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto.",
+              "Rivedi il principio. Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto."
             ]
           },
           "masterclass": {
@@ -1705,18 +1705,18 @@
           "solution": "Un esempio di applicazione è: Usa due pesi e tre dimensioni coerenti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La gerarchia tipografica distingue titoli e contenuti»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Tipografia», quale attività rispetta il principio studiato?",
+            "q": "Come crei gerarchia tipografica?",
             "options": [
-              "Verifica i colori su un unico sfondo.",
-              "Usa due pesi e tre dimensioni coerenti.",
-              "Verifica soltanto la versione a schermo intero."
+              "Aggiungi un font diverso a ogni parola.",
+              "Differenzi dimensioni, pesi e spaziature.",
+              "Usi sempre lo stesso peso."
             ],
             "answer": 1,
-            "why": "La gerarchia tipografica distingue titoli e contenuti.",
+            "why": "La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. La gerarchia tipografica distingue titoli e contenuti.",
-              "Corretto. La gerarchia tipografica distingue titoli e contenuti.",
-              "Non è l'approccio previsto per questo laboratorio. La gerarchia tipografica distingue titoli e contenuti."
+              "Rivedi il principio. La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili.",
+              "Corretto. La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili.",
+              "Rivedi il principio. La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili."
             ]
           },
           "masterclass": {
@@ -1792,18 +1792,18 @@
           "solution": "Un esempio di applicazione è: Prova un simbolo a 32 pixel e in monocromia. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un logo deve restare riconoscibile in piccolo»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Logo e icone», quale attività rispetta il principio studiato?",
+            "q": "Come verifichi la leggibilità di un logo?",
             "options": [
-              "Prova un simbolo a 32 pixel e in monocromia.",
-              "Verifica soltanto la versione a schermo intero.",
-              "Verifica i colori su un unico sfondo."
+              "Lo provi in piccolo e su sfondi diversi.",
+              "Lo osservi solo ingrandito.",
+              "Lo valuti solo sullo sfondo originale."
             ],
             "answer": 0,
-            "why": "Un logo deve restare riconoscibile in piccolo.",
+            "why": "Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso.",
             "feedback": [
-              "Corretto. Un logo deve restare riconoscibile in piccolo.",
-              "Non è l'approccio previsto per questo laboratorio. Un logo deve restare riconoscibile in piccolo.",
-              "Non è l'approccio previsto per questo laboratorio. Un logo deve restare riconoscibile in piccolo."
+              "Corretto. Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso.",
+              "Rivedi il principio. Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso.",
+              "Rivedi il principio. Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso."
             ]
           },
           "masterclass": {
@@ -1879,18 +1879,18 @@
           "solution": "Un esempio di applicazione è: Documenta colori, font, spaziature e usi vietati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un brand kit definisce regole ripetibili»), correggilo e ripeti il test.",
           "caseStudy": "Definisci una palette con contrasto leggibile, due font e varianti del logo; verifica la resa a 32 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Brand kit», quale attività rispetta il principio studiato?",
+            "q": "Cosa include un brand kit?",
             "options": [
-              "Verifica i colori su un unico sfondo.",
-              "Documenta colori, font, spaziature e usi vietati.",
-              "Verifica soltanto la versione a schermo intero."
+              "Solo il nome del progetto.",
+              "Asset e regole di utilizzo coerenti.",
+              "Solo una fotografia."
             ],
             "answer": 1,
-            "why": "Un brand kit definisce regole ripetibili.",
+            "why": "Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un brand kit definisce regole ripetibili.",
-              "Corretto. Un brand kit definisce regole ripetibili.",
-              "Non è l'approccio previsto per questo laboratorio. Un brand kit definisce regole ripetibili."
+              "Rivedi il principio. Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto.",
+              "Corretto. Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto.",
+              "Rivedi il principio. Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto."
             ]
           },
           "masterclass": {
@@ -1980,18 +1980,18 @@
           "solution": "Un esempio di applicazione è: Descrivi uno studente che usa il telefono in viaggio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una persona è un’ipotesi da validare non uno stereotipo»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Persona e scenario», quale attività rispetta il principio studiato?",
+            "q": "Come rendi utile una persona UX?",
             "options": [
-              "Misura il tempo dopo aver spiegato tutti i passaggi.",
-              "Descrivi uno studente che usa il telefono in viaggio.",
-              "Raccogli soltanto il gradimento estetico."
+              "Definisci solo il colore preferito.",
+              "Verifichi bisogni e ipotesi con evidenze.",
+              "Assumi stereotipi come fatti."
             ],
             "answer": 1,
-            "why": "Una persona è un’ipotesi da validare non uno stereotipo.",
+            "why": "Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una persona è un’ipotesi da validare non uno stereotipo.",
-              "Corretto. Una persona è un’ipotesi da validare non uno stereotipo.",
-              "Non è l'approccio previsto per questo laboratorio. Una persona è un’ipotesi da validare non uno stereotipo."
+              "Rivedi il principio. Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi.",
+              "Corretto. Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi.",
+              "Rivedi il principio. Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi."
             ]
           },
           "masterclass": {
@@ -2067,18 +2067,18 @@
           "solution": "Un esempio di applicazione è: Disegna login riuscito, password errata e recupero. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un flusso mostra decisioni e percorsi di errore»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «User flow», quale attività rispetta il principio studiato?",
+            "q": "Cosa deve includere un user flow?",
             "options": [
-              "Raccogli soltanto il gradimento estetico.",
-              "Misura il tempo dopo aver spiegato tutti i passaggi.",
-              "Disegna login riuscito, password errata e recupero."
+              "Solo la schermata iniziale.",
+              "Solo i colori finali.",
+              "Percorsi principali, errori e ritorni."
             ],
             "answer": 2,
-            "why": "Un flusso mostra decisioni e percorsi di errore.",
+            "why": "Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un flusso mostra decisioni e percorsi di errore.",
-              "Non è l'approccio previsto per questo laboratorio. Un flusso mostra decisioni e percorsi di errore.",
-              "Corretto. Un flusso mostra decisioni e percorsi di errore."
+              "Rivedi il principio. Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni.",
+              "Rivedi il principio. Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni.",
+              "Corretto. Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni."
             ]
           },
           "masterclass": {
@@ -2154,18 +2154,18 @@
           "solution": "Un esempio di applicazione è: Disegna una dashboard senza colori decorativi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il wireframe privilegia struttura e priorità»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Wireframe», quale attività rispetta il principio studiato?",
+            "q": "Qual è lo scopo del wireframe?",
             "options": [
-              "Raccogli soltanto il gradimento estetico.",
-              "Misura il tempo dopo aver spiegato tutti i passaggi.",
-              "Disegna una dashboard senza colori decorativi."
+              "Pubblicare il backend.",
+              "Definire la fatturazione.",
+              "Organizzare elementi prima dei dettagli estetici."
             ],
             "answer": 2,
-            "why": "Il wireframe privilegia struttura e priorità.",
+            "why": "Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Il wireframe privilegia struttura e priorità.",
-              "Non è l'approccio previsto per questo laboratorio. Il wireframe privilegia struttura e priorità.",
-              "Corretto. Il wireframe privilegia struttura e priorità."
+              "Rivedi il principio. Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici.",
+              "Rivedi il principio. Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici.",
+              "Corretto. Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici."
             ]
           },
           "masterclass": {
@@ -2241,18 +2241,18 @@
           "solution": "Un esempio di applicazione è: Collega tre schermate con pulsanti navigabili. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un prototipo simula interazioni senza backend»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Prototipo cliccabile», quale attività rispetta il principio studiato?",
+            "q": "Cosa puoi testare con un prototipo cliccabile?",
             "options": [
-              "Misura il tempo dopo aver spiegato tutti i passaggi.",
-              "Collega tre schermate con pulsanti navigabili.",
-              "Raccogli soltanto il gradimento estetico."
+              "La sicurezza di un database inesistente.",
+              "La sequenza delle interazioni simulate.",
+              "La capacità reale del server non implementato."
             ],
             "answer": 1,
-            "why": "Un prototipo simula interazioni senza backend.",
+            "why": "Un prototipo cliccabile simula interazioni senza richiedere un backend completo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un prototipo simula interazioni senza backend.",
-              "Corretto. Un prototipo simula interazioni senza backend.",
-              "Non è l'approccio previsto per questo laboratorio. Un prototipo simula interazioni senza backend."
+              "Rivedi il principio. Un prototipo cliccabile simula interazioni senza richiedere un backend completo.",
+              "Corretto. Un prototipo cliccabile simula interazioni senza richiedere un backend completo.",
+              "Rivedi il principio. Un prototipo cliccabile simula interazioni senza richiedere un backend completo."
             ]
           },
           "masterclass": {
@@ -2328,18 +2328,18 @@
           "solution": "Un esempio di applicazione è: Chiedi a una persona di trovare la prossima lezione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Osserva il comportamento senza suggerire la soluzione»), correggilo e ripeti il test.",
           "caseStudy": "Prototipa una prenotazione in tre schermate; osserva un utente mentre cerca di completarla senza suggerimenti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Test di usabilità», quale attività rispetta il principio studiato?",
+            "q": "Come conduci un test di usabilità?",
             "options": [
-              "Misura il tempo dopo aver spiegato tutti i passaggi.",
-              "Chiedi a una persona di trovare la prossima lezione.",
-              "Raccogli soltanto il gradimento estetico."
+              "Valuti solo la tua preferenza.",
+              "Osservi il compito senza suggerire la soluzione.",
+              "Indichi ogni clic in anticipo."
             ],
             "answer": 1,
-            "why": "Osserva il comportamento senza suggerire la soluzione.",
+            "why": "Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Osserva il comportamento senza suggerire la soluzione.",
-              "Corretto. Osserva il comportamento senza suggerire la soluzione.",
-              "Non è l'approccio previsto per questo laboratorio. Osserva il comportamento senza suggerire la soluzione."
+              "Rivedi il principio. Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi.",
+              "Corretto. Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi.",
+              "Rivedi il principio. Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi."
             ]
           },
           "masterclass": {
@@ -2429,18 +2429,18 @@
           "solution": "Un esempio di applicazione è: Disegna sei scene per un tutorial di trenta secondi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Lo storyboard pianifica sequenza e durata»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Storyboard», quale attività rispetta il principio studiato?",
+            "q": "Cosa descrive uno storyboard?",
             "options": [
-              "Controlla la narrazione ma rimanda la verifica dei diritti.",
-              "Disegna sei scene per un tutorial di trenta secondi.",
-              "Controlla soltanto la durata del video."
+              "Solo il costo della pubblicità.",
+              "Scene, durata e messaggio.",
+              "Solo il formato del file."
             ],
             "answer": 1,
-            "why": "Lo storyboard pianifica sequenza e durata.",
+            "why": "Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Lo storyboard pianifica sequenza e durata.",
-              "Corretto. Lo storyboard pianifica sequenza e durata.",
-              "Non è l'approccio previsto per questo laboratorio. Lo storyboard pianifica sequenza e durata."
+              "Rivedi il principio. Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia.",
+              "Corretto. Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia.",
+              "Rivedi il principio. Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia."
             ]
           },
           "masterclass": {
@@ -2516,18 +2516,18 @@
           "solution": "Un esempio di applicazione è: Genera una copertina con spazio libero per il titolo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un brief visivo specifica soggetto, composizione e vincoli»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Immagini», quale attività rispetta il principio studiato?",
+            "q": "Quale controllo fai dopo la generazione di immagini?",
             "options": [
-              "Controlla la narrazione ma rimanda la verifica dei diritti.",
-              "Genera una copertina con spazio libero per il titolo.",
-              "Controlla soltanto la durata del video."
+              "Controlli soltanto il nome del file.",
+              "Verifichi artefatti, coerenza e diritti.",
+              "Accetti sempre il primo risultato."
             ],
             "answer": 1,
-            "why": "Un brief visivo specifica soggetto, composizione e vincoli.",
+            "why": "Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un brief visivo specifica soggetto, composizione e vincoli.",
-              "Corretto. Un brief visivo specifica soggetto, composizione e vincoli.",
-              "Non è l'approccio previsto per questo laboratorio. Un brief visivo specifica soggetto, composizione e vincoli."
+              "Rivedi il principio. Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti.",
+              "Corretto. Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti.",
+              "Rivedi il principio. Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti."
             ]
           },
           "masterclass": {
@@ -2603,18 +2603,18 @@
           "solution": "Un esempio di applicazione è: Crea una clip con apertura, dimostrazione e chiusura. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il montaggio usa ritmo e continuità per comunicare»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Video breve», quale attività rispetta il principio studiato?",
+            "q": "Quale elemento rende accessibile un video parlato?",
             "options": [
-              "Controlla la narrazione ma rimanda la verifica dei diritti.",
-              "Crea una clip con apertura, dimostrazione e chiusura.",
-              "Controlla soltanto la durata del video."
+              "Testo illeggibile.",
+              "Sottotitoli accurati e leggibili.",
+              "Musica più forte della voce."
             ],
             "answer": 1,
-            "why": "Il montaggio usa ritmo e continuità per comunicare.",
+            "why": "Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Il montaggio usa ritmo e continuità per comunicare.",
-              "Corretto. Il montaggio usa ritmo e continuità per comunicare.",
-              "Non è l'approccio previsto per questo laboratorio. Il montaggio usa ritmo e continuità per comunicare."
+              "Rivedi il principio. Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli.",
+              "Corretto. Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli.",
+              "Rivedi il principio. Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli."
             ]
           },
           "masterclass": {
@@ -2690,18 +2690,18 @@
           "solution": "Un esempio di applicazione è: Riscrivi lo stesso annuncio per sito e newsletter. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il tono deve adattarsi al pubblico e al canale»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Copy e tono», quale attività rispetta il principio studiato?",
+            "q": "Come scegli il tono del copy?",
             "options": [
-              "Controlla soltanto la durata del video.",
-              "Controlla la narrazione ma rimanda la verifica dei diritti.",
-              "Riscrivi lo stesso annuncio per sito e newsletter."
+              "In base al numero casuale di parole.",
+              "Usando sempre lo stesso tono.",
+              "In base a pubblico, obiettivo e contesto."
             ],
             "answer": 2,
-            "why": "Il tono deve adattarsi al pubblico e al canale.",
+            "why": "Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Il tono deve adattarsi al pubblico e al canale.",
-              "Non è l'approccio previsto per questo laboratorio. Il tono deve adattarsi al pubblico e al canale.",
-              "Corretto. Il tono deve adattarsi al pubblico e al canale."
+              "Rivedi il principio. Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto.",
+              "Rivedi il principio. Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto.",
+              "Corretto. Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto."
             ]
           },
           "masterclass": {
@@ -2777,18 +2777,18 @@
           "solution": "Un esempio di applicazione è: Organizza immagini, testi e video in cartelle. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Consegna asset coerenti e documenta licenze»), correggilo e ripeti il test.",
           "caseStudy": "Produci uno storyboard di 30 secondi con sei scene; controlla diritti, coerenza visiva e sottotitoli.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Pacchetto creativo», quale attività rispetta il principio studiato?",
+            "q": "Cosa consegni in un pacchetto creativo?",
             "options": [
-              "Controlla soltanto la durata del video.",
-              "Controlla la narrazione ma rimanda la verifica dei diritti.",
-              "Organizza immagini, testi e video in cartelle."
+              "Solo un'anteprima senza file.",
+              "Solo il prompt iniziale.",
+              "Asset finali, formati, fonti e istruzioni."
             ],
             "answer": 2,
-            "why": "Consegna asset coerenti e documenta licenze.",
+            "why": "Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Consegna asset coerenti e documenta licenze.",
-              "Non è l'approccio previsto per questo laboratorio. Consegna asset coerenti e documenta licenze.",
-              "Corretto. Consegna asset coerenti e documenta licenze."
+              "Rivedi il principio. Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo.",
+              "Rivedi il principio. Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo.",
+              "Corretto. Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo."
             ]
           },
           "masterclass": {
