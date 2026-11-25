@@ -1820,7 +1820,7 @@
           },
           "advancedCheck": [
             {
-              "q": "Benefici 12000 euro, costi 8000 euro. Qual è il ROI?",
+              "q": "Un progetto AI produce benefici annui di 12.000 euro e costi totali annui di 8.000 euro. Qual è il ROI annuale?",
               "options": [
                 "150%, dividendo benefici lordi per costi.",
                 "33,3%, dividendo beneficio netto per benefici lordi.",
@@ -1829,9 +1829,9 @@
               "answer": 2,
               "why": "ROI = (benefici − costi) / costi.",
               "feedback": [
-                "Rivedi il caso: ROI = (benefici − costi) / costi. La soluzione attesa è: 50%, sul periodo considerato.",
-                "Rivedi il caso: ROI = (benefici − costi) / costi. La soluzione attesa è: 50%, sul periodo considerato.",
-                "Corretto. ROI = (benefici − costi) / costi."
+                "Il 150% rapporta benefici lordi e costi, senza sottrarre i costi.",
+                "Il 33,3% divide il beneficio netto per i benefici lordi anziché per i costi.",
+                "Il saldo di 4.000 euro diviso per 8.000 euro di costi dà il 50%."
               ]
             }
           ],
@@ -1914,18 +1914,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Benefici 15000 euro, costi 10000 euro: quale ROI?",
+              "q": "Un progetto prevede benefici annui di 15.000 euro, licenze e integrazione per 10.000 euro e altri 5.000 euro di formazione e manutenzione nello stesso anno. Qual è il ROI?",
               "options": [
+                "0%.",
                 "50%.",
-                "150%.",
-                "33,3%."
+                "−33,3% circa."
               ],
               "answer": 0,
-              "why": "(15000 − 10000) / 10000 = 50%.",
+              "why": "Il costo complessivo è 15.000 euro, pari ai benefici: il ROI è zero.",
               "feedback": [
-                "Corretto. (15000 − 10000) / 10000 = 50%.",
-                "Non corretto. (15000 − 10000) / 10000 = 50%.",
-                "Non corretto. (15000 − 10000) / 10000 = 50%."
+                "Benefici e costi complessivi coincidono: il rendimento netto è zero.",
+                "Il 50% esclude formazione e manutenzione dal costo totale.",
+                "Non c'è una perdita di 5.000 euro: i benefici coprono anche i costi aggiuntivi."
               ]
             }
           ],
@@ -1995,7 +1995,7 @@
           },
           "advancedCheck": [
             {
-              "q": "Benefici 9000 euro e costi 12000 euro: quale ROI?",
+              "q": "Nello scenario prudente di un pilota AI, benefici e costi dello stesso periodo sono rispettivamente 9.000 e 12.000 euro. Qual è il ROI?",
               "options": [
                 "25%.",
                 "75%.",
@@ -2004,9 +2004,9 @@
               "answer": 2,
               "why": "(9000 − 12000) / 12000 = −25%.",
               "feedback": [
-                "Non corretto. (9000 − 12000) / 12000 = −25%.",
-                "Non corretto. (9000 − 12000) / 12000 = −25%.",
-                "Corretto. (9000 − 12000) / 12000 = −25%."
+                "Il 25% inverte il segno della perdita di 3.000 euro.",
+                "Il 75% misura la quota dei costi coperta dai benefici, non il rendimento netto.",
+                "La perdita di 3.000 euro rapportata ai 12.000 euro di costi dà −25%."
               ]
             }
           ],
@@ -2103,9 +2103,9 @@
               "answer": 2,
               "why": "Valuta probabilità e impatto, con controlli proporzionati.",
               "feedback": [
-                "Rivedi il caso: Valuta probabilità e impatto, con controlli proporzionati. La soluzione attesa è: Verifica umana e riconciliazione prima del pagamento.",
-                "Rivedi il caso: Valuta probabilità e impatto, con controlli proporzionati. La soluzione attesa è: Verifica umana e riconciliazione prima del pagamento.",
-                "Corretto. Valuta probabilità e impatto, con controlli proporzionati."
+                "Il controllo successivo rileva discrepanze ma non impedisce l'uscita di denaro.",
+                "La qualità della scrittura non dimostra che importi e destinatari siano corretti.",
+                "Confrontare fatture e ordini e ottenere approvazione umana prima del pagamento riduce il rischio."
               ]
             }
           ],
@@ -2188,7 +2188,7 @@
           },
           "advancedCheck": [
             {
-              "q": "Su 200 documenti, 6 contengono errori. Quale tasso?",
+              "q": "In un test di 200 documenti, 6 presentano almeno un errore. Qual è la percentuale di documenti errati?",
               "options": [
                 "6%.",
                 "30%.",
@@ -2197,9 +2197,9 @@
               "answer": 2,
               "why": "6 / 200 = 3%.",
               "feedback": [
-                "Non corretto. 6 / 200 = 3%.",
-                "Non corretto. 6 / 200 = 3%.",
-                "Corretto. 6 / 200 = 3%."
+                "Sei è il numero di documenti errati, non la percentuale su un campione di 200.",
+                "Il 30% corrisponderebbe a 60 documenti errati su 200.",
+                "Sei diviso 200 per cento dà il 3%; il tasso non misura la gravità degli errori."
               ]
             }
           ],
@@ -2278,9 +2278,9 @@
               "answer": 0,
               "why": "Il criterio di accettazione va rispettato.",
               "feedback": [
-                "Corretto. Il criterio di accettazione va rispettato.",
-                "Non corretto. Il criterio di accettazione va rispettato.",
-                "Non corretto. Il criterio di accettazione va rispettato."
+                "Bloccare l'estensione evita di amplificare il rischio; ripeti il test dopo le correzioni.",
+                "Il 97% corretto equivale al 3% errato, oltre il limite del 2%.",
+                "Cambiare il limite per accettare il risultato senza rivalutare il rischio invalida il criterio concordato."
               ]
             }
           ],
@@ -2377,9 +2377,9 @@
               "answer": 0,
               "why": "Definisci ruoli, regole, tracciabilità e responsabilità.",
               "feedback": [
-                "Corretto. Definisci ruoli, regole, tracciabilità e responsabilità.",
-                "Rivedi il caso: Definisci ruoli, regole, tracciabilità e responsabilità. La soluzione attesa è: Registro strumenti, valutazione rischio e approvazione.",
-                "Rivedi il caso: Definisci ruoli, regole, tracciabilità e responsabilità. La soluzione attesa è: Registro strumenti, valutazione rischio e approvazione."
+                "Registro, valutazione e approvazione rendono tracciabili responsabilità e rischi prima dell'uso.",
+                "La scelta autonoma senza registro impedisce di sapere quali strumenti e dati siano coinvolti.",
+                "Registrare lo strumento non dimostra che sia adatto ai dati e ai processi aziendali."
               ]
             }
           ],
@@ -2471,9 +2471,9 @@
               "answer": 0,
               "why": "Il minimo privilegio riduce esposizioni inutili.",
               "feedback": [
-                "Corretto. Il minimo privilegio riduce esposizioni inutili.",
-                "Non corretto. Il minimo privilegio riduce esposizioni inutili.",
-                "Non corretto. Il minimo privilegio riduce esposizioni inutili."
+                "Limitare l'accesso alle fatture necessarie riduce l'esposizione e facilita la revoca dei permessi.",
+                "L'accesso completo espone informazioni estranee al compito, anche se comodo.",
+                "I fascicoli HR non sono necessari alla classificazione delle fatture."
               ]
             }
           ],
@@ -2552,9 +2552,9 @@
               "answer": 0,
               "why": "Un cambiamento rilevante richiede nuova valutazione.",
               "feedback": [
-                "Corretto. Un cambiamento rilevante richiede nuova valutazione.",
-                "Non corretto. Un cambiamento rilevante richiede nuova valutazione.",
-                "Non corretto. Un cambiamento rilevante richiede nuova valutazione."
+                "La nuova valutazione verifica se conservazione, accessi e finalità restano compatibili con le regole aziendali.",
+                "L'approvazione precedente riguardava condizioni diverse e non garantisce l'accettabilità delle nuove.",
+                "Aggiornare il nome documenta lo strumento ma non valuta il nuovo trattamento."
               ]
             }
           ],
@@ -2651,9 +2651,9 @@
               "answer": 1,
               "why": "Misura adozione e risultati, forma gli utenti e raccogli feedback.",
               "feedback": [
-                "Rivedi il caso: Misura adozione e risultati, forma gli utenti e raccogli feedback. La soluzione attesa è: Ostacoli, competenze, utilità e carico aggiuntivo.",
-                "Corretto. Misura adozione e risultati, forma gli utenti e raccogli feedback.",
-                "Rivedi il caso: Misura adozione e risultati, forma gli utenti e raccogli feedback. La soluzione attesa è: Ostacoli, competenze, utilità e carico aggiuntivo."
+                "Le ore misurano la formazione erogata, non la capacità di applicarla o gli ostacoli operativi.",
+                "Osservare i compiti e raccogliere feedback distingue carenze formative da problemi del processo.",
+                "Attribuire la causa alla resistenza senza evidenze può nascondere difetti del flusso."
               ]
             }
           ],
@@ -2736,7 +2736,7 @@
           },
           "advancedCheck": [
             {
-              "q": "Su 40 formati, 10 usano davvero il flusso. Quale adozione osservata?",
+              "q": "In una settimana, 10 dei 40 dipendenti formati completano almeno un compito nel nuovo flusso. Qual è il tasso di adozione osservato tra i formati?",
               "options": [
                 "75%.",
                 "25%.",
@@ -2745,9 +2745,9 @@
               "answer": 1,
               "why": "10 / 40 = 25%.",
               "feedback": [
-                "Non corretto. 10 / 40 = 25%.",
-                "Corretto. 10 / 40 = 25%.",
-                "Non corretto. 10 / 40 = 25%."
+                "Il 75% è la quota dei formati che non usa il flusso.",
+                "Dieci su quaranta equivalgono a un formato su quattro: 25%, non una misura di produttività.",
+                "Quaranta è il numero dei formati, non la percentuale di adozione."
               ]
             }
           ],
@@ -2826,9 +2826,9 @@
               "answer": 1,
               "why": "Il feedback identifica un ostacolo concreto.",
               "feedback": [
-                "Non corretto. Il feedback identifica un ostacolo concreto.",
-                "Corretto. Il feedback identifica un ostacolo concreto.",
-                "Non corretto. Il feedback identifica un ostacolo concreto."
+                "Più accessi non eliminano il lavoro duplicato e possono aumentare il carico.",
+                "Mappare il passaggio e testarne la semplificazione permette di ridurre l'attrito mantenendo i controlli.",
+                "La formazione può aiutare a usare il flusso, ma non elimina un passaggio duplicato previsto dal processo."
               ]
             }
           ],
@@ -2925,9 +2925,9 @@
               "answer": 0,
               "why": "Rivedi le iniziative con criteri comuni e evidenze.",
               "feedback": [
-                "Corretto. Rivedi le iniziative con criteri comuni e evidenze.",
-                "Rivedi il caso: Rivedi le iniziative con criteri comuni e evidenze. La soluzione attesa è: Confronta valore netto e capacità di esecuzione.",
-                "Rivedi il caso: Rivedi le iniziative con criteri comuni e evidenze. La soluzione attesa è: Confronta valore netto e capacità di esecuzione."
+                "Criteri comuni rendono confrontabili valore, rischi e fattibilità, motivando la priorità.",
+                "Una ripartizione uniforme può finanziare iniziative non fattibili o lasciare risorse insufficienti alle più utili.",
+                "Il numero di funzioni non misura il valore aziendale né la capacità di implementarle."
               ]
             }
           ],
@@ -3019,9 +3019,9 @@
               "answer": 0,
               "why": "Somma tutte le componenti indicate.",
               "feedback": [
-                "Corretto. Somma tutte le componenti indicate.",
-                "Non corretto. Somma tutte le componenti indicate.",
-                "Non corretto. Somma tutte le componenti indicate."
+                "La somma include licenza, integrazione e formazione; non rappresenta necessariamente tutti i costi futuri.",
+                "I 2.000 euro coprono soltanto la licenza e omettono le altre due voci.",
+                "I 5.000 euro includono licenza e integrazione ma non la formazione."
               ]
             }
           ],
@@ -3100,9 +3100,9 @@
               "answer": 0,
               "why": "La portabilità incide sul costo totale e sul rischio.",
               "feedback": [
-                "Corretto. La portabilità incide sul costo totale e sul rischio.",
-                "Non corretto. La portabilità incide sul costo totale e sul rischio.",
-                "Non corretto. La portabilità incide sul costo totale e sul rischio."
+                "L'impossibilità di esportare può richiedere ricostruzione dei dati o lavoro manuale al cambio di servizio.",
+                "Il prezzo iniziale non include le possibili spese necessarie per abbandonare il servizio.",
+                "Le funzionalità attuali non risolvono il problema di recuperare e trasferire i dati in futuro."
               ]
             }
           ],
@@ -3199,9 +3199,9 @@
               "answer": 1,
               "why": "Documenta baseline, alternative, costi, benefici e rischi.",
               "feedback": [
-                "Rivedi il caso: Documenta baseline, alternative, costi, benefici e rischi. La soluzione attesa è: Beneficio incrementale misurato e ipotesi esplicite.",
-                "Corretto. Documenta baseline, alternative, costi, benefici e rischi.",
-                "Rivedi il caso: Documenta baseline, alternative, costi, benefici e rischi. La soluzione attesa è: Beneficio incrementale misurato e ipotesi esplicite."
+                "Le licenze misurano risorse acquistate, non il beneficio economico prodotto.",
+                "Il confronto con la baseline e le ipotesi dichiarate consente di valutare il beneficio e i limiti dell'attribuzione.",
+                "Una previsione priva di ipotesi non permette di verificare le assunzioni né confrontare scenari."
               ]
             }
           ],
@@ -3284,7 +3284,7 @@
           },
           "advancedCheck": [
             {
-              "q": "Un pilota costa 5000 e genera benefici incrementali verificati di 6500. Quale saldo?",
+              "q": "Nello stesso periodo un pilota costa complessivamente 5.000 euro e genera benefici incrementali verificati di 6.500 euro. Qual è il beneficio netto?",
               "options": [
                 "1500 euro positivi.",
                 "6500 euro positivi.",
@@ -3293,9 +3293,9 @@
               "answer": 0,
               "why": "6500 − 5000 = 1500.",
               "feedback": [
-                "Corretto. 6500 − 5000 = 1500.",
-                "Non corretto. 6500 − 5000 = 1500.",
-                "Non corretto. 6500 − 5000 = 1500."
+                "Il saldo positivo indica che i benefici superano i costi di 1.500 euro nel periodo.",
+                "I 6.500 euro sono i benefici prima di sottrarre il costo del pilota.",
+                "I 5.000 euro rappresentano il costo, non il saldo che comprende anche i benefici."
               ]
             }
           ],
@@ -3372,11 +3372,11 @@
                 "Elimini il criterio di successo."
               ],
               "answer": 0,
-              "why": "Senza baseline non puoi attribuire il miglioramento.",
+              "why": "Una baseline e criteri misurabili sono necessari per valutare il cambiamento; l'attribuzione richiede anche considerare altri fattori.",
               "feedback": [
-                "Corretto. Senza baseline non puoi attribuire il miglioramento.",
-                "Non corretto. Senza baseline non puoi attribuire il miglioramento.",
-                "Non corretto. Senza baseline non puoi attribuire il miglioramento."
+                "La misura iniziale e le ipotesi permettono un confronto verificabile, senza presumere che ogni miglioramento dipenda dall'AI.",
+                "La promessa non dimostra un beneficio osservato e non consente di controllare l'effetto dell'investimento.",
+                "Eliminare il criterio di successo impedisce di valutare se l'investimento raggiunge il risultato previsto."
               ]
             }
           ],
