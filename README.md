@@ -132,3 +132,7 @@ Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback,
 
 ### Fase 2E — Business L1
 2E blocco 4: matrice preliminare 54/54 (36 originali +18 proposte), Business 54/234, Academy 240/420 (57,1%). Professional/Complete: 29 comuni e 7 miste originali; 6 prerequisiti nuovi da diagnosticare (3 teoria candidata esonero, 3 digitali), nessun esonero applicativo. AI gratuita ammessa, premium facoltativo secondo decisione utente vigente. Fonti ufficiali OpenAI Academy, Elements of AI, LibreOffice, OpenStax statistica, NIST, EDPB, n8n e IBM/Coursera consultate; accesso gratuito completo IBM non dimostrato, catalogo OpenAI originale non mostra corsi nel rendering, OpenStax contabilità 404. Nessun collaudo; quote, login, licenze, accessibilità, unità granulari e automazione AI gratuita reale aperti. Gate Creator invariati. Prossimo Business L2 83 sessioni. Nessuna modifica applicativa.
+
+
+### Fase 2E — Business L2
+Blocco 5: 83/83 mappate preliminarmente (48 originali +5 GA4 +30 BI), Business 137/234, Academy 323/420 (76,9%). Fonti ufficiali GA4, Microsoft Learn, Coursera e Metabase consultate; DuckDB redirect non verificato. Desktop Windows gratuito, Copilot/collaborazione cloud vincolati a licenze; equivalenza gratuita locale, DAX su altri OS, RLS/refresh/deploy, login GA4, certificazioni, unità, quote, accessibilità e carico restano gate. Professional/Complete condividono applicazioni e prove, AI gratuita ammessa. Nessun collaudo o modifica applicativa. Prossimo Business L3 97 sessioni; preservare gate precedenti.
