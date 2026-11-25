@@ -270,18 +270,18 @@
           },
           "advancedCheck": [
             {
-              "q": "20 richieste da 6 minuti diventano 20 da 4 minuti. Quanto tempo risparmi?",
+              "q": "30 richieste richiedono 8 minuti ciascuna prima dell'AI e 5 dopo, revisione inclusa. Quanto risparmi?",
               "options": [
-                "20 minuti, contando una sola parte del risparmio.",
-                "120 minuti, pari al tempo iniziale.",
-                "40 minuti, prima dei costi di adozione."
+                "150 minuti.",
+                "240 minuti.",
+                "90 minuti."
               ],
               "answer": 2,
-              "why": "Misura il tempo netto dopo revisione umana.",
+              "why": "30 × (8 − 5) = 90.",
               "feedback": [
-                "Rivedi il caso: Misura il tempo netto dopo revisione umana. La soluzione attesa è: 40 minuti, prima dei costi di adozione.",
-                "Rivedi il caso: Misura il tempo netto dopo revisione umana. La soluzione attesa è: 40 minuti, prima dei costi di adozione.",
-                "Corretto. Misura il tempo netto dopo revisione umana."
+                "Non corretto. 30 × (8 − 5) = 90.",
+                "Non corretto. 30 × (8 − 5) = 90.",
+                "Corretto. 30 × (8 − 5) = 90."
               ]
             }
           ],
@@ -351,18 +351,18 @@
           },
           "advancedCheck": [
             {
-              "q": "20 richieste da 6 minuti diventano 20 da 4 minuti. Quanto tempo risparmi?",
+              "q": "Un pilota risparmia 90 minuti ma richiede 100 minuti di manutenzione nello stesso periodo. Qual è il saldo temporale?",
               "options": [
-                "40 minuti, prima dei costi di adozione.",
-                "20 minuti, contando una sola parte del risparmio.",
-                "120 minuti, pari al tempo iniziale."
+                "Perdita netta di 10 minuti.",
+                "Risparmio di 90 minuti.",
+                "Risparmio di 190 minuti."
               ],
               "answer": 0,
-              "why": "Misura il tempo netto dopo revisione umana.",
+              "why": "90 − 100 = −10.",
               "feedback": [
-                "Corretto. Misura il tempo netto dopo revisione umana.",
-                "Rivedi il caso: Misura il tempo netto dopo revisione umana. La soluzione attesa è: 40 minuti, prima dei costi di adozione.",
-                "Rivedi il caso: Misura il tempo netto dopo revisione umana. La soluzione attesa è: 40 minuti, prima dei costi di adozione."
+                "Corretto. 90 − 100 = −10.",
+                "Non corretto. 90 − 100 = −10.",
+                "Non corretto. 90 − 100 = −10."
               ]
             }
           ],
@@ -544,18 +544,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un report mensile deve distinguere fatti e ipotesi. Cosa controllare?",
+              "q": "Il gestionale indica 85 ordini, il report AI 95. Come procedi?",
               "options": [
-                "Controlla soltanto il formato del report.",
-                "Riconcilia i numeri con il gestionale.",
-                "Confronta i numeri con la bozza precedente, non con il gestionale."
+                "Accetti il report più recente.",
+                "Riconcili i dieci ordini di differenza prima della consegna.",
+                "Usi la media di 90."
               ],
               "answer": 1,
-              "why": "Specifica destinatario, decisione, fonti e formato.",
+              "why": "La discrepanza richiede verifica della fonte.",
               "feedback": [
-                "Rivedi il caso: Specifica destinatario, decisione, fonti e formato. La soluzione attesa è: Riconcilia i numeri con il gestionale.",
-                "Corretto. Specifica destinatario, decisione, fonti e formato.",
-                "Rivedi il caso: Specifica destinatario, decisione, fonti e formato. La soluzione attesa è: Riconcilia i numeri con il gestionale."
+                "Non corretto. La discrepanza richiede verifica della fonte.",
+                "Corretto. La discrepanza richiede verifica della fonte.",
+                "Non corretto. La discrepanza richiede verifica della fonte."
               ]
             }
           ],
@@ -625,18 +625,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un report mensile deve distinguere fatti e ipotesi. Cosa controllare?",
+              "q": "Un report contiene una previsione senza fonte. Come lo consegni?",
               "options": [
-                "Riconcilia i numeri con il gestionale.",
-                "Controlla soltanto il formato del report.",
-                "Confronta i numeri con la bozza precedente, non con il gestionale."
+                "Etichetti la previsione come ipotesi e ne dichiari i limiti.",
+                "La trasformi in un dato consuntivo.",
+                "La attribuisci al gestionale senza verifica."
               ],
               "answer": 0,
-              "why": "Specifica destinatario, decisione, fonti e formato.",
+              "why": "Le ipotesi devono restare distinguibili dai fatti.",
               "feedback": [
-                "Corretto. Specifica destinatario, decisione, fonti e formato.",
-                "Rivedi il caso: Specifica destinatario, decisione, fonti e formato. La soluzione attesa è: Riconcilia i numeri con il gestionale.",
-                "Rivedi il caso: Specifica destinatario, decisione, fonti e formato. La soluzione attesa è: Riconcilia i numeri con il gestionale."
+                "Corretto. Le ipotesi devono restare distinguibili dai fatti.",
+                "Non corretto. Le ipotesi devono restare distinguibili dai fatti.",
+                "Non corretto. Le ipotesi devono restare distinguibili dai fatti."
               ]
             }
           ],
@@ -818,18 +818,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una procedura di acquisto manca di approvazione. Quale correzione?",
+              "q": "La soglia richiede approvazione per importi superiori a 5000 euro. Un ordine da 5000 rientra nella regola?",
               "options": [
-                "Definisci una soglia senza assegnare un approvatore.",
-                "Aggiungi un registro senza regole di approvazione.",
-                "Definisci soglia, approvatore e registro."
+                "Sì, perché è uguale alla soglia.",
+                "Sì, perché ogni ordine è sopra soglia.",
+                "No, la condizione è strettamente superiore."
               ],
               "answer": 2,
-              "why": "Standardizza attività ripetitive con responsabilità e controlli.",
+              "why": "Il confine va interpretato secondo la regola dichiarata.",
               "feedback": [
-                "Rivedi il caso: Standardizza attività ripetitive con responsabilità e controlli. La soluzione attesa è: Definisci soglia, approvatore e registro.",
-                "Rivedi il caso: Standardizza attività ripetitive con responsabilità e controlli. La soluzione attesa è: Definisci soglia, approvatore e registro.",
-                "Corretto. Standardizza attività ripetitive con responsabilità e controlli."
+                "Non corretto. Il confine va interpretato secondo la regola dichiarata.",
+                "Non corretto. Il confine va interpretato secondo la regola dichiarata.",
+                "Corretto. Il confine va interpretato secondo la regola dichiarata."
               ]
             }
           ],
@@ -899,18 +899,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una procedura di acquisto manca di approvazione. Quale correzione?",
+              "q": "Un acquisto è approvato ma manca l'identità dell'approvatore. Cosa fai?",
               "options": [
-                "Definisci una soglia senza assegnare un approvatore.",
-                "Definisci soglia, approvatore e registro.",
-                "Aggiungi un registro senza regole di approvazione."
+                "Consideri sufficiente lo stato approvato.",
+                "Completi la verifica e registri l'approvatore prima di procedere.",
+                "Registri un nome casuale."
               ],
               "answer": 1,
-              "why": "Standardizza attività ripetitive con responsabilità e controlli.",
+              "why": "La tracciabilità richiede responsabilità identificabili.",
               "feedback": [
-                "Rivedi il caso: Standardizza attività ripetitive con responsabilità e controlli. La soluzione attesa è: Definisci soglia, approvatore e registro.",
-                "Corretto. Standardizza attività ripetitive con responsabilità e controlli.",
-                "Rivedi il caso: Standardizza attività ripetitive con responsabilità e controlli. La soluzione attesa è: Definisci soglia, approvatore e registro."
+                "Non corretto. La tracciabilità richiede responsabilità identificabili.",
+                "Corretto. La tracciabilità richiede responsabilità identificabili.",
+                "Non corretto. La tracciabilità richiede responsabilità identificabili."
               ]
             }
           ],
@@ -1092,18 +1092,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un ordine incompleto entra nel flusso. Come gestirlo?",
+              "q": "Un ordine valido arriva due volte con lo stesso ID. Come eviti doppie conferme?",
               "options": [
-                "Conferma l'ordine e chiedi i dati mancanti dopo.",
-                "Scarta tutti gli ordini senza possibilità di revisione.",
-                "Instradalo a revisione senza confermarlo automaticamente."
+                "Generi un nuovo ID a ogni arrivo.",
+                "Confermi entrambi e cancelli il log.",
+                "Controlli l'ID già elaborato prima di confermare."
               ],
               "answer": 2,
-              "why": "Mappa input, output, eccezioni e proprietario del processo.",
+              "why": "Un identificativo stabile consente di riconoscere duplicati.",
               "feedback": [
-                "Rivedi il caso: Mappa input, output, eccezioni e proprietario del processo. La soluzione attesa è: Instradalo a revisione senza confermarlo automaticamente.",
-                "Rivedi il caso: Mappa input, output, eccezioni e proprietario del processo. La soluzione attesa è: Instradalo a revisione senza confermarlo automaticamente.",
-                "Corretto. Mappa input, output, eccezioni e proprietario del processo."
+                "Non corretto. Un identificativo stabile consente di riconoscere duplicati.",
+                "Non corretto. Un identificativo stabile consente di riconoscere duplicati.",
+                "Corretto. Un identificativo stabile consente di riconoscere duplicati."
               ]
             }
           ],
@@ -1173,18 +1173,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un ordine incompleto entra nel flusso. Come gestirlo?",
+              "q": "Il flusso riceve un ordine senza indirizzo. Quale esito atteso testi?",
               "options": [
-                "Instradalo a revisione senza confermarlo automaticamente.",
-                "Conferma l'ordine e chiedi i dati mancanti dopo.",
-                "Scarta tutti gli ordini senza possibilità di revisione."
+                "Richiesta di integrazione senza spedizione.",
+                "Spedizione con indirizzo stimato.",
+                "Conferma definitiva senza indirizzo."
               ],
               "answer": 0,
-              "why": "Mappa input, output, eccezioni e proprietario del processo.",
+              "why": "L'eccezione deve bloccare l'azione che richiede il dato.",
               "feedback": [
-                "Corretto. Mappa input, output, eccezioni e proprietario del processo.",
-                "Rivedi il caso: Mappa input, output, eccezioni e proprietario del processo. La soluzione attesa è: Instradalo a revisione senza confermarlo automaticamente.",
-                "Rivedi il caso: Mappa input, output, eccezioni e proprietario del processo. La soluzione attesa è: Instradalo a revisione senza confermarlo automaticamente."
+                "Corretto. L'eccezione deve bloccare l'azione che richiede il dato.",
+                "Non corretto. L'eccezione deve bloccare l'azione che richiede il dato.",
+                "Non corretto. L'eccezione deve bloccare l'azione che richiede il dato."
               ]
             }
           ],
@@ -1366,18 +1366,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ridurre i tempi di risposta del 20%. Quale indicatore?",
+              "q": "Il tempo mediano passa da 10 a 8 minuti. Quale riduzione ottieni?",
               "options": [
-                "Numero di richieste inviate al modello.",
-                "Tempo mediano e qualità delle risposte.",
-                "Solo tempo medio, senza qualità delle risposte."
+                "80%.",
+                "20%.",
+                "25%."
               ],
               "answer": 1,
-              "why": "Parti dagli obiettivi aziendali, non dagli strumenti.",
+              "why": "La riduzione è 2 diviso 10.",
               "feedback": [
-                "Rivedi il caso: Parti dagli obiettivi aziendali, non dagli strumenti. La soluzione attesa è: Tempo mediano e qualità delle risposte.",
-                "Corretto. Parti dagli obiettivi aziendali, non dagli strumenti.",
-                "Rivedi il caso: Parti dagli obiettivi aziendali, non dagli strumenti. La soluzione attesa è: Tempo mediano e qualità delle risposte."
+                "Non corretto. La riduzione è 2 diviso 10.",
+                "Corretto. La riduzione è 2 diviso 10.",
+                "Non corretto. La riduzione è 2 diviso 10."
               ]
             }
           ],
@@ -1447,18 +1447,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ridurre i tempi di risposta del 20%. Quale indicatore?",
+              "q": "Il tempo scende del 20% ma gli errori raddoppiano. Estendi il pilota?",
               "options": [
-                "Tempo mediano e qualità delle risposte.",
-                "Numero di richieste inviate al modello.",
-                "Solo tempo medio, senza qualità delle risposte."
+                "Verifichi la soglia di qualità prima di estendere.",
+                "Estendi perché il tempo è diminuito.",
+                "Ignori gli errori se il volume cresce."
               ],
               "answer": 0,
-              "why": "Parti dagli obiettivi aziendali, non dagli strumenti.",
+              "why": "Il valore va valutato insieme alla qualità.",
               "feedback": [
-                "Corretto. Parti dagli obiettivi aziendali, non dagli strumenti.",
-                "Rivedi il caso: Parti dagli obiettivi aziendali, non dagli strumenti. La soluzione attesa è: Tempo mediano e qualità delle risposte.",
-                "Rivedi il caso: Parti dagli obiettivi aziendali, non dagli strumenti. La soluzione attesa è: Tempo mediano e qualità delle risposte."
+                "Corretto. Il valore va valutato insieme alla qualità.",
+                "Non corretto. Il valore va valutato insieme alla qualità.",
+                "Non corretto. Il valore va valutato insieme alla qualità."
               ]
             }
           ],
@@ -1640,18 +1640,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due progetti hanno benefici diversi e risorse limitate. Come scegliere?",
+              "q": "A produce benefici 9000 e costi 7000; B benefici 7000 e costi 3000. Quale ha beneficio netto maggiore?",
               "options": [
-                "Scegli il progetto con il beneficio lordo maggiore.",
-                "Confronta benefici netti, vincoli e rischio.",
-                "Scegli il progetto più rapido senza considerare i rischi."
+                "A, 2000 euro.",
+                "B, 4000 euro.",
+                "A, 9000 euro."
               ],
               "answer": 1,
-              "why": "Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso.",
+              "why": "A genera 2000 netti, B 4000.",
               "feedback": [
-                "Rivedi il caso: Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso. La soluzione attesa è: Confronta benefici netti, vincoli e rischio.",
-                "Corretto. Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso.",
-                "Rivedi il caso: Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso. La soluzione attesa è: Confronta benefici netti, vincoli e rischio."
+                "Non corretto. A genera 2000 netti, B 4000.",
+                "Corretto. A genera 2000 netti, B 4000.",
+                "Non corretto. A genera 2000 netti, B 4000."
               ]
             }
           ],
@@ -1721,18 +1721,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due progetti hanno benefici diversi e risorse limitate. Come scegliere?",
+              "q": "Il progetto più redditizio richiede dati non disponibili. Come decidi?",
               "options": [
-                "Scegli il progetto con il beneficio lordo maggiore.",
-                "Scegli il progetto più rapido senza considerare i rischi.",
-                "Confronta benefici netti, vincoli e rischio."
+                "Approvi solo per il ROI previsto.",
+                "Sostituisci i dati mancanti con stime non dichiarate.",
+                "Verifichi fattibilità e costo di acquisizione dei dati prima di approvare."
               ],
               "answer": 2,
-              "why": "Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso.",
+              "why": "Il valore atteso non elimina i vincoli di fattibilità.",
               "feedback": [
-                "Rivedi il caso: Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso. La soluzione attesa è: Confronta benefici netti, vincoli e rischio.",
-                "Rivedi il caso: Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso. La soluzione attesa è: Confronta benefici netti, vincoli e rischio.",
-                "Corretto. Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso."
+                "Non corretto. Il valore atteso non elimina i vincoli di fattibilità.",
+                "Non corretto. Il valore atteso non elimina i vincoli di fattibilità.",
+                "Corretto. Il valore atteso non elimina i vincoli di fattibilità."
               ]
             }
           ],
@@ -1914,18 +1914,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Benefici 12000 euro, costi 8000 euro. Qual è il ROI?",
+              "q": "Benefici 15000 euro, costi 10000 euro: quale ROI?",
               "options": [
-                "50%, sul periodo considerato.",
-                "150%, dividendo benefici lordi per costi.",
-                "33,3%, dividendo beneficio netto per benefici lordi."
+                "50%.",
+                "150%.",
+                "33,3%."
               ],
               "answer": 0,
-              "why": "ROI = (benefici − costi) / costi.",
+              "why": "(15000 − 10000) / 10000 = 50%.",
               "feedback": [
-                "Corretto. ROI = (benefici − costi) / costi.",
-                "Rivedi il caso: ROI = (benefici − costi) / costi. La soluzione attesa è: 50%, sul periodo considerato.",
-                "Rivedi il caso: ROI = (benefici − costi) / costi. La soluzione attesa è: 50%, sul periodo considerato."
+                "Corretto. (15000 − 10000) / 10000 = 50%.",
+                "Non corretto. (15000 − 10000) / 10000 = 50%.",
+                "Non corretto. (15000 − 10000) / 10000 = 50%."
               ]
             }
           ],
@@ -1995,18 +1995,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Benefici 12000 euro, costi 8000 euro. Qual è il ROI?",
+              "q": "Benefici 9000 euro e costi 12000 euro: quale ROI?",
               "options": [
-                "150%, dividendo benefici lordi per costi.",
-                "33,3%, dividendo beneficio netto per benefici lordi.",
-                "50%, sul periodo considerato."
+                "25%.",
+                "75%.",
+                "−25%."
               ],
               "answer": 2,
-              "why": "ROI = (benefici − costi) / costi.",
+              "why": "(9000 − 12000) / 12000 = −25%.",
               "feedback": [
-                "Rivedi il caso: ROI = (benefici − costi) / costi. La soluzione attesa è: 50%, sul periodo considerato.",
-                "Rivedi il caso: ROI = (benefici − costi) / costi. La soluzione attesa è: 50%, sul periodo considerato.",
-                "Corretto. ROI = (benefici − costi) / costi."
+                "Non corretto. (9000 − 12000) / 12000 = −25%.",
+                "Non corretto. (9000 − 12000) / 12000 = −25%.",
+                "Corretto. (9000 − 12000) / 12000 = −25%."
               ]
             }
           ],
@@ -2188,18 +2188,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una risposta errata può generare un pagamento. Quale controllo?",
+              "q": "Su 200 documenti, 6 contengono errori. Quale tasso?",
               "options": [
-                "Verifica soltanto dopo il pagamento.",
-                "Approva automaticamente se la risposta è ben scritta.",
-                "Verifica umana e riconciliazione prima del pagamento."
+                "6%.",
+                "30%.",
+                "3%."
               ],
               "answer": 2,
-              "why": "Valuta probabilità e impatto, con controlli proporzionati.",
+              "why": "6 / 200 = 3%.",
               "feedback": [
-                "Rivedi il caso: Valuta probabilità e impatto, con controlli proporzionati. La soluzione attesa è: Verifica umana e riconciliazione prima del pagamento.",
-                "Rivedi il caso: Valuta probabilità e impatto, con controlli proporzionati. La soluzione attesa è: Verifica umana e riconciliazione prima del pagamento.",
-                "Corretto. Valuta probabilità e impatto, con controlli proporzionati."
+                "Non corretto. 6 / 200 = 3%.",
+                "Non corretto. 6 / 200 = 3%.",
+                "Corretto. 6 / 200 = 3%."
               ]
             }
           ],
@@ -2269,18 +2269,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una risposta errata può generare un pagamento. Quale controllo?",
+              "q": "La soglia massima di errore è 2% e il test misura 3%. Cosa fai?",
               "options": [
-                "Verifica umana e riconciliazione prima del pagamento.",
-                "Verifica soltanto dopo il pagamento.",
-                "Approva automaticamente se la risposta è ben scritta."
+                "Sospendi l'estensione e correggi il processo.",
+                "Estendi perché il 97% è corretto.",
+                "Alzi la soglia dopo il test senza motivazione."
               ],
               "answer": 0,
-              "why": "Valuta probabilità e impatto, con controlli proporzionati.",
+              "why": "Il criterio di accettazione va rispettato.",
               "feedback": [
-                "Corretto. Valuta probabilità e impatto, con controlli proporzionati.",
-                "Rivedi il caso: Valuta probabilità e impatto, con controlli proporzionati. La soluzione attesa è: Verifica umana e riconciliazione prima del pagamento.",
-                "Rivedi il caso: Valuta probabilità e impatto, con controlli proporzionati. La soluzione attesa è: Verifica umana e riconciliazione prima del pagamento."
+                "Corretto. Il criterio di accettazione va rispettato.",
+                "Non corretto. Il criterio di accettazione va rispettato.",
+                "Non corretto. Il criterio di accettazione va rispettato."
               ]
             }
           ],
@@ -2462,18 +2462,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un reparto introduce un nuovo modello senza verifica. Come governarlo?",
+              "q": "Un fornitore chiede accesso a tutti i documenti per classificare fatture. Quale permesso concedi?",
               "options": [
-                "Registro strumenti, valutazione rischio e approvazione.",
-                "Lascia scegliere ogni reparto senza registrazione.",
-                "Registra il modello senza valutarne il rischio."
+                "Solo accesso ai documenti necessari e autorizzati.",
+                "Accesso completo per comodità.",
+                "Accesso anche ai dati HR."
               ],
               "answer": 0,
-              "why": "Definisci ruoli, regole, tracciabilità e responsabilità.",
+              "why": "Il minimo privilegio riduce esposizioni inutili.",
               "feedback": [
-                "Corretto. Definisci ruoli, regole, tracciabilità e responsabilità.",
-                "Rivedi il caso: Definisci ruoli, regole, tracciabilità e responsabilità. La soluzione attesa è: Registro strumenti, valutazione rischio e approvazione.",
-                "Rivedi il caso: Definisci ruoli, regole, tracciabilità e responsabilità. La soluzione attesa è: Registro strumenti, valutazione rischio e approvazione."
+                "Corretto. Il minimo privilegio riduce esposizioni inutili.",
+                "Non corretto. Il minimo privilegio riduce esposizioni inutili.",
+                "Non corretto. Il minimo privilegio riduce esposizioni inutili."
               ]
             }
           ],
@@ -2543,18 +2543,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un reparto introduce un nuovo modello senza verifica. Come governarlo?",
+              "q": "Un nuovo modello cambia le condizioni di trattamento dati. Come reagisci?",
               "options": [
-                "Registro strumenti, valutazione rischio e approvazione.",
-                "Lascia scegliere ogni reparto senza registrazione.",
-                "Registra il modello senza valutarne il rischio."
+                "Rivaluti rischio e autorizzazione prima dell'uso.",
+                "Continui perché era già approvato.",
+                "Aggiorni solo il nome nel registro."
               ],
               "answer": 0,
-              "why": "Definisci ruoli, regole, tracciabilità e responsabilità.",
+              "why": "Un cambiamento rilevante richiede nuova valutazione.",
               "feedback": [
-                "Corretto. Definisci ruoli, regole, tracciabilità e responsabilità.",
-                "Rivedi il caso: Definisci ruoli, regole, tracciabilità e responsabilità. La soluzione attesa è: Registro strumenti, valutazione rischio e approvazione.",
-                "Rivedi il caso: Definisci ruoli, regole, tracciabilità e responsabilità. La soluzione attesa è: Registro strumenti, valutazione rischio e approvazione."
+                "Corretto. Un cambiamento rilevante richiede nuova valutazione.",
+                "Non corretto. Un cambiamento rilevante richiede nuova valutazione.",
+                "Non corretto. Un cambiamento rilevante richiede nuova valutazione."
               ]
             }
           ],
@@ -2736,18 +2736,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il personale evita il nuovo flusso. Cosa indagare?",
+              "q": "Su 40 formati, 10 usano davvero il flusso. Quale adozione osservata?",
               "options": [
-                "Misura soltanto le ore di formazione.",
-                "Ostacoli, competenze, utilità e carico aggiuntivo.",
-                "Attribuisci il problema alla resistenza senza indagare."
+                "75%.",
+                "25%.",
+                "40%."
               ],
               "answer": 1,
-              "why": "Misura adozione e risultati, forma gli utenti e raccogli feedback.",
+              "why": "10 / 40 = 25%.",
               "feedback": [
-                "Rivedi il caso: Misura adozione e risultati, forma gli utenti e raccogli feedback. La soluzione attesa è: Ostacoli, competenze, utilità e carico aggiuntivo.",
-                "Corretto. Misura adozione e risultati, forma gli utenti e raccogli feedback.",
-                "Rivedi il caso: Misura adozione e risultati, forma gli utenti e raccogli feedback. La soluzione attesa è: Ostacoli, competenze, utilità e carico aggiuntivo."
+                "Non corretto. 10 / 40 = 25%.",
+                "Corretto. 10 / 40 = 25%.",
+                "Non corretto. 10 / 40 = 25%."
               ]
             }
           ],
@@ -2817,18 +2817,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il personale evita il nuovo flusso. Cosa indagare?",
+              "q": "Gli utenti segnalano doppio inserimento dei dati. Quale intervento prioritario?",
               "options": [
-                "Misura soltanto le ore di formazione.",
-                "Ostacoli, competenze, utilità e carico aggiuntivo.",
-                "Attribuisci il problema alla resistenza senza indagare."
+                "Imponi più accessi giornalieri.",
+                "Analizzi e riduci il passaggio duplicato.",
+                "Aumenti le ore di formazione senza analisi."
               ],
               "answer": 1,
-              "why": "Misura adozione e risultati, forma gli utenti e raccogli feedback.",
+              "why": "Il feedback identifica un ostacolo concreto.",
               "feedback": [
-                "Rivedi il caso: Misura adozione e risultati, forma gli utenti e raccogli feedback. La soluzione attesa è: Ostacoli, competenze, utilità e carico aggiuntivo.",
-                "Corretto. Misura adozione e risultati, forma gli utenti e raccogli feedback.",
-                "Rivedi il caso: Misura adozione e risultati, forma gli utenti e raccogli feedback. La soluzione attesa è: Ostacoli, competenze, utilità e carico aggiuntivo."
+                "Non corretto. Il feedback identifica un ostacolo concreto.",
+                "Corretto. Il feedback identifica un ostacolo concreto.",
+                "Non corretto. Il feedback identifica un ostacolo concreto."
               ]
             }
           ],
@@ -3010,18 +3010,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Tre piloti competono per lo stesso budget. Come decidere?",
+              "q": "Licenza 2000, integrazione 3000, formazione 1000: costo iniziale complessivo?",
               "options": [
-                "Confronta valore netto e capacità di esecuzione.",
-                "Distribuisci il budget in parti uguali senza valutazione.",
-                "Scegli il pilota con più funzioni."
+                "6000 euro.",
+                "2000 euro.",
+                "5000 euro."
               ],
               "answer": 0,
-              "why": "Rivedi le iniziative con criteri comuni e evidenze.",
+              "why": "Somma tutte le componenti indicate.",
               "feedback": [
-                "Corretto. Rivedi le iniziative con criteri comuni e evidenze.",
-                "Rivedi il caso: Rivedi le iniziative con criteri comuni e evidenze. La soluzione attesa è: Confronta valore netto e capacità di esecuzione.",
-                "Rivedi il caso: Rivedi le iniziative con criteri comuni e evidenze. La soluzione attesa è: Confronta valore netto e capacità di esecuzione."
+                "Corretto. Somma tutte le componenti indicate.",
+                "Non corretto. Somma tutte le componenti indicate.",
+                "Non corretto. Somma tutte le componenti indicate."
               ]
             }
           ],
@@ -3091,18 +3091,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Tre piloti competono per lo stesso budget. Come decidere?",
+              "q": "Due fornitori hanno costo simile ma uno non consente esportazione. Cosa valuti?",
               "options": [
-                "Confronta valore netto e capacità di esecuzione.",
-                "Distribuisci il budget in parti uguali senza valutazione.",
-                "Scegli il pilota con più funzioni."
+                "Rischio di dipendenza e costo di uscita.",
+                "Solo il prezzo iniziale.",
+                "Solo il numero di funzionalità."
               ],
               "answer": 0,
-              "why": "Rivedi le iniziative con criteri comuni e evidenze.",
+              "why": "La portabilità incide sul costo totale e sul rischio.",
               "feedback": [
-                "Corretto. Rivedi le iniziative con criteri comuni e evidenze.",
-                "Rivedi il caso: Rivedi le iniziative con criteri comuni e evidenze. La soluzione attesa è: Confronta valore netto e capacità di esecuzione.",
-                "Rivedi il caso: Rivedi le iniziative con criteri comuni e evidenze. La soluzione attesa è: Confronta valore netto e capacità di esecuzione."
+                "Corretto. La portabilità incide sul costo totale e sul rischio.",
+                "Non corretto. La portabilità incide sul costo totale e sul rischio.",
+                "Non corretto. La portabilità incide sul costo totale e sul rischio."
               ]
             }
           ],
@@ -3284,18 +3284,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un pilota costa 5000 euro. Quale evidenza serve?",
+              "q": "Un pilota costa 5000 e genera benefici incrementali verificati di 6500. Quale saldo?",
               "options": [
-                "Beneficio incrementale misurato e ipotesi esplicite.",
-                "Numero di licenze acquistate.",
-                "Beneficio previsto senza indicare le ipotesi."
+                "1500 euro positivi.",
+                "6500 euro positivi.",
+                "5000 euro negativi."
               ],
               "answer": 0,
-              "why": "Documenta baseline, alternative, costi, benefici e rischi.",
+              "why": "6500 − 5000 = 1500.",
               "feedback": [
-                "Corretto. Documenta baseline, alternative, costi, benefici e rischi.",
-                "Rivedi il caso: Documenta baseline, alternative, costi, benefici e rischi. La soluzione attesa è: Beneficio incrementale misurato e ipotesi esplicite.",
-                "Rivedi il caso: Documenta baseline, alternative, costi, benefici e rischi. La soluzione attesa è: Beneficio incrementale misurato e ipotesi esplicite."
+                "Corretto. 6500 − 5000 = 1500.",
+                "Non corretto. 6500 − 5000 = 1500.",
+                "Non corretto. 6500 − 5000 = 1500."
               ]
             }
           ],
@@ -3365,18 +3365,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un pilota costa 5000 euro. Quale evidenza serve?",
+              "q": "Il business case promette benefici ma non indica baseline. Quale decisione?",
               "options": [
-                "Beneficio incrementale misurato e ipotesi esplicite.",
-                "Numero di licenze acquistate.",
-                "Beneficio previsto senza indicare le ipotesi."
+                "Richiedi una misura iniziale e ipotesi verificabili.",
+                "Approvi sulla promessa.",
+                "Elimini il criterio di successo."
               ],
               "answer": 0,
-              "why": "Documenta baseline, alternative, costi, benefici e rischi.",
+              "why": "Senza baseline non puoi attribuire il miglioramento.",
               "feedback": [
-                "Corretto. Documenta baseline, alternative, costi, benefici e rischi.",
-                "Rivedi il caso: Documenta baseline, alternative, costi, benefici e rischi. La soluzione attesa è: Beneficio incrementale misurato e ipotesi esplicite.",
-                "Rivedi il caso: Documenta baseline, alternative, costi, benefici e rischi. La soluzione attesa è: Beneficio incrementale misurato e ipotesi esplicite."
+                "Corretto. Senza baseline non puoi attribuire il miglioramento.",
+                "Non corretto. Senza baseline non puoi attribuire il miglioramento.",
+                "Non corretto. Senza baseline non puoi attribuire il miglioramento."
               ]
             }
           ],
