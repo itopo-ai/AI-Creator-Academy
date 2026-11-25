@@ -749,3 +749,79 @@ Base 13bf5991e4775ffd74d0d852de8fd5f653eea43f. V=fonte pubblica verificata, P=eq
 | P12 | Integrazione proposta | A | difesa autonoma su variante nuova | P |
 
 P01–P12 non sono ID definitivi; B sui gruppi multimediali segnala dipendenze da chiudere, non che tutti i compiti di montaggio siano bloccati. Rubrica 0–3 e minimo 2 per ogni dimensione essenziale, nessuna violazione bloccante; stesso brief più variante autonoma, prove free/premium, log tempi/quote/costi, sorgenti editabili, test negativi e registro licenze. Proposta minima: 3 immagini iterate, 2 clip AI di 5s, 1 voce sintetica autorizzata e video montato 30–60s; verificare fattibilità, non requisiti approvati. Nessun acquisto o GPU nuova obbligatori; se no alternativa reale gratuita su hardware dichiarato, mantenere B o proporre ridefinizione obiettivo da approvare. Non equiparare montaggio a generazione. Certificazioni: badge Claude/OpenAI, CS50 completamento distinto da edX verificato, Adobe Firefly specifica facoltativa; costo esame/lingua Italia non accertati. Accessibilità fonti non collaudata; prevedere sintesi IT originali, trascrizioni lecite, test VoiceOver/tastiera/zoom e rientro link iPhone, desktop per editing. Prossimo L2 inventario risorse, mantenere gate L1 (link granulari, diritto riuso, accesso account/carta, hardware, quote, certificazioni, prove) prima approvazione; nessuna modifica applicativa.
+
+
+## Fase 2E — Creator L2 Applied AI & Development (25/11/2026)
+2E blocco 2 Creator L2: matrice 50/50 (30 originali +20 proposte), fonti ufficiali Harvard CS50x/P, MDN, freeCodeCamp, GitHub Skills/Copilot/Pages, PY4E AI, PostgreSQL, Supabase e unittest. Percorso gratuito candidato locale + cloud Free; nessun collaudo. CS50 vieta AI esterne che suggeriscono risposte/codice nelle proprie valutazioni: separare esercizi originali Academy assistiti. Limiti cloud, auth, deploy backend, hardware, licenze e unità granulari aperti; gate L1 invariati. Prossimo L3.
+Base d05171252c12c61480fc6ed82994005cbd49096a. V fonte pubblica consultata, P equivalenza candidata, B dipendenza aperta, T prova reale (0). Fonti prevalentemente EN; durata per unità, traduzioni, accessibilità, account/carta e costi locali non accertati salvo indicati. Nessuna iscrizione. Selezione unità senza imporre corsi completi sovrapposti.
+
+| Codice | Risorsa e link verificati | Condizioni e alternativa |
+|---|---|---|
+| H | https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Structuring_content ; https://developer.mozilla.org/en-US/docs/Learn_web_development/Core | HTML, semantica, immagini, form; prerequisito file/editor/browser; gratuito pubblico. MDN documentazione CC BY-SA 2.5+ salvo eccezioni, codice recente CC0, precedente MIT: https://developer.mozilla.org/en-US/docs/MDN/Writing_guidelines/Attrib_copyright_license. |
+| C | https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/CSS_layout | layout responsive; HTML/CSS base; browser/editor locali, premium opzionale. |
+| J | https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting | JS, DOM, eventi; HTML/CSS prima; storage e singole unità da aprire. |
+| F | https://developer.mozilla.org/en-US/docs/Learn_web_development/Extensions/Forms | form, validazione, invio; HTML CSS JS; non equiparare validazione browser/server. |
+| G | https://github.com/skills/introduction-to-github ; https://github.com/skills/review-pull-requests ; https://skills.github.com/ | intro <1h, account GitHub; Git locale e repo Free pubblici/privati; licenze singoli repo e workflow da controllare. https://github.com/pricing ; https://docs.github.com/en/billing/reference/product-usage-included : Codespaces 120 core-hours/mese, 15GB storage, impostare stop spesa; pricing Actions 2000 min vs billing compute USD12, non assumere equivalenza; locale default candidato. |
+| R | https://github.com/skills/release-based-workflow ; https://docs.github.com/en/pages/getting-started-with-github-pages/about-github-pages | release e Pages statico, Free repo pubblico; no segreti o dati personali, non ospita backend Python; backend reale locale e hosting remoto gratuito da verificare. |
+| P | https://cs50.harvard.edu/python/ ; https://cs50.harvard.edu/python/weeks/6/ ; https://ai.py4e.com/lessons | CS50P 10 settimane OCW, file I/O; PY4E AI indice variabili, condizioni, funzioni, cicli, file, liste/dizionari; singole lezioni PY4E e licenze da verificare. Python locale candidato. |
+| T | https://cs50.harvard.edu/python/weeks/5/ ; https://docs.python.org/3/library/unittest.html | unit test, fixture, suite; pin versione stabile compatibile, pagina docs corrente 3.15.2; test locali senza pagamento. |
+| Q | https://cs50.harvard.edu/x/weeks/7/ ; https://www.postgresql.org/docs/current/tutorial-sql.html | SQL CS50 e Postgres tutorial tabelle, join, aggregati, update/delete; pin versione effettiva (pagina current 19); SQLite utile basi ma non sostituisce RLS Postgres. |
+| S | https://supabase.com/docs/guides/database/postgres/row-level-security ; https://supabase.com/docs/guides/local-development ; https://supabase.com/docs/guides/getting-started/quickstarts/reactjs ; https://supabase.com/pricing | Free 500MB DB/progetto, 5GB egress, 50k MAU, pausa dopo 1 settimana inattiva, no backup automatici; local CLI + runtime container compatibile (Podman candidato), hardware e licenze componenti da verificare. Quickstart auth javascript non accessibile, React quickstart non prova login; selezionare auth diretto prima approvazione. |
+| A | https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch | HTTP/fetch, errori, CORS, abort; backend locale Python candidato, guida Flask e unità HTTP non accertate in questo blocco; API reale locale senza quota commerciale, non equivale API AI commerciale. |
+
+Trasversali: https://cs50.harvard.edu/x/ (11 settimane gratuito OCW), https://cs50.harvard.edu/x/certificate/ (>=70% ogni prova richiesta e progetto), https://cs50.harvard.edu/x/faqs/ (edX audit gratuito; certificato verificato facoltativo a pagamento, costo italiano ND; nessun credito accademico automatico), https://cs50.harvard.edu/x/license/ CC BY-NC-SA 4.0, link e laboratori originali, no riuso commerciale non autorizzato. https://cs50.harvard.edu/x/honesty/ vieta AI esterne che suggeriscono risposte o codice nelle valutazioni; usare solo strumenti consentiti da CS50, separare esercizi Academy con AI a scelta; verificare policy specifica CS50P prima iscrizione. https://contribute.freecodecamp.org/how-to-work-on-coding-challenges/ conferma curriculum v9 responsive, JS, Python, relational DB, backend/API, progetti e certificazioni; https://www.freecodecamp.org/learn/ pagina senza testo leggibile, unità, condizioni esame, AI, licenze e durata non convalidate; non promettere certificato per unità selezionate. https://github.com/features/copilot/plans Free 2000 completions/mese, chat/agent limitati, no carta dichiarata; Pro USD10/mese listino USA, non prezzo Italia; AI chat gratuita a scelta + editor locale come fallback, nessuna dipendenza da Copilot, quote reali e termini codice da testare. No obbligo student pack o abbonamento. Per ogni sessione, AI può assistere ma studente spiega diff, verifica fonti API, esegue test e variante nuova; nessun segreto o dato reale nei prompt. Licenze software/asset/dipendenze e termini output da registrare.
+
+| ID | Sessione | Risorsa | Laboratorio/evidenza e criterio comune | Stato |
+|---|---|---|---|---|
+| cr-w07s1 | Pagina semantica | H | HTML semantico, landmark e heading | P |
+| cr-w07s2 | Layout responsive | C | layout 320– desktop senza overflow | P |
+| cr-w07s3 | Componenti CSS | C | componenti CSS riusabili e stati focus | P |
+| cr-w07s4 | Accessibilità | H | test tastiera, contrasto e label | P |
+| cr-w07s5 | Landing page | H | landing responsive con brief | P |
+| cr-w08s1 | Funzioni | J | funzioni pure e casi limite | P |
+| cr-w08s2 | DOM ed eventi | J | DOM eventi con delega e input sicuri | P |
+| cr-w08s3 | Form | F | form accessibile, validazione client; server dopo backend | P |
+| cr-w08s4 | Storage locale | J | storage versionato e recupero dati corrotti | P |
+| cr-w08s5 | Mini app | J | mini app CRUD locale e regressione | P |
+| cr-w09s1 | Repository | G | repo README gitignore e segreti fittizi | P |
+| cr-w09s2 | Commit | G | commit atomici e diff | P |
+| cr-w09s3 | Branch | G | branch e conflitto risolto | P |
+| cr-w09s4 | Pull request | G | PR con review e test | P |
+| cr-w09s5 | Release | R | tag release e ripristino reale | P/B |
+| cr-w10s1 | Script | P | script rename dry-run e collisioni | P |
+| cr-w10s2 | Dati | P | CSV sporco, riconciliazione e report | P |
+| cr-w10s3 | Funzioni e test | T | funzioni e test positivi/negativi | P |
+| cr-w10s4 | Errori | P | eccezioni specifiche e log | P |
+| cr-w10s5 | Utility | P | utility CLI riproducibile | P |
+| cr-w11s1 | Schema dati | Q | schema PK FK vincoli e seed | P |
+| cr-w11s2 | Query | Q | query join aggregati e risultati attesi | P |
+| cr-w11s3 | Login | S | login/logout e sessione scaduta | P/B |
+| cr-w11s4 | Permessi RLS | S | RLS due utenti CRUD allow/deny | P/B |
+| cr-w11s5 | App dati | S | app dati con migrazione e test isolamento | P/B |
+| cr-w12s1 | HTTP | A | HTTP metodi status e request reali | P/B |
+| cr-w12s2 | Fetch | A | fetch errori HTTP rete e timeout | P/B |
+| cr-w12s3 | Stati UI | J | UI loading empty error retry | P |
+| cr-w12s4 | Architettura | A | diagramma confini client/server e segreti | P/B |
+| cr-w12s5 | App completa | S | app completa con test e deploy statico+backend reale candidato | P/B |
+| L2-P01 | setup editor terminale e versioni | G | installazione riproducibile | P |
+| L2-P02 | Git anticipato | G | repo locale, diff e restore | P |
+| L2-P03 | HTML semantico avanzato | H | form e tabella accessibili | P |
+| L2-P04 | CSS box model e cascade | C | debug computed styles | P |
+| L2-P05 | Flexbox Grid responsive | C | tre viewport e zoom | P |
+| L2-P06 | JS tipi e condizioni | J | test valori null e coercizione | P |
+| L2-P07 | array oggetti e iterazioni | J | trasformazione dataset | P |
+| L2-P08 | funzioni scope e moduli | J | test unitari e import | P |
+| L2-P09 | DOM avanzato e debugging | J | eventi e XSS negativo | P |
+| L2-P10 | async await e errori | A | richieste concorrenti e abort | P/B |
+| L2-P11 | Python setup e tipi | P | venv e script deterministico | P |
+| L2-P12 | file CSV JSON | P | round trip e input errato | P |
+| L2-P13 | Python test e debugging | T | suite automatica e fix | P |
+| L2-P14 | SQL schema e normalizzazione | Q | vincoli e diagramma | P |
+| L2-P15 | SQL join e aggregazioni | Q | dataset di riferimento | P |
+| L2-P16 | SQL transazioni e parametrizzazione | Q | rollback e injection test | P |
+| L2-P17 | backend locale | A | API reale con validazione | P/B |
+| L2-P18 | auth e autorizzazioni | S | due utenti, CRUD negato | P/B |
+| L2-P19 | integrazione e deploy | A | API reale, segreti server, smoke | P/B |
+| L2-P20 | capstone e difesa | R | clone pulito, demo e variante autonoma | P/B |
+
+L2-P01–20 solo segnaposti documentali. Anticipare Git e setup, prerequisiti logica/JSON L1, nessuna modifica di ordine applicativo. Rubrica 0–3 minimo 2 ogni dimensione essenziale, nessun blocco sicurezza/diritti; stesso brief, variante autonoma, log AI e tempi/costi, test automatizzati e manuali, clone pulito. Capstone candidato app gestione progetti creativi con dataset sintetico, UI responsive accessibile, CRUD, auth, RLS due utenti, API reale, migrazioni, README, test, release e rollback. Static Pages + backend locale non prova backend pubblicato: gate se richiesta pubblicazione reale, trovare hosting gratuito stabile senza carta/autocharge o approvare distinzione locale/remoto. Gate L2: accesso auth e email quote, hardware container, cloud pausa/backup/quote, deployment remoto, unità granulari freeCodeCamp/PY4E/MDN e licenze, assistenti AI quote, accessibilità e durata; nessuna prova reale. L1 gate generazione audio/video, hardware, quote, accessibilità, licenze, link invariati. Mobile First studio iPhone e laboratori desktop dichiarati; prototipo blu notte/ciano/verde/viola/oro e vetta invariato. Mappatura cumulativa 92/420 preliminari, non validazione. Prossimo L3 94 sessioni. Nessuna modifica applicativa.

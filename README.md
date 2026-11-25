@@ -120,3 +120,7 @@ Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback,
 
 ### Fase 2E — Creator L1, blocco 1B
 2E blocco 1B Creator L1: matrice individuale 42/42 (30 ID originali +12 segnaposti proposti, non ID applicativi). Verifica pubblica aggiuntiva Anthropic AI Fluency, CS50 Scratch, MDN/JSON Schema, Audacity, modelli FLUX e Wan, prezzi Adobe Italia, accessibilità W3C. Nessun collaudo; lacune bloccanti accesso gratuito reale generazione video/audio, hardware e quote; link LearnFree reindirizzati, Inkscape 403, unità Figma/Anthropic non tutte aperte, licenze e certificazioni da completare. Non dichiarare L1 validato; proseguire inventario L2 mantenendo gate L1 prima approvazione.
+
+
+### Fase 2E — Creator L2
+2E blocco 2 Creator L2: matrice 50/50 (30 originali +20 proposte), fonti ufficiali Harvard CS50x/P, MDN, freeCodeCamp, GitHub Skills/Copilot/Pages, PY4E AI, PostgreSQL, Supabase e unittest. Percorso gratuito candidato locale + cloud Free; nessun collaudo. CS50 vieta AI esterne che suggeriscono risposte/codice nelle proprie valutazioni: separare esercizi originali Academy assistiti. Limiti cloud, auth, deploy backend, hardware, licenze e unità granulari aperti; gate L1 invariati. Prossimo L3.
