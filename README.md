@@ -59,3 +59,7 @@ Revisione di dashboard, selettore corsi, navigazione, lezioni, quiz e menu Pro. 
 - Validazione backup: quattro casi superati, inclusa compatibilità con dati precedenti senza assessment.
 - Avanzamento lezione: sei stati da 0 a 100% verificati su dati simulati.
 - Restano test browser/Safari, installazione PWA, offline, backup cifrato end-to-end, aggiornamento e verifica completa dei link.
+
+
+### Fase 2C — recupero documentale
+Fase 2C blocco 1: audit documentale 30 sessioni, 60 quiz, 180 feedback distinti per alternativa; posizioni corrette 14/22/24, 30/30 coppie stessa posizione. Distrattori spesso ovvi; ordine UI non verificato. Schema attività identico 15+5+25+10+5 minuti; integrare prerequisiti, materiali, soluzioni riproducibili, rubriche e prova autonoma. Proposta +12 sessioni (+40%) livello 1, non definitiva. Screening teoria 7–12 avviato; audit completo secondo blocco ancora da fare. Risorse online e runtime non verificati. Nessuna modifica applicativa.
