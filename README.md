@@ -136,3 +136,7 @@ Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback,
 
 ### Fase 2E — Business L2
 Blocco 5: 83/83 mappate preliminarmente (48 originali +5 GA4 +30 BI), Business 137/234, Academy 323/420 (76,9%). Fonti ufficiali GA4, Microsoft Learn, Coursera e Metabase consultate; DuckDB redirect non verificato. Desktop Windows gratuito, Copilot/collaborazione cloud vincolati a licenze; equivalenza gratuita locale, DAX su altri OS, RLS/refresh/deploy, login GA4, certificazioni, unità, quote, accessibilità e carico restano gate. Professional/Complete condividono applicazioni e prove, AI gratuita ammessa. Nessun collaudo o modifica applicativa. Prossimo Business L3 97 sessioni; preservare gate precedenti.
+
+
+### Fase 2E — Business L3 e consolidamento
+97/97 preliminari (60 originali +37 proposte). Creator 186/186, Business 234/234, Academy 420/420 (264 originali +156 proposte). Make Academy gratuita ma crediti limitati, LearnQuest/Coursera non gratuito integralmente, n8n/Ollama locale candidato, Power Apps Developer Plan con Entra ID e deprecazione unmanaged, Copilot trial senza pubblicazione; PL-900 blueprint EN aggiornato 24/07/2026. Tutti i gate precedenti e nuovi restano aperti; nessun collaudo reale o modifica applicativa. Prossimo Fase 3 standard definitivo e piano validazione, poi Fase 4 prototipi e approvazione prima di interventi applicativi. Regole permanenti 1–2 vigenti.
