@@ -8373,18 +8373,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Da cosa dipendono le misure DAX?",
+            "q": "In Power BI selezioni il mese di marzo e una misura DAX dei ricavi cambia valore. Perché?",
             "options": [
-              "Solo dal colore del report.",
-              "Dal contesto di filtro.",
-              "Solo dal nome del file."
+              "La selezione modifica permanentemente gli importi originali.",
+              "La misura viene valutata nel contesto di filtro selezionato.",
+              "La misura usa sempre il totale annuale indipendentemente dai filtri."
             ],
             "answer": 1,
-            "why": "DAX esprime misure che dipendono dal contesto di filtro.",
+            "why": "Le misure sono valutate nel contesto di filtro applicabile.",
             "feedback": [
-              "Rivedi il principio: DAX esprime misure che dipendono dal contesto di filtro.",
-              "Corretto. DAX esprime misure che dipendono dal contesto di filtro.",
-              "Rivedi il principio: DAX esprime misure che dipendono dal contesto di filtro."
+              "Un filtro non riscrive i dati originali.",
+              "Corretto. Le misure sono valutate nel contesto di filtro applicabile.",
+              "Una misura può rispondere ai filtri del report."
             ]
           },
           "masterclass": {
@@ -8467,18 +8467,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Margine 30, ricavi 100: quale margine percentuale?",
+            "q": "Un reparto registra ricavi di 80.000 euro e costi di 60.000 euro. Qual è il margine percentuale sui ricavi?",
             "options": [
-              "70%.",
-              "3%.",
-              "30%."
+              "33,3% circa.",
+              "75%.",
+              "25%."
             ],
             "answer": 2,
-            "why": "Il margine percentuale divide il margine per i ricavi, se non nulli.",
+            "why": "Il margine è 20.000 euro; diviso per 80.000 vale 25%.",
             "feedback": [
-              "Rivedi il principio: Il margine percentuale divide il margine per i ricavi, se non nulli.",
-              "Rivedi il principio: Il margine percentuale divide il margine per i ricavi, se non nulli.",
-              "Corretto. Il margine percentuale divide il margine per i ricavi, se non nulli."
+              "Dividere il margine per i costi usa una base diversa.",
+              "Il 75% rappresenta il rapporto costi su ricavi.",
+              "Corretto. Il margine è 20.000 euro; diviso per 80.000 vale 25%."
             ]
           },
           "masterclass": {
@@ -8548,18 +8548,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come verifichi le misure di due periodi?",
+            "q": "Due periodi hanno ricavi di 100 e 300 e margini di 20 e 90. Qual è il margine percentuale complessivo?",
             "options": [
-              "Calcoli ricavi, costi e margine e riconcili i totali.",
-              "Confronti solo i grafici.",
-              "Sommi percentuali senza considerare i ricavi."
+              "27,5%.",
+              "25%.",
+              "50%."
             ],
             "answer": 0,
-            "why": "Calcola ricavi, costi e margine per due periodi e riconcilia i totali.",
+            "why": "Il margine totale è 110 su ricavi totali di 400.",
             "feedback": [
-              "Corretto. Calcola ricavi, costi e margine per due periodi e riconcilia i totali.",
-              "Rivedi il principio: Calcola ricavi, costi e margine per due periodi e riconcilia i totali.",
-              "Rivedi il principio: Calcola ricavi, costi e margine per due periodi e riconcilia i totali."
+              "Corretto. Il margine totale è 110 su ricavi totali di 400.",
+              "La media semplice delle percentuali ignora i diversi ricavi.",
+              "Sommare le percentuali non produce il margine complessivo."
             ]
           },
           "masterclass": {
@@ -8647,18 +8647,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve la segmentazione?",
+            "q": "Le vendite complessive crescono ma un gruppo di clienti acquista meno. Quale analisi aiuta a individuare il fenomeno?",
             "options": [
-              "Nascondere i dati aggregati.",
-              "Analizzare risultati per cliente o prodotto.",
-              "Eliminare le differenze tra gruppi."
+              "Esaminare soltanto il totale aziendale.",
+              "Segmentare le vendite per gruppo di clienti e confrontare periodi coerenti.",
+              "Ordinare i clienti alfabeticamente senza confrontare gli importi."
             ],
             "answer": 1,
-            "why": "La segmentazione permette di analizzare risultati per cliente o prodotto.",
+            "why": "La segmentazione rende visibili dinamiche nascoste dal totale.",
             "feedback": [
-              "Rivedi il principio: La segmentazione permette di analizzare risultati per cliente o prodotto.",
-              "Corretto. La segmentazione permette di analizzare risultati per cliente o prodotto.",
-              "Rivedi il principio: La segmentazione permette di analizzare risultati per cliente o prodotto."
+              "Il totale può compensare andamenti opposti.",
+              "Corretto. La segmentazione rende visibili dinamiche nascoste dal totale.",
+              "L'ordine alfabetico non misura la variazione delle vendite."
             ]
           },
           "masterclass": {
@@ -8741,18 +8741,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa devi esplicitare nel margine?",
+            "q": "Due report mostrano margini diversi per lo stesso prodotto: uno include i costi logistici e l'altro no. Come li confronti?",
             "options": [
-              "Quali costi sono inclusi.",
-              "Solo il nome del prodotto.",
-              "Solo la valuta."
+              "Uniformi la definizione dei costi inclusi prima del confronto.",
+              "Confronti direttamente le percentuali perché riguardano lo stesso prodotto.",
+              "Converti entrambi gli importi in un'altra valuta."
             ],
             "answer": 0,
-            "why": "Il margine dipende dai costi inclusi; specifica sempre la definizione.",
+            "why": "Il margine dipende dal perimetro dei costi considerati.",
             "feedback": [
-              "Corretto. Il margine dipende dai costi inclusi; specifica sempre la definizione.",
-              "Rivedi il principio: Il margine dipende dai costi inclusi; specifica sempre la definizione.",
-              "Rivedi il principio: Il margine dipende dai costi inclusi; specifica sempre la definizione."
+              "Corretto. Il margine dipende dal perimetro dei costi considerati.",
+              "Lo stesso prodotto non garantisce definizioni equivalenti.",
+              "La valuta non risolve la differenza di perimetro."
             ]
           },
           "masterclass": {
@@ -8822,18 +8822,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come controlli segmenti non sovrapposti?",
+            "q": "Tre segmenti esclusivi ed esaustivi riportano ricavi di 40, 35 e 20 mila euro, mentre il totale è 100 mila. Cosa fai?",
             "options": [
-              "Verifichi che i totali coincidano con il generale.",
-              "Sommi percentuali senza pesi.",
-              "Ignori i record non classificati."
+              "Indaghi la differenza di 5 mila euro e riconcili i dati.",
+              "Aumenti ogni segmento della stessa percentuale per far coincidere i totali.",
+              "Accetti la differenza perché i segmenti sono distinti."
             ],
             "answer": 0,
-            "why": "Confronta segmenti e verifica che i totali coincidano con il generale.",
+            "why": "Segmenti esclusivi ed esaustivi devono riconciliarsi con il totale additivo.",
             "feedback": [
-              "Corretto. Confronta segmenti e verifica che i totali coincidano con il generale.",
-              "Rivedi il principio: Confronta segmenti e verifica che i totali coincidano con il generale.",
-              "Rivedi il principio: Confronta segmenti e verifica che i totali coincidano con il generale."
+              "Corretto. Segmenti esclusivi ed esaustivi devono riconciliarsi con il totale additivo.",
+              "Una rettifica arbitraria nasconde la causa.",
+              "La distinzione dei segmenti non giustifica lo scostamento."
             ]
           },
           "masterclass": {
@@ -8927,18 +8927,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cos'è uno scostamento di budget?",
+            "q": "Il budget dei ricavi è 50.000 euro e il consuntivo è 47.000 euro. Quanto vale lo scostamento effettivo meno budget?",
             "options": [
-              "Differenza tra due grafici.",
-              "Differenza tra effettivo e budget.",
-              "Somma di effettivo e budget."
+              "+3.000 euro.",
+              "−3.000 euro.",
+              "97.000 euro."
             ],
             "answer": 1,
-            "why": "Lo scostamento confronta valore effettivo e budget.",
+            "why": "47.000 meno 50.000 dà −3.000 euro.",
             "feedback": [
-              "Rivedi il principio: Lo scostamento confronta valore effettivo e budget.",
-              "Corretto. Lo scostamento confronta valore effettivo e budget.",
-              "Rivedi il principio: Lo scostamento confronta valore effettivo e budget."
+              "Il segno positivo deriva dall'ordine inverso della sottrazione.",
+              "Corretto. 47.000 meno 50.000 dà −3.000 euro.",
+              "La somma non rappresenta uno scostamento."
             ]
           },
           "masterclass": {
@@ -9021,18 +9021,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Costo effettivo 110, budget 100: quale valutazione a parità di perimetro?",
+            "q": "A parità di volume e perimetro, i costi effettivi sono 24.000 euro contro un budget di 20.000. Come interpreti la differenza?",
             "options": [
-              "Scostamento sfavorevole di 10.",
-              "Scostamento favorevole di 10.",
-              "Nessuno scostamento."
+              "Scostamento sfavorevole di 4.000 euro.",
+              "Scostamento favorevole di 4.000 euro.",
+              "Scostamento nullo perché il volume è invariato."
             ],
             "answer": 0,
-            "why": "Un aumento di costo è normalmente sfavorevole a parità di perimetro.",
+            "why": "Un costo superiore al budget è normalmente sfavorevole a parità di condizioni.",
             "feedback": [
-              "Corretto. Un aumento di costo è normalmente sfavorevole a parità di perimetro.",
-              "Rivedi il principio: Un aumento di costo è normalmente sfavorevole a parità di perimetro.",
-              "Rivedi il principio: Un aumento di costo è normalmente sfavorevole a parità di perimetro."
+              "Corretto. Un costo superiore al budget è normalmente sfavorevole a parità di condizioni.",
+              "Un incremento di costo non è un risparmio.",
+              "Il volume invariato non elimina la differenza di costo."
             ]
           },
           "masterclass": {
@@ -9102,18 +9102,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come presenti gli scostamenti?",
+            "q": "Ricavi e costi superano entrambi il budget di 2.000 euro. Come presenti gli scostamenti?",
             "options": [
-              "Mostri solo valori assoluti senza contesto.",
-              "Calcoli ricavi e costi e spieghi il significato dei segni.",
-              "Usi lo stesso giudizio per ogni segno."
+              "Classifichi entrambi come favorevoli perché positivi.",
+              "Distingui l'aumento favorevole dei ricavi da quello sfavorevole dei costi, a parità di perimetro.",
+              "Classifichi entrambi come sfavorevoli perché superiori al budget."
             ],
             "answer": 1,
-            "why": "Calcola scostamenti di ricavi e costi e spiega il significato dei segni.",
+            "why": "Il significato economico del segno dipende dalla voce analizzata.",
             "feedback": [
-              "Rivedi il principio: Calcola scostamenti di ricavi e costi e spiega il significato dei segni.",
-              "Corretto. Calcola scostamenti di ricavi e costi e spiega il significato dei segni.",
-              "Rivedi il principio: Calcola scostamenti di ricavi e costi e spiega il significato dei segni."
+              "Un costo maggiore non è normalmente favorevole.",
+              "Corretto. Il significato economico del segno dipende dalla voce analizzata.",
+              "Ricavi maggiori non sono normalmente sfavorevoli."
             ]
           },
           "masterclass": {
@@ -9201,18 +9201,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa rende interpretabile un report?",
+            "q": "Un grafico mostra il valore 125 senza altre indicazioni. Quali informazioni aggiungi per renderlo interpretabile?",
             "options": [
-              "Solo una grafica elaborata.",
-              "Solo il totale finale.",
-              "Periodo, unità e fonte visibili."
+              "Soltanto una legenda cromatica.",
+              "Soltanto il nome dell'autore del report.",
+              "Periodo, unità di misura e fonte del dato."
             ],
             "answer": 2,
-            "why": "Un report efficace rende visibili periodo, unità e fonte.",
+            "why": "Periodo, unità e fonte chiariscono significato e provenienza.",
             "feedback": [
-              "Rivedi il principio: Un report efficace rende visibili periodo, unità e fonte.",
-              "Rivedi il principio: Un report efficace rende visibili periodo, unità e fonte.",
-              "Corretto. Un report efficace rende visibili periodo, unità e fonte."
+              "Il colore non chiarisce se si tratta di euro, unità o migliaia.",
+              "L'autore non identifica necessariamente la fonte o il periodo.",
+              "Corretto. Periodo, unità e fonte chiariscono significato e provenienza."
             ]
           },
           "masterclass": {
@@ -9295,18 +9295,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa determina il saldo di cassa?",
+            "q": "Un'impresa ha 12.000 euro di cassa iniziale, incassa 5.000 euro e paga 8.000 euro. Qual è il saldo finale?",
             "options": [
-              "Solo le fatture emesse.",
-              "Incassi e pagamenti oltre al saldo iniziale.",
-              "Sempre e soltanto l'utile."
+              "15.000 euro.",
+              "9.000 euro.",
+              "17.000 euro."
             ],
             "answer": 1,
-            "why": "Utile e liquidità sono concetti distinti; incassi e pagamenti determinano il saldo di cassa.",
+            "why": "12.000 più 5.000 meno 8.000 dà 9.000 euro.",
             "feedback": [
-              "Rivedi il principio: Utile e liquidità sono concetti distinti; incassi e pagamenti determinano il saldo di cassa.",
-              "Corretto. Utile e liquidità sono concetti distinti; incassi e pagamenti determinano il saldo di cassa.",
-              "Rivedi il principio: Utile e liquidità sono concetti distinti; incassi e pagamenti determinano il saldo di cassa."
+              "15.000 deriva dall'inversione dei flussi.",
+              "Corretto. 12.000 più 5.000 meno 8.000 dà 9.000 euro.",
+              "17.000 trascura i pagamenti."
             ]
           },
           "masterclass": {
@@ -9376,18 +9376,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come rappresenti i movimenti di cassa?",
+            "q": "Vuoi mostrare come gli incassi e i pagamenti modificano il saldo iniziale. Quale rappresentazione è più adatta?",
             "options": [
-              "Confondi utile e saldo finale.",
-              "Mostri saldo iniziale, movimenti e saldo finale.",
-              "Mostri solo i ricavi."
+              "Un grafico a torta dei soli incassi.",
+              "Un grafico a cascata con saldo iniziale, variazioni e saldo finale.",
+              "Una linea che mostra soltanto l'utile del periodo."
             ],
             "answer": 1,
-            "why": "Disegna un grafico con saldo iniziale, movimenti e saldo finale.",
+            "why": "La cascata rende visibile il contributo dei movimenti al saldo finale.",
             "feedback": [
-              "Rivedi il principio: Disegna un grafico con saldo iniziale, movimenti e saldo finale.",
-              "Corretto. Disegna un grafico con saldo iniziale, movimenti e saldo finale.",
-              "Rivedi il principio: Disegna un grafico con saldo iniziale, movimenti e saldo finale."
+              "Gli incassi da soli non spiegano i pagamenti.",
+              "Corretto. La cascata rende visibile il contributo dei movimenti al saldo finale.",
+              "L'utile non coincide necessariamente con i movimenti di cassa."
             ]
           },
           "masterclass": {
@@ -9475,18 +9475,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa richiede la pubblicazione di report?",
+            "q": "Un report finanziario viene pubblicato per la direzione e aggiornato ogni mattina. Quali controlli definisci?",
             "options": [
-              "Permessi e aggiornamenti controllati.",
-              "Accesso pubblico predefinito.",
-              "Nessuna verifica dopo la pubblicazione."
+              "Permessi di accesso, frequenza di aggiornamento e verifica degli errori di aggiornamento.",
+              "Accesso a tutta l'azienda e aggiornamento senza monitoraggio.",
+              "Solo la frequenza di aggiornamento, senza verificare gli accessi."
             ],
             "answer": 0,
-            "why": "La pubblicazione di report richiede permessi e aggiornamenti controllati.",
+            "why": "Pubblicazione e manutenzione richiedono controllo degli accessi e dei dati aggiornati.",
             "feedback": [
-              "Corretto. La pubblicazione di report richiede permessi e aggiornamenti controllati.",
-              "Rivedi il principio: La pubblicazione di report richiede permessi e aggiornamenti controllati.",
-              "Rivedi il principio: La pubblicazione di report richiede permessi e aggiornamenti controllati."
+              "Corretto. Pubblicazione e manutenzione richiedono controllo degli accessi e dei dati aggiornati.",
+              "L'accesso generalizzato può esporre dati riservati.",
+              "La frequenza non garantisce autorizzazioni corrette."
             ]
           },
           "masterclass": {
@@ -9569,18 +9569,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali dati deve vedere un ruolo limitato?",
+            "q": "Un responsabile regionale deve consultare soltanto le vendite della propria regione. Quale configurazione rispetta il suo ruolo?",
             "options": [
-              "Tutti i dati aziendali.",
-              "Solo dati scelti casualmente.",
-              "Solo quelli necessari al compito."
+              "Concedere tutte le regioni e chiedere di usare un filtro visuale.",
+              "Nascondere le altre regioni in una pagina mantenendole accessibili altrove.",
+              "Limitare l'accesso ai dati della regione assegnata e verificare il risultato."
             ],
             "answer": 2,
-            "why": "Un ruolo limitato deve vedere solo i dati necessari al compito.",
+            "why": "Il ruolo deve limitare effettivamente i dati accessibili.",
             "feedback": [
-              "Rivedi il principio: Un ruolo limitato deve vedere solo i dati necessari al compito.",
-              "Rivedi il principio: Un ruolo limitato deve vedere solo i dati necessari al compito.",
-              "Corretto. Un ruolo limitato deve vedere solo i dati necessari al compito."
+              "Un filtro visuale non è un controllo di sicurezza.",
+              "Nascondere una pagina non impedisce necessariamente l'accesso ai dati.",
+              "Corretto. Il ruolo deve limitare effettivamente i dati accessibili."
             ]
           },
           "masterclass": {
@@ -9650,18 +9650,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come verifichi i permessi?",
+            "q": "Hai configurato ruoli per direzione e responsabili regionali. Come collaudi i permessi?",
             "options": [
-              "Matrice di accesso e test per ruoli distinti.",
-              "Test con il solo amministratore.",
-              "Condivisione della stessa password."
+              "Definisci una matrice degli accessi attesi e provi ogni ruolo anche sui dati vietati.",
+              "Provi soltanto l'account amministratore.",
+              "Verifichi soltanto che tutti possano aprire il report."
             ],
             "answer": 0,
-            "why": "Definisci una matrice di accesso e un piano di test per ruoli distinti.",
+            "why": "I test devono verificare accessi consentiti e negati per ciascun ruolo.",
             "feedback": [
-              "Corretto. Definisci una matrice di accesso e un piano di test per ruoli distinti.",
-              "Rivedi il principio: Definisci una matrice di accesso e un piano di test per ruoli distinti.",
-              "Rivedi il principio: Definisci una matrice di accesso e un piano di test per ruoli distinti."
+              "Corretto. I test devono verificare accessi consentiti e negati per ciascun ruolo.",
+              "L'amministratore non rappresenta i permessi limitati.",
+              "Aprire il report non dimostra che i dati riservati siano protetti."
             ]
           },
           "masterclass": {
@@ -9749,18 +9749,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa integra un progetto BI?",
+            "q": "Nel progetto finale BI proponi di ridurre i costi logistici. Cosa collega l'analisi alla decisione?",
             "options": [
-              "Misure, fonti e decisioni.",
-              "Solo grafici.",
-              "Solo licenze."
+              "Una misura verificabile, la fonte dei dati e l'azione proposta.",
+              "Un grafico accattivante senza indicare la fonte.",
+              "Una lista di strumenti acquistati per creare il report."
             ],
             "answer": 0,
-            "why": "Un progetto BI integra misure, fonti e decisioni.",
+            "why": "Misure e fonti supportano la decisione operativa.",
             "feedback": [
-              "Corretto. Un progetto BI integra misure, fonti e decisioni.",
-              "Rivedi il principio: Un progetto BI integra misure, fonti e decisioni.",
-              "Rivedi il principio: Un progetto BI integra misure, fonti e decisioni."
+              "Corretto. Misure e fonti supportano la decisione operativa.",
+              "La grafica non sostituisce le evidenze.",
+              "Gli strumenti non dimostrano il beneficio della proposta."
             ]
           },
           "masterclass": {
@@ -9843,18 +9843,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa rende utile una raccomandazione?",
+            "q": "Il report suggerisce di rivedere un fornitore, ma alcuni costi sono stimati. Come formuli la raccomandazione?",
             "options": [
-              "Evidenza, incertezza e responsabilità.",
-              "Una promessa di successo.",
-              "Un'opinione senza fonte."
+              "Espliciti evidenze, incertezza, responsabile e scadenza della verifica.",
+              "Presenti i costi stimati come certi per facilitare l'approvazione.",
+              "Indichi soltanto il fornitore senza motivazione o responsabile."
             ],
             "answer": 0,
-            "why": "Una raccomandazione deve indicare evidenza, incertezza e responsabilità.",
+            "why": "Una raccomandazione utile rende visibili limiti e responsabilità.",
             "feedback": [
-              "Corretto. Una raccomandazione deve indicare evidenza, incertezza e responsabilità.",
-              "Rivedi il principio: Una raccomandazione deve indicare evidenza, incertezza e responsabilità.",
-              "Rivedi il principio: Una raccomandazione deve indicare evidenza, incertezza e responsabilità."
+              "Corretto. Una raccomandazione utile rende visibili limiti e responsabilità.",
+              "Una stima non è un dato certo.",
+              "Senza motivazione e responsabilità la proposta non è verificabile."
             ]
           },
           "masterclass": {
@@ -9924,18 +9924,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come prepari raccomandazioni verificabili?",
+            "q": "Presenti tre raccomandazioni basate su un dataset fittizio. Come permetti al valutatore di verificarle?",
             "options": [
-              "Ometti le evidenze contrarie.",
-              "Le colleghi a un dataset controllabile.",
-              "Inventi dati per sostenere la conclusione."
+              "Mostri soltanto le conclusioni eliminando i dati contrari.",
+              "Colleghi ogni raccomandazione ai dati, ai calcoli riproducibili e alle ipotesi dichiarate.",
+              "Modifichi il dataset dopo l'analisi per confermare le conclusioni."
             ],
             "answer": 1,
-            "why": "Prepara tre raccomandazioni basate su un dataset fittizio e verificabile.",
+            "why": "La tracciabilità consente di riprodurre e valutare le conclusioni.",
             "feedback": [
-              "Rivedi il principio: Prepara tre raccomandazioni basate su un dataset fittizio e verificabile.",
-              "Corretto. Prepara tre raccomandazioni basate su un dataset fittizio e verificabile.",
-              "Rivedi il principio: Prepara tre raccomandazioni basate su un dataset fittizio e verificabile."
+              "Omettere evidenze contrarie distorce l'analisi.",
+              "Corretto. La tracciabilità consente di riprodurre e valutare le conclusioni.",
+              "Modificare i dati per confermare una conclusione compromette la verifica."
             ]
           },
           "masterclass": {
