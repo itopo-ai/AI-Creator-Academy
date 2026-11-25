@@ -952,3 +952,67 @@ Decisione utente vincolante: avvisare preventivamente del rischio di raggiungere
 
 ## Regola permanente 2 — Pulsante di prosecuzione (25/11/2026)
 Formalizzazione della richiesta utente già registrata nel precedente registro cronologico («Pulsante prosecuzione richiesto dall'utente»): al termine di ogni passo operativo completato e verificato, inserire nella risposta un pulsante cliccabile che invii la richiesta di prosecuzione con il prossimo passo esatto, fase e blocco pertinenti. Il pulsante non deve aggirare approvazioni, verifiche o gate obbligatori; se il prossimo passo richiede approvazione, indicarlo esplicitamente. Se il controllo interattivo non è disponibile, fornire il comando testuale equivalente pronto da copiare. Integrare con la regola permanente 1 di continuità, senza duplicare il lavoro. Nessuna modifica applicativa.
+
+
+## Fase 2E — Business L1 AI & Business Foundations (25/11/2026)
+Base a71a1a5023c26446e080ae3fbbcf95aa5d4728a2. Matrice preliminare 54/54 (36 ID originali +18 segnaposto non applicativi). C= comune, M=mista (applicazione obbligatoria), P?=teoria candidata a esonero dopo diagnostica, D=competenza digitale da verificare, non automaticamente esonerabile. 29 C e 7 M originali; nuove 6 prerequisiti (3 P?, 3 D), 3 AI/prompt, 2 processi, 3 ROI/TCO, 2 governance, 2 change/business case. Ripartizione granulare proposta, non approvata. Professional/Complete medesime evidenze; nessun credito fittizio, nessun denominatore definitivo. La decisione utente successiva in ROADMAP sostituisce il requisito premium: AI gratuita ammessa, premium facoltativa, zero acquisti obbligatori. 
+Fonti pubbliche consultate 25/11/2026 (codici matrice): A https://academy.openai.com/pages/courses (Apply AI at Work, Lead AI Adoption; catalogo originale https://academy.openai.com/public/courses mostra nessun corso nel rendering, unità/login aperti); E https://www.elementsofai.com/ corso introduttivo gratuito, versione italiana indicata; L https://help.libreoffice.org/latest/en-US/text/scalc/main0000.html funzioni, grafici, istruzioni; S https://openstax.org/books/introductory-business-statistics/pages/2-introduction statistica descrittiva, solo riferimento esterno, restrizioni NC-SA e AI, non importare contenuti; N https://www.nist.gov/itl/ai-risk-management-framework gestione rischi; G https://www.edpb.europa.eu/sme_en principi, conformità, rischi e sicurezza; W https://docs.n8n.io/deploy/host-n8n.md Community self-host gratuita documentata, Docker/hardware/licenza e setup da collaudare; I https://www.coursera.org/specializations/generative-ai-for-executives-and-business-leaders tre corsi 2+3+5 ore dichiarate, durata aggregata pagina incoerente (4h), certificato opzionale, accesso completo gratuito non dimostrato. URL originale corso IBM reindirizza a https://www.coursera.org/learn/generative-ai-for-executives-business-leaders-introduction (2 moduli); iscrizione gratuita non prova accesso completo. IBM SkillsBuild URL AI reindirizza a catalogo https://skillsbuild.org/learning-catalog, unità/credenziali da verificare. Fonte OpenStax contabilità tentata 404; teoria economica originale Academy da redigere, non dichiarare esistente. Fonti esterne per lettura, laboratori originali da produrre.
+
+| ID | Ramo | Fonti candidate | Evidenza prevista |
+|---|---|---|---|
+| b01s1 | C | E,A,L | 20 richieste: tempo totale e qualità comparabile |
+| b01s2 | M | L,S | percentuali e saldo; badge 80% non confermato |
+| b01s3 | C | A,L | baseline grezza, ripetizioni e manutenzione |
+| b02s1 | C | A | brief vendite con periodo, fonte e destinatario |
+| b02s2 | C | A,L | riconciliazione 85/95 e duplicati |
+| b02s3 | C | A,L | report con ipotesi separate e verifica autonoma |
+| b03s1 | M | A | mappa acquisti e responsabilità |
+| b03s2 | C | A,L | test soglie 4999/5000/5001 |
+| b03s3 | C | A,L | registro approvazioni e report coerente |
+| b04s1 | C | A,W | mappa eventi, stati, eccezioni |
+| b04s2 | C | W,L | duplicati ID, verifica stato |
+| b04s3 | C | W | flusso locale con escalation, zero ordini reali |
+| b05s1 | C | A,I,S | albero obiettivi e KPI |
+| b05s2 | C | L,S | riduzione mediana e campione |
+| b05s3 | C | A,N | gate qualità prima estensione |
+| b06s1 | C | I,A | scheda fattibilità |
+| b06s2 | M | L | matrice pesata e beneficio netto |
+| b06s3 | C | L,A | sensibilità pesi e costo dati |
+| b07s1 | M | L,I | ROI con periodo e denominatore |
+| b07s2 | M | L | TCO costi interni e zero denominatore |
+| b07s3 | C | L | tre scenari, payback e capacità liberata |
+| b08s1 | C | N | registro rischi e controllo preventivo |
+| b08s2 | M | L,S,N | tasso errori, gravità, campione |
+| b08s3 | C | N | test arresto e retest |
+| b09s1 | C | N,G | registro strumenti e ruoli |
+| b09s2 | C | G | matrice accessi e prova negativa |
+| b09s3 | C | G,N | policy dati e revoca |
+| b10s1 | C | A | interviste simulate e stakeholder |
+| b10s2 | C | A,L | KPI adozione e denominatore |
+| b10s3 | C | A | prova compito e rimozione duplicazioni |
+| b11s1 | C | I,L | portafoglio budget e capacità |
+| b11s2 | M | L,I | TCO vita utile e costi uscita |
+| b11s3 | C | L,G | matrice fornitori ed esportazione |
+| b12s1 | C | A,I | business case con alternativa non intervento |
+| b12s2 | C | L,S | baseline e beneficio incrementale |
+| b12s3 | C | A,L,N | dossier go/no-go e variante autonoma |
+| BL1-P01 | D | L | file, CSV, cartelle e formati: prova pratica |
+| BL1-P02 | D | L | formule, riferimenti e controlli: prova pratica |
+| BL1-P03 | P? | L | percentuali, denominatori e unità |
+| BL1-P04 | P? | S,L | media, mediana, dispersione e campione |
+| BL1-P05 | P? | L | costi, ricavi, margini e saldo |
+| BL1-P06 | D | L,A | dati tabellari, chiavi e lettura processi |
+| BL1-P07 | C | E,A | confronto output AI su brief identico |
+| BL1-P08 | C | A | prompt strutturato con criteri e iterazioni |
+| BL1-P09 | C | A,L | verifica fonti e numeri, astensione |
+| BL1-P10 | C | A,W | processo as-is/to-be con eccezioni |
+| BL1-P11 | C | W | workflow locale eseguibile, idempotenza e approvazione |
+| BL1-P12 | C | L | modello costi e benefici incrementali |
+| BL1-P13 | C | L | TCO e payback, sensibilità |
+| BL1-P14 | C | L,S | misura pilota, attribuzione e incertezza |
+| BL1-P15 | C | N | test avversi sintetici e soglia stop |
+| BL1-P16 | C | G,N | minimizzazione, accesso e registro governance |
+| BL1-P17 | C | A,L | piano adozione e prova trasferimento |
+| BL1-P18 | C | A,L,N | difesa business case e scenario nuovo |
+
+Percorso gratuito candidato: AI chat a scelta, Calc locale, dati sintetici; n8n Community locale per prova workflow reale, senza API a pagamento (input AI manuale esplicitato, non equiparare a integrazione API automatica). Premium facoltativo: file analysis, connettori, cloud e automazioni AI; stessi criteri essenziali, non identità funzionale. Per ogni sessione prova autonoma su variante, log prompt/output/revisione, costi e tempo, verifica formule e fonti, rubriche 0–3 con minimo 2 per dimensione essenziale proposto; nessun dato personale o azione reale. Capstone candidato: pilota AI su richieste sintetiche, 20 casi baseline e confronto, qualità e tempi inclusa revisione, ROI/TCO a tre scenari, registro rischi, piano adozione, decisione go/no-go e difesa su variante. Soglie, ore, diagnostica e dataset da approvare fase 3. Nessun collaudo login/runtime, quote AI, accessibilità mobile/desktop, licenze n8n o certificati; granularità unità e alternativa reale automatizzata AI gratuita restano gate. Badge/certificati esterni non obbligatori e non equivalenti a certificazione professionale. Gate Creator invariati. Cumulativo mappatura preliminare 240/420 (57,1%), Business 54/234, Creator 186/186. Prossimo 2E Business L2 Data Analytics & Business Intelligence 83 sessioni, mantenendo lacune L1 aperte. Nessuna modifica applicativa.
