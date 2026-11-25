@@ -5202,18 +5202,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Automatizzi solo ordini di un reparto. Quale confronto?",
+              "q": "Un pilota coinvolge 20 operatori su 200. Quale quota partecipa?",
               "options": [
-                "Confronta reparti con volumi e compiti diversi.",
-                "Baseline omogenea e campione pilota.",
-                "Misura solo il periodo successivo."
+                "90%.",
+                "10%.",
+                "20%."
               ],
               "answer": 1,
-              "why": "Limita il perimetro e fissa criteri di successo prima del test.",
+              "why": "20/200 = 10%.",
               "feedback": [
-                "Rivedi il caso: Limita il perimetro e fissa criteri di successo prima del test. La soluzione attesa è: Baseline omogenea e campione pilota.",
-                "Corretto. Limita il perimetro e fissa criteri di successo prima del test.",
-                "Rivedi il caso: Limita il perimetro e fissa criteri di successo prima del test. La soluzione attesa è: Baseline omogenea e campione pilota."
+                "Non corretto. 20/200 = 10%.",
+                "Corretto. 20/200 = 10%.",
+                "Non corretto. 20/200 = 10%."
               ]
             }
           ],
@@ -5283,18 +5283,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Automatizzi solo ordini di un reparto. Quale confronto?",
+              "q": "Il pilota supera il target di velocità ma non quello di qualità. Come decidi?",
               "options": [
-                "Confronta reparti con volumi e compiti diversi.",
-                "Misura solo il periodo successivo.",
-                "Baseline omogenea e campione pilota."
+                "Estendi senza condizioni.",
+                "Elimini il target di qualità.",
+                "Correggi il processo prima di estenderlo."
               ],
               "answer": 2,
-              "why": "Limita il perimetro e fissa criteri di successo prima del test.",
+              "why": "Entrambi i criteri di successo devono essere valutati.",
               "feedback": [
-                "Rivedi il caso: Limita il perimetro e fissa criteri di successo prima del test. La soluzione attesa è: Baseline omogenea e campione pilota.",
-                "Rivedi il caso: Limita il perimetro e fissa criteri di successo prima del test. La soluzione attesa è: Baseline omogenea e campione pilota.",
-                "Corretto. Limita il perimetro e fissa criteri di successo prima del test."
+                "Non corretto. Entrambi i criteri di successo devono essere valutati.",
+                "Non corretto. Entrambi i criteri di successo devono essere valutati.",
+                "Corretto. Entrambi i criteri di successo devono essere valutati."
               ]
             }
           ],
@@ -5476,18 +5476,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Gli errori scendono da 10 a 8 ma gli ordini dimezzano. Quale misura?",
+              "q": "Prima 12 errori su 300 ordini, dopo 9 su 150. Come cambia il tasso?",
               "options": [
-                "Tasso errori per ordine, non solo conteggio.",
-                "Conteggio assoluto degli errori.",
-                "Percentuale di riduzione degli errori senza considerare gli ordini."
+                "Dal 4% al 6%.",
+                "Dal 12% al 9%.",
+                "Dal 4% al 3%."
               ],
               "answer": 0,
-              "why": "Distingui miglioramenti reali da variazioni di volume.",
+              "why": "12/300 = 4%; 9/150 = 6%.",
               "feedback": [
-                "Corretto. Distingui miglioramenti reali da variazioni di volume.",
-                "Rivedi il caso: Distingui miglioramenti reali da variazioni di volume. La soluzione attesa è: Tasso errori per ordine, non solo conteggio.",
-                "Rivedi il caso: Distingui miglioramenti reali da variazioni di volume. La soluzione attesa è: Tasso errori per ordine, non solo conteggio."
+                "Corretto. 12/300 = 4%; 9/150 = 6%.",
+                "Non corretto. 12/300 = 4%; 9/150 = 6%.",
+                "Non corretto. 12/300 = 4%; 9/150 = 6%."
               ]
             }
           ],
@@ -5557,18 +5557,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Gli errori scendono da 10 a 8 ma gli ordini dimezzano. Quale misura?",
+              "q": "Il tasso di errore aumenta nonostante meno errori assoluti. Quale decisione?",
               "options": [
-                "Conteggio assoluto degli errori.",
-                "Tasso errori per ordine, non solo conteggio.",
-                "Percentuale di riduzione degli errori senza considerare gli ordini."
+                "Ignora il volume.",
+                "Indaga le cause prima di estendere.",
+                "Dichiara il successo dal conteggio assoluto."
               ],
               "answer": 1,
-              "why": "Distingui miglioramenti reali da variazioni di volume.",
+              "why": "Il denominatore cambia il significato del conteggio.",
               "feedback": [
-                "Rivedi il caso: Distingui miglioramenti reali da variazioni di volume. La soluzione attesa è: Tasso errori per ordine, non solo conteggio.",
-                "Corretto. Distingui miglioramenti reali da variazioni di volume.",
-                "Rivedi il caso: Distingui miglioramenti reali da variazioni di volume. La soluzione attesa è: Tasso errori per ordine, non solo conteggio."
+                "Non corretto. Il denominatore cambia il significato del conteggio.",
+                "Corretto. Il denominatore cambia il significato del conteggio.",
+                "Non corretto. Il denominatore cambia il significato del conteggio."
               ]
             }
           ],
@@ -5750,18 +5750,18 @@
           },
           "advancedCheck": [
             {
-              "q": "100 visite e 5 acquisti. Quale conversione semplificata?",
+              "q": "Su 800 sessioni, 32 contengono un acquisto. Quale tasso per sessione?",
               "options": [
-                "20%.",
-                "5%, se il denominatore è coerente.",
-                "0,5%."
+                "0,4%.",
+                "4%.",
+                "25%."
               ],
               "answer": 1,
-              "why": "Gli eventi rappresentano interazioni misurabili.",
+              "why": "32/800 = 4%.",
               "feedback": [
-                "Rivedi il caso: Gli eventi rappresentano interazioni misurabili. La soluzione attesa è: 5%, se il denominatore è coerente.",
-                "Corretto. Gli eventi rappresentano interazioni misurabili.",
-                "Rivedi il caso: Gli eventi rappresentano interazioni misurabili. La soluzione attesa è: 5%, se il denominatore è coerente."
+                "Non corretto. 32/800 = 4%.",
+                "Corretto. 32/800 = 4%.",
+                "Non corretto. 32/800 = 4%."
               ]
             }
           ],
@@ -5831,18 +5831,18 @@
           },
           "advancedCheck": [
             {
-              "q": "100 visite e 5 acquisti. Quale conversione semplificata?",
+              "q": "Un utente genera tre sessioni e due acquisti. Quanti utenti rappresenta?",
               "options": [
-                "5%, se il denominatore è coerente.",
-                "20%.",
-                "0,5%."
+                "Uno.",
+                "Tre.",
+                "Due."
               ],
               "answer": 0,
-              "why": "Gli eventi rappresentano interazioni misurabili.",
+              "why": "Utenti, sessioni ed eventi sono unità distinte.",
               "feedback": [
-                "Corretto. Gli eventi rappresentano interazioni misurabili.",
-                "Rivedi il caso: Gli eventi rappresentano interazioni misurabili. La soluzione attesa è: 5%, se il denominatore è coerente.",
-                "Rivedi il caso: Gli eventi rappresentano interazioni misurabili. La soluzione attesa è: 5%, se il denominatore è coerente."
+                "Corretto. Utenti, sessioni ed eventi sono unità distinte.",
+                "Non corretto. Utenti, sessioni ed eventi sono unità distinte.",
+                "Non corretto. Utenti, sessioni ed eventi sono unità distinte."
               ]
             }
           ],
@@ -6024,18 +6024,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due eventi rappresentano lo stesso acquisto. Quale rischio?",
+              "q": "Un acquisto viene inviato due volte con lo stesso identificativo. Quale controllo?",
               "options": [
-                "Riduzione automatica del numero di acquisti.",
-                "Doppio conteggio delle conversioni.",
-                "Nessun rischio se i due eventi hanno nomi diversi."
+                "Somma entrambi gli acquisti.",
+                "Verifica la deduplicazione della transazione.",
+                "Rinomina il secondo evento."
               ],
               "answer": 1,
-              "why": "Definisci eventi e parametri prima della raccolta.",
+              "why": "Lo stesso acquisto non deve gonfiare i risultati.",
               "feedback": [
-                "Rivedi il caso: Definisci eventi e parametri prima della raccolta. La soluzione attesa è: Doppio conteggio delle conversioni.",
-                "Corretto. Definisci eventi e parametri prima della raccolta.",
-                "Rivedi il caso: Definisci eventi e parametri prima della raccolta. La soluzione attesa è: Doppio conteggio delle conversioni."
+                "Non corretto. Lo stesso acquisto non deve gonfiare i risultati.",
+                "Corretto. Lo stesso acquisto non deve gonfiare i risultati.",
+                "Non corretto. Lo stesso acquisto non deve gonfiare i risultati."
               ]
             }
           ],
@@ -6105,18 +6105,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due eventi rappresentano lo stesso acquisto. Quale rischio?",
+              "q": "Un parametro contiene un indirizzo email non necessario. Cosa fai?",
               "options": [
-                "Riduzione automatica del numero di acquisti.",
-                "Nessun rischio se i due eventi hanno nomi diversi.",
-                "Doppio conteggio delle conversioni."
+                "Lo mantieni perché utile al debug.",
+                "Lo copi in tutti gli eventi.",
+                "Rimuovi il parametro e verifichi la raccolta."
               ],
               "answer": 2,
-              "why": "Definisci eventi e parametri prima della raccolta.",
+              "why": "Minimizza i dati personali e verifica le regole applicabili.",
               "feedback": [
-                "Rivedi il caso: Definisci eventi e parametri prima della raccolta. La soluzione attesa è: Doppio conteggio delle conversioni.",
-                "Rivedi il caso: Definisci eventi e parametri prima della raccolta. La soluzione attesa è: Doppio conteggio delle conversioni.",
-                "Corretto. Definisci eventi e parametri prima della raccolta."
+                "Non corretto. Minimizza i dati personali e verifica le regole applicabili.",
+                "Non corretto. Minimizza i dati personali e verifica le regole applicabili.",
+                "Corretto. Minimizza i dati personali e verifica le regole applicabili."
               ]
             }
           ],
@@ -6298,18 +6298,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Spesa 1000 euro e 20 clienti nuovi. Qual è il CAC?",
+              "q": "Una campagna costa 2400 euro e acquisisce 60 clienti. Quale CAC?",
               "options": [
-                "50 euro per cliente, con i costi inclusi dichiarati.",
-                "20 euro per cliente.",
-                "1000 euro per cliente."
+                "40 euro.",
+                "60 euro.",
+                "144 euro."
               ],
               "answer": 0,
-              "why": "Confronta canali con metriche e finestre coerenti.",
+              "why": "2400/60 = 40.",
               "feedback": [
-                "Corretto. Confronta canali con metriche e finestre coerenti.",
-                "Rivedi il caso: Confronta canali con metriche e finestre coerenti. La soluzione attesa è: 50 euro per cliente, con i costi inclusi dichiarati.",
-                "Rivedi il caso: Confronta canali con metriche e finestre coerenti. La soluzione attesa è: 50 euro per cliente, con i costi inclusi dichiarati."
+                "Corretto. 2400/60 = 40.",
+                "Non corretto. 2400/60 = 40.",
+                "Non corretto. 2400/60 = 40."
               ]
             }
           ],
@@ -6379,18 +6379,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Spesa 1000 euro e 20 clienti nuovi. Qual è il CAC?",
+              "q": "Canale A costa 30 euro per cliente, B 45; i margini per cliente prima del CAC sono 40 e 90. Quale lascia più margine netto?",
               "options": [
-                "20 euro per cliente.",
-                "50 euro per cliente, con i costi inclusi dichiarati.",
-                "1000 euro per cliente."
+                "A, 40 euro.",
+                "B, 45 euro.",
+                "A, 30 euro."
               ],
               "answer": 1,
-              "why": "Confronta canali con metriche e finestre coerenti.",
+              "why": "A lascia 10 euro, B 45.",
               "feedback": [
-                "Rivedi il caso: Confronta canali con metriche e finestre coerenti. La soluzione attesa è: 50 euro per cliente, con i costi inclusi dichiarati.",
-                "Corretto. Confronta canali con metriche e finestre coerenti.",
-                "Rivedi il caso: Confronta canali con metriche e finestre coerenti. La soluzione attesa è: 50 euro per cliente, con i costi inclusi dichiarati."
+                "Non corretto. A lascia 10 euro, B 45.",
+                "Corretto. A lascia 10 euro, B 45.",
+                "Non corretto. A lascia 10 euro, B 45."
               ]
             }
           ],
@@ -6572,18 +6572,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una campagna precede un aumento vendite. Come verificare causalità?",
+              "q": "Le vendite aumentano durante una campagna e una promozione simultanea. Quale limite?",
               "options": [
-                "Confronta solo vendite prima e dopo.",
-                "Attribuisci tutto l'aumento alla campagna.",
-                "Esperimento controllato quando possibile."
+                "La campagna ha certamente causato tutto l'aumento.",
+                "La promozione non può influire.",
+                "Non puoi isolare l'effetto della campagna dal solo confronto temporale."
               ],
               "answer": 2,
-              "why": "L’attribuzione distribuisce credito, non dimostra causalità.",
+              "why": "La promozione è un possibile fattore confondente.",
               "feedback": [
-                "Rivedi il caso: L’attribuzione distribuisce credito, non dimostra causalità. La soluzione attesa è: Esperimento controllato quando possibile.",
-                "Rivedi il caso: L’attribuzione distribuisce credito, non dimostra causalità. La soluzione attesa è: Esperimento controllato quando possibile.",
-                "Corretto. L’attribuzione distribuisce credito, non dimostra causalità."
+                "Non corretto. La promozione è un possibile fattore confondente.",
+                "Non corretto. La promozione è un possibile fattore confondente.",
+                "Corretto. La promozione è un possibile fattore confondente."
               ]
             }
           ],
@@ -6653,18 +6653,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una campagna precede un aumento vendite. Come verificare causalità?",
+              "q": "Come progetti un test pubblicitario più informativo?",
               "options": [
-                "Esperimento controllato quando possibile.",
-                "Confronta solo vendite prima e dopo.",
-                "Attribuisci tutto l'aumento alla campagna."
+                "Assegni casualmente gruppi comparabili a trattamento e controllo.",
+                "Mostri la campagna solo ai clienti migliori.",
+                "Confronti mesi di stagioni diverse senza controllo."
               ],
               "answer": 0,
-              "why": "L’attribuzione distribuisce credito, non dimostra causalità.",
+              "why": "La randomizzazione aiuta a ridurre le differenze sistematiche.",
               "feedback": [
-                "Corretto. L’attribuzione distribuisce credito, non dimostra causalità.",
-                "Rivedi il caso: L’attribuzione distribuisce credito, non dimostra causalità. La soluzione attesa è: Esperimento controllato quando possibile.",
-                "Rivedi il caso: L’attribuzione distribuisce credito, non dimostra causalità. La soluzione attesa è: Esperimento controllato quando possibile."
+                "Corretto. La randomizzazione aiuta a ridurre le differenze sistematiche.",
+                "Non corretto. La randomizzazione aiuta a ridurre le differenze sistematiche.",
+                "Non corretto. La randomizzazione aiuta a ridurre le differenze sistematiche."
               ]
             }
           ],
@@ -6846,18 +6846,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una colonna contiene date e testo libero. Come prepararla?",
+              "q": "Una colonna importi contiene 10, 20 e un valore testuale non interpretabile. Come procedi?",
               "options": [
-                "Converti tutto in testo senza controlli.",
-                "Normalizza tipi e segnala valori non validi.",
-                "Elimina tutte le righe non numeriche."
+                "Elimini tutti gli importi.",
+                "Segnali il valore non valido prima di calcolare il totale definitivo.",
+                "Lo consideri zero senza avviso."
               ],
               "answer": 1,
-              "why": "Organizza dati tabellari con tipi e intestazioni coerenti.",
+              "why": "La qualità dei dati va verificata prima del calcolo.",
               "feedback": [
-                "Rivedi il caso: Organizza dati tabellari con tipi e intestazioni coerenti. La soluzione attesa è: Normalizza tipi e segnala valori non validi.",
-                "Corretto. Organizza dati tabellari con tipi e intestazioni coerenti.",
-                "Rivedi il caso: Organizza dati tabellari con tipi e intestazioni coerenti. La soluzione attesa è: Normalizza tipi e segnala valori non validi."
+                "Non corretto. La qualità dei dati va verificata prima del calcolo.",
+                "Corretto. La qualità dei dati va verificata prima del calcolo.",
+                "Non corretto. La qualità dei dati va verificata prima del calcolo."
               ]
             }
           ],
@@ -6927,18 +6927,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una colonna contiene date e testo libero. Come prepararla?",
+              "q": "Un file mescola importi in euro e centesimi. Come ottieni un totale affidabile?",
               "options": [
-                "Converti tutto in testo senza controlli.",
-                "Elimina tutte le righe non numeriche.",
-                "Normalizza tipi e segnala valori non validi."
+                "Sommi i numeri direttamente.",
+                "Arrotondi tutti i numeri.",
+                "Normalizzi le unità e controlli alcuni valori noti."
               ],
               "answer": 2,
-              "why": "Organizza dati tabellari con tipi e intestazioni coerenti.",
+              "why": "Unità diverse non sono direttamente sommabili.",
               "feedback": [
-                "Rivedi il caso: Organizza dati tabellari con tipi e intestazioni coerenti. La soluzione attesa è: Normalizza tipi e segnala valori non validi.",
-                "Rivedi il caso: Organizza dati tabellari con tipi e intestazioni coerenti. La soluzione attesa è: Normalizza tipi e segnala valori non validi.",
-                "Corretto. Organizza dati tabellari con tipi e intestazioni coerenti."
+                "Non corretto. Unità diverse non sono direttamente sommabili.",
+                "Non corretto. Unità diverse non sono direttamente sommabili.",
+                "Corretto. Unità diverse non sono direttamente sommabili."
               ]
             }
           ],
@@ -7120,18 +7120,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Report 9900 euro, contabilità 10000. Quale azione?",
+              "q": "Registro fatture 12500 euro, report 12200. Quale differenza?",
               "options": [
-                "Usa il report perché la differenza è piccola.",
-                "Indaga lo scostamento di 100 euro prima di usare il report.",
-                "Correggi il totale senza individuare la causa."
+                "24700 euro.",
+                "300 euro.",
+                "30 euro."
               ],
               "answer": 1,
-              "why": "Confronta totali con fonti contabili e registra differenze.",
+              "why": "12500 − 12200 = 300.",
               "feedback": [
-                "Rivedi il caso: Confronta totali con fonti contabili e registra differenze. La soluzione attesa è: Indaga lo scostamento di 100 euro prima di usare il report.",
-                "Corretto. Confronta totali con fonti contabili e registra differenze.",
-                "Rivedi il caso: Confronta totali con fonti contabili e registra differenze. La soluzione attesa è: Indaga lo scostamento di 100 euro prima di usare il report."
+                "Non corretto. 12500 − 12200 = 300.",
+                "Corretto. 12500 − 12200 = 300.",
+                "Non corretto. 12500 − 12200 = 300."
               ]
             }
           ],
@@ -7201,18 +7201,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Report 9900 euro, contabilità 10000. Quale azione?",
+              "q": "Trovi una fattura duplicata nel report. Come correggi?",
               "options": [
-                "Usa il report perché la differenza è piccola.",
-                "Indaga lo scostamento di 100 euro prima di usare il report.",
-                "Correggi il totale senza individuare la causa."
+                "Cancelli una fattura casuale.",
+                "Verifichi l'identificativo, correggi il duplicato e riconcili nuovamente.",
+                "Modifichi il totale manualmente senza traccia."
               ],
               "answer": 1,
-              "why": "Confronta totali con fonti contabili e registra differenze.",
+              "why": "La correzione deve essere documentata e verificata.",
               "feedback": [
-                "Rivedi il caso: Confronta totali con fonti contabili e registra differenze. La soluzione attesa è: Indaga lo scostamento di 100 euro prima di usare il report.",
-                "Corretto. Confronta totali con fonti contabili e registra differenze.",
-                "Rivedi il caso: Confronta totali con fonti contabili e registra differenze. La soluzione attesa è: Indaga lo scostamento di 100 euro prima di usare il report."
+                "Non corretto. La correzione deve essere documentata e verificata.",
+                "Corretto. La correzione deve essere documentata e verificata.",
+                "Non corretto. La correzione deve essere documentata e verificata."
               ]
             }
           ],
@@ -7394,18 +7394,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ricavi crescono ma margine scende. Quale analisi?",
+              "q": "Il KPI consegne puntuali scende sotto soglia. Quale dashboard è più utile?",
               "options": [
-                "Analizza soltanto il fatturato.",
-                "Prezzi, mix, volumi e costi.",
-                "Analizza solo il numero di clienti."
+                "Nasconde il KPI sotto soglia.",
+                "Mostra soglia, periodo, fonte e responsabile dell'intervento.",
+                "Mostra solo il valore senza contesto."
               ],
               "answer": 1,
-              "why": "Una dashboard collega indicatori a decisioni.",
+              "why": "Un indicatore operativo deve supportare una decisione.",
               "feedback": [
-                "Rivedi il caso: Una dashboard collega indicatori a decisioni. La soluzione attesa è: Prezzi, mix, volumi e costi.",
-                "Corretto. Una dashboard collega indicatori a decisioni.",
-                "Rivedi il caso: Una dashboard collega indicatori a decisioni. La soluzione attesa è: Prezzi, mix, volumi e costi."
+                "Non corretto. Un indicatore operativo deve supportare una decisione.",
+                "Corretto. Un indicatore operativo deve supportare una decisione.",
+                "Non corretto. Un indicatore operativo deve supportare una decisione."
               ]
             }
           ],
@@ -7475,18 +7475,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ricavi crescono ma margine scende. Quale analisi?",
+              "q": "Ricavi 100000 e costi 80000 diventano 110000 e 95000. Come cambia il margine assoluto?",
               "options": [
-                "Prezzi, mix, volumi e costi.",
-                "Analizza soltanto il fatturato.",
-                "Analizza solo il numero di clienti."
+                "Scende da 20000 a 15000 euro.",
+                "Sale da 20000 a 30000 euro.",
+                "Resta 20000 euro."
               ],
               "answer": 0,
-              "why": "Una dashboard collega indicatori a decisioni.",
+              "why": "Il margine è ricavi meno costi.",
               "feedback": [
-                "Corretto. Una dashboard collega indicatori a decisioni.",
-                "Rivedi il caso: Una dashboard collega indicatori a decisioni. La soluzione attesa è: Prezzi, mix, volumi e costi.",
-                "Rivedi il caso: Una dashboard collega indicatori a decisioni. La soluzione attesa è: Prezzi, mix, volumi e costi."
+                "Corretto. Il margine è ricavi meno costi.",
+                "Non corretto. Il margine è ricavi meno costi.",
+                "Non corretto. Il margine è ricavi meno costi."
               ]
             }
           ],
@@ -7668,18 +7668,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Import mensile con colonne rinominate. Quale test?",
+              "q": "Un'importazione trasforma date ambigue. Quale precauzione?",
               "options": [
-                "Verifica soltanto il nome del file.",
-                "Importa per posizione senza controllare le colonne.",
-                "Verifica schema e segnala anomalie."
+                "Interpreti tutte le date a caso.",
+                "Elimini il campo data.",
+                "Definisci il formato atteso e segnali le date ambigue."
               ],
               "answer": 2,
-              "why": "Estrai, trasforma e carica dati con passaggi ripetibili.",
+              "why": "La trasformazione deve essere ripetibile e verificabile.",
               "feedback": [
-                "Rivedi il caso: Estrai, trasforma e carica dati con passaggi ripetibili. La soluzione attesa è: Verifica schema e segnala anomalie.",
-                "Rivedi il caso: Estrai, trasforma e carica dati con passaggi ripetibili. La soluzione attesa è: Verifica schema e segnala anomalie.",
-                "Corretto. Estrai, trasforma e carica dati con passaggi ripetibili."
+                "Non corretto. La trasformazione deve essere ripetibile e verificabile.",
+                "Non corretto. La trasformazione deve essere ripetibile e verificabile.",
+                "Corretto. La trasformazione deve essere ripetibile e verificabile."
               ]
             }
           ],
@@ -7749,18 +7749,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Import mensile con colonne rinominate. Quale test?",
+              "q": "Una nuova fonte cambia il nome della colonna importo. Quale esito testi?",
               "options": [
-                "Verifica soltanto il nome del file.",
-                "Verifica schema e segnala anomalie.",
-                "Importa per posizione senza controllare le colonne."
+                "Sostituzione di tutti gli importi con zero.",
+                "Rilevamento dello schema cambiato prima del caricamento.",
+                "Caricamento silenzioso con importi vuoti."
               ],
               "answer": 1,
-              "why": "Estrai, trasforma e carica dati con passaggi ripetibili.",
+              "why": "Il controllo dello schema evita errori silenziosi.",
               "feedback": [
-                "Rivedi il caso: Estrai, trasforma e carica dati con passaggi ripetibili. La soluzione attesa è: Verifica schema e segnala anomalie.",
-                "Corretto. Estrai, trasforma e carica dati con passaggi ripetibili.",
-                "Rivedi il caso: Estrai, trasforma e carica dati con passaggi ripetibili. La soluzione attesa è: Verifica schema e segnala anomalie."
+                "Non corretto. Il controllo dello schema evita errori silenziosi.",
+                "Corretto. Il controllo dello schema evita errori silenziosi.",
+                "Non corretto. Il controllo dello schema evita errori silenziosi."
               ]
             }
           ],
@@ -7942,18 +7942,18 @@
           },
           "advancedCheck": [
             {
-              "q": "1000 righe diventano 950. Cosa verificare?",
+              "q": "Da 1200 righe ne restano 1140. Quale quota è esclusa?",
               "options": [
-                "Accetta le esclusioni perché sono poche.",
-                "Motivo delle 50 esclusioni e impatto sui totali.",
-                "Controlla solo il numero di righe finali."
+                "95%.",
+                "5%.",
+                "6%."
               ],
               "answer": 1,
-              "why": "Controlla righe, nulli, duplicati e totali prima e dopo.",
+              "why": "60/1200 = 5%.",
               "feedback": [
-                "Rivedi il caso: Controlla righe, nulli, duplicati e totali prima e dopo. La soluzione attesa è: Motivo delle 50 esclusioni e impatto sui totali.",
-                "Corretto. Controlla righe, nulli, duplicati e totali prima e dopo.",
-                "Rivedi il caso: Controlla righe, nulli, duplicati e totali prima e dopo. La soluzione attesa è: Motivo delle 50 esclusioni e impatto sui totali."
+                "Non corretto. 60/1200 = 5%.",
+                "Corretto. 60/1200 = 5%.",
+                "Non corretto. 60/1200 = 5%."
               ]
             }
           ],
@@ -8023,18 +8023,18 @@
           },
           "advancedCheck": [
             {
-              "q": "1000 righe diventano 950. Cosa verificare?",
+              "q": "La pulizia elimina il 2% delle righe ma il 30% dei ricavi. Come reagisci?",
               "options": [
-                "Motivo delle 50 esclusioni e impatto sui totali.",
-                "Accetta le esclusioni perché sono poche.",
-                "Controlla solo il numero di righe finali."
+                "Indaghi le esclusioni prima di pubblicare.",
+                "Accetti perché le righe sono poche.",
+                "Ignori i ricavi esclusi."
               ],
               "answer": 0,
-              "why": "Controlla righe, nulli, duplicati e totali prima e dopo.",
+              "why": "L'impatto economico può essere sproporzionato rispetto al conteggio.",
               "feedback": [
-                "Corretto. Controlla righe, nulli, duplicati e totali prima e dopo.",
-                "Rivedi il caso: Controlla righe, nulli, duplicati e totali prima e dopo. La soluzione attesa è: Motivo delle 50 esclusioni e impatto sui totali.",
-                "Rivedi il caso: Controlla righe, nulli, duplicati e totali prima e dopo. La soluzione attesa è: Motivo delle 50 esclusioni e impatto sui totali."
+                "Corretto. L'impatto economico può essere sproporzionato rispetto al conteggio.",
+                "Non corretto. L'impatto economico può essere sproporzionato rispetto al conteggio.",
+                "Non corretto. L'impatto economico può essere sproporzionato rispetto al conteggio."
               ]
             }
           ],
@@ -8216,18 +8216,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una tabella vendite ha una riga per articolo. Quale rischio nel join?",
+              "q": "Un ordine ha tre righe articolo e il totale ordine è ripetuto su ciascuna. Quale rischio?",
               "options": [
-                "Duplicare importi con relazioni non univoche.",
-                "Perdita automatica di tutte le righe.",
-                "Nessun rischio se i nomi delle colonne coincidono."
+                "Sommare tre volte il totale ordine.",
+                "Dividere automaticamente il totale per tre.",
+                "Perdere ogni articolo."
               ],
               "answer": 0,
-              "why": "Separa fatti e dimensioni con granularità dichiarata.",
+              "why": "La misura deve rispettare la granularità.",
               "feedback": [
-                "Corretto. Separa fatti e dimensioni con granularità dichiarata.",
-                "Rivedi il caso: Separa fatti e dimensioni con granularità dichiarata. La soluzione attesa è: Duplicare importi con relazioni non univoche.",
-                "Rivedi il caso: Separa fatti e dimensioni con granularità dichiarata. La soluzione attesa è: Duplicare importi con relazioni non univoche."
+                "Corretto. La misura deve rispettare la granularità.",
+                "Non corretto. La misura deve rispettare la granularità.",
+                "Non corretto. La misura deve rispettare la granularità."
               ]
             }
           ],
@@ -8297,18 +8297,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una tabella vendite ha una riga per articolo. Quale rischio nel join?",
+              "q": "Una dimensione clienti contiene due righe per la stessa chiave. Come prepari il modello?",
               "options": [
-                "Perdita automatica di tutte le righe.",
-                "Nessun rischio se i nomi delle colonne coincidono.",
-                "Duplicare importi con relazioni non univoche."
+                "Accetti ogni duplicato senza analisi.",
+                "Colleghi tutte le righe tra loro.",
+                "Verifichi e risolvi la duplicazione prima della relazione prevista come univoca."
               ],
               "answer": 2,
-              "why": "Separa fatti e dimensioni con granularità dichiarata.",
+              "why": "La cardinalità deve corrispondere al modello atteso.",
               "feedback": [
-                "Rivedi il caso: Separa fatti e dimensioni con granularità dichiarata. La soluzione attesa è: Duplicare importi con relazioni non univoche.",
-                "Rivedi il caso: Separa fatti e dimensioni con granularità dichiarata. La soluzione attesa è: Duplicare importi con relazioni non univoche.",
-                "Corretto. Separa fatti e dimensioni con granularità dichiarata."
+                "Non corretto. La cardinalità deve corrispondere al modello atteso.",
+                "Non corretto. La cardinalità deve corrispondere al modello atteso.",
+                "Corretto. La cardinalità deve corrispondere al modello atteso."
               ]
             }
           ],
