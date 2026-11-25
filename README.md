@@ -108,3 +108,7 @@ Fase 2D blocco 2: Business 13–24, 36 sessioni, 72 quiz, 216 feedback esaminati
 
 ### Fase 2D — blocco 3 Data Analytics & BI
 Fase 2D blocco 3: Business 25–36, 36 sessioni, 72 quiz principali, 216 feedback e 12 quiz esercizio; 36/72 feedback tripli distinti (36 base, 0 avanzati), posizioni 24/32/16, 36/36 coppie stessa posizione. 36 ore nominali non validate. Tutte da integrare; 27 comuni, 9 miste, 0 propedeutiche pure; cumulativo Business 84 comuni, 24 miste su 108. Proposta +30 sessioni comuni (83,3% blocco), non definitiva; +66 Business finora proposte. Audit Academy 228/264 sessioni, 456/528 quiz, 1368/1584 feedback. Prossimo Business 37–48. Nessuna modifica applicativa.
+
+
+### Fase 2D conclusa — audit documentale Academy
+Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback, 12 quiz esercizio; 36/72 feedback tripli distinti (36 base, 0 avanzati), posizioni 18/24/30, 36/36 coppie stessa posizione; 36 ore nominali non validate. Tutte da integrare; 31 comuni, 5 miste, 0 propedeutiche pure; Business totale 115 comuni, 29 miste. Proposta +24 comuni (66,7% blocco); Business +90, Creator +66, totale preliminare 420 sessioni (+59,1%), inclusa quota propedeutica preliminare del primo blocco Business, da separare senza doppio conteggio. Audit documentale Academy 264/264 sessioni, 528/528 quiz, 1584/1584 feedback; non equivale a validazione didattica. Prossimo 2E verifica risorse e parità, poi standard fase 3 e prototipi fase 4 con approvazione prima di modifiche applicative.
