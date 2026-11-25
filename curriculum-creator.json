@@ -5844,7 +5844,7 @@
             "feedback": [
               "Una nuova chiave può far interpretare il tentativo come un nuovo ordine.",
               "Tentativi illimitati possono consumare risorse e ripetere effetti.",
-              "Corretto. Tentativi limitati e una chiave stabile aiutano a evitare effetti duplicati, se il servizio gestisce l’idempotenza."
+              "Corretto. Limita i tentativi e riutilizza la stessa chiave di idempotenza: il servizio deve riconoscerla per evitare di elaborare due volte lo stesso ordine."
             ]
           },
           "masterclass": {
@@ -6481,7 +6481,7 @@
             "feedback": [
               "Il server non deve sostituire il modello.",
               "La connessione non concede automaticamente tutti i permessi.",
-              "Corretto. Il server MCP espone capacità al client secondo il contratto previsto."
+              "Corretto. Un server MCP (Model Context Protocol) espone strumenti, come la ricerca documentale, che il client può invocare secondo il protocollo e i permessi disponibili."
             ]
           },
           "masterclass": {
@@ -7464,7 +7464,7 @@
             "answer": 0,
             "why": "Il chunking deve conservare il contesto utile al recupero.",
             "feedback": [
-              "Corretto. Il chunking deve conservare il contesto utile al recupero.",
+              "Corretto. Il chunking, cioè la suddivisione del testo in segmenti, deve mantenere insieme definizione ed esempio quando servono a comprendere il concetto.",
               "Segmenti di una parola perdono le relazioni tra concetti.",
               "L’esempio isolato può perdere il significato della definizione."
             ]
@@ -7726,7 +7726,7 @@
             "why": "L’astensione evita di presentare ipotesi come evidenze recuperate.",
             "feedback": [
               "Attribuire dettagli inventati al corpus è fuorviante.",
-              "Corretto. L’astensione evita di presentare ipotesi come evidenze recuperate.",
+              "Corretto. Se il sistema RAG (generazione assistita dal recupero di documenti) non trova prove sufficienti, deve dichiarare il limite anziché inventare informazioni.",
               "Una citazione non pertinente non colma la mancanza di evidenze."
             ]
           },
@@ -7915,7 +7915,7 @@
             "feedback": [
               "Documenti e utenti non misurano il supporto delle risposte.",
               "Il numero di citazioni non dimostra che le fonti sostengano le risposte.",
-              "Corretto. La metrica usa un numeratore e un denominatore coerenti con la qualità misurata."
+              "Corretto. Dividi le risposte effettivamente supportate dalle fonti per tutte quelle valutate e moltiplica per 100: 8 su 10 equivalgono all’80%."
             ]
           },
           "masterclass": {
@@ -8001,7 +8001,7 @@
             "why": "Il confronto sugli stessi casi rivela peggioramenti introdotti dalla modifica.",
             "feedback": [
               "Casi diversi e più semplici possono nascondere regressioni.",
-              "Corretto. Il confronto sugli stessi casi rivela peggioramenti introdotti dalla modifica.",
+              "Corretto. Ripeti gli stessi test con condizioni comparabili: un peggioramento segnala una possibile regressione, da confermare considerando la variabilità del modello.",
               "La lunghezza del prompt non misura la qualità dei risultati."
             ]
           },
