@@ -3558,18 +3558,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un modulo alimenta un foglio dati. Quale controllo?",
+              "q": "Un modulo accetta una quantità negativa. Quale controllo manca?",
               "options": [
-                "Controlla solo che il foglio si apra.",
-                "Validazione campi e gestione duplicati.",
-                "Verifica i campi ma non i duplicati."
+                "Ordinamento alfabetico.",
+                "Validazione del dominio numerico.",
+                "Controllo del colore."
               ],
               "answer": 1,
-              "why": "Un flusso visuale non elimina la necessità di progettazione.",
+              "why": "La quantità deve rispettare i vincoli del processo.",
               "feedback": [
-                "Rivedi il caso: Un flusso visuale non elimina la necessità di progettazione. La soluzione attesa è: Validazione campi e gestione duplicati.",
-                "Corretto. Un flusso visuale non elimina la necessità di progettazione.",
-                "Rivedi il caso: Un flusso visuale non elimina la necessità di progettazione. La soluzione attesa è: Validazione campi e gestione duplicati."
+                "Non corretto. La quantità deve rispettare i vincoli del processo.",
+                "Corretto. La quantità deve rispettare i vincoli del processo.",
+                "Non corretto. La quantità deve rispettare i vincoli del processo."
               ]
             }
           ],
@@ -3639,18 +3639,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un modulo alimenta un foglio dati. Quale controllo?",
+              "q": "Due invii identici arrivano al foglio. Come testi la correzione?",
               "options": [
+                "Invia due identificativi diversi.",
                 "Controlla solo che il foglio si apra.",
-                "Verifica i campi ma non i duplicati.",
-                "Validazione campi e gestione duplicati."
+                "Ripeti lo stesso identificativo e verifica una sola registrazione."
               ],
               "answer": 2,
-              "why": "Un flusso visuale non elimina la necessità di progettazione.",
+              "why": "Il test deve riprodurre il duplicato.",
               "feedback": [
-                "Rivedi il caso: Un flusso visuale non elimina la necessità di progettazione. La soluzione attesa è: Validazione campi e gestione duplicati.",
-                "Rivedi il caso: Un flusso visuale non elimina la necessità di progettazione. La soluzione attesa è: Validazione campi e gestione duplicati.",
-                "Corretto. Un flusso visuale non elimina la necessità di progettazione."
+                "Non corretto. Il test deve riprodurre il duplicato.",
+                "Non corretto. Il test deve riprodurre il duplicato.",
+                "Corretto. Il test deve riprodurre il duplicato."
               ]
             }
           ],
@@ -3832,18 +3832,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due clienti hanno lo stesso codice. Come intervenire?",
+              "q": "Su 100 record, 12 hanno un campo obbligatorio vuoto. Quale completezza per quel campo?",
               "options": [
-                "Mantieni entrambi i record senza distinzione.",
-                "Cancella un record casualmente.",
-                "Definisci chiave univoca e procedura di deduplica."
+                "12%.",
+                "100%.",
+                "88%."
               ],
               "answer": 2,
-              "why": "Dati incompleti o incoerenti riducono l’affidabilità.",
+              "why": "88 record su 100 hanno il campo compilato.",
               "feedback": [
-                "Rivedi il caso: Dati incompleti o incoerenti riducono l’affidabilità. La soluzione attesa è: Definisci chiave univoca e procedura di deduplica.",
-                "Rivedi il caso: Dati incompleti o incoerenti riducono l’affidabilità. La soluzione attesa è: Definisci chiave univoca e procedura di deduplica.",
-                "Corretto. Dati incompleti o incoerenti riducono l’affidabilità."
+                "Non corretto. 88 record su 100 hanno il campo compilato.",
+                "Non corretto. 88 record su 100 hanno il campo compilato.",
+                "Corretto. 88 record su 100 hanno il campo compilato."
               ]
             }
           ],
@@ -3913,18 +3913,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Due clienti hanno lo stesso codice. Come intervenire?",
+              "q": "Prima: 30 pratiche con 6 errori; dopo: 60 con 9 errori. Come cambia il tasso?",
               "options": [
-                "Mantieni entrambi i record senza distinzione.",
-                "Cancella un record casualmente.",
-                "Definisci chiave univoca e procedura di deduplica."
+                "Dal 6% al 9%.",
+                "Dal 20% al 30%.",
+                "Dal 20% al 15%."
               ],
               "answer": 2,
-              "why": "Dati incompleti o incoerenti riducono l’affidabilità.",
+              "why": "Confronta 6/30 e 9/60.",
               "feedback": [
-                "Rivedi il caso: Dati incompleti o incoerenti riducono l’affidabilità. La soluzione attesa è: Definisci chiave univoca e procedura di deduplica.",
-                "Rivedi il caso: Dati incompleti o incoerenti riducono l’affidabilità. La soluzione attesa è: Definisci chiave univoca e procedura di deduplica.",
-                "Corretto. Dati incompleti o incoerenti riducono l’affidabilità."
+                "Non corretto. Confronta 6/30 e 9/60.",
+                "Non corretto. Confronta 6/30 e 9/60.",
+                "Corretto. Confronta 6/30 e 9/60."
               ]
             }
           ],
@@ -4106,18 +4106,18 @@
           },
           "advancedCheck": [
             {
-              "q": "L’automazione accelera l’inserimento ma rallenta l’approvazione. Quale KPI?",
+              "q": "Inserimento da 5 a 2 minuti, approvazione da 3 a 7. Come cambia il tempo totale?",
               "options": [
-                "Tempo end-to-end e tasso errori.",
-                "Tempo di inserimento soltanto.",
-                "Numero di automazioni attive."
+                "Da 8 a 9 minuti.",
+                "Da 5 a 2 minuti.",
+                "Da 8 a 5 minuti."
               ],
               "answer": 0,
-              "why": "Misura il ciclo completo, non una singola attività.",
+              "why": "Somma entrambe le fasi.",
               "feedback": [
-                "Corretto. Misura il ciclo completo, non una singola attività.",
-                "Rivedi il caso: Misura il ciclo completo, non una singola attività. La soluzione attesa è: Tempo end-to-end e tasso errori.",
-                "Rivedi il caso: Misura il ciclo completo, non una singola attività. La soluzione attesa è: Tempo end-to-end e tasso errori."
+                "Corretto. Somma entrambe le fasi.",
+                "Non corretto. Somma entrambe le fasi.",
+                "Non corretto. Somma entrambe le fasi."
               ]
             }
           ],
@@ -4187,18 +4187,18 @@
           },
           "advancedCheck": [
             {
-              "q": "L’automazione accelera l’inserimento ma rallenta l’approvazione. Quale KPI?",
+              "q": "Su 40 richieste etichettate, 34 sono classificate correttamente. Quale accuratezza?",
               "options": [
-                "Tempo di inserimento soltanto.",
-                "Numero di automazioni attive.",
-                "Tempo end-to-end e tasso errori."
+                "34%.",
+                "15%.",
+                "85%."
               ],
               "answer": 2,
-              "why": "Misura il ciclo completo, non una singola attività.",
+              "why": "34 diviso 40 equivale a 85%.",
               "feedback": [
-                "Rivedi il caso: Misura il ciclo completo, non una singola attività. La soluzione attesa è: Tempo end-to-end e tasso errori.",
-                "Rivedi il caso: Misura il ciclo completo, non una singola attività. La soluzione attesa è: Tempo end-to-end e tasso errori.",
-                "Corretto. Misura il ciclo completo, non una singola attività."
+                "Non corretto. 34 diviso 40 equivale a 85%.",
+                "Non corretto. 34 diviso 40 equivale a 85%.",
+                "Corretto. 34 diviso 40 equivale a 85%."
               ]
             }
           ],
@@ -4380,18 +4380,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una fattura non corrisponde all’ordine. Cosa fare?",
+              "q": "Una fattura da 1100 euro corrisponde a un ordine da 1000. Quale differenza verificare?",
               "options": [
-                "Sospendi il pagamento e assegna revisione.",
-                "Paga e riconcilia a fine mese.",
-                "Approva se l'importo è simile."
+                "100 euro.",
+                "10 euro.",
+                "2100 euro."
               ],
               "answer": 0,
-              "why": "Le eccezioni devono avere un percorso esplicito.",
+              "why": "1100 meno 1000 equivale a 100.",
               "feedback": [
-                "Corretto. Le eccezioni devono avere un percorso esplicito.",
-                "Rivedi il caso: Le eccezioni devono avere un percorso esplicito. La soluzione attesa è: Sospendi il pagamento e assegna revisione.",
-                "Rivedi il caso: Le eccezioni devono avere un percorso esplicito. La soluzione attesa è: Sospendi il pagamento e assegna revisione."
+                "Corretto. 1100 meno 1000 equivale a 100.",
+                "Non corretto. 1100 meno 1000 equivale a 100.",
+                "Non corretto. 1100 meno 1000 equivale a 100."
               ]
             }
           ],
@@ -4461,18 +4461,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una fattura non corrisponde all’ordine. Cosa fare?",
+              "q": "Il flusso non sa classificare una richiesta urgente. Quale esito testi?",
               "options": [
-                "Sospendi il pagamento e assegna revisione.",
-                "Paga e riconcilia a fine mese.",
-                "Approva se l'importo è simile."
+                "Inoltro a un operatore con tracciamento.",
+                "Chiusura automatica come risolta.",
+                "Eliminazione della richiesta."
               ],
               "answer": 0,
-              "why": "Le eccezioni devono avere un percorso esplicito.",
+              "why": "L'incertezza richiede escalation tracciabile.",
               "feedback": [
-                "Corretto. Le eccezioni devono avere un percorso esplicito.",
-                "Rivedi il caso: Le eccezioni devono avere un percorso esplicito. La soluzione attesa è: Sospendi il pagamento e assegna revisione.",
-                "Rivedi il caso: Le eccezioni devono avere un percorso esplicito. La soluzione attesa è: Sospendi il pagamento e assegna revisione."
+                "Corretto. L'incertezza richiede escalation tracciabile.",
+                "Non corretto. L'incertezza richiede escalation tracciabile.",
+                "Non corretto. L'incertezza richiede escalation tracciabile."
               ]
             }
           ],
@@ -4654,18 +4654,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Nessuno gestisce gli errori del bot. Quale rimedio?",
+              "q": "Il gestionale è indisponibile durante un flusso critico. Quale piano serve?",
               "options": [
-                "Assegna responsabile, escalation e tempi.",
-                "Invia un avviso generico senza destinatario.",
-                "Assegna il problema al bot stesso."
+                "Procedura manuale e riconciliazione al ripristino.",
+                "Ripetizione infinita.",
+                "Cancellazione delle richieste."
               ],
               "answer": 0,
-              "why": "Ogni processo ha un proprietario e ruoli chiari.",
+              "why": "La continuità richiede un percorso alternativo.",
               "feedback": [
-                "Corretto. Ogni processo ha un proprietario e ruoli chiari.",
-                "Rivedi il caso: Ogni processo ha un proprietario e ruoli chiari. La soluzione attesa è: Assegna responsabile, escalation e tempi.",
-                "Rivedi il caso: Ogni processo ha un proprietario e ruoli chiari. La soluzione attesa è: Assegna responsabile, escalation e tempi."
+                "Corretto. La continuità richiede un percorso alternativo.",
+                "Non corretto. La continuità richiede un percorso alternativo.",
+                "Non corretto. La continuità richiede un percorso alternativo."
               ]
             }
           ],
@@ -4735,18 +4735,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Nessuno gestisce gli errori del bot. Quale rimedio?",
+              "q": "Un errore passa tra due reparti senza responsabile. Come correggi?",
               "options": [
-                "Assegna responsabile, escalation e tempi.",
-                "Invia un avviso generico senza destinatario.",
-                "Assegna il problema al bot stesso."
+                "Assegni proprietario, destinatario e tempo di escalation.",
+                "Invii avvisi senza destinatario.",
+                "Disattivi i log."
               ],
               "answer": 0,
-              "why": "Ogni processo ha un proprietario e ruoli chiari.",
+              "why": "Le responsabilità devono essere esplicite.",
               "feedback": [
-                "Corretto. Ogni processo ha un proprietario e ruoli chiari.",
-                "Rivedi il caso: Ogni processo ha un proprietario e ruoli chiari. La soluzione attesa è: Assegna responsabile, escalation e tempi.",
-                "Rivedi il caso: Ogni processo ha un proprietario e ruoli chiari. La soluzione attesa è: Assegna responsabile, escalation e tempi."
+                "Corretto. Le responsabilità devono essere esplicite.",
+                "Non corretto. Le responsabilità devono essere esplicite.",
+                "Non corretto. Le responsabilità devono essere esplicite."
               ]
             }
           ],
@@ -4928,18 +4928,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Dieci persone seguono un corso. Come misurare efficacia?",
+              "q": "Su 20 partecipanti, 15 completano correttamente il compito. Quale tasso di successo?",
               "options": [
-                "Numero di partecipanti.",
-                "Test pratico e prestazioni successive.",
-                "Gradimento del corso soltanto."
+                "25%.",
+                "75%.",
+                "15%."
               ],
               "answer": 1,
-              "why": "La formazione deve essere legata a compiti osservabili.",
+              "why": "15 diviso 20 equivale a 75%.",
               "feedback": [
-                "Rivedi il caso: La formazione deve essere legata a compiti osservabili. La soluzione attesa è: Test pratico e prestazioni successive.",
-                "Corretto. La formazione deve essere legata a compiti osservabili.",
-                "Rivedi il caso: La formazione deve essere legata a compiti osservabili. La soluzione attesa è: Test pratico e prestazioni successive."
+                "Non corretto. 15 diviso 20 equivale a 75%.",
+                "Corretto. 15 diviso 20 equivale a 75%.",
+                "Non corretto. 15 diviso 20 equivale a 75%."
               ]
             }
           ],
@@ -5009,18 +5009,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Dieci persone seguono un corso. Come misurare efficacia?",
+              "q": "Il test mostra errori ricorrenti nella stessa fase. Come migliori la formazione?",
               "options": [
-                "Numero di partecipanti.",
-                "Gradimento del corso soltanto.",
-                "Test pratico e prestazioni successive."
+                "Aumenti solo il numero di slide.",
+                "Elimini la prova.",
+                "Rivedi quella fase e ripeti la prova pratica."
               ],
               "answer": 2,
-              "why": "La formazione deve essere legata a compiti osservabili.",
+              "why": "Gli errori osservati guidano il miglioramento.",
               "feedback": [
-                "Rivedi il caso: La formazione deve essere legata a compiti osservabili. La soluzione attesa è: Test pratico e prestazioni successive.",
-                "Rivedi il caso: La formazione deve essere legata a compiti osservabili. La soluzione attesa è: Test pratico e prestazioni successive.",
-                "Corretto. La formazione deve essere legata a compiti osservabili."
+                "Non corretto. Gli errori osservati guidano il miglioramento.",
+                "Non corretto. Gli errori osservati guidano il miglioramento.",
+                "Corretto. Gli errori osservati guidano il miglioramento."
               ]
             }
           ],
