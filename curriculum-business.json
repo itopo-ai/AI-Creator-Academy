@@ -176,18 +176,18 @@
           },
           "advancedCheck": [
             {
-              "q": "20 richieste da 6 minuti diventano 20 da 4 minuti. Quanto tempo risparmi?",
+              "q": "Un ufficio gestisce 20 richieste comparabili: prima impiega 6 minuti ciascuna, dopo 4 minuti inclusa la revisione. Quanto tempo libera, prima dei costi di adozione?",
               "options": [
-                "20 minuti, contando una sola parte del risparmio.",
-                "120 minuti, pari al tempo iniziale.",
-                "40 minuti, prima dei costi di adozione."
+                "20 minuti.",
+                "120 minuti.",
+                "40 minuti."
               ],
               "answer": 2,
-              "why": "Misura il tempo netto dopo revisione umana.",
+              "why": "Il risparmio operativo è 20 × (6 − 4) = 40 minuti, a qualità comparabile.",
               "feedback": [
-                "Rivedi il caso: Misura il tempo netto dopo revisione umana. La soluzione attesa è: 40 minuti, prima dei costi di adozione.",
-                "Rivedi il caso: Misura il tempo netto dopo revisione umana. La soluzione attesa è: 40 minuti, prima dei costi di adozione.",
-                "Corretto. Misura il tempo netto dopo revisione umana."
+                "20 è il numero di richieste, non il tempo risparmiato: ogni richiesta libera 2 minuti.",
+                "120 minuti rappresentano il tempo iniziale; occorre sottrarre gli 80 minuti finali.",
+                "Il tempo passa da 120 a 80 minuti: si liberano 40 minuti prima dei costi di adozione."
               ]
             }
           ],
@@ -270,18 +270,18 @@
           },
           "advancedCheck": [
             {
-              "q": "30 richieste richiedono 8 minuti ciascuna prima dell'AI e 5 dopo, revisione inclusa. Quanto risparmi?",
+              "q": "Per 30 richieste di qualità comparabile, il tempo unitario passa da 8 a 5 minuti, revisione inclusa. Quanto tempo si risparmia?",
               "options": [
                 "150 minuti.",
                 "240 minuti.",
                 "90 minuti."
               ],
               "answer": 2,
-              "why": "30 × (8 − 5) = 90.",
+              "why": "Il risparmio è la differenza tra i tempi totali: 240 − 150 = 90 minuti.",
               "feedback": [
-                "Non corretto. 30 × (8 − 5) = 90.",
-                "Non corretto. 30 × (8 − 5) = 90.",
-                "Corretto. 30 × (8 − 5) = 90."
+                "150 minuti sono il tempo di lavorazione dopo l’introduzione dell’AI, non il risparmio.",
+                "240 minuti sono la baseline prima dell’AI; manca la sottrazione del tempo finale.",
+                "Ogni richiesta libera 3 minuti: moltiplicando per 30 si ottengono 90 minuti."
               ]
             }
           ],
@@ -358,11 +358,11 @@
                 "Risparmio di 190 minuti."
               ],
               "answer": 0,
-              "why": "90 − 100 = −10.",
+              "why": "Il saldo temporale comprende il risparmio operativo meno il tempo aggiuntivo di manutenzione nello stesso periodo.",
               "feedback": [
-                "Corretto. 90 − 100 = −10.",
-                "Non corretto. 90 − 100 = −10.",
-                "Non corretto. 90 − 100 = −10."
+                "La manutenzione supera il risparmio di 10 minuti: il saldo è −10 e il pilota assorbe tempo netto.",
+                "90 minuti sono il beneficio operativo lordo; non includono i 100 minuti di manutenzione.",
+                "Sommare risparmio e manutenzione confonde un beneficio con un costo: i due valori hanno segno opposto."
               ]
             }
           ],
@@ -450,18 +450,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un report mensile deve distinguere fatti e ipotesi. Cosa controllare?",
+              "q": "Un report mensile generato dall’AI contiene dati consuntivi e ipotesi. Quale controllo rende verificabili i dati consuntivi?",
               "options": [
-                "Controlla soltanto il formato del report.",
-                "Confronta i numeri con la bozza precedente, non con il gestionale.",
-                "Riconcilia i numeri con il gestionale."
+                "Verificare coerenza di formato e unità di misura.",
+                "Confrontare i valori con la bozza precedente.",
+                "Riconciliare i valori con il gestionale per lo stesso periodo."
               ],
               "answer": 2,
-              "why": "Specifica destinatario, decisione, fonti e formato.",
+              "why": "La riconciliazione con la fonte aziendale e il periodo corretto permette di verificare i consuntivi.",
               "feedback": [
-                "Rivedi il caso: Specifica destinatario, decisione, fonti e formato. La soluzione attesa è: Riconcilia i numeri con il gestionale.",
-                "Rivedi il caso: Specifica destinatario, decisione, fonti e formato. La soluzione attesa è: Riconcilia i numeri con il gestionale.",
-                "Corretto. Specifica destinatario, decisione, fonti e formato."
+                "Formato e unità coerenti migliorano la leggibilità, ma non dimostrano che i numeri provengano dalla fonte corretta.",
+                "Una bozza precedente può contenere lo stesso errore: non è una verifica indipendente dei dati.",
+                "Il gestionale permette di risalire ai valori registrati; allineare periodo e perimetro evita confronti impropri."
               ]
             }
           ],
@@ -551,11 +551,11 @@
                 "Usi la media di 90."
               ],
               "answer": 1,
-              "why": "La discrepanza richiede verifica della fonte.",
+              "why": "Prima della consegna occorre spiegare lo scostamento di 10 ordini verificando periodo, filtri e registrazioni.",
               "feedback": [
-                "Non corretto. La discrepanza richiede verifica della fonte.",
-                "Corretto. La discrepanza richiede verifica della fonte.",
-                "Non corretto. La discrepanza richiede verifica della fonte."
+                "La data più recente del report non dimostra che il conteggio sia corretto; controlla i dati sottostanti.",
+                "La differenza di 10 ordini va riconciliata verificando perimetro, filtri ed eventuali duplicati.",
+                "La media di 90 crea un valore privo di riscontro nei due conteggi e non risolve la discrepanza."
               ]
             }
           ],
@@ -625,18 +625,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un report contiene una previsione senza fonte. Come lo consegni?",
+              "q": "Una previsione non supportata da una fonte verificabile è utile come scenario esplorativo. Come la presenti nel report?",
               "options": [
-                "Etichetti la previsione come ipotesi e ne dichiari i limiti.",
-                "La trasformi in un dato consuntivo.",
-                "La attribuisci al gestionale senza verifica."
+                "Come ipotesi, indicando assunzioni, limiti e verifica necessaria.",
+                "Come consuntivo provvisorio, da correggere a fine mese.",
+                "Come stima del gestionale, in attesa di riconciliazione."
               ],
               "answer": 0,
-              "why": "Le ipotesi devono restare distinguibili dai fatti.",
+              "why": "Uno scenario non verificato deve restare separato dai dati osservati e dalle stime attribuite a fonti.",
               "feedback": [
-                "Corretto. Le ipotesi devono restare distinguibili dai fatti.",
-                "Non corretto. Le ipotesi devono restare distinguibili dai fatti.",
-                "Non corretto. Le ipotesi devono restare distinguibili dai fatti."
+                "Esplicitare assunzioni e limiti consente al lettore di usare lo scenario senza confonderlo con un dato verificato.",
+                "Un consuntivo descrive risultati osservati: chiamarlo provvisorio non trasforma una previsione in un fatto.",
+                "Attribuire la stima al gestionale senza riscontro crea una provenienza non dimostrata."
               ]
             }
           ],
@@ -731,11 +731,11 @@
                 "Aggiungi un registro senza regole di approvazione."
               ],
               "answer": 0,
-              "why": "Standardizza attività ripetitive con responsabilità e controlli.",
+              "why": "Un controllo di approvazione richiede una regola, un responsabile autorizzato e una traccia dell’esito.",
               "feedback": [
-                "Corretto. Standardizza attività ripetitive con responsabilità e controlli.",
-                "Rivedi il caso: Standardizza attività ripetitive con responsabilità e controlli. La soluzione attesa è: Definisci soglia, approvatore e registro.",
-                "Rivedi il caso: Standardizza attività ripetitive con responsabilità e controlli. La soluzione attesa è: Definisci soglia, approvatore e registro."
+                "Soglia, approvatore e registro definiscono quando serve il controllo, chi decide e come documentare la decisione.",
+                "La soglia individua i casi da controllare, ma senza un approvatore non assegna la responsabilità della decisione.",
+                "Il registro conserva gli eventi, ma senza regole non stabilisce quali acquisti debbano essere autorizzati."
               ]
             }
           ],
@@ -820,16 +820,16 @@
             {
               "q": "La soglia richiede approvazione per importi superiori a 5000 euro. Un ordine da 5000 rientra nella regola?",
               "options": [
-                "Sì, perché è uguale alla soglia.",
-                "Sì, perché ogni ordine è sopra soglia.",
+                "Sì, interpretando la soglia come maggiore o uguale.",
+                "Sì, applicando la soglia anche agli importi inferiori.",
                 "No, la condizione è strettamente superiore."
               ],
               "answer": 2,
-              "why": "Il confine va interpretato secondo la regola dichiarata.",
+              "why": "La regola specifica importi maggiori di 5000 euro, non maggiori o uguali.",
               "feedback": [
-                "Non corretto. Il confine va interpretato secondo la regola dichiarata.",
-                "Non corretto. Il confine va interpretato secondo la regola dichiarata.",
-                "Corretto. Il confine va interpretato secondo la regola dichiarata."
+                "L’uguaglianza sarebbe inclusa solo con una regola del tipo «almeno 5000 euro».",
+                "Estendere il controllo agli importi inferiori modifica la regola dichiarata anziché applicarla.",
+                "5000 non è maggiore di 5000: questa specifica regola non scatta, ferme eventuali altre autorizzazioni."
               ]
             }
           ],
@@ -902,15 +902,15 @@
               "q": "Un acquisto è approvato ma manca l'identità dell'approvatore. Cosa fai?",
               "options": [
                 "Consideri sufficiente lo stato approvato.",
-                "Completi la verifica e registri l'approvatore prima di procedere.",
-                "Registri un nome casuale."
+                "Completi la verifica e registri l’approvatore prima di procedere.",
+                "Attribuisci l’approvazione al responsabile abituale senza conferma."
               ],
               "answer": 1,
-              "why": "La tracciabilità richiede responsabilità identificabili.",
+              "why": "La tracciabilità richiede evidenza dell’identità e dell’autorizzazione di chi ha approvato.",
               "feedback": [
-                "Non corretto. La tracciabilità richiede responsabilità identificabili.",
-                "Corretto. La tracciabilità richiede responsabilità identificabili.",
-                "Non corretto. La tracciabilità richiede responsabilità identificabili."
+                "Lo stato indica un esito, ma non permette di verificare chi abbia preso la decisione né i suoi poteri.",
+                "Verificare l’identità e registrare l’approvatore autorizzato rende la decisione attribuibile e controllabile.",
+                "Il responsabile abituale potrebbe non aver approvato questo acquisto: l’attribuzione presunta compromette il registro."
               ]
             }
           ],
@@ -1000,16 +1000,16 @@
             {
               "q": "Un ordine incompleto entra nel flusso. Come gestirlo?",
               "options": [
-                "Conferma l'ordine e chiedi i dati mancanti dopo.",
+                "Conferma l’ordine e chiedi i dati mancanti dopo.",
                 "Instradalo a revisione senza confermarlo automaticamente.",
-                "Scarta tutti gli ordini senza possibilità di revisione."
+                "Chiudi l’ordine incompleto e richiedi un nuovo inserimento."
               ],
               "answer": 1,
-              "why": "Mappa input, output, eccezioni e proprietario del processo.",
+              "why": "Un percorso di eccezione conserva la richiesta e impedisce la conferma finché i dati necessari non sono verificati.",
               "feedback": [
-                "Rivedi il caso: Mappa input, output, eccezioni e proprietario del processo. La soluzione attesa è: Instradalo a revisione senza confermarlo automaticamente.",
-                "Corretto. Mappa input, output, eccezioni e proprietario del processo.",
-                "Rivedi il caso: Mappa input, output, eccezioni e proprietario del processo. La soluzione attesa è: Instradalo a revisione senza confermarlo automaticamente."
+                "Confermare prima della verifica può creare un impegno su dati incompleti e richiedere rettifiche.",
+                "La revisione consente di integrare i dati mantenendo l’ordine sospeso e tracciabile.",
+                "Chiudere e reinserire può perdere continuità e creare duplicati; la revisione permette di recuperare la richiesta esistente."
               ]
             }
           ],
@@ -1095,15 +1095,15 @@
               "q": "Un ordine valido arriva due volte con lo stesso ID. Come eviti doppie conferme?",
               "options": [
                 "Generi un nuovo ID a ogni arrivo.",
-                "Confermi entrambi e cancelli il log.",
-                "Controlli l'ID già elaborato prima di confermare."
+                "Controlli soltanto che i campi obbligatori siano compilati.",
+                "Controlli l’ID già elaborato prima di confermare."
               ],
               "answer": 2,
-              "why": "Un identificativo stabile consente di riconoscere duplicati.",
+              "why": "Un ID stabile e un controllo affidabile dello stato consentono di evitare una seconda conferma dello stesso ordine.",
               "feedback": [
-                "Non corretto. Un identificativo stabile consente di riconoscere duplicati.",
-                "Non corretto. Un identificativo stabile consente di riconoscere duplicati.",
-                "Corretto. Un identificativo stabile consente di riconoscere duplicati."
+                "Un nuovo ID a ogni arrivo impedisce di riconoscere la stessa richiesta già ricevuta.",
+                "La completezza dei campi non distingue un ordine nuovo da una copia valida di un ordine precedente.",
+                "Il controllo dell’ID e dello stato già elaborato evita di ripetere l’azione; in presenza di concorrenza serve un controllo atomico."
               ]
             }
           ],
@@ -1176,15 +1176,15 @@
               "q": "Il flusso riceve un ordine senza indirizzo. Quale esito atteso testi?",
               "options": [
                 "Richiesta di integrazione senza spedizione.",
-                "Spedizione con indirizzo stimato.",
-                "Conferma definitiva senza indirizzo."
+                "Spedizione usando l’ultimo indirizzo noto senza verifica.",
+                "Conferma definitiva rinviando il controllo dell’indirizzo."
               ],
               "answer": 0,
-              "why": "L'eccezione deve bloccare l'azione che richiede il dato.",
+              "why": "Il test deve verificare che un dato obbligatorio mancante blocchi l’azione dipendente e attivi l’integrazione.",
               "feedback": [
-                "Corretto. L'eccezione deve bloccare l'azione che richiede il dato.",
-                "Non corretto. L'eccezione deve bloccare l'azione che richiede il dato.",
-                "Non corretto. L'eccezione deve bloccare l'azione che richiede il dato."
+                "Il flusso richiede il dato mancante e non spedisce: il test verifica sia l’eccezione sia l’assenza di effetti indesiderati.",
+                "L’ultimo indirizzo noto potrebbe non essere quello richiesto per questo ordine; la spedizione non è autorizzata dal dato disponibile.",
+                "Una conferma definitiva non dimostra che il blocco funzioni e può impegnare l’azienda prima della verifica."
               ]
             }
           ],
@@ -1272,18 +1272,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Ridurre i tempi di risposta del 20%. Quale indicatore?",
+              "q": "L’obiettivo del pilota è ridurre del 20% il tempo mediano di risposta senza peggiorare la qualità. Quali indicatori misuri prima e dopo?",
               "options": [
                 "Tempo mediano e qualità delle risposte.",
-                "Numero di richieste inviate al modello.",
-                "Solo tempo medio, senza qualità delle risposte."
+                "Numero di richieste al modello e tempo di generazione.",
+                "Tempo medio di risposta e volume delle richieste."
               ],
               "answer": 0,
-              "why": "Parti dagli obiettivi aziendali, non dagli strumenti.",
+              "why": "Gli indicatori devono misurare direttamente il tempo mediano e il vincolo di qualità su campioni comparabili.",
               "feedback": [
-                "Corretto. Parti dagli obiettivi aziendali, non dagli strumenti.",
-                "Rivedi il caso: Parti dagli obiettivi aziendali, non dagli strumenti. La soluzione attesa è: Tempo mediano e qualità delle risposte.",
-                "Rivedi il caso: Parti dagli obiettivi aziendali, non dagli strumenti. La soluzione attesa è: Tempo mediano e qualità delle risposte."
+                "La mediana misura l’obiettivo dichiarato; un indicatore di qualità verifica che il risparmio non peggiori il servizio.",
+                "Utilizzo del modello e velocità di generazione non misurano il tempo complessivo né la qualità del risultato.",
+                "Media e volume possono essere utili, ma non misurano direttamente la mediana richiesta o il vincolo di qualità."
               ]
             }
           ],
@@ -1373,11 +1373,11 @@
                 "25%."
               ],
               "answer": 1,
-              "why": "La riduzione è 2 diviso 10.",
+              "why": "La riduzione percentuale si calcola rispetto al valore iniziale: (10 − 8) / 10 = 20%.",
               "feedback": [
-                "Non corretto. La riduzione è 2 diviso 10.",
-                "Corretto. La riduzione è 2 diviso 10.",
-                "Non corretto. La riduzione è 2 diviso 10."
+                "80% è la quota di tempo residua rispetto alla baseline, non la riduzione.",
+                "Il calo è di 2 minuti su 10 iniziali, cioè il 20%.",
+                "25% si ottiene dividendo il calo per 8, ma il riferimento per la riduzione è il valore iniziale di 10."
               ]
             }
           ],
@@ -1447,18 +1447,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il tempo scende del 20% ma gli errori raddoppiano. Estendi il pilota?",
+              "q": "Nel pilota il tempo mediano scende del 20%, ma il tasso di errori raddoppia. Prima di decidere se estenderlo, quale azione è appropriata?",
               "options": [
-                "Verifichi la soglia di qualità prima di estendere.",
-                "Estendi perché il tempo è diminuito.",
-                "Ignori gli errori se il volume cresce."
+                "Verificare la soglia di qualità e le cause degli errori.",
+                "Estendere il pilota sulla base del solo obiettivo temporale.",
+                "Valutare soltanto il volume di risposte prodotte."
               ],
               "answer": 0,
-              "why": "Il valore va valutato insieme alla qualità.",
+              "why": "La decisione di estensione deve considerare insieme beneficio temporale, qualità e rischio.",
               "feedback": [
-                "Corretto. Il valore va valutato insieme alla qualità.",
-                "Non corretto. Il valore va valutato insieme alla qualità.",
-                "Non corretto. Il valore va valutato insieme alla qualità."
+                "Confrontare il tasso con la soglia e analizzare le cause permette di decidere se correggere il processo prima di estenderlo.",
+                "Il miglioramento temporale non dimostra che il servizio resti accettabile quando il tasso di errori aumenta.",
+                "Un volume maggiore può coesistere con più errori: non sostituisce la verifica della qualità."
               ]
             }
           ],
@@ -1550,14 +1550,14 @@
               "options": [
                 "Scegli il progetto con il beneficio lordo maggiore.",
                 "Confronta benefici netti, vincoli e rischio.",
-                "Scegli il progetto più rapido senza considerare i rischi."
+                "Scegli il progetto con il tempo di avvio minore."
               ],
               "answer": 1,
-              "why": "Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso.",
+              "why": "La priorità richiede un confronto del valore netto e della capacità di realizzarlo entro i vincoli.",
               "feedback": [
-                "Rivedi il caso: Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso. La soluzione attesa è: Confronta benefici netti, vincoli e rischio.",
-                "Corretto. Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso.",
-                "Rivedi il caso: Valuta impatto, fattibilità e rischio per prioritizzare casi d’uso. La soluzione attesa è: Confronta benefici netti, vincoli e rischio."
+                "Il beneficio lordo non sottrae i costi e può favorire un progetto meno conveniente.",
+                "Benefici netti, risorse disponibili e rischio permettono di confrontare valore e fattibilità con criteri comuni.",
+                "Un avvio rapido riduce l’attesa, ma non garantisce un valore netto sufficiente né un rischio accettabile."
               ]
             }
           ],
@@ -1640,18 +1640,18 @@
           },
           "advancedCheck": [
             {
-              "q": "A produce benefici 9000 e costi 7000; B benefici 7000 e costi 3000. Quale ha beneficio netto maggiore?",
+              "q": "Nello stesso periodo A genera benefici per 9000 euro e costi per 7000; B benefici per 7000 e costi per 3000. Quale ha beneficio netto maggiore?",
               "options": [
                 "A, 2000 euro.",
                 "B, 4000 euro.",
                 "A, 9000 euro."
               ],
               "answer": 1,
-              "why": "A genera 2000 netti, B 4000.",
+              "why": "Il beneficio netto è il beneficio lordo meno i costi: A = 2000 euro, B = 4000 euro.",
               "feedback": [
-                "Non corretto. A genera 2000 netti, B 4000.",
-                "Corretto. A genera 2000 netti, B 4000.",
-                "Non corretto. A genera 2000 netti, B 4000."
+                "2000 euro è il saldo corretto di A, ma è inferiore ai 4000 euro di B.",
+                "B genera 4000 euro netti, il doppio di A, nel periodo considerato.",
+                "9000 euro è il beneficio lordo di A; sottraendo i costi il saldo scende a 2000 euro."
               ]
             }
           ],
@@ -1723,16 +1723,16 @@
             {
               "q": "Il progetto più redditizio richiede dati non disponibili. Come decidi?",
               "options": [
-                "Approvi solo per il ROI previsto.",
-                "Sostituisci i dati mancanti con stime non dichiarate.",
+                "Approvi sulla base del ROI previsto, rinviando la verifica dei dati.",
+                "Usi stime sostitutive senza verificare se rappresentano i dati necessari.",
                 "Verifichi fattibilità e costo di acquisizione dei dati prima di approvare."
               ],
               "answer": 2,
-              "why": "Il valore atteso non elimina i vincoli di fattibilità.",
+              "why": "Il valore previsto dipende da ipotesi di fattibilità: disponibilità, qualità e costo dei dati possono cambiare la convenienza.",
               "feedback": [
-                "Non corretto. Il valore atteso non elimina i vincoli di fattibilità.",
-                "Non corretto. Il valore atteso non elimina i vincoli di fattibilità.",
-                "Corretto. Il valore atteso non elimina i vincoli di fattibilità."
+                "Il ROI previsto può dipendere da dati non acquisibili o da costi omessi: approvare prima della verifica espone a una stima fragile.",
+                "Le stime sostitutive non dimostrano che il processo reale disponga di dati adeguati; occorre validarle e dichiararne i limiti.",
+                "Verificare accesso, qualità e costo dei dati consente di aggiornare il valore atteso e decidere su basi realistiche."
               ]
             }
           ],
