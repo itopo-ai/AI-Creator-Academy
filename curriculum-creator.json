@@ -207,18 +207,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un modello ottiene 8/10 ma costa 2 euro; un altro 7/10 e costa 0,20 euro. Quale scegliere per un compito critico?",
+              "q": "Per un compito critico la soglia è 8/10. A ottiene 8 e costa 2 euro, B ottiene 7 e costa 0,20 euro. Quale scelta è giustificata?",
               "options": [
-                "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-                "Scegli in base al punteggio medio senza controllare i casi critici.",
-                "Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza."
+                "B, perché costa meno.",
+                "Entrambi, perché la differenza è un solo punto.",
+                "A, verificando anche i casi critici."
               ],
               "answer": 2,
-              "why": "Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
+              "why": "La soglia è un requisito: A la raggiunge, ma occorre controllare anche i casi critici.",
               "feedback": [
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Corretto. Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni."
+                "Il risparmio non compensa il mancato rispetto della soglia.",
+                "Una differenza di un punto è decisiva quando separa un esito accettabile da uno insufficiente.",
+                "Corretto. La soglia è un requisito: A la raggiunge, ma occorre controllare anche i casi critici."
               ]
             }
           ],
@@ -294,18 +294,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un modello ottiene 8/10 ma costa 2 euro; un altro 7/10 e costa 0,20 euro. Quale scegliere per un compito critico?",
+              "q": "Su dieci risposte, un modello inventa due riferimenti bibliografici. Come documenti il limite?",
               "options": [
-                "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-                "Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Scegli in base al punteggio medio senza controllare i casi critici."
+                "Dichiara che il modello inventa sempre riferimenti.",
+                "Registra 2/10 riferimenti inventati nel campione, esempi e controllo richiesto.",
+                "Registra soltanto le otto risposte riuscite."
               ],
               "answer": 1,
-              "why": "Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
+              "why": "Il campione documenta il limite osservato e suggerisce una verifica delle fonti.",
               "feedback": [
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Corretto. Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza."
+                "Dieci prove non dimostrano un comportamento universale.",
+                "Corretto. Il campione documenta il limite osservato e suggerisce una verifica delle fonti.",
+                "Escludere gli errori rende la scheda poco utile per prevenire nuovi problemi."
               ]
             }
           ],
@@ -381,18 +381,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un modello ottiene 8/10 ma costa 2 euro; un altro 7/10 e costa 0,20 euro. Quale scegliere per un compito critico?",
+              "q": "Una risposta cita un rapporto reale ma attribuisce al rapporto una cifra diversa. Come procedi?",
               "options": [
-                "Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-                "Scegli in base al punteggio medio senza controllare i casi critici."
+                "Controlla il passaggio originale e correggi o elimina la cifra.",
+                "Accetta la cifra perché il rapporto esiste.",
+                "Sostituisci il rapporto con una fonte sullo stesso tema senza leggerla."
               ],
               "answer": 0,
-              "why": "Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
+              "why": "La fonte deve sostenere precisamente il dato citato.",
               "feedback": [
-                "Corretto. Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza."
+                "Corretto. La fonte deve sostenere precisamente il dato citato.",
+                "L’esistenza del rapporto non conferma ogni affermazione attribuita a esso.",
+                "Una fonte affine non è una prova della cifra."
               ]
             }
           ],
@@ -468,18 +468,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un modello ottiene 8/10 ma costa 2 euro; un altro 7/10 e costa 0,20 euro. Quale scegliere per un compito critico?",
+              "q": "Devi riassumere reclami contenenti nomi e numeri di telefono. Quale preparazione riduce il rischio?",
               "options": [
-                "Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-                "Scegli in base al punteggio medio senza controllare i casi critici."
+                "Usa un ambiente autorizzato e rimuovi i dati identificativi non necessari.",
+                "Rimuovi solo il titolo del documento.",
+                "Invia tutto perché il risultato sarà un riassunto."
               ],
               "answer": 0,
-              "why": "Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
+              "why": "La minimizzazione riduce i dati esposti e l’ambiente deve essere autorizzato.",
               "feedback": [
-                "Corretto. Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza."
+                "Corretto. La minimizzazione riduce i dati esposti e l’ambiente deve essere autorizzato.",
+                "Il titolo non è l’unico elemento che può identificare una persona.",
+                "Anche se il risultato è breve, il servizio riceve comunque i dati in ingresso."
               ]
             }
           ],
@@ -555,18 +555,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un modello ottiene 8/10 ma costa 2 euro; un altro 7/10 e costa 0,20 euro. Quale scegliere per un compito critico?",
+              "q": "Un assistente prepara appuntamenti ma trova due eventi sovrapposti. Quale comportamento imposti?",
               "options": [
-                "Scegli in base al costo minimo anche se la qualità non raggiunge la soglia.",
-                "Scegli in base al punteggio medio senza controllare i casi critici.",
-                "Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza."
+                "Sposta automaticamente l’evento più breve.",
+                "Ignora il conflitto e conferma entrambi.",
+                "Segnala il conflitto e chiedi conferma prima di modificare il calendario."
               ],
               "answer": 2,
-              "why": "Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni.",
+              "why": "La decisione resta alla persona quando la modifica ha conseguenze esterne.",
               "feedback": [
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Rivedi il caso: Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni. La soluzione attesa è: Quello che supera la soglia di qualità richiesta, poi confronta costo e latenza.",
-                "Corretto. Confronta modelli con gli stessi input, una rubrica fissata prima del test e più ripetizioni."
+                "La durata non determina la priorità degli appuntamenti.",
+                "Confermare entrambi nasconde un problema che l’utente deve risolvere.",
+                "Corretto. La decisione resta alla persona quando la modifica ha conseguenze esterne."
               ]
             }
           ],
@@ -656,18 +656,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un JSON valido può comunque contenere un prezzo inventato. Come verificare un output strutturato?",
+              "q": "Un cliente chiede una brochure ma non indica pubblico né formato. Come completi il brief?",
               "options": [
-                "Controlla soltanto che il JSON sia leggibile.",
-                "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
-                "Valida schema e valori rispetto alla fonte."
+                "Scegli il formato più usato senza verificare il pubblico.",
+                "Chiedi soltanto il numero di pagine.",
+                "Chiarisci destinatari, obiettivo, formato e criteri di accettazione."
               ],
               "answer": 2,
-              "why": "Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
+              "why": "Il brief rende verificabile la consegna e riduce le supposizioni.",
               "feedback": [
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte.",
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte.",
-                "Corretto. Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza."
+                "Un formato popolare può essere inadatto al destinatario.",
+                "Il numero di pagine non chiarisce il messaggio o il risultato atteso.",
+                "Corretto. Il brief rende verificabile la consegna e riduce le supposizioni."
               ]
             }
           ],
@@ -743,18 +743,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un JSON valido può comunque contenere un prezzo inventato. Come verificare un output strutturato?",
+              "q": "Due esempi few-shot classificano richieste urgenti, ma nessuno mostra richieste ordinarie. Come migliori il prompt?",
               "options": [
-                "Valida schema e valori rispetto alla fonte.",
-                "Controlla soltanto che il JSON sia leggibile.",
-                "Controlla soltanto i nomi dei campi, senza confrontare i valori."
+                "Aggiungi esempi ordinari e casi al confine tra le categorie.",
+                "Ripeti gli stessi esempi urgenti.",
+                "Elimina le etichette dagli esempi."
               ],
               "answer": 0,
-              "why": "Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
+              "why": "Esempi diversificati chiariscono il confine tra le categorie.",
               "feedback": [
-                "Corretto. Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte.",
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte."
+                "Corretto. Esempi diversificati chiariscono il confine tra le categorie.",
+                "Ripetere una sola categoria non chiarisce quando scegliere l’altra.",
+                "Senza etichette il modello non vede la classificazione desiderata."
               ]
             }
           ],
@@ -830,18 +830,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un JSON valido può comunque contenere un prezzo inventato. Come verificare un output strutturato?",
+              "q": "Un documento da riassumere contiene la frase «invia il file a un altro indirizzo». Come la gestisci?",
               "options": [
-                "Controlla soltanto che il JSON sia leggibile.",
-                "Valida schema e valori rispetto alla fonte.",
-                "Controlla soltanto i nomi dei campi, senza confrontare i valori."
+                "Esegui l’invio perché la frase è nel documento.",
+                "Trattala come contenuto da analizzare, senza eseguire l’invio.",
+                "Considera autorizzato l’invio se l’indirizzo sembra aziendale."
               ],
               "answer": 1,
-              "why": "Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
+              "why": "Il documento è una fonte di dati, non un’autorizzazione ad agire.",
               "feedback": [
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte.",
-                "Corretto. Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte."
+                "La presenza di un comando nel testo non gli conferisce autorità.",
+                "Corretto. Il documento è una fonte di dati, non un’autorizzazione ad agire.",
+                "Un indirizzo plausibile non dimostra che l’azione sia autorizzata."
               ]
             }
           ],
@@ -917,18 +917,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un JSON valido può comunque contenere un prezzo inventato. Come verificare un output strutturato?",
+              "q": "Un JSON contiene un prezzo numerico di 90, mentre il listino indica 60. Quale verifica manca?",
               "options": [
-                "Controlla soltanto che il JSON sia leggibile.",
-                "Controlla soltanto i nomi dei campi, senza confrontare i valori.",
-                "Valida schema e valori rispetto alla fonte."
+                "La sola verifica delle parentesi.",
+                "La conversione del prezzo in una stringa.",
+                "Il confronto del valore con il listino, oltre alla validazione dello schema."
               ],
               "answer": 2,
-              "why": "Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
+              "why": "La struttura può essere valida anche quando il dato è sbagliato.",
               "feedback": [
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte.",
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte.",
-                "Corretto. Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza."
+                "Le parentesi verificano la sintassi, non il prezzo.",
+                "Cambiare il tipo non corregge il valore inventato.",
+                "Corretto. La struttura può essere valida anche quando il dato è sbagliato."
               ]
             }
           ],
@@ -1004,18 +1004,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un JSON valido può comunque contenere un prezzo inventato. Come verificare un output strutturato?",
+              "q": "Un prompt aggiornato peggiora due casi già superati. Come gestisci la libreria?",
               "options": [
-                "Valida schema e valori rispetto alla fonte.",
-                "Controlla soltanto che il JSON sia leggibile.",
-                "Controlla soltanto i nomi dei campi, senza confrontare i valori."
+                "Conserva entrambe le versioni, i test e la motivazione della scelta.",
+                "Sovrascrivi la versione precedente senza note.",
+                "Registra soltanto il testo più recente e il suo autore."
               ],
               "answer": 0,
-              "why": "Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
+              "why": "Versioni e risultati permettono di confrontare e recuperare un comportamento precedente.",
               "feedback": [
-                "Corretto. Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza.",
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte.",
-                "Rivedi il caso: Separa istruzioni, dati e formato atteso; gli esempi guidano il modello ma non garantiscono correttezza. La soluzione attesa è: Valida schema e valori rispetto alla fonte."
+                "Corretto. Versioni e risultati permettono di confrontare e recuperare un comportamento precedente.",
+                "Sovrascrivere elimina il riferimento necessario per diagnosticare il peggioramento.",
+                "Autore e testo non documentano gli effetti della modifica."
               ]
             }
           ],
@@ -1105,18 +1105,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una bozza può essere automatica, l’invio al cliente richiede approvazione. Come misurare il costo reale?",
+              "q": "Un agente può preparare un preventivo e inviarlo al cliente. Come dividi la delega?",
               "options": [
-                "Conta solo il tempo di generazione della bozza.",
-                "Conta il tempo di revisione ma escludi le correzioni.",
-                "Includi tempo di revisione e correzione."
+                "Automatizza anche l’invio se la bozza è grammaticalmente corretta.",
+                "Richiedi approvazione solo dopo l’invio.",
+                "Automatizza la bozza e richiedi approvazione prima dell’invio."
               ],
               "answer": 2,
-              "why": "Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto.",
+              "why": "La bozza è reversibile, mentre l’invio produce conseguenze esterne.",
               "feedback": [
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Corretto. Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto."
+                "La grammatica non garantisce prezzi o condizioni corretti.",
+                "Un controllo successivo non previene un invio sbagliato.",
+                "Corretto. La bozza è reversibile, mentre l’invio produce conseguenze esterne."
               ]
             }
           ],
@@ -1192,18 +1192,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una bozza può essere automatica, l’invio al cliente richiede approvazione. Come misurare il costo reale?",
+              "q": "Una tappa del progetto è «migliorare il sito». Come la rendi verificabile?",
               "options": [
-                "Conta solo il tempo di generazione della bozza.",
-                "Conta il tempo di revisione ma escludi le correzioni.",
-                "Includi tempo di revisione e correzione."
+                "Aggiungi una scadenza senza specificare il risultato.",
+                "Aumenta il numero di attività senza criteri di completamento.",
+                "Definisci un modulo funzionante con tre casi di test e una scadenza."
               ],
               "answer": 2,
-              "why": "Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto.",
+              "why": "Un risultato osservabile e prove definite rendono verificabile la tappa.",
               "feedback": [
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Corretto. Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto."
+                "La scadenza indica quando, non cosa deve funzionare.",
+                "Più attività non dimostrano il raggiungimento dell’obiettivo.",
+                "Corretto. Un risultato osservabile e prove definite rendono verificabile la tappa."
               ]
             }
           ],
@@ -1279,18 +1279,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una bozza può essere automatica, l’invio al cliente richiede approvazione. Come misurare il costo reale?",
+              "q": "Due bozze ricevono giudizi opposti da due revisori. Come riduci l’ambiguità della rubrica?",
               "options": [
-                "Includi tempo di revisione e correzione.",
-                "Conta solo il tempo di generazione della bozza.",
-                "Conta il tempo di revisione ma escludi le correzioni."
+                "Definisci livelli con esempi osservabili e fai valutare le stesse bozze.",
+                "Chiedi ai revisori di usare il proprio gusto.",
+                "Usa la lunghezza della bozza come unico criterio."
               ],
               "answer": 0,
-              "why": "Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto.",
+              "why": "Esempi e criteri comuni rendono i giudizi più confrontabili.",
               "feedback": [
-                "Corretto. Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto.",
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione."
+                "Corretto. Esempi e criteri comuni rendono i giudizi più confrontabili.",
+                "Il gusto personale mantiene l’ambiguità che vuoi ridurre.",
+                "La lunghezza non misura necessariamente accuratezza o utilità."
               ]
             }
           ],
@@ -1366,18 +1366,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una bozza può essere automatica, l’invio al cliente richiede approvazione. Come misurare il costo reale?",
+              "q": "Una bozza costa 1 euro e richiede 15 minuti di revisione a 20 euro l’ora. Qual è il costo totale?",
               "options": [
-                "Conta solo il tempo di generazione della bozza.",
-                "Conta il tempo di revisione ma escludi le correzioni.",
-                "Includi tempo di revisione e correzione."
+                "1 euro.",
+                "5 euro.",
+                "6 euro."
               ],
               "answer": 2,
-              "why": "Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto.",
+              "why": "Quindici minuti sono un quarto d’ora: 5 euro di revisione più 1 euro di generazione.",
               "feedback": [
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Corretto. Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto."
+                "Un euro esclude il lavoro umano.",
+                "Cinque euro coprono la revisione ma non la generazione.",
+                "Corretto. Quindici minuti sono un quarto d’ora: 5 euro di revisione più 1 euro di generazione."
               ]
             }
           ],
@@ -1453,18 +1453,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una bozza può essere automatica, l’invio al cliente richiede approvazione. Come misurare il costo reale?",
+              "q": "Il cliente preferisce la seconda versione di una grafica, ma vuole il titolo della terza. Come procedi?",
               "options": [
-                "Conta solo il tempo di generazione della bozza.",
-                "Conta il tempo di revisione ma escludi le correzioni.",
-                "Includi tempo di revisione e correzione."
+                "Sovrascrivi la seconda versione senza conservarla.",
+                "Rigenera tutto senza consultare le versioni approvate.",
+                "Recupera le versioni, combina gli elementi richiesti e salva una nuova revisione."
               ],
               "answer": 2,
-              "why": "Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto.",
+              "why": "Una nuova revisione conserva la storia e rende verificabili le modifiche.",
               "feedback": [
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Rivedi il caso: Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto. La soluzione attesa è: Includi tempo di revisione e correzione.",
-                "Corretto. Assegna all’AI attività reversibili e mantieni approvazione umana sulle decisioni ad alto impatto."
+                "Sovrascrivere rende difficile recuperare la versione preferita.",
+                "Rigenerare senza riferimenti può perdere scelte già approvate.",
+                "Corretto. Una nuova revisione conserva la storia e rende verificabili le modifiche."
               ]
             }
           ],
@@ -1554,18 +1554,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un logo deve restare leggibile anche a 24 pixel. Come verificare un brand kit?",
+              "q": "Due moodboard hanno stili opposti e il cliente non sa scegliere. Come faciliti la decisione?",
               "options": [
-                "Verifica soltanto la versione a schermo intero.",
-                "Provalo in più dimensioni e su sfondi diversi.",
-                "Verifica i colori su un unico sfondo."
+                "Scegli quella con più immagini.",
+                "Collega ciascuna direzione a pubblico, messaggio e atmosfera desiderata.",
+                "Combina tutti i riferimenti senza definire una direzione."
               ],
               "answer": 1,
-              "why": "Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
+              "why": "Il moodboard serve a discutere una direzione visiva coerente con il brief.",
               "feedback": [
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi.",
-                "Corretto. Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi."
+                "La quantità di immagini non dimostra pertinenza.",
+                "Corretto. Il moodboard serve a discutere una direzione visiva coerente con il brief.",
+                "Mescolare riferimenti incompatibili può rendere la direzione confusa."
               ]
             }
           ],
@@ -1641,18 +1641,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un logo deve restare leggibile anche a 24 pixel. Come verificare un brand kit?",
+              "q": "Il testo grigio chiaro su sfondo bianco è difficile da leggere. Come correggi la palette?",
               "options": [
-                "Provalo in più dimensioni e su sfondi diversi.",
-                "Verifica soltanto la versione a schermo intero.",
-                "Verifica i colori su un unico sfondo."
+                "Scurisci il testo e verifica il contrasto rispetto allo sfondo.",
+                "Aggiungi un colore decorativo al bordo.",
+                "Aumenta soltanto la saturazione dello sfondo senza misurare il contrasto."
               ],
               "answer": 0,
-              "why": "Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
+              "why": "La leggibilità dipende dal contrasto effettivo tra testo e sfondo.",
               "feedback": [
-                "Corretto. Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi.",
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi."
+                "Corretto. La leggibilità dipende dal contrasto effettivo tra testo e sfondo.",
+                "Un bordo decorativo non migliora il contrasto del testo.",
+                "La saturazione da sola non garantisce contrasto sufficiente."
               ]
             }
           ],
@@ -1728,18 +1728,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un logo deve restare leggibile anche a 24 pixel. Come verificare un brand kit?",
+              "q": "Titolo, sottotitolo e corpo hanno la stessa dimensione e peso. Come migliori la lettura?",
               "options": [
-                "Verifica soltanto la versione a schermo intero.",
-                "Provalo in più dimensioni e su sfondi diversi.",
-                "Verifica i colori su un unico sfondo."
+                "Usa un carattere diverso per ogni paragrafo.",
+                "Assegna livelli coerenti di dimensione, peso e spaziatura.",
+                "Centra tutti i testi mantenendo identico lo stile."
               ],
               "answer": 1,
-              "why": "Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
+              "why": "La gerarchia aiuta a riconoscere i livelli informativi.",
               "feedback": [
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi.",
-                "Corretto. Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi."
+                "Molti caratteri possono introdurre rumore senza chiarire i livelli.",
+                "Corretto. La gerarchia aiuta a riconoscere i livelli informativi.",
+                "L’allineamento non risolve da solo l’assenza di gerarchia."
               ]
             }
           ],
@@ -1815,18 +1815,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un logo deve restare leggibile anche a 24 pixel. Come verificare un brand kit?",
+              "q": "Un logo dettagliato è leggibile sul poster ma non come icona da 24 pixel. Cosa fai?",
               "options": [
-                "Provalo in più dimensioni e su sfondi diversi.",
-                "Verifica soltanto la versione a schermo intero.",
-                "Verifica i colori su un unico sfondo."
+                "Prepara una variante semplificata e testala alla dimensione reale.",
+                "Aumenta la risoluzione mantenendo tutti i dettagli.",
+                "Valuta soltanto la versione stampata."
               ],
               "answer": 0,
-              "why": "Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
+              "why": "Una variante semplificata può preservare la riconoscibilità in piccolo.",
               "feedback": [
-                "Corretto. Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi.",
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi."
+                "Corretto. Una variante semplificata può preservare la riconoscibilità in piccolo.",
+                "Più pixel non risolvono dettagli troppo minuti alla dimensione visualizzata.",
+                "La stampa non riproduce le condizioni di una piccola icona."
               ]
             }
           ],
@@ -1902,18 +1902,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un logo deve restare leggibile anche a 24 pixel. Come verificare un brand kit?",
+              "q": "Un collaboratore usa colori e proporzioni del logo diversi da quelli approvati. Come previeni il problema?",
               "options": [
-                "Verifica soltanto la versione a schermo intero.",
-                "Provalo in più dimensioni e su sfondi diversi.",
-                "Verifica i colori su un unico sfondo."
+                "Invia soltanto una foto del logo.",
+                "Distribuisci asset ufficiali e regole con esempi di uso corretto e scorretto.",
+                "Chiedi a ciascuno di ricostruire il marchio a memoria."
               ],
               "answer": 1,
-              "why": "Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
+              "why": "Un brand kit rende ripetibile l’identità visiva.",
               "feedback": [
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi.",
-                "Corretto. Definisci gerarchia, contrasto e regole coerenti per colori e tipografia.",
-                "Rivedi il caso: Definisci gerarchia, contrasto e regole coerenti per colori e tipografia. La soluzione attesa è: Provalo in più dimensioni e su sfondi diversi."
+                "Una foto non specifica colori, proporzioni o varianti.",
+                "Corretto. Un brand kit rende ripetibile l’identità visiva.",
+                "La ricostruzione a memoria aumenta le incoerenze."
               ]
             }
           ],
@@ -2003,18 +2003,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un utente non trova il pulsante di salvataggio senza aiuto. Quale evidenza raccogliere?",
+              "q": "Una persona UX ipotizza che gli utenti anziani non usino lo smartphone. Come verifichi l’ipotesi?",
               "options": [
-                "Raccogli soltanto il gradimento estetico.",
-                "Tempo, errori e completamento del compito senza suggerimenti.",
-                "Misura il tempo dopo aver spiegato tutti i passaggi."
+                "Mantieni l’ipotesi perché sembra plausibile.",
+                "Intervista e osserva utenti del pubblico previsto, aggiornando la persona.",
+                "Sostituisci l’età con un’altra caratteristica senza raccogliere dati."
               ],
               "answer": 1,
-              "why": "Un prototipo verifica il flusso prima di investire nello sviluppo.",
+              "why": "La ricerca permette di distinguere bisogni osservati da stereotipi.",
               "feedback": [
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti.",
-                "Corretto. Un prototipo verifica il flusso prima di investire nello sviluppo.",
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti."
+                "La plausibilità non costituisce evidenza.",
+                "Corretto. La ricerca permette di distinguere bisogni osservati da stereotipi.",
+                "Cambiare una supposizione con un’altra non migliora la validità."
               ]
             }
           ],
@@ -2090,18 +2090,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un utente non trova il pulsante di salvataggio senza aiuto. Quale evidenza raccogliere?",
+              "q": "Nel flusso di registrazione manca il percorso per un’email già utilizzata. Come lo completi?",
               "options": [
-                "Raccogli soltanto il gradimento estetico.",
-                "Misura il tempo dopo aver spiegato tutti i passaggi.",
-                "Tempo, errori e completamento del compito senza suggerimenti."
+                "Riporta sempre l’utente alla pagina iniziale senza spiegazioni.",
+                "Mostra soltanto il percorso di registrazione riuscita.",
+                "Aggiungi uno stato di errore e un percorso verso accesso o recupero."
               ],
               "answer": 2,
-              "why": "Un prototipo verifica il flusso prima di investire nello sviluppo.",
+              "why": "Il flusso deve prevedere un recupero comprensibile dagli errori.",
               "feedback": [
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti.",
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti.",
-                "Corretto. Un prototipo verifica il flusso prima di investire nello sviluppo."
+                "Un ritorno senza spiegazioni non aiuta a risolvere il problema.",
+                "Il percorso positivo non descrive cosa accade in caso di errore.",
+                "Corretto. Il flusso deve prevedere un recupero comprensibile dagli errori."
               ]
             }
           ],
@@ -2177,18 +2177,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un utente non trova il pulsante di salvataggio senza aiuto. Quale evidenza raccogliere?",
+              "q": "Un wireframe ha il pulsante principale sotto contenuti secondari. Cosa verifichi prima di scegliere i colori?",
               "options": [
-                "Raccogli soltanto il gradimento estetico.",
-                "Misura il tempo dopo aver spiegato tutti i passaggi.",
-                "Tempo, errori e completamento del compito senza suggerimenti."
+                "Se il colore del pulsante coincide con il logo.",
+                "Se tutte le immagini finali sono già disponibili.",
+                "Se ordine e posizione aiutano l’utente a completare il compito."
               ],
               "answer": 2,
-              "why": "Un prototipo verifica il flusso prima di investire nello sviluppo.",
+              "why": "Il wireframe serve a verificare struttura e priorità prima dello stile.",
               "feedback": [
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti.",
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti.",
-                "Corretto. Un prototipo verifica il flusso prima di investire nello sviluppo."
+                "La coerenza cromatica non risolve una posizione poco efficace.",
+                "Le immagini finali non sono necessarie per valutare la struttura.",
+                "Corretto. Il wireframe serve a verificare struttura e priorità prima dello stile."
               ]
             }
           ],
@@ -2264,18 +2264,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un utente non trova il pulsante di salvataggio senza aiuto. Quale evidenza raccogliere?",
+              "q": "Un prototipo simula un acquisto ma non elabora pagamenti reali. Quale risultato puoi verificare?",
               "options": [
-                "Raccogli soltanto il gradimento estetico.",
-                "Tempo, errori e completamento del compito senza suggerimenti.",
-                "Misura il tempo dopo aver spiegato tutti i passaggi."
+                "Se il circuito bancario autorizza realmente il pagamento.",
+                "Se gli utenti comprendono i passaggi e trovano la conferma simulata.",
+                "Se il server regge mille transazioni simultanee."
               ],
               "answer": 1,
-              "why": "Un prototipo verifica il flusso prima di investire nello sviluppo.",
+              "why": "Il prototipo permette di osservare la comprensione del percorso simulato.",
               "feedback": [
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti.",
-                "Corretto. Un prototipo verifica il flusso prima di investire nello sviluppo.",
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti."
+                "L’autorizzazione reale richiede un’integrazione funzionante.",
+                "Corretto. Il prototipo permette di osservare la comprensione del percorso simulato.",
+                "La capacità del server richiede prove su un sistema implementato."
               ]
             }
           ],
@@ -2351,18 +2351,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un utente non trova il pulsante di salvataggio senza aiuto. Quale evidenza raccogliere?",
+              "q": "Tre utenti non trovano il pulsante per completare un ordine. Come usi il risultato del test?",
               "options": [
-                "Raccogli soltanto il gradimento estetico.",
-                "Tempo, errori e completamento del compito senza suggerimenti.",
-                "Misura il tempo dopo aver spiegato tutti i passaggi."
+                "Spiega dove cliccare e considera il test superato.",
+                "Registra l’ostacolo, modifica la gerarchia e ripeti il compito con altri utenti.",
+                "Ignora il problema perché il progettista conosce il percorso."
               ],
               "answer": 1,
-              "why": "Un prototipo verifica il flusso prima di investire nello sviluppo.",
+              "why": "La ripetizione del test verifica se la modifica riduce l’ostacolo.",
               "feedback": [
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti.",
-                "Corretto. Un prototipo verifica il flusso prima di investire nello sviluppo.",
-                "Rivedi il caso: Un prototipo verifica il flusso prima di investire nello sviluppo. La soluzione attesa è: Tempo, errori e completamento del compito senza suggerimenti."
+                "Suggerire la soluzione nasconde la difficoltà di utilizzo autonomo.",
+                "Corretto. La ripetizione del test verifica se la modifica riduce l’ostacolo.",
+                "La familiarità del progettista non rappresenta quella degli utenti."
               ]
             }
           ],
@@ -2452,18 +2452,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un video di 15 secondi ha tre scene da 5 secondi. Quale controllo precede la pubblicazione?",
+              "q": "Uno storyboard di 30 secondi contiene sei scene, ma il messaggio principale arriva dopo 28 secondi. Come lo migliori?",
               "options": [
-                "Controlla soltanto la durata del video.",
-                "Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Controlla la narrazione ma rimanda la verifica dei diritti."
+                "Aggiungi altre scene senza cambiare la durata.",
+                "Anticipa il messaggio e assegna a ogni scena una funzione narrativa.",
+                "Allunga la scena iniziale senza rivedere il messaggio."
               ],
               "answer": 1,
-              "why": "Pianifica inquadrature, messaggio e durata prima di generare asset.",
+              "why": "La struttura narrativa deve rendere il messaggio comprensibile nel tempo disponibile.",
               "feedback": [
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Corretto. Pianifica inquadrature, messaggio e durata prima di generare asset.",
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità."
+                "Più scene possono ridurre il tempo utile senza chiarire il messaggio.",
+                "Corretto. La struttura narrativa deve rendere il messaggio comprensibile nel tempo disponibile.",
+                "Allungare l’inizio può ritardare ulteriormente il contenuto principale."
               ]
             }
           ],
@@ -2539,18 +2539,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un video di 15 secondi ha tre scene da 5 secondi. Quale controllo precede la pubblicazione?",
+              "q": "Un’immagine generata rispetta la composizione ma contiene testo deformato. Come la prepari per la consegna?",
               "options": [
-                "Controlla soltanto la durata del video.",
-                "Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Controlla la narrazione ma rimanda la verifica dei diritti."
+                "Consegna l’immagine perché la composizione è corretta.",
+                "Correggi o rigenera il testo, poi verifica coerenza e diritti d’uso.",
+                "Riduci la dimensione per nascondere il difetto."
               ],
               "answer": 1,
-              "why": "Pianifica inquadrature, messaggio e durata prima di generare asset.",
+              "why": "La consegna richiede un controllo del contenuto oltre alla composizione.",
               "feedback": [
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Corretto. Pianifica inquadrature, messaggio e durata prima di generare asset.",
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità."
+                "Una composizione riuscita non elimina un errore visibile.",
+                "Corretto. La consegna richiede un controllo del contenuto oltre alla composizione.",
+                "Nascondere il difetto non garantisce leggibilità negli usi previsti."
               ]
             }
           ],
@@ -2626,18 +2626,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un video di 15 secondi ha tre scene da 5 secondi. Quale controllo precede la pubblicazione?",
+              "q": "Un video ha sottotitoli automatici che riportano un prezzo errato. Cosa fai prima di pubblicarlo?",
               "options": [
-                "Controlla soltanto la durata del video.",
-                "Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Controlla la narrazione ma rimanda la verifica dei diritti."
+                "Elimina tutti i sottotitoli per evitare l’errore.",
+                "Correggi i sottotitoli confrontandoli con l’audio e verifica la sincronizzazione.",
+                "Lascia il prezzo errato perché l’audio è corretto."
               ],
               "answer": 1,
-              "why": "Pianifica inquadrature, messaggio e durata prima di generare asset.",
+              "why": "Sottotitoli accurati e sincronizzati rendono accessibile lo stesso messaggio.",
               "feedback": [
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Corretto. Pianifica inquadrature, messaggio e durata prima di generare asset.",
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità."
+                "Eliminare i sottotitoli riduce l’accessibilità anziché correggere il difetto.",
+                "Corretto. Sottotitoli accurati e sincronizzati rendono accessibile lo stesso messaggio.",
+                "Chi legge i sottotitoli riceverebbe un’informazione sbagliata."
               ]
             }
           ],
@@ -2713,18 +2713,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un video di 15 secondi ha tre scene da 5 secondi. Quale controllo precede la pubblicazione?",
+              "q": "Lo stesso prodotto va presentato a principianti e professionisti. Come adatti il copy?",
               "options": [
-                "Controlla soltanto la durata del video.",
-                "Controlla la narrazione ma rimanda la verifica dei diritti.",
-                "Coerenza narrativa, diritti d’uso e leggibilità."
+                "Cambia le caratteristiche del prodotto per renderlo più convincente.",
+                "Usa lo stesso testo tecnico per entrambi senza verifiche.",
+                "Mantieni i fatti e adatta lessico, esempi e livello di dettaglio al pubblico."
               ],
               "answer": 2,
-              "why": "Pianifica inquadrature, messaggio e durata prima di generare asset.",
+              "why": "Adattare il registro migliora la comprensione senza alterare i fatti.",
               "feedback": [
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Corretto. Pianifica inquadrature, messaggio e durata prima di generare asset."
+                "Cambiare le caratteristiche introduce affermazioni potenzialmente false.",
+                "Un testo tecnico può risultare poco accessibile ai principianti.",
+                "Corretto. Adattare il registro migliora la comprensione senza alterare i fatti."
               ]
             }
           ],
@@ -2800,18 +2800,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un video di 15 secondi ha tre scene da 5 secondi. Quale controllo precede la pubblicazione?",
+              "q": "Il cliente deve riutilizzare una grafica su web e stampa. Quale consegna è più utile?",
               "options": [
-                "Controlla soltanto la durata del video.",
-                "Controlla la narrazione ma rimanda la verifica dei diritti.",
-                "Coerenza narrativa, diritti d’uso e leggibilità."
+                "Una sola anteprima compressa per entrambi gli usi.",
+                "Il prompt di generazione senza i file finali.",
+                "File adatti ai due usi, sorgenti concordati, licenze e istruzioni."
               ],
               "answer": 2,
-              "why": "Pianifica inquadrature, messaggio e durata prima di generare asset.",
+              "why": "Formati e istruzioni consentono di riutilizzare il lavoro nelle condizioni previste.",
               "feedback": [
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Rivedi il caso: Pianifica inquadrature, messaggio e durata prima di generare asset. La soluzione attesa è: Coerenza narrativa, diritti d’uso e leggibilità.",
-                "Corretto. Pianifica inquadrature, messaggio e durata prima di generare asset."
+                "Un’anteprima compressa può non avere qualità o formato adatti alla stampa.",
+                "Il prompt non sostituisce gli asset effettivamente consegnati.",
+                "Corretto. Formati e istruzioni consentono di riutilizzare il lavoro nelle condizioni previste."
               ]
             }
           ],
