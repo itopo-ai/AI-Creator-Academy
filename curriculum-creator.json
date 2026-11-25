@@ -1091,8 +1091,8 @@
             "answer": 2,
             "why": "Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze.",
             "feedback": [
-              "Rivedi il principio. Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze.",
-              "Rivedi il principio. Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze.",
+              "Una bozza modificabile consente di correggere gli errori prima dell'uso: richiede meno supervisione di una decisione irreversibile.",
+              "Formattare testo fittizio comporta in genere conseguenze limitate e facilmente correggibili.",
               "Corretto. Una matrice di delega distingue compiti automatici, assistiti e riservati alla persona; considera reversibilità e conseguenze."
             ]
           },
@@ -1178,8 +1178,8 @@
             "answer": 2,
             "why": "Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo.",
             "feedback": [
-              "Rivedi il principio. Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo.",
-              "Rivedi il principio. Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo.",
+              "Un titolo identifica la tappa, ma non permette di stabilire se sia stata raggiunta.",
+              "Una durata casuale non indica quale risultato ottenere né come verificarlo.",
               "Corretto. Dividi un progetto in risultati intermedi verificabili; ogni tappa deve avere un criterio di successo."
             ]
           },
@@ -1266,8 +1266,8 @@
             "why": "Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono.",
             "feedback": [
               "Corretto. Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono.",
-              "Rivedi il principio. Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono.",
-              "Rivedi il principio. Una rubrica descrive livelli di qualità osservabili, evitando giudizi vaghi come bello o buono."
+              "La bellezza è un giudizio soggettivo se non specifichi caratteristiche da osservare.",
+              "Sembrare intelligente non dimostra accuratezza: servono criteri verificabili."
             ]
           },
           "masterclass": {
@@ -1352,8 +1352,8 @@
             "answer": 2,
             "why": "Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile.",
             "feedback": [
-              "Rivedi il principio. Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile.",
-              "Rivedi il principio. Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile.",
+              "Il prezzo del modello esclude il tempo dedicato dalle persone a controllare e correggere il risultato.",
+              "Il numero di prompt misura le richieste, non il costo del lavoro necessario per ottenere un risultato utilizzabile.",
               "Corretto. Registra costo del servizio, tempo umano e correzioni; confronta il costo per risultato utilizzabile."
             ]
           },
@@ -1439,8 +1439,8 @@
             "answer": 2,
             "why": "Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni.",
             "feedback": [
-              "Rivedi il principio. Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni.",
-              "Rivedi il principio. Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni.",
+              "Conservare versioni non impedisce le modifiche: permette di sperimentare e recuperare uno stato precedente.",
+              "Il brief resta il riferimento per valutare se le revisioni rispettano gli obiettivi.",
               "Corretto. Un workflow creativo collega brief, generazione, selezione, revisione e consegna; conserva le versioni."
             ]
           },
@@ -1540,9 +1540,9 @@
             "answer": 1,
             "why": "Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo.",
             "feedback": [
-              "Rivedi il principio. Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo.",
+              "I ricavi si misurano con dati economici; il moodboard raccoglie riferimenti visivi.",
               "Corretto. Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo.",
-              "Rivedi il principio. Un moodboard raccoglie riferimenti per comunicare atmosfera e direzione visiva, non è un progetto definitivo."
+              "Il moodboard orienta le scelte estetiche, ma non sostituisce la realizzazione del prodotto."
             ]
           },
           "masterclass": {
@@ -1628,8 +1628,8 @@
             "why": "Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto.",
             "feedback": [
               "Corretto. Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto.",
-              "Rivedi il principio. Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto.",
-              "Rivedi il principio. Una palette assegna ruoli ai colori: sfondo, testo, accento e stati; controlla il contrasto."
+              "Testo e sfondo dello stesso colore non offrono contrasto e rendono il testo invisibile.",
+              "Aumentare il numero di colori non garantisce leggibilità: conta il contrasto tra testo e sfondo."
             ]
           },
           "masterclass": {
@@ -1714,9 +1714,9 @@
             "answer": 1,
             "why": "La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili.",
             "feedback": [
-              "Rivedi il principio. La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili.",
+              "Un font diverso per ogni parola rende difficile riconoscere ruoli ricorrenti come titoli e corpo del testo.",
               "Corretto. La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili.",
-              "Rivedi il principio. La tipografia organizza la lettura con dimensione, peso e spaziatura; limita gli stili inutili."
+              "Usare sempre lo stesso peso rinuncia a un segnale utile per distinguere le priorità, anche se dimensioni e spaziature possono aiutare."
             ]
           },
           "masterclass": {
@@ -1802,8 +1802,8 @@
             "why": "Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso.",
             "feedback": [
               "Corretto. Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso.",
-              "Rivedi il principio. Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso.",
-              "Rivedi il principio. Logo e icone devono restare riconoscibili in piccolo e su sfondi diversi; verifica anche i diritti d'uso."
+              "Un logo ingrandito può apparire nitido anche quando i dettagli diventano indistinguibili in piccolo.",
+              "Lo sfondo originale non rivela eventuali problemi di contrasto su altri sfondi."
             ]
           },
           "masterclass": {
@@ -1888,9 +1888,9 @@
             "answer": 1,
             "why": "Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto.",
             "feedback": [
-              "Rivedi il principio. Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto.",
+              "Il nome identifica il progetto, ma non spiega come usare logo, colori e tipografia.",
               "Corretto. Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto.",
-              "Rivedi il principio. Un brand kit raccoglie regole e asset riutilizzabili, con esempi di uso corretto e scorretto."
+              "Una fotografia può essere un elemento del kit, ma non definisce da sola l'identità visiva e le regole d'uso."
             ]
           },
           "masterclass": {
@@ -1989,9 +1989,9 @@
             "answer": 1,
             "why": "Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi.",
             "feedback": [
-              "Rivedi il principio. Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi.",
+              "Il colore preferito non descrive da solo i bisogni, gli obiettivi o gli ostacoli dell'utente.",
               "Corretto. Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi.",
-              "Rivedi il principio. Una persona descrive un utente ipotetico, con bisogni da verificare; evita stereotipi."
+              "Gli stereotipi sono supposizioni: verifica le ipotesi con osservazioni o ricerca sugli utenti."
             ]
           },
           "masterclass": {
@@ -2076,8 +2076,8 @@
             "answer": 2,
             "why": "Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni.",
             "feedback": [
-              "Rivedi il principio. Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni.",
-              "Rivedi il principio. Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni.",
+              "La schermata iniziale non mostra come l'utente raggiunge il risultato o recupera da un errore.",
+              "I colori riguardano l'aspetto visivo, non la sequenza di azioni necessarie per completare il compito.",
               "Corretto. Un user flow rappresenta i passaggi per raggiungere un obiettivo, inclusi errori e ritorni."
             ]
           },
@@ -2163,8 +2163,8 @@
             "answer": 2,
             "why": "Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici.",
             "feedback": [
-              "Rivedi il principio. Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici.",
-              "Rivedi il principio. Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici.",
+              "Pubblicare il backend significa rendere disponibile la parte applicativa lato server; il wireframe rappresenta invece la struttura dell'interfaccia.",
+              "La fatturazione riguarda il modello economico; un wireframe serve a organizzare contenuti e controlli.",
               "Corretto. Un wireframe è uno schema della disposizione degli elementi, prima dei dettagli estetici."
             ]
           },
@@ -2250,9 +2250,9 @@
             "answer": 1,
             "why": "Un prototipo cliccabile simula interazioni senza richiedere un backend completo.",
             "feedback": [
-              "Rivedi il principio. Un prototipo cliccabile simula interazioni senza richiedere un backend completo.",
+              "Un database non implementato non può essere sottoposto a verifiche reali di sicurezza tramite un prototipo visivo.",
               "Corretto. Un prototipo cliccabile simula interazioni senza richiedere un backend completo.",
-              "Rivedi il principio. Un prototipo cliccabile simula interazioni senza richiedere un backend completo."
+              "La capacità del server richiede un sistema funzionante e prove di carico, non soltanto schermate collegate."
             ]
           },
           "masterclass": {
@@ -2337,9 +2337,9 @@
             "answer": 1,
             "why": "Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi.",
             "feedback": [
-              "Rivedi il principio. Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi.",
+              "La preferenza del progettista non dimostra che gli utenti riescano a completare il compito.",
               "Corretto. Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi.",
-              "Rivedi il principio. Un test di usabilità osserva utenti mentre svolgono compiti senza suggerimenti; registra ostacoli e tempi."
+              "Indicare ogni clic nasconde gli ostacoli che emergerebbero durante l'uso autonomo."
             ]
           },
           "masterclass": {
@@ -2438,9 +2438,9 @@
             "answer": 1,
             "why": "Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia.",
             "feedback": [
-              "Rivedi il principio. Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia.",
+              "Il costo pubblicitario appartiene al budget; non descrive la sequenza narrativa delle scene.",
               "Corretto. Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia.",
-              "Rivedi il principio. Uno storyboard descrive scene, durata e messaggio; ogni scena deve contribuire alla storia."
+              "Il formato del file è una specifica tecnica di consegna, non una rappresentazione della storia."
             ]
           },
           "masterclass": {
@@ -2525,9 +2525,9 @@
             "answer": 1,
             "why": "Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti.",
             "feedback": [
-              "Rivedi il principio. Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti.",
+              "Il nome del file non rivela difetti visivi, incoerenze o condizioni di utilizzo dell'immagine.",
               "Corretto. Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti.",
-              "Rivedi il principio. Per generare immagini definisci soggetto, composizione, luce e vincoli; verifica artefatti e diritti."
+              "Il primo risultato può contenere errori o non rispettare il brief: esaminalo prima di selezionarlo."
             ]
           },
           "masterclass": {
@@ -2612,9 +2612,9 @@
             "answer": 1,
             "why": "Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli.",
             "feedback": [
-              "Rivedi il principio. Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli.",
+              "Un testo illeggibile non permette di recuperare le informazioni pronunciate nel video.",
               "Corretto. Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli.",
-              "Rivedi il principio. Un video breve richiede ritmo, continuità e leggibilità; controlla audio e sottotitoli."
+              "Una musica che copre la voce ostacola la comprensione del parlato."
             ]
           },
           "masterclass": {
@@ -2699,8 +2699,8 @@
             "answer": 2,
             "why": "Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto.",
             "feedback": [
-              "Rivedi il principio. Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto.",
-              "Rivedi il principio. Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto.",
+              "Il numero di parole può influire sulla lunghezza, ma non determina il registro adatto al destinatario.",
+              "Un tono fisso può risultare inadatto a contesti diversi, come un tutorial e una comunicazione formale.",
               "Corretto. Il copy comunica un messaggio al pubblico; il tono deve essere coerente con obiettivo e contesto."
             ]
           },
@@ -2786,8 +2786,8 @@
             "answer": 2,
             "why": "Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo.",
             "feedback": [
-              "Rivedi il principio. Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo.",
-              "Rivedi il principio. Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo.",
+              "L'anteprima mostra il risultato, ma senza i file finali il destinatario potrebbe non poterlo utilizzare.",
+              "Il prompt documenta una fase del processo, ma non sostituisce gli asset prodotti e le istruzioni di consegna.",
               "Corretto. Un pacchetto creativo include asset finali, formati, fonti e istruzioni di utilizzo."
             ]
           },
