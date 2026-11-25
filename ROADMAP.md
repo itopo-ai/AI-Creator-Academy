@@ -1109,3 +1109,113 @@ Fonti consultate 25/11/2026: G https://support.google.com/analytics/answer/15440
 | BL2-P35 | X | capstone difesa variante e handover | P/B |
 
 Parità candidata: Power BI Desktop gratuito su Windows per DAX/Power Query reali; Mac/Linux Calc + SQL + BI locale per competenze trasferibili, non prova DAX/Power Query specifici. Cloud sharing, RLS remoto, refresh schedulato e Copilot non equivalgono a demo locale; provare due utenti con accessi distinti e test negativo su stack gratuito, senza pubblicazione dati riservati; se non fattibile, gate prima approvazione. AI chat gratuita su estratti sintetici, verifica SQL e misure con gold set; niente API o crediti obbligatori. Premium facoltativo Excel, Pro, Fabric, Copilot e certificati. GA4 proprietà test con eventi sintetici senza PII, consenso e policy da verificare, demo sola non basta. Capstone candidato dossier direzionale vendite/costi/marketing con dataset sintetico, schema stella, ETL, SQL, misure, dashboard interattiva, test numerici, permessi, refresh, backup, raccomandazioni e variante autonoma. Rubrica 0–3 minimo 2 per dimensione essenziale, zero violazioni sicurezza, log costi/tempi/AI, holdout e riproducibilità; soglie e ore da approvare. Mobile First studio iPhone, laboratori desktop dichiarati. Gate aperti: login GA4/Skillshop, unità/link e lingue, esami e prezzi, hardware Windows/Mac/Linux, alternative SQL/BI, RLS e deploy gratuito, quote AI, licenze, accessibilità e carico reale. Nessun runtime, esame, acquisto o validazione indipendente. Gate Creator e L1 preservati. Totale preliminare 323/420 (76,9%), Creator 186/186, Business 137/234. Prossimo Business L3 97 sessioni. Nessuna modifica applicativa.
+
+
+## Fase 2E — Business L3 AI Strategy & Business Transformation (25/11/2026)
+Base 9c2fc53d0e9f12e3031605815789ad3cd41b3654; 97/97 preliminari (60 originali settimane 13–20 e 37–48, 37 segnaposti non applicativi). +13 come audit: no-code 4, qualità 3, integrazione/change 2, pilota 4; +24 Make 4, API/affidabilità 5, agenti 6, Power Platform 5, Copilot/governance 2, capstone 2. Tutte le nuove applicazioni comuni; classificazione originali 2D preservata, nessun esonero applicativo Professional/Complete. V fonte consultata, P candidato, B gate aperto, T test reale (0).
+Fonti V 25/11/2026: C https://www.coursera.org/specializations/no-code-ai-for-business (LearnQuest, non IBM come indicato nell'audit precedente; 3 corsi, 4 settimane x10h dichiarate; FAQ esplicita non gratuito), https://www.coursera.org/learn/no-code-ai-foundations-for-business-professionals (3 moduli/3h EN), https://www.coursera.org/learn/applied-no-code-ai-for-business-processes (3 moduli/3h EN). Attestati opzionali; unità terzo corso e discrepanza durata da approfondire. M https://academy.make.com/collections/courses e https://academy.make.com/?pc=nmbiz (formazione gratuita, 6 mesi accesso per iscrizione rinnovabile, badge Credly; catalogo Foundation/Basics/Intermediate/Advanced e agenti), https://www.make.com/pricing (1000 crediti/mese free, 1MB storage; AI può consumare di più; quote moduli e singoli bundle originali da verificare). N https://learn.n8n.io/ (redirect da /courses/, Essentials, Integrations, In Practice, Introduction to Agents; accesso/durata singoli corsi aperti). A https://docs.n8n.io/deploy/host-n8n/deploy-with-the-ai-starter-kit.md (redirect da vecchio URL; Docker Compose, n8n/Ollama/Qdrant/PostgreSQL, solo test, non produzione). P https://learn.microsoft.com/en-us/power-platform/developer/plan (gratuito sviluppo/test, Entra ID work/school, 750 flow run/mese, 2GB; ambienti developer unmanaged deprecati, migrazione/managed e costi da verificare), https://learn.microsoft.com/microsoft-copilot-studio/sign-up-individual (trial test chat, niente pubblicazione; estensione 30 giorni, non alternativa stabile). X https://learn.microsoft.com/en-us/certifications/resources/study-guides/pl-900 (obiettivi dal 24/07/2026: valore 5–10%, ambiente 20–25%, Apps 20–25%, Automate 20–25%, Copilot Studio 20–25%; guida IT consultata ancora 20/06/2025, usare EN aggiornata e verificare localizzazione), https://learn.microsoft.com/it-it/credentials/certifications/power-platform-fundamentals/ (esame anche IT, prezzo per paese, costo finale e disponibilità da verificare, pratica gratuita distinta da esame). Link originali Make bundle e PL-900 practice/path non verificati individualmente; riferimenti diretti unità, lingua e durata ancora aperti. NIST/EDPB già consultati L1, riuso come riferimenti governance, non nuova verifica.
+
+| ID | Fonti candidate | Evidenza prevista | Stato |
+|---|---|---|---|
+| b13s1 | C | distinguere regole e AI su casi | P/B |
+| b13s2 | C | matrice scelta strumenti e vincoli | P/B |
+| b13s3 | C | mappa acquisti con eccezioni | P/B |
+| b14s1 | C | stakeholder e consenso simulato | P/B |
+| b14s2 | C | business case e resistenza | P/B |
+| b14s3 | C | baseline tempi errori e campione | P/B |
+| b15s1 | C,N | workflow prototipo con schema | P/B |
+| b15s2 | C,N | KPI qualità e costo | P/B |
+| b15s3 | C,N | richieste clienti eseguite in sandbox | P/B |
+| b16s1 | C,N | bias per segmento e trasparenza | P/B |
+| b16s2 | C,N | beneficio netto e rischio residuo | P/B |
+| b16s3 | C,N | test sintetici separati dal tuning | P/B |
+| b17s1 | C | roadmap trasformazione | P/B |
+| b17s2 | C | journey cliente e priorità | P/B |
+| b17s3 | C | contratto integrazione e fallback | P/B |
+| b18s1 | C | governance e gate scala | P/B |
+| b18s2 | C | valutazione interna distinta da attestato | P/B |
+| b18s3 | C | RACI e prova formazione | P/B |
+| b19s1 | M,N | ripasso su caso nuovo | P/B |
+| b19s2 | M,N | matrice costi quote connettori | P/B |
+| b19s3 | M,N | pilota eseguito con baseline | P/B |
+| b20s1 | C,N | KPI e incertezza | P/B |
+| b20s2 | C,N | report con fonti e limiti | P/B |
+| b20s3 | C,N | decisione estensione su test | P/B |
+| b37s1 | M,N | trigger e azioni | P/B |
+| b37s2 | M,N | scenario eseguito e log | P/B |
+| b37s3 | M,N | mappa ordini e stati | P/B |
+| b38s1 | M | router e filtri confini | P/B |
+| b38s2 | M | consumo crediti misurato | P/B |
+| b38s3 | M | duplicati e idempotenza | P/B |
+| b39s1 | M,N | mapping e tipi | P/B |
+| b39s2 | M,N | iteratori aggregatori e totali | P/B |
+| b39s3 | M,N | reminder sintetico senza invio reale | P/B |
+| b40s1 | M,N | scenario intermedio | P/B |
+| b40s2 | M,N | webhook autenticato e payload errato | P/B |
+| b40s3 | M,N | retry limitato e coda errori | P/B |
+| b41s1 | M,N | classificazione errori | P/B |
+| b41s2 | M,N | date timezone e condizioni | P/B |
+| b41s3 | M,N | audit log e stima costi verificata | P/B |
+| b42s1 | M,A | workflow vs agente | P/B |
+| b42s2 | M,A | estrazione strutturata e schema | P/B |
+| b42s3 | M,A | classificatore e matrice confusione | P/B |
+| b43s1 | M,A | tool e stato agente | P/B |
+| b43s2 | M,A | agente eseguito con task sintetici | P/B |
+| b43s3 | M,A | escalation e astensione | P/B |
+| b44s1 | M,A | agente con strumenti limitati | P/B |
+| b44s2 | M,A | modello prompt e TCO | P/B |
+| b44s3 | M,A | monitoraggio rollback verificato | P/B |
+| b45s1 | P | valore e scelta componenti | P/B |
+| b45s2 | P | Dataverse schema e ruoli | P/B |
+| b45s3 | P | matrice scelta strumenti | P/B |
+| b46s1 | P,N | app CRUD sandbox | P/B |
+| b46s2 | P,N | flow approvazione e test negativo | P/B |
+| b46s3 | P,N | app spese con autorizzazioni | P/B |
+| b47s1 | P,A | agente con fonti sintetiche | P/B |
+| b47s2 | P,A | ambienti e policy accessi | P/B |
+| b47s3 | P,A | assistente e prova accesso negato | P/B |
+| b48s1 | X | ripasso blueprint vigente | P/B |
+| b48s2 | X | prove su debolezze e variante | P/B |
+| b48s3 | X | pilota reale sandbox e piano 90 giorni | P/B |
+| BL3-P01 | M,N | no-code: trigger e mapping | P/B |
+| BL3-P02 | M,N | no-code: routing e errori | P/B |
+| BL3-P03 | M,N | no-code: persistenza e idempotenza | P/B |
+| BL3-P04 | M,N | no-code: export e riproduzione | P/B |
+| BL3-P05 | A | qualità: dataset etichettato | P/B |
+| BL3-P06 | A | classificazione: precision recall e astensione | P/B |
+| BL3-P07 | A | qualità: holdout e bias | P/B |
+| BL3-P08 | C,N | integrazione: contratto dati e fallback | P/B |
+| BL3-P09 | C | change: RACI e adozione misurata | P/B |
+| BL3-P10 | C,N | pilota: disegno baseline e soglie | P/B |
+| BL3-P11 | N,A | pilota: esecuzione e log | P/B |
+| BL3-P12 | C | pilota: ROI TCO e sensibilità | P/B |
+| BL3-P13 | C | pilota: decisione e variante | P/B |
+| BL3-P14 | M | Make: scenario e mapping | P/B |
+| BL3-P15 | M | Make: router e filtri | P/B |
+| BL3-P16 | M | Make: iteratori e aggregazione | P/B |
+| BL3-P17 | M | Make: budget crediti e stop | P/B |
+| BL3-P18 | N | API: HTTP e schema | P/B |
+| BL3-P19 | N | webhook: autenticazione e replay | P/B |
+| BL3-P20 | N | affidabilità: retry backoff timeout | P/B |
+| BL3-P21 | N | concorrenza e idempotenza | P/B |
+| BL3-P22 | N | rollback e coda errori | P/B |
+| BL3-P23 | A | agente: strumenti allowlist | P/B |
+| BL3-P24 | A | agente: output strutturato | P/B |
+| BL3-P25 | A | agente: prompt injection e dati non fidati | P/B |
+| BL3-P26 | A | agente: eval holdout e regressioni | P/B |
+| BL3-P27 | A | agente: limiti costo e supervisione | P/B |
+| BL3-P28 | A | agente: arresto e ripristino | P/B |
+| BL3-P29 | P | Power Platform: ambienti e licenze | P/B |
+| BL3-P30 | P | Dataverse: schema e privilegi | P/B |
+| BL3-P31 | P | Power Apps: app e validazione | P/B |
+| BL3-P32 | P | Power Automate: approvazione | P/B |
+| BL3-P33 | P | Power Platform: export e test ruoli | P/B |
+| BL3-P34 | P,A | Copilot: fonti strumenti e valutazione | P/B |
+| BL3-P35 | P,A | governance: policy ambienti e audit | P/B |
+| BL3-P36 | X,N,A | capstone: esecuzione end-to-end | P/B |
+| BL3-P37 | X,C | capstone: difesa e piano 90 giorni | P/B |
+
+Parità candidata: no-code n8n locale, Make free entro quote, modello locale Ollama compatibile per tool calling reale, dati sintetici e strumenti fittizi sandbox; AI chat gratuita per supporto, non sostituisce esecuzione agente. Premium facoltativo Make paid/API/Power Platform/Copilot; nessun pagamento obbligatorio. Hardware, modelli, licenze, quote, API e tool calling effettivi, export, sicurezza, accesso tenant e disponibilità alternativa per chi ha solo iPhone da collaudare. n8n non comprova Dataverse/Power Apps/Copilot specifici; trial non prova deploy; competenze specifiche obbligatorie senza alternativa accessibile sono gate da risolvere o riprogettare con approvazione. Capstone: pilota reale sandbox su richiesta/acquisto sintetico, baseline e holdout separato, misure qualità/costi/tempi inclusa revisione, autorizzazioni distinte, test negativi injection/replay/duplicati, log minimizzati, escalation, rollback, ROI/TCO a tre scenari, piano 90 giorni e difesa su requisito nuovo. Rubrica candidata 0–3 min 2 ogni dimensione essenziale, zero violazioni bloccanti. Nessun runtime o autenticazione verificati. Mobile First studio, desktop laboratori. Nessun cambiamento app.
+
+## Consolidamento Fase 2E — mappatura preliminare completa (25/11/2026)
+Creator L1 42, L2 50, L3 94 =186; Business L1 54, L2 83, L3 97 =234; totale 420/420 (264 originali +156 proposte, +59,1%). Mappatura nominale completa, non approvazione didattica o parità testata. Conservare tutti i gate pregressi: Creator audio/video, hardware, quote, hosting/auth/backend, accessibilità, link granulari, licenze e inference/tool calling; Business L1 IBM gratuito non dimostrato, contabilità 404, workflow AI gratuito reale; L2 GA4 demo vs proprietà, SQL/statistica unità, DAX/OS, RLS/deploy/refresh, Copilot, hardware; L3 gate sopra. Trasversali: verificare link singole unità, prerequisiti, lingua, durata, accesso autenticato, quote, costi e licenze, credenziali vs esami; registrare test reali e parità, indipendenza, benchmark, carico reale. 108 quiz avanzati Business/324 feedback sospesi; preservare ID, indici, attività, progressi e migrazione. AI gratuita ammessa, premium facoltativo, niente acquisti obbligatori. Professional/Complete stesse competenze applicative, esonero solo preparazione dimostrata. 420 non durata definitiva dei percorsi. Fase 3 prossima: standard didattico, rubrica, diagnostica, criteri di equivalenza e gate con piano collaudo; Fase 4 prototipi e approvazione utente prima della Fase 5 applicativa; Fase 6 runtime/benchmark. Non dichiarare gate risolti. Regole permanenti 1 e 2: checkpoint e pulsante. Nessun merge, ZIP o pubblicazione.
