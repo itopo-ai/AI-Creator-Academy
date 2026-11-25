@@ -2887,9 +2887,9 @@
             "answer": 1,
             "why": "HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità.",
             "feedback": [
-              "Rivedi il principio. HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità.",
+              "footer identifica il piè di pagina, non il contenuto centrale del documento.",
               "Corretto. HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità.",
-              "Rivedi il principio. HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità."
+              "nav identifica una sezione di navigazione, per esempio un menu di collegamenti."
             ]
           },
           "masterclass": {
@@ -2974,9 +2974,9 @@
             "answer": 1,
             "why": "Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom.",
             "feedback": [
-              "Rivedi il principio. Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom.",
+              "Bloccare lo zoom impedisce di verificare la leggibilità per chi ingrandisce il contenuto.",
               "Corretto. Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom.",
-              "Rivedi il principio. Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom."
+              "Un monitor grande non rivela problemi di impaginazione su schermi stretti."
             ]
           },
           "masterclass": {
@@ -3061,8 +3061,8 @@
             "answer": 2,
             "why": "Un componente CSS riutilizza regole visive; separa struttura, varianti e stati.",
             "feedback": [
-              "Rivedi il principio. Un componente CSS riutilizza regole visive; separa struttura, varianti e stati.",
-              "Rivedi il principio. Un componente CSS riutilizza regole visive; separa struttura, varianti e stati.",
+              "Duplicare le regole rende più difficile aggiornare tutti i pulsanti in modo coerente.",
+              "Un ID HTML deve essere univoco nella pagina; per condividere uno stile usa una classe.",
               "Corretto. Un componente CSS riutilizza regole visive; separa struttura, varianti e stati."
             ]
           },
@@ -3148,9 +3148,9 @@
             "answer": 1,
             "why": "L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete.",
             "feedback": [
-              "Rivedi il principio. L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete.",
+              "Gli eventi del mouse da soli possono escludere chi naviga con la tastiera.",
               "Corretto. L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete.",
-              "Rivedi il principio. L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete."
+              "Nascondere il focus senza un indicatore alternativo rende difficile capire quale controllo è selezionato."
             ]
           },
           "masterclass": {
@@ -3235,8 +3235,8 @@
             "answer": 2,
             "why": "Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo.",
             "feedback": [
-              "Rivedi il principio. Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo.",
-              "Rivedi il principio. Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo.",
+              "Azioni concorrenti senza priorità rendono meno evidente il passo principale richiesto al visitatore.",
+              "Un modulo senza etichette rende difficile capire quali dati inserire e ostacola l'accessibilità.",
               "Corretto. Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo."
             ]
           },
@@ -3337,8 +3337,8 @@
             "why": "Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati.",
             "feedback": [
               "Corretto. Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati.",
-              "Rivedi il principio. Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati.",
-              "Rivedi il principio. Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati."
+              "23 è il risultato della concatenazione di due stringhe, non della somma numerica richiesta.",
+              "6 è il prodotto di 2 e 3, non la loro somma."
             ]
           },
           "masterclass": {
@@ -3424,8 +3424,8 @@
             "why": "Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input.",
             "feedback": [
               "Corretto. Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input.",
-              "Rivedi il principio. Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input.",
-              "Rivedi il principio. Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input."
+              "load segnala il caricamento di una risorsa, non la modifica del campo durante la digitazione.",
+              "scroll segnala lo scorrimento della pagina o di un elemento, non la modifica del valore."
             ]
           },
           "masterclass": {
@@ -3511,8 +3511,8 @@
             "why": "Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio.",
             "feedback": [
               "Corretto. Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio.",
-              "Rivedi il principio. Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio.",
-              "Rivedi il principio. Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio."
+              "Inviare un campo obbligatorio vuoto viola il requisito: blocca l'invio non valido e spiega come correggerlo.",
+              "Cancellare gli altri campi fa perdere dati già inseriti senza risolvere il problema del campo vuoto."
             ]
           },
           "masterclass": {
@@ -3597,9 +3597,9 @@
             "answer": 1,
             "why": "Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti.",
             "feedback": [
-              "Rivedi il principio. Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti.",
+              "Una variabile protetta lato server è una collocazione appropriata se il segreto non viene esposto al client.",
               "Corretto. Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti.",
-              "Rivedi il principio. Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti."
+              "Un gestore di segreti lato server è progettato per custodire credenziali e limitarne l'accesso."
             ]
           },
           "masterclass": {
@@ -3685,8 +3685,8 @@
             "why": "Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza.",
             "feedback": [
               "Corretto. Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza.",
-              "Rivedi il principio. Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza.",
-              "Rivedi il principio. Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza."
+              "Il colore del pulsante verifica l'aspetto, non la conservazione dei dati dopo il ricaricamento.",
+              "Aprire una pagina senza salvare dati non permette di verificare se un valore precedente viene recuperato."
             ]
           },
           "masterclass": {
@@ -3786,8 +3786,8 @@
             "why": "Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei.",
             "feedback": [
               "Corretto. Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei.",
-              "Rivedi il principio. Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei.",
-              "Rivedi il principio. Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei."
+              "Un README destinato al pubblico documenta il progetto e può essere incluso, purché non contenga segreti.",
+              "Un foglio CSS pubblico descrive gli stili e normalmente può essere versionato, purché non contenga informazioni riservate."
             ]
           },
           "masterclass": {
@@ -3872,9 +3872,9 @@
             "answer": 1,
             "why": "Un commit registra una modifica coerente con un messaggio descrittivo.",
             "feedback": [
-              "Rivedi il principio. Un commit registra una modifica coerente con un messaggio descrittivo.",
+              "Modifiche varie non indica quale comportamento sia cambiato, rendendo difficile consultare la cronologia.",
               "Corretto. Un commit registra una modifica coerente con un messaggio descrittivo.",
-              "Rivedi il principio. Un commit registra una modifica coerente con un messaggio descrittivo."
+              "Cose non comunica né l'oggetto né lo scopo della modifica."
             ]
           },
           "masterclass": {
@@ -3959,8 +3959,8 @@
             "answer": 2,
             "why": "Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare.",
             "feedback": [
-              "Rivedi il principio. Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare.",
-              "Rivedi il principio. Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare.",
+              "Modificare direttamente main non isola il lavoro e può introdurre modifiche non revisionate nel ramo principale.",
+              "Eliminare la cronologia fa perdere informazioni utili e non crea uno spazio isolato di sviluppo.",
               "Corretto. Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare."
             ]
           },
@@ -4046,8 +4046,8 @@
             "answer": 2,
             "why": "Una pull request permette revisione e confronto delle modifiche prima del merge.",
             "feedback": [
-              "Rivedi il principio. Una pull request permette revisione e confronto delle modifiche prima del merge.",
-              "Rivedi il principio. Una pull request permette revisione e confronto delle modifiche prima del merge.",
+              "Una pull request propone modifiche a un ramo; non cancella automaticamente il repository.",
+              "Una pull request rende consultabili le differenze proprio per consentirne la revisione.",
               "Corretto. Una pull request permette revisione e confronto delle modifiche prima del merge."
             ]
           },
@@ -4134,8 +4134,8 @@
             "why": "Una release identifica una versione distribuibile, con note, test e possibilità di ripristino.",
             "feedback": [
               "Corretto. Una release identifica una versione distribuibile, con note, test e possibilità di ripristino.",
-              "Rivedi il principio. Una release identifica una versione distribuibile, con note, test e possibilità di ripristino.",
-              "Rivedi il principio. Una release identifica una versione distribuibile, con note, test e possibilità di ripristino."
+              "Il nome del computer non identifica in modo affidabile la versione del software distribuito.",
+              "Un file senza versione rende difficile distinguere una release dalle precedenti."
             ]
           },
           "masterclass": {
@@ -4234,8 +4234,8 @@
             "answer": 2,
             "why": "Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali.",
             "feedback": [
-              "Rivedi il principio. Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali.",
-              "Rivedi il principio. Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali.",
+              "Lavorare subito sull'unica copia espone i file originali a errori di rinomina difficili da recuperare.",
+              "Eliminare il backup riduce le possibilità di recupero se lo script produce risultati inattesi.",
               "Corretto. Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali."
             ]
           },
@@ -4321,8 +4321,8 @@
             "answer": 2,
             "why": "I dati hanno tipi e struttura; controlla valori mancanti e conversioni.",
             "feedback": [
-              "Rivedi il principio. I dati hanno tipi e struttura; controlla valori mancanti e conversioni.",
-              "Rivedi il principio. I dati hanno tipi e struttura; controlla valori mancanti e conversioni.",
+              "Sommare stringhe può concatenare i valori o causare errori: converti e valida i dati numerici prima del calcolo.",
+              "Sostituire tutti i valori con zero altera anche i dati validi e produce un totale non attendibile.",
               "Corretto. I dati hanno tipi e struttura; controlla valori mancanti e conversioni."
             ]
           },
@@ -4409,8 +4409,8 @@
             "why": "Un test confronta risultato atteso ed effettivo; includi casi normali e limite.",
             "feedback": [
               "Corretto. Un test confronta risultato atteso ed effettivo; includi casi normali e limite.",
-              "Rivedi il principio. Un test confronta risultato atteso ed effettivo; includi casi normali e limite.",
-              "Rivedi il principio. Un test confronta risultato atteso ed effettivo; includi casi normali e limite."
+              "10 diviso 2 verifica un caso ordinario, ma non il comportamento quando il divisore è zero.",
+              "Il nome della funzione non verifica il suo comportamento con input problematici."
             ]
           },
           "masterclass": {
@@ -4496,8 +4496,8 @@
             "why": "Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo.",
             "feedback": [
               "Corretto. Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo.",
-              "Rivedi il principio. Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo.",
-              "Rivedi il principio. Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo."
+              "Dichiarare successo quando manca un file necessario nasconde il fallimento dell'operazione.",
+              "Ignorare sempre l'eccezione può lasciare il programma in uno stato incoerente e impedire la diagnosi."
             ]
           },
           "masterclass": {
@@ -4583,8 +4583,8 @@
             "why": "Una utility risolve un compito specifico con input, output e istruzioni ripetibili.",
             "feedback": [
               "Corretto. Una utility risolve un compito specifico con input, output e istruzioni ripetibili.",
-              "Rivedi il principio. Una utility risolve un compito specifico con input, output e istruzioni ripetibili.",
-              "Rivedi il principio. Una utility risolve un compito specifico con input, output e istruzioni ripetibili."
+              "Il nome dell'autore non spiega quali dati fornire, come avviare lo strumento o interpretarne il risultato.",
+              "Il colore del terminale non documenta il funzionamento né le condizioni di errore della utility."
             ]
           },
           "masterclass": {
@@ -4684,8 +4684,8 @@
             "why": "Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record.",
             "feedback": [
               "Corretto. Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record.",
-              "Rivedi il principio. Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record.",
-              "Rivedi il principio. Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record."
+              "Il colore di una tabella riguarda la presentazione; la chiave primaria identifica i record nei dati.",
+              "Rendere uguali i record contraddice lo scopo della chiave primaria, che deve distinguere ogni riga."
             ]
           },
           "masterclass": {
@@ -4770,9 +4770,9 @@
             "answer": 1,
             "why": "Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche.",
             "feedback": [
-              "Rivedi il principio. Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche.",
+              "UPDATE modifica i valori delle righe esistenti; per una semplice lettura usa SELECT.",
               "Corretto. Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche.",
-              "Rivedi il principio. Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche."
+              "DELETE elimina righe e quindi modifica i dati anziché limitarsi a leggerli."
             ]
           },
           "masterclass": {
@@ -4858,8 +4858,8 @@
             "why": "Il login verifica identità; non sostituisce il controllo dei permessi sui dati.",
             "feedback": [
               "Corretto. Il login verifica identità; non sostituisce il controllo dei permessi sui dati.",
-              "Rivedi il principio. Il login verifica identità; non sostituisce il controllo dei permessi sui dati.",
-              "Rivedi il principio. Il login verifica identità; non sostituisce il controllo dei permessi sui dati."
+              "L'autenticazione verifica l'identità, ma non concede automaticamente il permesso di leggere tutti i dati.",
+              "Conoscere il nome di una tabella non attribuisce alcun diritto di accesso ai suoi record."
             ]
           },
           "masterclass": {
@@ -4944,9 +4944,9 @@
             "answer": 1,
             "why": "RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti.",
             "feedback": [
-              "Rivedi il principio. RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti.",
+              "Nascondere righe nell'interfaccia non impedisce richieste dirette al database: verifica le regole lato dati.",
               "Corretto. RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti.",
-              "Rivedi il principio. RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti."
+              "Un amministratore può avere privilegi che aggirano le restrizioni; prova anche con utenti ordinari distinti."
             ]
           },
           "masterclass": {
@@ -5031,9 +5031,9 @@
             "answer": 1,
             "why": "Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori.",
             "feedback": [
-              "Rivedi il principio. Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori.",
+              "Mostrare credenziali espone segreti e non aiuta l'utente a correggere i dati inseriti.",
               "Corretto. Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori.",
-              "Rivedi il principio. Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori."
+              "Un messaggio di successo è fuorviante quando il database ha rifiutato il salvataggio."
             ]
           },
           "masterclass": {
@@ -5132,9 +5132,9 @@
             "answer": 1,
             "why": "HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato.",
             "feedback": [
-              "Rivedi il principio. HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato.",
+              "201 indica normalmente che una risorsa è stata creata con successo, non che sia assente.",
               "Corretto. HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato.",
-              "Rivedi il principio. HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato."
+              "200 indica normalmente una richiesta riuscita; una risorsa non trovata è segnalata da 404."
             ]
           },
           "masterclass": {
@@ -5219,9 +5219,9 @@
             "answer": 1,
             "why": "Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete.",
             "feedback": [
-              "Rivedi il principio. Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete.",
+              "Il nome della funzione non rivela l'esito HTTP: controlla lo stato della risposta ricevuta.",
               "Corretto. Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete.",
-              "Rivedi il principio. Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete."
+              "Fetch può risolversi anche con uno stato HTTP 500; ricevere una risposta non equivale a un successo."
             ]
           },
           "masterclass": {
@@ -5306,8 +5306,8 @@
             "answer": 2,
             "why": "Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade.",
             "feedback": [
-              "Rivedi il principio. Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade.",
-              "Rivedi il principio. Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade.",
+              "Una ricerca riuscita ma vuota non è un errore di rete: comunica che non ci sono corrispondenze.",
+              "Lasciare il caricamento attivo dopo la conclusione della ricerca fa credere che l'operazione sia ancora in corso.",
               "Corretto. Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade."
             ]
           },
@@ -5393,8 +5393,8 @@
             "answer": 2,
             "why": "L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server.",
             "feedback": [
-              "Rivedi il principio. L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server.",
-              "Rivedi il principio. L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server.",
+              "Il JavaScript inviato al browser è ispezionabile dagli utenti e non può custodire una chiave privata.",
+              "Il testo della pagina è accessibile al visitatore: non inserire credenziali nei contenuti pubblici.",
               "Corretto. L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server."
             ]
           },
@@ -5480,8 +5480,8 @@
             "answer": 2,
             "why": "Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore.",
             "feedback": [
-              "Rivedi il principio. Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore.",
-              "Rivedi il principio. Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore.",
+              "Aprire la pagina iniziale verifica solo l'avvio, non l'elaborazione dei dati o la gestione degli errori.",
+              "Controllare il logo verifica un elemento visivo, non il funzionamento delle interazioni dell'app.",
               "Corretto. Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore."
             ]
           },
