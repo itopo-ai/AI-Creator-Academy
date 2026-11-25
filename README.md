@@ -63,3 +63,7 @@ Revisione di dashboard, selettore corsi, navigazione, lezioni, quiz e menu Pro. 
 
 ### Fase 2C — recupero documentale
 Fase 2C blocco 1: audit documentale 30 sessioni, 60 quiz, 180 feedback distinti per alternativa; posizioni corrette 14/22/24, 30/30 coppie stessa posizione. Distrattori spesso ovvi; ordine UI non verificato. Schema attività identico 15+5+25+10+5 minuti; integrare prerequisiti, materiali, soluzioni riproducibili, rubriche e prova autonoma. Proposta +12 sessioni (+40%) livello 1, non definitiva. Screening teoria 7–12 avviato; audit completo secondo blocco ancora da fare. Risorse online e runtime non verificati. Nessuna modifica applicativa.
+
+
+### Fase 2C — blocco 2
+Fase 2C blocco 2: audit documentale Creator 7–12, 30 sessioni, 60 quiz e 180 feedback esaminati; chiavi coerenti, 60/60 feedback tripli distinti, posizioni 22/20/18, 30/30 coppie stessa posizione (60/60 cumulative). Schema attività normalizzato identico, 30 ore nominali non validate. Integrare tutti i temi preservando ID. Proposta +20 sessioni (+66,7%) livello 2, non definitiva. Audit documentale cumulativo 60/120 sessioni Creator. Prossimo passo 13–18. Risorse online, runtime e laboratori non collaudati.
