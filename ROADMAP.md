@@ -32,14 +32,14 @@ Linguaggio accessibile da zero, progressione graduale, domande concrete e contes
 | Quiz avanzati Creator 120 e Business 144 | Documentati revisionati | README sviluppo; audit integrale da eseguire |
 | Quiz base Creator settimane 1–6 | 30 modificati | Confronto JSON sviluppo/RC1 |
 | Quiz base Creator settimane 7–12 | 30 modificati | Confronto JSON sviluppo/RC1 |
-| Quiz base Creator settimane 13–18 | 0/30 modificati rispetto a RC1 | Prossimo blocco |
+| Quiz base Creator settimane 13–18 | 30/30 revisionati e riletti | Commit e69116fd4dbccad12928c6f05ad5253d6121e0fb |
 | Quiz base Creator settimane 19–24 | 0/30 modificati rispetto a RC1 | Successivo |
 | Quiz base Business | Avanzamento non verificato | Audit necessario |
 | Revisione qualitativa delle lezioni | Da completare | Screenshot |
 | Feedback individuali per risposte errate | Da completare | Screenshot; non assumere completati |
 | Risorse esterne | Incompleta | Ultimo dato storico 6/30 indirizzi, da riconfermare |
 
-Avanzamento quiz Creator base verificato: 60/120 (50%). Stima complessiva della revisione: 324/528 (61,4%), sommando 264 avanzati documentati e 60 base verificati; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
+Avanzamento quiz Creator base verificato: 90/120 (75%). Stima complessiva della revisione: 354/528 (67,0%), sommando 264 avanzati documentati e 90 base verificati; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
 
 ## Collaudo e criteri di rilascio
 Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS, dizionario e ricerca, calcolo avanzamento, validazione strutturale backup, compatibilità strutturale 6.5.1, allineamento versione/cache, correzioni preventive UI. Non equivalgono a test end-to-end.
@@ -54,7 +54,7 @@ Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS
 - [ ] Approvazione utente prima del rilascio.
 
 ## Prossimo intervento
-Creator settimane 13–18: AI Automation & Agents (13–15), AI Integration (16–18). Revisionare 30 quiz base, verificare unicità del testo, tre alternative, correttezza e indici invariati; preservare tutti gli altri campi. Obiettivo 90/120 base Creator. Poi settimane 19–24, audit e revisione Business, feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
+Creator settimane 19–24: revisionare i restanti 30 quiz base, preservando indici e altri campi. Obiettivo 120/120 base Creator. Poi audit e revisione Business, feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
 
 ## Registro cronologico
 - 25/11/2026: recuperata continuità della chat precedente tramite screenshot e confronto GitHub. Branch sviluppo risultava 27 commit avanti a main e divergente da RC1 (10 avanti, 1 indietro). Main osservato: cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 osservata: e4ee85918cadccd38499772827e663fef0c34fd5. Verificate modifiche knowledgeCheck per tutte le 60 sessioni Creator settimane 1–12, nessuna per 13–24 rispetto a RC1. Nessuna modifica applicativa in questa fase.
@@ -67,3 +67,6 @@ Fonti: screenshot della conversazione precedente forniti dall'utente; README e c
 
 ### Avviso preventivo di continuità (25/11/2026)
 L'utente richiede un avviso con tre messaggi di anticipo rispetto al limite della chat. Il contatore residuo non è disponibile: non promettere un anticipo esatto. Quando la conversazione appare lunga, avvisare preventivamente e proporre una nuova chat; aggiornare comunque il registro dopo ogni blocco e prima di ogni passaggio. Non affidarsi a un avviso automatico.
+
+### Aggiornamento 25/11/2026 — Creator settimane 13–18
+Commit applicativo: e69116fd4dbccad12928c6f05ad5253d6121e0fb. Revisionati 30 knowledgeCheck (5 per settimana): Automazioni, Agenti AI, Integrazioni MCP, API dei modelli, RAG e documenti, Valutazione e affidabilità. Feedback distinti per ogni alternativa nel nuovo blocco. Controlli eseguiti: 30 sessioni modificate, ID e indici corretti invariati per tutte le 120 sessioni, altri campi delle sessioni invariati, 90 testi di domanda distinti nelle prime 90, tre opzioni e tre feedback distinti per ciascuna delle 30 nuove domande. JSON riletto da GitHub e confrontato integralmente con il risultato atteso. Non eseguiti test browser, regressione funzionale o audit didattico indipendente. Nessun intervento su main, RC1, migrazione o pubblicazione. Prossimo blocco: settimane 19–24.
