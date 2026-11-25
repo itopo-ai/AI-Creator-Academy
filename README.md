@@ -124,3 +124,7 @@ Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback,
 
 ### Fase 2E — Creator L2
 2E blocco 2 Creator L2: matrice 50/50 (30 originali +20 proposte), fonti ufficiali Harvard CS50x/P, MDN, freeCodeCamp, GitHub Skills/Copilot/Pages, PY4E AI, PostgreSQL, Supabase e unittest. Percorso gratuito candidato locale + cloud Free; nessun collaudo. CS50 vieta AI esterne che suggeriscono risposte/codice nelle proprie valutazioni: separare esercizi originali Academy assistiti. Limiti cloud, auth, deploy backend, hardware, licenze e unità granulari aperti; gate L1 invariati. Prossimo L3.
+
+
+### Fase 2E — Creator L3
+2E blocco 3 Creator L3: matrice 94/94 (60 originali +34 segnaposti), cumulativo Creator 186/186 e Academy 186/420. Fonti ufficiali n8n, MCP, Ollama, Hugging Face, OpenAI/Claude, Sentence Transformers, OWASP, WCAG, Playwright, GitHub Actions, EDPB, Cloudflare e Render consultate; no collaudi. Evals OpenAI chiusura prevista 30/11/2026: usare harness indipendente; documentazione HF recente non include crediti Free. Cloudflare Workers AI e Render candidati concreti, non validati. Gate L1/L2 invariati; L3 inferenza, hosting, licenze e quote aperti. Prossimo Business L1.

@@ -825,3 +825,122 @@ Trasversali: https://cs50.harvard.edu/x/ (11 settimane gratuito OCW), https://cs
 | L2-P20 | capstone e difesa | R | clone pulito, demo e variante autonoma | P/B |
 
 L2-P01–20 solo segnaposti documentali. Anticipare Git e setup, prerequisiti logica/JSON L1, nessuna modifica di ordine applicativo. Rubrica 0–3 minimo 2 ogni dimensione essenziale, nessun blocco sicurezza/diritti; stesso brief, variante autonoma, log AI e tempi/costi, test automatizzati e manuali, clone pulito. Capstone candidato app gestione progetti creativi con dataset sintetico, UI responsive accessibile, CRUD, auth, RLS due utenti, API reale, migrazioni, README, test, release e rollback. Static Pages + backend locale non prova backend pubblicato: gate se richiesta pubblicazione reale, trovare hosting gratuito stabile senza carta/autocharge o approvare distinzione locale/remoto. Gate L2: accesso auth e email quote, hardware container, cloud pausa/backup/quote, deployment remoto, unità granulari freeCodeCamp/PY4E/MDN e licenze, assistenti AI quote, accessibilità e durata; nessuna prova reale. L1 gate generazione audio/video, hardware, quote, accessibilità, licenze, link invariati. Mobile First studio iPhone e laboratori desktop dichiarati; prototipo blu notte/ciano/verde/viola/oro e vetta invariato. Mappatura cumulativa 92/420 preliminari, non validazione. Prossimo L3 94 sessioni. Nessuna modifica applicativa.
+
+
+## Fase 2E — Creator L3 Advanced AI & Digital Products (25/11/2026)
+2E blocco 3 Creator L3: matrice 94/94 (60 originali +34 segnaposti), cumulativo Creator 186/186 e Academy 186/420. Fonti ufficiali n8n, MCP, Ollama, Hugging Face, OpenAI/Claude, Sentence Transformers, OWASP, WCAG, Playwright, GitHub Actions, EDPB, Cloudflare e Render consultate; no collaudi. Evals OpenAI chiusura prevista 30/11/2026: usare harness indipendente; documentazione HF recente non include crediti Free. Cloudflare Workers AI e Render candidati concreti, non validati. Gate L1/L2 invariati; L3 inferenza, hosting, licenze e quote aperti. Prossimo Business L1.
+Base 31a93ad480e940641e1cc6c4e773841d13d04fe3. V=fonte pubblica consultata, P=equivalenza candidata, B=dipendenza aperta, T=collaudo (0). Risorse principalmente EN, durata unità, lingua IT, account/carta, accessibilità, licenze singoli artefatti e prezzi Italia ND salvo indicati. Prerequisiti L1 JSON/logica e L2 Git/Python/JS/SQL/API/auth/test; nessun acquisto obbligatorio.
+
+| Codice | Fonti ufficiali consultate e contenuti | Condizioni, alternative e limiti |
+|---|---|---|
+| N | https://n8n.io/education/ Quickstart, Essentials, Integrations, In Practice; https://support.n8n.io/article/can-i-use-your-license-for-my-use-case | quattro corsi gratuiti, badge e attestati completamento; unità individuali, durata e accesso autenticato ND. Community locale gratuita Sustainable Use License, non OSI; non incorporare editor/automazione per clienti senza licenza adeguata, uso studente locale candidato; cloud premium opzionale, prezzo ND. |
+| A | https://huggingface.co/learn/agents-course/en/unit0/introduction ; https://platform.claude.com/docs/en/agents-and-tools/tool-use/overview ; https://docs.ollama.com/capabilities/tool-calling | corso HF gratuito, self-audit o certificazione, prerequisiti Python/LLM da verificare nelle unità; account HF. Agente locale con tool supportato vs API commerciale; tool schema, approvazione, limiti, nessuna azione esterna reale non autorizzata. |
+| M | https://modelcontextprotocol.io/docs/2026-07-28/develop/build-server ; https://github.com/modelcontextprotocol/python-sdk ; https://github.com/modelcontextprotocol/inspector ; https://github.com/modelcontextprotocol/modelcontextprotocol/blob/main/docs/docs/2026-07-28/tutorials/security/local-server-security.mdx | SDK e Inspector locale, guide Python/TS, versioni e licenze esatte da pin; Inspector prova protocollo non comportamento modello; stdio non sandbox, isolamento OS/container e scope minimo; client premium non necessario candidato. |
+| I | https://docs.ollama.com/api/introduction ; https://docs.ollama.com/capabilities/structured-outputs ; https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses ; https://platform.claude.com/docs/en/about-claude/pricing ; https://ollama.com/library/qwen2.5%3A1.5b | Ollama API locale senza chiave, modello Qwen2.5 1.5B Q4 986MB download Apache-2.0, 7B 4.7GB; non RAM minima né garanzia tool use/qualità. API commerciali opzionali; listino OpenAI URL ha reindirizzato a business pricing senza tariffa verificata, Claude USD per MTok, costo modello specifico da aggiornare. Non presumere quote API da abbonamento chat. |
+| R | https://docs.ollama.com/capabilities/embeddings ; https://sbert.net/examples/sentence_transformer/applications/semantic-search/README.html | embeddings e cosine search locale, indice piccolo anche senza DB dedicato; licenza modello embedding e supporto italiano da verificare; corpus sintetico originale; retrieval non sostituisce generazione reale. |
+| E | https://developers.openai.com/api/docs/guides/evaluation-best-practices ; https://developers.openai.com/api/docs/guides/evals | piattaforma Evals read-only dal 31/10 e chiusura prevista 30/11/2026; non dipendenza. Harness Python locale, dataset versionato, metriche deterministiche e rubrica umana, ripetizioni; judge commerciale opzionale; Datasets candidato non verificato. |
+| P | GitHub Skills già consultato L2; PRD, backlog, preventivo, ricerca utente e handover: materiali originali Academy da sviluppare | fonti specifiche product management, durata e benchmark professionale ancora da selezionare; no certificazione implicita. |
+| S | https://owasp.org/projects/asvs (5.0.0 stabile CC BY-SA 4.0) ; https://genai.owasp.org/glossary/prompt-injection/ ; https://www.edpb.europa.eu/sme/find-practical-info/practical-resources-for-smes/smedata_en | controlli web e AI, privacy by design; usare dati sintetici e sandbox autorizzata; EDPB materiali EN e app anche IT; nessuna attestazione legale/compliance. Top Ten completo e singoli controlli da mappare. |
+| T | https://playwright.dev/docs/intro ; https://www.w3.org/TR/wcag/ (2.2) ; https://docs.github.com/en/actions/tutorials/build-and-test-code/python ; https://docs.github.com/en/actions/concepts/billing-and-usage | Playwright E2E locale, CI GitHub runner standard pubblici o self-hosted gratuiti; privati quote compute/storage, conto e stop spesa da verificare; no segreti in repo pubblico. Emulazione non prova iPhone reale, test VoiceOver e tastiera manuali; WCAG non certificazione. |
+| D | https://developers.cloudflare.com/workers/platform/limits/ ; https://developers.cloudflare.com/workers-ai/platform/pricing/ ; https://render.com/docs/free | Workers Free 100k req/giorno, CPU 10ms, RAM 128MB; Workers AI 10k neurons/giorno reset UTC, oltre quota errore su Free, alcuni modelli richiedono piano pagato. Render Free servizio dinamico, sleep 15min, wake circa 1min, filesystem effimero; persistenza esterna necessaria. Iscrizione/carta, quote complete, regione, deploy e licenze ND. Workers non equivalente a server Python arbitrario. |
+
+HF cloud: https://huggingface.co/docs/inference-providers/pricing versione meno recente $0.10/mese Free vs https://huggingface.co/docs/inference-providers/main/pricing aggiornata nessun credito Free; assumere nessuna quota garantita, non baseline. Proposta percorso inferenza: Ollama locale CPU con modelli quantizzati su computer esistente, oppure Workers AI Free modello compatibile; misurare RAM peak, spazio, token/s, latenza p50/p95, qualità italiano, schema, tool, astensione e costi; profili candidati 8/16GB RAM, non minimi validati, no nuova GPU. Prima approvazione verificare account senza carta/autocharge, accesso Italia, quota reale, modello e licenza. Mock solo test guasti, non prova inferenza. Hosting candidato Render Python + DB esterno o Workers JS + storage/DB compatibile; test endpoint HTTPS, auth, isolamento, persistenza dopo restart, deploy/rollback, quota e recupero; non dichiarare gate L2 risolto. Non esporre endpoint Ollama locale senza autenticazione.
+
+| ID | Sessione | Risorsa | Laboratorio/evidenza e criterio comune | Stato |
+|---|---|---|---|---|
+| cr-w13s1 | Trigger | N | webhook reale e payload invalido | P/B |
+| cr-w13s2 | Trasformazioni | N | mapping JSON con campi mancanti | P/B |
+| cr-w13s3 | Condizioni | N | truth table AND/OR e rami | P/B |
+| cr-w13s4 | Retry | N | retry idempotente con log | P/B |
+| cr-w13s5 | Workflow | N | export/import workflow senza credenziali | P/B |
+| cr-w14s1 | Tool | A | tool schema e argomenti invalidi | P/B |
+| cr-w14s2 | Pianificazione | A | limite passi e arresto | P/B |
+| cr-w14s3 | Approvazione | A | approvazione esplicita e rifiuto | P/B |
+| cr-w14s4 | Valutazione | A | cinque casi avversi e log | P/B |
+| cr-w14s5 | Agente | A | agente reale con fallback e stop | P/B |
+| cr-w15s1 | Mappa client-server | M | client/server e discovery Inspector | P/B |
+| cr-w15s2 | Permessi | M | allowlist e scope minimo | P/B |
+| cr-w15s3 | Sandbox | M | isolamento filesystem e scrittura negata | P/B |
+| cr-w15s4 | Prompt injection | M | documento ostile e nessuna azione | P/B |
+| cr-w15s5 | Integrazione | M | revoca accesso e retest | P/B |
+| cr-w16s1 | Richiesta API | I | chiamata reale server-side | P/B |
+| cr-w16s2 | Output strutturato | I | schema e rifiuto/incomplete | P/B |
+| cr-w16s3 | Streaming | I | stream e cancellazione | P/B |
+| cr-w16s4 | Budget | I | token, limite e ledger | P/B |
+| cr-w16s5 | Assistente integrato | I | adapter due modelli e test | P/B |
+| cr-w17s1 | Corpus | R | corpus sintetico con provenienza | P/B |
+| cr-w17s2 | Chunking | R | due chunking e confronto | P/B |
+| cr-w17s3 | Ricerca | R | recall@k e baseline lessicale | P/B |
+| cr-w17s4 | Citazioni | R | citazioni verificabili e astensione | P/B |
+| cr-w17s5 | Assistente RAG | R | RAG reale con domande fuori corpus | P/B |
+| cr-w18s1 | Dataset di test | E | dataset holdout e attese | P/B |
+| cr-w18s2 | Metriche | E | accuratezza latenza costi | P/B |
+| cr-w18s3 | Regressioni | E | regressione due versioni | P/B |
+| cr-w18s4 | Fallback | E | timeout e risposta invalida | P/B |
+| cr-w18s5 | Report | E | report go/no-go con soglie | P/B |
+| cr-w19s1 | PRD | P | PRD con non-obiettivi | P |
+| cr-w19s2 | Backlog | P | backlog valore rischio dipendenze | P |
+| cr-w19s3 | Architettura | P | diagramma confini fiducia | P |
+| cr-w19s4 | Sprint | P | sprint stima vs consuntivo | P |
+| cr-w19s5 | Retrospettiva | P | retrospettiva con azioni misurabili | P |
+| cr-w20s1 | Threat model | S | threat model e mitigazioni | P |
+| cr-w20s2 | Segreti | S | segreto fittizio in history e revoca simulata | P |
+| cr-w20s3 | Autorizzazioni | S | due utenti CRUD allow/deny | P |
+| cr-w20s4 | Input | S | test XSS e SQL parametrizzato separati | P |
+| cr-w20s5 | Checklist | S | checklist ASVS e rischi residui | P |
+| cr-w21s1 | Test funzionali | T | cinque flussi E2E | P |
+| cr-w21s2 | Accessibilità | T | tastiera contrasto VoiceOver manuale | P |
+| cr-w21s3 | Prestazioni | T | misura caricamento ripetibile | P |
+| cr-w21s4 | Backup | T | backup e restore verificato | P |
+| cr-w21s5 | Release candidate | T | release candidate e rollback eseguito | P |
+| cr-w22s1 | Idea | P | confronto problemi con evidenze | P |
+| cr-w22s2 | Validazione | P | tre feedback e limiti campione | P |
+| cr-w22s3 | MVP | P | MVP collegato a bisogni | P |
+| cr-w22s4 | Prototipo | P | prototipo con test utente | P |
+| cr-w22s5 | Piano | P | milestone e acceptance | P |
+| cr-w23s1 | Interfaccia | D | UI responsive e casi errore | P/B |
+| cr-w23s2 | Dati | D | persistenza e vincoli CRUD | P/B |
+| cr-w23s3 | AI | D | AI reale con fallback | P/B |
+| cr-w23s4 | Test | D | suite test normali e limite | P/B |
+| cr-w23s5 | Beta | D | beta difetti e retest | P/B |
+| cr-w24s1 | Deploy | D | deploy remoto dinamico smoke | P/B |
+| cr-w24s2 | Verifica | D | mobile desktop privacy | P/B |
+| cr-w24s3 | Documentazione | D | README clone pulito | P/B |
+| cr-w24s4 | Portfolio | D | portfolio demo con limiti | P/B |
+| cr-w24s5 | Presentazione | D | difesa variante autonoma | P/B |
+| L3-P01 | Webhook e autenticazione | N | richiesta reale e firma/test negativo | P/B |
+| L3-P02 | Idempotenza e code | N | duplicati e retry limitato | P/B |
+| L3-P03 | Error workflow | N | alert e replay controllato | P/B |
+| L3-P04 | Tool schema e validazione | A | tool reale con argomenti errati | P/B |
+| L3-P05 | Agente vs workflow | A | confronto deterministico e agentico | P/B |
+| L3-P06 | Human in the loop | A | rifiuto, approvazione e audit | P/B |
+| L3-P07 | SDK server locale | M | resource/tool e test Inspector | P/B |
+| L3-P08 | Client e trasporti | M | stdio e HTTP con versione fissata | P/B |
+| L3-P09 | Isolamento e autorizzazione | M | accesso fuori directory negato | P/B |
+| L3-P10 | Inferenza locale | I | modello piccolo, RAM e latenza | P/B |
+| L3-P11 | Adapter API | I | contratto comune e test due provider | P/B |
+| L3-P12 | Budget e rate limit | I | contatore e stop prima quota | P/B |
+| L3-P13 | Embedding locale | R | dimensione, modello e similarità | P/B |
+| L3-P14 | Indice vettoriale | R | ricerca e aggiornamento corpus | P/B |
+| L3-P15 | Retrieval ibrido | R | baseline lessicale vs semantica | P/B |
+| L3-P16 | RAG grounding | R | citazioni e astensione holdout | P/B |
+| L3-P17 | Eval indipendente | E | gold set e grading riproducibile | P/B |
+| L3-P18 | Regressione e variabilità | E | ripetizioni e report | P/B |
+| L3-P19 | Brief cliente | P | requisiti e rischio | P |
+| L3-P20 | Preventivo e TCO | P | ipotesi costi e sensibilità | P |
+| L3-P21 | Consegna e change request | P | criteri e tracciabilità | P |
+| L3-P22 | Privacy by design | S | mappa dati minimizzazione retention | P |
+| L3-P23 | Supply chain | S | lockfile e inventario dipendenze | P |
+| L3-P24 | Segreti e incidenti | S | rotazione fittizia e prova recovery | P |
+| L3-P25 | Sicurezza AI | S | injection e tool policy | P |
+| L3-P26 | CI automatica | T | pipeline passa/fallisce e artifact | P |
+| L3-P27 | Migrazione e recovery | T | restore dati e rollback versione | P |
+| L3-P28 | Accessibilità e performance | T | test manuali e misure | P |
+| L3-P29 | Discovery capstone | P | interviste sintetiche dichiarate e ipotesi | P |
+| L3-P30 | Architettura capstone | P | decision record e budget | P |
+| L3-P31 | Build verticale | D | UI API DB modello reale | P/B |
+| L3-P32 | Hardening capstone | D | test isolamento e fault | P/B |
+| L3-P33 | Deploy e monitoraggio | D | endpoint remoto e rollback | P/B |
+| L3-P34 | Difesa e handover | D | clone pulito, variante e dossier | P/B |
+
+L3-P01–34 segnaposti non applicativi: +18 settimane 13–18, +16 settimane 19–24. Rubrica comune 0–3 minimo 2 ciascuna dimensione essenziale, nessun rischio bloccante; stesso brief, dataset sintetico holdout, variante autonoma, log AI/costi/tempi, versioni e licenze, test negativi e clone pulito. Capstone candidato assistente knowledge base per team creativo con RAG, citazioni/astensione, workflow e approvazione azioni, MCP sandbox, auth/isolamento, CI, deploy remoto, rollback e dossier. Proposta prova comparativa 30 casi holdout (10 normali, 10 limite, 10 avversi), soglie da approvare in fase 3; zero azioni esterne non autorizzate. Premium opzionale modelli commerciali, cloud gestito e scale, medesime evidenze essenziali. Nessun collaudo o credenziale ottenuta; badge/attestati n8n/HF distinti da certificazioni professionali, condizioni specifiche da verificare. Gate L1 audio/video gratuiti, hardware e quote e L2 auth/deploy/accessibilità/licenze/link preservati; L3 prove reali inferenza, tool calling, quota cloud, deploy e sicurezza, granularità fonti, accessibilità e carico aperti. Mobile First iPhone/Android futuro, laboratori desktop dichiarati, identità vetta blu notte/ciano/verde/viola/oro invariata. Prossimo 2E Business L1 54 sessioni con rami Professional/Complete. Nessuna modifica applicativa.
