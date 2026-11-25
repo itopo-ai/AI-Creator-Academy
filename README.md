@@ -128,3 +128,7 @@ Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback,
 
 ### Fase 2E — Creator L3
 2E blocco 3 Creator L3: matrice 94/94 (60 originali +34 segnaposti), cumulativo Creator 186/186 e Academy 186/420. Fonti ufficiali n8n, MCP, Ollama, Hugging Face, OpenAI/Claude, Sentence Transformers, OWASP, WCAG, Playwright, GitHub Actions, EDPB, Cloudflare e Render consultate; no collaudi. Evals OpenAI chiusura prevista 30/11/2026: usare harness indipendente; documentazione HF recente non include crediti Free. Cloudflare Workers AI e Render candidati concreti, non validati. Gate L1/L2 invariati; L3 inferenza, hosting, licenze e quote aperti. Prossimo Business L1.
+
+
+### Fase 2E — Business L1
+2E blocco 4: matrice preliminare 54/54 (36 originali +18 proposte), Business 54/234, Academy 240/420 (57,1%). Professional/Complete: 29 comuni e 7 miste originali; 6 prerequisiti nuovi da diagnosticare (3 teoria candidata esonero, 3 digitali), nessun esonero applicativo. AI gratuita ammessa, premium facoltativo secondo decisione utente vigente. Fonti ufficiali OpenAI Academy, Elements of AI, LibreOffice, OpenStax statistica, NIST, EDPB, n8n e IBM/Coursera consultate; accesso gratuito completo IBM non dimostrato, catalogo OpenAI originale non mostra corsi nel rendering, OpenStax contabilità 404. Nessun collaudo; quote, login, licenze, accessibilità, unità granulari e automazione AI gratuita reale aperti. Gate Creator invariati. Prossimo Business L2 83 sessioni. Nessuna modifica applicativa.
