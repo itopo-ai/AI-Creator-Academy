@@ -5085,18 +5085,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa caratterizza un pilota?",
+            "q": "Un reparto vuole provare un'automazione delle fatture. Quale perimetro è adatto a un pilota?",
             "options": [
-              "Estensione immediata a tutti.",
-              "Assenza di obiettivi.",
-              "Utenti, durata e impatto limitati."
+              "Tutti i reparti fin dal primo giorno.",
+              "Un gruppo limitato senza scadenza né obiettivi.",
+              "Un gruppo limitato, una durata definita e un impatto controllato."
             ],
             "answer": 2,
-            "why": "Un pilota limita utenti, durata e impatto per raccogliere evidenze.",
+            "why": "Un perimetro circoscritto permette di raccogliere evidenze limitando il rischio.",
             "feedback": [
-              "Rivedi il principio: Un pilota limita utenti, durata e impatto per raccogliere evidenze.",
-              "Rivedi il principio: Un pilota limita utenti, durata e impatto per raccogliere evidenze.",
-              "Corretto. Un pilota limita utenti, durata e impatto per raccogliere evidenze."
+              "L'estensione immediata amplifica eventuali problemi.",
+              "Senza durata e obiettivi non si sa quando valutare la prova.",
+              "Corretto. Un perimetro circoscritto permette di raccogliere evidenze limitando il rischio."
             ]
           },
           "masterclass": {
@@ -5179,18 +5179,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quando fissi i criteri di successo?",
+            "q": "Prima di sperimentare un flusso automatico, quando stabilisci il risparmio minimo atteso e il tempo di riferimento?",
             "options": [
-              "Solo se il pilota fallisce.",
-              "Prima della prova, insieme alla baseline.",
-              "Dopo aver visto i risultati."
+              "Dopo aver osservato il risultato migliore.",
+              "Prima dell'avvio, definendo criteri di successo e baseline.",
+              "Solo se emergono problemi durante la prova."
             ],
             "answer": 1,
-            "why": "Fissa criteri di successo e una baseline prima di avviare la prova.",
+            "why": "Criteri preventivi e baseline rendono il confronto verificabile.",
             "feedback": [
-              "Rivedi il principio: Fissa criteri di successo e una baseline prima di avviare la prova.",
-              "Corretto. Fissa criteri di successo e una baseline prima di avviare la prova.",
-              "Rivedi il principio: Fissa criteri di successo e una baseline prima di avviare la prova."
+              "Scegliere criteri dopo i risultati può distorcere la valutazione.",
+              "Corretto. Criteri preventivi e baseline rendono il confronto verificabile.",
+              "Anche un pilota apparentemente riuscito richiede un riferimento."
             ]
           },
           "masterclass": {
@@ -5260,18 +5260,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa documenti nel piano pilota?",
+            "q": "Quale piano permette di controllare un pilota di automazione degli acquisti?",
             "options": [
-              "Solo il nome del progetto.",
-              "Solo i benefici sperati.",
-              "Campione, costi, incidenti e soglie."
+              "Calendario e nome del software senza soglie.",
+              "Benefici attesi e numero di licenze senza registro degli incidenti.",
+              "Campione, costi, registro degli incidenti e soglie decisionali."
             ],
             "answer": 2,
-            "why": "Prepara un piano pilota con campione, costi, incidenti e soglie.",
+            "why": "Il piano rende verificabili risorse, rischi e risultati.",
             "feedback": [
-              "Rivedi il principio: Prepara un piano pilota con campione, costi, incidenti e soglie.",
-              "Rivedi il principio: Prepara un piano pilota con campione, costi, incidenti e soglie.",
-              "Corretto. Prepara un piano pilota con campione, costi, incidenti e soglie."
+              "Calendario e software non definiscono criteri decisionali.",
+              "Senza incidenti registrati si perde evidenza dei problemi.",
+              "Corretto. Il piano rende verificabili risorse, rischi e risultati."
             ]
           },
           "masterclass": {
@@ -5359,18 +5359,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come valuti un pilota?",
+            "q": "Il pilota prometteva un risparmio del 20% e ha ottenuto il 12%. Come valuti il risultato?",
             "options": [
-              "Modifichi gli obiettivi a posteriori.",
-              "Confronti risultati e obiettivi iniziali.",
-              "Conti solo le riunioni svolte."
+              "Abbassi retroattivamente l'obiettivo al 10%.",
+              "Confronti il 12% con l'obiettivo iniziale e analizzi lo scostamento.",
+              "Consideri riuscita la prova perché si sono svolte tutte le riunioni."
             ],
             "answer": 1,
-            "why": "La valutazione del pilota confronta risultati e obiettivi iniziali.",
+            "why": "Il confronto con l'obiettivo iniziale rende visibile lo scostamento.",
             "feedback": [
-              "Rivedi il principio: La valutazione del pilota confronta risultati e obiettivi iniziali.",
-              "Corretto. La valutazione del pilota confronta risultati e obiettivi iniziali.",
-              "Rivedi il principio: La valutazione del pilota confronta risultati e obiettivi iniziali."
+              "Cambiare la soglia dopo la prova altera il criterio di successo.",
+              "Corretto. Il confronto con l'obiettivo iniziale rende visibile lo scostamento.",
+              "Le riunioni misurano attività, non risparmio."
             ]
           },
           "masterclass": {
@@ -5453,18 +5453,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Gli errori calano da 10 a 8 e gli ordini da 100 a 40: cosa accade al tasso?",
+            "q": "Prima del pilota si registravano 10 ordini errati su 100; dopo, 8 su 40. Come cambia il tasso di ordini errati?",
             "options": [
               "Sale dal 10% al 20%.",
               "Scende dal 10% all'8%.",
-              "Resta al 10%."
+              "Scende del 20% in termini relativi."
             ],
             "answer": 0,
-            "why": "Un calo del numero di errori non implica un miglioramento se cala il volume.",
+            "why": "10/100 vale 10% e 8/40 vale 20%: il tasso raddoppia.",
             "feedback": [
-              "Corretto. Un calo del numero di errori non implica un miglioramento se cala il volume.",
-              "Rivedi il principio: Un calo del numero di errori non implica un miglioramento se cala il volume.",
-              "Rivedi il principio: Un calo del numero di errori non implica un miglioramento se cala il volume."
+              "Corretto. 10/100 vale 10% e 8/40 vale 20%: il tasso raddoppia.",
+              "L'8% usa erroneamente il denominatore iniziale.",
+              "Il numero assoluto cala del 20%, ma il tasso aumenta."
             ]
           },
           "masterclass": {
@@ -5534,18 +5534,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come decidi se estendere il pilota?",
+            "q": "Un pilota riduce i tempi ma supera la soglia massima di errori concordata. Quale decisione è coerente con i criteri iniziali?",
             "options": [
-              "Estendi sempre dopo il primo test.",
-              "Calcoli tassi per ordine e motivi la decisione.",
-              "Consideri solo il numero assoluto di errori."
+              "Estenderlo perché il tempo medio è diminuito.",
+              "Correggere il processo e ripetere la verifica prima di estenderlo.",
+              "Estenderlo se il numero assoluto di errori è inferiore, ignorando il volume."
             ],
             "answer": 1,
-            "why": "Calcola tassi per ordine e motiva la decisione di estendere o correggere.",
+            "why": "L'estensione richiede il rispetto delle soglie di qualità e beneficio.",
             "feedback": [
-              "Rivedi il principio: Calcola tassi per ordine e motiva la decisione di estendere o correggere.",
-              "Corretto. Calcola tassi per ordine e motiva la decisione di estendere o correggere.",
-              "Rivedi il principio: Calcola tassi per ordine e motiva la decisione di estendere o correggere."
+              "Il risparmio non compensa automaticamente il mancato rispetto della qualità.",
+              "Corretto. L'estensione richiede il rispetto delle soglie di qualità e beneficio.",
+              "Il conteggio assoluto non tiene conto del volume elaborato."
             ]
           },
           "masterclass": {
@@ -5633,18 +5633,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come GA4 rappresenta le interazioni?",
+            "q": "Un visitatore visualizza una scheda prodotto e aggiunge un articolo al carrello. Come rappresenta GA4 queste interazioni?",
             "options": [
-              "Solo tramite utenti unici.",
-              "Tramite eventi.",
-              "Solo tramite sessioni."
+              "Come due utenti necessariamente distinti.",
+              "Come eventi distinti.",
+              "Come due sessioni necessariamente distinte."
             ],
             "answer": 1,
-            "why": "GA4 misura interazioni tramite eventi; utenti e sessioni non sono sinonimi.",
+            "why": "GA4 rappresenta le interazioni tramite eventi.",
             "feedback": [
-              "Rivedi il principio: GA4 misura interazioni tramite eventi; utenti e sessioni non sono sinonimi.",
-              "Corretto. GA4 misura interazioni tramite eventi; utenti e sessioni non sono sinonimi.",
-              "Rivedi il principio: GA4 misura interazioni tramite eventi; utenti e sessioni non sono sinonimi."
+              "Uno stesso utente può generare più eventi.",
+              "Corretto. GA4 rappresenta le interazioni tramite eventi.",
+              "Più eventi possono appartenere alla stessa sessione."
             ]
           },
           "masterclass": {
@@ -5727,18 +5727,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "40 acquisti su 1000 visite: quale rapporto?",
+            "q": "Un negozio registra 40 acquisti e 1.000 sessioni. Qual è il rapporto acquisti per sessione espresso in percentuale?",
             "options": [
               "40%.",
               "4%.",
               "0,4%."
             ],
             "answer": 1,
-            "why": "Quaranta acquisti su mille visite danno un rapporto del 4%, con denominatore dichiarato.",
+            "why": "40 diviso 1.000 per 100 dà il 4%; è un rapporto di eventi per sessione, non necessariamente il tasso di sessioni con acquisto.",
             "feedback": [
-              "Rivedi il principio: Quaranta acquisti su mille visite danno un rapporto del 4%, con denominatore dichiarato.",
-              "Corretto. Quaranta acquisti su mille visite danno un rapporto del 4%, con denominatore dichiarato.",
-              "Rivedi il principio: Quaranta acquisti su mille visite danno un rapporto del 4%, con denominatore dichiarato."
+              "Il 40% corrisponderebbe a 400 acquisti su 1.000.",
+              "Corretto. 40 diviso 1.000 per 100 dà il 4%; è un rapporto di eventi per sessione, non necessariamente il tasso di sessioni con acquisto.",
+              "Lo 0,4% corrisponderebbe a 4 acquisti su 1.000."
             ]
           },
           "masterclass": {
@@ -5808,18 +5808,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come prepari una misurazione delle conversioni?",
+            "q": "Vuoi misurare la quota di sessioni in cui avviene almeno un acquisto. Come imposti la misura?",
             "options": [
-              "Definisci eventi e denominatore su dati simulati.",
-              "Conti tutti gli eventi come acquisti.",
-              "Ometti il denominatore."
+              "Definisci l'evento acquisto e dividi le sessioni con almeno un acquisto per tutte le sessioni.",
+              "Dividi tutti gli eventi del sito per le sessioni.",
+              "Conti gli acquisti senza indicare il numero di sessioni."
             ],
             "answer": 0,
-            "why": "Definisci tre eventi e calcola un rapporto di conversione su dati simulati.",
+            "why": "Numeratore e denominatore devono rappresentare la misura dichiarata.",
             "feedback": [
-              "Corretto. Definisci tre eventi e calcola un rapporto di conversione su dati simulati.",
-              "Rivedi il principio: Definisci tre eventi e calcola un rapporto di conversione su dati simulati.",
-              "Rivedi il principio: Definisci tre eventi e calcola un rapporto di conversione su dati simulati."
+              "Corretto. Numeratore e denominatore devono rappresentare la misura dichiarata.",
+              "Gli eventi generici non identificano le sessioni con acquisto.",
+              "Un conteggio senza denominatore non è un tasso."
             ]
           },
           "masterclass": {
@@ -5907,18 +5907,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa servono i parametri di un evento?",
+            "q": "In GA4 registri un evento di visualizzazione prodotto. A cosa serve un parametro come la categoria del prodotto?",
             "options": [
-              "A sostituire ogni evento.",
-              "A identificare sempre la persona.",
-              "A precisare il contesto dell'interazione."
+              "A sostituire l'evento di visualizzazione.",
+              "A identificare necessariamente la persona che visita il sito.",
+              "A descrivere il contesto dell'interazione registrata."
             ],
             "answer": 2,
-            "why": "Un evento descrive un'interazione e i parametri ne precisano il contesto.",
+            "why": "I parametri aggiungono informazioni contestuali agli eventi.",
             "feedback": [
-              "Rivedi il principio: Un evento descrive un'interazione e i parametri ne precisano il contesto.",
-              "Rivedi il principio: Un evento descrive un'interazione e i parametri ne precisano il contesto.",
-              "Corretto. Un evento descrive un'interazione e i parametri ne precisano il contesto."
+              "La categoria non sostituisce la registrazione dell'interazione.",
+              "La categoria descrive il prodotto, non necessariamente l'identità dell'utente.",
+              "Corretto. I parametri aggiungono informazioni contestuali agli eventi."
             ]
           },
           "masterclass": {
@@ -6001,18 +6001,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali dati raccogli?",
+            "q": "Un modulo di contatto raccoglie email e telefono. Quali informazioni invii a GA4 per misurare gli invii?",
             "options": [
-              "Dati personali senza verifiche.",
-              "Solo quelli necessari e consentiti.",
-              "Tutti i dati disponibili."
+              "Email e telefono insieme all'evento per riconoscere ogni contatto.",
+              "Solo i dati necessari e consentiti, senza email o telefono, verificando le condizioni applicabili.",
+              "Tutti i campi del modulo, anche quelli estranei alla misurazione."
             ],
             "answer": 1,
-            "why": "Evita dati personali non necessari e verifica le condizioni applicabili alla raccolta.",
+            "why": "La raccolta deve rispettare finalità, minimizzazione e regole applicabili, evitando dati identificativi personali in GA4.",
             "feedback": [
-              "Rivedi il principio: Evita dati personali non necessari e verifica le condizioni applicabili alla raccolta.",
-              "Corretto. Evita dati personali non necessari e verifica le condizioni applicabili alla raccolta.",
-              "Rivedi il principio: Evita dati personali non necessari e verifica le condizioni applicabili alla raccolta."
+              "Email e telefono sono identificatori personali da non inviare a GA4.",
+              "Corretto. La raccolta deve rispettare finalità, minimizzazione e regole applicabili, evitando dati identificativi personali in GA4.",
+              "I campi estranei alla finalità aumentano inutilmente la raccolta."
             ]
           },
           "masterclass": {
@@ -6082,18 +6082,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa contiene un piano eventi?",
+            "q": "Prima di configurare gli eventi di un sito e-commerce, cosa documenti nel piano di misurazione?",
             "options": [
-              "Solo nomi degli eventi.",
-              "Solo schermate del report.",
-              "Nomi, finalità, parametri e test."
+              "Solo i nomi degli eventi da creare.",
+              "Solo le schermate dei report desiderati.",
+              "Nomi degli eventi, finalità, parametri e modalità di test."
             ],
             "answer": 2,
-            "why": "Prepara un piano eventi con nomi, finalità, parametri e test.",
+            "why": "Il piano collega ogni evento a uno scopo e a una verifica.",
             "feedback": [
-              "Rivedi il principio: Prepara un piano eventi con nomi, finalità, parametri e test.",
-              "Rivedi il principio: Prepara un piano eventi con nomi, finalità, parametri e test.",
-              "Corretto. Prepara un piano eventi con nomi, finalità, parametri e test."
+              "I nomi non definiscono il contesto né il collaudo.",
+              "Le schermate non spiegano come raccogliere e verificare i dati.",
+              "Corretto. Il piano collega ogni evento a uno scopo e a una verifica."
             ]
           },
           "masterclass": {
@@ -6181,18 +6181,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come confronti i report di marketing?",
+            "q": "Vuoi confrontare le prestazioni di ricerca organica e campagne a pagamento. Come imposti i report?",
             "options": [
-              "Per periodi casuali.",
-              "Solo per colore del grafico.",
-              "Per periodo e canale coerenti."
+              "Confronti il mese migliore di un canale con una settimana casuale dell'altro.",
+              "Confronti metriche diverse per ciascun canale senza dichiararlo.",
+              "Usi periodi coerenti e definizioni comparabili delle metriche per canale."
             ],
             "answer": 2,
-            "why": "I report confrontano metriche per periodo e canale.",
+            "why": "Periodi e metriche coerenti riducono distorsioni nel confronto.",
             "feedback": [
-              "Rivedi il principio: I report confrontano metriche per periodo e canale.",
-              "Rivedi il principio: I report confrontano metriche per periodo e canale.",
-              "Corretto. I report confrontano metriche per periodo e canale."
+              "Intervalli diversi possono alterare i risultati.",
+              "Metriche diverse non consentono un confronto diretto.",
+              "Corretto. Periodi e metriche coerenti riducono distorsioni nel confronto."
             ]
           },
           "masterclass": {
@@ -6275,18 +6275,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come calcoli il CAC?",
+            "q": "Una campagna ha costi di acquisizione pari a 500 euro e 25 nuovi clienti attribuiti. Qual è il CAC nel perimetro considerato?",
             "options": [
-              "Costi di acquisizione divisi per nuovi clienti attribuiti.",
-              "Ricavi divisi per visite.",
-              "Costi divisi per tutti gli eventi."
+              "20 euro per cliente.",
+              "12.500 euro per cliente.",
+              "0,05 euro per cliente."
             ],
             "answer": 0,
-            "why": "Il CAC divide i costi di acquisizione per i nuovi clienti attribuiti, con perimetro esplicito.",
+            "why": "Il CAC è 500 diviso 25, cioè 20 euro per nuovo cliente.",
             "feedback": [
-              "Corretto. Il CAC divide i costi di acquisizione per i nuovi clienti attribuiti, con perimetro esplicito.",
-              "Rivedi il principio: Il CAC divide i costi di acquisizione per i nuovi clienti attribuiti, con perimetro esplicito.",
-              "Rivedi il principio: Il CAC divide i costi di acquisizione per i nuovi clienti attribuiti, con perimetro esplicito."
+              "Corretto. Il CAC è 500 diviso 25, cioè 20 euro per nuovo cliente.",
+              "Moltiplicare costo e clienti non calcola un costo unitario.",
+              "25 diviso 500 misura clienti per euro, non euro per cliente."
             ]
           },
           "masterclass": {
@@ -6356,18 +6356,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come confronti due canali?",
+            "q": "Due canali generano nuovi clienti con margini differenti. Quali dati confronti prima di spostare il budget?",
             "options": [
-              "Confronti soltanto il budget.",
-              "Valuti costi, clienti e margine.",
-              "Scegli quello con più visite a prescindere dai costi."
+              "Soltanto la spesa pubblicitaria complessiva.",
+              "Costi di acquisizione, nuovi clienti attribuiti e margine.",
+              "Soltanto il numero di visite generate."
             ],
             "answer": 1,
-            "why": "Confronta due canali con costi, clienti e margine usando dati fittizi.",
+            "why": "Costi, clienti e margine aiutano a valutare il valore economico.",
             "feedback": [
-              "Rivedi il principio: Confronta due canali con costi, clienti e margine usando dati fittizi.",
-              "Corretto. Confronta due canali con costi, clienti e margine usando dati fittizi.",
-              "Rivedi il principio: Confronta due canali con costi, clienti e margine usando dati fittizi."
+              "La spesa non mostra quanti clienti o quale margine si ottengono.",
+              "Corretto. Costi, clienti e margine aiutano a valutare il valore economico.",
+              "Le visite non dimostrano redditività."
             ]
           },
           "masterclass": {
@@ -6455,18 +6455,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa indica l'attribuzione?",
+            "q": "Un report attribuisce una vendita a una campagna email. Cosa puoi concludere dalla sola attribuzione?",
             "options": [
-              "Credito assegnato alle interazioni.",
-              "Prova definitiva di causalità.",
-              "Costo totale della campagna."
+              "Che il modello di attribuzione ha assegnato credito alla campagna.",
+              "Che senza l'email la vendita non sarebbe certamente avvenuta.",
+              "Che il costo totale della campagna coincide con il valore della vendita."
             ],
             "answer": 0,
-            "why": "L'attribuzione assegna credito a interazioni, non prova da sola causalità.",
+            "why": "L'attribuzione assegna credito secondo un modello, senza dimostrare da sola causalità.",
             "feedback": [
-              "Corretto. L'attribuzione assegna credito a interazioni, non prova da sola causalità.",
-              "Rivedi il principio: L'attribuzione assegna credito a interazioni, non prova da sola causalità.",
-              "Rivedi il principio: L'attribuzione assegna credito a interazioni, non prova da sola causalità."
+              "Corretto. L'attribuzione assegna credito secondo un modello, senza dimostrare da sola causalità.",
+              "Il report non mostra cosa sarebbe successo senza la campagna.",
+              "Il credito attribuito non equivale al costo della campagna."
             ]
           },
           "masterclass": {
@@ -6549,18 +6549,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come isoli meglio l'effetto di una campagna?",
+            "q": "Vuoi stimare l'effetto incrementale di una campagna promozionale. Quale disegno è più informativo?",
             "options": [
-              "Confrontando solo il giorno migliore.",
-              "Osservando un unico gruppo senza confronto.",
-              "Con un esperimento controllato."
+              "Il confronto con il giorno di vendite più alto dell'anno.",
+              "L'osservazione del solo gruppo esposto alla campagna.",
+              "Un esperimento controllato con gruppi comparabili, assegnati casualmente quando possibile."
             ],
             "answer": 2,
-            "why": "Un esperimento controllato aiuta a isolare l'effetto di una campagna.",
+            "why": "Un gruppo di confronto aiuta a isolare l'effetto della campagna.",
             "feedback": [
-              "Rivedi il principio: Un esperimento controllato aiuta a isolare l'effetto di una campagna.",
-              "Rivedi il principio: Un esperimento controllato aiuta a isolare l'effetto di una campagna.",
-              "Corretto. Un esperimento controllato aiuta a isolare l'effetto di una campagna."
+              "Un giorno eccezionale può dipendere da altri fattori.",
+              "Senza confronto manca un riferimento per stimare l'effetto incrementale.",
+              "Corretto. Un gruppo di confronto aiuta a isolare l'effetto della campagna."
             ]
           },
           "masterclass": {
@@ -6630,18 +6630,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa documenti in un confronto sperimentale?",
+            "q": "Nel report di un esperimento di marketing, quali informazioni aiutano a interpretare il risultato?",
             "options": [
-              "Gruppi e possibili fattori confondenti.",
-              "Solo il risultato desiderato.",
-              "Solo il nome della campagna."
+              "Definizione dei gruppi e possibili fattori confondenti, come promozioni concomitanti.",
+              "Soltanto il risultato che si sperava di ottenere.",
+              "Soltanto il nome della campagna e il budget previsto."
             ],
             "answer": 0,
-            "why": "Proponi un confronto tra gruppi e indica fattori confondenti.",
+            "why": "Gruppi e fattori confondenti rendono interpretabile il confronto.",
             "feedback": [
-              "Corretto. Proponi un confronto tra gruppi e indica fattori confondenti.",
-              "Rivedi il principio: Proponi un confronto tra gruppi e indica fattori confondenti.",
-              "Rivedi il principio: Proponi un confronto tra gruppi e indica fattori confondenti."
+              "Corretto. Gruppi e fattori confondenti rendono interpretabile il confronto.",
+              "Un risultato desiderato non è un'evidenza osservata.",
+              "Nome e budget non descrivono le condizioni sperimentali."
             ]
           },
           "masterclass": {
