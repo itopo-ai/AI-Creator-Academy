@@ -684,3 +684,68 @@ Matrice P (fonti V; nessuna prova T):
 | +12 proposte | 3 digitale/logica/dati, 2 AI/eval, 1 privacy/licenze, 1 Figma, 1 immagini, 1 audio, 1 video, 2 capstone | risorse sopra + moduli interni originali | file strutturati, test AI, registro diritti, prototipo, edit audio/video, campagna e difesa su requisito nuovo; link specifici digitale/JSON/audio/vettori ancora da verificare |
 
 Rubrica proposta 0–3, minimo 2 per ogni dimensione essenziale (qualità, autonomia, riproducibilità, comunicazione, sicurezza); no blocchi privacy/diritti, stesso brief e variante nuova, valutazione indipendente dal tool, tempo/costi registrati, prova su account free pulito e premium separati. Generazione video/audio AI gratuita a quota variabile: non dimostrata; montaggio tradizionale non prova generazione AI. Se essenziale, trovare pratica AI reale gratuita prima approvazione, altrimenti distinguere estensione opzionale con approvazione. GIMP non equivale a Photoshop specifico; Penpot non equivale a Figma specifico. Accessibilità: studio iPhone, laboratorio desktop dichiarato; test VoiceOver, tastiera, zoom, caption, trascrizioni, safe area, link esterni e rientro; identità blu notte/ciano/verde/viola/oro e vetta preservate. Nessuna prova runtime, login, acquisto, esame, accessibilità effettiva o equivalenza realizzata. Prossimo completare link individuali, alfabetizzazione digitale, audio/vettori, hardware minimo, termini asset, quote, prezzi italiani opzionali e alternative reali prima di L2. Nessun cambio a main/RC1 o applicazione.
+
+
+## Fase 2E — Creator L1 blocco 1B (25/11/2026)
+2E blocco 1B Creator L1: matrice individuale 42/42 (30 ID originali +12 segnaposti proposti, non ID applicativi). Verifica pubblica aggiuntiva Anthropic AI Fluency, CS50 Scratch, MDN/JSON Schema, Audacity, modelli FLUX e Wan, prezzi Adobe Italia, accessibilità W3C. Nessun collaudo; lacune bloccanti accesso gratuito reale generazione video/audio, hardware e quote; link LearnFree reindirizzati, Inkscape 403, unità Figma/Anthropic non tutte aperte, licenze e certificazioni da completare. Non dichiarare L1 validato; proseguire inventario L2 mantenendo gate L1 prima approvazione.
+Base 13bf5991e4775ffd74d0d852de8fd5f653eea43f. V=fonte pubblica verificata, P=equivalenza candidata, B=blocco aperto, T=collaudo (0). Fonti e strumenti gratuiti/premium, metadati non accertati ND: non presumere lingua italiana, carta non richiesta, account disponibile, licenza asset, accessibilità o durata.
+
+| Codice | Risorse consultate e condizioni | Alternativa/limiti |
+|---|---|---|
+| A | https://academy.claude.com/courses/ai-fluency-framework-foundations 14 lezioni, 4h, quiz, badge; EN, sign-in per progressi. Precedente Skilljar gratuito con attestato; rilascio attuale da provare. https://www-cdn.anthropic.com/334975cdec18f744b4fa511dc8518bd8d119d29d.pdf CC BY-NC-SA 4.0 | AI gratuita scelta, premium opzionale; quote e account ND; linkare framework, non incorporare materiale NC senza permesso. Integra OpenAI e Claude prompting del blocco 1; selezionare 4D, capacità, prompting, eval e responsabilità senza duplicare. |
+| D | https://www.learnfree.org/series/computer-basics e https://www.learnfree.org/series/windows-basics: vecchie unità GCFGlobal reindirizzano a indici, non unità validate | Lezioni interne originali IT su file/OS/backup; durata da stimare; no acquisto. |
+| S | https://cs50.harvard.edu/scratch/weeks/4/ e https://cs50.harvard.edu/scratch/weeks/5/ Values/Conditions, EN, OCW gratis; corso 9 settimane, account edX per submission | Selezione unità, non intero corso; certificato verificato edX separato, costo ND; nessuna credenziale per sole due unità. |
+| J | https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/JSON e https://json-schema.org/learn/getting-started-step-by-step, EN, pubblici, durata ND | Prerequisiti tipi/oggetti e logica; validatore locale da scegliere/testare, nessun esame. |
+| F | https://help.figma.com/hc/en-us/sections/30880632542743-Figma-Design-for-beginners 180 min EN, indice 33 capitoli, cap 3 testo/frame, 4 constraints, 5 auto layout, 7 vettori, 9 prototipo | Starter 3 file condivisi, draft illimitate, 30gg storico, no AI immagini; Penpot candidato; link singole lezioni non tutti aperti. |
+| I | https://inkscape.org/learn/tutorials/ risposta 403, non verificato; tutorial Basic/Shapes/Advanced integrati nel software candidati | Inkscape GPL candidato, Illustrator premium; installazione e OS da provare, nessuna credenziale accertata. |
+| W | https://www.w3.org/WAI/test-evaluate/preliminary/ EN, controlli preliminari; WCAG IT e CC del blocco 1 | Test tastiera, contrasto, zoom, sottotitoli e VoiceOver, non certificazione WCAG; licenze asset singole. |
+| G | https://huggingface.co/black-forest-labs/FLUX.1-schnell model card Apache-2.0, EN, generazione immagini locale; https://www.adobe.com/it/products/firefly/plans.html Free limitato, Standard EUR11,26/2000 crediti, Pro EUR22,55/4000, Pro Plus EUR56,38/10000, IVA inclusa prezzi standard al 25/11/2026 | GIMP e AI free/locale vs Firefly premium; GPU/RAM, quote, carta e condizioni contrattuali ND; https://www.adobe.com/legal/licenses-terms/adobe-gen-ai-user-guidelines.html consultato, verificare modello/asset e diritti, non garantire copyright. |
+| U | https://support.audacityteam.org/basics/recording-your-voice-and-microphone e https://support.audacityteam.org/basics/recording-your-voice-and-microphone/setting-recording-levels-and-playback-levels EN; https://www.audacityteam.org/download/ Win/macOS/Linux | Audacity per editing, non generazione; https://github.com/OHF-Voice/piper1-gpl candidato TTS locale, verificare licenza motore e singole voci, consenso, hardware, installazione; non clonare voce senza permesso. |
+| V | Resolve training del blocco 1, https://github.com/Wan-Video/Wan2.1 e https://huggingface.co/docs/diffusers/main/api/pipelines/wan: T2V 1.3B dichiara 8,19 GB VRAM, esempio 5s 480p su RTX4090 circa 4min, non benchmark nostro | Resolve Free per montaggio vs Studio; Wan per generazione reale, hardware non universale, licenze checkpoint e quote cloud da verificare; B per generazione gratuita accessibile. |
+
+| ID | Sessione | Risorsa | Evidenza e prova comune | Stato |
+|---|---|---|---|---|
+| cr-w01s1 | Matrice di confronto su tre compiti | A | confronto tre task, input fissi e log | P |
+| cr-w01s2 | Scheda dei limiti | A | limiti, errori e controesempi | P |
+| cr-w01s3 | Protocollo di verifica | A | fonti indipendenti e verifica | P |
+| cr-w01s4 | Regole di riservatezza | A | dati sintetici, controllo riservatezza | P |
+| cr-w01s5 | Assistente personale | A | assistente con test limite | P |
+| cr-w02s1 | Brief strutturato | A | brief con vincoli e criteri | P |
+| cr-w02s2 | Esempi few-shot | A | few-shot bilanciati, set separato | P |
+| cr-w02s3 | Contesto documentale | A | contesto e istruzioni ostili | P |
+| cr-w02s4 | Output JSON | J | JSON valido e schema, errori negativi | P |
+| cr-w02s5 | Libreria prompt | A | prompt versionati e regressione | P |
+| cr-w03s1 | Matrice di delega | A | matrice delega e rischio | P |
+| cr-w03s2 | Piano a tappe | A | milestone e dipendenze | P |
+| cr-w03s3 | Rubrica di qualità | A | rubrica con descrittori | P |
+| cr-w03s4 | Registro costi | A | registro costi e quote | P |
+| cr-w03s5 | Workflow creativo | A | workflow e revisione | P |
+| cr-w04s1 | Moodboard | F | moodboard con diritti | P |
+| cr-w04s2 | Palette | W | palette e contrasto | P |
+| cr-w04s3 | Tipografia | F | tipografia mobile | P |
+| cr-w04s4 | Logo e icone | I | logo SVG editabile | P |
+| cr-w04s5 | Brand kit | F | brand kit con fonti | P |
+| cr-w05s1 | Persona e scenario | F | persona da evidenze | P |
+| cr-w05s2 | User flow | F | flow con errori | P |
+| cr-w05s3 | Wireframe | F | wireframe mobile | P |
+| cr-w05s4 | Prototipo cliccabile | F | prototipo cliccabile | P |
+| cr-w05s5 | Test di usabilità | W | test usabilità e correzione | P |
+| cr-w06s1 | Storyboard | V | storyboard temporizzato | P/B |
+| cr-w06s2 | Immagini | G | immagini AI iterate e postproduzione | P/B |
+| cr-w06s3 | Video breve | V | video montato e sottotitoli; generazione AI B | P/B |
+| cr-w06s4 | Copy e tono | A | copy verificato e tono | P |
+| cr-w06s5 | Pacchetto creativo | V | pacchetto sorgenti e diritti | P/B |
+| P01 | Integrazione proposta | D | file, cartelle, backup e restore | P |
+| P02 | Integrazione proposta | S | logica condizioni e casi limite | P |
+| P03 | Integrazione proposta | J | tipi dati e schema | P |
+| P04 | Integrazione proposta | A | fondamenti modelli e limiti | P |
+| P05 | Integrazione proposta | A | eval con set separato | P |
+| P06 | Integrazione proposta | W | privacy e registro licenze | P |
+| P07 | Integrazione proposta | F | auto layout e prototipo | P |
+| P08 | Integrazione proposta | G | generazione immagini e correzioni | P/B |
+| P09 | Integrazione proposta | U | audio registrato/montato; TTS reale candidato B | P/B |
+| P10 | Integrazione proposta | V | video AI reale candidato B | P/B |
+| P11 | Integrazione proposta | F | campagna completa e portfolio | P |
+| P12 | Integrazione proposta | A | difesa autonoma su variante nuova | P |
+
+P01–P12 non sono ID definitivi; B sui gruppi multimediali segnala dipendenze da chiudere, non che tutti i compiti di montaggio siano bloccati. Rubrica 0–3 e minimo 2 per ogni dimensione essenziale, nessuna violazione bloccante; stesso brief più variante autonoma, prove free/premium, log tempi/quote/costi, sorgenti editabili, test negativi e registro licenze. Proposta minima: 3 immagini iterate, 2 clip AI di 5s, 1 voce sintetica autorizzata e video montato 30–60s; verificare fattibilità, non requisiti approvati. Nessun acquisto o GPU nuova obbligatori; se no alternativa reale gratuita su hardware dichiarato, mantenere B o proporre ridefinizione obiettivo da approvare. Non equiparare montaggio a generazione. Certificazioni: badge Claude/OpenAI, CS50 completamento distinto da edX verificato, Adobe Firefly specifica facoltativa; costo esame/lingua Italia non accertati. Accessibilità fonti non collaudata; prevedere sintesi IT originali, trascrizioni lecite, test VoiceOver/tastiera/zoom e rientro link iPhone, desktop per editing. Prossimo L2 inventario risorse, mantenere gate L1 (link granulari, diritto riuso, accesso account/carta, hardware, quote, certificazioni, prove) prima approvazione; nessuna modifica applicativa.

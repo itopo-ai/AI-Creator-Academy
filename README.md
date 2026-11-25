@@ -116,3 +116,7 @@ Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback,
 
 ### Fase 2E — Creator L1
 2E blocco 1 Creator L1: verifica documentale online 25/11/2026 su fonti ufficiali, matrice preliminare per 30 sessioni originali e 12 integrazioni proposte. Risorse gratuite documentate, equivalenza pratica non collaudata; quote AI, hardware, accessibilità, licenze asset, accesso autenticato e link individuali residui aperti. Badge OpenAI non certificazione; Adobe Firefly certificazione facoltativa specifica. Nessuna modifica applicativa. Prossimo completamento lacune L1 prima di L2.
+
+
+### Fase 2E — Creator L1, blocco 1B
+2E blocco 1B Creator L1: matrice individuale 42/42 (30 ID originali +12 segnaposti proposti, non ID applicativi). Verifica pubblica aggiuntiva Anthropic AI Fluency, CS50 Scratch, MDN/JSON Schema, Audacity, modelli FLUX e Wan, prezzi Adobe Italia, accessibilità W3C. Nessun collaudo; lacune bloccanti accesso gratuito reale generazione video/audio, hardware e quote; link LearnFree reindirizzati, Inkscape 403, unità Figma/Anthropic non tutte aperte, licenze e certificazioni da completare. Non dichiarare L1 validato; proseguire inventario L2 mantenendo gate L1 prima approvazione.
