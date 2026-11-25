@@ -5572,18 +5572,18 @@
           "solution": "Un esempio di applicazione è: Avvia un flusso con un webhook di prova. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un trigger avvia un workflow su evento o pianificazione»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Trigger», quale attività rispetta il principio studiato?",
+            "q": "Un modulo invia un evento quando arriva un nuovo ordine. Quale componente avvia il flusso?",
             "options": [
-              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
-              "Avvia un flusso con un webhook di prova.",
-              "Genera un nuovo ID a ogni consegna dello stesso evento."
+              "Il filtro che seleziona gli ordini.",
+              "Il trigger che riceve l’evento.",
+              "Il registro che conserva gli esiti."
             ],
             "answer": 1,
-            "why": "Un trigger avvia un workflow su evento o pianificazione.",
+            "why": "Il trigger avvia il flusso al verificarsi dell’evento.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un trigger avvia un workflow su evento o pianificazione.",
-              "Corretto. Un trigger avvia un workflow su evento o pianificazione.",
-              "Non è l'approccio previsto per questo laboratorio. Un trigger avvia un workflow su evento o pianificazione."
+              "Il filtro decide quali dati proseguono, non avvia il flusso.",
+              "Corretto. Il trigger avvia il flusso al verificarsi dell’evento.",
+              "Il registro conserva gli esiti delle esecuzioni."
             ]
           },
           "masterclass": {
@@ -5659,18 +5659,18 @@
           "solution": "Un esempio di applicazione è: Converti una data e rinomina un campo. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La trasformazione normalizza dati tra sistemi»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Trasformazioni», quale attività rispetta il principio studiato?",
+            "q": "Due sistemi usano formati diversi per la stessa data. Come li rendi compatibili?",
             "options": [
-              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
-              "Converti una data e rinomina un campo.",
-              "Genera un nuovo ID a ogni consegna dello stesso evento."
+              "Copia la data senza adattarne il formato.",
+              "Converti la data nel formato richiesto, conservandone il significato.",
+              "Sostituisci la data con quella di esecuzione."
             ],
             "answer": 1,
-            "why": "La trasformazione normalizza dati tra sistemi.",
+            "why": "La trasformazione adatta il formato senza cambiare il dato rappresentato.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. La trasformazione normalizza dati tra sistemi.",
-              "Corretto. La trasformazione normalizza dati tra sistemi.",
-              "Non è l'approccio previsto per questo laboratorio. La trasformazione normalizza dati tra sistemi."
+              "La copia non risolve l’incompatibilità del formato.",
+              "Corretto. La trasformazione adatta il formato senza cambiare il dato rappresentato.",
+              "La data di esecuzione cambia il significato del dato."
             ]
           },
           "masterclass": {
@@ -5746,18 +5746,18 @@
           "solution": "Un esempio di applicazione è: Invia richieste incomplete a revisione manuale. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Le condizioni instradano casi diversi»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Condizioni», quale attività rispetta il principio studiato?",
+            "q": "Una richiesta priva di email deve andare a revisione manuale. Come imposti il flusso?",
             "options": [
-              "Invia richieste incomplete a revisione manuale.",
-              "Genera un nuovo ID a ogni consegna dello stesso evento.",
-              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini."
+              "Usa una condizione che verifica la presenza dell’email.",
+              "Usa un timer che ritarda tutte le richieste.",
+              "Usa una trasformazione che rinomina il campo email."
             ],
             "answer": 0,
-            "why": "Le condizioni instradano casi diversi.",
+            "why": "La condizione seleziona il percorso in base ai dati.",
             "feedback": [
-              "Corretto. Le condizioni instradano casi diversi.",
-              "Non è l'approccio previsto per questo laboratorio. Le condizioni instradano casi diversi.",
-              "Non è l'approccio previsto per questo laboratorio. Le condizioni instradano casi diversi."
+              "Corretto. La condizione seleziona il percorso in base ai dati.",
+              "Un ritardo non distingue richieste complete e incomplete.",
+              "Rinominare il campo non verifica se contiene un valore."
             ]
           },
           "masterclass": {
@@ -5833,18 +5833,18 @@
           "solution": "Un esempio di applicazione è: Simula un timeout senza creare due ordini. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Retry limitati e idempotenza evitano duplicati»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Retry», quale attività rispetta il principio studiato?",
+            "q": "Un servizio non risponde dopo l’invio di un ordine. Come riprovi evitando duplicati?",
             "options": [
-              "Genera un nuovo ID a ogni consegna dello stesso evento.",
-              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
-              "Simula un timeout senza creare due ordini."
+              "Riprova con una nuova chiave a ogni tentativo.",
+              "Riprova senza limite finché arriva una risposta.",
+              "Limita i tentativi e riutilizza la stessa chiave identificativa dell’ordine."
             ],
             "answer": 2,
-            "why": "Retry limitati e idempotenza evitano duplicati.",
+            "why": "Tentativi limitati e una chiave stabile aiutano a evitare effetti duplicati, se il servizio gestisce l’idempotenza.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Retry limitati e idempotenza evitano duplicati.",
-              "Non è l'approccio previsto per questo laboratorio. Retry limitati e idempotenza evitano duplicati.",
-              "Corretto. Retry limitati e idempotenza evitano duplicati."
+              "Una nuova chiave può far interpretare il tentativo come un nuovo ordine.",
+              "Tentativi illimitati possono consumare risorse e ripetere effetti.",
+              "Corretto. Tentativi limitati e una chiave stabile aiutano a evitare effetti duplicati, se il servizio gestisce l’idempotenza."
             ]
           },
           "masterclass": {
@@ -5920,18 +5920,18 @@
           "solution": "Un esempio di applicazione è: Registra esecuzioni riuscite e fallite. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un workflow va osservato e documentato»), correggilo e ripeti il test.",
           "caseStudy": "Simula un ordine con ID univoco; ripeti lo stesso evento e verifica che non generi un duplicato.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Workflow», quale attività rispetta il principio studiato?",
+            "q": "Come rendi verificabile un workflow che elabora richieste ogni giorno?",
             "options": [
-              "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
-              "Registra esecuzioni riuscite e fallite.",
-              "Genera un nuovo ID a ogni consegna dello stesso evento."
+              "Registra soltanto il numero di richieste ricevute.",
+              "Registra esiti, errori e passaggi principali di ogni esecuzione.",
+              "Conserva soltanto l’orario di avvio."
             ],
             "answer": 1,
-            "why": "Un workflow va osservato e documentato.",
+            "why": "I registri dei passaggi e degli esiti permettono di individuare dove il flusso fallisce.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un workflow va osservato e documentato.",
-              "Corretto. Un workflow va osservato e documentato.",
-              "Non è l'approccio previsto per questo laboratorio. Un workflow va osservato e documentato."
+              "Il numero di richieste non indica se sono state elaborate.",
+              "Corretto. I registri dei passaggi e degli esiti permettono di individuare dove il flusso fallisce.",
+              "L’orario di avvio non mostra risultati o errori."
             ]
           },
           "masterclass": {
@@ -6021,18 +6021,18 @@
           "solution": "Un esempio di applicazione è: Definisci una ricerca con parametro query. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un tool espone una funzione con schema di input»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Tool», quale attività rispetta il principio studiato?",
+            "q": "Un agente deve cercare documenti tramite uno strumento. Come definisci l’input del tool?",
             "options": [
-              "Invia automaticamente se il testo sembra corretto.",
-              "Registra l'azione soltanto dopo un reclamo.",
-              "Definisci una ricerca con parametro query."
+              "Accetta qualsiasi parametro senza controlli.",
+              "Usa un parametro fisso identico per tutte le ricerche.",
+              "Specifica un parametro di ricerca e validane il tipo."
             ],
             "answer": 2,
-            "why": "Un tool espone una funzione con schema di input.",
+            "why": "Uno schema esplicito e validato rende prevedibile l’uso dello strumento.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un tool espone una funzione con schema di input.",
-              "Non è l'approccio previsto per questo laboratorio. Un tool espone una funzione con schema di input.",
-              "Corretto. Un tool espone una funzione con schema di input."
+              "Input non controllati possono causare errori o azioni impreviste.",
+              "Un valore fisso non consente ricerche diverse.",
+              "Corretto. Uno schema esplicito e validato rende prevedibile l’uso dello strumento."
             ]
           },
           "masterclass": {
@@ -6108,18 +6108,18 @@
           "solution": "Un esempio di applicazione è: Imposta massimo tre chiamate e una condizione di stop. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un agente pianifica azioni ma deve avere limiti»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Pianificazione», quale attività rispetta il principio studiato?",
+            "q": "Come impedisci a un agente di continuare a cercare senza fine?",
             "options": [
-              "Registra l'azione soltanto dopo un reclamo.",
-              "Imposta massimo tre chiamate e una condizione di stop.",
-              "Invia automaticamente se il testo sembra corretto."
+              "Aggiungi strumenti senza stabilire limiti.",
+              "Definisci un piano con massimo di chiamate e condizione di arresto.",
+              "Aumenta il tempo disponibile a ogni ricerca fallita."
             ],
             "answer": 1,
-            "why": "Un agente pianifica azioni ma deve avere limiti.",
+            "why": "Limiti e condizioni di arresto rendono la pianificazione controllabile.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un agente pianifica azioni ma deve avere limiti.",
-              "Corretto. Un agente pianifica azioni ma deve avere limiti.",
-              "Non è l'approccio previsto per questo laboratorio. Un agente pianifica azioni ma deve avere limiti."
+              "Più strumenti non stabiliscono quando fermarsi.",
+              "Corretto. Limiti e condizioni di arresto rendono la pianificazione controllabile.",
+              "Aumentare il tempo a ogni errore può prolungare il ciclo."
             ]
           },
           "masterclass": {
@@ -6195,18 +6195,18 @@
           "solution": "Un esempio di applicazione è: Mostra una email in bozza prima dell’invio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («L’approvazione umana precede azioni irreversibili»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Approvazione», quale attività rispetta il principio studiato?",
+            "q": "Un agente prepara un’email destinata a un cliente. Quando chiedi approvazione?",
             "options": [
-              "Registra l'azione soltanto dopo un reclamo.",
-              "Mostra una email in bozza prima dell’invio.",
-              "Invia automaticamente se il testo sembra corretto."
+              "Invia la bozza e chiedi conferma dopo.",
+              "Mostra la bozza e attendi conferma prima dell’invio.",
+              "Chiedi conferma solo se il cliente risponde."
             ],
             "answer": 1,
-            "why": "L’approvazione umana precede azioni irreversibili.",
+            "why": "L’approvazione precede l’azione esterna e permette di correggere la bozza.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. L’approvazione umana precede azioni irreversibili.",
-              "Corretto. L’approvazione umana precede azioni irreversibili.",
-              "Non è l'approccio previsto per questo laboratorio. L’approvazione umana precede azioni irreversibili."
+              "Dopo l’invio non puoi prevenire l’errore.",
+              "Corretto. L’approvazione precede l’azione esterna e permette di correggere la bozza.",
+              "La risposta del cliente arriva troppo tardi per autorizzare l’invio."
             ]
           },
           "masterclass": {
@@ -6282,18 +6282,18 @@
           "solution": "Un esempio di applicazione è: Controlla se ha chiamato il tool corretto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Valuta agenti su risultati e uso degli strumenti»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Valutazione», quale attività rispetta il principio studiato?",
+            "q": "Come valuti se un agente usa bene gli strumenti disponibili?",
             "options": [
-              "Registra l'azione soltanto dopo un reclamo.",
-              "Controlla se ha chiamato il tool corretto.",
-              "Invia automaticamente se il testo sembra corretto."
+              "Misura soltanto la lunghezza delle risposte.",
+              "Prova casi rappresentativi e confronta risultati, chiamate ed errori.",
+              "Conta soltanto quanti strumenti sono configurati."
             ],
             "answer": 1,
-            "why": "Valuta agenti su risultati e uso degli strumenti.",
+            "why": "La valutazione considera risultati e uso effettivo degli strumenti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Valuta agenti su risultati e uso degli strumenti.",
-              "Corretto. Valuta agenti su risultati e uso degli strumenti.",
-              "Non è l'approccio previsto per questo laboratorio. Valuta agenti su risultati e uso degli strumenti."
+              "La lunghezza non dimostra correttezza delle azioni.",
+              "Corretto. La valutazione considera risultati e uso effettivo degli strumenti.",
+              "Il numero di strumenti non misura come vengono utilizzati."
             ]
           },
           "masterclass": {
@@ -6369,18 +6369,18 @@
           "solution": "Un esempio di applicazione è: Crea un agente che cerca e riassume documenti fittizi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un agente combina strumenti, stato e arresto»), correggilo e ripeti il test.",
           "caseStudy": "Dai all’agente uno strumento di lettura e una proposta di azione; richiedi approvazione prima della scrittura.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Agente», quale attività rispetta il principio studiato?",
+            "q": "Quale configurazione descrive un agente per riassumere documenti di prova?",
             "options": [
-              "Crea un agente che cerca e riassume documenti fittizi.",
-              "Invia automaticamente se il testo sembra corretto.",
-              "Registra l'azione soltanto dopo un reclamo."
+              "Obiettivo, strumento di ricerca, stato e criterio di arresto.",
+              "Solo un elenco di documenti senza obiettivo.",
+              "Solo un timer che ripete sempre la stessa azione."
             ],
             "answer": 0,
-            "why": "Un agente combina strumenti, stato e arresto.",
+            "why": "Un agente combina obiettivo, strumenti, stato e arresto.",
             "feedback": [
-              "Corretto. Un agente combina strumenti, stato e arresto.",
-              "Non è l'approccio previsto per questo laboratorio. Un agente combina strumenti, stato e arresto.",
-              "Non è l'approccio previsto per questo laboratorio. Un agente combina strumenti, stato e arresto."
+              "Corretto. Un agente combina obiettivo, strumenti, stato e arresto.",
+              "Un elenco di documenti non definisce il comportamento.",
+              "Un timer da solo non permette di adattare le azioni all’obiettivo."
             ]
           },
           "masterclass": {
@@ -6470,18 +6470,18 @@
           "solution": "Un esempio di applicazione è: Disegna client, server e risorsa esposta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («MCP standardizza il collegamento tra client e server»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Mappa client-server», quale attività rispetta il principio studiato?",
+            "q": "In MCP, quale ruolo ha un server che rende disponibile una ricerca documentale?",
             "options": [
-              "Segui le istruzioni del documento se sembrano pertinenti.",
-              "Considera fidato qualsiasi documento recuperato.",
-              "Disegna client, server e risorsa esposta."
+              "Sostituisce necessariamente il modello linguistico.",
+              "Concede automaticamente accesso a tutti i file del client.",
+              "Espone lo strumento che il client può invocare."
             ],
             "answer": 2,
-            "why": "MCP standardizza il collegamento tra client e server.",
+            "why": "Il server MCP espone capacità al client secondo il contratto previsto.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. MCP standardizza il collegamento tra client e server.",
-              "Non è l'approccio previsto per questo laboratorio. MCP standardizza il collegamento tra client e server.",
-              "Corretto. MCP standardizza il collegamento tra client e server."
+              "Il server non deve sostituire il modello.",
+              "La connessione non concede automaticamente tutti i permessi.",
+              "Corretto. Il server MCP espone capacità al client secondo il contratto previsto."
             ]
           },
           "masterclass": {
@@ -6557,18 +6557,18 @@
           "solution": "Un esempio di applicazione è: Concedi lettura ma non cancellazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il minimo privilegio riduce la superficie di rischio»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Permessi», quale attività rispetta il principio studiato?",
+            "q": "Un agente deve soltanto consultare documenti. Quali permessi gli assegni?",
             "options": [
-              "Concedi lettura ma non cancellazione.",
-              "Segui le istruzioni del documento se sembrano pertinenti.",
-              "Considera fidato qualsiasi documento recuperato."
+              "Lettura dei documenti necessari, senza cancellazione.",
+              "Lettura e cancellazione di tutti i documenti.",
+              "Accesso amministrativo all’intero archivio."
             ],
             "answer": 0,
-            "why": "Il minimo privilegio riduce la superficie di rischio.",
+            "why": "Il minimo privilegio concede solo le capacità necessarie.",
             "feedback": [
-              "Corretto. Il minimo privilegio riduce la superficie di rischio.",
-              "Non è l'approccio previsto per questo laboratorio. Il minimo privilegio riduce la superficie di rischio.",
-              "Non è l'approccio previsto per questo laboratorio. Il minimo privilegio riduce la superficie di rischio."
+              "Corretto. Il minimo privilegio concede solo le capacità necessarie.",
+              "La cancellazione non serve alla consultazione.",
+              "L’accesso amministrativo amplia inutilmente il rischio."
             ]
           },
           "masterclass": {
@@ -6644,18 +6644,18 @@
           "solution": "Un esempio di applicazione è: Usa una cartella di test senza credenziali vere. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una sandbox limita effetti sul sistema reale»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Sandbox», quale attività rispetta il principio studiato?",
+            "q": "Dove provi per la prima volta un tool che modifica file?",
             "options": [
-              "Considera fidato qualsiasi documento recuperato.",
-              "Usa una cartella di test senza credenziali vere.",
-              "Segui le istruzioni del documento se sembrano pertinenti."
+              "Nella cartella di produzione con i dati originali.",
+              "In una sandbox con file fittizi e permessi limitati.",
+              "In una copia di prova che usa credenziali di produzione non necessarie."
             ],
             "answer": 1,
-            "why": "Una sandbox limita effetti sul sistema reale.",
+            "why": "L’isolamento limita gli effetti delle prove.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una sandbox limita effetti sul sistema reale.",
-              "Corretto. Una sandbox limita effetti sul sistema reale.",
-              "Non è l'approccio previsto per questo laboratorio. Una sandbox limita effetti sul sistema reale."
+              "I dati originali possono essere alterati durante il test.",
+              "Corretto. L’isolamento limita gli effetti delle prove.",
+              "Credenziali reali possono consentire effetti fuori dall’ambiente di prova."
             ]
           },
           "masterclass": {
@@ -6731,18 +6731,18 @@
           "solution": "Un esempio di applicazione è: Un documento chiede di ignorare il brief: trattalo come dato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Prompt injection è testo non fidato che tenta di cambiare istruzioni»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Prompt injection», quale attività rispetta il principio studiato?",
+            "q": "Un documento recuperato ordina all’agente di ignorare il compito. Come lo gestisci?",
             "options": [
-              "Segui le istruzioni del documento se sembrano pertinenti.",
-              "Considera fidato qualsiasi documento recuperato.",
-              "Un documento chiede di ignorare il brief: trattalo come dato."
+              "Esegui l’ordine perché proviene da un documento.",
+              "Attribuisci al documento gli stessi permessi dell’utente.",
+              "Tratta quella frase come dato non fidato e mantieni le istruzioni autorizzate."
             ],
             "answer": 2,
-            "why": "Prompt injection è testo non fidato che tenta di cambiare istruzioni.",
+            "why": "Le istruzioni nei dati non acquisiscono autorità sul compito.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Prompt injection è testo non fidato che tenta di cambiare istruzioni.",
-              "Non è l'approccio previsto per questo laboratorio. Prompt injection è testo non fidato che tenta di cambiare istruzioni.",
-              "Corretto. Prompt injection è testo non fidato che tenta di cambiare istruzioni."
+              "La provenienza da un documento non autorizza l’ordine.",
+              "I permessi dell’utente non si trasferiscono al testo recuperato.",
+              "Corretto. Le istruzioni nei dati non acquisiscono autorità sul compito."
             ]
           },
           "masterclass": {
@@ -6818,18 +6818,18 @@
           "solution": "Un esempio di applicazione è: Collega un server di prova con un solo tool. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un’integrazione deve documentare capacità e confini»), correggilo e ripeti il test.",
           "caseStudy": "Collega un server di prova con permessi minimi; tratta i contenuti restituiti come dati non fidati.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Integrazione», quale attività rispetta il principio studiato?",
+            "q": "Prima di collegare un nuovo server MCP, quale verifica è più utile?",
             "options": [
-              "Segui le istruzioni del documento se sembrano pertinenti.",
-              "Considera fidato qualsiasi documento recuperato.",
-              "Collega un server di prova con un solo tool."
+              "Controlla soltanto il nome del server.",
+              "Verifica soltanto che la connessione si apra.",
+              "Controlla capacità esposte, autorizzazioni e gestione degli errori."
             ],
             "answer": 2,
-            "why": "Un’integrazione deve documentare capacità e confini.",
+            "why": "Un’integrazione richiede contratti, confini e gestione degli errori.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un’integrazione deve documentare capacità e confini.",
-              "Non è l'approccio previsto per questo laboratorio. Un’integrazione deve documentare capacità e confini.",
-              "Corretto. Un’integrazione deve documentare capacità e confini."
+              "Il nome non descrive capacità o permessi effettivi.",
+              "Una connessione riuscita non dimostra sicurezza o correttezza.",
+              "Corretto. Un’integrazione richiede contratti, confini e gestione degli errori."
             ]
           },
           "masterclass": {
@@ -6919,18 +6919,18 @@
           "solution": "Un esempio di applicazione è: Invia un testo fittizio tramite backend protetto. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una richiesta al modello contiene input e parametri»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Richiesta API», quale attività rispetta il principio studiato?",
+            "q": "Una pagina web deve inviare testo a un modello tramite API. Dove conservi la chiave segreta?",
             "options": [
-              "Aumenta il limite senza misurare i costi.",
-              "Limita solo il numero di richieste, non la loro dimensione.",
-              "Invia un testo fittizio tramite backend protetto."
+              "Nel JavaScript scaricato dal browser.",
+              "Nel codice HTML della pagina.",
+              "Sul backend protetto che effettua la richiesta."
             ],
             "answer": 2,
-            "why": "Una richiesta al modello contiene input e parametri.",
+            "why": "Il backend custodisce il segreto senza inviarlo al browser.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una richiesta al modello contiene input e parametri.",
-              "Non è l'approccio previsto per questo laboratorio. Una richiesta al modello contiene input e parametri.",
-              "Corretto. Una richiesta al modello contiene input e parametri."
+              "Il JavaScript client è ispezionabile dagli utenti.",
+              "Il codice HTML è accessibile dal browser.",
+              "Corretto. Il backend custodisce il segreto senza inviarlo al browser."
             ]
           },
           "masterclass": {
@@ -7006,18 +7006,18 @@
           "solution": "Un esempio di applicazione è: Richiedi una scheda con titolo e categoria enumerata. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno schema strutturato vincola il formato non la verità»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Output strutturato», quale attività rispetta il principio studiato?",
+            "q": "Un modello restituisce una scheda JSON conforme allo schema. Che cosa devi ancora verificare?",
             "options": [
-              "Richiedi una scheda con titolo e categoria enumerata.",
-              "Aumenta il limite senza misurare i costi.",
-              "Limita solo il numero di richieste, non la loro dimensione."
+              "Che i valori siano corretti e pertinenti al compito.",
+              "Soltanto che il testo sia lungo abbastanza.",
+              "Nulla: lo schema garantisce anche la verità dei valori."
             ],
             "answer": 0,
-            "why": "Uno schema strutturato vincola il formato non la verità.",
+            "why": "Lo schema vincola la struttura, non la correttezza fattuale.",
             "feedback": [
-              "Corretto. Uno schema strutturato vincola il formato non la verità.",
-              "Non è l'approccio previsto per questo laboratorio. Uno schema strutturato vincola il formato non la verità.",
-              "Non è l'approccio previsto per questo laboratorio. Uno schema strutturato vincola il formato non la verità."
+              "Corretto. Lo schema vincola la struttura, non la correttezza fattuale.",
+              "La lunghezza non verifica il significato dei valori.",
+              "La conformità formale non garantisce la verità."
             ]
           },
           "masterclass": {
@@ -7093,18 +7093,18 @@
           "solution": "Un esempio di applicazione è: Mostra testo incrementale e gestisci interruzione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Lo streaming consegna frammenti progressivi»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Streaming», quale attività rispetta il principio studiato?",
+            "q": "Durante lo streaming di una risposta la connessione si interrompe. Come gestisci il testo ricevuto?",
             "options": [
-              "Mostra testo incrementale e gestisci interruzione.",
-              "Aumenta il limite senza misurare i costi.",
-              "Limita solo il numero di richieste, non la loro dimensione."
+              "Segnalalo come incompleto e offri un nuovo tentativo.",
+              "Mostralo come risposta conclusa senza avviso.",
+              "Cancella il messaggio di errore e indica successo."
             ],
             "answer": 0,
-            "why": "Lo streaming consegna frammenti progressivi.",
+            "why": "Lo streaming può interrompersi prima del completamento.",
             "feedback": [
-              "Corretto. Lo streaming consegna frammenti progressivi.",
-              "Non è l'approccio previsto per questo laboratorio. Lo streaming consegna frammenti progressivi.",
-              "Non è l'approccio previsto per questo laboratorio. Lo streaming consegna frammenti progressivi."
+              "Corretto. Lo streaming può interrompersi prima del completamento.",
+              "Un testo parziale non va presentato come concluso.",
+              "Nascondere l’errore impedisce all’utente di capire l’esito."
             ]
           },
           "masterclass": {
@@ -7180,18 +7180,18 @@
           "solution": "Un esempio di applicazione è: Imposta limite di token e numero massimo di tentativi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un budget limita consumo e richieste»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Budget», quale attività rispetta il principio studiato?",
+            "q": "Come controlli la spesa di un assistente che chiama un modello?",
             "options": [
-              "Limita solo il numero di richieste, non la loro dimensione.",
-              "Imposta limite di token e numero massimo di tentativi.",
-              "Aumenta il limite senza misurare i costi."
+              "Limita soltanto il numero di utenti registrati.",
+              "Limita token e tentativi e misura il consumo effettivo.",
+              "Aumenta il limite di output senza misurare il consumo."
             ],
             "answer": 1,
-            "why": "Un budget limita consumo e richieste.",
+            "why": "Budget e misurazione del consumo aiutano a controllare i costi.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un budget limita consumo e richieste.",
-              "Corretto. Un budget limita consumo e richieste.",
-              "Non è l'approccio previsto per questo laboratorio. Un budget limita consumo e richieste."
+              "Gli utenti registrati non indicano quante risorse consumano.",
+              "Corretto. Budget e misurazione del consumo aiutano a controllare i costi.",
+              "Output più lunghi possono aumentare i costi."
             ]
           },
           "masterclass": {
@@ -7267,18 +7267,18 @@
           "solution": "Un esempio di applicazione è: Collega UI e backend senza esporre la chiave. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un assistente integrato deve gestire errori e segreti»), correggilo e ripeti il test.",
           "caseStudy": "Invia una richiesta dal backend, valida lo schema della risposta e imposta un limite di spesa.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Assistente integrato», quale attività rispetta il principio studiato?",
+            "q": "Un assistente integrato riceve un errore dal modello. Come informa l’utente?",
             "options": [
-              "Aumenta il limite senza misurare i costi.",
-              "Limita solo il numero di richieste, non la loro dimensione.",
-              "Collega UI e backend senza esporre la chiave."
+              "Mostra l’intera configurazione del backend con le credenziali.",
+              "Mostra una risposta inventata come se fosse riuscita.",
+              "Mostra un messaggio comprensibile senza esporre segreti e consenti un nuovo tentativo controllato."
             ],
             "answer": 2,
-            "why": "Un assistente integrato deve gestire errori e segreti.",
+            "why": "La gestione degli errori deve proteggere i segreti e comunicare l’esito reale.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un assistente integrato deve gestire errori e segreti.",
-              "Non è l'approccio previsto per questo laboratorio. Un assistente integrato deve gestire errori e segreti.",
-              "Corretto. Un assistente integrato deve gestire errori e segreti."
+              "La configurazione può esporre dati riservati.",
+              "Una risposta inventata nasconde il fallimento.",
+              "Corretto. La gestione degli errori deve proteggere i segreti e comunicare l’esito reale."
             ]
           },
           "masterclass": {
@@ -7368,18 +7368,18 @@
           "solution": "Un esempio di applicazione è: Raccogli cinque documenti con data e provenienza. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un corpus richiede fonti pertinenti e aggiornate»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Corpus», quale attività rispetta il principio studiato?",
+            "q": "Quali informazioni conservi quando prepari un corpus di documenti per un assistente?",
             "options": [
-              "Usa il documento perché è il primo risultato.",
-              "Ometti la data della fonte per semplificare la risposta.",
-              "Raccogli cinque documenti con data e provenienza."
+              "Soltanto il nome dei file, senza contenuto.",
+              "Soltanto la data di caricamento, senza provenienza.",
+              "Provenienza, data e contenuto pertinente di ogni fonte."
             ],
             "answer": 2,
-            "why": "Un corpus richiede fonti pertinenti e aggiornate.",
+            "why": "Provenienza e data aiutano a valutare pertinenza e aggiornamento delle fonti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un corpus richiede fonti pertinenti e aggiornate.",
-              "Non è l'approccio previsto per questo laboratorio. Un corpus richiede fonti pertinenti e aggiornate.",
-              "Corretto. Un corpus richiede fonti pertinenti e aggiornate."
+              "Il nome del file non fornisce le evidenze necessarie.",
+              "La data di caricamento non identifica l’origine del contenuto.",
+              "Corretto. Provenienza e data aiutano a valutare pertinenza e aggiornamento delle fonti."
             ]
           },
           "masterclass": {
@@ -7455,18 +7455,18 @@
           "solution": "Un esempio di applicazione è: Confronta paragrafi interi e segmenti sovrapposti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il chunking divide testi preservando contesto»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Chunking», quale attività rispetta il principio studiato?",
+            "q": "Un documento contiene una definizione seguita da un esempio. Come scegli i segmenti per la ricerca?",
             "options": [
-              "Confronta paragrafi interi e segmenti sovrapposti.",
-              "Usa il documento perché è il primo risultato.",
-              "Ometti la data della fonte per semplificare la risposta."
+              "Mantieni il contesto necessario, anche con segmenti sovrapposti.",
+              "Taglia sempre dopo ogni parola.",
+              "Elimina la definizione e conserva soltanto l’esempio."
             ],
             "answer": 0,
-            "why": "Il chunking divide testi preservando contesto.",
+            "why": "Il chunking deve conservare il contesto utile al recupero.",
             "feedback": [
-              "Corretto. Il chunking divide testi preservando contesto.",
-              "Non è l'approccio previsto per questo laboratorio. Il chunking divide testi preservando contesto.",
-              "Non è l'approccio previsto per questo laboratorio. Il chunking divide testi preservando contesto."
+              "Corretto. Il chunking deve conservare il contesto utile al recupero.",
+              "Segmenti di una parola perdono le relazioni tra concetti.",
+              "L’esempio isolato può perdere il significato della definizione."
             ]
           },
           "masterclass": {
@@ -7542,18 +7542,18 @@
           "solution": "Un esempio di applicazione è: Prova una query sinonimica e controlla i risultati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («La ricerca recupera passaggi candidati non risposte garantite»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Ricerca», quale attività rispetta il principio studiato?",
+            "q": "La ricerca restituisce un passaggio con parole simili alla domanda. Come valuti il risultato?",
             "options": [
-              "Prova una query sinonimica e controlla i risultati.",
-              "Usa il documento perché è il primo risultato.",
-              "Ometti la data della fonte per semplificare la risposta."
+              "Leggi il passaggio e verifica se sostiene davvero la risposta.",
+              "Accettalo soltanto perché è al primo posto.",
+              "Considera sufficiente la presenza di una parola in comune."
             ],
             "answer": 0,
-            "why": "La ricerca recupera passaggi candidati non risposte garantite.",
+            "why": "La ricerca restituisce candidati da verificare nel contenuto.",
             "feedback": [
-              "Corretto. La ricerca recupera passaggi candidati non risposte garantite.",
-              "Non è l'approccio previsto per questo laboratorio. La ricerca recupera passaggi candidati non risposte garantite.",
-              "Non è l'approccio previsto per questo laboratorio. La ricerca recupera passaggi candidati non risposte garantite."
+              "Corretto. La ricerca restituisce candidati da verificare nel contenuto.",
+              "La posizione in classifica non garantisce pertinenza.",
+              "Una parola comune non dimostra che il passaggio risponda alla domanda."
             ]
           },
           "masterclass": {
@@ -7629,18 +7629,18 @@
           "solution": "Un esempio di applicazione è: Collega ogni affermazione a un passaggio recuperato. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Le citazioni devono riferirsi a evidenze effettive»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Citazioni», quale attività rispetta il principio studiato?",
+            "q": "Come rendi verificabile una citazione in una risposta RAG?",
             "options": [
-              "Ometti la data della fonte per semplificare la risposta.",
-              "Collega ogni affermazione a un passaggio recuperato.",
-              "Usa il documento perché è il primo risultato."
+              "Indica un documento sullo stesso tema senza controllarne il testo.",
+              "Collega l’affermazione al passaggio preciso che la sostiene.",
+              "Cita il primo documento anche se tratta un’altra affermazione."
             ],
             "answer": 1,
-            "why": "Le citazioni devono riferirsi a evidenze effettive.",
+            "why": "La citazione deve permettere di ritrovare l’evidenza specifica.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Le citazioni devono riferirsi a evidenze effettive.",
-              "Corretto. Le citazioni devono riferirsi a evidenze effettive.",
-              "Non è l'approccio previsto per questo laboratorio. Le citazioni devono riferirsi a evidenze effettive."
+              "La somiglianza tematica non basta a sostenere l’affermazione.",
+              "Corretto. La citazione deve permettere di ritrovare l’evidenza specifica.",
+              "Una fonte non pertinente non dimostra il contenuto citato."
             ]
           },
           "masterclass": {
@@ -7716,18 +7716,18 @@
           "solution": "Un esempio di applicazione è: Rispondi non disponibile se il corpus non contiene la risposta. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («RAG combina recupero e generazione con possibilità di astensione»), correggilo e ripeti il test.",
           "caseStudy": "Indicizza tre documenti con identificativi; recupera passaggi pertinenti e rispondi con citazioni verificabili.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Assistente RAG», quale attività rispetta il principio studiato?",
+            "q": "Un assistente RAG non trova evidenze sufficienti nel corpus. Qual è la risposta appropriata?",
             "options": [
-              "Ometti la data della fonte per semplificare la risposta.",
-              "Rispondi non disponibile se il corpus non contiene la risposta.",
-              "Usa il documento perché è il primo risultato."
+              "Completa i dettagli mancanti e attribuiscili al corpus.",
+              "Dichiara che le fonti disponibili non bastano per rispondere.",
+              "Cita un passaggio non pertinente per dare comunque una risposta."
             ],
             "answer": 1,
-            "why": "RAG combina recupero e generazione con possibilità di astensione.",
+            "why": "L’astensione evita di presentare ipotesi come evidenze recuperate.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. RAG combina recupero e generazione con possibilità di astensione.",
-              "Corretto. RAG combina recupero e generazione con possibilità di astensione.",
-              "Non è l'approccio previsto per questo laboratorio. RAG combina recupero e generazione con possibilità di astensione."
+              "Attribuire dettagli inventati al corpus è fuorviante.",
+              "Corretto. L’astensione evita di presentare ipotesi come evidenze recuperate.",
+              "Una citazione non pertinente non colma la mancanza di evidenze."
             ]
           },
           "masterclass": {
@@ -7817,18 +7817,18 @@
           "solution": "Un esempio di applicazione è: Prepara dieci richieste con risultati attesi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un dataset di test rappresenta casi reali e difficili»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Dataset di test», quale attività rispetta il principio studiato?",
+            "q": "Come prepari un dataset per confrontare due versioni dello stesso assistente?",
             "options": [
-              "Prepara dieci richieste con risultati attesi.",
-              "Rilascia perché la media è migliorata.",
-              "Ignora i casi critici se sono poco frequenti."
+              "Usa casi rappresentativi e difficili con risultati attesi, mantenendoli stabili.",
+              "Cambia tutti i casi dopo ogni versione.",
+              "Conserva soltanto i casi già superati."
             ],
             "answer": 0,
-            "why": "Un dataset di test rappresenta casi reali e difficili.",
+            "why": "Un insieme stabile di casi consente confronti significativi.",
             "feedback": [
-              "Corretto. Un dataset di test rappresenta casi reali e difficili.",
-              "Non è l'approccio previsto per questo laboratorio. Un dataset di test rappresenta casi reali e difficili.",
-              "Non è l'approccio previsto per questo laboratorio. Un dataset di test rappresenta casi reali e difficili."
+              "Corretto. Un insieme stabile di casi consente confronti significativi.",
+              "Cambiare tutti i casi impedisce un confronto diretto.",
+              "Escludere i casi difficili nasconde possibili debolezze."
             ]
           },
           "masterclass": {
@@ -7904,18 +7904,18 @@
           "solution": "Un esempio di applicazione è: Calcola percentuale di risposte supportate da fonti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una metrica misura un aspetto definito della qualità»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Metriche», quale attività rispetta il principio studiato?",
+            "q": "Vuoi misurare la percentuale di risposte supportate da fonti. Quale calcolo usi?",
             "options": [
-              "Rilascia perché la media è migliorata.",
-              "Ignora i casi critici se sono poco frequenti.",
-              "Calcola percentuale di risposte supportate da fonti."
+              "Numero totale di documenti diviso per il numero di utenti.",
+              "Numero di citazioni diviso per la lunghezza delle risposte.",
+              "Risposte supportate divise per tutte le risposte valutate, per cento."
             ],
             "answer": 2,
-            "why": "Una metrica misura un aspetto definito della qualità.",
+            "why": "La metrica usa un numeratore e un denominatore coerenti con la qualità misurata.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una metrica misura un aspetto definito della qualità.",
-              "Non è l'approccio previsto per questo laboratorio. Una metrica misura un aspetto definito della qualità.",
-              "Corretto. Una metrica misura un aspetto definito della qualità."
+              "Documenti e utenti non misurano il supporto delle risposte.",
+              "Il numero di citazioni non dimostra che le fonti sostengano le risposte.",
+              "Corretto. La metrica usa un numeratore e un denominatore coerenti con la qualità misurata."
             ]
           },
           "masterclass": {
@@ -7991,18 +7991,18 @@
           "solution": "Un esempio di applicazione è: Riesegui gli stessi casi dopo cambio prompt. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una regressione è un peggioramento dopo una modifica»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Regressioni», quale attività rispetta il principio studiato?",
+            "q": "Dopo aver cambiato un prompt, come individui una regressione?",
             "options": [
-              "Ignora i casi critici se sono poco frequenti.",
-              "Riesegui gli stessi casi dopo cambio prompt.",
-              "Rilascia perché la media è migliorata."
+              "Valuta soltanto nuovi casi più semplici.",
+              "Riesegui gli stessi casi di test e confronta gli esiti precedenti.",
+              "Controlla soltanto se il nuovo prompt è più corto."
             ],
             "answer": 1,
-            "why": "Una regressione è un peggioramento dopo una modifica.",
+            "why": "Il confronto sugli stessi casi rivela peggioramenti introdotti dalla modifica.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una regressione è un peggioramento dopo una modifica.",
-              "Corretto. Una regressione è un peggioramento dopo una modifica.",
-              "Non è l'approccio previsto per questo laboratorio. Una regressione è un peggioramento dopo una modifica."
+              "Casi diversi e più semplici possono nascondere regressioni.",
+              "Corretto. Il confronto sugli stessi casi rivela peggioramenti introdotti dalla modifica.",
+              "La lunghezza del prompt non misura la qualità dei risultati."
             ]
           },
           "masterclass": {
@@ -8078,18 +8078,18 @@
           "solution": "Un esempio di applicazione è: Mostra ricerca manuale quando il modello non risponde. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un fallback offre una alternativa controllata»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fallback», quale attività rispetta il principio studiato?",
+            "q": "Il modello è temporaneamente indisponibile. Quale fallback aiuta l’utente senza inventare risultati?",
             "options": [
-              "Mostra ricerca manuale quando il modello non risponde.",
-              "Rilascia perché la media è migliorata.",
-              "Ignora i casi critici se sono poco frequenti."
+              "Offri una ricerca manuale e segnala l’indisponibilità.",
+              "Mostra un risultato casuale come risposta del modello.",
+              "Ripeti la richiesta senza limite e senza informare l’utente."
             ],
             "answer": 0,
-            "why": "Un fallback offre una alternativa controllata.",
+            "why": "Un fallback offre un’alternativa controllata quando il percorso principale fallisce.",
             "feedback": [
-              "Corretto. Un fallback offre una alternativa controllata.",
-              "Non è l'approccio previsto per questo laboratorio. Un fallback offre una alternativa controllata.",
-              "Non è l'approccio previsto per questo laboratorio. Un fallback offre una alternativa controllata."
+              "Corretto. Un fallback offre un’alternativa controllata quando il percorso principale fallisce.",
+              "Un risultato casuale può essere fuorviante.",
+              "Tentativi illimitati non offrono un’alternativa utilizzabile."
             ]
           },
           "masterclass": {
@@ -8165,18 +8165,18 @@
           "solution": "Un esempio di applicazione è: Documenta campione, metrica, errori e decisione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un report rende confrontabili risultati e limiti»), correggilo e ripeti il test.",
           "caseStudy": "Prepara dieci casi con esito atteso; confronta due versioni e registra le regressioni.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Report», quale attività rispetta il principio studiato?",
+            "q": "Quali elementi rendono utile un report di valutazione per decidere un rilascio?",
             "options": [
-              "Rilascia perché la media è migliorata.",
-              "Ignora i casi critici se sono poco frequenti.",
-              "Documenta campione, metrica, errori e decisione."
+              "Soltanto il punteggio migliore ottenuto.",
+              "Soltanto la data del test e il nome della versione.",
+              "Metodo, campione, metriche, errori, limiti e decisione motivata."
             ],
             "answer": 2,
-            "why": "Un report rende confrontabili risultati e limiti.",
+            "why": "Un report completo rende risultati e limiti confrontabili.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un report rende confrontabili risultati e limiti.",
-              "Non è l'approccio previsto per questo laboratorio. Un report rende confrontabili risultati e limiti.",
-              "Corretto. Un report rende confrontabili risultati e limiti."
+              "Il punteggio migliore può nascondere errori e casi critici.",
+              "Data e versione non spiegano metodo o risultati.",
+              "Corretto. Un report completo rende risultati e limiti confrontabili."
             ]
           },
           "masterclass": {
