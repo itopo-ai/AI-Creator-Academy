@@ -3441,18 +3441,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa significa no-code?",
+            "q": "Un ufficio acquisti configura un flusso visuale senza programmare la maggior parte dei passaggi. Quale vantaggio offre il no-code?",
             "options": [
-              "Eliminare ogni logica di processo.",
-              "Garantire che non esistano errori.",
-              "Configurare flussi senza scrivere gran parte del codice."
+              "Eliminare la necessità di definire le regole di approvazione.",
+              "Rendere superflui i test delle integrazioni.",
+              "Configurare la logica del processo tramite componenti visuali."
             ],
             "answer": 2,
-            "why": "No-code permette di configurare flussi senza scrivere gran parte del codice.",
+            "why": "Il no-code riduce il codice da scrivere, non la logica da progettare.",
             "feedback": [
-              "Rivedi il principio: No-code permette di configurare flussi senza scrivere gran parte del codice.",
-              "Rivedi il principio: No-code permette di configurare flussi senza scrivere gran parte del codice.",
-              "Corretto. No-code permette di configurare flussi senza scrivere gran parte del codice."
+              "Le regole di approvazione restano necessarie.",
+              "Anche le integrazioni visuali possono fallire e richiedono test.",
+              "Corretto. Il no-code riduce il codice da scrivere, non la logica da progettare."
             ]
           },
           "masterclass": {
@@ -3535,18 +3535,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa richiede anche un flusso visuale?",
+            "q": "Un modulo no-code riceve una richiesta di acquisto senza importo. Come deve reagire?",
             "options": [
-              "Nessun controllo perché è visuale.",
-              "Validazione degli input e gestione delle eccezioni.",
-              "Accettazione di qualsiasi input."
+              "Inserire automaticamente un importo medio non verificato.",
+              "Validare i campi e inoltrare la richiesta incompleta alla gestione delle eccezioni.",
+              "Inviare la richiesta al pagamento senza controlli."
             ],
             "answer": 1,
-            "why": "Un flusso visuale richiede comunque input validi e gestione delle eccezioni.",
+            "why": "La validazione impedisce che dati incompleti seguano il percorso ordinario.",
             "feedback": [
-              "Rivedi il principio: Un flusso visuale richiede comunque input validi e gestione delle eccezioni.",
-              "Corretto. Un flusso visuale richiede comunque input validi e gestione delle eccezioni.",
-              "Rivedi il principio: Un flusso visuale richiede comunque input validi e gestione delle eccezioni."
+              "Un importo stimato può alterare la decisione di acquisto.",
+              "Corretto. La validazione impedisce che dati incompleti seguano il percorso ordinario.",
+              "Il pagamento richiede informazioni essenziali verificate."
             ]
           },
           "masterclass": {
@@ -3616,18 +3616,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali casi includi nel disegno acquisti?",
+            "q": "Prima di automatizzare gli acquisti, quali elementi rappresenti nella mappa del processo?",
             "options": [
-              "Solo il percorso ideale.",
-              "Solo la schermata finale.",
-              "Attese, duplicati e approvazioni."
+              "Solo i passaggi delle richieste già approvate.",
+              "Solo i tempi di pagamento delle fatture.",
+              "Passaggi, attese, duplicazioni e punti di approvazione."
             ],
             "answer": 2,
-            "why": "Disegna un processo acquisti con attese, duplicati e approvazioni.",
+            "why": "La mappa deve rendere visibili i colli di bottiglia e le decisioni.",
             "feedback": [
-              "Rivedi il principio: Disegna un processo acquisti con attese, duplicati e approvazioni.",
-              "Rivedi il principio: Disegna un processo acquisti con attese, duplicati e approvazioni.",
-              "Corretto. Disegna un processo acquisti con attese, duplicati e approvazioni."
+              "Escludere le richieste problematiche nasconde le eccezioni.",
+              "I tempi di pagamento non descrivono l'intero processo.",
+              "Corretto. La mappa deve rendere visibili i colli di bottiglia e le decisioni."
             ]
           },
           "masterclass": {
@@ -3715,18 +3715,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali dimensioni descrivono la qualità dei dati?",
+            "q": "Un archivio contiene clienti duplicati, indirizzi mancanti e codici discordanti. Quali dimensioni della qualità sono coinvolte?",
             "options": [
-              "Volume, colore e formato grafico.",
-              "Solo velocità di importazione.",
-              "Completezza, coerenza e unicità."
+              "Velocità di importazione, volume e compressione.",
+              "Frequenza di accesso, dimensione e ordinamento.",
+              "Unicità, completezza e coerenza."
             ],
             "answer": 2,
-            "why": "La qualità dei dati comprende completezza, coerenza e unicità.",
+            "why": "Le tre dimensioni corrispondono rispettivamente ai duplicati, ai dati mancanti e alle discordanze.",
             "feedback": [
-              "Rivedi il principio: La qualità dei dati comprende completezza, coerenza e unicità.",
-              "Rivedi il principio: La qualità dei dati comprende completezza, coerenza e unicità.",
-              "Corretto. La qualità dei dati comprende completezza, coerenza e unicità."
+              "Le prestazioni di importazione non misurano questi difetti.",
+              "Le modalità di accesso non verificano la correttezza dei record.",
+              "Corretto. Le tre dimensioni corrispondono rispettivamente ai duplicati, ai dati mancanti e alle discordanze."
             ]
           },
           "masterclass": {
@@ -3809,18 +3809,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come confronti due processi?",
+            "q": "Confronti 30 pratiche prima e 30 dopo un'automazione. Quali indicatori sono più utili?",
             "options": [
-              "Totali di errori su volumi diversi.",
-              "Solo il tempo del caso migliore.",
-              "Tempi mediani e tassi di errore su campioni comparabili."
+              "Tempo della pratica più veloce in ciascun gruppo.",
+              "Numero di errori senza considerare differenze nella complessità delle pratiche.",
+              "Tempi mediani e tassi di errore su pratiche comparabili."
             ],
             "answer": 2,
-            "why": "Confronta tempi mediani e tassi di errore su campioni comparabili.",
+            "why": "Mediana e tassi su campioni comparabili descrivono prestazioni e qualità.",
             "feedback": [
-              "Rivedi il principio: Confronta tempi mediani e tassi di errore su campioni comparabili.",
-              "Rivedi il principio: Confronta tempi mediani e tassi di errore su campioni comparabili.",
-              "Corretto. Confronta tempi mediani e tassi di errore su campioni comparabili."
+              "Il caso migliore non rappresenta il comportamento tipico.",
+              "La complessità può alterare il confronto anche con volumi uguali.",
+              "Corretto. Mediana e tassi su campioni comparabili descrivono prestazioni e qualità."
             ]
           },
           "masterclass": {
@@ -3890,18 +3890,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi la pulizia dei dati?",
+            "q": "Come prepari un campione fittizio per verificare un sistema di pulizia dei dati?",
             "options": [
-              "Usi solo record perfetti.",
-              "Cancelli tutte le righe incomplete senza analisi.",
-              "Inserisci dati mancanti e duplicati noti."
+              "Inserisci soltanto record già completi e univoci.",
+              "Elimini preventivamente tutti i record problematici.",
+              "Inserisci record validi, duplicati noti e campi mancanti con esiti attesi."
             ],
             "answer": 2,
-            "why": "Crea una tabella di pratiche simulate con dati mancanti e duplicati da identificare.",
+            "why": "Difetti noti consentono di verificare se il sistema li riconosce.",
             "feedback": [
-              "Rivedi il principio: Crea una tabella di pratiche simulate con dati mancanti e duplicati da identificare.",
-              "Rivedi il principio: Crea una tabella di pratiche simulate con dati mancanti e duplicati da identificare.",
-              "Corretto. Crea una tabella di pratiche simulate con dati mancanti e duplicati da identificare."
+              "Un campione perfetto non esercita i controlli sui difetti.",
+              "Eliminare i difetti prima del test impedisce di valutare la pulizia.",
+              "Corretto. Difetti noti consentono di verificare se il sistema li riconosce."
             ]
           },
           "masterclass": {
@@ -3989,18 +3989,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve un prototipo no-code?",
+            "q": "Un reparto vuole classificare automaticamente le richieste dei clienti. Perché iniziare con un prototipo no-code?",
             "options": [
-              "Sostituire ogni test successivo.",
-              "Garantire la scalabilità.",
-              "Verificare il processo prima di estenderlo."
+              "Dimostrare subito che reggerà qualsiasi volume di produzione.",
+              "Evitare di definire le categorie fino al rilascio.",
+              "Verificare il processo su dati fittizi prima di estenderlo."
             ],
             "answer": 2,
-            "why": "Un prototipo no-code verifica un processo prima di estenderlo.",
+            "why": "Il prototipo verifica le ipotesi con un investimento limitato.",
             "feedback": [
-              "Rivedi il principio: Un prototipo no-code verifica un processo prima di estenderlo.",
-              "Rivedi il principio: Un prototipo no-code verifica un processo prima di estenderlo.",
-              "Corretto. Un prototipo no-code verifica un processo prima di estenderlo."
+              "Un prototipo non certifica la scalabilità.",
+              "Le categorie sono necessarie per valutare la classificazione.",
+              "Corretto. Il prototipo verifica le ipotesi con un investimento limitato."
             ]
           },
           "masterclass": {
@@ -4083,18 +4083,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa serve per valutare una classificazione?",
+            "q": "Come prepari la valutazione di un classificatore di richieste clienti?",
             "options": [
-              "Categorie definite e campione di riferimento.",
-              "Categorie cambiate dopo ogni risposta.",
-              "Solo il numero di record."
+              "Definisci categorie e un campione con etichette di riferimento.",
+              "Modifichi le categorie dopo ogni previsione.",
+              "Raccogli richieste senza stabilire le categorie attese."
             ],
             "answer": 0,
-            "why": "La classificazione richiede categorie definite e un campione di riferimento.",
+            "why": "Le etichette di riferimento permettono di confrontare le previsioni.",
             "feedback": [
-              "Corretto. La classificazione richiede categorie definite e un campione di riferimento.",
-              "Rivedi il principio: La classificazione richiede categorie definite e un campione di riferimento.",
-              "Rivedi il principio: La classificazione richiede categorie definite e un campione di riferimento."
+              "Corretto. Le etichette di riferimento permettono di confrontare le previsioni.",
+              "Categorie instabili impediscono confronti coerenti.",
+              "Senza risultati attesi non puoi misurare la correttezza."
             ]
           },
           "masterclass": {
@@ -4164,18 +4164,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come misuri la correttezza delle categorie?",
+            "q": "Su 20 richieste fittizie, 16 ricevono la categoria attesa. Qual è la quota di classificazioni corrette?",
             "options": [
-              "Conti tutte le predizioni come corrette.",
-              "Controlli solo la velocità.",
-              "Confronti le predizioni con etichette attese."
+              "20%.",
+              "125%.",
+              "80%."
             ],
             "answer": 2,
-            "why": "Classifica richieste fittizie e confronta risultati con etichette attese.",
+            "why": "16 diviso 20 equivale all'80%.",
             "feedback": [
-              "Rivedi il principio: Classifica richieste fittizie e confronta risultati con etichette attese.",
-              "Rivedi il principio: Classifica richieste fittizie e confronta risultati con etichette attese.",
-              "Corretto. Classifica richieste fittizie e confronta risultati con etichette attese."
+              "Il 20% è la quota di classificazioni errate.",
+              "Dividere 20 per 16 inverte numeratore e denominatore.",
+              "Corretto. 16 diviso 20 equivale all'80%."
             ]
           },
           "masterclass": {
@@ -4263,18 +4263,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cos'è un'eccezione?",
+            "q": "Un flusso classifica richieste di assistenza, ma una richiesta riguarda due categorie incompatibili. Come la consideri?",
             "options": [
-              "Un caso che non segue il flusso ordinario.",
-              "Ogni esecuzione riuscita.",
-              "Un aggiornamento grafico."
+              "Un'eccezione da gestire con un percorso dedicato.",
+              "Una classificazione ordinaria sicuramente corretta.",
+              "Una richiesta completata solo perché il flusso ha prodotto un'etichetta."
             ],
             "answer": 0,
-            "why": "Un'eccezione è un caso che non può seguire il flusso ordinario.",
+            "why": "L'ambiguità può impedire il normale percorso decisionale.",
             "feedback": [
-              "Corretto. Un'eccezione è un caso che non può seguire il flusso ordinario.",
-              "Rivedi il principio: Un'eccezione è un caso che non può seguire il flusso ordinario.",
-              "Rivedi il principio: Un'eccezione è un caso che non può seguire il flusso ordinario."
+              "Corretto. L'ambiguità può impedire il normale percorso decisionale.",
+              "La presenza di categorie incompatibili richiede verifica.",
+              "Produrre un'etichetta non dimostra che sia appropriata."
             ]
           },
           "masterclass": {
@@ -4357,18 +4357,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quando serve revisione umana?",
+            "q": "Una richiesta di rimborso non contiene i dati necessari per decidere. Quale azione è appropriata?",
             "options": [
-              "Quando mancano dati essenziali per decidere.",
-              "Solo quando il flusso è veloce.",
-              "Mai, se il processo è automatico."
+              "Inoltrarla a un operatore per verifica prima della decisione.",
+              "Approvare il rimborso usando valori ipotetici.",
+              "Rifiutarla automaticamente senza verificare i dati mancanti."
             ],
             "answer": 0,
-            "why": "La revisione umana evita decisioni automatiche quando mancano dati essenziali.",
+            "why": "La revisione umana consente di gestire informazioni insufficienti.",
             "feedback": [
-              "Corretto. La revisione umana evita decisioni automatiche quando mancano dati essenziali.",
-              "Rivedi il principio: La revisione umana evita decisioni automatiche quando mancano dati essenziali.",
-              "Rivedi il principio: La revisione umana evita decisioni automatiche quando mancano dati essenziali."
+              "Corretto. La revisione umana consente di gestire informazioni insufficienti.",
+              "Valori ipotetici possono causare approvazioni ingiustificate.",
+              "L'assenza di dati non dimostra che il rimborso sia infondato."
             ]
           },
           "masterclass": {
@@ -4438,18 +4438,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali casi testi?",
+            "q": "Quale campione di 20 richieste è più utile per collaudare un flusso no-code?",
             "options": [
-              "Normali, ambigui e incompleti.",
-              "Solo normali.",
-              "Solo copie dello stesso caso."
+              "Richieste normali, ambigue e incomplete, con esiti attesi registrati.",
+              "Venti copie della stessa richiesta valida.",
+              "Venti richieste complete della stessa categoria."
             ],
             "answer": 0,
-            "why": "Prova richieste normali, ambigue e incomplete e registra gli esiti.",
+            "why": "Il campione deve esercitare percorsi ordinari ed eccezioni.",
             "feedback": [
-              "Corretto. Prova richieste normali, ambigue e incomplete e registra gli esiti.",
-              "Rivedi il principio: Prova richieste normali, ambigue e incomplete e registra gli esiti.",
-              "Rivedi il principio: Prova richieste normali, ambigue e incomplete e registra gli esiti."
+              "Corretto. Il campione deve esercitare percorsi ordinari ed eccezioni.",
+              "Le copie non verificano comportamenti diversi.",
+              "Una sola categoria completa non verifica ambiguità o dati mancanti."
             ]
           },
           "masterclass": {
@@ -4537,18 +4537,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Chi risponde dei risultati del processo?",
+            "q": "Un'automazione aziendale produce ritardi e risultati incoerenti. Chi deve coordinare la verifica dei risultati e dei controlli?",
             "options": [
-              "Qualunque utente occasionale.",
-              "Il software stesso.",
+              "L'ultimo dipendente che ha aperto il flusso.",
+              "Il software, senza un responsabile umano.",
               "Il proprietario del processo."
             ],
             "answer": 2,
-            "why": "Il proprietario del processo risponde di risultati e controlli.",
+            "why": "Il proprietario del processo risponde delle prestazioni e dei controlli.",
             "feedback": [
-              "Rivedi il principio: Il proprietario del processo risponde di risultati e controlli.",
-              "Rivedi il principio: Il proprietario del processo risponde di risultati e controlli.",
-              "Corretto. Il proprietario del processo risponde di risultati e controlli."
+              "L'ultimo utilizzatore non è necessariamente responsabile del processo.",
+              "Il software non sostituisce la responsabilità organizzativa.",
+              "Corretto. Il proprietario del processo risponde delle prestazioni e dei controlli."
             ]
           },
           "masterclass": {
@@ -4631,18 +4631,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa serve per integrare sistemi?",
+            "q": "Un'integrazione trasferisce dati dal CRM alla contabilità. Cosa definisci prima dell'attivazione?",
             "options": [
-              "Responsabilità sui dati e percorso di emergenza.",
-              "Solo una connessione funzionante.",
-              "Accesso illimitato per tutti."
+              "Responsabili dei dati e procedura alternativa in caso di guasto.",
+              "Soltanto la connessione tecnica tra i sistemi.",
+              "Accessi amministrativi per tutti gli operatori."
             ],
             "answer": 0,
-            "why": "Le integrazioni richiedono responsabilità sui dati e un percorso di emergenza.",
+            "why": "Responsabilità e continuità operativa sono necessarie oltre alla connessione.",
             "feedback": [
-              "Corretto. Le integrazioni richiedono responsabilità sui dati e un percorso di emergenza.",
-              "Rivedi il principio: Le integrazioni richiedono responsabilità sui dati e un percorso di emergenza.",
-              "Rivedi il principio: Le integrazioni richiedono responsabilità sui dati e un percorso di emergenza."
+              "Corretto. Responsabilità e continuità operativa sono necessarie oltre alla connessione.",
+              "Una connessione funzionante non stabilisce chi gestisce gli errori.",
+              "Permessi eccessivi aumentano il rischio senza risolvere la continuità."
             ]
           },
           "masterclass": {
@@ -4712,18 +4712,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa includi nella mappa del processo?",
+            "q": "Come documenti un processo integrato che deve funzionare anche durante un guasto?",
             "options": [
-              "Ruoli, passaggi tra sistemi e alternativa manuale.",
-              "Solo i nomi delle app.",
-              "Solo il percorso di successo."
+              "Indichi ruoli, trasferimenti tra sistemi e percorso manuale alternativo.",
+              "Elenchi soltanto i nomi delle applicazioni.",
+              "Disegni soltanto il percorso in cui tutti i sistemi rispondono."
             ],
             "answer": 0,
-            "why": "Disegna ruoli, passaggi tra sistemi e procedura manuale alternativa.",
+            "why": "La mappa deve chiarire responsabilità e gestione delle interruzioni.",
             "feedback": [
-              "Corretto. Disegna ruoli, passaggi tra sistemi e procedura manuale alternativa.",
-              "Rivedi il principio: Disegna ruoli, passaggi tra sistemi e procedura manuale alternativa.",
-              "Rivedi il principio: Disegna ruoli, passaggi tra sistemi e procedura manuale alternativa."
+              "Corretto. La mappa deve chiarire responsabilità e gestione delle interruzioni.",
+              "I nomi delle app non descrivono passaggi e responsabilità.",
+              "Il percorso ideale non spiega come operare durante un guasto."
             ]
           },
           "masterclass": {
@@ -4811,18 +4811,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Su cosa si basa la formazione efficace?",
+            "q": "Devi formare gli addetti all'uso di un nuovo flusso AI per le richieste clienti. Quale attività è più efficace?",
             "options": [
-              "Numero di slide.",
-              "Durata delle riunioni.",
-              "Compiti reali osservabili."
+              "Aumentare il numero di slide senza esercitazioni.",
+              "Prolungare la riunione senza far utilizzare il flusso.",
+              "Far svolgere una richiesta simulata osservando i passaggi operativi."
             ],
             "answer": 2,
-            "why": "La formazione efficace si collega a compiti reali osservabili.",
+            "why": "Un compito osservabile collega la formazione al lavoro reale.",
             "feedback": [
-              "Rivedi il principio: La formazione efficace si collega a compiti reali osservabili.",
-              "Rivedi il principio: La formazione efficace si collega a compiti reali osservabili.",
-              "Corretto. La formazione efficace si collega a compiti reali osservabili."
+              "Più slide non dimostrano capacità operative.",
+              "La durata non sostituisce la pratica.",
+              "Corretto. Un compito osservabile collega la formazione al lavoro reale."
             ]
           },
           "masterclass": {
@@ -4905,18 +4905,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Perché raccogliere feedback prima di estendere?",
+            "q": "Prima di estendere un'automazione a tutti i reparti, perché raccogli il feedback degli utenti pilota?",
             "options": [
-              "Per garantire risultati positivi.",
-              "Per individuare ostacoli operativi.",
-              "Per eliminare i test."
+              "Per garantire che tutti i risultati futuri siano positivi.",
+              "Per individuare ostacoli operativi e correggerli prima dell'estensione.",
+              "Per sostituire i test funzionali con opinioni degli utenti."
             ],
             "answer": 1,
-            "why": "Il feedback permette di individuare ostacoli prima dell'estensione.",
+            "why": "Il feedback evidenzia difficoltà concrete di adozione.",
             "feedback": [
-              "Rivedi il principio: Il feedback permette di individuare ostacoli prima dell'estensione.",
-              "Corretto. Il feedback permette di individuare ostacoli prima dell'estensione.",
-              "Rivedi il principio: Il feedback permette di individuare ostacoli prima dell'estensione."
+              "Il feedback non garantisce il successo futuro.",
+              "Corretto. Il feedback evidenzia difficoltà concrete di adozione.",
+              "Le opinioni integrano i test, ma non li sostituiscono."
             ]
           },
           "masterclass": {
@@ -4986,18 +4986,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come valuti una prova formativa?",
+            "q": "Dopo la formazione su un flusso AI, come verifichi se le competenze persistono?",
             "options": [
-              "Solo presenza al corso.",
-              "Solo gradimento delle slide.",
-              "Compito pratico e misura successiva della prestazione."
+              "Registri soltanto la presenza alla formazione.",
+              "Misuri soltanto il gradimento delle slide.",
+              "Valuti un compito pratico e misuri successivamente la prestazione sul lavoro."
             ],
             "answer": 2,
-            "why": "Progetta una prova pratica e una misura di prestazione successiva.",
+            "why": "La prova pratica e la misura successiva verificano applicazione e continuità.",
             "feedback": [
-              "Rivedi il principio: Progetta una prova pratica e una misura di prestazione successiva.",
-              "Rivedi il principio: Progetta una prova pratica e una misura di prestazione successiva.",
-              "Corretto. Progetta una prova pratica e una misura di prestazione successiva."
+              "La presenza non dimostra acquisizione o mantenimento delle competenze.",
+              "Il gradimento non misura la prestazione operativa.",
+              "Corretto. La prova pratica e la misura successiva verificano applicazione e continuità."
             ]
           },
           "masterclass": {
