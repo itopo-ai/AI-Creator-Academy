@@ -8277,7 +8277,7 @@
             "feedback": [
               "Le tecnologie non chiariscono bisogni e requisiti.",
               "Le date non definiscono cosa deve fare il prodotto.",
-              "Corretto. Il PRD definisce il problema e i risultati attesi."
+              "Corretto. Il PRD (documento dei requisiti di prodotto) chiarisce il problema, per chi risolverlo, cosa costruire e come verificare che soddisfi i requisiti."
             ]
           },
           "masterclass": {
@@ -8362,7 +8362,7 @@
             "answer": 0,
             "why": "Le priorità riflettono valore e vincoli del progetto.",
             "feedback": [
-              "Corretto. Le priorità riflettono valore e vincoli del progetto.",
+              "Corretto. Il backlog è l’elenco del lavoro da svolgere: ordina le attività considerando il beneficio atteso, i rischi e ciò che deve essere completato prima.",
               "L’ordine di arrivo non misura il valore.",
               "La durata da sola non considera rischi e dipendenze."
             ]
@@ -8726,7 +8726,7 @@
             "feedback": [
               "Il costo non identifica le minacce.",
               "Il numero di utenti non descrive i rischi specifici.",
-              "Corretto. Il modello delle minacce collega risorse, rischi e mitigazioni."
+              "Corretto. Il threat model, o modello delle minacce, identifica i dati da proteggere, come potrebbero essere compromessi e quali controlli riducono il rischio."
             ]
           },
           "masterclass": {
@@ -9435,7 +9435,7 @@
             "why": "Un backup è verificato quando il ripristino recupera i dati attesi.",
             "feedback": [
               "Un file non vuoto può essere incompleto o illeggibile.",
-              "Corretto. Un backup è verificato quando il ripristino recupera i dati attesi.",
+              "Corretto. Prova il ripristino in un ambiente separato e confronta i dati recuperati con quelli attesi, senza sovrascrivere i progressi originali.",
               "La conservazione non dimostra che l’importazione funzioni."
             ]
           },
@@ -9797,7 +9797,7 @@
             "why": "L’MVP include quanto serve a verificare l’ipotesi di valore.",
             "feedback": [
               "Le integrazioni non necessarie aumentano tempi e costi.",
-              "Corretto. L’MVP include quanto serve a verificare l’ipotesi di valore.",
+              "Corretto. L’MVP (prodotto minimo funzionante) deve permettere di generare un riepilogo e verificare se è utile, senza costruire funzioni non necessarie alla prova.",
               "Una schermata promozionale non verifica l’utilità del risultato."
             ]
           },
@@ -10521,7 +10521,7 @@
             "why": "Un deploy identificabile e reversibile consente di tornare a uno stato noto.",
             "feedback": [
               "Senza la versione precedente il ripristino è più difficile.",
-              "Corretto. Un deploy identificabile e reversibile consente di tornare a uno stato noto.",
+              "Corretto. Identifica la versione distribuita e prepara il rollback, cioè il ritorno a una versione precedente, verificando anche la compatibilità dei dati.",
               "Senza identificazione non sai quale versione ripristinare."
             ]
           },
@@ -10782,7 +10782,7 @@
             "why": "Un portfolio dimostra competenze senza esporre informazioni riservate.",
             "feedback": [
               "I dati originali possono violare la riservatezza.",
-              "Corretto. Un portfolio dimostra competenze senza esporre informazioni riservate.",
+              "Corretto. Usa dati fittizi o evidenze realmente anonimizzate, rispettando le autorizzazioni e verificando che nessuna informazione riservata sia riconoscibile.",
               "Il logo non documenta il processo o i risultati."
             ]
           },
