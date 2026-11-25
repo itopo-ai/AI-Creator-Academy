@@ -427,18 +427,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Iniziare a usare ChatGPT e prompt avanzati · studio», quale attività rispetta il principio studiato?",
+            "q": "Cosa contiene un brief efficace per un report?",
             "options": [
-              "Controlla soltanto il formato del report.",
-              "Confronta i numeri con la bozza precedente, non con il gestionale.",
-              "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza."
+              "Solo il titolo.",
+              "Solo la lunghezza.",
+              "Destinatario, scopo, fonti e formato."
             ],
             "answer": 2,
-            "why": "Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
+            "why": "Un prompt aziendale è un brief con destinatario, scopo, fonti e formato.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Non è l'approccio previsto per questo laboratorio. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Corretto. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza."
+              "Rivedi il principio: Un prompt aziendale è un brief con destinatario, scopo, fonti e formato.",
+              "Rivedi il principio: Un prompt aziendale è un brief con destinatario, scopo, fonti e formato.",
+              "Corretto. Un prompt aziendale è un brief con destinatario, scopo, fonti e formato."
             ]
           },
           "masterclass": {
@@ -521,18 +521,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Iniziare a usare ChatGPT e prompt avanzati · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Come gestisci un dato mancante?",
             "options": [
-              "Confronta i numeri con la bozza precedente, non con il gestionale.",
-              "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Controlla soltanto il formato del report."
+              "Lo presenti come verificato.",
+              "Lo segnali come mancante e distingui le ipotesi.",
+              "Lo inventi per completare il report."
             ],
             "answer": 1,
-            "why": "Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
+            "why": "Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Corretto. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Non è l'approccio previsto per questo laboratorio. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza."
+              "Rivedi il principio: Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti.",
+              "Corretto. Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti.",
+              "Rivedi il principio: Distingui dati verificati e ipotesi; chiedi al modello di segnalare informazioni mancanti."
             ]
           },
           "masterclass": {
@@ -602,18 +602,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Iniziare a usare ChatGPT e prompt avanzati · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come controlli un report generato?",
             "options": [
-              "Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Controlla soltanto il formato del report.",
-              "Confronta i numeri con la bozza precedente, non con il gestionale."
+              "Riconcili ogni numero con la tabella originale.",
+              "Controlli solo la grafica.",
+              "Accetti i numeri se sembrano plausibili."
             ],
             "answer": 0,
-            "why": "Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
+            "why": "Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale.",
             "feedback": [
-              "Corretto. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Non è l'approccio previsto per questo laboratorio. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza.",
-              "Non è l'approccio previsto per questo laboratorio. Iniziare a usare ChatGPT e prompt avanzati: collega lo strumento a una decisione aziendale misurabile. Definisci un brief per un report vendite con periodo, fonte e formato; rifiuta numeri senza evidenza."
+              "Corretto. Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale.",
+              "Rivedi il principio: Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale.",
+              "Rivedi il principio: Prepara un report con dati simulati e riconcilia ogni numero con la tabella originale."
             ]
           },
           "masterclass": {
@@ -701,18 +701,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «ChatGPT per il lavoro · studio», quale attività rispetta il principio studiato?",
+            "q": "Cosa definisce una procedura standard?",
             "options": [
-              "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Definisci una soglia senza assegnare un approvatore.",
-              "Aggiungi un registro senza regole di approvazione."
+              "Attività, responsabilità e controlli.",
+              "Solo il nome dello strumento.",
+              "Solo il risultato finale."
             ],
             "answer": 0,
-            "why": "ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
+            "why": "Una procedura standard descrive attività, responsabilità e controlli.",
             "feedback": [
-              "Corretto. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Non è l'approccio previsto per questo laboratorio. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Non è l'approccio previsto per questo laboratorio. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi."
+              "Corretto. Una procedura standard descrive attività, responsabilità e controlli.",
+              "Rivedi il principio: Una procedura standard descrive attività, responsabilità e controlli.",
+              "Rivedi il principio: Una procedura standard descrive attività, responsabilità e controlli."
             ]
           },
           "masterclass": {
@@ -795,18 +795,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «ChatGPT per il lavoro · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "A cosa serve una soglia di approvazione?",
             "options": [
-              "Definisci una soglia senza assegnare un approvatore.",
-              "Aggiungi un registro senza regole di approvazione.",
-              "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi."
+              "A eliminare ogni controllo.",
+              "A velocizzare qualsiasi acquisto senza limiti.",
+              "A richiedere controllo umano per decisioni ad alto impatto."
             ],
             "answer": 2,
-            "why": "ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
+            "why": "Una soglia di approvazione limita decisioni automatiche ad alto impatto.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Non è l'approccio previsto per questo laboratorio. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Corretto. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi."
+              "Rivedi il principio: Una soglia di approvazione limita decisioni automatiche ad alto impatto.",
+              "Rivedi il principio: Una soglia di approvazione limita decisioni automatiche ad alto impatto.",
+              "Corretto. Una soglia di approvazione limita decisioni automatiche ad alto impatto."
             ]
           },
           "masterclass": {
@@ -876,18 +876,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «ChatGPT per il lavoro · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come documenti una richiesta di acquisto?",
             "options": [
-              "Aggiungi un registro senza regole di approvazione.",
-              "Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Definisci una soglia senza assegnare un approvatore."
+              "Elimini il registro dopo l'approvazione.",
+              "Registri richiedente, approvatore ed esito.",
+              "Registri solo il prezzo."
             ],
             "answer": 1,
-            "why": "ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
+            "why": "Disegna una procedura con richiedente, approvatore, esito e registro.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Corretto. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi.",
-              "Non è l'approccio previsto per questo laboratorio. ChatGPT per il lavoro: collega lo strumento a una decisione aziendale misurabile. Confronta ricavi 10000 e costi 7500: margine 2500; verifica che il report distingua fatti e ipotesi."
+              "Rivedi il principio: Disegna una procedura con richiedente, approvatore, esito e registro.",
+              "Corretto. Disegna una procedura con richiedente, approvatore, esito e registro.",
+              "Rivedi il principio: Disegna una procedura con richiedente, approvatore, esito e registro."
             ]
           },
           "masterclass": {
@@ -975,18 +975,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Agenti e flussi di lavoro · studio», quale attività rispetta il principio studiato?",
+            "q": "Che cosa collega un workflow?",
             "options": [
-              "Scarta tutti gli ordini senza possibilità di revisione.",
-              "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Conferma l'ordine e chiedi i dati mancanti dopo."
+              "Solo file archiviati.",
+              "Eventi, attività, decisioni e risultati.",
+              "Solo schermate grafiche."
             ],
             "answer": 1,
-            "why": "Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
+            "why": "Un workflow collega eventi, attività, decisioni e risultati.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Corretto. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Non è l'approccio previsto per questo laboratorio. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia."
+              "Rivedi il principio: Un workflow collega eventi, attività, decisioni e risultati.",
+              "Corretto. Un workflow collega eventi, attività, decisioni e risultati.",
+              "Rivedi il principio: Un workflow collega eventi, attività, decisioni e risultati."
             ]
           },
           "masterclass": {
@@ -1069,18 +1069,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Agenti e flussi di lavoro · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Come progetti le eccezioni?",
             "options": [
-              "Conferma l'ordine e chiedi i dati mancanti dopo.",
-              "Scarta tutti gli ordini senza possibilità di revisione.",
-              "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia."
+              "Tratti ogni errore come successo.",
+              "Ignori gli input incompleti.",
+              "Prevedi un percorso separato con gestione esplicita."
             ],
             "answer": 2,
-            "why": "Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
+            "why": "Le eccezioni richiedono un percorso diverso da quello ordinario.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Non è l'approccio previsto per questo laboratorio. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Corretto. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia."
+              "Rivedi il principio: Le eccezioni richiedono un percorso diverso da quello ordinario.",
+              "Rivedi il principio: Le eccezioni richiedono un percorso diverso da quello ordinario.",
+              "Corretto. Le eccezioni richiedono un percorso diverso da quello ordinario."
             ]
           },
           "masterclass": {
@@ -1150,18 +1150,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Agenti e flussi di lavoro · pratica», quale attività rispetta il principio studiato?",
+            "q": "Quali ordini usi per testare il flusso?",
             "options": [
-              "Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Conferma l'ordine e chiedi i dati mancanti dopo.",
-              "Scarta tutti gli ordini senza possibilità di revisione."
+              "Sotto soglia, sopra soglia e incompleti.",
+              "Solo ordini validi sotto soglia.",
+              "Tre copie dello stesso ordine valido."
             ],
             "answer": 0,
-            "why": "Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
+            "why": "Simula ordini sotto e sopra soglia e un ordine incompleto.",
             "feedback": [
-              "Corretto. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Non è l'approccio previsto per questo laboratorio. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia.",
-              "Non è l'approccio previsto per questo laboratorio. Agenti e flussi di lavoro: collega lo strumento a una decisione aziendale misurabile. Un ordine sopra 5000 richiede approvazione; simula un caso sotto e uno sopra soglia."
+              "Corretto. Simula ordini sotto e sopra soglia e un ordine incompleto.",
+              "Rivedi il principio: Simula ordini sotto e sopra soglia e un ordine incompleto.",
+              "Rivedi il principio: Simula ordini sotto e sopra soglia e un ordine incompleto."
             ]
           },
           "masterclass": {
@@ -1249,18 +1249,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «GenAI per i leader: introduzione · studio», quale attività rispetta il principio studiato?",
+            "q": "Da dove parte una strategia AI?",
             "options": [
-              "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Numero di richieste inviate al modello.",
-              "Solo tempo medio, senza qualità delle risposte."
+              "Da un problema aziendale misurabile.",
+              "Dalla scelta del modello più recente.",
+              "Dal numero di licenze acquistate."
             ],
             "answer": 0,
-            "why": "GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
+            "why": "La strategia AI parte da un problema aziendale misurabile.",
             "feedback": [
-              "Corretto. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Non è l'approccio previsto per questo laboratorio. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Non è l'approccio previsto per questo laboratorio. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile."
+              "Corretto. La strategia AI parte da un problema aziendale misurabile.",
+              "Rivedi il principio: La strategia AI parte da un problema aziendale misurabile.",
+              "Rivedi il principio: La strategia AI parte da un problema aziendale misurabile."
             ]
           },
           "masterclass": {
@@ -1343,18 +1343,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «GenAI per i leader: introduzione · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Quale indicatore misura valore?",
             "options": [
-              "Solo tempo medio, senza qualità delle risposte.",
-              "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Numero di richieste inviate al modello."
+              "Numero di prompt senza contesto.",
+              "Tempo di risposta insieme alla qualità del risultato.",
+              "Numero di accessi senza esiti."
             ],
             "answer": 1,
-            "why": "GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
+            "why": "Un indicatore deve misurare valore e qualità, non soltanto utilizzo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Corretto. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Non è l'approccio previsto per questo laboratorio. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile."
+              "Rivedi il principio: Un indicatore deve misurare valore e qualità, non soltanto utilizzo.",
+              "Corretto. Un indicatore deve misurare valore e qualità, non soltanto utilizzo.",
+              "Rivedi il principio: Un indicatore deve misurare valore e qualità, non soltanto utilizzo."
             ]
           },
           "masterclass": {
@@ -1424,18 +1424,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «GenAI per i leader: introduzione · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come prepari un pilota?",
             "options": [
-              "Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Numero di richieste inviate al modello.",
-              "Solo tempo medio, senza qualità delle risposte."
+              "Scegli processo, responsabile e baseline.",
+              "Avvii senza misure iniziali.",
+              "Acquisti licenze prima di definire il problema."
             ],
             "answer": 0,
-            "why": "GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
+            "why": "Scegli un processo, identifica responsabile e definisci una misura iniziale.",
             "feedback": [
-              "Corretto. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Non è l'approccio previsto per questo laboratorio. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile.",
-              "Non è l'approccio previsto per questo laboratorio. GenAI per i leader: introduzione: collega lo strumento a una decisione aziendale misurabile. Mappa vendite, acquisti e amministrazione; scegli un caso con dati disponibili e responsabile."
+              "Corretto. Scegli un processo, identifica responsabile e definisci una misura iniziale.",
+              "Rivedi il principio: Scegli un processo, identifica responsabile e definisci una misura iniziale.",
+              "Rivedi il principio: Scegli un processo, identifica responsabile e definisci una misura iniziale."
             ]
           },
           "masterclass": {
@@ -1523,18 +1523,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Casi d'uso e valore di business · studio», quale attività rispetta il principio studiato?",
+            "q": "Cosa determina la fattibilità?",
             "options": [
-              "Scegli il progetto più rapido senza considerare i rischi.",
-              "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Scegli il progetto con il beneficio lordo maggiore."
+              "Solo la popolarità dello strumento.",
+              "Dati, competenze, integrazioni e rischio.",
+              "Solo il prezzo della licenza."
             ],
             "answer": 1,
-            "why": "Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
+            "why": "La fattibilità comprende dati, competenze, integrazioni e rischio.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Corretto. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Non è l'approccio previsto per questo laboratorio. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio."
+              "Rivedi il principio: La fattibilità comprende dati, competenze, integrazioni e rischio.",
+              "Corretto. La fattibilità comprende dati, competenze, integrazioni e rischio.",
+              "Rivedi il principio: La fattibilità comprende dati, competenze, integrazioni e rischio."
             ]
           },
           "masterclass": {
@@ -1617,18 +1617,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Casi d'uso e valore di business · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Come confronti impatto e fattibilità?",
             "options": [
-              "Scegli il progetto più rapido senza considerare i rischi.",
-              "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Scegli il progetto con il beneficio lordo maggiore."
+              "Valuti solo l'impatto ignorando le risorse.",
+              "Applichi criteri comuni a ogni progetto.",
+              "Cambi criteri per favorire un progetto."
             ],
             "answer": 1,
-            "why": "Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
+            "why": "Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Corretto. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Non è l'approccio previsto per questo laboratorio. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio."
+              "Rivedi il principio: Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni.",
+              "Corretto. Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni.",
+              "Rivedi il principio: Una matrice impatto-fattibilità aiuta a confrontare progetti con criteri comuni."
             ]
           },
           "masterclass": {
@@ -1698,18 +1698,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Casi d'uso e valore di business · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come motivi la scelta fra tre casi?",
             "options": [
-              "Scegli il progetto con il beneficio lordo maggiore.",
-              "Scegli il progetto più rapido senza considerare i rischi.",
-              "Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio."
+              "Scegli il caso più appariscente.",
+              "Assegni punteggi senza motivazione.",
+              "Documenti punteggi e ipotesi da verificare."
             ],
             "answer": 2,
-            "why": "Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
+            "why": "Assegna punteggi motivati a tre casi e indica le ipotesi da verificare.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Non è l'approccio previsto per questo laboratorio. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio.",
-              "Corretto. Casi d'uso e valore di business: collega lo strumento a una decisione aziendale misurabile. Valuta impatto e fattibilità da 1 a 5; documenta il motivo del punteggio e il rischio."
+              "Rivedi il principio: Assegna punteggi motivati a tre casi e indica le ipotesi da verificare.",
+              "Rivedi il principio: Assegna punteggi motivati a tre casi e indica le ipotesi da verificare.",
+              "Corretto. Assegna punteggi motivati a tre casi e indica le ipotesi da verificare."
             ]
           },
           "masterclass": {
@@ -1797,18 +1797,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fattibilità e ritorno dell'investimento · studio», quale attività rispetta il principio studiato?",
+            "q": "Come si definisce il ROI?",
             "options": [
-              "150%, dividendo benefici lordi per costi.",
-              "33,3%, dividendo beneficio netto per benefici lordi.",
-              "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione."
+              "Beneficio lordo diviso ricavi.",
+              "Costo diviso numero di utenti.",
+              "Beneficio netto diviso costo nello stesso periodo."
             ],
             "answer": 2,
-            "why": "Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
+            "why": "Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-              "Non è l'approccio previsto per questo laboratorio. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-              "Corretto. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione."
+              "Rivedi il principio: Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo.",
+              "Rivedi il principio: Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo.",
+              "Corretto. Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo."
             ]
           },
           "masterclass": {
@@ -1891,18 +1891,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fattibilità e ritorno dell'investimento · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Quali costi includi nel ROI?",
             "options": [
-              "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-              "150%, dividendo benefici lordi per costi.",
-              "33,3%, dividendo beneficio netto per benefici lordi."
+              "Licenze, formazione e manutenzione pertinenti.",
+              "Solo il primo mese di licenza.",
+              "Nessun costo interno."
             ],
             "answer": 0,
-            "why": "Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
+            "why": "Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione.",
             "feedback": [
-              "Corretto. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-              "Non è l'approccio previsto per questo laboratorio. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-              "Non è l'approccio previsto per questo laboratorio. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione."
+              "Corretto. Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione.",
+              "Rivedi il principio: Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione.",
+              "Rivedi il principio: Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione."
             ]
           },
           "masterclass": {
@@ -1972,18 +1972,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fattibilità e ritorno dell'investimento · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come valuti l'incertezza del ROI?",
             "options": [
-              "150%, dividendo benefici lordi per costi.",
-              "33,3%, dividendo beneficio netto per benefici lordi.",
-              "Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione."
+              "Usi soltanto lo scenario ottimistico.",
+              "Mantieni identici tutti i valori.",
+              "Confronti scenari con benefici e costi diversi."
             ],
             "answer": 2,
-            "why": "Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
+            "why": "Costruisci tre scenari di benefici e costi e confronta il ROI.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-              "Non è l'approccio previsto per questo laboratorio. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione.",
-              "Corretto. Fattibilità e ritorno dell'investimento: collega lo strumento a una decisione aziendale misurabile. Benefici annui 12000, costi annui 8000: ROI 50%; includi formazione e manutenzione."
+              "Rivedi il principio: Costruisci tre scenari di benefici e costi e confronta il ROI.",
+              "Rivedi il principio: Costruisci tre scenari di benefici e costi e confronta il ROI.",
+              "Corretto. Costruisci tre scenari di benefici e costi e confronta il ROI."
             ]
           },
           "masterclass": {
@@ -2071,18 +2071,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Rischi e output affidabili · studio», quale attività rispetta il principio studiato?",
+            "q": "Quali dimensioni descrivono il rischio?",
             "options": [
-              "Verifica soltanto dopo il pagamento.",
-              "Approva automaticamente se la risposta è ben scritta.",
-              "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana."
+              "Solo frequenza di utilizzo.",
+              "Solo costo della licenza.",
+              "Probabilità e conseguenze."
             ],
             "answer": 2,
-            "why": "Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
+            "why": "Il rischio combina probabilità e conseguenze; un errore raro può essere grave.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-              "Corretto. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana."
+              "Rivedi il principio: Il rischio combina probabilità e conseguenze; un errore raro può essere grave.",
+              "Rivedi il principio: Il rischio combina probabilità e conseguenze; un errore raro può essere grave.",
+              "Corretto. Il rischio combina probabilità e conseguenze; un errore raro può essere grave."
             ]
           },
           "masterclass": {
@@ -2165,18 +2165,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Rischi e output affidabili · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Otto errori su cento: qual è il tasso?",
             "options": [
-              "Verifica soltanto dopo il pagamento.",
-              "Approva automaticamente se la risposta è ben scritta.",
-              "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana."
+              "0,8%.",
+              "80%.",
+              "8%."
             ],
             "answer": 2,
-            "why": "Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
+            "why": "Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-              "Corretto. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana."
+              "Rivedi il principio: Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale.",
+              "Rivedi il principio: Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale.",
+              "Corretto. Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale."
             ]
           },
           "masterclass": {
@@ -2246,18 +2246,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Rischi e output affidabili · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come controlli un processo ad alto rischio?",
             "options": [
-              "Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-              "Verifica soltanto dopo il pagamento.",
-              "Approva automaticamente se la risposta è ben scritta."
+              "Definisci soglia, revisione umana e arresto.",
+              "Automatizzi senza possibilità di arresto.",
+              "Controlli solo dopo un danno."
             ],
             "answer": 0,
-            "why": "Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
+            "why": "Definisci soglia, controllo umano e procedura di arresto per un caso simulato.",
             "feedback": [
-              "Corretto. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. Rischi e output affidabili: collega lo strumento a una decisione aziendale misurabile. Su 100 documenti, 8 errori significano 8% di errore; stabilisci soglia e revisione umana."
+              "Corretto. Definisci soglia, controllo umano e procedura di arresto per un caso simulato.",
+              "Rivedi il principio: Definisci soglia, controllo umano e procedura di arresto per un caso simulato.",
+              "Rivedi il principio: Definisci soglia, controllo umano e procedura di arresto per un caso simulato."
             ]
           },
           "masterclass": {
@@ -2345,18 +2345,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fiducia, trasparenza e governance · studio», quale attività rispetta il principio studiato?",
+            "q": "Cosa assegna la governance AI?",
             "options": [
-              "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Lascia scegliere ogni reparto senza registrazione.",
-              "Registra il modello senza valutarne il rischio."
+              "Regole, ruoli e responsabilità.",
+              "Solo licenze software.",
+              "Solo obiettivi commerciali."
             ],
             "answer": 0,
-            "why": "Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
+            "why": "La governance assegna regole, ruoli e responsabilità per l'uso dell'AI.",
             "feedback": [
-              "Corretto. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Non è l'approccio previsto per questo laboratorio. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Non è l'approccio previsto per questo laboratorio. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili."
+              "Corretto. La governance assegna regole, ruoli e responsabilità per l'uso dell'AI.",
+              "Rivedi il principio: La governance assegna regole, ruoli e responsabilità per l'uso dell'AI.",
+              "Rivedi il principio: La governance assegna regole, ruoli e responsabilità per l'uso dell'AI."
             ]
           },
           "masterclass": {
@@ -2439,18 +2439,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fiducia, trasparenza e governance · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Come limiti gli accessi ai dati?",
             "options": [
-              "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Lascia scegliere ogni reparto senza registrazione.",
-              "Registra il modello senza valutarne il rischio."
+              "In base alla classificazione e al ruolo.",
+              "Concedi accesso completo a tutti.",
+              "Usi un account condiviso."
             ],
             "answer": 0,
-            "why": "Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
+            "why": "Classifica le informazioni e limita gli accessi alle necessità del ruolo.",
             "feedback": [
-              "Corretto. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Non è l'approccio previsto per questo laboratorio. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Non è l'approccio previsto per questo laboratorio. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili."
+              "Corretto. Classifica le informazioni e limita gli accessi alle necessità del ruolo.",
+              "Rivedi il principio: Classifica le informazioni e limita gli accessi alle necessità del ruolo.",
+              "Rivedi il principio: Classifica le informazioni e limita gli accessi alle necessità del ruolo."
             ]
           },
           "masterclass": {
@@ -2520,18 +2520,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fiducia, trasparenza e governance · pratica», quale attività rispetta il principio studiato?",
+            "q": "Cosa inserisci nel registro degli strumenti?",
             "options": [
-              "Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Lascia scegliere ogni reparto senza registrazione.",
-              "Registra il modello senza valutarne il rischio."
+              "Proprietario, dati consentiti e approvazione.",
+              "Solo il logo del fornitore.",
+              "Solo la data di acquisto."
             ],
             "answer": 0,
-            "why": "Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
+            "why": "Crea un registro di strumenti con proprietario, dati consentiti e approvazione.",
             "feedback": [
-              "Corretto. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Non è l'approccio previsto per questo laboratorio. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili.",
-              "Non è l'approccio previsto per questo laboratorio. Fiducia, trasparenza e governance: collega lo strumento a una decisione aziendale misurabile. Classifica dati pubblici, interni e riservati; assegna accessi minimi e responsabili."
+              "Corretto. Crea un registro di strumenti con proprietario, dati consentiti e approvazione.",
+              "Rivedi il principio: Crea un registro di strumenti con proprietario, dati consentiti e approvazione.",
+              "Rivedi il principio: Crea un registro di strumenti con proprietario, dati consentiti e approvazione."
             ]
           },
           "masterclass": {
@@ -2619,18 +2619,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Gestione del cambiamento · studio», quale attività rispetta il principio studiato?",
+            "q": "Cosa sostiene il cambiamento organizzativo?",
             "options": [
-              "Attribuisci il problema alla resistenza senza indagare.",
-              "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Misura soltanto le ore di formazione."
+              "Solo l'obbligo di usare il software.",
+              "Competenze, comunicazione e supporto.",
+              "Solo un annuncio iniziale."
             ],
             "answer": 1,
-            "why": "Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
+            "why": "Il cambiamento richiede competenze, comunicazione e sostegno operativo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Corretto. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Non è l'approccio previsto per questo laboratorio. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni."
+              "Rivedi il principio: Il cambiamento richiede competenze, comunicazione e sostegno operativo.",
+              "Corretto. Il cambiamento richiede competenze, comunicazione e sostegno operativo.",
+              "Rivedi il principio: Il cambiamento richiede competenze, comunicazione e sostegno operativo."
             ]
           },
           "masterclass": {
@@ -2713,18 +2713,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Gestione del cambiamento · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Come misuri l'adozione reale?",
             "options": [
-              "Attribuisci il problema alla resistenza senza indagare.",
-              "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Misura soltanto le ore di formazione."
+              "Solo inviti inviati.",
+              "Utilizzo effettivo e risultati.",
+              "Solo iscrizioni al corso."
             ],
             "answer": 1,
-            "why": "Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
+            "why": "L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Corretto. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Non è l'approccio previsto per questo laboratorio. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni."
+              "Rivedi il principio: L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni.",
+              "Corretto. L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni.",
+              "Rivedi il principio: L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni."
             ]
           },
           "masterclass": {
@@ -2794,18 +2794,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Gestione del cambiamento · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come valuti la formazione?",
             "options": [
-              "Attribuisci il problema alla resistenza senza indagare.",
-              "Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Misura soltanto le ore di formazione."
+              "Eviti di osservare il lavoro.",
+              "Raccogli feedback su un compito concreto.",
+              "Conti soltanto i partecipanti."
             ],
             "answer": 1,
-            "why": "Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
+            "why": "Definisci un piano formativo e raccogli feedback su un compito concreto.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Corretto. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni.",
-              "Non è l'approccio previsto per questo laboratorio. Gestione del cambiamento: collega lo strumento a una decisione aziendale misurabile. Definisci formazione, sponsor e KPI di adozione; misura utilizzo reale e non solo iscrizioni."
+              "Rivedi il principio: Definisci un piano formativo e raccogli feedback su un compito concreto.",
+              "Corretto. Definisci un piano formativo e raccogli feedback su un compito concreto.",
+              "Rivedi il principio: Definisci un piano formativo e raccogli feedback su un compito concreto."
             ]
           },
           "masterclass": {
@@ -2893,18 +2893,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Completamento della specializzazione IBM · studio», quale attività rispetta il principio studiato?",
+            "q": "A cosa serve un portafoglio AI?",
             "options": [
-              "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Distribuisci il budget in parti uguali senza valutazione.",
-              "Scegli il pilota con più funzioni."
+              "A confrontare iniziative per valore e risorse.",
+              "A elencare soltanto i fornitori.",
+              "A finanziare ogni proposta."
             ],
             "answer": 0,
-            "why": "Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
+            "why": "Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse.",
             "feedback": [
-              "Corretto. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Non è l'approccio previsto per questo laboratorio. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Non è l'approccio previsto per questo laboratorio. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo."
+              "Corretto. Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse.",
+              "Rivedi il principio: Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse.",
+              "Rivedi il principio: Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse."
             ]
           },
           "masterclass": {
@@ -2987,18 +2987,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Completamento della specializzazione IBM · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Cosa comprende il costo totale?",
             "options": [
-              "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Distribuisci il budget in parti uguali senza valutazione.",
-              "Scegli il pilota con più funzioni."
+              "Licenze, integrazione, formazione e uscita.",
+              "Solo il prezzo iniziale.",
+              "Solo i costi di uscita."
             ],
             "answer": 0,
-            "why": "Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
+            "why": "Il costo totale include licenze, integrazione, formazione e uscita dal servizio.",
             "feedback": [
-              "Corretto. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Non è l'approccio previsto per questo laboratorio. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Non è l'approccio previsto per questo laboratorio. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo."
+              "Corretto. Il costo totale include licenze, integrazione, formazione e uscita dal servizio.",
+              "Rivedi il principio: Il costo totale include licenze, integrazione, formazione e uscita dal servizio.",
+              "Rivedi il principio: Il costo totale include licenze, integrazione, formazione e uscita dal servizio."
             ]
           },
           "masterclass": {
@@ -3068,18 +3068,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Completamento della specializzazione IBM · pratica», quale attività rispetta il principio studiato?",
+            "q": "Come confronti tre investimenti?",
             "options": [
-              "Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Distribuisci il budget in parti uguali senza valutazione.",
-              "Scegli il pilota con più funzioni."
+              "Usi criteri e pesi dichiarati.",
+              "Cambi pesi dopo aver visto i risultati.",
+              "Scegli senza documentare i criteri."
             ],
             "answer": 0,
-            "why": "Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
+            "why": "Confronta tre alternative con criteri e pesi dichiarati.",
             "feedback": [
-              "Corretto. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Non è l'approccio previsto per questo laboratorio. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo.",
-              "Non è l'approccio previsto per questo laboratorio. Completamento della specializzazione IBM: collega lo strumento a una decisione aziendale misurabile. Confronta fornitori per costo totale, privacy, esportabilità e assistenza; evita il solo prezzo."
+              "Corretto. Confronta tre alternative con criteri e pesi dichiarati.",
+              "Rivedi il principio: Confronta tre alternative con criteri e pesi dichiarati.",
+              "Rivedi il principio: Confronta tre alternative con criteri e pesi dichiarati."
             ]
           },
           "masterclass": {
@@ -3167,18 +3167,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Progetto di fase: il business case AI · studio», quale attività rispetta il principio studiato?",
+            "q": "A cosa serve un business case?",
             "options": [
-              "Beneficio previsto senza indicare le ipotesi.",
-              "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Numero di licenze acquistate."
+              "A sostituire la misurazione.",
+              "A motivare un investimento con evidenze.",
+              "A garantire il successo del progetto."
             ],
             "answer": 1,
-            "why": "Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
+            "why": "Un business case giustifica una decisione di investimento con evidenze.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Corretto. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Non è l'approccio previsto per questo laboratorio. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina."
+              "Rivedi il principio: Un business case giustifica una decisione di investimento con evidenze.",
+              "Corretto. Un business case giustifica una decisione di investimento con evidenze.",
+              "Rivedi il principio: Un business case giustifica una decisione di investimento con evidenze."
             ]
           },
           "masterclass": {
@@ -3261,18 +3261,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Progetto di fase: il business case AI · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Come rendi verificabili i benefici attesi?",
             "options": [
-              "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Numero di licenze acquistate.",
-              "Beneficio previsto senza indicare le ipotesi."
+              "Definisci baseline e scenari.",
+              "Usi promesse senza dati.",
+              "Elimini le ipotesi dal documento."
             ],
             "answer": 0,
-            "why": "Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
+            "why": "La baseline e gli scenari rendono verificabili le ipotesi di beneficio.",
             "feedback": [
-              "Corretto. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Non è l'approccio previsto per questo laboratorio. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Non è l'approccio previsto per questo laboratorio. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina."
+              "Corretto. La baseline e gli scenari rendono verificabili le ipotesi di beneficio.",
+              "Rivedi il principio: La baseline e gli scenari rendono verificabili le ipotesi di beneficio.",
+              "Rivedi il principio: La baseline e gli scenari rendono verificabili le ipotesi di beneficio."
             ]
           },
           "masterclass": {
@@ -3342,18 +3342,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Progetto di fase: il business case AI · pratica», quale attività rispetta il principio studiato?",
+            "q": "Cosa contiene una proposta go/no-go?",
             "options": [
-              "Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Numero di licenze acquistate.",
-              "Beneficio previsto senza indicare le ipotesi."
+              "Costi, benefici, rischi e condizioni decisionali.",
+              "Solo i benefici attesi.",
+              "Solo la descrizione del software."
             ],
             "answer": 0,
-            "why": "Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
+            "why": "Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go.",
             "feedback": [
-              "Corretto. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Non è l'approccio previsto per questo laboratorio. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina.",
-              "Non è l'approccio previsto per questo laboratorio. Progetto di fase: il business case AI: collega lo strumento a una decisione aziendale misurabile. Presenta investimento, benefici, rischi e criteri go/no-go in una pagina."
+              "Corretto. Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go.",
+              "Rivedi il principio: Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go.",
+              "Rivedi il principio: Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go."
             ]
           },
           "masterclass": {
@@ -3441,18 +3441,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «No-Code AI Foundations (1) · studio», quale attività rispetta il principio studiato?",
+            "q": "Cosa significa no-code?",
             "options": [
-              "Controlla solo che il foglio si apra.",
-              "Verifica i campi ma non i duplicati.",
-              "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni."
+              "Eliminare ogni logica di processo.",
+              "Garantire che non esistano errori.",
+              "Configurare flussi senza scrivere gran parte del codice."
             ],
             "answer": 2,
-            "why": "No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
+            "why": "No-code permette di configurare flussi senza scrivere gran parte del codice.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-              "Non è l'approccio previsto per questo laboratorio. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-              "Corretto. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni."
+              "Rivedi il principio: No-code permette di configurare flussi senza scrivere gran parte del codice.",
+              "Rivedi il principio: No-code permette di configurare flussi senza scrivere gran parte del codice.",
+              "Corretto. No-code permette di configurare flussi senza scrivere gran parte del codice."
             ]
           },
           "masterclass": {
@@ -3535,18 +3535,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «No-Code AI Foundations (1) · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Cosa richiede anche un flusso visuale?",
             "options": [
-              "Verifica i campi ma non i duplicati.",
-              "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-              "Controlla solo che il foglio si apra."
+              "Nessun controllo perché è visuale.",
+              "Validazione degli input e gestione delle eccezioni.",
+              "Accettazione di qualsiasi input."
             ],
             "answer": 1,
-            "why": "No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
+            "why": "Un flusso visuale richiede comunque input validi e gestione delle eccezioni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-              "Corretto. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-              "Non è l'approccio previsto per questo laboratorio. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni."
+              "Rivedi il principio: Un flusso visuale richiede comunque input validi e gestione delle eccezioni.",
+              "Corretto. Un flusso visuale richiede comunque input validi e gestione delle eccezioni.",
+              "Rivedi il principio: Un flusso visuale richiede comunque input validi e gestione delle eccezioni."
             ]
           },
           "masterclass": {
@@ -3616,18 +3616,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «No-Code AI Foundations (1) · pratica», quale attività rispetta il principio studiato?",
+            "q": "Quali casi includi nel disegno acquisti?",
             "options": [
-              "Controlla solo che il foglio si apra.",
-              "Verifica i campi ma non i duplicati.",
-              "Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni."
+              "Solo il percorso ideale.",
+              "Solo la schermata finale.",
+              "Attese, duplicati e approvazioni."
             ],
             "answer": 2,
-            "why": "No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
+            "why": "Disegna un processo acquisti con attese, duplicati e approvazioni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-              "Non è l'approccio previsto per questo laboratorio. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni.",
-              "Corretto. No-Code AI Foundations (1): collega lo strumento a una decisione aziendale misurabile. Mappa acquisti da richiesta a pagamento; identifica attese, duplicazioni e approvazioni."
+              "Rivedi il principio: Disegna un processo acquisti con attese, duplicati e approvazioni.",
+              "Rivedi il principio: Disegna un processo acquisti con attese, duplicati e approvazioni.",
+              "Corretto. Disegna un processo acquisti con attese, duplicati e approvazioni."
             ]
           },
           "masterclass": {
