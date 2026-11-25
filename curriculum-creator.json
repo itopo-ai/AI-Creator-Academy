@@ -2878,18 +2878,18 @@
           "solution": "Un esempio di applicazione è: Usa main, nav e heading invece di soli div. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («HTML semantico descrive il significato degli elementi»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Pagina semantica», quale attività rispetta il principio studiato?",
+            "q": "Quale elemento HTML identifica il contenuto principale?",
             "options": [
-              "Prova lo schermo stretto senza verificare zoom e tastiera.",
-              "Usa main, nav e heading invece di soli div.",
-              "Prova soltanto la larghezza desktop."
+              "footer.",
+              "main.",
+              "nav."
             ],
             "answer": 1,
-            "why": "HTML semantico descrive il significato degli elementi.",
+            "why": "HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. HTML semantico descrive il significato degli elementi.",
-              "Corretto. HTML semantico descrive il significato degli elementi.",
-              "Non è l'approccio previsto per questo laboratorio. HTML semantico descrive il significato degli elementi."
+              "Rivedi il principio. HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità.",
+              "Corretto. HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità.",
+              "Rivedi il principio. HTML semantico usa elementi che descrivono il significato, come nav e main; facilita navigazione e accessibilità."
             ]
           },
           "masterclass": {
@@ -2965,18 +2965,18 @@
           "solution": "Un esempio di applicazione è: Passa da due colonne a una su schermi stretti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Il responsive design adatta layout allo spazio disponibile»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Layout responsive», quale attività rispetta il principio studiato?",
+            "q": "Come verifichi un layout responsive?",
             "options": [
-              "Prova lo schermo stretto senza verificare zoom e tastiera.",
-              "Passa da due colonne a una su schermi stretti.",
-              "Prova soltanto la larghezza desktop."
+              "Blocchi lo zoom.",
+              "Provi diverse larghezze e livelli di zoom.",
+              "Provi soltanto un monitor grande."
             ],
             "answer": 1,
-            "why": "Il responsive design adatta layout allo spazio disponibile.",
+            "why": "Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Il responsive design adatta layout allo spazio disponibile.",
-              "Corretto. Il responsive design adatta layout allo spazio disponibile.",
-              "Non è l'approccio previsto per questo laboratorio. Il responsive design adatta layout allo spazio disponibile."
+              "Rivedi il principio. Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom.",
+              "Corretto. Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom.",
+              "Rivedi il principio. Un layout responsive si adatta allo spazio disponibile; prova larghezze diverse e zoom."
             ]
           },
           "masterclass": {
@@ -3052,18 +3052,18 @@
           "solution": "Un esempio di applicazione è: Crea una classe card con varianti. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Le classi riutilizzabili evitano duplicazione di stili»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Componenti CSS», quale attività rispetta il principio studiato?",
+            "q": "Come riutilizzi lo stile di più pulsanti?",
             "options": [
-              "Prova soltanto la larghezza desktop.",
-              "Prova lo schermo stretto senza verificare zoom e tastiera.",
-              "Crea una classe card con varianti."
+              "Copi ogni regola in ogni pulsante.",
+              "Assegni a tutti lo stesso ID.",
+              "Definisci una classe CSS comune con varianti."
             ],
             "answer": 2,
-            "why": "Le classi riutilizzabili evitano duplicazione di stili.",
+            "why": "Un componente CSS riutilizza regole visive; separa struttura, varianti e stati.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Le classi riutilizzabili evitano duplicazione di stili.",
-              "Non è l'approccio previsto per questo laboratorio. Le classi riutilizzabili evitano duplicazione di stili.",
-              "Corretto. Le classi riutilizzabili evitano duplicazione di stili."
+              "Rivedi il principio. Un componente CSS riutilizza regole visive; separa struttura, varianti e stati.",
+              "Rivedi il principio. Un componente CSS riutilizza regole visive; separa struttura, varianti e stati.",
+              "Corretto. Un componente CSS riutilizza regole visive; separa struttura, varianti e stati."
             ]
           },
           "masterclass": {
@@ -3139,18 +3139,18 @@
           "solution": "Un esempio di applicazione è: Prova tabulazione, focus e label dei campi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Accessibilità significa anche navigazione da tastiera»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Accessibilità», quale attività rispetta il principio studiato?",
+            "q": "Come rendi utilizzabile un pulsante senza mouse?",
             "options": [
-              "Prova lo schermo stretto senza verificare zoom e tastiera.",
-              "Prova tabulazione, focus e label dei campi.",
-              "Prova soltanto la larghezza desktop."
+              "Usi soltanto eventi del mouse.",
+              "Verifichi focus e attivazione da tastiera.",
+              "Nascondi il focus."
             ],
             "answer": 1,
-            "why": "Accessibilità significa anche navigazione da tastiera.",
+            "why": "L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Accessibilità significa anche navigazione da tastiera.",
-              "Corretto. Accessibilità significa anche navigazione da tastiera.",
-              "Non è l'approccio previsto per questo laboratorio. Accessibilità significa anche navigazione da tastiera."
+              "Rivedi il principio. L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete.",
+              "Corretto. L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete.",
+              "Rivedi il principio. L'accessibilità comprende tastiera, contrasto, etichette e alternative testuali; verifica con prove concrete."
             ]
           },
           "masterclass": {
@@ -3226,18 +3226,18 @@
           "solution": "Un esempio di applicazione è: Costruisci una pagina con titolo, benefici e CTA. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una landing comunica una proposta e una azione primaria»), correggilo e ripeti il test.",
           "caseStudy": "Costruisci una pagina con header, main e footer; usa CSS grid e verifica a 320 e 1280 pixel.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Landing page», quale attività rispetta il principio studiato?",
+            "q": "Quale elemento guida una landing page verso il suo obiettivo?",
             "options": [
-              "Prova soltanto la larghezza desktop.",
-              "Prova lo schermo stretto senza verificare zoom e tastiera.",
-              "Costruisci una pagina con titolo, benefici e CTA."
+              "Molte azioni concorrenti senza priorità.",
+              "Un modulo senza etichette.",
+              "Una proposta chiara e un'azione principale verificabile."
             ],
             "answer": 2,
-            "why": "Una landing comunica una proposta e una azione primaria.",
+            "why": "Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una landing comunica una proposta e una azione primaria.",
-              "Non è l'approccio previsto per questo laboratorio. Una landing comunica una proposta e una azione primaria.",
-              "Corretto. Una landing comunica una proposta e una azione primaria."
+              "Rivedi il principio. Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo.",
+              "Rivedi il principio. Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo.",
+              "Corretto. Una landing page guida verso un obiettivo principale; rendi chiara la proposta e verifica il modulo."
             ]
           },
           "masterclass": {
@@ -3327,18 +3327,18 @@
           "solution": "Un esempio di applicazione è: Calcola il totale di un carrello senza modificare l’input. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una funzione separa input, trasformazione e risultato»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Funzioni», quale attività rispetta il principio studiato?",
+            "q": "Una funzione somma riceve 2 e 3. Quale risultato atteso?",
             "options": [
-              "Calcola il totale di un carrello senza modificare l’input.",
-              "Controlla i dati prima di ricaricare.",
-              "Ricarica e verifica soltanto il titolo della pagina."
+              "5.",
+              "23 come testo.",
+              "6."
             ],
             "answer": 0,
-            "why": "Una funzione separa input, trasformazione e risultato.",
+            "why": "Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati.",
             "feedback": [
-              "Corretto. Una funzione separa input, trasformazione e risultato.",
-              "Non è l'approccio previsto per questo laboratorio. Una funzione separa input, trasformazione e risultato.",
-              "Non è l'approccio previsto per questo laboratorio. Una funzione separa input, trasformazione e risultato."
+              "Corretto. Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati.",
+              "Rivedi il principio. Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati.",
+              "Rivedi il principio. Una funzione riceve input e restituisce un risultato; evita modifiche inattese ai dati."
             ]
           },
           "masterclass": {
@@ -3414,18 +3414,18 @@
           "solution": "Un esempio di applicazione è: Aggiorna un contatore al click. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gli eventi collegano azioni dell’utente allo stato»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «DOM ed eventi», quale attività rispetta il principio studiato?",
+            "q": "Quale evento segnala normalmente la modifica del valore durante la digitazione?",
             "options": [
-              "Aggiorna un contatore al click.",
-              "Controlla i dati prima di ricaricare.",
-              "Ricarica e verifica soltanto il titolo della pagina."
+              "input.",
+              "load.",
+              "scroll."
             ],
             "answer": 0,
-            "why": "Gli eventi collegano azioni dell’utente allo stato.",
+            "why": "Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input.",
             "feedback": [
-              "Corretto. Gli eventi collegano azioni dell’utente allo stato.",
-              "Non è l'approccio previsto per questo laboratorio. Gli eventi collegano azioni dell’utente allo stato.",
-              "Non è l'approccio previsto per questo laboratorio. Gli eventi collegano azioni dell’utente allo stato."
+              "Corretto. Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input.",
+              "Rivedi il principio. Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input.",
+              "Rivedi il principio. Il DOM rappresenta la pagina come oggetti; gli eventi segnalano interazioni come click e input."
             ]
           },
           "masterclass": {
@@ -3501,18 +3501,18 @@
           "solution": "Un esempio di applicazione è: Rifiuta una email vuota senza perdere gli altri campi. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Valida input e mostra errori comprensibili»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Form», quale attività rispetta il principio studiato?",
+            "q": "Un campo obbligatorio è vuoto. Come reagisce il form?",
             "options": [
-              "Rifiuta una email vuota senza perdere gli altri campi.",
-              "Controlla i dati prima di ricaricare.",
-              "Ricarica e verifica soltanto il titolo della pagina."
+              "Mostra un errore comprensibile e impedisce l'invio non valido.",
+              "Invia comunque il valore vuoto.",
+              "Cancella tutti gli altri campi."
             ],
             "answer": 0,
-            "why": "Valida input e mostra errori comprensibili.",
+            "why": "Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio.",
             "feedback": [
-              "Corretto. Valida input e mostra errori comprensibili.",
-              "Non è l'approccio previsto per questo laboratorio. Valida input e mostra errori comprensibili.",
-              "Non è l'approccio previsto per questo laboratorio. Valida input e mostra errori comprensibili."
+              "Corretto. Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio.",
+              "Rivedi il principio. Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio.",
+              "Rivedi il principio. Un form raccoglie dati; valida i campi e mostra errori comprensibili prima dell'invio."
             ]
           },
           "masterclass": {
@@ -3588,18 +3588,18 @@
           "solution": "Un esempio di applicazione è: Salva preferenze non sensibili in JSON. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («LocalStorage conserva stringhe per origine ma non è un vault»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Storage locale», quale attività rispetta il principio studiato?",
+            "q": "Dove non dovresti conservare una chiave API segreta?",
             "options": [
-              "Ricarica e verifica soltanto il titolo della pagina.",
-              "Salva preferenze non sensibili in JSON.",
-              "Controlla i dati prima di ricaricare."
+              "In una variabile protetta lato server.",
+              "Nel localStorage del browser.",
+              "In un gestore di segreti lato server."
             ],
             "answer": 1,
-            "why": "LocalStorage conserva stringhe per origine ma non è un vault.",
+            "why": "Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. LocalStorage conserva stringhe per origine ma non è un vault.",
-              "Corretto. LocalStorage conserva stringhe per origine ma non è un vault.",
-              "Non è l'approccio previsto per questo laboratorio. LocalStorage conserva stringhe per origine ma non è un vault."
+              "Rivedi il principio. Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti.",
+              "Corretto. Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti.",
+              "Rivedi il principio. Lo storage locale conserva dati nel browser ma non è un archivio sicuro per segreti."
             ]
           },
           "masterclass": {
@@ -3675,18 +3675,18 @@
           "solution": "Un esempio di applicazione è: Crea una lista attività con aggiunta e rimozione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una mini app richiede stato e rendering coerenti»), correggilo e ripeti il test.",
           "caseStudy": "Crea una lista attività: usa addEventListener, valida il form e salva solo preferenze non sensibili in localStorage.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Mini app», quale attività rispetta il principio studiato?",
+            "q": "Quale prova verifica la persistenza di una mini app?",
             "options": [
-              "Crea una lista attività con aggiunta e rimozione.",
-              "Controlla i dati prima di ricaricare.",
-              "Ricarica e verifica soltanto il titolo della pagina."
+              "Salvi un dato, ricarichi e controlli che sia recuperato.",
+              "Controlli solo il colore del pulsante.",
+              "Apri una pagina senza salvare dati."
             ],
             "answer": 0,
-            "why": "Una mini app richiede stato e rendering coerenti.",
+            "why": "Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza.",
             "feedback": [
-              "Corretto. Una mini app richiede stato e rendering coerenti.",
-              "Non è l'approccio previsto per questo laboratorio. Una mini app richiede stato e rendering coerenti.",
-              "Non è l'approccio previsto per questo laboratorio. Una mini app richiede stato e rendering coerenti."
+              "Corretto. Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza.",
+              "Rivedi il principio. Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza.",
+              "Rivedi il principio. Una mini app collega dati, interfaccia ed eventi; verifica caricamento, errori e persistenza."
             ]
           },
           "masterclass": {
@@ -3776,18 +3776,18 @@
           "solution": "Un esempio di applicazione è: Inizializza Git con README e gitignore. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un repository conserva sorgenti e storia»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Repository», quale attività rispetta il principio studiato?",
+            "q": "Quale file va escluso da un repository pubblico?",
             "options": [
-              "Inizializza Git con README e gitignore.",
-              "Cancella la storia dei commit per tornare indietro.",
-              "Aggiungi una correzione senza verificare il risultato."
+              "Un file con credenziali reali.",
+              "Un README pubblico.",
+              "Un foglio CSS pubblico."
             ],
             "answer": 0,
-            "why": "Un repository conserva sorgenti e storia.",
+            "why": "Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei.",
             "feedback": [
-              "Corretto. Un repository conserva sorgenti e storia.",
-              "Non è l'approccio previsto per questo laboratorio. Un repository conserva sorgenti e storia.",
-              "Non è l'approccio previsto per questo laboratorio. Un repository conserva sorgenti e storia."
+              "Corretto. Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei.",
+              "Rivedi il principio. Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei.",
+              "Rivedi il principio. Un repository conserva file e cronologia delle modifiche; escludi segreti e file temporanei."
             ]
           },
           "masterclass": {
@@ -3863,18 +3863,18 @@
           "solution": "Un esempio di applicazione è: Separa correzione bug da cambio grafico. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un commit rappresenta una modifica coerente»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Commit», quale attività rispetta il principio studiato?",
+            "q": "Quale messaggio descrive meglio un commit?",
             "options": [
-              "Aggiungi una correzione senza verificare il risultato.",
-              "Separa correzione bug da cambio grafico.",
-              "Cancella la storia dei commit per tornare indietro."
+              "Modifiche varie senza dettagli.",
+              "Corregge la validazione del campo email.",
+              "Cose."
             ],
             "answer": 1,
-            "why": "Un commit rappresenta una modifica coerente.",
+            "why": "Un commit registra una modifica coerente con un messaggio descrittivo.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un commit rappresenta una modifica coerente.",
-              "Corretto. Un commit rappresenta una modifica coerente.",
-              "Non è l'approccio previsto per questo laboratorio. Un commit rappresenta una modifica coerente."
+              "Rivedi il principio. Un commit registra una modifica coerente con un messaggio descrittivo.",
+              "Corretto. Un commit registra una modifica coerente con un messaggio descrittivo.",
+              "Rivedi il principio. Un commit registra una modifica coerente con un messaggio descrittivo."
             ]
           },
           "masterclass": {
@@ -3950,18 +3950,18 @@
           "solution": "Un esempio di applicazione è: Crea un ramo per una nuova schermata. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un branch isola il lavoro in corso»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Branch», quale attività rispetta il principio studiato?",
+            "q": "Come sviluppi una funzione senza modificare subito main?",
             "options": [
-              "Cancella la storia dei commit per tornare indietro.",
-              "Aggiungi una correzione senza verificare il risultato.",
-              "Crea un ramo per una nuova schermata."
+              "Modifichi direttamente main senza controllo.",
+              "Elimini la cronologia.",
+              "Crei un branch dedicato."
             ],
             "answer": 2,
-            "why": "Un branch isola il lavoro in corso.",
+            "why": "Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un branch isola il lavoro in corso.",
-              "Non è l'approccio previsto per questo laboratorio. Un branch isola il lavoro in corso.",
-              "Corretto. Un branch isola il lavoro in corso."
+              "Rivedi il principio. Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare.",
+              "Rivedi il principio. Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare.",
+              "Corretto. Un branch isola lo sviluppo dalla versione stabile; sincronizza prima di integrare."
             ]
           },
           "masterclass": {
@@ -4037,18 +4037,18 @@
           "solution": "Un esempio di applicazione è: Descrivi cambiamenti, rischi e test effettuati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una pull request rende la modifica revisionabile»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Pull request», quale attività rispetta il principio studiato?",
+            "q": "A cosa serve una pull request?",
             "options": [
-              "Cancella la storia dei commit per tornare indietro.",
-              "Aggiungi una correzione senza verificare il risultato.",
-              "Descrivi cambiamenti, rischi e test effettuati."
+              "A cancellare automaticamente il repository.",
+              "A nascondere tutte le differenze.",
+              "A proporre e revisionare modifiche prima del merge."
             ],
             "answer": 2,
-            "why": "Una pull request rende la modifica revisionabile.",
+            "why": "Una pull request permette revisione e confronto delle modifiche prima del merge.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una pull request rende la modifica revisionabile.",
-              "Non è l'approccio previsto per questo laboratorio. Una pull request rende la modifica revisionabile.",
-              "Corretto. Una pull request rende la modifica revisionabile."
+              "Rivedi il principio. Una pull request permette revisione e confronto delle modifiche prima del merge.",
+              "Rivedi il principio. Una pull request permette revisione e confronto delle modifiche prima del merge.",
+              "Corretto. Una pull request permette revisione e confronto delle modifiche prima del merge."
             ]
           },
           "masterclass": {
@@ -4124,18 +4124,18 @@
           "solution": "Un esempio di applicazione è: Crea un tag e note di rilascio. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una release identifica una versione riproducibile»), correggilo e ripeti il test.",
           "caseStudy": "Crea un branch per una modifica, registra un commit descrittivo e controlla il diff prima del merge.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Release», quale attività rispetta il principio studiato?",
+            "q": "Cosa rende una release identificabile?",
             "options": [
-              "Crea un tag e note di rilascio.",
-              "Cancella la storia dei commit per tornare indietro.",
-              "Aggiungi una correzione senza verificare il risultato."
+              "Versione, note e riferimenti ai test.",
+              "Solo il nome del computer.",
+              "Un file senza versione."
             ],
             "answer": 0,
-            "why": "Una release identifica una versione riproducibile.",
+            "why": "Una release identifica una versione distribuibile, con note, test e possibilità di ripristino.",
             "feedback": [
-              "Corretto. Una release identifica una versione riproducibile.",
-              "Non è l'approccio previsto per questo laboratorio. Una release identifica una versione riproducibile.",
-              "Non è l'approccio previsto per questo laboratorio. Una release identifica una versione riproducibile."
+              "Corretto. Una release identifica una versione distribuibile, con note, test e possibilità di ripristino.",
+              "Rivedi il principio. Una release identifica una versione distribuibile, con note, test e possibilità di ripristino.",
+              "Rivedi il principio. Una release identifica una versione distribuibile, con note, test e possibilità di ripristino."
             ]
           },
           "masterclass": {
@@ -4225,18 +4225,18 @@
           "solution": "Un esempio di applicazione è: Rinomina copie di file in una cartella di prova. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno script automatizza un compito ripetibile»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Script», quale attività rispetta il principio studiato?",
+            "q": "Prima di eseguire uno script che rinomina file reali cosa fai?",
             "options": [
-              "Restituisci un valore arbitrario senza documentarlo.",
-              "Ignora il caso vuoto perché non è il caso tipico.",
-              "Rinomina copie di file in una cartella di prova."
+              "Lo esegui subito sull'unica copia.",
+              "Elimini il backup.",
+              "Lo provi su copie rappresentative."
             ],
             "answer": 2,
-            "why": "Uno script automatizza un compito ripetibile.",
+            "why": "Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Uno script automatizza un compito ripetibile.",
-              "Non è l'approccio previsto per questo laboratorio. Uno script automatizza un compito ripetibile.",
-              "Corretto. Uno script automatizza un compito ripetibile."
+              "Rivedi il principio. Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali.",
+              "Rivedi il principio. Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali.",
+              "Corretto. Uno script automatizza istruzioni ripetibili; prova su copie prima di modificare file reali."
             ]
           },
           "masterclass": {
@@ -4312,18 +4312,18 @@
           "solution": "Un esempio di applicazione è: Leggi un CSV e raggruppa righe per categoria. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Distingui liste, dizionari e tipi scalari»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Dati», quale attività rispetta il principio studiato?",
+            "q": "Quale controllo precede una somma di valori letti da CSV?",
             "options": [
-              "Restituisci un valore arbitrario senza documentarlo.",
-              "Ignora il caso vuoto perché non è il caso tipico.",
-              "Leggi un CSV e raggruppa righe per categoria."
+              "Sommi tutte le stringhe direttamente.",
+              "Sostituisci ogni valore con zero.",
+              "Verifichi tipi, conversioni e valori mancanti."
             ],
             "answer": 2,
-            "why": "Distingui liste, dizionari e tipi scalari.",
+            "why": "I dati hanno tipi e struttura; controlla valori mancanti e conversioni.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Distingui liste, dizionari e tipi scalari.",
-              "Non è l'approccio previsto per questo laboratorio. Distingui liste, dizionari e tipi scalari.",
-              "Corretto. Distingui liste, dizionari e tipi scalari."
+              "Rivedi il principio. I dati hanno tipi e struttura; controlla valori mancanti e conversioni.",
+              "Rivedi il principio. I dati hanno tipi e struttura; controlla valori mancanti e conversioni.",
+              "Corretto. I dati hanno tipi e struttura; controlla valori mancanti e conversioni."
             ]
           },
           "masterclass": {
@@ -4399,18 +4399,18 @@
           "solution": "Un esempio di applicazione è: Verifica una funzione con lista vuota e valori duplicati. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Testa funzioni con casi normali e limite»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Funzioni e test», quale attività rispetta il principio studiato?",
+            "q": "Quale caso limite testi per una funzione di divisione?",
             "options": [
-              "Verifica una funzione con lista vuota e valori duplicati.",
-              "Restituisci un valore arbitrario senza documentarlo.",
-              "Ignora il caso vuoto perché non è il caso tipico."
+              "Divisore zero.",
+              "Soltanto 10 diviso 2.",
+              "Solo il nome della funzione."
             ],
             "answer": 0,
-            "why": "Testa funzioni con casi normali e limite.",
+            "why": "Un test confronta risultato atteso ed effettivo; includi casi normali e limite.",
             "feedback": [
-              "Corretto. Testa funzioni con casi normali e limite.",
-              "Non è l'approccio previsto per questo laboratorio. Testa funzioni con casi normali e limite.",
-              "Non è l'approccio previsto per questo laboratorio. Testa funzioni con casi normali e limite."
+              "Corretto. Un test confronta risultato atteso ed effettivo; includi casi normali e limite.",
+              "Rivedi il principio. Un test confronta risultato atteso ed effettivo; includi casi normali e limite.",
+              "Rivedi il principio. Un test confronta risultato atteso ed effettivo; includi casi normali e limite."
             ]
           },
           "masterclass": {
@@ -4486,18 +4486,18 @@
           "solution": "Un esempio di applicazione è: Intercetta FileNotFoundError e mostra il percorso. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gestisci eccezioni specifiche senza nascondere errori»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Errori», quale attività rispetta il principio studiato?",
+            "q": "Un file richiesto non esiste. Come gestisci l'errore?",
             "options": [
-              "Intercetta FileNotFoundError e mostra il percorso.",
-              "Restituisci un valore arbitrario senza documentarlo.",
-              "Ignora il caso vuoto perché non è il caso tipico."
+              "Mostri un messaggio esplicito e interrompi l'operazione dipendente.",
+              "Dichiari successo.",
+              "Ignori sempre l'eccezione."
             ],
             "answer": 0,
-            "why": "Gestisci eccezioni specifiche senza nascondere errori.",
+            "why": "Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo.",
             "feedback": [
-              "Corretto. Gestisci eccezioni specifiche senza nascondere errori.",
-              "Non è l'approccio previsto per questo laboratorio. Gestisci eccezioni specifiche senza nascondere errori.",
-              "Non è l'approccio previsto per questo laboratorio. Gestisci eccezioni specifiche senza nascondere errori."
+              "Corretto. Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo.",
+              "Rivedi il principio. Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo.",
+              "Rivedi il principio. Gestisci errori prevedibili con messaggi espliciti; non nascondere eccezioni senza motivo."
             ]
           },
           "masterclass": {
@@ -4573,18 +4573,18 @@
           "solution": "Un esempio di applicazione è: Crea un comando che produce un report CSV. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una utility ha input documentati e output prevedibile»), correggilo e ripeti il test.",
           "caseStudy": "Leggi un CSV con csv.DictReader, valida i campi numerici e testa una riga mancante.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Utility», quale attività rispetta il principio studiato?",
+            "q": "Cosa documenti per rendere una utility riutilizzabile?",
             "options": [
-              "Crea un comando che produce un report CSV.",
-              "Restituisci un valore arbitrario senza documentarlo.",
-              "Ignora il caso vuoto perché non è il caso tipico."
+              "Input, output, istruzioni e condizioni di errore.",
+              "Solo il nome dell'autore.",
+              "Solo il colore del terminale."
             ],
             "answer": 0,
-            "why": "Una utility ha input documentati e output prevedibile.",
+            "why": "Una utility risolve un compito specifico con input, output e istruzioni ripetibili.",
             "feedback": [
-              "Corretto. Una utility ha input documentati e output prevedibile.",
-              "Non è l'approccio previsto per questo laboratorio. Una utility ha input documentati e output prevedibile.",
-              "Non è l'approccio previsto per questo laboratorio. Una utility ha input documentati e output prevedibile."
+              "Corretto. Una utility risolve un compito specifico con input, output e istruzioni ripetibili.",
+              "Rivedi il principio. Una utility risolve un compito specifico con input, output e istruzioni ripetibili.",
+              "Rivedi il principio. Una utility risolve un compito specifico con input, output e istruzioni ripetibili."
             ]
           },
           "masterclass": {
@@ -4674,18 +4674,18 @@
           "solution": "Un esempio di applicazione è: Collega utenti e progetti con chiavi esterne. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Uno schema definisce entità, relazioni e vincoli»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Schema dati», quale attività rispetta il principio studiato?",
+            "q": "A cosa serve una chiave primaria?",
             "options": [
-              "Collega utenti e progetti con chiavi esterne.",
-              "Verifica soltanto che ogni utente veda le proprie note.",
-              "Prova con un solo account amministratore."
+              "A identificare univocamente una riga.",
+              "A colorare una tabella.",
+              "A rendere uguali tutti i record."
             ],
             "answer": 0,
-            "why": "Uno schema definisce entità, relazioni e vincoli.",
+            "why": "Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record.",
             "feedback": [
-              "Corretto. Uno schema definisce entità, relazioni e vincoli.",
-              "Non è l'approccio previsto per questo laboratorio. Uno schema definisce entità, relazioni e vincoli.",
-              "Non è l'approccio previsto per questo laboratorio. Uno schema definisce entità, relazioni e vincoli."
+              "Corretto. Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record.",
+              "Rivedi il principio. Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record.",
+              "Rivedi il principio. Uno schema dati definisce tabelle, campi, relazioni e vincoli; una chiave identifica un record."
             ]
           },
           "masterclass": {
@@ -4761,18 +4761,18 @@
           "solution": "Un esempio di applicazione è: Filtra progetti per stato e ordina per data. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Una query seleziona solo i dati necessari»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Query», quale attività rispetta il principio studiato?",
+            "q": "Quale istruzione SQL legge dati senza modificarli?",
             "options": [
-              "Prova con un solo account amministratore.",
-              "Filtra progetti per stato e ordina per data.",
-              "Verifica soltanto che ogni utente veda le proprie note."
+              "UPDATE.",
+              "SELECT.",
+              "DELETE."
             ],
             "answer": 1,
-            "why": "Una query seleziona solo i dati necessari.",
+            "why": "Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Una query seleziona solo i dati necessari.",
-              "Corretto. Una query seleziona solo i dati necessari.",
-              "Non è l'approccio previsto per questo laboratorio. Una query seleziona solo i dati necessari."
+              "Rivedi il principio. Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche.",
+              "Corretto. Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche.",
+              "Rivedi il principio. Una query seleziona o modifica dati secondo condizioni; prova prima le letture e limita le modifiche."
             ]
           },
           "masterclass": {
@@ -4848,18 +4848,18 @@
           "solution": "Un esempio di applicazione è: Distingui sessione utente e permesso di modifica. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Autenticazione identifica, autorizzazione concede accesso»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Login», quale attività rispetta il principio studiato?",
+            "q": "Un utente autenticato può leggere automaticamente tutti i record?",
             "options": [
-              "Distingui sessione utente e permesso di modifica.",
-              "Verifica soltanto che ogni utente veda le proprie note.",
-              "Prova con un solo account amministratore."
+              "No, servono autorizzazioni appropriate.",
+              "Sì, sempre.",
+              "Sì, se conosce il nome della tabella."
             ],
             "answer": 0,
-            "why": "Autenticazione identifica, autorizzazione concede accesso.",
+            "why": "Il login verifica identità; non sostituisce il controllo dei permessi sui dati.",
             "feedback": [
-              "Corretto. Autenticazione identifica, autorizzazione concede accesso.",
-              "Non è l'approccio previsto per questo laboratorio. Autenticazione identifica, autorizzazione concede accesso.",
-              "Non è l'approccio previsto per questo laboratorio. Autenticazione identifica, autorizzazione concede accesso."
+              "Corretto. Il login verifica identità; non sostituisce il controllo dei permessi sui dati.",
+              "Rivedi il principio. Il login verifica identità; non sostituisce il controllo dei permessi sui dati.",
+              "Rivedi il principio. Il login verifica identità; non sostituisce il controllo dei permessi sui dati."
             ]
           },
           "masterclass": {
@@ -4935,18 +4935,18 @@
           "solution": "Un esempio di applicazione è: Verifica che A non legga i progetti di B. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («RLS applica regole di accesso alle righe sul database»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Permessi RLS», quale attività rispetta il principio studiato?",
+            "q": "Come verifichi una regola RLS per dati personali?",
             "options": [
-              "Prova con un solo account amministratore.",
-              "Verifica che A non legga i progetti di B.",
-              "Verifica soltanto che ogni utente veda le proprie note."
+              "Nascondi le righe soltanto nell'interfaccia.",
+              "Provi accessi con utenti distinti e controlli le righe visibili.",
+              "Provi solo come amministratore."
             ],
             "answer": 1,
-            "why": "RLS applica regole di accesso alle righe sul database.",
+            "why": "RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. RLS applica regole di accesso alle righe sul database.",
-              "Corretto. RLS applica regole di accesso alle righe sul database.",
-              "Non è l'approccio previsto per questo laboratorio. RLS applica regole di accesso alle righe sul database."
+              "Rivedi il principio. RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti.",
+              "Corretto. RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti.",
+              "Rivedi il principio. RLS applica regole di accesso a livello di riga nel database; verifica con utenti distinti."
             ]
           },
           "masterclass": {
@@ -5022,18 +5022,18 @@
           "solution": "Un esempio di applicazione è: Crea e modifica un progetto con validazione. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un’app dati deve gestire errori e consistenza»), correggilo e ripeti il test.",
           "caseStudy": "Separa utenti e progetti con chiavi esterne; prova che un utente non possa leggere i record di un altro.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «App dati», quale attività rispetta il principio studiato?",
+            "q": "Il database rifiuta un inserimento non valido. Cosa mostra l'app?",
             "options": [
-              "Prova con un solo account amministratore.",
-              "Crea e modifica un progetto con validazione.",
-              "Verifica soltanto che ogni utente veda le proprie note."
+              "Le credenziali del database.",
+              "Un errore comprensibile senza dichiarare successo.",
+              "Un messaggio di successo."
             ],
             "answer": 1,
-            "why": "Un’app dati deve gestire errori e consistenza.",
+            "why": "Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un’app dati deve gestire errori e consistenza.",
-              "Corretto. Un’app dati deve gestire errori e consistenza.",
-              "Non è l'approccio previsto per questo laboratorio. Un’app dati deve gestire errori e consistenza."
+              "Rivedi il principio. Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori.",
+              "Corretto. Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori.",
+              "Rivedi il principio. Una app dati collega interfaccia e database; gestisci validazione, permessi ed errori."
             ]
           },
           "masterclass": {
@@ -5123,18 +5123,18 @@
           "solution": "Un esempio di applicazione è: Distingui GET 200 da POST 201 e 401. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («HTTP usa metodi, status e intestazioni»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «HTTP», quale attività rispetta il principio studiato?",
+            "q": "Quale codice HTTP indica normalmente una risorsa non trovata?",
             "options": [
-              "Interpreta 429 come successo e continua.",
-              "Distingui GET 200 da POST 201 e 401.",
-              "Ripeti subito la richiesta senza limite."
+              "201.",
+              "404.",
+              "200."
             ],
             "answer": 1,
-            "why": "HTTP usa metodi, status e intestazioni.",
+            "why": "HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. HTTP usa metodi, status e intestazioni.",
-              "Corretto. HTTP usa metodi, status e intestazioni.",
-              "Non è l'approccio previsto per questo laboratorio. HTTP usa metodi, status e intestazioni."
+              "Rivedi il principio. HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato.",
+              "Corretto. HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato.",
+              "Rivedi il principio. HTTP definisce richieste e risposte con metodi, intestazioni e codici di stato."
             ]
           },
           "masterclass": {
@@ -5210,18 +5210,18 @@
           "solution": "Un esempio di applicazione è: Controlla response.ok prima di leggere JSON. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Fetch non rifiuta automaticamente ogni errore HTTP»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Fetch», quale attività rispetta il principio studiato?",
+            "q": "Fetch riceve una risposta HTTP 500. Quale controllo serve?",
             "options": [
-              "Interpreta 429 come successo e continua.",
-              "Controlla response.ok prima di leggere JSON.",
-              "Ripeti subito la richiesta senza limite."
+              "Controllare soltanto il nome della funzione.",
+              "Verificare response.ok o lo status.",
+              "Considerare ogni risposta ricevuta un successo."
             ],
             "answer": 1,
-            "why": "Fetch non rifiuta automaticamente ogni errore HTTP.",
+            "why": "Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Fetch non rifiuta automaticamente ogni errore HTTP.",
-              "Corretto. Fetch non rifiuta automaticamente ogni errore HTTP.",
-              "Non è l'approccio previsto per questo laboratorio. Fetch non rifiuta automaticamente ogni errore HTTP."
+              "Rivedi il principio. Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete.",
+              "Corretto. Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete.",
+              "Rivedi il principio. Fetch permette richieste asincrone dal browser; controlla status HTTP oltre agli errori di rete."
             ]
           },
           "masterclass": {
@@ -5297,18 +5297,18 @@
           "solution": "Un esempio di applicazione è: Mostra un messaggio quando la lista è vuota. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Gli stati UI includono caricamento, vuoto, errore e successo»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Stati UI», quale attività rispetta il principio studiato?",
+            "q": "Una ricerca termina correttamente senza risultati. Quale stato mostri?",
             "options": [
-              "Ripeti subito la richiesta senza limite.",
-              "Interpreta 429 come successo e continua.",
-              "Mostra un messaggio quando la lista è vuota."
+              "Errore di rete.",
+              "Caricamento infinito.",
+              "Nessun risultato trovato."
             ],
             "answer": 2,
-            "why": "Gli stati UI includono caricamento, vuoto, errore e successo.",
+            "why": "Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Gli stati UI includono caricamento, vuoto, errore e successo.",
-              "Non è l'approccio previsto per questo laboratorio. Gli stati UI includono caricamento, vuoto, errore e successo.",
-              "Corretto. Gli stati UI includono caricamento, vuoto, errore e successo."
+              "Rivedi il principio. Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade.",
+              "Rivedi il principio. Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade.",
+              "Corretto. Gli stati UI distinguono attesa, successo, errore e assenza di dati; comunica cosa accade."
             ]
           },
           "masterclass": {
@@ -5384,18 +5384,18 @@
           "solution": "Un esempio di applicazione è: Isola il client API dalla funzione di rendering. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Separa presentazione, logica e accesso ai dati»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «Architettura», quale attività rispetta il principio studiato?",
+            "q": "Dove mantieni una chiave API privata usata dall'app?",
             "options": [
-              "Ripeti subito la richiesta senza limite.",
-              "Interpreta 429 come successo e continua.",
-              "Isola il client API dalla funzione di rendering."
+              "Nel JavaScript inviato al browser.",
+              "Nel testo della pagina.",
+              "Sul server, fuori dal codice pubblico."
             ],
             "answer": 2,
-            "why": "Separa presentazione, logica e accesso ai dati.",
+            "why": "L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Separa presentazione, logica e accesso ai dati.",
-              "Non è l'approccio previsto per questo laboratorio. Separa presentazione, logica e accesso ai dati.",
-              "Corretto. Separa presentazione, logica e accesso ai dati."
+              "Rivedi il principio. L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server.",
+              "Rivedi il principio. L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server.",
+              "Corretto. L'architettura separa responsabilità di interfaccia, logica e dati; mantieni i segreti sul server."
             ]
           },
           "masterclass": {
@@ -5471,18 +5471,18 @@
           "solution": "Un esempio di applicazione è: Prova creazione, modifica e rete assente. Il controllo deve produrre un’evidenza ripetibile; se il risultato non rispetta il principio («Un’app completa integra flussi e gestione degli errori»), correggilo e ripeti il test.",
           "caseStudy": "Gestisci una risposta HTTP 200, 404 e 500; mostra stati caricamento, errore e successo senza esporre segreti.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «App completa», quale attività rispetta il principio studiato?",
+            "q": "Quale prova verifica il flusso completo di un'app?",
             "options": [
-              "Ripeti subito la richiesta senza limite.",
-              "Interpreta 429 come successo e continua.",
-              "Prova creazione, modifica e rete assente."
+              "Solo apertura della pagina iniziale.",
+              "Solo controllo del logo.",
+              "Input valido, risultato atteso e gestione di un errore simulato."
             ],
             "answer": 2,
-            "why": "Un’app completa integra flussi e gestione degli errori.",
+            "why": "Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. Un’app completa integra flussi e gestione degli errori.",
-              "Non è l'approccio previsto per questo laboratorio. Un’app completa integra flussi e gestione degli errori.",
-              "Corretto. Un’app completa integra flussi e gestione degli errori."
+              "Rivedi il principio. Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore.",
+              "Rivedi il principio. Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore.",
+              "Corretto. Una app completa gestisce il flusso dall'input al risultato, comprese condizioni di errore."
             ]
           },
           "masterclass": {
