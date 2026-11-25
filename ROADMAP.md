@@ -57,7 +57,7 @@ Direzione approvata dall'utente: conservare l'architettura dell'Academy ed eleva
 
 Piano: 0) consolidamento documentale; 1) profili professionali, prerequisiti e benchmark preliminare; 2) audit tracciabile delle 264 sessioni, 528 quiz, 1584 feedback, risorse, laboratori e tempi; classificare conservare/integrare/riprogettare con evidenze; 3) standard con teoria, strumenti, setup, dati/asset, esempi funzionanti, laboratorio guidato, esercizio autonomo, rubriche e portfolio; 4) prototipi Creator (app dati) e Business (ROI di un pilota AI), approvazione utente; 5) revisione per blocchi e non regressione; 6) riallineamento quiz, test runtime e valutazione finale. Benchmark finale obbligatorio dei due corsi rispetto a offerte online comparabili e programmi avanzati, con fonti ufficiali datate, prerequisiti, ore, contenuti, laboratori, valutazioni, portfolio, mentoring, costi e credenziali; distinguere confronto documentale, test studente e valutazione indipendente. Redigere giudizio critico da reader in prospettiva esterna, ma non presentarlo come revisione indipendente; proporre alternative e integrazioni qualora il livello non sia soddisfacente, senza proclamare primato di mercato non dimostrato. Benchmark esplorativo: MIT Enterprise Software Development with AI Agents, UT Austin Generative AI for Software Development, MIT Applied AI & Data Science, Google Cloud Career Launchpad, Caltech Data Analytics & GenAI; ampliare a creatività multimediale e business/BI. Fonti preliminari: https://professional.mit.edu/course-catalog/enterprise-software-development-ai-agents ; https://onlineexeced.mccombs.utexas.edu/genai-for-software-development ; https://professional-education-gl.mit.edu/mit-online-data-science-program ; https://cloud.google.com/edu/faculty/career-launchpad . Non ancora confronto completo.
 
-Prossimo intervento: Fase 2, audit tracciabile in sola lettura; Fase 1 documentata in proposta qui sotto. Nessun rilascio autorizzato.
+Prossimo intervento: Fase 2C, completare audit individuale Creator 1–6. Architettura approvata in Fase 2B in coda. Nessun rilascio autorizzato.
 
 ## Registro cronologico
 - 25/11/2026: recuperata continuità della chat precedente tramite screenshot e confronto GitHub. Branch sviluppo risultava 27 commit avanti a main e divergente da RC1 (10 avanti, 1 indietro). Main osservato: cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 osservata: e4ee85918cadccd38499772827e663fef0c34fd5. Verificate modifiche knowledgeCheck per tutte le 60 sessioni Creator settimane 1–12, nessuna per 13–24 rispetto a RC1. Nessuna modifica applicativa in questa fase.
@@ -232,3 +232,50 @@ Audit in sola lettura dei due curriculum e delle risorse: una riga per ID/sessio
 
 ### Registro Fase 1
 Branch excellence-learning-6.6; testa iniziale fdb5faf1180dd51c15f92d13a06fb56bdd3cb119; main cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0 e RC1 e4ee85918cadccd38499772827e663fef0c34fd5 confermati prima delle scritture. Ultimo applicativo 68e427bc3b1dda934749418304928fb4a25e191f: quattro commit documentali successivi prima della Fase 1. File autorizzati README.md e ROADMAP.md. Conteggi ereditati dalle verifiche precedenti, non ricontati; nessun test runtime o audit integrale in Fase 1. Prossimo passo audit Fase 2 in sola lettura.
+
+
+## Fase 2B — Architettura approvata e screening (25/11/2026)
+
+Architettura approvata: due percorsi, tre livelli ciascuno, di ispirazione universitaria (nessun titolo accademico riconosciuto). Creator: AI & Digital Foundations; Applied AI & Development; Advanced AI & Digital Products. Business: AI & Business Foundations; Data Analytics & Business Intelligence; AI Strategy & Business Transformation. Ogni livello deve produrre competenze autonome dimostrabili, progetto conclusivo e portfolio. Autorizzato ampliamento progettuale del 30% o superiore se motivato dall'audit, anche differenziato per corso; non obbligatorio né autorizzazione a modificare subito l'app. Ipotesi 90 minuti medi da valutare, non definitiva. Approfondire teoria, laboratori guidati e autonomi, rubriche e recupero. Corsi esterni obbligatoriamente integrati con link diretti a corso/unità, lingua, durata, prerequisiti, costo, accesso, credenziale/esame e data verifica; distinguere badge, attestati e certificazioni. Strategia grafica Mobile First: priorità iPhone, futura compatibilità Android, tablet e desktop; navigazione inferiore, studio immersivo, accessibilità, adattamento schermi, preservazione progressi. Concept grafici approvati come direzione, non UI definitiva. Nessuna modifica applicativa prima di audit e approvazione del modello definitivo e prototipi; preservare main, RC1, ID, attività, indici, progressi e migrazione.
+
+Fase 2A: ricontati 120/144 sessioni, 240/288 quiz, 720/864 feedback; 240/180 quiz con feedback distinti; nessun indice fuori intervallo o numero opzioni/feedback diverso da tre. 120/144 ore nominali. Mediana teoria 48/35 parole (intervalli 42–78/29–45); esempi distinti 120/48, casi studio e masterclass 24/48, soluzioni 120/1, ripasso 1/1, URL principali 13/15. Indicatori strutturali, non qualità certificata. Mappatura provvisoria Creator settimane 1–6, 7–12, 13–24; Business 1–12, 21–36, 13–20 e 37–48, anticipando matematica/Excel. Nessuno spostamento effettuato.
+
+Avviato screening qualitativo Creator 1–6 (30 ID, classificazione preliminare integrare); dettagli in ROADMAP. Prossimo passo 2C: completare audit individuale delle prime 30 sessioni, poi blocchi successivi. Nessun test runtime o verifica online; audit integrale non concluso.
+
+
+Letti teoria, esempio, consegna, testi dei due quiz e URL per 30 ID; classificazione preliminare, non audit completo. Prerequisiti, setup, asset, soluzioni, criteri, opzioni/feedback e tempo reale da verificare. URL condivisi: catalogo OpenAI Academy (1,3,6), overview Anthropic (2), categoria Figma (4,5); non verificati online. Gravità preliminare media per profondità, alta per prerequisiti JSON e accesso a laboratori specifici.
+
+| ID | Esito preliminare | Integrazione |
+|---|---|---|
+| cr-w01s1 | Integrare | Matrice: prerequisiti logici e dataset |
+| cr-w01s2 | Integrare | Limiti: errori verificabili |
+| cr-w01s3 | Integrare | Verifica: registro fonti |
+| cr-w01s4 | Integrare | Riservatezza: dati sintetici e metadati |
+| cr-w01s5 | Integrare | Assistente: test confini |
+| cr-w02s1 | Integrare | Brief: template cliente |
+| cr-w02s2 | Integrare | Few-shot: casi bilanciati |
+| cr-w02s3 | Integrare | Contesto: documenti e test istruzioni ostili |
+| cr-w02s4 | Integrare | JSON: tipi e validatore |
+| cr-w02s5 | Integrare | Libreria: versioni e regressione |
+| cr-w03s1 | Integrare | Delega: rischio e reversibilità |
+| cr-w03s2 | Integrare | Tappe: dipendenze e accettazione |
+| cr-w03s3 | Integrare | Rubrica: descrittori osservabili |
+| cr-w03s4 | Integrare | Costi: foglio calcolo |
+| cr-w03s5 | Integrare | Workflow: revisioni e consegna |
+| cr-w04s1 | Integrare | Moodboard: licenze |
+| cr-w04s2 | Integrare | Palette: soglie contrasto |
+| cr-w04s3 | Integrare | Tipografia: leggibilità mobile |
+| cr-w04s4 | Integrare | Logo: vettoriali e diritti |
+| cr-w04s5 | Integrare | Brand kit: template |
+| cr-w05s1 | Integrare | Persona: ricerca |
+| cr-w05s2 | Integrare | User flow: errori e recupero |
+| cr-w05s3 | Integrare | Wireframe: priorità mobile |
+| cr-w05s4 | Integrare | Prototipo: guida Figma |
+| cr-w05s5 | Integrare | Usabilità: protocollo e metriche |
+| cr-w06s1 | Integrare | Storyboard: tempi scena |
+| cr-w06s2 | Integrare | Immagini: iterazioni e diritti |
+| cr-w06s3 | Integrare | Video: audio sottotitoli export |
+| cr-w06s4 | Integrare | Copy: claim e canali |
+| cr-w06s5 | Integrare | Pacchetto: progetto e rubrica |
+
+Registro: testa iniziale a15c00e2ea8a020139c6da75fcd1f31462710478; main cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0 e RC1 e4ee85918cadccd38499772827e663fef0c34fd5 confermati; ultimo applicativo 68e427bc3b1dda934749418304928fb4a25e191f. README commit f4dd9201af453625ae4681b8f28137efe162693b riletto esattamente. Primo tentativo ROADMAP errore interno, ripresa dopo controllo blob. Prossimo passo completare schede 30 sessioni e 60 quiz/180 feedback, poi Creator 7–12, 13–18, 19–24, Business e risorse. Pulsante prosecuzione richiesto dall'utente. Nessun test runtime o verifica online.
