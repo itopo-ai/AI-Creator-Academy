@@ -8289,17 +8289,17 @@
           },
           "advancedCheck": [
             {
-              "q": "Il PRD richiede una ricerca veloce ma non definisce quanto. Come rendi il requisito verificabile?",
+              "q": "Il PRD richiede una ricerca veloce, senza indicare cosa significhi veloce. Come rendi verificabile il requisito?",
               "options": [
-                "Indica soltanto che la ricerca deve essere moderna.",
-                "Lascia decidere la velocità al momento del rilascio.",
-                "Definisci un tempo massimo misurabile, un carico di prova e un criterio di accettazione."
+                "Aggiungi la parola molto prima di veloce.",
+                "Scegli subito una tecnologia senza definire la soglia.",
+                "Definisci un tempo di risposta misurabile, il carico previsto e il criterio di accettazione."
               ],
               "answer": 2,
               "why": "Una soglia misurabile in condizioni definite permette di verificare il requisito.",
               "feedback": [
-                "Moderna non descrive una prestazione osservabile.",
-                "Decidere dopo impedisce di valutare il risultato rispetto a un obiettivo concordato.",
+                "Un aggettivo più forte non rende il requisito misurabile.",
+                "La tecnologia è una scelta implementativa, non un criterio di accettazione.",
                 "Corretto. Una soglia misurabile in condizioni definite permette di verificare il requisito."
               ]
             }
@@ -8376,18 +8376,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Nel backlog convivono un errore che perde dati e una nuova animazione. Quale priorità assegni prima della beta?",
+              "q": "Nel backlog competono un difetto che impedisce il login e un nuovo tema grafico. Quale priorità è motivata?",
               "options": [
-                "Correggi la perdita di dati e verifica il recupero prima di lavorare all’animazione.",
-                "Realizza prima l’animazione perché è visibile.",
-                "Ordina le attività soltanto per durata crescente."
+                "Correggi il login prima del tema, valutando impatto e dipendenze.",
+                "Scegli il tema perché è più visibile.",
+                "Ordina le attività solo per data di inserimento."
               ],
               "answer": 0,
-              "why": "La gravità del rischio e il valore per l’utente guidano la priorità.",
+              "why": "Il login bloccante impedisce l’uso del prodotto e ha priorità rispetto a un miglioramento estetico.",
               "feedback": [
-                "Corretto. La gravità del rischio e il valore per l’utente guidano la priorità.",
-                "La visibilità non compensa un difetto che compromette i dati.",
-                "La durata da sola non considera impatto e dipendenze."
+                "Corretto. Il login bloccante impedisce l’uso del prodotto e ha priorità rispetto a un miglioramento estetico.",
+                "La visibilità non misura la gravità del problema.",
+                "L’ordine cronologico non considera impatto e dipendenze."
               ]
             }
           ],
@@ -8463,18 +8463,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app deve funzionare offline e sincronizzare modifiche al ritorno della rete. Quale decisione architetturale serve?",
+              "q": "Un'app deve cambiare fornitore AI senza riscrivere l’interfaccia. Quale scelta architetturale aiuta?",
               "options": [
-                "Definisci persistenza locale, coda di sincronizzazione e gestione dei conflitti.",
-                "Salva tutto esclusivamente sul server a ogni clic.",
-                "Usa una cache grafica senza conservare le modifiche."
+                "Isola le chiamate al fornitore dietro un’interfaccia applicativa comune.",
+                "Inserisci chiamate specifiche al fornitore in ogni componente grafico.",
+                "Duplica tutta l’app per ogni fornitore."
               ],
               "answer": 0,
-              "why": "L’architettura deve preservare le modifiche offline e riconciliare gli stati al ritorno della rete.",
+              "why": "Un adattatore separa il contratto applicativo dai dettagli del fornitore.",
               "feedback": [
-                "Corretto. L’architettura deve preservare le modifiche offline e riconciliare gli stati al ritorno della rete.",
-                "La scrittura esclusivamente remota non funziona senza connessione.",
-                "La cache grafica non garantisce la persistenza delle modifiche."
+                "Corretto. Un adattatore separa il contratto applicativo dai dettagli del fornitore.",
+                "Distribuire le chiamate aumenta i punti da modificare.",
+                "Duplicare l’app moltiplica manutenzione e rischi di incoerenza."
               ]
             }
           ],
@@ -8550,18 +8550,18 @@
           },
           "advancedCheck": [
             {
-              "q": "A metà sprint emerge una dipendenza che blocca la funzione principale. Come aggiorni il piano?",
+              "q": "Uno sprint ha capacità per quattro attività ma ne contiene sette. Come proteggi l’obiettivo?",
               "options": [
-                "Rendi visibile il blocco, rivaluta con il team il perimetro e proteggi l’obiettivo dello sprint.",
-                "Mantieni tutte le attività senza considerare la dipendenza.",
-                "Segna la funzione come completata per rispettare il piano."
+                "Concorda un obiettivo e seleziona attività compatibili con la capacità, rinviando le altre.",
+                "Mantieni tutte le attività e dichiara completate quelle iniziate.",
+                "Aumenta la stima della capacità senza nuove risorse."
               ],
               "answer": 0,
-              "why": "Un piano adattato alle evidenze mantiene trasparenti obiettivi e capacità.",
+              "why": "Un perimetro realistico rende verificabile il risultato dello sprint.",
               "feedback": [
-                "Corretto. Un piano adattato alle evidenze mantiene trasparenti obiettivi e capacità.",
-                "Ignorare la dipendenza non rende realizzabile il lavoro.",
-                "Dichiarare completato un lavoro bloccato falsifica lo stato."
+                "Corretto. Un perimetro realistico rende verificabile il risultato dello sprint.",
+                "Iniziare un’attività non equivale a completarla.",
+                "Cambiare una stima non crea capacità effettiva."
               ]
             }
           ],
@@ -8637,18 +8637,18 @@
           },
           "advancedCheck": [
             {
-              "q": "In tre sprint consecutivi i test arrivano troppo tardi. Quale azione di retrospettiva è verificabile?",
+              "q": "Due sprint consecutivi hanno ritardi dovuti a requisiti ambigui. Quale azione di retrospettiva è verificabile?",
               "options": [
-                "Chiedi genericamente al team di essere più attento.",
-                "Aumenta la durata delle riunioni senza cambiare il processo.",
-                "Integra i test nei criteri di completamento e misura quante attività li superano prima della chiusura."
+                "Chiedi genericamente al team di essere più veloce.",
+                "Elimina le retrospettive per recuperare tempo.",
+                "Introduci criteri di accettazione prima dello sprint e misura le richieste di chiarimento nel successivo."
               ],
               "answer": 2,
-              "why": "Un’azione concreta con una misura consente di verificare il miglioramento.",
+              "why": "Un cambiamento concreto con una misura permette di verificare se la causa viene ridotta.",
               "feedback": [
-                "Un invito generico non identifica un cambiamento operativo.",
-                "Più tempo in riunione non garantisce test anticipati.",
-                "Corretto. Un’azione concreta con una misura consente di verificare il miglioramento."
+                "La velocità non risolve direttamente l’ambiguità dei requisiti.",
+                "Eliminare la retrospettiva non affronta la causa ricorrente.",
+                "Corretto. Un cambiamento concreto con una misura permette di verificare se la causa viene ridotta."
               ]
             }
           ],
@@ -8738,18 +8738,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app di note sincronizza dati personali su un server. Quale analisi iniziale individua i rischi principali?",
+              "q": "Un’app permette di caricare documenti riservati e condividerli. Quale analisi avvia il threat model?",
               "options": [
-                "Controlla soltanto il colore dell’interfaccia.",
-                "Elenca solo i guasti già segnalati dagli utenti.",
-                "Mappa dati, confini di fiducia, accessi e possibili abusi, poi associa mitigazioni."
+                "Elenca soltanto i colori delle schermate.",
+                "Considera sicuri tutti i flussi perché richiedono login.",
+                "Identifica dati, flussi, confini di fiducia e possibili accessi non autorizzati."
               ],
               "answer": 2,
-              "why": "Un threat model considera risorse, percorsi e minacce anche prima che si verifichino incidenti.",
+              "why": "Il modello delle minacce parte dagli asset e dai percorsi attraverso cui possono essere compromessi.",
               "feedback": [
-                "Lo stile visivo non descrive i rischi per i dati.",
-                "Limitarsi ai guasti noti trascura minacce non ancora osservate.",
-                "Corretto. Un threat model considera risorse, percorsi e minacce anche prima che si verifichino incidenti."
+                "I colori non descrivono i rischi per i documenti.",
+                "Il login non garantisce autorizzazioni corrette su ogni documento.",
+                "Corretto. Il modello delle minacce parte dagli asset e dai percorsi attraverso cui possono essere compromessi."
               ]
             }
           ],
@@ -8828,15 +8828,15 @@
               "q": "Una chiave API è stata pubblicata per errore in un repository pubblico. Quale intervento è prioritario?",
               "options": [
                 "Elimina soltanto la riga nell’ultimo commit.",
-                "Revoca o ruota la chiave, verifica gli utilizzi e rimuovi il segreto dal codice.",
-                "Rendi privata la pagina del progetto senza revocare la chiave."
+                "Revoca o ruota la chiave, verifica gli utilizzi e rimuovi il segreto dalla cronologia pubblicabile.",
+                "Rendi privata la pagina che documenta la chiave senza revocarla."
               ],
               "answer": 1,
-              "why": "Una chiave esposta può essere stata copiata: revoca e verifica limitano ulteriori abusi.",
+              "why": "Una chiave esposta può essere già stata copiata: revoca e verifica riducono il rischio residuo.",
               "feedback": [
-                "La cronologia e le copie possono conservare il segreto.",
-                "Corretto. Una chiave esposta può essere stata copiata: revoca e verifica limitano ulteriori abusi.",
-                "Cambiare visibilità non invalida una chiave già copiata."
+                "La chiave può restare nella cronologia o in copie esterne.",
+                "Corretto. Una chiave esposta può essere già stata copiata: revoca e verifica riducono il rischio residuo.",
+                "Limitare la visibilità successiva non invalida una chiave già esposta."
               ]
             }
           ],
@@ -8912,18 +8912,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un utente può leggere un progetto condiviso ma non modificarlo. Dove imponi il divieto di scrittura?",
+              "q": "Un utente ordinario invia direttamente una richiesta a un endpoint riservato agli amministratori. Come proteggi l’operazione?",
               "options": [
-                "Solo nascondendo il pulsante Modifica.",
-                "Solo nel testo delle istruzioni per l’utente.",
-                "Nel backend o nelle policy dati, verificando identità, risorsa e azione."
+                "Nascondi il pulsante amministrativo nell’interfaccia.",
+                "Accetta la richiesta se proviene da un utente autenticato.",
+                "Verifica sul server il ruolo e l’autorizzazione specifica prima di eseguire l’azione."
               ],
               "answer": 2,
-              "why": "L’autorizzazione deve essere applicata nel sistema che esegue la modifica.",
+              "why": "L’autorizzazione lato server deve essere applicata anche alle richieste dirette.",
               "feedback": [
-                "Un pulsante nascosto non impedisce richieste dirette.",
-                "Le istruzioni non costituiscono un controllo tecnico degli accessi.",
-                "Corretto. L’autorizzazione deve essere applicata nel sistema che esegue la modifica."
+                "Nascondere il pulsante non impedisce di chiamare l’endpoint.",
+                "Essere autenticati non equivale ad avere privilegi amministrativi.",
+                "Corretto. L’autorizzazione lato server deve essere applicata anche alle richieste dirette."
               ]
             }
           ],
@@ -8999,18 +8999,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un commento contiene caratteri HTML e deve essere mostrato come testo. Come eviti che diventi codice eseguibile?",
+              "q": "Un campo di ricerca viene usato in una query SQL. Quale soluzione riduce il rischio di injection?",
               "options": [
-                "Visualizzalo tramite un’API testuale sicura o applica escaping adatto al contesto.",
-                "Inseriscilo direttamente come HTML perché proviene da un form.",
-                "Rimuovi soltanto gli spazi dal commento."
+                "Usa query parametrizzate e valida l’input secondo il formato previsto.",
+                "Concatena il testo direttamente alla query dopo averlo abbreviato.",
+                "Rimuovi soltanto gli spazi dal testo."
               ],
               "answer": 0,
-              "why": "Trattare l’input come testo impedisce al browser di interpretarlo come markup attivo.",
+              "why": "I parametri separano i dati dal codice SQL; la validazione aggiunge un controllo sul dominio.",
               "feedback": [
-                "Corretto. Trattare l’input come testo impedisce al browser di interpretarlo come markup attivo.",
-                "Un form non rende affidabile il contenuto inserito.",
-                "Rimuovere spazi non neutralizza il markup pericoloso."
+                "Corretto. I parametri separano i dati dal codice SQL; la validazione aggiunge un controllo sul dominio.",
+                "Abbreviare il testo non impedisce che venga interpretato come codice.",
+                "Rimuovere gli spazi non garantisce la separazione tra dati e istruzioni."
               ]
             }
           ],
@@ -9086,18 +9086,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La checklist di sicurezza è tutta spuntata ma manca una prova dei permessi tra utenti. Come chiudi il controllo?",
+              "q": "La checklist di sicurezza indica che tutti i controlli sono superati, ma manca la prova dei permessi. Come procedi?",
               "options": [
-                "Esegui prove con identità distinte e registra risultati ed eventuali difetti prima del rilascio.",
-                "Considera sufficiente la spunta già presente.",
-                "Sostituisci la prova con uno screenshot della schermata di login."
+                "Segna il controllo come non verificato, esegui le prove e registra le evidenze.",
+                "Mantieni il controllo superato perché il codice sembra corretto.",
+                "Elimina la voce dalla checklist."
               ],
               "answer": 0,
-              "why": "Una checklist deve essere sostenuta da evidenze pertinenti al requisito.",
+              "why": "Un controllo superato richiede evidenze; l’assenza di prove va dichiarata.",
               "feedback": [
-                "Corretto. Una checklist deve essere sostenuta da evidenze pertinenti al requisito.",
-                "Una spunta senza prova non dimostra l’efficacia dei permessi.",
-                "Il login verifica l’identità, non l’isolamento delle risorse."
+                "Corretto. Un controllo superato richiede evidenze; l’assenza di prove va dichiarata.",
+                "L’ispezione informale non dimostra il comportamento dei permessi.",
+                "Eliminare la voce nasconde una verifica ancora necessaria."
               ]
             }
           ],
@@ -9187,18 +9187,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una funzione di esportazione deve includere solo attività completate. Quale test verifica il filtro?",
+              "q": "Un carrello applica uno sconto solo da 50 euro inclusi. Quali test verificano il confine?",
               "options": [
-                "Crea attività completate e incomplete, esporta e confronta il contenuto atteso.",
-                "Esporta un elenco vuoto e controlla che il file esista.",
-                "Controlla soltanto il nome del pulsante Esporta."
+                "Prova 49,99, 50 e 50,01 euro e confronta i totali attesi.",
+                "Prova soltanto un carrello da 100 euro.",
+                "Prova tre carrelli da 60 euro."
               ],
               "answer": 0,
-              "why": "Un insieme misto verifica inclusione ed esclusione dei record.",
+              "why": "I valori immediatamente sotto, sul limite e sopra verificano la regola di soglia.",
               "feedback": [
-                "Corretto. Un insieme misto verifica inclusione ed esclusione dei record.",
-                "Un elenco vuoto non esercita il filtro sui due stati.",
-                "Il nome del pulsante non dimostra la correttezza dei dati esportati."
+                "Corretto. I valori immediatamente sotto, sul limite e sopra verificano la regola di soglia.",
+                "Un valore lontano dal limite non verifica l’inclusione dei 50 euro.",
+                "Ripetere valori sopra soglia non verifica il comportamento sotto soglia."
               ]
             }
           ],
@@ -9274,18 +9274,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un dialogo si apre da tastiera ma il focus rimane dietro la finestra. Come correggi il comportamento?",
+              "q": "Un modulo mostra errori soltanto con un bordo rosso. Come lo rendi più accessibile?",
               "options": [
-                "Rimuovi ogni indicatore di focus.",
-                "Porta il focus nel dialogo, gestisci la navigazione interna se modale e restituiscilo al controllo di apertura.",
-                "Impedisci l’uso del tasto Tab in tutta la pagina."
+                "Usa un rosso più saturo senza altri segnali.",
+                "Aggiungi messaggi testuali associati ai campi e verifica la lettura con tecnologie assistive.",
+                "Mostra un’icona priva di descrizione al posto del bordo."
               ],
               "answer": 1,
-              "why": "La gestione del focus rende il dialogo utilizzabile da tastiera e mantiene il contesto.",
+              "why": "Gli errori devono essere comprensibili senza dipendere esclusivamente dal colore.",
               "feedback": [
-                "Nascondere il focus rende difficile sapere dove si sta interagendo.",
-                "Corretto. La gestione del focus rende il dialogo utilizzabile da tastiera e mantiene il contesto.",
-                "Bloccare Tab ovunque impedisce la navigazione accessibile."
+                "Una saturazione maggiore non aiuta chi non distingue il colore.",
+                "Corretto. Gli errori devono essere comprensibili senza dipendere esclusivamente dal colore.",
+                "Un’icona senza descrizione può non comunicare quale errore correggere."
               ]
             }
           ],
@@ -9361,18 +9361,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una pagina carica lentamente su smartphone con rete debole. Come individui la causa prima di ottimizzare?",
+              "q": "Una pagina impiega quattro secondi a caricarsi su rete mobile. Come individui la causa prima di ottimizzare?",
               "options": [
-                "Riduci a caso il numero di colori.",
-                "Misura tempi e risorse in condizioni riproducibili, identifica il collo di bottiglia e ripeti il test dopo la modifica.",
-                "Misura soltanto su un computer con rete veloce."
+                "Comprimi tutte le immagini senza misurare il contributo delle risorse.",
+                "Misura tempi di rete, risorse e rendering in condizioni ripetibili.",
+                "Aumenta la potenza del computer di sviluppo."
               ],
               "answer": 1,
-              "why": "Misure comparabili permettono di individuare e verificare il miglioramento effettivo.",
+              "why": "Le misurazioni distinguono i colli di bottiglia e consentono confronti prima e dopo.",
               "feedback": [
-                "Il numero di colori non identifica necessariamente il costo di caricamento.",
-                "Corretto. Misure comparabili permettono di individuare e verificare il miglioramento effettivo.",
-                "Un ambiente veloce può nascondere il problema osservato sullo smartphone."
+                "Le immagini potrebbero non essere la causa principale.",
+                "Corretto. Le misurazioni distinguono i colli di bottiglia e consentono confronti prima e dopo.",
+                "Un computer più veloce non rappresenta le condizioni degli utenti mobili."
               ]
             }
           ],
@@ -9448,18 +9448,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un backup cifrato viene creato ogni giorno, ma non è mai stato ripristinato. Come ne verifichi l’utilità?",
+              "q": "Un backup viene creato ogni giorno, ma non è mai stato ripristinato. Come ne verifichi l’utilità?",
               "options": [
-                "Controlla soltanto che il file abbia una dimensione maggiore di zero.",
-                "Ripristina una copia in ambiente isolato e confronta dati e funzionalità con lo stato atteso.",
-                "Sovrascrivi subito i dati di produzione con il backup."
+                "Verifica soltanto che il file esista.",
+                "Ripristina una copia in un ambiente isolato e controlla integrità e completezza dei dati.",
+                "Sovrascrivi subito il database di produzione con il backup."
               ],
               "answer": 1,
-              "why": "Una prova di ripristino verifica leggibilità, chiave e recuperabilità dei dati.",
+              "why": "Una prova di ripristino dimostra se i dati sono effettivamente recuperabili.",
               "feedback": [
-                "Un file non vuoto può essere incompleto o inutilizzabile.",
-                "Corretto. Una prova di ripristino verifica leggibilità, chiave e recuperabilità dei dati.",
-                "Sovrascrivere la produzione senza prova isolata rischia di perdere dati validi."
+                "L’esistenza del file non dimostra che sia leggibile o completo.",
+                "Corretto. Una prova di ripristino dimostra se i dati sono effettivamente recuperabili.",
+                "Sovrascrivere la produzione senza una prova isolata espone a perdita di dati."
               ]
             }
           ],
@@ -9535,17 +9535,17 @@
           },
           "advancedCheck": [
             {
-              "q": "Una release candidate supera i test funzionali ma fallisce la migrazione dei progressi esistenti. Quale decisione prendi?",
+              "q": "Una release candidate supera i test funzionali ma fallisce la migrazione dei dati esistenti. Come decidi?",
               "options": [
                 "Pubblica perché le nuove installazioni funzionano.",
-                "Chiedi agli utenti di azzerare i progressi senza valutare alternative.",
-                "Blocca la promozione, correggi la migrazione e ripeti il collaudo su copie dei dati precedenti."
+                "Chiedi agli utenti di cancellare i dati senza valutare alternative.",
+                "Blocca la promozione, correggi la migrazione e ripeti le verifiche di aggiornamento e recupero."
               ],
               "answer": 2,
               "why": "La conservazione dei dati esistenti è un requisito di rilascio da verificare.",
               "feedback": [
-                "Le nuove installazioni non esercitano la migrazione.",
-                "Azzerare i progressi viola il requisito di conservazione.",
+                "Le nuove installazioni non coprono il percorso di aggiornamento.",
+                "Cancellare dati può causare perdite evitabili e viola il requisito di continuità.",
                 "Corretto. La conservazione dei dati esistenti è un requisito di rilascio da verificare."
               ]
             }
@@ -9636,18 +9636,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Hai tre idee di prodotto AI ma nessuna evidenza di un bisogno reale. Come scegli quale approfondire?",
+              "q": "Hai un’idea per un assistente che organizza documenti, ma non conosci il problema principale degli utenti. Come inizi?",
               "options": [
-                "Scegli l’idea con più funzioni AI.",
-                "Scegli quella con il nome più originale.",
-                "Confronta problemi, destinatari e alternative esistenti attraverso ricerca con utenti potenziali."
+                "Sviluppa subito tutte le funzioni immaginate.",
+                "Scegli il nome e il logo come prova della domanda.",
+                "Identifica un pubblico preciso e osserva come gestisce oggi i documenti e le difficoltà."
               ],
               "answer": 2,
-              "why": "L’evidenza sul problema aiuta a selezionare un’idea con valore concreto.",
+              "why": "Comprendere il problema reale permette di formulare un’ipotesi di valore verificabile.",
               "feedback": [
-                "Il numero di funzioni non dimostra che risolvano un bisogno.",
-                "Un nome originale non dimostra utilità o domanda.",
-                "Corretto. L’evidenza sul problema aiuta a selezionare un’idea con valore concreto."
+                "Costruire prima della ricerca può risolvere un problema inesistente.",
+                "Nome e logo non dimostrano che gli utenti abbiano bisogno del prodotto.",
+                "Corretto. Comprendere il problema reale permette di formulare un’ipotesi di valore verificabile."
               ]
             }
           ],
@@ -9723,18 +9723,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Cinque utenti dichiarano che userebbero un’app, ma nessuno completa una prova gratuita. Come interpreti il risultato?",
+              "q": "Cinque intervistati dichiarano che userebbero un’app, ma nessuno prova il prototipo disponibile. Quale evidenza cerchi?",
               "options": [
-                "Considera la domanda validata dalle cinque dichiarazioni.",
-                "Concludi che nessun utente futuro userà l’app.",
-                "Distingui intenzioni dichiarate e comportamento osservato, indaga gli ostacoli e ripeti la prova."
+                "Considera le cinque dichiarazioni come cinque utenti acquisiti.",
+                "Aumenta il numero di funzioni prima di osservare l’uso.",
+                "Osserva l’uso in un compito realistico e misura un comportamento concreto concordato."
               ],
               "answer": 2,
-              "why": "Il comportamento osservato aggiunge evidenza e permette di investigare la distanza dalle intenzioni.",
+              "why": "Il comportamento osservato integra le intenzioni dichiarate e verifica il valore pratico.",
               "feedback": [
-                "Le dichiarazioni non dimostrano adozione effettiva.",
-                "Un campione piccolo non giustifica una conclusione universale.",
-                "Corretto. Il comportamento osservato aggiunge evidenza e permette di investigare la distanza dalle intenzioni."
+                "Una dichiarazione di interesse non equivale all’adozione.",
+                "Aggiungere funzioni non chiarisce perché il prototipo non viene utilizzato.",
+                "Corretto. Il comportamento osservato integra le intenzioni dichiarate e verifica il valore pratico."
               ]
             }
           ],
@@ -9810,18 +9810,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il primo MVP deve verificare se gli utenti riescono a organizzare le proprie note. Quale perimetro scegli?",
+              "q": "L’MVP deve verificare se i freelance risparmiano tempo creando preventivi. Quale perimetro è più adatto?",
               "options": [
-                "Aggiungi subito chat, marketplace e temi personalizzati.",
-                "Creazione, organizzazione e recupero delle note con un criterio di successo osservabile.",
-                "Realizza soltanto una schermata promozionale senza prova del compito."
+                "Una piattaforma completa con fatture, chat e contabilità.",
+                "Un flusso essenziale di creazione del preventivo con misura del tempo rispetto al metodo attuale.",
+                "Una pagina promozionale senza possibilità di provare il flusso."
               ],
               "answer": 1,
-              "why": "Un MVP concentra le risorse sul flusso minimo necessario a verificare l’ipotesi.",
+              "why": "L’MVP deve permettere di verificare l’ipotesi centrale con il minimo perimetro utile.",
               "feedback": [
-                "Funzioni estranee aumentano il lavoro senza verificare meglio il bisogno centrale.",
-                "Corretto. Un MVP concentra le risorse sul flusso minimo necessario a verificare l’ipotesi.",
-                "Una schermata promozionale non permette di osservare l’organizzazione delle note."
+                "Le funzioni aggiuntive aumentano lo sforzo senza essere necessarie alla verifica.",
+                "Corretto. L’MVP deve permettere di verificare l’ipotesi centrale con il minimo perimetro utile.",
+                "Una pagina promozionale può misurare interesse, non il tempo risparmiato nel compito."
               ]
             }
           ],
@@ -9897,18 +9897,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un prototipo permette di simulare la ricerca ma non usa dati reali. Come lo presenti ai tester?",
+              "q": "Un prototipo permette di simulare la prenotazione, ma non salva dati reali. Come lo presenti ai tester?",
               "options": [
-                "Spiega che i risultati sono simulati e osserva se comprendono il percorso di ricerca.",
-                "Dichiara che il motore di ricerca è già validato.",
-                "Misura la precisione del motore usando soltanto i risultati predefiniti."
+                "Spiega che è una simulazione e osserva il completamento del percorso senza raccogliere dati inutili.",
+                "Dichiara che le prenotazioni sono effettive.",
+                "Chiedi dati di pagamento reali per rendere il test credibile."
               ],
               "answer": 0,
-              "why": "Il prototipo può verificare il percorso, ma non la qualità di un motore non implementato.",
+              "why": "La trasparenza permette di valutare il flusso senza creare aspettative o rischi indebiti.",
               "feedback": [
-                "Corretto. Il prototipo può verificare il percorso, ma non la qualità di un motore non implementato.",
-                "La simulazione non dimostra il funzionamento del motore.",
-                "Risultati predefiniti non misurano il recupero effettivo."
+                "Corretto. La trasparenza permette di valutare il flusso senza creare aspettative o rischi indebiti.",
+                "Una simulazione non produce una prenotazione reale.",
+                "Dati di pagamento reali non sono necessari per testare un percorso simulato."
               ]
             }
           ],
@@ -9984,18 +9984,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il piano prevede il rilascio in due settimane, ma l’accesso ai dati richiede un’autorizzazione non ottenuta. Come aggiorni il piano?",
+              "q": "Un piano di sviluppo prevede il collaudo prima che l’integrazione dati sia disponibile. Come lo correggi?",
               "options": [
-                "Presumi che l’autorizzazione arriverà senza verificarla.",
-                "Usa dati reali non autorizzati per rispettare la scadenza.",
-                "Registra la dipendenza, assegna un responsabile e definisci un’alternativa con dati di prova."
+                "Mantieni tutte le date e dichiara superato il collaudo in anticipo.",
+                "Rinvia ogni test fino alla pubblicazione.",
+                "Esplicita le dipendenze, anticipa i test isolabili e pianifica il collaudo integrato dopo l’integrazione."
               ],
               "answer": 2,
-              "why": "Gestire la dipendenza rende il piano realistico e permette lavoro sicuro in parallelo.",
+              "why": "Le dipendenze determinano quali prove sono possibili e quando eseguirle.",
               "feedback": [
-                "Una supposizione non risolve il blocco.",
-                "La scadenza non autorizza l’uso di dati riservati.",
-                "Corretto. Gestire la dipendenza rende il piano realistico e permette lavoro sicuro in parallelo."
+                "Un collaudo non eseguito non può essere dichiarato superato.",
+                "Rinviare tutti i test impedisce di individuare presto difetti isolabili.",
+                "Corretto. Le dipendenze determinano quali prove sono possibili e quando eseguirle."
               ]
             }
           ],
@@ -10085,18 +10085,18 @@
           },
           "advancedCheck": [
             {
-              "q": "L’interfaccia di un’app AI mostra una risposta parziale durante la generazione. Come eviti che venga scambiata per un risultato definitivo?",
+              "q": "Nell’interfaccia del progetto finale l’utente può inviare due volte lo stesso modulo durante il caricamento. Come migliori il comportamento?",
               "options": [
-                "Mostra subito l’etichetta Risposta verificata.",
-                "Mostra uno stato di generazione, consenti l’annullamento e distingui il completamento.",
-                "Nascondi ogni indicatore di stato fino alla fine."
+                "Nascondi ogni indicatore di caricamento.",
+                "Mostra lo stato di invio, previeni invii concorrenti e gestisci duplicati sul server.",
+                "Affidati soltanto al fatto che l’utente clicchi una volta."
               ],
               "answer": 1,
-              "why": "Gli stati espliciti distinguono un risultato in corso da uno completato.",
+              "why": "Il controllo dell’interfaccia e quello server riducono invii accidentali e duplicati.",
               "feedback": [
-                "La generazione parziale non dimostra verifica o completamento.",
-                "Corretto. Gli stati espliciti distinguono un risultato in corso da uno completato.",
-                "L’assenza di stato rende ambiguo ciò che sta accadendo."
+                "Senza indicatore l’utente può ripetere l’azione perché non vede progressi.",
+                "Corretto. Il controllo dell’interfaccia e quello server riducono invii accidentali e duplicati.",
+                "Il comportamento dell’utente non garantisce l’unicità della richiesta."
               ]
             }
           ],
@@ -10172,18 +10172,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un’app modifica il formato delle attività salvate aggiungendo un nuovo campo obbligatorio. Come gestisci i dati precedenti?",
+              "q": "Il progetto finale conserva documenti di utenti diversi. Quale prova verifica l’isolamento dei dati?",
               "options": [
-                "Elimina tutti i record privi del nuovo campo.",
-                "Definisci una migrazione con valore coerente, conserva una copia e prova record vecchi e nuovi.",
-                "Presumi che il campo esista anche nei record precedenti."
+                "Controlla tutti i documenti con un account amministrativo.",
+                "Crea due account ordinari e verifica che ciascuno possa leggere i propri documenti ma non quelli altrui.",
+                "Verifica soltanto che il database contenga due account."
               ],
               "answer": 1,
-              "why": "Una migrazione verificata rende compatibili i dati precedenti senza perderli.",
+              "why": "Le prove incrociate verificano sia gli accessi consentiti sia quelli vietati.",
               "feedback": [
-                "Eliminare record distrugge informazioni esistenti.",
-                "Corretto. Una migrazione verificata rende compatibili i dati precedenti senza perderli.",
-                "I record vecchi possono non soddisfare il nuovo schema."
+                "Un amministratore può avere accessi non rappresentativi degli utenti ordinari.",
+                "Corretto. Le prove incrociate verificano sia gli accessi consentiti sia quelli vietati.",
+                "Il numero di account non dimostra l’isolamento delle risorse."
               ]
             }
           ],
@@ -10259,18 +10259,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un assistente AI suggerisce categorie per documenti e talvolta sbaglia. Come integri il suggerimento nel prodotto?",
+              "q": "L’assistente AI del progetto finale produce una raccomandazione senza dati sufficienti. Come progetti il comportamento?",
               "options": [
-                "Mostra la proposta come modificabile e verifica i casi errati con una valutazione dedicata.",
-                "Rendi ogni categoria proposta definitiva senza possibilità di correzione.",
-                "Nascondi all’utente che la categoria è generata automaticamente."
+                "Richiedi le informazioni mancanti o segnala l’incertezza, evitando conclusioni non supportate.",
+                "Completa sempre la raccomandazione con valori plausibili inventati.",
+                "Nascondi le fonti per rendere il risultato più convincente."
               ],
               "answer": 0,
-              "why": "Un suggerimento correggibile conserva il controllo umano e rende osservabili gli errori.",
+              "why": "Un assistente affidabile distingue evidenze disponibili e informazioni mancanti.",
               "feedback": [
-                "Corretto. Un suggerimento correggibile conserva il controllo umano e rende osservabili gli errori.",
-                "Una classificazione sbagliata diventerebbe difficile da correggere.",
-                "Nascondere l’origine rende meno chiari i limiti del suggerimento."
+                "Corretto. Un assistente affidabile distingue evidenze disponibili e informazioni mancanti.",
+                "Valori inventati possono produrre raccomandazioni errate.",
+                "Nascondere le fonti riduce la possibilità di verificare il risultato."
               ]
             }
           ],
@@ -10346,18 +10346,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una correzione risolve un errore di salvataggio ma potrebbe alterare l’esportazione. Quale verifica esegui?",
+              "q": "Una correzione al progetto finale risolve il login ma rompe il recupero password. Quale strategia di test serve?",
               "options": [
-                "Verifica soltanto la riga di codice modificata.",
-                "Ripeti il test del salvataggio e i test di regressione dell’esportazione con dati rappresentativi.",
-                "Prova soltanto l’avvio dell’app."
+                "Verifica soltanto il login appena corretto.",
+                "Aggiungi un test per il difetto corretto e riesegui i casi correlati di regressione.",
+                "Rimuovi il recupero password dal piano di test."
               ],
               "answer": 1,
-              "why": "I test dei flussi collegati verificano che la correzione non introduca nuovi difetti.",
+              "why": "I test di regressione controllano che una modifica non danneggi funzioni già disponibili.",
               "feedback": [
-                "Una verifica isolata del codice non dimostra il comportamento dei flussi.",
-                "Corretto. I test dei flussi collegati verificano che la correzione non introduca nuovi difetti.",
-                "L’avvio non esercita salvataggio o esportazione."
+                "Il solo login non copre gli effetti sulle funzioni correlate.",
+                "Corretto. I test di regressione controllano che una modifica non danneggi funzioni già disponibili.",
+                "Rimuovere il caso nasconde il peggioramento anziché risolverlo."
               ]
             }
           ],
@@ -10433,18 +10433,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Durante la beta due utenti segnalano perdita di note e altri chiedono nuovi temi. Come gestisci il feedback?",
+              "q": "Durante la beta tre utenti segnalano lo stesso blocco, ma mancano dettagli per riprodurlo. Come organizzi il feedback?",
               "options": [
-                "Sviluppa prima i temi perché sono richiesti da più persone.",
-                "Raccogli evidenze sulla perdita, proteggi i dati e assegna priorità alla correzione.",
-                "Archivia tutte le segnalazioni fino al lancio."
+                "Classifica tutte le segnalazioni come richieste estetiche.",
+                "Raccogli passaggi, ambiente, risultato atteso e osservato, evitando dati personali non necessari.",
+                "Chiedi a ogni utente di inviare tutte le proprie credenziali."
               ],
               "answer": 1,
-              "why": "La perdita di dati ha un impatto critico anche se segnalata da pochi utenti.",
+              "why": "Informazioni di riproduzione mirate permettono di diagnosticare il difetto senza esporre dati inutili.",
               "feedback": [
-                "La frequenza delle richieste non sostituisce la valutazione della gravità.",
-                "Corretto. La perdita di dati ha un impatto critico anche se segnalata da pochi utenti.",
-                "Rinviare un difetto critico può esporre altri utenti alla perdita."
+                "Un blocco funzionale non va classificato come estetico senza analisi.",
+                "Corretto. Informazioni di riproduzione mirate permettono di diagnosticare il difetto senza esporre dati inutili.",
+                "Le credenziali non sono necessarie per documentare il difetto e non devono essere richieste."
               ]
             }
           ],
@@ -10534,18 +10534,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il deploy di una nuova versione richiede una modifica al database. Quale preparazione riduce il rischio?",
+              "q": "Un deploy richiede una modifica al database incompatibile con la versione precedente. Quale preparazione è necessaria?",
               "options": [
-                "Esegui direttamente la migrazione in produzione senza copie.",
-                "Prova la migrazione in staging, verifica compatibilità e predisponi backup e recupero.",
-                "Conserva soltanto uno screenshot della versione precedente."
+                "Distribuisci direttamente e torna al vecchio codice se qualcosa fallisce.",
+                "Prova la migrazione in staging, verifica il backup e definisci una strategia di recupero compatibile con i dati.",
+                "Cancella il database precedente prima di verificare la migrazione."
               ],
               "answer": 1,
-              "why": "Una prova realistica e un piano di recupero riducono il rischio di incompatibilità e perdita.",
+              "why": "Una migrazione incompatibile richiede prove e un recupero che consideri anche lo stato dei dati.",
               "feedback": [
-                "Una modifica non provata può danneggiare dati reali.",
-                "Corretto. Una prova realistica e un piano di recupero riducono il rischio di incompatibilità e perdita.",
-                "Uno screenshot non permette di ripristinare codice o dati."
+                "Il vecchio codice potrebbe non funzionare con lo schema modificato.",
+                "Corretto. Una migrazione incompatibile richiede prove e un recupero che consideri anche lo stato dei dati.",
+                "Cancellare i dati prima della verifica elimina una possibile via di recupero."
               ]
             }
           ],
@@ -10621,18 +10621,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Dopo il deploy la pagina iniziale risponde ma il login fallisce. Come valuti il rilascio?",
+              "q": "Dopo il deploy la homepage risponde correttamente, ma non sai se il salvataggio funziona. Quale verifica esegui?",
               "options": [
-                "Considera fallito il controllo del flusso essenziale e applica il piano di correzione o ripristino.",
-                "Dichiara il rilascio riuscito perché la pagina iniziale risponde.",
-                "Attendi nuove segnalazioni senza registrare il difetto."
+                "Esegui un test controllato del flusso di salvataggio e rilettura con dati di prova autorizzati.",
+                "Considera il deploy verificato perché la homepage si apre.",
+                "Controlla soltanto il numero di file distribuiti."
               ],
               "answer": 0,
-              "why": "La disponibilità della pagina iniziale non dimostra che i flussi essenziali funzionino.",
+              "why": "Una verifica post-deploy deve coprire i flussi essenziali, non solo la raggiungibilità.",
               "feedback": [
-                "Corretto. La disponibilità della pagina iniziale non dimostra che i flussi essenziali funzionino.",
-                "Il login fallito impedisce l’uso delle funzioni protette.",
-                "Un difetto noto richiede registrazione e gestione tempestiva."
+                "Corretto. Una verifica post-deploy deve coprire i flussi essenziali, non solo la raggiungibilità.",
+                "La homepage non dimostra che la persistenza funzioni.",
+                "Il conteggio dei file non verifica il comportamento applicativo."
               ]
             }
           ],
@@ -10708,18 +10708,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un collega non riesce ad avviare il progetto seguendo il README. Come migliori la documentazione?",
+              "q": "Un nuovo collaboratore non riesce ad avviare il progetto seguendo il README. Come migliori la documentazione?",
               "options": [
-                "Verifica le istruzioni in un ambiente pulito e documenta prerequisiti, configurazione e comandi senza segreti.",
-                "Aggiungi soltanto una descrizione più lunga del progetto.",
-                "Inserisci nel README le credenziali reali per semplificare l’avvio."
+                "Verifica le istruzioni da un ambiente pulito e documenta prerequisiti, configurazione e comandi senza segreti.",
+                "Aggiungi soltanto una descrizione più lunga del prodotto.",
+                "Inserisci le credenziali reali nel README per semplificare l’avvio."
               ],
               "answer": 0,
-              "why": "Una prova indipendente individua passaggi mancanti e rende l’avvio riproducibile.",
+              "why": "Una procedura riproducibile permette di avviare il progetto senza conoscenze implicite.",
               "feedback": [
-                "Corretto. Una prova indipendente individua passaggi mancanti e rende l’avvio riproducibile.",
-                "Una descrizione non sostituisce istruzioni operative.",
-                "Pubblicare credenziali espone risorse e dati."
+                "Corretto. Una procedura riproducibile permette di avviare il progetto senza conoscenze implicite.",
+                "Una descrizione del prodotto non sostituisce le istruzioni operative.",
+                "Pubblicare credenziali espone risorse e non è necessario per documentare la configurazione."
               ]
             }
           ],
@@ -10795,18 +10795,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Nel portfolio vuoi dimostrare che l’app AI ha migliorato un processo. Quale evidenza è più convincente?",
+              "q": "Vuoi inserire nel portfolio un progetto realizzato con strumenti AI e contributi di altri. Come lo descrivi?",
               "options": [
-                "Mostra soltanto schermate esteticamente riuscite.",
-                "Descrivi problema, contributo personale, metodo di confronto, risultati misurati e limiti.",
-                "Dichiara un miglioramento percentuale senza misurazioni."
+                "Attribuisciti tutto il lavoro senza distinguere i contributi.",
+                "Indica il tuo contributo, gli strumenti utilizzati, le evidenze del risultato e i limiti.",
+                "Mostra solo immagini senza spiegare problema o risultato."
               ],
               "answer": 1,
-              "why": "Evidenze e metodo rendono il contributo valutabile senza esagerare i risultati.",
+              "why": "Una descrizione trasparente rende valutabili competenze, responsabilità e risultati.",
               "feedback": [
-                "Le schermate non dimostrano il miglioramento del processo.",
-                "Corretto. Evidenze e metodo rendono il contributo valutabile senza esagerare i risultati.",
-                "Una percentuale non misurata non è un risultato verificabile."
+                "Attribuire a sé contributi altrui rappresenta in modo scorretto il lavoro.",
+                "Corretto. Una descrizione trasparente rende valutabili competenze, responsabilità e risultati.",
+                "Le immagini da sole non spiegano il valore o il ruolo svolto."
               ]
             }
           ],
@@ -10882,18 +10882,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Durante la presentazione finale il servizio AI esterno non risponde. Come dimostri il progetto senza ingannare il pubblico?",
+              "q": "Nella presentazione finale il progetto ha una funzione funzionante e una ancora sperimentale. Come organizzi la demo?",
               "options": [
-                "Presenta una registrazione come se fosse una risposta dal vivo.",
-                "Inventa un risultato e attribuiscilo al servizio.",
-                "Spiega il guasto, mostra il fallback e usa una registrazione dichiarata come tale per illustrare il flusso."
+                "Presenta entrambe come pronte per la produzione.",
+                "Evita di mostrare risultati verificabili e parla solo delle potenzialità.",
+                "Dimostra il flusso verificato, presenta la funzione sperimentale come tale e indica i prossimi test."
               ],
               "answer": 2,
-              "why": "Una dimostrazione trasparente distingue comportamento reale, fallback e materiale registrato.",
+              "why": "Una demo professionale distingue risultati dimostrati, limiti e lavoro futuro.",
               "feedback": [
-                "Una registrazione non dichiarata falsifica lo stato del servizio.",
-                "Un risultato inventato non dimostra il funzionamento del progetto.",
-                "Corretto. Una dimostrazione trasparente distingue comportamento reale, fallback e materiale registrato."
+                "Una funzione sperimentale non è automaticamente pronta per la produzione.",
+                "Le potenzialità non sostituiscono le evidenze del risultato ottenuto.",
+                "Corretto. Una demo professionale distingue risultati dimostrati, limiti e lavoro futuro."
               ]
             }
           ],
