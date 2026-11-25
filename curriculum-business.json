@@ -1797,18 +1797,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come si definisce il ROI?",
+            "q": "Un progetto AI genera benefici annui di 12.000 euro e costa 8.000 euro nello stesso anno. Qual è il ROI?",
             "options": [
-              "Beneficio lordo diviso ricavi.",
-              "Costo diviso numero di utenti.",
-              "Beneficio netto diviso costo nello stesso periodo."
+              "150%.",
+              "33,3% circa.",
+              "50%."
             ],
             "answer": 2,
-            "why": "Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo.",
+            "why": "Il beneficio netto è 4.000 euro; diviso per 8.000 dà il 50%.",
             "feedback": [
-              "Rivedi il principio: Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo.",
-              "Rivedi il principio: Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo.",
-              "Corretto. Il ROI misura il beneficio netto rispetto al costo, nello stesso periodo."
+              "12.000 diviso 8.000 misura il rapporto lordo, non il ROI netto.",
+              "Dividere il beneficio netto per i benefici lordi usa il denominatore sbagliato.",
+              "Corretto. Il beneficio netto è 4.000 euro; diviso per 8.000 dà il 50%."
             ]
           },
           "masterclass": {
@@ -1891,18 +1891,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali costi includi nel ROI?",
+            "q": "Nel budget annuale di un assistente AI, quali costi consideri per calcolare il ROI?",
             "options": [
-              "Licenze, formazione e manutenzione pertinenti.",
-              "Solo il primo mese di licenza.",
-              "Nessun costo interno."
+              "Licenze, integrazione, formazione e manutenzione pertinenti.",
+              "Solo il canone del primo mese.",
+              "Licenze annuali, escludendo il lavoro interno necessario."
             ],
             "answer": 0,
-            "why": "Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione.",
+            "why": "Il calcolo deve includere i costi pertinenti allo stesso periodo dei benefici.",
             "feedback": [
-              "Corretto. Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione.",
-              "Rivedi il principio: Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione.",
-              "Rivedi il principio: Con benefici 12000 e costi 8000 il ROI è 50%; includi formazione e manutenzione."
+              "Corretto. Il calcolo deve includere i costi pertinenti allo stesso periodo dei benefici.",
+              "Un solo mese sottostima i costi annuali.",
+              "Il lavoro interno necessario è un costo del progetto."
             ]
           },
           "masterclass": {
@@ -1972,18 +1972,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come valuti l'incertezza del ROI?",
+            "q": "I risparmi previsti da un progetto AI sono incerti. Come valuti la sensibilità del ROI?",
             "options": [
-              "Usi soltanto lo scenario ottimistico.",
-              "Mantieni identici tutti i valori.",
-              "Confronti scenari con benefici e costi diversi."
+              "Calcoli solo lo scenario con i maggiori risparmi.",
+              "Ripeti il calcolo tre volte con gli stessi valori.",
+              "Confronti scenari prudente, centrale e favorevole con costi e benefici motivati."
             ],
             "answer": 2,
-            "why": "Costruisci tre scenari di benefici e costi e confronta il ROI.",
+            "why": "Scenari diversi mostrano come le ipotesi influenzano il ritorno.",
             "feedback": [
-              "Rivedi il principio: Costruisci tre scenari di benefici e costi e confronta il ROI.",
-              "Rivedi il principio: Costruisci tre scenari di benefici e costi e confronta il ROI.",
-              "Corretto. Costruisci tre scenari di benefici e costi e confronta il ROI."
+              "Lo scenario migliore nasconde possibili perdite.",
+              "Valori identici non misurano la sensibilità alle ipotesi.",
+              "Corretto. Scenari diversi mostrano come le ipotesi influenzano il ritorno."
             ]
           },
           "masterclass": {
@@ -2071,18 +2071,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali dimensioni descrivono il rischio?",
+            "q": "Un assistente sbaglia raramente, ma un errore può bloccare un pagamento importante. Come valuti il rischio?",
             "options": [
-              "Solo frequenza di utilizzo.",
-              "Solo costo della licenza.",
-              "Probabilità e conseguenze."
+              "Consideri soltanto la frequenza degli errori.",
+              "Consideri soltanto il costo della licenza.",
+              "Consideri sia la probabilità sia la gravità delle conseguenze."
             ],
             "answer": 2,
-            "why": "Il rischio combina probabilità e conseguenze; un errore raro può essere grave.",
+            "why": "Anche un evento raro può avere conseguenze gravi.",
             "feedback": [
-              "Rivedi il principio: Il rischio combina probabilità e conseguenze; un errore raro può essere grave.",
-              "Rivedi il principio: Il rischio combina probabilità e conseguenze; un errore raro può essere grave.",
-              "Corretto. Il rischio combina probabilità e conseguenze; un errore raro può essere grave."
+              "La frequenza non misura l’impatto del singolo errore.",
+              "Il costo della licenza non descrive il danno operativo.",
+              "Corretto. Anche un evento raro può avere conseguenze gravi."
             ]
           },
           "masterclass": {
@@ -2165,18 +2165,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Otto errori su cento: qual è il tasso?",
+            "q": "In un campione di 100 documenti elaborati dall’AI, 8 contengono errori. Qual è il tasso di documenti errati?",
             "options": [
               "0,8%.",
               "80%.",
               "8%."
             ],
             "answer": 2,
-            "why": "Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale.",
+            "why": "Otto diviso cento, moltiplicato per cento, dà l’8%.",
             "feedback": [
-              "Rivedi il principio: Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale.",
-              "Rivedi il principio: Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale.",
-              "Corretto. Otto errori su cento equivalgono all'8%; la soglia dipende dal danno potenziale."
+              "0,8% corrisponderebbe a 8 su 1.000.",
+              "80% corrisponderebbe a 80 su 100.",
+              "Corretto. Otto diviso cento, moltiplicato per cento, dà l’8%."
             ]
           },
           "masterclass": {
@@ -2246,18 +2246,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come controlli un processo ad alto rischio?",
+            "q": "Un processo AI può produrre decisioni con conseguenze economiche rilevanti. Quali controlli definisci prima del pilota?",
             "options": [
-              "Definisci soglia, revisione umana e arresto.",
-              "Automatizzi senza possibilità di arresto.",
-              "Controlli solo dopo un danno."
+              "Soglia di errore, revisione umana e procedura di arresto.",
+              "Controllo a fine mese senza possibilità di sospensione.",
+              "Revisione soltanto dei casi già segnalati dai clienti."
             ],
             "answer": 0,
-            "why": "Definisci soglia, controllo umano e procedura di arresto per un caso simulato.",
+            "why": "I controlli devono permettere di prevenire o limitare il danno.",
             "feedback": [
-              "Corretto. Definisci soglia, controllo umano e procedura di arresto per un caso simulato.",
-              "Rivedi il principio: Definisci soglia, controllo umano e procedura di arresto per un caso simulato.",
-              "Rivedi il principio: Definisci soglia, controllo umano e procedura di arresto per un caso simulato."
+              "Corretto. I controlli devono permettere di prevenire o limitare il danno.",
+              "Il controllo tardivo non consente di interrompere il processo.",
+              "Le segnalazioni dei clienti arrivano dopo che il rischio si è concretizzato."
             ]
           },
           "masterclass": {
@@ -2345,18 +2345,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa assegna la governance AI?",
+            "q": "Diversi reparti adottano strumenti AI. Quale compito spetta alla governance aziendale?",
             "options": [
-              "Regole, ruoli e responsabilità.",
-              "Solo licenze software.",
-              "Solo obiettivi commerciali."
+              "Definire regole, ruoli e responsabilità per il loro utilizzo.",
+              "Acquistare licenze senza definire responsabilità.",
+              "Stabilire obiettivi commerciali senza regole sui dati."
             ],
             "answer": 0,
-            "why": "La governance assegna regole, ruoli e responsabilità per l'uso dell'AI.",
+            "why": "La governance chiarisce chi decide, chi controlla e quali regole valgono.",
             "feedback": [
-              "Corretto. La governance assegna regole, ruoli e responsabilità per l'uso dell'AI.",
-              "Rivedi il principio: La governance assegna regole, ruoli e responsabilità per l'uso dell'AI.",
-              "Rivedi il principio: La governance assegna regole, ruoli e responsabilità per l'uso dell'AI."
+              "Corretto. La governance chiarisce chi decide, chi controlla e quali regole valgono.",
+              "L’acquisto non assegna responsabilità operative.",
+              "Gli obiettivi commerciali non disciplinano l’uso delle informazioni."
             ]
           },
           "masterclass": {
@@ -2439,18 +2439,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come limiti gli accessi ai dati?",
+            "q": "Un analista necessita solo di dati interni non riservati. Come configuri il suo accesso?",
             "options": [
-              "In base alla classificazione e al ruolo.",
-              "Concedi accesso completo a tutti.",
-              "Usi un account condiviso."
+              "Concedi i dati necessari secondo classificazione e ruolo.",
+              "Concedi anche tutti i dati riservati per eventuali esigenze future.",
+              "Usi un account condiviso tra tutti gli analisti."
             ],
             "answer": 0,
-            "why": "Classifica le informazioni e limita gli accessi alle necessità del ruolo.",
+            "why": "Il minimo privilegio limita l’accesso alle esigenze effettive.",
             "feedback": [
-              "Corretto. Classifica le informazioni e limita gli accessi alle necessità del ruolo.",
-              "Rivedi il principio: Classifica le informazioni e limita gli accessi alle necessità del ruolo.",
-              "Rivedi il principio: Classifica le informazioni e limita gli accessi alle necessità del ruolo."
+              "Corretto. Il minimo privilegio limita l’accesso alle esigenze effettive.",
+              "Accessi preventivi non necessari aumentano l’esposizione dei dati.",
+              "Un account condiviso riduce la tracciabilità individuale."
             ]
           },
           "masterclass": {
@@ -2520,18 +2520,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa inserisci nel registro degli strumenti?",
+            "q": "Quali informazioni rendono utile il registro degli strumenti AI autorizzati?",
             "options": [
-              "Proprietario, dati consentiti e approvazione.",
-              "Solo il logo del fornitore.",
-              "Solo la data di acquisto."
+              "Responsabile, categorie di dati consentite e stato di approvazione.",
+              "Nome del fornitore e logo, senza indicazioni sui dati.",
+              "Data di acquisto e prezzo, senza responsabile."
             ],
             "answer": 0,
-            "why": "Crea un registro di strumenti con proprietario, dati consentiti e approvazione.",
+            "why": "Il registro collega ogni strumento a responsabilità e condizioni d’uso.",
             "feedback": [
-              "Corretto. Crea un registro di strumenti con proprietario, dati consentiti e approvazione.",
-              "Rivedi il principio: Crea un registro di strumenti con proprietario, dati consentiti e approvazione.",
-              "Rivedi il principio: Crea un registro di strumenti con proprietario, dati consentiti e approvazione."
+              "Corretto. Il registro collega ogni strumento a responsabilità e condizioni d’uso.",
+              "L’identità del fornitore non definisce quali dati si possono trattare.",
+              "I dati di acquisto non chiariscono chi controlla lo strumento."
             ]
           },
           "masterclass": {
@@ -2619,18 +2619,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa sostiene il cambiamento organizzativo?",
+            "q": "Un reparto fatica ad adottare un nuovo assistente AI. Quale intervento sostiene il cambiamento?",
             "options": [
-              "Solo l'obbligo di usare il software.",
-              "Competenze, comunicazione e supporto.",
-              "Solo un annuncio iniziale."
+              "Imporre l’utilizzo senza spiegare il nuovo processo.",
+              "Formazione mirata, comunicazione degli obiettivi e supporto operativo.",
+              "Inviare un annuncio iniziale senza assistenza successiva."
             ],
             "answer": 1,
-            "why": "Il cambiamento richiede competenze, comunicazione e sostegno operativo.",
+            "why": "Competenze e supporto aiutano le persone a integrare lo strumento nel lavoro.",
             "feedback": [
-              "Rivedi il principio: Il cambiamento richiede competenze, comunicazione e sostegno operativo.",
-              "Corretto. Il cambiamento richiede competenze, comunicazione e sostegno operativo.",
-              "Rivedi il principio: Il cambiamento richiede competenze, comunicazione e sostegno operativo."
+              "L’obbligo non risolve lacune di competenze o difficoltà operative.",
+              "Corretto. Competenze e supporto aiutano le persone a integrare lo strumento nel lavoro.",
+              "Un annuncio non offre aiuto durante l’adozione."
             ]
           },
           "masterclass": {
@@ -2713,18 +2713,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come misuri l'adozione reale?",
+            "q": "Cento dipendenti hanno accesso a uno strumento AI. Come misuri l’adozione effettiva?",
             "options": [
-              "Solo inviti inviati.",
-              "Utilizzo effettivo e risultati.",
-              "Solo iscrizioni al corso."
+              "Conti soltanto gli account attivati.",
+              "Misuri utilizzo nei processi previsti e risultati ottenuti.",
+              "Conti soltanto le iscrizioni alla formazione."
             ],
             "answer": 1,
-            "why": "L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni.",
+            "why": "L’adozione riguarda il comportamento reale e i risultati.",
             "feedback": [
-              "Rivedi il principio: L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni.",
-              "Corretto. L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni.",
-              "Rivedi il principio: L'adozione reale si misura con utilizzo e risultati, non solo iscrizioni."
+              "Un account attivo non dimostra l’utilizzo nel lavoro.",
+              "Corretto. L’adozione riguarda il comportamento reale e i risultati.",
+              "L’iscrizione non dimostra l’applicazione delle competenze."
             ]
           },
           "masterclass": {
@@ -2794,18 +2794,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come valuti la formazione?",
+            "q": "Dopo un corso AI per il personale, come valuti il trasferimento delle competenze al lavoro?",
             "options": [
-              "Eviti di osservare il lavoro.",
-              "Raccogli feedback su un compito concreto.",
-              "Conti soltanto i partecipanti."
+              "Conti i partecipanti senza verificare le attività svolte.",
+              "Osservi un compito concreto e raccogli feedback sulle difficoltà.",
+              "Misuri soltanto la durata delle lezioni."
             ],
             "answer": 1,
-            "why": "Definisci un piano formativo e raccogli feedback su un compito concreto.",
+            "why": "Un compito concreto permette di verificare l’applicazione delle competenze.",
             "feedback": [
-              "Rivedi il principio: Definisci un piano formativo e raccogli feedback su un compito concreto.",
-              "Corretto. Definisci un piano formativo e raccogli feedback su un compito concreto.",
-              "Rivedi il principio: Definisci un piano formativo e raccogli feedback su un compito concreto."
+              "La presenza non dimostra la capacità di svolgere il compito.",
+              "Corretto. Un compito concreto permette di verificare l’applicazione delle competenze.",
+              "La durata non misura l’apprendimento effettivo."
             ]
           },
           "masterclass": {
@@ -2893,18 +2893,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve un portafoglio AI?",
+            "q": "La direzione deve scegliere quali iniziative AI finanziare con risorse limitate. A cosa serve il portafoglio AI?",
             "options": [
-              "A confrontare iniziative per valore e risorse.",
-              "A elencare soltanto i fornitori.",
-              "A finanziare ogni proposta."
+              "A confrontare iniziative per valore atteso e risorse necessarie.",
+              "A elencare i fornitori senza collegarli ai progetti.",
+              "A distribuire lo stesso budget a ogni proposta indipendentemente dal valore."
             ],
             "answer": 0,
-            "why": "Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse.",
+            "why": "Il portafoglio supporta la scelta tra iniziative concorrenti.",
             "feedback": [
-              "Corretto. Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse.",
-              "Rivedi il principio: Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse.",
-              "Rivedi il principio: Un portafoglio AI raccoglie iniziative confrontabili per valore e risorse."
+              "Corretto. Il portafoglio supporta la scelta tra iniziative concorrenti.",
+              "Un elenco di fornitori non permette di confrontare i progetti.",
+              "Un budget uniforme ignora differenze di valore e fabbisogno."
             ]
           },
           "masterclass": {
@@ -2987,18 +2987,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa comprende il costo totale?",
+            "q": "Due fornitori AI offrono canoni diversi. Quali voci confronti per stimare il costo totale?",
             "options": [
-              "Licenze, integrazione, formazione e uscita.",
-              "Solo il prezzo iniziale.",
-              "Solo i costi di uscita."
+              "Licenze, integrazione, formazione e costi di uscita pertinenti.",
+              "Solo il prezzo iniziale di attivazione.",
+              "Solo il canone e il costo di uscita, ignorando l’integrazione."
             ],
             "answer": 0,
-            "why": "Il costo totale include licenze, integrazione, formazione e uscita dal servizio.",
+            "why": "Il costo totale comprende le spese lungo il ciclo di utilizzo.",
             "feedback": [
-              "Corretto. Il costo totale include licenze, integrazione, formazione e uscita dal servizio.",
-              "Rivedi il principio: Il costo totale include licenze, integrazione, formazione e uscita dal servizio.",
-              "Rivedi il principio: Il costo totale include licenze, integrazione, formazione e uscita dal servizio."
+              "Corretto. Il costo totale comprende le spese lungo il ciclo di utilizzo.",
+              "Il prezzo iniziale non rappresenta il costo complessivo.",
+              "L’integrazione e la formazione possono incidere significativamente."
             ]
           },
           "masterclass": {
@@ -3068,18 +3068,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come confronti tre investimenti?",
+            "q": "Devi confrontare tre fornitori per costo, privacy, esportabilità e assistenza. Come rendi la valutazione coerente?",
             "options": [
-              "Usi criteri e pesi dichiarati.",
-              "Cambi pesi dopo aver visto i risultati.",
-              "Scegli senza documentare i criteri."
+              "Definisci criteri e pesi prima di assegnare i punteggi.",
+              "Modifichi i pesi dopo aver individuato il fornitore preferito.",
+              "Usi criteri diversi per ogni fornitore senza giustificarli."
             ],
             "answer": 0,
-            "why": "Confronta tre alternative con criteri e pesi dichiarati.",
+            "why": "Criteri e pesi dichiarati rendono il confronto trasparente.",
             "feedback": [
-              "Corretto. Confronta tre alternative con criteri e pesi dichiarati.",
-              "Rivedi il principio: Confronta tre alternative con criteri e pesi dichiarati.",
-              "Rivedi il principio: Confronta tre alternative con criteri e pesi dichiarati."
+              "Corretto. Criteri e pesi dichiarati rendono il confronto trasparente.",
+              "Cambiare i pesi a posteriori può favorire arbitrariamente un risultato.",
+              "Criteri diversi impediscono un confronto omogeneo."
             ]
           },
           "masterclass": {
@@ -3167,18 +3167,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve un business case?",
+            "q": "Un manager chiede perché investire in un assistente AI. Qual è la funzione del business case?",
             "options": [
-              "A sostituire la misurazione.",
-              "A motivare un investimento con evidenze.",
-              "A garantire il successo del progetto."
+              "Sostituire la misurazione dei risultati dopo l’investimento.",
+              "Motivare la decisione con evidenze, costi, benefici e rischi.",
+              "Garantire il successo sulla base delle previsioni."
             ],
             "answer": 1,
-            "why": "Un business case giustifica una decisione di investimento con evidenze.",
+            "why": "Il business case giustifica una decisione, esplicitandone le ipotesi.",
             "feedback": [
-              "Rivedi il principio: Un business case giustifica una decisione di investimento con evidenze.",
-              "Corretto. Un business case giustifica una decisione di investimento con evidenze.",
-              "Rivedi il principio: Un business case giustifica una decisione di investimento con evidenze."
+              "La misurazione successiva serve a verificare le previsioni.",
+              "Corretto. Il business case giustifica una decisione, esplicitandone le ipotesi.",
+              "Le previsioni non garantiscono risultati futuri."
             ]
           },
           "masterclass": {
@@ -3261,18 +3261,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come rendi verificabili i benefici attesi?",
+            "q": "Il business case prevede una riduzione dei tempi amministrativi. Come rendi verificabile questa previsione?",
             "options": [
-              "Definisci baseline e scenari.",
-              "Usi promesse senza dati.",
-              "Elimini le ipotesi dal documento."
+              "Definisci la baseline e scenari di beneficio da confrontare con i risultati.",
+              "Indichi una percentuale di risparmio senza misurare i tempi iniziali.",
+              "Elimini le ipotesi per rendere il documento più convincente."
             ],
             "answer": 0,
-            "why": "La baseline e gli scenari rendono verificabili le ipotesi di beneficio.",
+            "why": "Baseline e scenari consentono di verificare i benefici attesi.",
             "feedback": [
-              "Corretto. La baseline e gli scenari rendono verificabili le ipotesi di beneficio.",
-              "Rivedi il principio: La baseline e gli scenari rendono verificabili le ipotesi di beneficio.",
-              "Rivedi il principio: La baseline e gli scenari rendono verificabili le ipotesi di beneficio."
+              "Corretto. Baseline e scenari consentono di verificare i benefici attesi.",
+              "Senza misura iniziale manca il riferimento per il confronto.",
+              "Nascondere le ipotesi rende la previsione meno verificabile."
             ]
           },
           "masterclass": {
@@ -3342,18 +3342,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa contiene una proposta go/no-go?",
+            "q": "Al termine del pilota, la direzione deve decidere se estendere il progetto AI. Cosa include la proposta go/no-go?",
             "options": [
-              "Costi, benefici, rischi e condizioni decisionali.",
-              "Solo i benefici attesi.",
-              "Solo la descrizione del software."
+              "Costi, benefici, rischi e condizioni misurabili per procedere o fermarsi.",
+              "Solo i benefici previsti, senza condizioni di arresto.",
+              "Solo le caratteristiche tecniche del software."
             ],
             "answer": 0,
-            "why": "Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go.",
+            "why": "La decisione richiede evidenze e criteri espliciti per entrambe le alternative.",
             "feedback": [
-              "Corretto. Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go.",
-              "Rivedi il principio: Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go.",
-              "Rivedi il principio: Scrivi una pagina con costi, benefici, rischi e condizioni go/no-go."
+              "Corretto. La decisione richiede evidenze e criteri espliciti per entrambe le alternative.",
+              "I benefici da soli non chiariscono quando il progetto non è sostenibile.",
+              "Le caratteristiche tecniche non dimostrano valore o rischio accettabile."
             ]
           },
           "masterclass": {
