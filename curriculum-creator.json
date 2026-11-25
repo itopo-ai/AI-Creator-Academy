@@ -193,8 +193,8 @@
             "answer": 2,
             "why": "Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati.",
             "feedback": [
-              "Rivedi il principio. Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati.",
-              "Rivedi il principio. Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati.",
+              "Input diversi possono avere difficoltà diverse: usa lo stesso compito per isolare le differenze tra modelli.",
+              "La lunghezza non misura accuratezza o utilità: confronta le risposte con criteri comuni.",
               "Corretto. Una rubrica assegna punteggi secondo criteri definiti prima della prova; ripeti ogni compito con gli stessi dati."
             ]
           },
@@ -280,9 +280,9 @@
             "answer": 1,
             "why": "Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia.",
             "feedback": [
-              "Rivedi il principio. Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia.",
+              "Una prova limitata non garantisce assenza di errori: documenta ciò che hai osservato.",
               "Corretto. Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia.",
-              "Rivedi il principio. Una scheda dei limiti registra errori osservati, condizioni della prova e conseguenze; non confondere un singolo successo con una garanzia."
+              "Registrare solo i successi nasconde le situazioni in cui il modello fallisce."
             ]
           },
           "masterclass": {
@@ -368,8 +368,8 @@
             "why": "Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova.",
             "feedback": [
               "Corretto. Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova.",
-              "Rivedi il principio. Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova.",
-              "Rivedi il principio. Verifica una dichiarazione risalendo alla fonte originale, controllando data e significato; una citazione inventata non è una prova."
+              "Una citazione ben formattata può essere inventata: controlla che la fonte esista e sostenga la dichiarazione.",
+              "Lo stesso modello può ripetere il proprio errore: serve un riscontro nella fonte originale."
             ]
           },
           "masterclass": {
@@ -455,8 +455,8 @@
             "why": "Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati.",
             "feedback": [
               "Corretto. Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati.",
-              "Rivedi il principio. Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati.",
-              "Rivedi il principio. Sostituisci dati personali con esempi fittizi prima di inviarli a servizi esterni; considera anche allegati e metadati."
+              "Rinominare il file non elimina i dati personali presenti nel contenuto o nei metadati.",
+              "Gli allegati possono contenere dati non necessari: esaminali prima di trasmetterli."
             ]
           },
           "masterclass": {
@@ -541,8 +541,8 @@
             "answer": 2,
             "why": "Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi.",
             "feedback": [
-              "Rivedi il principio. Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi.",
-              "Rivedi il principio. Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi.",
+              "Permessi illimitati consentono azioni non previste: limita l'assistente alle operazioni necessarie.",
+              "Senza criteri di arresto l'assistente può continuare anche quando serve una decisione umana.",
               "Corretto. Definisci cosa l'assistente può fare, cosa deve chiedere e quando deve fermarsi."
             ]
           },
@@ -642,8 +642,8 @@
             "answer": 2,
             "why": "Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie.",
             "feedback": [
-              "Rivedi il principio. Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie.",
-              "Rivedi il principio. Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie.",
+              "Il nome del modello non chiarisce quale risultato deve produrre.",
+              "Una richiesta generica lascia indeterminati pubblico, vincoli e risultato atteso.",
               "Corretto. Un brief chiarisce destinatario, obiettivo, vincoli e risultato atteso; evita istruzioni contraddittorie."
             ]
           },
@@ -730,8 +730,8 @@
             "why": "Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi.",
             "feedback": [
               "Corretto. Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi.",
-              "Rivedi il principio. Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi.",
-              "Rivedi il principio. Few-shot significa mostrare alcuni esempi di input e output; scegli esempi diversi e prova anche casi nuovi."
+              "Ripetere una parola non mostra al modello come trasformare un input in un output.",
+              "Il few-shot usa esempi nel contesto della richiesta, senza richiedere un nuovo addestramento."
             ]
           },
           "masterclass": {
@@ -816,9 +816,9 @@
             "answer": 1,
             "why": "Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza.",
             "feedback": [
-              "Rivedi il principio. Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza.",
+              "Un documento è una fonte di dati, non un'autorità che può sostituire le istruzioni autorizzate.",
               "Corretto. Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza.",
-              "Rivedi il principio. Il contesto documentale fornisce materiale di riferimento; separa il testo della fonte dalle istruzioni e verifica la provenienza."
+              "Eseguire automaticamente istruzioni trovate nei documenti può provocare azioni non autorizzate."
             ]
           },
           "masterclass": {
@@ -903,8 +903,8 @@
             "answer": 2,
             "why": "JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati.",
             "feedback": [
-              "Rivedi il principio. JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati.",
-              "Rivedi il principio. JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati.",
+              "La validità sintattica non garantisce che i valori siano veri o coerenti.",
+              "Un array è solo una struttura: anche i suoi elementi possono contenere dati errati.",
               "Corretto. JSON rappresenta dati con oggetti, array e valori; controlla sia la sintassi sia la correttezza dei dati."
             ]
           },
@@ -991,8 +991,8 @@
             "why": "Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test.",
             "feedback": [
               "Corretto. Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test.",
-              "Rivedi il principio. Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test.",
-              "Rivedi il principio. Una libreria di prompt conserva istruzioni riutilizzabili con versione, variabili e risultati dei test."
+              "Il colore non permette di riprodurre o valutare il comportamento di un prompt.",
+              "Il nome del file non documenta le modifiche, gli input o i risultati delle prove."
             ]
           },
           "masterclass": {
