@@ -11667,18 +11667,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A cosa serve la supervisione umana?",
+            "q": "Un agente non riesce a stabilire l'urgenza di una richiesta cliente. Quale intervento è appropriato?",
             "options": [
-              "Aumentare sempre il numero di azioni.",
-              "Intervenire quando l'agente è incerto.",
-              "Eliminare ogni responsabilità."
+              "Assegnare sempre la priorità minima.",
+              "Inoltrare la richiesta a un responsabile per una decisione.",
+              "Chiudere la richiesta senza classificazione."
             ],
             "answer": 1,
-            "why": "La supervisione consente intervento umano quando l'agente è incerto.",
+            "why": "La supervisione umana gestisce i casi incerti.",
             "feedback": [
-              "Rivedi il principio: La supervisione consente intervento umano quando l'agente è incerto.",
-              "Corretto. La supervisione consente intervento umano quando l'agente è incerto.",
-              "Rivedi il principio: La supervisione consente intervento umano quando l'agente è incerto."
+              "Una priorità minima arbitraria può ritardare casi urgenti.",
+              "Corretto. La supervisione umana gestisce i casi incerti.",
+              "La chiusura può far perdere una richiesta valida."
             ]
           },
           "masterclass": {
@@ -11761,18 +11761,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come gestisci un dato essenziale mancante?",
+            "q": "Una richiesta di acquisto non indica il centro di costo obbligatorio. Come procede l'agente?",
             "options": [
-              "Chiedi chiarimento o attivi escalation.",
-              "Inventi il dato.",
-              "Procedi senza segnalarlo."
+              "Chiede il dato mancante o inoltra il caso al responsabile.",
+              "Usa il centro di costo dell'ultimo acquisto.",
+              "Registra la richiesta come completa senza centro di costo."
             ],
             "answer": 0,
-            "why": "Un dato mancante deve generare una richiesta di chiarimento o escalation.",
+            "why": "Un dato essenziale mancante richiede chiarimento o escalation.",
             "feedback": [
-              "Corretto. Un dato mancante deve generare una richiesta di chiarimento o escalation.",
-              "Rivedi il principio: Un dato mancante deve generare una richiesta di chiarimento o escalation.",
-              "Rivedi il principio: Un dato mancante deve generare una richiesta di chiarimento o escalation."
+              "Corretto. Un dato essenziale mancante richiede chiarimento o escalation.",
+              "L'ultimo acquisto potrebbe appartenere a un reparto diverso.",
+              "Registrare la richiesta come completa nasconde l'anomalia."
             ]
           },
           "masterclass": {
@@ -11842,18 +11842,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi l'escalation?",
+            "q": "In un test inserisci dieci richieste ambigue. Quale risultato verifica che nessuna sia persa durante l'escalation?",
             "options": [
-              "Testi solo richieste chiare.",
-              "Controlli solo che il sistema risponda.",
-              "Simuli casi ambigui e verifichi l'arrivo al responsabile."
+              "Il sistema produce dieci messaggi di risposta.",
+              "Il tempo medio di elaborazione diminuisce.",
+              "Tutte e dieci risultano ricevute dal responsabile con riferimenti tracciabili."
             ],
             "answer": 2,
-            "why": "Simula casi ambigui e verifica che tutti arrivino a un responsabile.",
+            "why": "La ricezione tracciabile verifica la consegna di ciascun caso.",
             "feedback": [
-              "Rivedi il principio: Simula casi ambigui e verifica che tutti arrivino a un responsabile.",
-              "Rivedi il principio: Simula casi ambigui e verifica che tutti arrivino a un responsabile.",
-              "Corretto. Simula casi ambigui e verifica che tutti arrivino a un responsabile."
+              "Una risposta non dimostra la consegna al responsabile.",
+              "La velocità non misura la completezza della consegna.",
+              "Corretto. La ricezione tracciabile verifica la consegna di ciascun caso."
             ]
           },
           "masterclass": {
@@ -11941,18 +11941,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa misura il monitoraggio di un workflow?",
+            "q": "Un agente elabora richieste di assistenza ogni giorno. Quali indicatori monitori per valutarne l'efficienza e l'affidabilità?",
             "options": [
-              "Solo il nome del modello.",
-              "Errori, tempi e costi per esecuzione.",
-              "Solo numero di schermate."
+              "Numero di accessi alla dashboard e nome del modello.",
+              "Errori, durata e costo per esecuzione.",
+              "Solo il numero totale di richieste ricevute."
             ],
             "answer": 1,
-            "why": "Il monitoraggio misura errori, tempi e costi per esecuzione.",
+            "why": "Errori, tempi e costi misurano aspetti complementari del processo.",
             "feedback": [
-              "Rivedi il principio: Il monitoraggio misura errori, tempi e costi per esecuzione.",
-              "Corretto. Il monitoraggio misura errori, tempi e costi per esecuzione.",
-              "Rivedi il principio: Il monitoraggio misura errori, tempi e costi per esecuzione."
+              "Gli accessi alla dashboard non misurano l'esito delle esecuzioni.",
+              "Corretto. Errori, tempi e costi misurano aspetti complementari del processo.",
+              "Il volume da solo non indica qualità o costo."
             ]
           },
           "masterclass": {
@@ -12035,18 +12035,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come previeni cicli incontrollati?",
+            "q": "Un agente ripete la ricerca dello stesso documento senza ottenere risultati. Quale controllo evita un ciclo incontrollato?",
             "options": [
-              "Iterazioni infinite.",
-              "Riavvio continuo senza limite.",
-              "Limite di iterazioni e arresto controllato."
+              "Un riavvio automatico a ogni tentativo fallito senza limite.",
+              "Un aumento progressivo del numero di tentativi senza soglia finale.",
+              "Un massimo di iterazioni seguito da arresto controllato."
             ],
             "answer": 2,
-            "why": "Un limite di iterazioni e un arresto controllato evitano cicli incontrollati.",
+            "why": "Un limite esplicito impedisce ripetizioni indefinite.",
             "feedback": [
-              "Rivedi il principio: Un limite di iterazioni e un arresto controllato evitano cicli incontrollati.",
-              "Rivedi il principio: Un limite di iterazioni e un arresto controllato evitano cicli incontrollati.",
-              "Corretto. Un limite di iterazioni e un arresto controllato evitano cicli incontrollati."
+              "Il riavvio può riprodurre lo stesso ciclo.",
+              "Aumentare i tentativi senza soglia non garantisce l'arresto.",
+              "Corretto. Un limite esplicito impedisce ripetizioni indefinite."
             ]
           },
           "masterclass": {
@@ -12116,18 +12116,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa definisci per un workflow critico?",
+            "q": "Un workflow critico supera la soglia di errori concordata. Quale procedura garantisce continuità operativa?",
             "options": [
-              "Nessuna procedura di emergenza.",
-              "Soglie e percorso manuale alternativo.",
-              "Solo un messaggio di successo."
+              "Continuare automaticamente fino alla fine della giornata.",
+              "Arrestare il flusso secondo le regole e trasferire le richieste al processo manuale.",
+              "Arrestare il flusso eliminando le richieste in attesa."
             ],
             "answer": 1,
-            "why": "Definisci soglie e un percorso manuale alternativo per un workflow.",
+            "why": "Il percorso manuale consente di gestire le richieste durante il guasto.",
             "feedback": [
-              "Rivedi il principio: Definisci soglie e un percorso manuale alternativo per un workflow.",
-              "Corretto. Definisci soglie e un percorso manuale alternativo per un workflow.",
-              "Rivedi il principio: Definisci soglie e un percorso manuale alternativo per un workflow."
+              "Continuare oltre soglia può amplificare gli errori.",
+              "Corretto. Il percorso manuale consente di gestire le richieste durante il guasto.",
+              "Eliminare le richieste compromette la continuità."
             ]
           },
           "masterclass": {
@@ -12215,18 +12215,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come scegli uno strumento Power Platform?",
+            "q": "Un reparto necessita di un modulo per inserire richieste e di un flusso per approvarle. Come scegli i componenti Power Platform?",
             "options": [
-              "Sempre lo stesso strumento.",
-              "In base alle esigenze del processo.",
-              "In base al logo."
+              "Scegliendo soltanto lo strumento già noto al reparto.",
+              "Partendo dai requisiti di raccolta dati e approvazione.",
+              "Usando esclusivamente uno strumento di analisi dei dati."
             ],
             "answer": 1,
-            "why": "Power Platform comprende strumenti per app, flussi e analisi; la scelta dipende dal processo.",
+            "why": "La scelta dei componenti dipende dalle attività del processo.",
             "feedback": [
-              "Rivedi il principio: Power Platform comprende strumenti per app, flussi e analisi; la scelta dipende dal processo.",
-              "Corretto. Power Platform comprende strumenti per app, flussi e analisi; la scelta dipende dal processo.",
-              "Rivedi il principio: Power Platform comprende strumenti per app, flussi e analisi; la scelta dipende dal processo."
+              "La familiarità non garantisce la copertura dei requisiti.",
+              "Corretto. La scelta dei componenti dipende dalle attività del processo.",
+              "L'analisi non sostituisce raccolta e approvazione."
             ]
           },
           "masterclass": {
@@ -12309,18 +12309,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Quali fattori valuti prima di scegliere?",
+            "q": "Due soluzioni soddisfano i requisiti funzionali di un processo. Quali elementi confronti prima dell'acquisto?",
             "options": [
-              "Integrazioni, licenze, competenze e manutenzione.",
-              "Solo il prezzo iniziale.",
-              "Solo la popolarità."
+              "Integrazioni, licenze, competenze disponibili e manutenzione.",
+              "Soltanto il costo della prima licenza.",
+              "Soltanto il numero di funzionalità pubblicizzate."
             ],
             "answer": 0,
-            "why": "Valuta integrazioni, licenze, competenze e manutenzione prima di scegliere.",
+            "why": "La sostenibilità dipende anche da integrazione e gestione nel tempo.",
             "feedback": [
-              "Corretto. Valuta integrazioni, licenze, competenze e manutenzione prima di scegliere.",
-              "Rivedi il principio: Valuta integrazioni, licenze, competenze e manutenzione prima di scegliere.",
-              "Rivedi il principio: Valuta integrazioni, licenze, competenze e manutenzione prima di scegliere."
+              "Corretto. La sostenibilità dipende anche da integrazione e gestione nel tempo.",
+              "Il prezzo iniziale non rappresenta tutti i costi.",
+              "Funzionalità non pertinenti non garantiscono valore."
             ]
           },
           "masterclass": {
@@ -12390,18 +12390,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come confronti soluzioni per un modulo interno?",
+            "q": "Devi scegliere una soluzione per richieste ferie con approvazione del responsabile. Quale prova rende il confronto utile?",
             "options": [
-              "Scegli senza definire i requisiti.",
-              "Confronti solo l'aspetto grafico.",
-              "Valuti alternative rispetto al flusso di approvazione."
+              "Confrontare esclusivamente il design dei moduli.",
+              "Provare soltanto l'inserimento della richiesta.",
+              "Verificare per ogni alternativa inserimento, approvazione e gestione del rifiuto."
             ],
             "answer": 2,
-            "why": "Confronta alternative per un modulo interno con approvazione.",
+            "why": "Il confronto deve coprire il flusso richiesto.",
             "feedback": [
-              "Rivedi il principio: Confronta alternative per un modulo interno con approvazione.",
-              "Rivedi il principio: Confronta alternative per un modulo interno con approvazione.",
-              "Corretto. Confronta alternative per un modulo interno con approvazione."
+              "Il design non dimostra che l'approvazione funzioni.",
+              "L'inserimento non verifica le fasi successive.",
+              "Corretto. Il confronto deve coprire il flusso richiesto."
             ]
           },
           "masterclass": {
@@ -12489,18 +12489,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Qual è la distinzione tra app interna e flusso?",
+            "q": "Un dipendente compila una richiesta spese e il responsabile riceve una notifica di approvazione. Come distingui app e flusso?",
             "options": [
-              "Entrambi servono solo a mostrare grafici.",
-              "Il flusso sostituisce ogni controllo.",
-              "L'app raccoglie dati, il flusso gestisce attività successive."
+              "L'app deve limitarsi alla notifica e il flusso alla visualizzazione dei campi.",
+              "Il flusso deve approvare ogni richiesta senza verifiche.",
+              "L'app raccoglie la richiesta; il flusso gestisce notifica e approvazione."
             ],
             "answer": 2,
-            "why": "Una app interna raccoglie dati e un flusso gestisce attività successive.",
+            "why": "L'app gestisce l'interazione e il flusso le attività successive.",
             "feedback": [
-              "Rivedi il principio: Una app interna raccoglie dati e un flusso gestisce attività successive.",
-              "Rivedi il principio: Una app interna raccoglie dati e un flusso gestisce attività successive.",
-              "Corretto. Una app interna raccoglie dati e un flusso gestisce attività successive."
+              "Questa ripartizione non risponde al processo descritto.",
+              "L'automazione non elimina i controlli di approvazione.",
+              "Corretto. L'app gestisce l'interazione e il flusso le attività successive."
             ]
           },
           "masterclass": {
@@ -12583,18 +12583,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Perché separare richiedente e approvatore?",
+            "q": "Un dipendente può approvare la propria richiesta di rimborso. Quale modifica riduce il conflitto di interessi?",
             "options": [
-              "Per consentire autoapprovazione illimitata.",
-              "Per eliminare la tracciabilità.",
-              "Per ridurre conflitti e accessi impropri."
+              "Consentire l'autoapprovazione registrando soltanto l'orario.",
+              "Assegnare a tutti i richiedenti il ruolo di approvatore.",
+              "Separare i ruoli di richiedente e approvatore."
             ],
             "answer": 2,
-            "why": "Separare richiedente e approvatore riduce conflitti e accessi impropri.",
+            "why": "La separazione dei ruoli riduce i conflitti e gli accessi impropri.",
             "feedback": [
-              "Rivedi il principio: Separare richiedente e approvatore riduce conflitti e accessi impropri.",
-              "Rivedi il principio: Separare richiedente e approvatore riduce conflitti e accessi impropri.",
-              "Corretto. Separare richiedente e approvatore riduce conflitti e accessi impropri."
+              "La registrazione dell'orario non elimina il conflitto.",
+              "Estendere i permessi aumenta il rischio di autoapprovazione.",
+              "Corretto. La separazione dei ruoli riduce i conflitti e gli accessi impropri."
             ]
           },
           "masterclass": {
@@ -12664,18 +12664,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi un'approvazione spese?",
+            "q": "Quale collaudo verifica un prototipo di approvazione spese con ruoli separati?",
             "options": [
-              "Solo richieste accettate.",
-              "Ruoli distinti e casi di rifiuto.",
-              "Solo autoapprovazioni."
+              "Provare solo una richiesta approvata dal responsabile.",
+              "Provare approvazione, rifiuto e tentativo di autoapprovazione non autorizzato.",
+              "Provare solo la compilazione del modulo."
             ],
             "answer": 1,
-            "why": "Progetta un'approvazione spese con ruoli distinti e casi di rifiuto.",
+            "why": "I casi positivi e negativi verificano processo e autorizzazioni.",
             "feedback": [
-              "Rivedi il principio: Progetta un'approvazione spese con ruoli distinti e casi di rifiuto.",
-              "Corretto. Progetta un'approvazione spese con ruoli distinti e casi di rifiuto.",
-              "Rivedi il principio: Progetta un'approvazione spese con ruoli distinti e casi di rifiuto."
+              "Il solo caso positivo non verifica rifiuti e abusi.",
+              "Corretto. I casi positivi e negativi verificano processo e autorizzazioni.",
+              "La compilazione non verifica le decisioni successive."
             ]
           },
           "masterclass": {
@@ -12763,18 +12763,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "A quali fonti accede un assistente aziendale?",
+            "q": "Un assistente interno risponde alle domande sulle procedure commerciali. Quali documenti dovrebbe poter consultare?",
             "options": [
-              "Solo fonti autorizzate.",
-              "Tutte le fonti disponibili.",
-              "Qualsiasi documento richiesto."
+              "Le fonti pertinenti autorizzate per il compito e il profilo di accesso.",
+              "Tutti i documenti aziendali per aumentare la completezza.",
+              "Qualunque documento di cui l'utente conosca il titolo."
             ],
             "answer": 0,
-            "why": "Un assistente aziendale deve accedere soltanto a fonti autorizzate.",
+            "why": "L'accesso deve rispettare finalità e autorizzazioni.",
             "feedback": [
-              "Corretto. Un assistente aziendale deve accedere soltanto a fonti autorizzate.",
-              "Rivedi il principio: Un assistente aziendale deve accedere soltanto a fonti autorizzate.",
-              "Rivedi il principio: Un assistente aziendale deve accedere soltanto a fonti autorizzate."
+              "Corretto. L'accesso deve rispettare finalità e autorizzazioni.",
+              "La completezza non giustifica accessi indiscriminati.",
+              "Conoscere un titolo non conferisce il diritto di accesso."
             ]
           },
           "masterclass": {
@@ -12857,18 +12857,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come verifichi la governance degli accessi?",
+            "q": "Un utente senza permessi chiede a un assistente un documento riservato. Quale esito verifica il controllo degli accessi?",
             "options": [
-              "Test fuori ruolo e controllo delle informazioni esposte.",
-              "Test solo come amministratore.",
-              "Disattivi i controlli durante i test."
+              "L'assistente non espone il documento né informazioni riservate ricavate da esso.",
+              "L'assistente nasconde il file ma ne riporta il contenuto.",
+              "L'assistente restituisce il documento se la richiesta è formulata chiaramente."
             ],
             "answer": 0,
-            "why": "La governance richiede test fuori ruolo e controllo delle informazioni esposte.",
+            "why": "La protezione riguarda anche le informazioni derivate dal documento.",
             "feedback": [
-              "Corretto. La governance richiede test fuori ruolo e controllo delle informazioni esposte.",
-              "Rivedi il principio: La governance richiede test fuori ruolo e controllo delle informazioni esposte.",
-              "Rivedi il principio: La governance richiede test fuori ruolo e controllo delle informazioni esposte."
+              "Corretto. La protezione riguarda anche le informazioni derivate dal documento.",
+              "Nascondere il file non impedisce la divulgazione del contenuto.",
+              "La chiarezza della richiesta non modifica i permessi."
             ]
           },
           "masterclass": {
@@ -12938,18 +12938,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come testi richieste di documenti riservati?",
+            "q": "Come verifichi che un assistente rispetti i permessi su documenti riservati?",
             "options": [
-              "Solo con il proprietario dei documenti.",
-              "Con un account condiviso.",
-              "Con profili autorizzati e non autorizzati."
+              "Provi soltanto il profilo amministratore.",
+              "Provi due richieste diverse con lo stesso account autorizzato.",
+              "Ripeti la stessa richiesta con profili autorizzati e non autorizzati e confronti gli esiti attesi."
             ],
             "answer": 2,
-            "why": "Simula richieste di documenti riservati con profili autorizzati e non.",
+            "why": "Il confronto tra profili verifica accessi consentiti e negati.",
             "feedback": [
-              "Rivedi il principio: Simula richieste di documenti riservati con profili autorizzati e non.",
-              "Rivedi il principio: Simula richieste di documenti riservati con profili autorizzati e non.",
-              "Corretto. Simula richieste di documenti riservati con profili autorizzati e non."
+              "L'amministratore non rappresenta gli utenti con permessi limitati.",
+              "Un solo profilo non verifica il confine delle autorizzazioni.",
+              "Corretto. Il confronto tra profili verifica accessi consentiti e negati."
             ]
           },
           "masterclass": {
@@ -13037,18 +13037,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Cosa contiene un piano di 90 giorni?",
+            "q": "La direzione vuole introdurre automazioni entro 90 giorni. Quale piano traduce l'obiettivo in attività realizzabili?",
             "options": [
-              "Solo obiettivi generici.",
-              "Solo una lista di software.",
-              "Iniziative, risorse e scadenze."
+              "Una lista di strumenti da acquistare senza responsabili.",
+              "Un obiettivo generale di digitalizzazione senza calendario.",
+              "Iniziative definite, risorse assegnate e scadenze intermedie."
             ],
             "answer": 2,
-            "why": "Un piano di 90 giorni traduce obiettivi in iniziative, risorse e scadenze.",
+            "why": "Il piano collega obiettivi a iniziative, risorse e tempi.",
             "feedback": [
-              "Rivedi il principio: Un piano di 90 giorni traduce obiettivi in iniziative, risorse e scadenze.",
-              "Rivedi il principio: Un piano di 90 giorni traduce obiettivi in iniziative, risorse e scadenze.",
-              "Corretto. Un piano di 90 giorni traduce obiettivi in iniziative, risorse e scadenze."
+              "Gli acquisti non definiscono attività e responsabilità.",
+              "Un obiettivo senza calendario non guida l'esecuzione.",
+              "Corretto. Il piano collega obiettivi a iniziative, risorse e tempi."
             ]
           },
           "masterclass": {
@@ -13131,18 +13131,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come stabilisci le priorità?",
+            "q": "Due iniziative AI competono per lo stesso budget. Come stabilisci quale avviare per prima?",
             "options": [
-              "Ordine alfabetico.",
-              "Solo novità tecnologica.",
-              "Valore, fattibilità e rischio."
+              "Scegli quella che utilizza la tecnologia più recente.",
+              "Scegli quella con il maggior beneficio dichiarato ignorando i rischi.",
+              "Confronti valore atteso, fattibilità e rischio."
             ],
             "answer": 2,
-            "why": "Priorità e milestone dipendono da valore, fattibilità e rischio.",
+            "why": "La priorità bilancia benefici, possibilità di esecuzione e rischi.",
             "feedback": [
-              "Rivedi il principio: Priorità e milestone dipendono da valore, fattibilità e rischio.",
-              "Rivedi il principio: Priorità e milestone dipendono da valore, fattibilità e rischio.",
-              "Corretto. Priorità e milestone dipendono da valore, fattibilità e rischio."
+              "La novità non dimostra valore aziendale.",
+              "Un beneficio elevato può essere irrealizzabile o troppo rischioso.",
+              "Corretto. La priorità bilancia benefici, possibilità di esecuzione e rischi."
             ]
           },
           "masterclass": {
@@ -13212,18 +13212,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Come rendi verificabile il piano trimestrale?",
+            "q": "Un piano trimestrale prevede tre automazioni. Come rendi verificabile l'avanzamento prima della scadenza finale?",
             "options": [
-              "Nessun indicatore fino alla fine.",
-              "Responsabili, KPI e revisioni mensili.",
-              "Solo una scadenza finale."
+              "Controlli soltanto la spesa alla fine dei 90 giorni.",
+              "Assegni responsabili, KPI e revisioni mensili.",
+              "Registri le attività completate senza obiettivi misurabili."
             ],
             "answer": 1,
-            "why": "Prepara un piano trimestrale con responsabili, KPI e revisioni mensili.",
+            "why": "Responsabilità, indicatori e revisioni permettono correzioni tempestive.",
             "feedback": [
-              "Rivedi il principio: Prepara un piano trimestrale con responsabili, KPI e revisioni mensili.",
-              "Corretto. Prepara un piano trimestrale con responsabili, KPI e revisioni mensili.",
-              "Rivedi il principio: Prepara un piano trimestrale con responsabili, KPI e revisioni mensili."
+              "Un controllo finale non consente interventi intermedi.",
+              "Corretto. Responsabilità, indicatori e revisioni permettono correzioni tempestive.",
+              "Le attività completate non dimostrano il raggiungimento dei risultati."
             ]
           },
           "masterclass": {
