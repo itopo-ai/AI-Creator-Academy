@@ -104,3 +104,7 @@ Su richiesta utente, unico corso e tre annualità, due rami distinti: Profession
 
 ### Fase 2D — blocco 2 e classificazione rami
 Fase 2D blocco 2: Business 13–24, 36 sessioni, 72 quiz, 216 feedback esaminati; 36/72 quiz con feedback tripli distinti (36 base, 0 avanzati), posizioni 22/18/32, 36/36 coppie stessa posizione. 36 ore nominali non validate. Tutte da integrare. Retroclassificazione 1–12: 29 comuni, 7 miste, 0 interamente propedeutiche; 13–24: 28 comuni, 8 miste, 0 interamente propedeutiche. M indica separare teoria preparatoria se presente, non esonerare applicazione; classificazione preliminare. Proposta +18 sessioni comuni nel blocco 2 (50%), non definitiva. Audit cumulativo Academy 192/264 sessioni, 384/528 quiz, 1152/1584 feedback; Business 72/144. Prossimo Business 25–36. Nessuna modifica applicativa.
+
+
+### Fase 2D — blocco 3 Data Analytics & BI
+Fase 2D blocco 3: Business 25–36, 36 sessioni, 72 quiz principali, 216 feedback e 12 quiz esercizio; 36/72 feedback tripli distinti (36 base, 0 avanzati), posizioni 24/32/16, 36/36 coppie stessa posizione. 36 ore nominali non validate. Tutte da integrare; 27 comuni, 9 miste, 0 propedeutiche pure; cumulativo Business 84 comuni, 24 miste su 108. Proposta +30 sessioni comuni (83,3% blocco), non definitiva; +66 Business finora proposte. Audit Academy 228/264 sessioni, 456/528 quiz, 1368/1584 feedback. Prossimo Business 37–48. Nessuna modifica applicativa.
