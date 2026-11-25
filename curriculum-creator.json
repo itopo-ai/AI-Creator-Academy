@@ -5595,18 +5595,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un webhook di ordine arriva due volte. Come evitare doppie registrazioni?",
+              "q": "Un webhook riceve due notifiche dello stesso ordine. Come impedisci due elaborazioni?",
               "options": [
-                "Genera un nuovo ID a ogni consegna dello stesso evento.",
-                "Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini."
+                "Avvia un flusso per ogni notifica senza controlli.",
+                "Registra l’identificativo dell’evento e ignora duplicati già elaborati.",
+                "Scarta tutte le notifiche ricevute nello stesso minuto."
               ],
               "answer": 1,
-              "why": "Un workflow ripetuto non deve duplicare effetti irreversibili.",
+              "why": "Un identificativo stabile permette di riconoscere la stessa notifica senza perdere eventi distinti.",
               "feedback": [
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Corretto. Un workflow ripetuto non deve duplicare effetti irreversibili.",
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato."
+                "Una consegna ripetuta può produrre effetti duplicati.",
+                "Corretto. Un identificativo stabile permette di riconoscere la stessa notifica senza perdere eventi distinti.",
+                "Eventi diversi possono arrivare nello stesso minuto."
               ]
             }
           ],
@@ -5682,18 +5682,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un webhook di ordine arriva due volte. Come evitare doppie registrazioni?",
+              "q": "Un sistema invia importi in centesimi e il destinatario richiede euro. Come trasformi 1250?",
               "options": [
-                "Genera un nuovo ID a ogni consegna dello stesso evento.",
-                "Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini."
+                "Invia 1250 euro.",
+                "Converti in 12,50 euro e verifica unità e precisione.",
+                "Dividi per dieci ottenendo 125 euro."
               ],
               "answer": 1,
-              "why": "Un workflow ripetuto non deve duplicare effetti irreversibili.",
+              "why": "La conversione da centesimi a euro richiede una divisione per cento.",
               "feedback": [
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Corretto. Un workflow ripetuto non deve duplicare effetti irreversibili.",
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato."
+                "Il valore senza conversione è cento volte maggiore.",
+                "Corretto. La conversione da centesimi a euro richiede una divisione per cento.",
+                "Dividere per dieci non rispetta il rapporto tra le unità."
               ]
             }
           ],
@@ -5769,18 +5769,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un webhook di ordine arriva due volte. Come evitare doppie registrazioni?",
+              "q": "Un flusso approva ordini fino a 100 euro inclusi, salvo quelli senza indirizzo. Quale condizione è corretta?",
               "options": [
-                "Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Genera un nuovo ID a ogni consegna dello stesso evento.",
-                "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini."
+                "Importo non superiore a 100 e indirizzo valido.",
+                "Importo inferiore a 100 oppure indirizzo valido.",
+                "Importo non superiore a 100 indipendentemente dall’indirizzo."
               ],
               "answer": 0,
-              "why": "Un workflow ripetuto non deve duplicare effetti irreversibili.",
+              "why": "Entrambi i requisiti devono essere soddisfatti, incluso il valore limite.",
               "feedback": [
-                "Corretto. Un workflow ripetuto non deve duplicare effetti irreversibili.",
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato."
+                "Corretto. Entrambi i requisiti devono essere soddisfatti, incluso il valore limite.",
+                "Oppure permette ordini che soddisfano un solo requisito ed esclude il limite in alcuni casi.",
+                "Il solo importo non controlla l’indirizzo."
               ]
             }
           ],
@@ -5856,18 +5856,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un webhook di ordine arriva due volte. Come evitare doppie registrazioni?",
+              "q": "Un pagamento va in timeout dopo l’invio. Prima di ritentare, come riduci il rischio di doppio addebito?",
               "options": [
-                "Genera un nuovo ID a ogni consegna dello stesso evento.",
-                "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini.",
-                "Usa un identificativo univoco e verifica se è già stato elaborato."
+                "Genera una nuova chiave a ogni tentativo.",
+                "Ripeti subito senza controllare lo stato.",
+                "Verifica lo stato e usa la stessa chiave di idempotenza se supportata, con tentativi limitati."
               ],
               "answer": 2,
-              "why": "Un workflow ripetuto non deve duplicare effetti irreversibili.",
+              "why": "Il timeout non dimostra che il pagamento sia fallito; stato e idempotenza aiutano a evitare duplicati.",
               "feedback": [
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Corretto. Un workflow ripetuto non deve duplicare effetti irreversibili."
+                "Una nuova chiave può identificare un pagamento distinto.",
+                "Ripetere senza verifica può duplicare un pagamento già eseguito.",
+                "Corretto. Il timeout non dimostra che il pagamento sia fallito; stato e idempotenza aiutano a evitare duplicati."
               ]
             }
           ],
@@ -5943,18 +5943,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un webhook di ordine arriva due volte. Come evitare doppie registrazioni?",
+              "q": "Un workflow crea una fattura ma fallisce durante la notifica. Come progetti il recupero?",
               "options": [
-                "Genera un nuovo ID a ogni consegna dello stesso evento.",
-                "Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Elimina i duplicati soltanto dopo aver registrato tutti gli ordini."
+                "Riesegui sempre tutti i passaggi da zero.",
+                "Registra l’ID della fattura e riprendi la notifica senza ricrearla.",
+                "Segna tutto come completato senza inviare la notifica."
               ],
               "answer": 1,
-              "why": "Un workflow ripetuto non deve duplicare effetti irreversibili.",
+              "why": "Conservare lo stato dei passaggi permette di riprendere dal punto fallito.",
               "feedback": [
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato.",
-                "Corretto. Un workflow ripetuto non deve duplicare effetti irreversibili.",
-                "Rivedi il caso: Un workflow ripetuto non deve duplicare effetti irreversibili. La soluzione attesa è: Usa un identificativo univoco e verifica se è già stato elaborato."
+                "Ripartire da zero può creare una seconda fattura.",
+                "Corretto. Conservare lo stato dei passaggi permette di riprendere dal punto fallito.",
+                "La notifica non riuscita deve restare visibile come tale."
               ]
             }
           ],
@@ -6044,18 +6044,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un agente propone di inviare una fattura. Quale barriera usare?",
+              "q": "Un tool di ricerca accetta un limite di risultati. Come impedisci richieste eccessive?",
               "options": [
-                "Invia automaticamente se il testo sembra corretto.",
-                "Registra l'azione soltanto dopo un reclamo.",
-                "Approvazione esplicita prima dell’invio e registro dell’azione."
+                "Accetta qualunque stringa e lascia decidere al servizio.",
+                "Elimina il limite e restituisci sempre tutti i documenti.",
+                "Definisci un intero con intervallo ammesso e validalo prima della chiamata."
               ],
               "answer": 2,
-              "why": "Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
+              "why": "Lo schema e la validazione applicativa limitano input non validi e consumo di risorse.",
               "feedback": [
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Corretto. Un agente sceglie azioni tramite strumenti con limiti e verifiche."
+                "Una stringa arbitraria non garantisce un limite interpretabile.",
+                "Restituire tutto può aumentare costi e latenza.",
+                "Corretto. Lo schema e la validazione applicativa limitano input non validi e consumo di risorse."
               ]
             }
           ],
@@ -6131,18 +6131,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un agente propone di inviare una fattura. Quale barriera usare?",
+              "q": "Un agente ripete la stessa ricerca cinque volte senza nuove evidenze. Come correggi il piano?",
               "options": [
-                "Invia automaticamente se il testo sembra corretto.",
-                "Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Registra l'azione soltanto dopo un reclamo."
+                "Aumenta il budget ogni volta che la ricerca si ripete.",
+                "Rileva l’assenza di progresso e termina o chiedi aiuto entro un budget di chiamate.",
+                "Considera il compito riuscito dopo cinque chiamate."
               ],
               "answer": 1,
-              "why": "Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
+              "why": "Un criterio di progresso e un limite evitano cicli improduttivi.",
               "feedback": [
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Corretto. Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione."
+                "Aumentare continuamente il budget prolunga il ciclo.",
+                "Corretto. Un criterio di progresso e un limite evitano cicli improduttivi.",
+                "Il numero di chiamate non dimostra il raggiungimento dell’obiettivo."
               ]
             }
           ],
@@ -6218,18 +6218,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un agente propone di inviare una fattura. Quale barriera usare?",
+              "q": "Un agente prepara una modifica a dieci record, ma dopo l’approvazione ne aggiunge altri due. Cosa deve fare?",
               "options": [
-                "Invia automaticamente se il testo sembra corretto.",
-                "Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Registra l'azione soltanto dopo un reclamo."
+                "Usare la precedente approvazione anche per i due record aggiunti.",
+                "Richiedere una nuova approvazione per il piano modificato prima di eseguirlo.",
+                "Eseguire tutto e mostrare il riepilogo dopo."
               ],
               "answer": 1,
-              "why": "Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
+              "why": "L’approvazione deve riferirsi all’azione effettiva e al suo perimetro.",
               "feedback": [
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Corretto. Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione."
+                "I record aggiunti non erano inclusi nell’autorizzazione.",
+                "Corretto. L’approvazione deve riferirsi all’azione effettiva e al suo perimetro.",
+                "Un riepilogo successivo non consente di prevenire modifiche non approvate."
               ]
             }
           ],
@@ -6305,18 +6305,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un agente propone di inviare una fattura. Quale barriera usare?",
+              "q": "Due agenti risolvono 18 casi su 20, ma uno effettua il triplo delle chiamate. Come li confronti?",
               "options": [
-                "Invia automaticamente se il testo sembra corretto.",
-                "Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Registra l'azione soltanto dopo un reclamo."
+                "Dichiara equivalenti i due agenti perché hanno lo stesso punteggio.",
+                "Esamina errori critici, costo e latenza oltre al tasso di successo.",
+                "Scegli quello con più chiamate perché ha lavorato di più."
               ],
               "answer": 1,
-              "why": "Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
+              "why": "La valutazione deve includere qualità dei risultati ed efficienza delle azioni.",
               "feedback": [
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Corretto. Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione."
+                "Lo stesso punteggio può nascondere errori e costi diversi.",
+                "Corretto. La valutazione deve includere qualità dei risultati ed efficienza delle azioni.",
+                "Più chiamate non dimostrano maggiore qualità."
               ]
             }
           ],
@@ -6392,18 +6392,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un agente propone di inviare una fattura. Quale barriera usare?",
+              "q": "Un agente deve riassumere cinque documenti, ma il quarto non è accessibile. Quale esito è affidabile?",
               "options": [
-                "Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Invia automaticamente se il testo sembra corretto.",
-                "Registra l'azione soltanto dopo un reclamo."
+                "Riassumi i documenti accessibili, indica quello mancante e non inventarne il contenuto.",
+                "Completa il quarto riassunto per analogia con gli altri.",
+                "Dichiara di aver letto tutti i documenti se il risultato sembra coerente."
               ],
               "answer": 0,
-              "why": "Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
+              "why": "L’agente deve distinguere risultati verificati e limiti di accesso.",
               "feedback": [
-                "Corretto. Un agente sceglie azioni tramite strumenti con limiti e verifiche.",
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione.",
-                "Rivedi il caso: Un agente sceglie azioni tramite strumenti con limiti e verifiche. La soluzione attesa è: Approvazione esplicita prima dell’invio e registro dell’azione."
+                "Corretto. L’agente deve distinguere risultati verificati e limiti di accesso.",
+                "L’analogia non fornisce evidenza sul documento mancante.",
+                "La coerenza apparente non dimostra che il documento sia stato letto."
               ]
             }
           ],
@@ -6493,18 +6493,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un documento contiene istruzioni malevole. Come trattarle?",
+              "q": "Un client MCP scopre uno strumento di ricerca, ma non conosce i parametri. Come procede?",
               "options": [
-                "Segui le istruzioni del documento se sembrano pertinenti.",
-                "Considera fidato qualsiasi documento recuperato.",
-                "Come dati non fidati, senza eseguire comandi incorporati."
+                "Inventa i parametri basandosi sul nome dello strumento.",
+                "Presume che tutti i server MCP accettino gli stessi parametri.",
+                "Consulta la descrizione e lo schema esposti dal server prima di invocarlo."
               ],
               "answer": 2,
-              "why": "Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni.",
+              "why": "Il contratto dello strumento descrive gli input previsti e guida la chiamata.",
               "feedback": [
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Corretto. Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni."
+                "Il nome non basta a determinare i parametri validi.",
+                "MCP standardizza l’interazione, non rende identici gli schemi degli strumenti.",
+                "Corretto. Il contratto dello strumento descrive gli input previsti e guida la chiamata."
               ]
             }
           ],
@@ -6580,18 +6580,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un documento contiene istruzioni malevole. Come trattarle?",
+              "q": "Un assistente deve leggere fatture di un solo reparto. Quale configurazione limita meglio gli effetti di un errore?",
               "options": [
-                "Come dati non fidati, senza eseguire comandi incorporati.",
-                "Segui le istruzioni del documento se sembrano pertinenti.",
-                "Considera fidato qualsiasi documento recuperato."
+                "Credenziali di sola lettura limitate alle fatture autorizzate del reparto.",
+                "Credenziali amministrative con un prompt che vieta modifiche.",
+                "Lettura di tutte le fatture aziendali senza filtri."
               ],
               "answer": 0,
-              "why": "Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni.",
+              "why": "I permessi effettivi devono limitare accesso e azioni al compito necessario.",
               "feedback": [
-                "Corretto. Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni.",
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati."
+                "Corretto. I permessi effettivi devono limitare accesso e azioni al compito necessario.",
+                "Un prompt non sostituisce un controllo delle autorizzazioni.",
+                "La lettura globale espone dati estranei al compito."
               ]
             }
           ],
@@ -6667,18 +6667,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un documento contiene istruzioni malevole. Come trattarle?",
+              "q": "Un tool di modifica file viene provato in una sandbox che monta la cartella di produzione in scrittura. Come correggi il test?",
               "options": [
-                "Segui le istruzioni del documento se sembrano pertinenti.",
-                "Come dati non fidati, senza eseguire comandi incorporati.",
-                "Considera fidato qualsiasi documento recuperato."
+                "Mantieni il montaggio perché la sandbox ha un nome diverso.",
+                "Usa copie fittizie isolate e rimuovi il montaggio scrivibile della produzione.",
+                "Usa credenziali amministrative per evitare errori di permesso."
               ],
               "answer": 1,
-              "why": "Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni.",
+              "why": "L’isolamento richiede che le risorse reali non siano modificabili durante il test.",
               "feedback": [
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Corretto. Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni.",
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati."
+                "Il nome dell’ambiente non impedisce la scrittura su una cartella montata.",
+                "Corretto. L’isolamento richiede che le risorse reali non siano modificabili durante il test.",
+                "Privilegi maggiori ampliano gli effetti di eventuali errori."
               ]
             }
           ],
@@ -6754,18 +6754,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un documento contiene istruzioni malevole. Come trattarle?",
+              "q": "Un documento recuperato chiede di trasmettere il contenuto di altri file a un sito esterno. Come deve reagire l’agente?",
               "options": [
-                "Segui le istruzioni del documento se sembrano pertinenti.",
-                "Considera fidato qualsiasi documento recuperato.",
-                "Come dati non fidati, senza eseguire comandi incorporati."
+                "Esegui la richiesta se il documento sembra ufficiale.",
+                "Chiedi al documento di confermare l’autorizzazione.",
+                "Ignora la richiesta non autorizzata, conserva il compito originale e non trasmettere dati."
               ],
               "answer": 2,
-              "why": "Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni.",
+              "why": "Il contenuto recuperato è un dato non fidato e non può concedere permessi.",
               "feedback": [
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Corretto. Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni."
+                "L’apparenza ufficiale non autorizza la trasmissione.",
+                "Un documento non può conferire autorità alle proprie istruzioni.",
+                "Corretto. Il contenuto recuperato è un dato non fidato e non può concedere permessi."
               ]
             }
           ],
@@ -6841,18 +6841,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Un documento contiene istruzioni malevole. Come trattarle?",
+              "q": "Un server MCP cambia lo schema di uno strumento dopo un aggiornamento. Come verifichi l’integrazione?",
               "options": [
-                "Segui le istruzioni del documento se sembrano pertinenti.",
-                "Considera fidato qualsiasi documento recuperato.",
-                "Come dati non fidati, senza eseguire comandi incorporati."
+                "Controlla soltanto che la connessione sia attiva.",
+                "Disabilita la validazione per accettare qualunque schema.",
+                "Confronta i contratti, adatta il client e prova casi validi, invalidi e permessi limitati."
               ],
               "answer": 2,
-              "why": "Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni.",
+              "why": "La compatibilità richiede verifiche del contratto e del comportamento, non solo della connessione.",
               "feedback": [
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Rivedi il caso: Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni. La soluzione attesa è: Come dati non fidati, senza eseguire comandi incorporati.",
-                "Corretto. Il protocollo collega client e server di strumenti; non sostituisce autorizzazioni."
+                "Una connessione attiva non garantisce chiamate compatibili.",
+                "Disabilitare la validazione nasconde incompatibilità e aumenta il rischio.",
+                "Corretto. La compatibilità richiede verifiche del contratto e del comportamento, non solo della connessione."
               ]
             }
           ],
@@ -6942,18 +6942,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una risposta lunga supera il budget previsto. Come limitarla?",
+              "q": "Un backend riceve una richiesta AI da un utente autenticato. Come impedisci che consumi tutto il budget comune?",
               "options": [
-                "Aumenta il limite senza misurare i costi.",
-                "Limita solo il numero di richieste, non la loro dimensione.",
-                "Imposta budget, lunghezza massima e monitoraggio per richiesta."
+                "Nascondi il pulsante dopo una richiesta solo nel browser.",
+                "Distribuisci la chiave API agli utenti per separare le richieste.",
+                "Applica quote per utente e limiti di richiesta sul backend, registrando il consumo."
               ],
               "answer": 2,
-              "why": "Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
+              "why": "I limiti lato server controllano il consumo anche per richieste dirette.",
               "feedback": [
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Corretto. Il costo dipende dal modello e dai token elaborati; controlla limiti e output."
+                "Il controllo grafico può essere aggirato.",
+                "Distribuire una chiave condivisa espone il segreto senza garantire quote individuali.",
+                "Corretto. I limiti lato server controllano il consumo anche per richieste dirette."
               ]
             }
           ],
@@ -7029,18 +7029,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una risposta lunga supera il budget previsto. Come limitarla?",
+              "q": "Un modello restituisce un JSON con quantità intera pari a meno tre. Lo schema richiede solo un intero. Come migliori il controllo?",
               "options": [
-                "Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Aumenta il limite senza misurare i costi.",
-                "Limita solo il numero di richieste, non la loro dimensione."
+                "Aggiungi il vincolo di quantità positiva e verifica la coerenza con le regole del dominio.",
+                "Accetta il valore perché è un intero.",
+                "Converti il valore in testo senza altri controlli."
               ],
               "answer": 0,
-              "why": "Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
+              "why": "Il tipo corretto non garantisce un valore ammissibile: servono vincoli semantici.",
               "feedback": [
-                "Corretto. Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta."
+                "Corretto. Il tipo corretto non garantisce un valore ammissibile: servono vincoli semantici.",
+                "Un intero negativo può violare le regole della quantità.",
+                "Cambiare tipo non corregge il valore fuori dominio."
               ]
             }
           ],
@@ -7116,18 +7116,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una risposta lunga supera il budget previsto. Come limitarla?",
+              "q": "Durante lo streaming di una risposta l’utente preme Annulla. Come gestisci l’interfaccia?",
               "options": [
-                "Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Aumenta il limite senza misurare i costi.",
-                "Limita solo il numero di richieste, non la loro dimensione."
+                "Interrompi la richiesta quando possibile e indica che il testo è parziale o annullato.",
+                "Mostra comunque la risposta come completata.",
+                "Nascondi il pulsante senza interrompere o segnalare la richiesta."
               ],
               "answer": 0,
-              "why": "Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
+              "why": "L’annullamento deve distinguere il contenuto parziale da un risultato completo.",
               "feedback": [
-                "Corretto. Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta."
+                "Corretto. L’annullamento deve distinguere il contenuto parziale da un risultato completo.",
+                "Un testo interrotto non è una risposta conclusa.",
+                "Nascondere il controllo non interrompe necessariamente il consumo."
               ]
             }
           ],
@@ -7203,18 +7203,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una risposta lunga supera il budget previsto. Come limitarla?",
+              "q": "Una richiesta costa 0,04 euro e ne prevedi 500 al giorno. Quale budget giornaliero minimo stimato serve per le sole richieste?",
               "options": [
-                "Aumenta il limite senza misurare i costi.",
-                "Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Limita solo il numero di richieste, non la loro dimensione."
+                "2 euro.",
+                "20 euro, da confrontare con il consumo reale.",
+                "200 euro."
               ],
               "answer": 1,
-              "why": "Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
+              "why": "Moltiplicando 0,04 per 500 si ottengono 20 euro, esclusi altri costi.",
               "feedback": [
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Corretto. Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta."
+                "Due euro corrispondono a 50 richieste a quel prezzo.",
+                "Corretto. Moltiplicando 0,04 per 500 si ottengono 20 euro, esclusi altri costi.",
+                "Duecento euro sono dieci volte la stima indicata."
               ]
             }
           ],
@@ -7290,18 +7290,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Una risposta lunga supera il budget previsto. Come limitarla?",
+              "q": "Un assistente riceve una risposta del modello non conforme al formato richiesto. Come gestisci il risultato?",
               "options": [
-                "Aumenta il limite senza misurare i costi.",
-                "Limita solo il numero di richieste, non la loro dimensione.",
-                "Imposta budget, lunghezza massima e monitoraggio per richiesta."
+                "Mostra il risultato non valido come se fosse corretto.",
+                "Ripeti senza limite finché il formato coincide.",
+                "Valida l’output, esegui al massimo tentativi controllati e segnala il fallimento se persiste."
               ],
               "answer": 2,
-              "why": "Il costo dipende dal modello e dai token elaborati; controlla limiti e output.",
+              "why": "La validazione e i limiti impediscono di presentare dati non utilizzabili o consumare risorse senza controllo.",
               "feedback": [
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Rivedi il caso: Il costo dipende dal modello e dai token elaborati; controlla limiti e output. La soluzione attesa è: Imposta budget, lunghezza massima e monitoraggio per richiesta.",
-                "Corretto. Il costo dipende dal modello e dai token elaborati; controlla limiti e output."
+                "Un risultato non valido può rompere le funzioni che lo utilizzano.",
+                "Tentativi illimitati non garantiscono la correzione e possono esaurire il budget.",
+                "Corretto. La validazione e i limiti impediscono di presentare dati non utilizzabili o consumare risorse senza controllo."
               ]
             }
           ],
@@ -7391,18 +7391,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il documento recuperato è obsoleto. Come evitare una risposta ingannevole?",
+              "q": "Nel corpus convivono due versioni di una procedura con regole incompatibili. Come prepari la ricerca?",
               "options": [
-                "Usa il documento perché è il primo risultato.",
-                "Ometti la data della fonte per semplificare la risposta.",
-                "Controlla data e fonte, dichiara l’incertezza o astieniti."
+                "Unisci i testi senza distinguere le versioni.",
+                "Scegli sempre il file con il nome più corto.",
+                "Registra versione, validità e provenienza e identifica la procedura applicabile."
               ],
               "answer": 2,
-              "why": "Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
+              "why": "I metadati consentono di distinguere regole vigenti e storiche.",
               "feedback": [
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Corretto. Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni."
+                "Unire versioni può produrre risposte contraddittorie.",
+                "La lunghezza del nome non indica validità o autorevolezza.",
+                "Corretto. I metadati consentono di distinguere regole vigenti e storiche."
               ]
             }
           ],
@@ -7478,18 +7478,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il documento recuperato è obsoleto. Come evitare una risposta ingannevole?",
+              "q": "Una tabella di tariffe viene divisa in segmenti separando intestazioni e valori. Come migliori il chunking?",
               "options": [
-                "Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Usa il documento perché è il primo risultato.",
-                "Ometti la data della fonte per semplificare la risposta."
+                "Mantieni intestazioni e righe associate, preservando il contesto della tabella.",
+                "Dividi ogni cella in un segmento indipendente.",
+                "Elimina le intestazioni per ridurre i token."
               ],
               "answer": 0,
-              "why": "Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
+              "why": "Le intestazioni permettono di interpretare correttamente i valori recuperati.",
               "feedback": [
-                "Corretto. Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti."
+                "Corretto. Le intestazioni permettono di interpretare correttamente i valori recuperati.",
+                "Una cella isolata può perdere unità e significato.",
+                "Eliminare le intestazioni rende ambiguo il contenuto."
               ]
             }
           ],
@@ -7565,18 +7565,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il documento recuperato è obsoleto. Come evitare una risposta ingannevole?",
+              "q": "La ricerca semantica restituisce un documento pertinente ma relativo a un prodotto diverso. Come migliori il recupero?",
               "options": [
-                "Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Usa il documento perché è il primo risultato.",
-                "Ometti la data della fonte per semplificare la risposta."
+                "Combina la ricerca con filtri sui metadati del prodotto e verifica i passaggi.",
+                "Aumenta soltanto il numero di risultati senza filtri.",
+                "Accetta il primo risultato perché semanticamente simile."
               ],
               "answer": 0,
-              "why": "Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
+              "why": "I filtri riducono risultati incompatibili con l’entità richiesta.",
               "feedback": [
-                "Corretto. Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti."
+                "Corretto. I filtri riducono risultati incompatibili con l’entità richiesta.",
+                "Più risultati non garantiscono che appartengano al prodotto corretto.",
+                "La somiglianza semantica non dimostra che il documento riguardi il prodotto richiesto."
               ]
             }
           ],
@@ -7652,18 +7652,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il documento recuperato è obsoleto. Come evitare una risposta ingannevole?",
+              "q": "Una risposta RAG contiene due affermazioni ma la fonte citata sostiene solo la prima. Come la correggi?",
               "options": [
-                "Usa il documento perché è il primo risultato.",
-                "Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Ometti la data della fonte per semplificare la risposta."
+                "Ripeti la stessa citazione dopo entrambe le affermazioni.",
+                "Collega ogni affermazione a una prova pertinente oppure elimina o qualifica quella non supportata.",
+                "Aggiungi una fonte generica senza verificarla."
               ],
               "answer": 1,
-              "why": "Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
+              "why": "Ogni affermazione fattuale deve essere sostenuta dalla relativa evidenza.",
               "feedback": [
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Corretto. Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti."
+                "Ripetere una citazione non estende ciò che la fonte dimostra.",
+                "Corretto. Ogni affermazione fattuale deve essere sostenuta dalla relativa evidenza.",
+                "Una fonte non verificata non colma la lacuna probatoria."
               ]
             }
           ],
@@ -7739,18 +7739,18 @@
           },
           "advancedCheck": [
             {
-              "q": "Il documento recuperato è obsoleto. Come evitare una risposta ingannevole?",
+              "q": "Un assistente RAG trova una procedura del 2022 ma non quella attualmente valida. Come risponde a una domanda sulle regole vigenti?",
               "options": [
-                "Usa il documento perché è il primo risultato.",
-                "Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Ometti la data della fonte per semplificare la risposta."
+                "Presenta la procedura del 2022 come sicuramente vigente.",
+                "Dichiara il limite temporale della fonte e richiede una fonte aggiornata.",
+                "Inventa le modifiche che potrebbero essere intervenute."
               ],
               "answer": 1,
-              "why": "Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
+              "why": "Una fonte storica non dimostra la validità attuale della procedura.",
               "feedback": [
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti.",
-                "Corretto. Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni.",
-                "Rivedi il caso: Recupera passaggi pertinenti prima della generazione; le citazioni devono supportare le affermazioni. La soluzione attesa è: Controlla data e fonte, dichiara l’incertezza o astieniti."
+                "La data non consente di garantire che le regole siano ancora in vigore.",
+                "Corretto. Una fonte storica non dimostra la validità attuale della procedura.",
+                "I cambiamenti ipotizzati non sono evidenze recuperate."
               ]
             }
           ],
@@ -7840,18 +7840,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione migliora la media ma fallisce casi critici. Come decidere il rilascio?",
+              "q": "Un team modifica il prompt dopo aver visto tutti i risultati del dataset di valutazione. Come verifica che il miglioramento si generalizzi?",
               "options": [
-                "Usa soglie sui casi critici oltre alla media.",
-                "Rilascia perché la media è migliorata.",
-                "Ignora i casi critici se sono poco frequenti."
+                "Usa anche un insieme separato di casi non utilizzati per ottimizzare il prompt.",
+                "Valuta soltanto i casi su cui ha appena corretto il prompt.",
+                "Elimina i casi ancora falliti dal dataset."
               ],
               "answer": 0,
-              "why": "Confronta versioni con un dataset stabile e criteri espliciti.",
+              "why": "Un insieme indipendente riduce il rischio di adattare il prompt soltanto ai casi conosciuti.",
               "feedback": [
-                "Corretto. Confronta versioni con un dataset stabile e criteri espliciti.",
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media.",
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media."
+                "Corretto. Un insieme indipendente riduce il rischio di adattare il prompt soltanto ai casi conosciuti.",
+                "I casi già utilizzati possono sovrastimare il miglioramento.",
+                "Eliminare i fallimenti distorce la valutazione."
               ]
             }
           ],
@@ -7927,18 +7927,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione migliora la media ma fallisce casi critici. Come decidere il rilascio?",
+              "q": "Su 50 risposte valutate, 40 sono supportate da fonti e 10 no. Qual è la percentuale supportata?",
               "options": [
-                "Rilascia perché la media è migliorata.",
-                "Ignora i casi critici se sono poco frequenti.",
-                "Usa soglie sui casi critici oltre alla media."
+                "40%.",
+                "90%.",
+                "80%."
               ],
               "answer": 2,
-              "why": "Confronta versioni con un dataset stabile e criteri espliciti.",
+              "why": "Quaranta diviso cinquanta, moltiplicato per cento, equivale all’80%.",
               "feedback": [
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media.",
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media.",
-                "Corretto. Confronta versioni con un dataset stabile e criteri espliciti."
+                "Quaranta è il numero di risposte supportate, non la percentuale.",
+                "Il 90% corrisponderebbe a 45 risposte supportate su 50.",
+                "Corretto. Quaranta diviso cinquanta, moltiplicato per cento, equivale all’80%."
               ]
             }
           ],
@@ -8014,18 +8014,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione migliora la media ma fallisce casi critici. Come decidere il rilascio?",
+              "q": "Una nuova versione migliora il punteggio medio ma fallisce un caso di sicurezza prima superato. Come decidi il rilascio?",
               "options": [
-                "Rilascia perché la media è migliorata.",
-                "Usa soglie sui casi critici oltre alla media.",
-                "Ignora i casi critici se sono poco frequenti."
+                "Pubblica perché la media è aumentata.",
+                "Analizza la regressione critica e blocca il rilascio se viola un requisito obbligatorio.",
+                "Rimuovi il caso di sicurezza dal confronto."
               ],
               "answer": 1,
-              "why": "Confronta versioni con un dataset stabile e criteri espliciti.",
+              "why": "Un requisito critico può essere bloccante anche quando la media migliora.",
               "feedback": [
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media.",
-                "Corretto. Confronta versioni con un dataset stabile e criteri espliciti.",
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media."
+                "La media può nascondere un peggioramento grave.",
+                "Corretto. Un requisito critico può essere bloccante anche quando la media migliora.",
+                "Rimuovere il caso impedisce di misurare la regressione."
               ]
             }
           ],
@@ -8101,18 +8101,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione migliora la media ma fallisce casi critici. Come decidere il rilascio?",
+              "q": "Il servizio AI non è disponibile mentre l’utente cerca una fattura. Quale fallback mantiene utile l’app?",
               "options": [
-                "Usa soglie sui casi critici oltre alla media.",
-                "Rilascia perché la media è migliorata.",
-                "Ignora i casi critici se sono poco frequenti."
+                "Offri la ricerca tradizionale autorizzata e segnala che il riepilogo AI non è disponibile.",
+                "Mostra un riepilogo inventato per non interrompere il flusso.",
+                "Blocca anche la ricerca tradizionale senza spiegazioni."
               ],
               "answer": 0,
-              "why": "Confronta versioni con un dataset stabile e criteri espliciti.",
+              "why": "Un percorso alternativo può mantenere la funzione essenziale senza simulare risultati AI.",
               "feedback": [
-                "Corretto. Confronta versioni con un dataset stabile e criteri espliciti.",
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media.",
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media."
+                "Corretto. Un percorso alternativo può mantenere la funzione essenziale senza simulare risultati AI.",
+                "Un riepilogo inventato può indurre decisioni errate.",
+                "Bloccare funzioni indipendenti riduce inutilmente la disponibilità."
               ]
             }
           ],
@@ -8188,18 +8188,18 @@
           },
           "advancedCheck": [
             {
-              "q": "La nuova versione migliora la media ma fallisce casi critici. Come decidere il rilascio?",
+              "q": "Un report indica accuratezza del 95% su 20 casi ma omette l’unico errore critico. Come lo rendi utile per decidere?",
               "options": [
-                "Rilascia perché la media è migliorata.",
-                "Ignora i casi critici se sono poco frequenti.",
-                "Usa soglie sui casi critici oltre alla media."
+                "Riporta soltanto il 95% perché sintetizza tutti gli esiti.",
+                "Aumenta il campione dichiarato senza eseguire altri test.",
+                "Descrivi campione, metodo, errore critico, limiti e criteri di rilascio."
               ],
               "answer": 2,
-              "why": "Confronta versioni con un dataset stabile e criteri espliciti.",
+              "why": "La decisione richiede evidenze verificabili e visibilità degli errori rilevanti.",
               "feedback": [
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media.",
-                "Rivedi il caso: Confronta versioni con un dataset stabile e criteri espliciti. La soluzione attesa è: Usa soglie sui casi critici oltre alla media.",
-                "Corretto. Confronta versioni con un dataset stabile e criteri espliciti."
+                "La percentuale aggregata nasconde la gravità dell’errore.",
+                "Dichiarare test non eseguiti rende il report inattendibile.",
+                "Corretto. La decisione richiede evidenze verificabili e visibilità degli errori rilevanti."
               ]
             }
           ],
