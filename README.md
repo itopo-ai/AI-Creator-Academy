@@ -112,3 +112,7 @@ Fase 2D blocco 3: Business 25–36, 36 sessioni, 72 quiz principali, 216 feedbac
 
 ### Fase 2D conclusa — audit documentale Academy
 Fase 2D blocco 4 concluso: Business 37–48, 36 sessioni, 72 quiz, 216 feedback, 12 quiz esercizio; 36/72 feedback tripli distinti (36 base, 0 avanzati), posizioni 18/24/30, 36/36 coppie stessa posizione; 36 ore nominali non validate. Tutte da integrare; 31 comuni, 5 miste, 0 propedeutiche pure; Business totale 115 comuni, 29 miste. Proposta +24 comuni (66,7% blocco); Business +90, Creator +66, totale preliminare 420 sessioni (+59,1%), inclusa quota propedeutica preliminare del primo blocco Business, da separare senza doppio conteggio. Audit documentale Academy 264/264 sessioni, 528/528 quiz, 1584/1584 feedback; non equivale a validazione didattica. Prossimo 2E verifica risorse e parità, poi standard fase 3 e prototipi fase 4 con approvazione prima di modifiche applicative.
+
+
+### Fase 2E — Creator L1
+2E blocco 1 Creator L1: verifica documentale online 25/11/2026 su fonti ufficiali, matrice preliminare per 30 sessioni originali e 12 integrazioni proposte. Risorse gratuite documentate, equivalenza pratica non collaudata; quote AI, hardware, accessibilità, licenze asset, accesso autenticato e link individuali residui aperti. Badge OpenAI non certificazione; Adobe Firefly certificazione facoltativa specifica. Nessuna modifica applicativa. Prossimo completamento lacune L1 prima di L2.
