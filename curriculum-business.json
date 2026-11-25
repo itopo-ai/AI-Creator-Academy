@@ -153,18 +153,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «AI foundations · studio», quale attività rispetta il principio studiato?",
+            "q": "Quale misura rappresenta la produttività effettiva?",
             "options": [
-              "20 minuti, contando una sola parte del risparmio.",
-              "120 minuti, pari al tempo iniziale.",
-              "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana."
+              "Solo tempo di generazione.",
+              "Numero di risposte generate.",
+              "Tempo totale per ottenere un risultato verificato."
             ],
             "answer": 2,
-            "why": "AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
+            "why": "La revisione fa parte del lavoro.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-              "Corretto. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana."
+              "La generazione non include la revisione.",
+              "Il volume non misura il tempo o la qualità.",
+              "Corretto. La revisione fa parte del lavoro."
             ]
           },
           "masterclass": {
@@ -247,18 +247,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «AI foundations · approfondimento», quale attività rispetta il principio studiato?",
+            "q": "Se il lavoro passa da 120 a 80 minuti, quale risparmio percentuale ottieni?",
             "options": [
-              "20 minuti, contando una sola parte del risparmio.",
-              "120 minuti, pari al tempo iniziale.",
-              "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana."
+              "50%.",
+              "66,7% circa.",
+              "33,3% circa."
             ],
             "answer": 2,
-            "why": "AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
+            "why": "40 diviso 120 equivale a circa 33,3%.",
             "feedback": [
-              "Non è l'approccio previsto per questo laboratorio. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-              "Corretto. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana."
+              "40 diviso 80 usa il denominatore sbagliato.",
+              "80 diviso 120 misura il tempo residuo.",
+              "Corretto. 40 diviso 120 equivale a circa 33,3%."
             ]
           },
           "masterclass": {
@@ -328,18 +328,18 @@
           "review": "Quale evidenza giustifica la decisione e quale rischio resta?",
           "solution": "Documenta fonte, periodo, ipotesi, controllo indipendente e responsabile della decisione.",
           "knowledgeCheck": {
-            "q": "Nel laboratorio «AI foundations · pratica», quale attività rispetta il principio studiato?",
+            "q": "Quali dati registri in un pilota di produttività?",
             "options": [
-              "Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-              "20 minuti, contando una sola parte del risparmio.",
-              "120 minuti, pari al tempo iniziale."
+              "Tempo iniziale, tempo con AI, revisione e qualità.",
+              "Solo il tempo con AI.",
+              "Solo il numero di richieste completate."
             ],
             "answer": 0,
-            "why": "AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
+            "why": "Servono confronto e controllo della qualità.",
             "feedback": [
-              "Corretto. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana.",
-              "Non è l'approccio previsto per questo laboratorio. AI foundations: collega lo strumento a una decisione aziendale misurabile. Misura 20 richieste da 6 minuti: baseline 120 minuti; confronta il tempo totale dopo revisione umana."
+              "Corretto. Servono confronto e controllo della qualità.",
+              "Senza baseline manca il confronto.",
+              "Il conteggio non misura risparmio o qualità."
             ]
           },
           "masterclass": {
