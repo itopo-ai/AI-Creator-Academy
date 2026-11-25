@@ -34,12 +34,12 @@ Linguaggio accessibile da zero, progressione graduale, domande concrete e contes
 | Quiz base Creator settimane 7–12 | 30 modificati | Confronto JSON sviluppo/RC1 |
 | Quiz base Creator settimane 13–18 | 30/30 revisionati e riletti | Commit e69116fd4dbccad12928c6f05ad5253d6121e0fb |
 | Quiz base Creator settimane 19–24 | 30/30 revisionati e riletti | Commit a84938c6230543edf7002b170c1ebe5bb8406a56 |
-| Quiz base Business | 144/144 già modificati rispetto a RC1; 90/144 perfezionati in questa fase | Audit e commit 8d69001c19a12aa36ab7c8d2d669b02b24e96e86 |
+| Quiz base Business | 144/144 già modificati rispetto a RC1; 108/144 perfezionati in questa fase | Audit e commit 8d69001c19a12aa36ab7c8d2d669b02b24e96e86 |
 | Revisione qualitativa delle lezioni | Da completare | Screenshot |
 | Feedback individuali per risposte errate | Da completare | Screenshot; non assumere completati |
 | Risorse esterne | Incompleta | Ultimo dato storico 6/30 indirizzi, da riconfermare |
 
-Avanzamento quiz Creator base verificato: 120/120 (100%). Copertura delle modifiche/documentazione: 528/528 (264 avanzati documentati, 120 base Creator e 144 base Business modificati rispetto a RC1); perfezionamento secondo gli standard correnti: Business 90/144, 54 ancora con feedback non distinti; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
+Avanzamento quiz Creator base verificato: 120/120 (100%). Copertura delle modifiche/documentazione: 528/528 (264 avanzati documentati, 120 base Creator e 144 base Business modificati rispetto a RC1); perfezionamento secondo gli standard correnti: Business 108/144, 36 ancora con feedback non distinti; non equivale a qualità certificata né avanzamento dell'intero progetto. Il confronto ha trovato 60 oggetti knowledgeCheck distinti, non costituisce ancora verifica di unicità del solo testo delle domande, correttezza didattica o indici.
 
 ## Collaudo e criteri di rilascio
 Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS, dizionario e ricerca, calcolo avanzamento, validazione strutturale backup, compatibilità strutturale 6.5.1, allineamento versione/cache, correzioni preventive UI. Non equivalgono a test end-to-end.
@@ -54,7 +54,7 @@ Controlli storicamente dichiarati superati: integrità lezioni/quiz, sintassi JS
 - [ ] Approvazione utente prima del rilascio.
 
 ## Prossimo intervento
-Business settimane 31–36: perfezionare 18 quiz base, preservando indici e altri campi; obiettivo 108/144. Poi feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
+Business settimane 37–42: perfezionare 18 quiz base, preservando indici e altri campi; obiettivo 126/144. Poi feedback, lezioni, link e collaudo. Sequenza successiva da confermare se emergono nuove dipendenze.
 
 ## Registro cronologico
 - 25/11/2026: recuperata continuità della chat precedente tramite screenshot e confronto GitHub. Branch sviluppo risultava 27 commit avanti a main e divergente da RC1 (10 avanti, 1 indietro). Main osservato: cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 osservata: e4ee85918cadccd38499772827e663fef0c34fd5. Verificate modifiche knowledgeCheck per tutte le 60 sessioni Creator settimane 1–12, nessuna per 13–24 rispetto a RC1. Nessuna modifica applicativa in questa fase.
@@ -88,3 +88,6 @@ Commit curriculum: 02fa8c50453a357da4d535340586ef39db1fcd41. Perfezionati 18 qui
 
 ### Aggiornamento 25/11/2026 — Business settimane 25–30
 Commit curriculum: 66fd844a41c7d3655cba2543d8cdd2c87237a821. Perfezionati 18 quiz base su Excel, riconciliazione, Power BI, ETL e modellazione. Verificati 144 testi distinti, 18 sole sessioni modificate, indici delle risposte e altri campi invariati, tre opzioni e tre feedback distinti per ogni nuovo quiz; rilettura integrale JSON riuscita. Business 90/144 (62,5%); 54 feedback ancora non distinti. Nessun test runtime o pubblicazione. Prossimo blocco settimane 31–36: DAX, analisi, visualizzazione, design, pubblicazione e PL-300.
+
+### Aggiornamento 25/11/2026 — Business settimane 31–36
+Commit curriculum: 0dabd422f4923b5d50822051fdd937a16b1f4f70. Perfezionati 18 quiz base su DAX, marginalità, segmentazione, budget, liquidità, permessi e progetto BI. Verificati 144 testi distinti, 18 sole sessioni modificate, indici delle risposte e altri campi invariati, tre opzioni e tre feedback distinti per ogni nuovo quiz; rilettura integrale JSON riuscita. Business 108/144 (75%); 36 feedback ancora non distinti. Nessun test runtime o pubblicazione; non verificato il programma ufficiale PL-300. Prossimo blocco settimane 37–42: Make e agenti AI.
