@@ -1264,6 +1264,59 @@ L'utente ha approvato integralmente la proposta originale illustrata nelle immag
 Checkpoint iniziale verificato adc44fbe6eb5834d1dd7a1fc6df60a6471a0def9; main cd19c06596a16fc8fc091a6ea7fd8fb7b00275b0; RC1 e4ee85918cadccd38499772827e663fef0c34fd5. Confronto con 68e427bc3b1dda934749418304928fb4a25e191f: 51 commit, solo README.md e ROADMAP.md.
 Coerenza: AELS/ALWS profondità senza carico artificiale; AELS/AAS prove sulle competenze insegnate; ADS/AAS esoneri non applicativi; ADS/ACS nessun riconoscimento senza evidenze; AES/AAS identiche soglie gratuito/premium; AES/ALWS sostenibilità; AAS/ACS conseguimento verificato; AVS/AMVP simulazioni non sostitutive dei collaudi; AVS/ACS nessuna emissione fittizia.
 C01 nessun acquisto obbligatorio, AES prevale sulle indicazioni storiche; C02 rubrica AAS 0–4 sostituisce 0–3; C03 preservare progressi senza attribuire nuove competenze; C04 Professional/Complete differiscono nella propedeutica, non nel livello professionale finale; C05 ore nominali non ore frequentate; C06 Claude AI esterna, non commissione umana indipendente; C07 simulazione non dimostra apprendimento umano; C08 Mobile First iPhone, dichiarare preventivamente laboratori che richiedono computer.
-Approvata distinzione G12-S simulazione e G12-E efficacia empirica non verificata; nessuna chiusura gate. Approvato registro consolidato R01–R12 (testo puntuale da recuperare). Piano approvato 4A Creator, 4B Business, 4C UX, 4D collaudi/parità, 4E simulazioni, 4F Claude, 4G correzioni, 4H dossier di accettazione. Fase 4 non autorizzata.
+Approvata distinzione G12-S simulazione e G12-E efficacia empirica non verificata; nessuna chiusura gate. Approvato registro consolidato R01–R12 (testo puntuale recuperato nell'integrazione seguente). Piano approvato 4A Creator, 4B Business, 4C UX, 4D collaudi/parità, 4E simulazioni, 4F Claude, 4G correzioni, 4H dossier di accettazione. Fase 4 non autorizzata.
 CR-001 revisione documentale architettura prima della Fase 4, E01 priorità massima, E02–E07 alta; CR-002 prototipi durante Fase 4, CR-003+ per blocchi durante Fase 5 quando necessario, CR-FINAL complessiva durante Fase 6. Simulazioni studenti con sessioni campione complete in Fase 4. Nessun rapporto Claude ricevuto. Nessun test runtime nuovo.
 420 sessioni mappate, 0 accettate AVS; 0/12 famiglie gate chiuse; 0/2 prototipi collaudati; 7/7 standard e AMVP approvati. 108 quiz avanzati Business e 324 feedback sospesi. Preservare tutte le regole 1–3, versioni, ID, indici, progressi, backup, ripristino, migrazione, identità grafica; nessun merge, ZIP distributivo, rilascio o modifica applicativa. Prossimo: completare recupero delle parti mancanti, predisporre dossier CR-001 e prompt, analizzare rapporti effettivi e proporre correzioni, consolidare solo quanto autorizzato; approvazione esplicita prima della Fase 4.
+
+### Integrazione documentale 3I — immagini successivamente ricevute
+
+Registro consolidato dei requisiti: dodici gruppi collegati alla futura matrice ARTM.
+
+| ID | Requisito essenziale | Standard |
+|---|---|---|
+| R01 | Qualità e profondità didattica | AELS |
+| R02 | Applicazione pratica e autonomia | AELS, AAS |
+| R03 | Valutazione verificabile | AAS |
+| R04 | Diagnostica ed esoneri corretti | ADS |
+| R05 | Accessibilità economica | AES |
+| R06 | Equivalenza delle competenze | AES, AAS |
+| R07 | Sostenibilità del carico | ALWS |
+| R08 | Risorse accessibili e legalmente utilizzabili | AES |
+| R09 | Credenziali e portfolio fondati su evidenze | ACS |
+| R10 | Sicurezza e privacy | AVS |
+| R11 | Compatibilità e non regressione | AVS |
+| R12 | Validazione e revisione critica | AVS, AMVP |
+
+Questi identificativi sono una proposta organizzativa della Fase 3I. Non sostituiscono gli identificativi originali delle sessioni.
+
+Registro generale dei gate (0/12 chiusi): G01 Qualità didattica; G02 Riproducibilità pratica; G03 Valutazione; G04 Diagnostica; G05 Accessibilità economica; G06 Equivalenza formativa; G07 Sostenibilità temporale; G08 Risorse e licenze; G09 Credenziali e portfolio; G10 Sicurezza e privacy; G11 Non regressione; G12 Efficacia formativa. Tutti aperti. Tutte le anomalie specifiche precedentemente registrate rimangono aperte. Le dodici famiglie non rappresentano il numero totale delle singole criticità.
+
+| Sottogate | Finalità | Stato |
+|---|---|---|
+| G12-S | Efficacia didattica simulata AMVP | Aperto |
+| G12-E | Efficacia empirica presso studenti reali | Non verificata |
+
+Prima di un eventuale rilascio stabilire quali affermazioni sulla qualità siano sostenibili in assenza di G12-E. Nessuna chiusura automatica né deroga ai criteri AVS. Questione da sottoporre a CR-001.
+
+### Piano operativo approvato della Fase 4 (non autorizzata all'avvio)
+
+La Fase 4 sarà il passaggio dalla progettazione teorica alla dimostrazione concreta della qualità del modello.
+
+- 4A — Prototipo didattico Creator: AI-Powered Data Application: teoria, codice, dati, integrazione AI e test.
+- 4B — Prototipo didattico Business: AI Pilot & ROI Decision System: workflow, dati, automazione, analisi economica e governance.
+- 4C — Prototipi dell'esperienza formativa: Home, Il mio percorso, sessione, valutazione, portfolio e traguardi, rispettando l'identità grafica approvata.
+- 4D — Collaudi operativi e parità: esecuzioni reali, gratuito/premium, requisiti hardware, quote e riproducibilità.
+- 4E — Simulazioni didattiche AMVP: studenti virtuali, diagnostica, studio, errori, recupero, autonomia e trasferibilità.
+- 4F — Revisione specialistica Claude: revisione dei prototipi, dei risultati e delle criticità emerse.
+- 4G — Correzioni e nuovi collaudi: risoluzione delle anomalie bloccanti e verifica delle modifiche.
+- 4H — Dossier di accettazione: presentazione dei risultati e richiesta di autorizzazione per la Fase 5.
+
+In applicazione della Regola 3, le revisioni AMVP e Claude possono essere anticipate rispetto alla sequenza indicata, quando opportuno.
+
+11.1 Creator: concept illustrativo, non prototipo già realizzato. Creator AI Data Studio; Dashboard, Dataset, AI analysis, Tests, Export; Dataset analysis / Verified insights / AI Output. Output atteso leggibile: applicazione funzionante, codice sorgente, integrazione AI reale, test; seguito coperto nell'immagine, non trascritto.
+
+11.2 Business: Business Transformation Lab; baseline 100 h, AI + review 70 h, risparmio 30 h; ROI scenarios Low/Base/High; Pilot validation: Holdout dataset, Output quality, Risk & governance, Go / No-go. Output atteso: workflow AI realmente funzionante in sandbox, baseline, holdout, test negativi, ROI/TCO, governance e decisione motivata. Concept illustrativo con dati fittizi, non risultati sperimentali.
+
+12. Regola permanente 3: prima revisione Claude adesso, al termine della progettazione e prima dell'avvio della Fase 4.
+
+Nota di provenienza: recuperati R01–R12, gate, sottogate, piano 4A–4H e parti leggibili dei concept dalle sei immagini successivamente trasmesse (una compensativa). Non si attesta una trascrizione integrale delle parti coperte o fuori inquadratura, né si presume recuperato il file IMG_9497 originale. Il consolidamento delle decisioni leggibili è autorizzato; lacune testuali residue da dichiarare a CR-001. Nessuna modifica delle fasi precedenti, nessun gate chiuso, Fase 4 non autorizzata.
