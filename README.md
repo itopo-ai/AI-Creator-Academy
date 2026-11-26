@@ -180,4 +180,4 @@ AMVP Academy Multi-AI Validation Protocol estensione AVS, sostituisce punto 16 e
 
 
 ## Fase 3I — approvata (26/11/2026)
-Approvazione utente integrale 9/9 sottofasi della Fase 3; consolidamento documentale parziale per lacuna immagini IMG_9493–9499 (registro R01–R12 da recuperare fedelmente). Vedi ROADMAP.md, sezione Fase 3I. CR-001 documentale prima della Fase 4, non eseguita. Fase 4 non autorizzata. 420 mappate, 0 accettate, 0/12 gate chiusi, 0/2 prototipi collaudati. Nessuna modifica applicativa, merge, ZIP o rilascio.
+Approvazione utente integrale 9/9 sottofasi della Fase 3; consolidamento delle decisioni leggibili completato: registro R01–R12 recuperato 12/12, gate e sottogate G12-S/G12-E, piano 4A–4H e concept leggibili integrati in ROADMAP.md. Trascrizione integrale delle parti coperte o fuori inquadratura non attestata; IMG_9497 originale non verificato. Vedi ROADMAP.md, sezione Fase 3I. CR-001 documentale prima della Fase 4, non eseguita. Fase 4 non autorizzata. 420 mappate, 0 accettate, 0/12 gate chiusi, 0/2 prototipi collaudati. Nessuna modifica applicativa, merge, ZIP o rilascio.
